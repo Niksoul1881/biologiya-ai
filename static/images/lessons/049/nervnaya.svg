@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" font-family="Arial, Helvetica, sans-serif">
+<rect width="960" height="560" fill="#ffffff"/>
+<text x="480" y="30" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2937">Три основных типа нервной системы животных</text>
+<rect x="12" y="48" width="306" height="490" rx="14" fill="#f9fafb" stroke="#e5e7eb"/>
+<rect x="327" y="48" width="306" height="490" rx="14" fill="#f9fafb" stroke="#e5e7eb"/>
+<rect x="642" y="48" width="306" height="490" rx="14" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="165" y="78" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">Сетчатая (диффузная)</text>
+<path d="M130,130 L125,380 Q165,405 205,380 L200,130 Z" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+<path d="M145.0,132 Q126.02885682970026,100.0 87.05771365940052,100.0" stroke="#15803d" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M155.0,132 Q142.5,89.01923788646684 120.0,78.03847577293368" stroke="#15803d" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M175.0,132 Q187.5,89.01923788646684 210.0,78.03847577293368" stroke="#15803d" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M185.0,132 Q203.97114317029974,100.0 242.94228634059948,100.0" stroke="#15803d" stroke-width="7" fill="none" stroke-linecap="round"/>
+<line x1="138" y1="144" x2="167" y2="143" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="138" y1="144" x2="134" y2="174" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="138" y1="144" x2="158" y2="173" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="167" y1="143" x2="190" y2="148" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="167" y1="143" x2="182" y2="167" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="190" y1="148" x2="182" y2="167" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="190" y1="148" x2="158" y2="173" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="134" y1="174" x2="158" y2="173" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="134" y1="174" x2="140" y2="203" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="158" y1="173" x2="159" y2="194" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="158" y1="173" x2="182" y2="167" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="140" y1="203" x2="142" y2="220" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="140" y1="203" x2="159" y2="194" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="159" y1="194" x2="173" y2="215" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="191" y1="205" x2="195" y2="219" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="191" y1="205" x2="173" y2="215" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="191" y1="205" x2="159" y2="194" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="142" y1="220" x2="135" y2="240" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="142" y1="220" x2="173" y2="215" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="173" y1="215" x2="195" y2="219" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="195" y1="219" x2="184" y2="247" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="135" y1="240" x2="162" y2="251" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="135" y1="240" x2="143" y2="268" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="162" y1="251" x2="166" y2="263" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="162" y1="251" x2="184" y2="247" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="162" y1="251" x2="182" y2="265" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="184" y1="247" x2="182" y2="265" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="184" y1="247" x2="166" y2="263" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="143" y1="268" x2="166" y2="263" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="143" y1="268" x2="144" y2="293" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="143" y1="268" x2="162" y2="251" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="166" y1="263" x2="182" y2="265" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="144" y1="293" x2="162" y2="295" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="144" y1="293" x2="146" y2="321" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="162" y1="295" x2="161" y2="319" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="162" y1="295" x2="188" y2="291" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="188" y1="291" x2="182" y2="265" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="188" y1="291" x2="189" y2="324" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="146" y1="321" x2="161" y2="319" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="146" y1="321" x2="145" y2="339" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="161" y1="319" x2="173" y2="336" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="189" y1="324" x2="173" y2="336" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="189" y1="324" x2="188" y2="346" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="189" y1="324" x2="161" y2="319" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="145" y1="339" x2="161" y2="319" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="145" y1="339" x2="173" y2="336" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="173" y1="336" x2="188" y2="346" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="188" y1="346" x2="193" y2="367" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="135" y1="366" x2="158" y2="369" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="135" y1="366" x2="145" y2="339" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="135" y1="366" x2="146" y2="321" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="158" y1="369" x2="145" y2="339" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="158" y1="369" x2="193" y2="367" stroke="#ca8a04" stroke-width="1.6"/>
+<line x1="193" y1="367" x2="173" y2="336" stroke="#ca8a04" stroke-width="1.6"/>
+<circle cx="138" cy="144" r="4" fill="#ca8a04"/>
+<circle cx="167" cy="143" r="4" fill="#ca8a04"/>
+<circle cx="190" cy="148" r="4" fill="#ca8a04"/>
+<circle cx="134" cy="174" r="4" fill="#ca8a04"/>
+<circle cx="158" cy="173" r="4" fill="#ca8a04"/>
+<circle cx="182" cy="167" r="4" fill="#ca8a04"/>
+<circle cx="140" cy="203" r="4" fill="#ca8a04"/>
+<circle cx="159" cy="194" r="4" fill="#ca8a04"/>
+<circle cx="191" cy="205" r="4" fill="#ca8a04"/>
+<circle cx="142" cy="220" r="4" fill="#ca8a04"/>
+<circle cx="173" cy="215" r="4" fill="#ca8a04"/>
+<circle cx="195" cy="219" r="4" fill="#ca8a04"/>
+<circle cx="135" cy="240" r="4" fill="#ca8a04"/>
+<circle cx="162" cy="251" r="4" fill="#ca8a04"/>
+<circle cx="184" cy="247" r="4" fill="#ca8a04"/>
+<circle cx="143" cy="268" r="4" fill="#ca8a04"/>
+<circle cx="166" cy="263" r="4" fill="#ca8a04"/>
+<circle cx="182" cy="265" r="4" fill="#ca8a04"/>
+<circle cx="144" cy="293" r="4" fill="#ca8a04"/>
+<circle cx="162" cy="295" r="4" fill="#ca8a04"/>
+<circle cx="188" cy="291" r="4" fill="#ca8a04"/>
+<circle cx="146" cy="321" r="4" fill="#ca8a04"/>
+<circle cx="161" cy="319" r="4" fill="#ca8a04"/>
+<circle cx="189" cy="324" r="4" fill="#ca8a04"/>
+<circle cx="145" cy="339" r="4" fill="#ca8a04"/>
+<circle cx="173" cy="336" r="4" fill="#ca8a04"/>
+<circle cx="188" cy="346" r="4" fill="#ca8a04"/>
+<circle cx="135" cy="366" r="4" fill="#ca8a04"/>
+<circle cx="158" cy="369" r="4" fill="#ca8a04"/>
+<circle cx="193" cy="367" r="4" fill="#ca8a04"/>
+<text x="165" y="440" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">гидра, медузы</text>
+<text x="165" y="460" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">нервные клетки рассеяны по телу</text>
+<text x="165" y="480" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">и связаны в сеть; центра нет —</text>
+<text x="165" y="500" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">раздражение расходится во все</text>
+<text x="165" y="520" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">стороны, реакция всем телом</text>
+<text x="480" y="78" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">Узловая (ганглиозная)</text>
+<rect x="435" y="105" width="90" height="290" rx="45" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+<line x1="435" y1="137" x2="525" y2="137" stroke="#fca5a5"/>
+<line x1="435" y1="169" x2="525" y2="169" stroke="#fca5a5"/>
+<line x1="435" y1="201" x2="525" y2="201" stroke="#fca5a5"/>
+<line x1="435" y1="233" x2="525" y2="233" stroke="#fca5a5"/>
+<line x1="435" y1="265" x2="525" y2="265" stroke="#fca5a5"/>
+<line x1="435" y1="297" x2="525" y2="297" stroke="#fca5a5"/>
+<line x1="435" y1="329" x2="525" y2="329" stroke="#fca5a5"/>
+<line x1="435" y1="361" x2="525" y2="361" stroke="#fca5a5"/>
+<ellipse cx="468" cy="128" rx="10" ry="8" fill="#ca8a04"/><ellipse cx="492" cy="128" rx="10" ry="8" fill="#ca8a04"/>
+<path d="M466,134 Q458,150 474,162 M494,134 Q502,150 486,162" stroke="#ca8a04" stroke-width="3" fill="none"/>
+<line x1="480" y1="162" x2="480" y2="362" stroke="#ca8a04" stroke-width="3"/>
+<ellipse cx="480" cy="166" rx="9" ry="6" fill="#ca8a04"/>
+<line x1="471" y1="166" x2="442" y2="172" stroke="#ca8a04" stroke-width="1.5"/><line x1="489" y1="166" x2="518" y2="172" stroke="#ca8a04" stroke-width="1.5"/>
+<ellipse cx="480" cy="194" rx="9" ry="6" fill="#ca8a04"/>
+<line x1="471" y1="194" x2="442" y2="200" stroke="#ca8a04" stroke-width="1.5"/><line x1="489" y1="194" x2="518" y2="200" stroke="#ca8a04" stroke-width="1.5"/>
+<ellipse cx="480" cy="222" rx="9" ry="6" fill="#ca8a04"/>
+<line x1="471" y1="222" x2="442" y2="228" stroke="#ca8a04" stroke-width="1.5"/><line x1="489" y1="222" x2="518" y2="228" stroke="#ca8a04" stroke-width="1.5"/>
+<ellipse cx="480" cy="250" rx="9" ry="6" fill="#ca8a04"/>
+<line x1="471" y1="250" x2="442" y2="256" stroke="#ca8a04" stroke-width="1.5"/><line x1="489" y1="250" x2="518" y2="256" stroke="#ca8a04" stroke-width="1.5"/>
+<ellipse cx="480" cy="278" rx="9" ry="6" fill="#ca8a04"/>
+<line x1="471" y1="278" x2="442" y2="284" stroke="#ca8a04" stroke-width="1.5"/><line x1="489" y1="278" x2="518" y2="284" stroke="#ca8a04" stroke-width="1.5"/>
+<ellipse cx="480" cy="306" rx="9" ry="6" fill="#ca8a04"/>
+<line x1="471" y1="306" x2="442" y2="312" stroke="#ca8a04" stroke-width="1.5"/><line x1="489" y1="306" x2="518" y2="312" stroke="#ca8a04" stroke-width="1.5"/>
+<ellipse cx="480" cy="334" rx="9" ry="6" fill="#ca8a04"/>
+<line x1="471" y1="334" x2="442" y2="340" stroke="#ca8a04" stroke-width="1.5"/><line x1="489" y1="334" x2="518" y2="340" stroke="#ca8a04" stroke-width="1.5"/>
+<ellipse cx="480" cy="362" rx="9" ry="6" fill="#ca8a04"/>
+<line x1="471" y1="362" x2="442" y2="368" stroke="#ca8a04" stroke-width="1.5"/><line x1="489" y1="362" x2="518" y2="368" stroke="#ca8a04" stroke-width="1.5"/>
+<text x="540" y="125" text-anchor="start" font-size="13" font-weight="normal" fill="#111827">надглоточный</text><text x="540" y="141" text-anchor="start" font-size="13" font-weight="normal" fill="#111827">узел («мозг»)</text>
+<line x1="537" y1="130" x2="504" y2="128" stroke="#6b7280"/>
+<text x="540" y="260" text-anchor="start" font-size="13" font-weight="normal" fill="#111827">брюшная</text><text x="540" y="276" text-anchor="start" font-size="13" font-weight="normal" fill="#111827">нервная</text><text x="540" y="292" text-anchor="start" font-size="13" font-weight="normal" fill="#111827">цепочка</text>
+<line x1="537" y1="270" x2="490" y2="278" stroke="#6b7280"/>
+<text x="480" y="440" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">кольчатые черви, членистоногие</text>
+<text x="480" y="460" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">нервные клетки собраны в узлы —</text>
+<text x="480" y="480" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">ганглии; головной узел управляет</text>
+<text x="480" y="500" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">остальными; цепочка лежит</text>
+<text x="480" y="520" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">на брюшной стороне</text>
+<text x="795" y="78" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">Трубчатая</text>
+<ellipse cx="795" cy="150" rx="52" ry="48" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<rect x="745" y="190" width="100" height="205" rx="40" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<path d="M765,150 Q765,115 795,112 Q829,115 827,150 Q823,175 803,180 L787,180 Q767,175 765,150 Z" fill="#ca8a04"/>
+<rect x="789" y="178" width="12" height="200" rx="6" fill="#ca8a04"/>
+<line x1="789" y1="205" x2="751" y2="215" stroke="#ca8a04" stroke-width="2"/><line x1="801" y1="205" x2="839" y2="215" stroke="#ca8a04" stroke-width="2"/>
+<line x1="789" y1="231" x2="751" y2="241" stroke="#ca8a04" stroke-width="2"/><line x1="801" y1="231" x2="839" y2="241" stroke="#ca8a04" stroke-width="2"/>
+<line x1="789" y1="257" x2="751" y2="267" stroke="#ca8a04" stroke-width="2"/><line x1="801" y1="257" x2="839" y2="267" stroke="#ca8a04" stroke-width="2"/>
+<line x1="789" y1="283" x2="751" y2="293" stroke="#ca8a04" stroke-width="2"/><line x1="801" y1="283" x2="839" y2="293" stroke="#ca8a04" stroke-width="2"/>
+<line x1="789" y1="309" x2="751" y2="319" stroke="#ca8a04" stroke-width="2"/><line x1="801" y1="309" x2="839" y2="319" stroke="#ca8a04" stroke-width="2"/>
+<line x1="789" y1="335" x2="751" y2="345" stroke="#ca8a04" stroke-width="2"/><line x1="801" y1="335" x2="839" y2="345" stroke="#ca8a04" stroke-width="2"/>
+<line x1="789" y1="361" x2="751" y2="371" stroke="#ca8a04" stroke-width="2"/><line x1="801" y1="361" x2="839" y2="371" stroke="#ca8a04" stroke-width="2"/>
+<text x="855" y="118" text-anchor="start" font-size="13" font-weight="normal" fill="#111827">головной</text><text x="855" y="134" text-anchor="start" font-size="13" font-weight="normal" fill="#111827">мозг</text>
+<line x1="852" y1="124" x2="820" y2="135" stroke="#6b7280"/>
+<text x="855" y="280" text-anchor="start" font-size="13" font-weight="normal" fill="#111827">спинной</text><text x="855" y="296" text-anchor="start" font-size="13" font-weight="normal" fill="#111827">мозг</text>
+<line x1="852" y1="286" x2="803" y2="290" stroke="#6b7280"/>
+<text x="795" y="440" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">хордовые (позвоночные)</text>
+<text x="795" y="460" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">нервная трубка на спинной</text>
+<text x="795" y="480" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">стороне: головной и спинной мозг,</text>
+<text x="795" y="500" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">от них отходят нервы;</text>
+<text x="795" y="520" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">мозг сложнее всего у зверей</text>
+</svg>
