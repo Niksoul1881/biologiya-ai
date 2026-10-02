@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker>
+  </defs>
+  <rect width="900" height="400" fill="#ffffff"/>
+  <text x="450" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Лишайник: союз гриба и водоросли</text>
+  <!-- гриб -->
+  <rect x="40" y="80" width="260" height="250" rx="20" fill="#f5f5f4" stroke="#78716c" stroke-width="3"/>
+  <text x="170" y="115" font-size="21" font-weight="bold" text-anchor="middle" fill="#44403c">Гриб</text>
+  <g stroke="#78716c" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M80,160 C110,150 120,190 150,180 C180,170 190,210 220,200 C240,193 250,210 265,205"/>
+    <path d="M90,210 C120,230 140,200 170,225 C200,250 220,220 255,240"/>
+    <path d="M150,180 C150,210 140,240 150,270"/>
+  </g>
+  <text x="170" y="293" font-size="15" text-anchor="middle" fill="#1f2937">строит тело из гиф,</text>
+  <text x="170" y="312" font-size="15" text-anchor="middle" fill="#1f2937">удерживает воду, защищает</text>
+  <!-- водоросль -->
+  <rect x="600" y="80" width="260" height="250" rx="20" fill="#f0fdf4" stroke="#16a34a" stroke-width="3"/>
+  <text x="730" y="115" font-size="21" font-weight="bold" text-anchor="middle" fill="#166534">Водоросль</text>
+  <g fill="#4ade80" stroke="#15803d" stroke-width="2.5">
+    <circle cx="690" cy="180" r="22"/><circle cx="745" cy="165" r="18"/><circle cx="770" cy="215" r="22"/><circle cx="710" cy="235" r="18"/>
+  </g>
+  <g fill="#166534"><circle cx="690" cy="180" r="6"/><circle cx="745" cy="165" r="5"/><circle cx="770" cy="215" r="6"/><circle cx="710" cy="235" r="5"/></g>
+  <text x="730" y="293" font-size="15" text-anchor="middle" fill="#1f2937">на свету делает</text>
+  <text x="730" y="312" font-size="15" text-anchor="middle" fill="#1f2937">органические вещества</text>
+  <!-- солнце -->
+  <circle cx="840" cy="62" r="22" fill="#fde047" stroke="#ca8a04" stroke-width="3"/>
+  <!-- стрелки -->
+  <line x1="595" y1="172" x2="310" y2="172" stroke="#15803d" stroke-width="5" marker-end="url(#ag)"/>
+  <text x="452" y="158" font-size="17" font-weight="bold" text-anchor="middle" fill="#15803d">сахара (органические вещества)</text>
+  <line x1="305" y1="212" x2="590" y2="212" stroke="#1d4ed8" stroke-width="5" marker-end="url(#ab)"/>
+  <text x="452" y="245" font-size="17" font-weight="bold" text-anchor="middle" fill="#1d4ed8">вода и минеральные вещества</text>
+  <text x="452" y="268" font-size="17" font-weight="bold" text-anchor="middle" fill="#1d4ed8">защита от высыхания и солнца</text>
+  <text x="450" y="375" font-size="16" text-anchor="middle" fill="#4b5563">Вместе они живут на голых камнях, коре и в тундре, где поодиночке не выжили бы.</text>
+</svg>
