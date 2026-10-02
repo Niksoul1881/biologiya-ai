@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="sans-serif">
+<rect width="1000" height="560" fill="#fff"/>
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="14" refY="8" orient="auto"><path d="M0,0 L16,8 L0,16 z" fill="#374151"/></marker></defs>
+<text x="500" y="36" font-size="25" font-weight="bold" fill="#1f2937" text-anchor="middle">Три этапа энергетического обмена</text>
+<rect x="20" y="70" width="300" height="350" rx="16" fill="#E0E7FF" stroke="#4338CA" stroke-width="3"/>
+<text x="170" y="105" font-size="21" font-weight="bold" fill="#4338CA" text-anchor="middle">1. Подготовительный</text>
+<text x="170" y="131" font-size="16" fill="#374151" text-anchor="middle">ЖКТ, лизосомы</text>
+<text x="170" y="185" font-size="20" fill="#1f2937" text-anchor="middle">белки → аминокислоты</text>
+<text x="170" y="217" font-size="20" fill="#1f2937" text-anchor="middle">полисахариды → глюкоза</text>
+<text x="170" y="249" font-size="20" fill="#1f2937" text-anchor="middle">жиры → глицерин +</text>
+<text x="170" y="281" font-size="20" fill="#1f2937" text-anchor="middle">жирные кислоты</text>
+<text x="170" y="372" font-size="15" fill="#4b5563" text-anchor="middle">энергия рассеивается</text>
+<text x="170" y="394" font-size="15" fill="#4b5563" text-anchor="middle">в виде тепла, АТФ нет</text>
+<rect x="350" y="70" width="300" height="350" rx="16" fill="#FEF3C7" stroke="#B45309" stroke-width="3"/>
+<text x="500" y="105" font-size="21" font-weight="bold" fill="#B45309" text-anchor="middle">2. Бескислородный</text>
+<text x="500" y="131" font-size="16" fill="#374151" text-anchor="middle">(гликолиз) — цитоплазма</text>
+<text x="500" y="185" font-size="20" fill="#1f2937" text-anchor="middle">C₆H₁₂O₆ →</text>
+<text x="500" y="217" font-size="20" fill="#1f2937" text-anchor="middle">2 C₃H₄O₃ (ПВК)</text>
+<text x="500" y="249" font-size="20" fill="#1f2937" text-anchor="middle">+ 2 АТФ</text>
+<text x="500" y="372" font-size="15" fill="#4b5563" text-anchor="middle">без кислорода у животных:</text>
+<text x="500" y="394" font-size="15" fill="#4b5563" text-anchor="middle">ПВК → молочная кислота</text>
+<rect x="680" y="70" width="300" height="350" rx="16" fill="#DCFCE7" stroke="#15803D" stroke-width="3"/>
+<text x="830" y="105" font-size="21" font-weight="bold" fill="#15803D" text-anchor="middle">3. Кислородный</text>
+<text x="830" y="131" font-size="16" fill="#374151" text-anchor="middle">митохондрии</text>
+<text x="830" y="185" font-size="20" fill="#1f2937" text-anchor="middle">2 ПВК + 6 O₂ →</text>
+<text x="830" y="217" font-size="20" fill="#1f2937" text-anchor="middle">6 CO₂ + 6 H₂O</text>
+<text x="830" y="249" font-size="20" fill="#1f2937" text-anchor="middle">+ 36 АТФ</text>
+<text x="830" y="372" font-size="15" fill="#4b5563" text-anchor="middle">цикл Кребса +</text>
+<text x="830" y="394" font-size="15" fill="#4b5563" text-anchor="middle">дыхательная цепь</text>
+<line x1="322" y1="245" x2="348" y2="245" stroke="#374151" stroke-width="4" marker-end="url(#ar)"/>
+<line x1="652" y1="245" x2="678" y2="245" stroke="#374151" stroke-width="4" marker-end="url(#ar)"/>
+<rect x="120" y="445" width="760" height="90" rx="14" fill="#F8FAFC" stroke="#0F766E" stroke-width="2.5"/>
+<text x="500" y="478" font-size="18" font-weight="bold" fill="#0F766E" text-anchor="middle">Итого (по школьному курсу):</text>
+<text x="500" y="512" font-size="21" fill="#1f2937" text-anchor="middle">C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + 38 АТФ</text>
+</svg>
