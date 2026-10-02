@@ -128,5 +128,30 @@
   "source": "https://commons.wikimedia.org/wiki/File:Leeuwenhoek_Microscope.png",
   "author": "Jeroen Rouwkema",
   "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/004/linney.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Carl_von_Linné.jpg",
+  "author": "Alexander Roslin",
+  "license": "Public domain"
+ },
+ "/images/lessons/004/derevo-gekkelya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Haeckel_arbol_bn.png",
+  "author": "Ernst Haeckel",
+  "license": "Public domain"
+ },
+ "/images/lessons/004/systema-naturae.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Systema_Naturae_cover.jpg",
+  "author": "Carl Linnaeus",
+  "license": "Public domain"
+ },
+ "/images/lessons/004/istochnik-arhei.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Grand_Prismatic_Spring_(view_from_the_south).jpg",
+  "author": "Carsten Steger",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/004/carstva-primery.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Escherichia_coli_(SEM).jpg ; https://commons.wikimedia.org/wiki/File:Amanita_muscaria_Marriott_Falls_1.jpg ; https://commons.wikimedia.org/wiki/File:Matricaria_chamomilla_2_RF.jpg ; https://commons.wikimedia.org/wiki/File:Alaska_Red_Fox_(Vulpes_vulpes).jpg",
+  "author": "CDC/E. Sowers, J. Carr; JJ Harrison; Robert Flogaus-Faust; Gregory Smith",
+  "license": "PD; CC BY-SA 3.0; CC BY 4.0; CC BY-SA 2.0"
  }
 }
