@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="500" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<text x="450.0" y="32" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold">Кроссинговер разрывает сцепление генов</text>
+<text x="160" y="70" font-size="15" text-anchor="middle" fill="#333" font-weight="bold">1. Конъюгация гомологов</text>
+<rect x="40" y="90" width="240" height="16" fill="#d9534f" stroke="#444" stroke-width="1"/>
+<text x="90" y="102" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">B</text>
+<text x="230" y="102" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">V</text>
+<rect x="40" y="112" width="240" height="16" fill="#d9534f" stroke="#444" stroke-width="1"/>
+<text x="90" y="124" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">B</text>
+<text x="230" y="124" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">V</text>
+<rect x="40" y="134" width="240" height="16" fill="#4f9fd6" stroke="#444" stroke-width="1"/>
+<text x="90" y="146" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">b</text>
+<text x="230" y="146" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">v</text>
+<rect x="40" y="156" width="240" height="16" fill="#4f9fd6" stroke="#444" stroke-width="1"/>
+<text x="90" y="168" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">b</text>
+<text x="230" y="168" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">v</text>
+<text x="160" y="195" font-size="13" text-anchor="middle" fill="#555">бивалент: 4 хроматиды</text>
+<text x="450" y="70" font-size="15" text-anchor="middle" fill="#333" font-weight="bold">2. Обмен участками (профаза I)</text>
+<rect x="330" y="90" width="240" height="16" fill="#d9534f" stroke="#444" stroke-width="1"/>
+<text x="380" y="102" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">B</text>
+<text x="520" y="102" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">V</text>
+<rect x="330" y="112" width="130" height="16" fill="#d9534f" stroke="#444" stroke-width="1"/>
+
+<rect x="470" y="112" width="100" height="16" fill="#4f9fd6" stroke="#444" stroke-width="1"/>
+<rect x="330" y="134" width="130" height="16" fill="#4f9fd6" stroke="#444" stroke-width="1"/>
+<rect x="470" y="134" width="100" height="16" fill="#d9534f" stroke="#444" stroke-width="1"/>
+<text x="380" y="124" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">B</text>
+<text x="520" y="124" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">v</text>
+<text x="380" y="146" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">b</text>
+<text x="520" y="146" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">V</text>
+<rect x="330" y="156" width="240" height="16" fill="#4f9fd6" stroke="#444" stroke-width="1"/>
+<text x="380" y="168" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">b</text>
+<text x="520" y="168" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">v</text>
+<path d="M 455 108 L 485 152 M 485 108 L 455 152" stroke="#333" stroke-width="2.5"/>
+<text x="450" y="195" font-size="13" text-anchor="middle" fill="#555">хиазма: обмен между несестринскими хроматидами</text>
+<text x="740" y="70" font-size="15" text-anchor="middle" fill="#333" font-weight="bold">3. Гаметы</text>
+<rect x="640" y="90" width="60" height="16" fill="#d9534f" stroke="#444" stroke-width="1"/>
+<rect x="700" y="90" width="60" height="16" fill="#d9534f" stroke="#444" stroke-width="1"/>
+<text x="670" y="102" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">B</text>
+<text x="730" y="102" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">V</text>
+<text x="770" y="103" font-size="12" text-anchor="start" fill="#555">родительская</text>
+<rect x="640" y="118" width="60" height="16" fill="#d9534f" stroke="#444" stroke-width="1"/>
+<rect x="700" y="118" width="60" height="16" fill="#4f9fd6" stroke="#444" stroke-width="1"/>
+<text x="670" y="130" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">B</text>
+<text x="730" y="130" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">v</text>
+<text x="770" y="131" font-size="12" text-anchor="start" fill="#a0306a">рекомбинантная</text>
+<rect x="640" y="146" width="60" height="16" fill="#4f9fd6" stroke="#444" stroke-width="1"/>
+<rect x="700" y="146" width="60" height="16" fill="#d9534f" stroke="#444" stroke-width="1"/>
+<text x="670" y="158" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">b</text>
+<text x="730" y="158" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">V</text>
+<text x="770" y="159" font-size="12" text-anchor="start" fill="#a0306a">рекомбинантная</text>
+<rect x="640" y="174" width="60" height="16" fill="#4f9fd6" stroke="#444" stroke-width="1"/>
+<rect x="700" y="174" width="60" height="16" fill="#4f9fd6" stroke="#444" stroke-width="1"/>
+<text x="670" y="186" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">b</text>
+<text x="730" y="186" font-size="13" text-anchor="middle" fill="#fff" font-weight="bold">v</text>
+<text x="770" y="187" font-size="12" text-anchor="start" fill="#555">родительская</text>
+<path d="M 285 130 L 320 130" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<path d="M 580 130 L 630 130" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<rect x="40" y="225" width="820" height="255" rx="10" fill="#f7f7f7" stroke="#ddd"/>
+<text x="450" y="255" font-size="15" text-anchor="middle" fill="#1b4d1b" font-weight="bold">Частота кроссинговера зависит от расстояния между генами</text>
+<line x1="100" y1="320" x2="800" y2="320" stroke="#666" stroke-width="10" stroke-linecap="round"/>
+<line x1="140" y1="306" x2="140" y2="334" stroke="#c0392b" stroke-width="4"/>
+<text x="140" y="298" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">A</text>
+<line x1="240" y1="306" x2="240" y2="334" stroke="#c0392b" stroke-width="4"/>
+<text x="240" y="298" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">B</text>
+<line x1="620" y1="306" x2="620" y2="334" stroke="#c0392b" stroke-width="4"/>
+<text x="620" y="298" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">C</text>
+<path d="M 140 350 L 240 350" stroke="#1d4f86" stroke-width="2"/>
+<text x="190" y="370" font-size="12.5" text-anchor="middle" fill="#1d4f86">близко: кроссинговер</text>
+<text x="190" y="386" font-size="12.5" text-anchor="middle" fill="#1d4f86">между ними редок</text>
+<path d="M 240 350 L 620 350" stroke="#a87020" stroke-width="2"/>
+<text x="430" y="370" font-size="12.5" text-anchor="middle" fill="#a87020">далеко: перекрёст между генами случается часто</text>
+<text x="450" y="425" font-size="14" text-anchor="middle" fill="#333" font-weight="bold">1% рекомбинантов = 1 морганида (сантиморганида, сМ) — единица расстояния на генетической карте.</text>
+<text x="450" y="450" font-size="13.5" text-anchor="middle" fill="#333">Больше 50% рекомбинантов не бывает: такие гены наследуются как независимые.</text>
+</svg>
