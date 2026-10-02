@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="470" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<text x="450.0" y="32" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold">Наследование гемофилии (рецессивный признак X-хромосомы)</text>
+<text x="60" y="95" font-size="22" text-anchor="middle" fill="#333" font-weight="bold">P</text>
+<rect x="140" y="60" width="280" height="80" rx="12" fill="#fbe1ec" stroke="#a0306a"/>
+<text x="280" y="88" font-size="14" text-anchor="middle" fill="#a0306a" font-weight="bold">♀ мать-носительница</text>
+<text x="280" y="118" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">XᴴXʰ — здорова</text>
+<text x="450" y="108" font-size="28" text-anchor="middle" fill="#333" font-weight="bold">×</text>
+<rect x="480" y="60" width="280" height="80" rx="12" fill="#dbe9f6" stroke="#1d4f86"/>
+<text x="620" y="88" font-size="14" text-anchor="middle" fill="#1d4f86" font-weight="bold">♂ здоровый отец</text>
+<text x="620" y="118" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">XᴴY</text>
+<text x="60" y="190" font-size="22" text-anchor="middle" fill="#333" font-weight="bold">G</text>
+<circle cx="240" cy="185" r="26" fill="#fff" stroke="#888"/><circle cx="320" cy="185" r="26" fill="#fff" stroke="#888"/><circle cx="580" cy="185" r="26" fill="#fff" stroke="#888"/><circle cx="660" cy="185" r="26" fill="#fff" stroke="#888"/>
+<text x="240" y="192" font-size="17" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Xᴴ</text>
+<text x="320" y="192" font-size="17" text-anchor="middle" fill="#c0392b" font-weight="bold">Xʰ</text>
+<text x="580" y="192" font-size="17" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Xᴴ</text>
+<text x="660" y="192" font-size="17" text-anchor="middle" fill="#1d4f86" font-weight="bold">Y</text>
+<text x="60" y="290" font-size="22" text-anchor="middle" fill="#333" font-weight="bold">F</text>
+<rect x="90" y="245" width="160" height="90" rx="10" fill="#fbe1ec" stroke="#a0306a"/>
+<text x="170" y="278" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">XᴴXᴴ</text>
+<text x="170" y="302" font-size="13" text-anchor="middle" fill="#a0306a" font-weight="bold">дочь здорова</text>
+<text x="170" y="322" font-size="14" text-anchor="middle" fill="#555" font-weight="bold">25%</text>
+<rect x="265" y="245" width="160" height="90" rx="10" fill="#fbe1ec" stroke="#a0306a"/>
+<text x="345" y="278" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">XᴴXʰ</text>
+<text x="345" y="302" font-size="13" text-anchor="middle" fill="#a0306a" font-weight="bold">дочь-носительница</text>
+<text x="345" y="322" font-size="14" text-anchor="middle" fill="#555" font-weight="bold">25%</text>
+<rect x="440" y="245" width="160" height="90" rx="10" fill="#dbe9f6" stroke="#1d4f86"/>
+<text x="520" y="278" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">XᴴY</text>
+<text x="520" y="302" font-size="13" text-anchor="middle" fill="#1d4f86" font-weight="bold">сын здоров</text>
+<text x="520" y="322" font-size="14" text-anchor="middle" fill="#555" font-weight="bold">25%</text>
+<rect x="615" y="245" width="160" height="90" rx="10" fill="#dbe9f6" stroke="#c0392b"/>
+<text x="695" y="278" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">XʰY</text>
+<text x="695" y="302" font-size="13" text-anchor="middle" fill="#c0392b" font-weight="bold">сын болен</text>
+<text x="695" y="322" font-size="14" text-anchor="middle" fill="#555" font-weight="bold">25%</text>
+<rect x="40" y="355" width="820" height="100" rx="10" fill="#fff8e1" stroke="#e0a800"/>
+<text x="450" y="380" font-size="14" text-anchor="middle" fill="#333" font-weight="bold">Все дочери здоровы (половина — носительницы); среди сыновей половина больна.</text>
+<text x="450" y="404" font-size="13" text-anchor="middle" fill="#333">Сын получает X-хромосому только от матери, а Y — от отца: поэтому отец не может передать гемофилию сыну.</text>
+<text x="450" y="428" font-size="13" text-anchor="middle" fill="#333">У мужчины один аллель гена X-хромосомы (гемизигота): рецессивный аллель проявляется всегда.</text>
+</svg>
