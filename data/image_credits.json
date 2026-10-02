@@ -258,5 +258,15 @@
   "source": "https://commons.wikimedia.org/wiki/File:Ginsengpflanze.jpg",
   "author": "FloraFarm GmbH / Katharina Lohrie",
   "license": "CC BY 3.0"
+ },
+ "/images/lessons/029/linney.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Carl_von_Linné.jpg",
+  "author": "Alexander Roslin",
+  "license": "Public domain"
+ },
+ "/images/lessons/029/species-plantarum.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Description_of_Matricaria_chamomilla_in_Linnaei_Species_plantarum_1753_vol_2_p_891.jpg",
+  "author": "Carl Linnaeus",
+  "license": "Public domain"
  }
 }

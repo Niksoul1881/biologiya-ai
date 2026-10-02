@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Arial, Helvetica, sans-serif">
+  <title>Систематические категории растений</title>
+  <rect width="1000" height="600" fill="#ffffff"/>
+  <text x="500" y="34" font-size="23" font-weight="bold" fill="#14532d" text-anchor="middle">От царства до вида: где «живёт» ромашка аптечная</text>
+  <g font-size="19">
+    <rect x="40"  y="60"  width="920" height="62" rx="10" fill="#14532d"/>
+    <rect x="100" y="128" width="800" height="62" rx="10" fill="#166534"/>
+    <rect x="160" y="196" width="680" height="62" rx="10" fill="#15803d"/>
+    <rect x="220" y="264" width="560" height="62" rx="10" fill="#16a34a"/>
+    <rect x="280" y="332" width="440" height="62" rx="10" fill="#22c55e"/>
+    <rect x="340" y="400" width="320" height="62" rx="10" fill="#86efac"/>
+    <rect x="400" y="468" width="200" height="90" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="2.5"/>
+  </g>
+  <g font-size="18" fill="#ffffff">
+    <text x="60" y="98" font-weight="bold">ЦАРСТВО</text><text x="940" y="98" text-anchor="end">Растения</text>
+    <text x="120" y="166" font-weight="bold">ОТДЕЛ</text><text x="880" y="166" text-anchor="end">Покрытосеменные (Цветковые)</text>
+    <text x="180" y="234" font-weight="bold">КЛАСС</text><text x="820" y="234" text-anchor="end">Двудольные</text>
+    <text x="240" y="302" font-weight="bold">ПОРЯДОК</text><text x="760" y="302" text-anchor="end">Астроцветные</text>
+    <text x="300" y="370" font-weight="bold" fill="#052e16">СЕМЕЙСТВО</text><text x="700" y="370" text-anchor="end" fill="#052e16">Сложноцветные</text>
+    <text x="360" y="438" font-weight="bold" fill="#052e16">РОД</text><text x="640" y="438" text-anchor="end" fill="#052e16">Ромашка</text>
+  </g>
+  <g fill="#422006" text-anchor="middle">
+    <text x="500" y="496" font-size="18" font-weight="bold">ВИД</text>
+    <text x="500" y="520" font-size="17">Ромашка аптечная</text>
+    <text x="500" y="544" font-size="16" font-style="italic">Matricaria chamomilla</text>
+  </g>
+  <text x="500" y="586" font-size="15" fill="#4b5563" text-anchor="middle">Чем ниже ступенька, тем меньше в группе видов и тем больше они похожи друг на друга</text>
+</svg>
