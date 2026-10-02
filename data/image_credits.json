@@ -183,5 +183,15 @@
   "source": "https://commons.wikimedia.org/wiki/File:Xanthoria_parietina_(06_03_31).jpg",
   "author": "Taka",
   "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/011/hooke-probka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Micrographia_Schem_11.jpg",
+  "author": "Robert Hooke (1635-1703)",
+  "license": "Public domain"
+ },
+ "/images/lessons/011/kletka-rastitelnaya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Plant_cell_structure-ru-v2.png",
+  "author": "Original: LadyofHats (Mariana Ruiz) / Derivative: Dhatfield / Derivative: Lady3m",
+  "license": "CC0"
  }
 }

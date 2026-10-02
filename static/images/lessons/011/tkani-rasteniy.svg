@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="960" height="520" fill="#ffffff"/>
+  <text x="480" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Пять групп тканей растений</text>
+
+  <!-- 1 образовательная -->
+  <rect x="12" y="55" width="180" height="450" rx="14" fill="#fef9c3" stroke="#ca8a04" stroke-width="2.5"/>
+  <text x="102" y="85" font-size="17" font-weight="bold" text-anchor="middle" fill="#854d0e">Образовательная</text>
+  <g fill="#fffbeb" stroke="#a16207" stroke-width="2">
+    <rect x="42" y="105" width="40" height="40"/><rect x="82" y="105" width="40" height="40"/><rect x="122" y="105" width="40" height="40"/>
+    <rect x="42" y="145" width="40" height="40"/><rect x="82" y="145" width="40" height="40"/><rect x="122" y="145" width="40" height="40"/>
+    <rect x="42" y="185" width="40" height="40"/><rect x="82" y="185" width="40" height="40"/><rect x="122" y="185" width="40" height="40"/>
+  </g>
+  <g fill="#a78bfa" stroke="#6d28d9" stroke-width="1.5">
+    <circle cx="62" cy="125" r="11"/><circle cx="102" cy="125" r="11"/><circle cx="142" cy="125" r="11"/>
+    <circle cx="62" cy="165" r="11"/><circle cx="102" cy="165" r="11"/><circle cx="142" cy="165" r="11"/>
+    <circle cx="62" cy="205" r="11"/><circle cx="102" cy="205" r="11"/><circle cx="142" cy="205" r="11"/>
+  </g>
+  <g font-size="14" fill="#1f2937" text-anchor="middle">
+    <text x="102" y="260">мелкие клетки,</text><text x="102" y="278">крупное ядро,</text><text x="102" y="296">постоянно делятся</text>
+    <text x="102" y="340" font-weight="bold" fill="#854d0e">Где:</text>
+    <text x="102" y="360">верхушки побегов,</text><text x="102" y="378">кончики корней,</text><text x="102" y="396">камбий</text>
+    <text x="102" y="440" font-weight="bold" fill="#854d0e">Работа:</text>
+    <text x="102" y="460">рост растения</text>
+  </g>
+
+  <!-- 2 покровная -->
+  <rect x="200" y="55" width="180" height="450" rx="14" fill="#ecfeff" stroke="#0891b2" stroke-width="2.5"/>
+  <text x="290" y="85" font-size="17" font-weight="bold" text-anchor="middle" fill="#155e75">Покровная</text>
+  <g fill="#f0fdfa" stroke="#0e7490" stroke-width="2">
+    <path d="M215,140 L245,120 L285,125 L270,150 z"/><path d="M285,125 L325,118 L365,135 L330,155 z"/>
+    <path d="M215,140 L270,150 L255,185 L218,180 z"/><path d="M330,155 L365,135 L365,178 L340,185 z"/>
+    <path d="M255,185 L270,150 L285,160 L300,160 L330,155 L340,185 L300,195 z"/>
+  </g>
+  <g fill="#86efac" stroke="#15803d" stroke-width="2">
+    <path d="M285,160 C280,140 300,140 300,160 C300,175 285,178 285,160 z" transform="translate(-6,-12)"/>
+    <path d="M300,160 C305,140 285,140 285,160 C285,175 300,178 300,160 z" transform="translate(6,-12)"/>
+  </g>
+  <g font-size="14" fill="#1f2937" text-anchor="middle">
+    <text x="290" y="215" font-size="12" fill="#0e7490">устьице в кожице</text>
+    <text x="290" y="260">клетки плотно</text><text x="290" y="278">сомкнуты; кожица —</text><text x="290" y="296">живая, пробка — мёртвая</text>
+    <text x="290" y="340" font-weight="bold" fill="#155e75">Где:</text>
+    <text x="290" y="360">кожица листьев,</text><text x="290" y="378">пробка на ветках</text><text x="290" y="396">и клубнях, корка</text>
+    <text x="290" y="440" font-weight="bold" fill="#155e75">Работа:</text>
+    <text x="290" y="460">защита,</text><text x="290" y="478">газообмен (устьица)</text>
+  </g>
+
+  <!-- 3 основная -->
+  <rect x="388" y="55" width="180" height="450" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="478" y="85" font-size="17" font-weight="bold" text-anchor="middle" fill="#166534">Основная</text>
+  <g fill="#f7fee7" stroke="#15803d" stroke-width="2">
+    <circle cx="430" cy="130" r="26"/><circle cx="490" cy="122" r="24"/><circle cx="535" cy="150" r="22"/>
+    <circle cx="440" cy="190" r="24"/><circle cx="500" cy="180" r="26"/>
+  </g>
+  <g fill="#22c55e"><circle cx="418" cy="122" r="5"/><circle cx="440" cy="140" r="5"/><circle cx="430" cy="115" r="4"/><circle cx="482" cy="112" r="5"/><circle cx="500" cy="130" r="5"/><circle cx="530" cy="140" r="5"/><circle cx="540" cy="160" r="4"/><circle cx="432" cy="182" r="5"/><circle cx="450" cy="200" r="5"/><circle cx="492" cy="172" r="5"/><circle cx="512" cy="192" r="5"/></g>
+  <g font-size="14" fill="#1f2937" text-anchor="middle">
+    <text x="478" y="232" font-size="12" fill="#166534">промежутки — межклетники</text>
+    <text x="478" y="260">живые тонкостенные</text><text x="478" y="278">клетки, часто</text><text x="478" y="296">с хлоропластами</text>
+    <text x="478" y="340" font-weight="bold" fill="#166534">Где:</text>
+    <text x="478" y="360">мякоть листа,</text><text x="478" y="378">клубни, плоды,</text><text x="478" y="396">сердцевина стебля</text>
+    <text x="478" y="440" font-weight="bold" fill="#166534">Работа:</text>
+    <text x="478" y="460">фотосинтез,</text><text x="478" y="478">запас веществ</text>
+  </g>
+
+  <!-- 4 проводящая -->
+  <rect x="576" y="55" width="180" height="450" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="666" y="85" font-size="17" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Проводящая</text>
+  <!-- сосуд -->
+  <rect x="605" y="100" width="34" height="130" fill="#ffffff" stroke="#1d4ed8" stroke-width="3"/>
+  <g stroke="#1d4ed8" stroke-width="2"><path d="M605,115 L639,108 M605,135 L639,128 M605,155 L639,148 M605,175 L639,168 M605,195 L639,188 M605,215 L639,208"/></g>
+  <g fill="#1d4ed8"><polygon points="622,98 615,110 629,110"/></g>
+  <text x="622" y="245" font-size="12" text-anchor="middle" fill="#1e3a8a">сосуд</text>
+  <!-- ситовидная трубка -->
+  <rect x="690" y="100" width="34" height="130" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
+  <g stroke="#b45309" stroke-width="3" stroke-dasharray="4 3"><line x1="690" y1="143" x2="724" y2="143"/><line x1="690" y1="187" x2="724" y2="187"/></g>
+  <g fill="#b45309"><polygon points="707,234 700,222 714,222"/></g>
+  <text x="707" y="245" font-size="12" text-anchor="middle" fill="#92400e">ситовидная</text><text x="707" y="259" font-size="12" text-anchor="middle" fill="#92400e">трубка</text>
+  <g font-size="14" fill="#1f2937" text-anchor="middle">
+    <text x="666" y="280">сосуды — мёртвые</text><text x="666" y="298">трубки; ситовидные</text><text x="666" y="316">трубки — живые</text>
+    <text x="666" y="340" font-weight="bold" fill="#1e3a8a">Где:</text>
+    <text x="666" y="360">жилки листьев,</text><text x="666" y="378">древесина и луб</text><text x="666" y="396">стебля и корня</text>
+    <text x="666" y="440" font-weight="bold" fill="#1e3a8a">Работа:</text>
+    <text x="666" y="460">вода — вверх,</text><text x="666" y="478">сахара — от листьев</text>
+  </g>
+
+  <!-- 5 механическая -->
+  <rect x="764" y="55" width="184" height="450" rx="14" fill="#faf5ff" stroke="#7e22ce" stroke-width="2.5"/>
+  <text x="856" y="85" font-size="17" font-weight="bold" text-anchor="middle" fill="#581c87">Механическая</text>
+  <g fill="#e9d5ff" stroke="#6b21a8" stroke-width="2">
+    <path d="M800,105 L812,100 L824,105 L824,230 L812,235 L800,230 z"/>
+    <path d="M830,110 L842,105 L854,110 L854,225 L842,230 L830,225 z"/>
+    <path d="M860,100 L872,95 L884,100 L884,235 L872,240 L860,235 z"/>
+    <path d="M890,108 L902,103 L914,108 L914,228 L902,233 L890,228 z"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="3"><line x1="812" y1="110" x2="812" y2="225"/><line x1="842" y1="115" x2="842" y2="220"/><line x1="872" y1="105" x2="872" y2="230"/><line x1="902" y1="113" x2="902" y2="223"/></g>
+  <g font-size="14" fill="#1f2937" text-anchor="middle">
+    <text x="856" y="260">толстые стенки,</text><text x="856" y="278">длинные волокна,</text><text x="856" y="296">многие клетки мёртвые</text>
+    <text x="856" y="340" font-weight="bold" fill="#581c87">Где:</text>
+    <text x="856" y="360">лубяные волокна (лён),</text><text x="856" y="378">древесина, скорлупа</text><text x="856" y="396">орехов, косточки</text>
+    <text x="856" y="440" font-weight="bold" fill="#581c87">Работа:</text>
+    <text x="856" y="460">опора, прочность</text>
+  </g>
+</svg>
