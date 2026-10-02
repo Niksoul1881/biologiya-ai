@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" width="900" height="430" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="900" height="430" fill="#fff"/>
+  <text x="450" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Транскрипция: РНК-полимераза строит иРНК по матрице ДНК</text>
+  <!-- смысловая цепь -->
+  <path d="M 40 150 L 330 150 Q 380 150 400 120 L 560 120 Q 590 150 640 150 L 860 150" fill="none" stroke="#777" stroke-width="7"/>
+  <text x="16" y="156" font-size="15" fill="#555">5′</text><text x="866" y="156" font-size="15" fill="#555">3′</text>
+  <text x="120" y="135" font-size="14" fill="#555">смысловая (кодирующая) цепь</text>
+  <!-- матричная цепь -->
+  <path d="M 40 190 L 330 190 Q 380 190 400 230 L 560 230 Q 590 190 640 190 L 860 190" fill="none" stroke="#1d4f86" stroke-width="7"/>
+  <text x="16" y="196" font-size="15" fill="#1d4f86">3′</text><text x="866" y="196" font-size="15" fill="#1d4f86">5′</text>
+  <text x="640" y="222" font-size="14" fill="#1d4f86">транскрибируемая (матричная) цепь</text>
+  <!-- пары оснований в двойной части -->
+  <g stroke="#bbb" stroke-width="3">
+    <line x1="70" y1="154" x2="70" y2="186"/><line x1="110" y1="154" x2="110" y2="186"/><line x1="150" y1="154" x2="150" y2="186"/><line x1="190" y1="154" x2="190" y2="186"/><line x1="230" y1="154" x2="230" y2="186"/><line x1="270" y1="154" x2="270" y2="186"/><line x1="310" y1="154" x2="310" y2="186"/>
+    <line x1="660" y1="154" x2="660" y2="186"/><line x1="700" y1="154" x2="700" y2="186"/><line x1="740" y1="154" x2="740" y2="186"/><line x1="780" y1="154" x2="780" y2="186"/><line x1="820" y1="154" x2="820" y2="186"/>
+  </g>
+  <!-- РНК-полимераза -->
+  <ellipse cx="480" cy="190" rx="140" ry="78" fill="#fde9d4" fill-opacity="0.75" stroke="#b85c00" stroke-width="3"/>
+  <text x="480" y="300" font-size="17" font-weight="bold" text-anchor="middle" fill="#b85c00">РНК-полимераза</text>
+  <!-- иРНК -->
+  <path d="M 540 226 L 430 226 Q 380 260 300 320 L 170 360" fill="none" stroke="#7a3fa0" stroke-width="6"/>
+  <g stroke="#c9a6dd" stroke-width="3"><line x1="420" y1="226" x2="420" y2="230"/></g>
+  <text x="150" y="385" font-size="15" fill="#7a3fa0" font-weight="bold">5′ иРНК</text>
+  <text x="560" y="262" font-size="15" fill="#7a3fa0" font-weight="bold">3′</text>
+  <!-- направление -->
+  <path d="M 560 80 L 700 80" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <text x="560" y="70" font-size="15" fill="#333">движение полимеразы</text>
+  <!-- подписи -->
+  <text x="40" y="410" font-size="14" fill="#333">иРНК растёт от 5′ к 3′ и комплементарна матричной цепи (А→У, Т→А, Г→Ц, Ц→Г); за полимеразой ДНК снова закрывается.</text>
+  <text x="300" y="105" font-size="14" fill="#555">ДНК расплетается</text>
+</svg>

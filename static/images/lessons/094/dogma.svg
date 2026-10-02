@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#999"/></marker>
+  </defs>
+  <rect width="900" height="400" fill="#fff"/>
+  <text x="450" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Центральная догма молекулярной биологии</text>
+  <!-- блоки -->
+  <rect x="40" y="150" width="180" height="90" rx="14" fill="#eef6fb" stroke="#1d4f86" stroke-width="3"/>
+  <text x="130" y="190" font-size="26" font-weight="bold" text-anchor="middle" fill="#1d4f86">ДНК</text>
+  <text x="130" y="218" font-size="14" text-anchor="middle" fill="#333">хранение информации</text>
+  <rect x="360" y="150" width="180" height="90" rx="14" fill="#f6effa" stroke="#7a3fa0" stroke-width="3"/>
+  <text x="450" y="190" font-size="26" font-weight="bold" text-anchor="middle" fill="#7a3fa0">РНК</text>
+  <text x="450" y="218" font-size="14" text-anchor="middle" fill="#333">рабочая копия гена</text>
+  <rect x="680" y="150" width="180" height="90" rx="14" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="3"/>
+  <text x="770" y="190" font-size="26" font-weight="bold" text-anchor="middle" fill="#1b7a3a">Белок</text>
+  <text x="770" y="218" font-size="14" text-anchor="middle" fill="#333">работа в клетке</text>
+  <!-- стрелки -->
+  <path d="M 225 180 L 355 180" stroke="#333" stroke-width="4" marker-end="url(#a)"/>
+  <text x="290" y="168" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">транскрипция</text>
+  <path d="M 545 195 L 675 195" stroke="#333" stroke-width="4" marker-end="url(#a)"/>
+  <text x="610" y="183" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">трансляция</text>
+  <path d="M 355 220 L 225 220" stroke="#999" stroke-width="3" stroke-dasharray="7 5" marker-end="url(#g)"/>
+  <text x="290" y="262" font-size="14" text-anchor="middle" fill="#777">обратная</text>
+  <text x="290" y="280" font-size="14" text-anchor="middle" fill="#777">транскрипция</text>
+  <text x="290" y="298" font-size="13" text-anchor="middle" fill="#777">(у ретровирусов)</text>
+  <!-- репликация -->
+  <path d="M 90 148 C 50 70, 210 70, 170 148" fill="none" stroke="#333" stroke-width="3.5" marker-end="url(#a)"/>
+  <text x="130" y="72" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">репликация</text>
+  <!-- места -->
+  <text x="130" y="320" font-size="14" text-anchor="middle" fill="#555">у эукариот — в ядре</text>
+  <text x="450" y="320" font-size="14" text-anchor="middle" fill="#555">синтез — в ядре,</text>
+  <text x="450" y="338" font-size="14" text-anchor="middle" fill="#555">потом выход в цитоплазму</text>
+  <text x="770" y="320" font-size="14" text-anchor="middle" fill="#555">в цитоплазме,</text>
+  <text x="770" y="338" font-size="14" text-anchor="middle" fill="#555">на рибосомах</text>
+  <text x="450" y="382" font-size="15" text-anchor="middle" fill="#333">Все три основных процесса — реакции <tspan font-weight="bold">матричного синтеза</tspan>: новая молекула строится по образцу-матрице.</text>
+</svg>

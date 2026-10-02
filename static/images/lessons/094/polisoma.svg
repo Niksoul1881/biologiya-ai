@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" width="900" height="330" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="900" height="330" fill="#fff"/>
+  <text x="450" y="32" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Полисома: много рибосом на одной иРНК</text>
+  <path d="M 40 250 C 200 250, 300 230, 450 250 S 700 270, 860 250" fill="none" stroke="#7a3fa0" stroke-width="6"/>
+  <text x="20" y="256" font-size="15" fill="#7a3fa0" font-weight="bold">5′</text>
+  <text x="866" y="256" font-size="15" fill="#7a3fa0" font-weight="bold">3′</text>
+  <g fill="#dbe9f6" stroke="#1d4f86" stroke-width="2.5">
+    <ellipse cx="130" cy="232" rx="42" ry="26"/><ellipse cx="290" cy="228" rx="42" ry="26"/><ellipse cx="450" cy="232" rx="42" ry="26"/><ellipse cx="610" cy="238" rx="42" ry="26"/><ellipse cx="770" cy="238" rx="42" ry="26"/>
+  </g>
+  <g fill="none" stroke="#1b7a3a" stroke-width="5" stroke-linecap="round">
+    <path d="M 130 206 q 4 -10 0 -16"/>
+    <path d="M 290 202 q 10 -18 -4 -34 q -12 -12 4 -22"/>
+    <path d="M 450 206 q 14 -22 -4 -42 q -16 -16 4 -32 q 14 -12 0 -24"/>
+    <path d="M 610 212 q 16 -24 -4 -46 q -18 -18 4 -36 q 16 -14 -2 -30 q -14 -12 4 -24"/>
+    <path d="M 770 212 q 18 -26 -4 -50 q -20 -18 4 -38 q 18 -14 -2 -32 q -16 -14 4 -28 q 14 -10 0 -22"/>
+  </g>
+  <path d="M 330 300 L 560 300" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <text x="40" y="305" font-size="15" fill="#333">направление движения рибосом</text>
+  <text x="590" y="305" font-size="15" fill="#333">цепи длиннее у рибосом ближе к 3′</text>
+  <text x="450" y="65" font-size="15" text-anchor="middle" fill="#555">Каждая рибосома синтезирует свою копию одного и того же белка</text>
+</svg>
