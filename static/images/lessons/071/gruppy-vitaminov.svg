@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="420" fill="#ffffff"/>
+  <text x="400" y="32" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">Две группы витаминов</text>
+  <rect x="20" y="56" width="370" height="340" rx="16" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="205" y="88" font-size="19" font-weight="bold" text-anchor="middle" fill="#78350f">Жирорастворимые</text>
+  <g font-size="40" font-weight="bold" text-anchor="middle" fill="#b45309">
+    <circle cx="80" cy="140" r="34" fill="#fde68a"/><text x="80" y="154">A</text>
+    <circle cx="165" cy="140" r="34" fill="#fde68a"/><text x="165" y="154">D</text>
+    <circle cx="250" cy="140" r="34" fill="#fde68a"/><text x="250" y="154">E</text>
+    <circle cx="335" cy="140" r="34" fill="#fde68a"/><text x="335" y="154">K</text>
+  </g>
+  <g font-size="15" fill="#374151">
+    <text x="40" y="210">• растворяются в жирах</text>
+    <text x="40" y="236">• всасываются только вместе с жирами</text>
+    <text x="40" y="262">• могут накапливаться в печени</text>
+    <text x="40" y="288">  и жировой ткани</text>
+    <text x="40" y="314">• избыток опасен (особенно A и D)</text>
+    <text x="40" y="340">• источники: масла, печень, рыбий жир,</text>
+    <text x="40" y="366">  яйца, молочные продукты, зелень</text>
+  </g>
+  <rect x="410" y="56" width="370" height="340" rx="16" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+  <text x="595" y="88" font-size="19" font-weight="bold" text-anchor="middle" fill="#0c4a6e">Водорастворимые</text>
+  <g font-weight="bold" text-anchor="middle" fill="#0369a1">
+    <circle cx="470" cy="140" r="34" fill="#bae6fd"/><text x="470" y="154" font-size="40">C</text>
+    <circle cx="555" cy="140" r="34" fill="#bae6fd"/><text x="555" y="152" font-size="28">B₁</text>
+    <circle cx="640" cy="140" r="34" fill="#bae6fd"/><text x="640" y="152" font-size="28">B₆</text>
+    <circle cx="725" cy="140" r="34" fill="#bae6fd"/><text x="725" y="150" font-size="24">B₁₂</text>
+  </g>
+  <g font-size="15" fill="#374151">
+    <text x="430" y="210">• растворяются в воде</text>
+    <text x="430" y="236">• почти не запасаются (кроме B₁₂),</text>
+    <text x="430" y="262">  излишки выводятся с мочой</text>
+    <text x="430" y="288">• нужны в пище каждый день</text>
+    <text x="430" y="314">• разрушаются при долгой варке</text>
+    <text x="430" y="340">• группа B: B₁, B₂, B₃ (PP), B₆, B₉, B₁₂ и др.</text>
+    <text x="430" y="366">• источники: овощи, фрукты, крупы, мясо</text>
+  </g>
+</svg>
