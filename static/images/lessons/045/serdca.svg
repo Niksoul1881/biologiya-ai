@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" font-family="Arial, Helvetica, sans-serif">
+<defs><linearGradient id="mix" x1="0" x2="1"><stop offset="0" stop-color="#93c5fd"/><stop offset="0.5" stop-color="#c4b5fd"/><stop offset="1" stop-color="#fca5a5"/></linearGradient></defs>
+<rect width="1000" height="470" fill="#ffffff"/>
+<text x="500" y="36" font-size="24" font-weight="bold" fill="#1f2937" text-anchor="middle">Как усложнялось сердце позвоночных</text>
+<text x="125" y="88" font-size="21" font-weight="bold" fill="#16803c" text-anchor="middle">Рыбы</text>
+<rect x="65" y="120" width="120" height="80" rx="14" fill="#93c5fd" stroke="#1e3a8a" stroke-width="3"/><text x="125.0" y="167.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">П</text>
+<rect x="65" y="215" width="120" height="110" rx="14" fill="#60a5fa" stroke="#1e3a8a" stroke-width="3"/><text x="125.0" y="277.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">Ж</text>
+<text x="125" y="362" font-size="17" fill="#1f2937" text-anchor="middle">2 камеры, 1 круг</text>
+<text x="125" y="386" font-size="16" fill="#4b5563" text-anchor="middle">только венозная</text>
+<text x="375" y="88" font-size="21" font-weight="bold" fill="#16803c" text-anchor="middle">Земноводные</text>
+<rect x="280" y="120" width="90" height="80" rx="14" fill="#93c5fd" stroke="#1e3a8a" stroke-width="3"/><text x="325.0" y="167.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">ПП</text>
+<rect x="380" y="120" width="90" height="80" rx="14" fill="#fca5a5" stroke="#991b1b" stroke-width="3"/><text x="425.0" y="167.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">ЛП</text>
+<rect x="280" y="215" width="190" height="110" rx="14" fill="#c4b5fd" stroke="#5b21b6" stroke-width="3"/><text x="375.0" y="277.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">Ж</text>
+<text x="375" y="362" font-size="17" fill="#1f2937" text-anchor="middle">3 камеры, 2 круга</text>
+<text x="375" y="386" font-size="16" fill="#4b5563" text-anchor="middle">кровь смешивается</text>
+<text x="625" y="88" font-size="21" font-weight="bold" fill="#16803c" text-anchor="middle">Пресмыкающиеся</text>
+<rect x="530" y="120" width="90" height="80" rx="14" fill="#93c5fd" stroke="#1e3a8a" stroke-width="3"/><text x="575.0" y="167.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">ПП</text>
+<rect x="630" y="120" width="90" height="80" rx="14" fill="#fca5a5" stroke="#991b1b" stroke-width="3"/><text x="675.0" y="167.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">ЛП</text>
+<rect x="530" y="215" width="190" height="110" rx="14" fill="url(#mix)" stroke="#5b21b6" stroke-width="3"/><text x="625.0" y="277.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle"></text>
+<line x1="625" y1="325" x2="625" y2="255" stroke="#374151" stroke-width="5"/>
+<text x="577" y="277" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">Ж</text>
+<text x="625" y="362" font-size="17" fill="#1f2937" text-anchor="middle">3 камеры, неполная</text>
+<text x="625" y="386" font-size="16" fill="#4b5563" text-anchor="middle">перегородка — смешение меньше</text>
+<text x="875" y="88" font-size="21" font-weight="bold" fill="#16803c" text-anchor="middle">Птицы и звери</text>
+<rect x="780" y="120" width="90" height="80" rx="14" fill="#93c5fd" stroke="#1e3a8a" stroke-width="3"/><text x="825.0" y="167.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">ПП</text>
+<rect x="880" y="120" width="90" height="80" rx="14" fill="#fca5a5" stroke="#991b1b" stroke-width="3"/><text x="925.0" y="167.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">ЛП</text>
+<rect x="780" y="215" width="90" height="110" rx="14" fill="#93c5fd" stroke="#1e3a8a" stroke-width="3"/><text x="825.0" y="277.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">ПЖ</text>
+<rect x="880" y="215" width="90" height="110" rx="14" fill="#fca5a5" stroke="#991b1b" stroke-width="3"/><text x="925.0" y="277.0" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">ЛЖ</text>
+<text x="875" y="362" font-size="17" fill="#1f2937" text-anchor="middle">4 камеры, 2 круга</text>
+<text x="875" y="386" font-size="16" fill="#4b5563" text-anchor="middle">кровь не смешивается</text>
+<text x="500" y="440" font-size="16" fill="#374151" text-anchor="middle">П — предсердие, Ж — желудочек; ПП/ЛП — правое и левое предсердия; ПЖ/ЛЖ — правый и левый желудочки.</text>
+<text x="500" y="462" font-size="16" fill="#374151" text-anchor="middle">Синий — венозная кровь, красный — артериальная, фиолетовый — смешанная. У крокодилов сердце тоже четырёхкамерное.</text>
+</svg>
