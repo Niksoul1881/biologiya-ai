@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Arial, Helvetica, sans-serif">
+  <title>Ярусы широколиственного леса</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0f2fe"/><stop offset="1" stop-color="#f0fdf4"/></linearGradient>
+  </defs>
+  <rect width="1000" height="720" fill="#ffffff"/>
+  <rect x="0" y="0" width="700" height="560" fill="url(#sky)"/>
+  <rect x="0" y="560" width="700" height="160" fill="#a16207" opacity="0.25"/>
+  <line x1="0" y1="560" x2="700" y2="560" stroke="#78350f" stroke-width="3"/>
+  <!-- 1 ярус: дубы -->
+  <g>
+    <rect x="148" y="160" width="22" height="400" fill="#78350f"/>
+    <ellipse cx="160" cy="120" rx="120" ry="80" fill="#166534"/>
+    <rect x="508" y="170" width="22" height="390" fill="#78350f"/>
+    <ellipse cx="520" cy="125" rx="130" ry="80" fill="#15803d"/>
+  </g>
+  <!-- 2 ярус: клён, рябина -->
+  <g>
+    <rect x="337" y="280" width="14" height="280" fill="#92400e"/>
+    <ellipse cx="344" cy="255" rx="75" ry="55" fill="#22c55e"/>
+    <circle cx="320" cy="270" r="5" fill="#dc2626"/><circle cx="360" cy="262" r="5" fill="#dc2626"/><circle cx="345" cy="285" r="5" fill="#dc2626"/>
+  </g>
+  <!-- 3 ярус: подлесок лещина -->
+  <g fill="#4ade80" stroke="#15803d" stroke-width="1">
+    <path d="M70,560 L45,445 M70,560 L70,440 M70,560 L95,445 M70,560 L58,455 M70,560 L82,455" stroke="#92400e" stroke-width="4" fill="none"/>
+    <ellipse cx="70" cy="430" rx="55" ry="40"/>
+    <path d="M432,560 L407,455 M432,560 L432,450 M432,560 L457,455 M432,560 L420,465 M432,560 L444,465" stroke="#92400e" stroke-width="4" fill="none"/>
+    <ellipse cx="432" cy="440" rx="50" ry="36"/>
+    <path d="M642,560 L617,460 M642,560 L642,455 M642,560 L667,460 M642,560 L630,470 M642,560 L654,470" stroke="#92400e" stroke-width="4" fill="none"/>
+    <ellipse cx="642" cy="447" rx="48" ry="34"/>
+  </g>
+  <!-- 4 ярус: травы -->
+  <g stroke="#16a34a" stroke-width="3" fill="none">
+    <path d="M110,560 q-6,-40 -18,-55 M110,560 q4,-45 10,-60 M115,560 q10,-35 24,-48"/>
+    <path d="M250,560 q-8,-35 -20,-50 M252,560 q2,-48 6,-62 M256,560 q12,-30 26,-44"/>
+    <path d="M580,560 q-6,-40 -18,-52 M582,560 q4,-45 10,-58 M586,560 q10,-35 24,-46"/>
+  </g>
+  <g fill="#a78bfa"><circle cx="120" cy="498" r="6"/><circle cx="258" cy="496" r="6"/><circle cx="592" cy="500" r="6"/></g>
+  <g fill="#fde047"><circle cx="196" cy="530" r="6"/><circle cx="480" cy="528" r="6"/><circle cx="380" cy="532" r="6"/></g>
+  <g stroke="#16a34a" stroke-width="3"><line x1="196" y1="560" x2="196" y2="532"/><line x1="480" y1="560" x2="480" y2="530"/><line x1="380" y1="560" x2="380" y2="534"/></g>
+  <!-- 5 ярус: мхи -->
+  <g fill="#65a30d">
+    <ellipse cx="40" cy="557" rx="30" ry="7"/><ellipse cx="300" cy="557" rx="40" ry="7"/><ellipse cx="460" cy="557" rx="25" ry="6"/><ellipse cx="680" cy="557" rx="25" ry="6"/>
+  </g>
+  <!-- корни -->
+  <g stroke="#78350f" fill="none" stroke-linecap="round">
+    <path d="M160,560 L160,700 M160,600 L110,650 M160,610 L215,665 M160,640 L130,700" stroke-width="5"/>
+    <path d="M520,560 L520,705 M520,600 L470,650 M520,615 L580,670" stroke-width="5"/>
+    <path d="M70,560 L60,620 M70,560 L85,615 M432,560 L425,615 M432,560 L445,610 M642,560 L635,612" stroke-width="3"/>
+    <path d="M110,560 l-6,25 M114,560 l6,24 M252,560 l-5,22 M256,560 l6,20 M582,560 l-5,22 M586,560 l6,20 M196,560 l0,18 M480,560 l0,18 M380,560 l0,18" stroke-width="2"/>
+  </g>
+  <!-- подписи -->
+  <g font-size="18" fill="#1f2937">
+    <line x1="700" y1="120" x2="720" y2="120" stroke="#15803d" stroke-width="2"/>
+    <text x="725" y="112" font-weight="bold" fill="#14532d">1 ярус — высокие деревья</text>
+    <text x="725" y="134">дуб, липа, ясень</text>
+    <line x1="700" y1="255" x2="720" y2="255" stroke="#15803d" stroke-width="2"/>
+    <text x="725" y="247" font-weight="bold" fill="#14532d">2 ярус — деревья пониже</text>
+    <text x="725" y="269">клён, рябина, дикая яблоня</text>
+    <line x1="700" y1="440" x2="720" y2="440" stroke="#15803d" stroke-width="2"/>
+    <text x="725" y="432" font-weight="bold" fill="#14532d">3 ярус — подлесок</text>
+    <text x="725" y="454">лещина, бересклет, крушина</text>
+    <line x1="700" y1="515" x2="720" y2="515" stroke="#15803d" stroke-width="2"/>
+    <text x="725" y="507" font-weight="bold" fill="#14532d">4 ярус — травы</text>
+    <text x="725" y="529">сныть, копытень, медуница</text>
+    <line x1="700" y1="557" x2="720" y2="560" stroke="#15803d" stroke-width="2"/>
+    <text x="725" y="568" font-weight="bold" fill="#14532d">5 ярус — мхи, лишайники</text>
+    <text x="725" y="625" font-weight="bold" fill="#78350f">Под землёй — тоже ярусы:</text>
+    <text x="725" y="648">глубокие корни деревьев,</text>
+    <text x="725" y="670">мельче — кустарников,</text>
+    <text x="725" y="692">у самой поверхности — трав</text>
+  </g>
+  <text x="350" y="30" font-size="22" font-weight="bold" fill="#14532d" text-anchor="middle">Ярусы дубравы (широколиственного леса)</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" font-family="Arial, Helvetica, sans-serif">
+  <title>Смена сообществ на гари</title>
+  <rect width="1000" height="420" fill="#ffffff"/>
+  <text x="500" y="32" font-size="22" font-weight="bold" fill="#14532d" text-anchor="middle">Смена сообществ на гари в тайге</text>
+  <!-- 5 панелей -->
+  <g stroke="#cbd5e1" stroke-width="1.5" fill="#f8fafc">
+    <rect x="10" y="50" width="185" height="250" rx="10"/>
+    <rect x="207" y="50" width="185" height="250" rx="10"/>
+    <rect x="404" y="50" width="185" height="250" rx="10"/>
+    <rect x="601" y="50" width="185" height="250" rx="10"/>
+    <rect x="798" y="50" width="192" height="250" rx="10"/>
+  </g>
+  <g stroke="#78350f" stroke-width="3">
+    <line x1="20" y1="270" x2="185" y2="270"/><line x1="217" y1="270" x2="382" y2="270"/><line x1="414" y1="270" x2="579" y2="270"/><line x1="611" y1="270" x2="776" y2="270"/><line x1="808" y1="270" x2="980" y2="270"/>
+  </g>
+  <!-- 1. гарь -->
+  <g>
+    <rect x="20" y="255" width="165" height="15" fill="#44403c"/>
+    <path d="M55,270 L58,190 L62,270 z" fill="#1c1917"/>
+    <path d="M120,270 L123,210 L127,270 z" fill="#1c1917"/>
+    <path d="M150,270 L152,230 L155,270 z" fill="#1c1917"/>
+  </g>
+  <!-- 2. иван-чай -->
+  <g>
+    <g stroke="#16a34a" stroke-width="3">
+      <line x1="240" y1="270" x2="240" y2="190"/><line x1="265" y1="270" x2="265" y2="175"/><line x1="290" y1="270" x2="290" y2="195"/>
+      <line x1="315" y1="270" x2="315" y2="180"/><line x1="340" y1="270" x2="340" y2="200"/><line x1="362" y1="270" x2="362" y2="185"/>
+    </g>
+    <g fill="#d946ef">
+      <ellipse cx="240" cy="200" rx="6" ry="14"/><ellipse cx="265" cy="185" rx="6" ry="14"/><ellipse cx="290" cy="205" rx="6" ry="14"/>
+      <ellipse cx="315" cy="190" rx="6" ry="14"/><ellipse cx="340" cy="210" rx="6" ry="14"/><ellipse cx="362" cy="195" rx="6" ry="14"/>
+    </g>
+  </g>
+  <!-- 3. берёзы и осины -->
+  <g>
+    <rect x="440" y="165" width="8" height="105" fill="#f5f5f4" stroke="#57534e"/>
+    <ellipse cx="444" cy="150" rx="28" ry="36" fill="#84cc16"/>
+    <rect x="495" y="150" width="8" height="120" fill="#f5f5f4" stroke="#57534e"/>
+    <ellipse cx="499" cy="132" rx="30" ry="38" fill="#a3e635"/>
+    <rect x="548" y="175" width="8" height="95" fill="#a8a29e"/>
+    <ellipse cx="552" cy="160" rx="24" ry="32" fill="#65a30d"/>
+  </g>
+  <!-- 4. смешанный: берёзы + молодые ели -->
+  <g>
+    <rect x="630" y="140" width="8" height="130" fill="#f5f5f4" stroke="#57534e"/>
+    <ellipse cx="634" cy="128" rx="30" ry="38" fill="#a3e635"/>
+    <rect x="740" y="145" width="8" height="125" fill="#f5f5f4" stroke="#57534e"/>
+    <ellipse cx="744" cy="132" rx="30" ry="38" fill="#84cc16"/>
+    <polygon points="688,170 668,270 708,270" fill="#166534"/>
+    <polygon points="660,215 648,270 672,270" fill="#166534"/>
+    <polygon points="712,225 702,270 722,270" fill="#166534"/>
+  </g>
+  <!-- 5. ельник -->
+  <g fill="#14532d">
+    <polygon points="840,100 812,270 868,270"/>
+    <polygon points="895,92 862,270 928,270"/>
+    <polygon points="950,110 925,270 975,270"/>
+  </g>
+  <g fill="#15803d">
+    <polygon points="840,135 818,205 862,205"/><polygon points="895,128 868,205 922,205"/><polygon points="950,145 930,212 970,212"/>
+  </g>
+  <!-- стрелки -->
+  <g fill="#15803d">
+    <polygon points="195,170 207,178 195,186"/><polygon points="392,170 404,178 392,186"/><polygon points="589,170 601,178 589,186"/><polygon points="786,170 798,178 786,186"/>
+  </g>
+  <!-- подписи -->
+  <g font-size="16" fill="#1f2937" text-anchor="middle">
+    <text x="102" y="73" font-weight="bold" fill="#14532d">1. Гарь</text>
+    <text x="102" y="322" font-weight="bold">0–2 года</text>
+    <text x="102" y="345">много света</text>
+    <text x="102" y="366">и золы</text>
+    <text x="299" y="73" font-weight="bold" fill="#14532d">2. Иван-чай</text>
+    <text x="299" y="322" font-weight="bold">2–5 лет</text>
+    <text x="299" y="345">травы, малина;</text>
+    <text x="299" y="366">семена приносит ветер</text>
+    <text x="496" y="73" font-weight="bold" fill="#14532d">3. Берёза, осина</text>
+    <text x="496" y="322" font-weight="bold">10–30 лет</text>
+    <text x="496" y="345">светолюбивые,</text>
+    <text x="496" y="366">растут быстро</text>
+    <text x="693" y="73" font-weight="bold" fill="#14532d">4. Смешанный лес</text>
+    <text x="693" y="322" font-weight="bold">30–80 лет</text>
+    <text x="693" y="345">в тени берёз</text>
+    <text x="693" y="366">поднимаются ели</text>
+    <text x="894" y="73" font-weight="bold" fill="#14532d">5. Ельник</text>
+    <text x="894" y="322" font-weight="bold">80–100 лет и больше</text>
+    <text x="894" y="345">ели затеняют</text>
+    <text x="894" y="366">берёзы и вытесняют их</text>
+  </g>
+  <text x="500" y="405" font-size="15" fill="#6b7280" text-anchor="middle">Сроки примерные: они зависят от климата, почвы и от того, насколько сильным был пожар.</text>
+</svg>
