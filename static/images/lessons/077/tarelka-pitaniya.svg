@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="500" fill="#ffffff"/>
+  <text x="450" y="36" text-anchor="middle" font-size="24" font-weight="bold" fill="#0f766e">Тарелка здорового питания</text>
+  <!-- Тарелка -->
+  <circle cx="330" cy="270" r="200" fill="#f3f4f6" stroke="#9ca3af" stroke-width="4"/>
+  <circle cx="330" cy="270" r="180" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <!-- Половина: овощи и фрукты (левая) -->
+  <path d="M330 270 L330 90 A180 180 0 0 0 330 450 Z" fill="#bbf7d0" stroke="#ffffff" stroke-width="4"/>
+  <!-- Четверть: цельные злаки (правая верхняя) -->
+  <path d="M330 270 L330 90 A180 180 0 0 1 510 270 Z" fill="#fde68a" stroke="#ffffff" stroke-width="4"/>
+  <!-- Четверть: белок (правая нижняя) -->
+  <path d="M330 270 L510 270 A180 180 0 0 1 330 450 Z" fill="#fecaca" stroke="#ffffff" stroke-width="4"/>
+  <g text-anchor="middle" fill="#1f2937">
+    <text x="235" y="250" font-size="21" font-weight="bold" fill="#166534">Овощи</text>
+    <text x="235" y="276" font-size="21" font-weight="bold" fill="#166534">и фрукты</text>
+    <text x="235" y="304" font-size="16">½ тарелки</text>
+    <text x="235" y="326" font-size="14" fill="#4b5563">больше овощей,</text>
+    <text x="235" y="344" font-size="14" fill="#4b5563">разных цветов</text>
+    <text x="410" y="205" font-size="18" font-weight="bold" fill="#92400e">Крупы, хлеб</text>
+    <text x="410" y="227" font-size="14" fill="#4b5563">лучше цельно-</text>
+    <text x="410" y="245" font-size="14" fill="#4b5563">зерновые, ¼</text>
+    <text x="408" y="320" font-size="18" font-weight="bold" fill="#991b1b">Белок</text>
+    <text x="408" y="342" font-size="14" fill="#4b5563">рыба, птица,</text>
+    <text x="408" y="360" font-size="14" fill="#4b5563">бобовые, яйца, ¼</text>
+  </g>
+  <!-- Стакан воды -->
+  <path d="M575 120 L635 120 L625 230 L585 230 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <text x="605" y="256" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">Вода</text>
+  <!-- Подсказки справа -->
+  <g font-size="16" fill="#1f2937">
+    <text x="670" y="120" font-weight="bold" fill="#0f766e">Плюс к тарелке:</text>
+    <text x="670" y="150">• вода — основной напиток</text>
+    <text x="670" y="176">• молочные продукты</text>
+    <text x="690" y="198">— источник кальция</text>
+    <text x="670" y="224">• растительное масло —</text>
+    <text x="690" y="246">понемногу</text>
+    <text x="670" y="300" font-weight="bold" fill="#b91c1c">Реже:</text>
+    <text x="670" y="328">• сладкие напитки</text>
+    <text x="670" y="354">• фастфуд, чипсы</text>
+    <text x="670" y="380">• колбасы, копчёности</text>
+    <text x="670" y="406">• сладости</text>
+  </g>
+</svg>
