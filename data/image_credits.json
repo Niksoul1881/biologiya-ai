@@ -193,5 +193,20 @@
   "source": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
   "author": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-",
   "license": "Public domain"
+ },
+ "/images/lessons/055/dekart-refleks.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Descartes-reflex.JPG",
+  "author": "René Descartes",
+  "license": "Public domain"
+ },
+ "/images/lessons/055/nervnaya-sistema.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:TE-Nervous_system_diagram-ru.svg",
+  "author": "The Emirr",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/055/neyron-shema.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Complete_neuron_cell_diagram_ru.svg",
+  "author": "Mariana Ruiz LadyofHats (original English version)\n\nWassily (Russian translation",
+  "license": "Public domain"
  }
 }
