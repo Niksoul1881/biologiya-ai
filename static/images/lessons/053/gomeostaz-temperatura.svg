@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="600" fill="#FFFFFF"/>
+  <defs>
+    <marker id="a" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto"><path d="M0,0 L16,8 L0,16 z" fill="#0F766E"/></marker>
+  </defs>
+  <text x="450" y="38" text-anchor="middle" font-size="25" font-weight="bold" fill="#1F2937">Гомеостаз: как организм держит температуру ≈ 36,6 °C</text>
+  <!-- center -->
+  <circle cx="450" cy="320" r="92" fill="#ECFDF5" stroke="#16A34A" stroke-width="4"/>
+  <text x="450" y="300" text-anchor="middle" font-size="20" font-weight="bold" fill="#166534">НОРМА</text>
+  <text x="450" y="332" text-anchor="middle" font-size="30" font-weight="bold" fill="#166534">36–37 °C</text>
+  <text x="450" y="360" text-anchor="middle" font-size="15" fill="#166534">температура тела</text>
+  <!-- boxes -->
+  <g font-size="17" fill="#1F2937">
+    <rect x="40" y="80" width="250" height="110" rx="14" fill="#FEE2E2" stroke="#DC2626" stroke-width="3"/>
+    <text x="165" y="112" text-anchor="middle" font-weight="bold" font-size="19">1. Отклонение</text>
+    <text x="165" y="140" text-anchor="middle">жаркий день, бег —</text>
+    <text x="165" y="163" text-anchor="middle">температура растёт</text>
+
+    <rect x="610" y="80" width="250" height="110" rx="14" fill="#FEF3C7" stroke="#D97706" stroke-width="3"/>
+    <text x="735" y="112" text-anchor="middle" font-weight="bold" font-size="19">2. Рецепторы</text>
+    <text x="735" y="140" text-anchor="middle">терморецепторы кожи</text>
+    <text x="735" y="163" text-anchor="middle">и мозга замечают</text>
+
+    <rect x="610" y="440" width="250" height="125" rx="14" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+    <text x="735" y="472" text-anchor="middle" font-weight="bold" font-size="19">3. Центр регуляции</text>
+    <text x="735" y="500" text-anchor="middle">гипоталамус сравнивает</text>
+    <text x="735" y="523" text-anchor="middle">с нормой и даёт</text>
+    <text x="735" y="546" text-anchor="middle">команду</text>
+
+    <rect x="40" y="440" width="250" height="125" rx="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+    <text x="165" y="472" text-anchor="middle" font-weight="bold" font-size="19">4. Исполнители</text>
+    <text x="165" y="500" text-anchor="middle">потовые железы, сосуды</text>
+    <text x="165" y="523" text-anchor="middle">кожи расширяются —</text>
+    <text x="165" y="546" text-anchor="middle">тело остывает</text>
+  </g>
+  <g stroke="#0F766E" stroke-width="4" fill="none" marker-end="url(#a)">
+    <line x1="295" y1="135" x2="602" y2="135"/>
+    <line x1="735" y1="195" x2="735" y2="432"/>
+    <line x1="605" y1="502" x2="298" y2="502"/>
+    <path d="M200,435 C200,390 300,360 352,340"/>
+    <path d="M330,250 C300,230 260,215 230,196"/>
+  </g>
+  <text x="450" y="125" text-anchor="middle" font-size="15" fill="#0F766E">сигнал</text>
+  <text x="752" y="320" font-size="15" fill="#0F766E">нервный</text>
+  <text x="752" y="340" font-size="15" fill="#0F766E">импульс</text>
+  <text x="450" y="492" text-anchor="middle" font-size="15" fill="#0F766E">команда по нервам</text>
+  <text x="300" y="420" font-size="15" fill="#166534" font-weight="bold">возврат к норме</text>
+  <text x="140" y="240" font-size="15" fill="#B91C1C" font-weight="bold">выход из нормы</text>
+  <text x="450" y="590" text-anchor="middle" font-size="15" fill="#6B7280">Отрицательная обратная связь: ответ организма направлен против отклонения</text>
+</svg>
