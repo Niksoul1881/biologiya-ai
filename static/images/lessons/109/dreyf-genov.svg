@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" width="1000" height="430" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1000" height="430" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker></defs>
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Дрейф генов: эффект «бутылочного горлышка»</text>
+<path d="M40,90 L330,90 Q380,90 400,170 L420,190 L580,190 L600,170 Q620,90 670,90 L960,90 L960,330 L670,330 Q620,330 600,250 L580,230 L420,230 L400,250 Q380,330 330,330 L40,330 Z" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="2"/>
+<circle cx="209" cy="200" r="8" fill="#2563EB"/>
+<circle cx="129" cy="272" r="8" fill="#16A34A"/>
+<circle cx="241" cy="156" r="8" fill="#2563EB"/>
+<circle cx="290" cy="258" r="8" fill="#16A34A"/>
+<circle cx="78" cy="193" r="8" fill="#16A34A"/>
+<circle cx="257" cy="137" r="8" fill="#16A34A"/>
+<circle cx="182" cy="113" r="8" fill="#F59E0B"/>
+<circle cx="232" cy="266" r="8" fill="#2563EB"/>
+<circle cx="205" cy="289" r="8" fill="#2563EB"/>
+<circle cx="133" cy="251" r="8" fill="#2563EB"/>
+<circle cx="211" cy="227" r="8" fill="#F59E0B"/>
+<circle cx="173" cy="281" r="8" fill="#2563EB"/>
+<circle cx="310" cy="205" r="8" fill="#2563EB"/>
+<circle cx="241" cy="241" r="8" fill="#F59E0B"/>
+<circle cx="125" cy="186" r="8" fill="#16A34A"/>
+<circle cx="174" cy="140" r="8" fill="#16A34A"/>
+<circle cx="171" cy="220" r="8" fill="#F59E0B"/>
+<circle cx="287" cy="163" r="8" fill="#F59E0B"/>
+<circle cx="161" cy="180" r="8" fill="#F59E0B"/>
+<circle cx="110" cy="154" r="8" fill="#16A34A"/>
+<circle cx="238" cy="213" r="8" fill="#2563EB"/>
+<circle cx="218" cy="247" r="8" fill="#F59E0B"/>
+<circle cx="268" cy="187" r="8" fill="#F59E0B"/>
+<circle cx="157" cy="127" r="8" fill="#16A34A"/>
+<circle cx="223" cy="118" r="8" fill="#16A34A"/>
+<circle cx="90" cy="176" r="8" fill="#16A34A"/>
+<circle cx="290" cy="234" r="8" fill="#16A34A"/>
+<circle cx="87" cy="158" r="8" fill="#16A34A"/>
+<circle cx="142" cy="181" r="8" fill="#2563EB"/>
+<circle cx="86" cy="219" r="8" fill="#2563EB"/>
+<circle cx="261" cy="217" r="8" fill="#F59E0B"/>
+<circle cx="107" cy="275" r="8" fill="#F59E0B"/>
+<circle cx="271" cy="277" r="8" fill="#16A34A"/>
+<circle cx="190" cy="180" r="8" fill="#F59E0B"/>
+<circle cx="170" cy="302" r="8" fill="#2563EB"/>
+<circle cx="147" cy="151" r="8" fill="#2563EB"/>
+<circle cx="102" cy="236" r="8" fill="#16A34A"/>
+<circle cx="179" cy="242" r="8" fill="#16A34A"/>
+<circle cx="230" cy="296" r="8" fill="#F59E0B"/>
+<circle cx="229" cy="179" r="8" fill="#16A34A"/>
+<circle cx="199" cy="133" r="8" fill="#2563EB"/>
+<circle cx="209" cy="159" r="8" fill="#16A34A"/>
+<circle cx="300" cy="179" r="8" fill="#F59E0B"/>
+<circle cx="194" cy="215" r="8" fill="#F59E0B"/>
+<circle cx="118" cy="222" r="8" fill="#2563EB"/>
+<circle cx="263" cy="162" r="8" fill="#2563EB"/>
+<circle cx="117" cy="136" r="8" fill="#2563EB"/>
+<circle cx="241" cy="124" r="8" fill="#F59E0B"/>
+<circle cx="308" cy="238" r="8" fill="#16A34A"/>
+<circle cx="287" cy="200" r="8" fill="#F59E0B"/>
+<circle cx="140" cy="221" r="8" fill="#F59E0B"/>
+<circle cx="170" cy="160" r="8" fill="#2563EB"/>
+<circle cx="152" cy="205" r="8" fill="#F59E0B"/>
+<circle cx="193" cy="263" r="8" fill="#16A34A"/>
+<circle cx="87" cy="257" r="8" fill="#2563EB"/>
+<circle cx="192" cy="305" r="8" fill="#2563EB"/>
+<circle cx="183" cy="200" r="8" fill="#16A34A"/>
+<circle cx="210" cy="181" r="8" fill="#F59E0B"/>
+<circle cx="171" cy="263" r="8" fill="#2563EB"/>
+<circle cx="65" cy="215" r="8" fill="#F59E0B"/>
+<text x="185" y="355" font-size="15" fill="#111827" text-anchor="middle" font-weight="bold">Исходная популяция</text>
+<text x="185" y="375" font-size="14" fill="#374151" text-anchor="middle">три аллеля встречаются поровну (по 1/3)</text>
+<circle cx="461" cy="213" r="7" fill="#2563EB"/>
+<circle cx="494" cy="223" r="7" fill="#F59E0B"/>
+<circle cx="520" cy="221" r="7" fill="#F59E0B"/>
+<circle cx="497" cy="203" r="7" fill="#F59E0B"/>
+<circle cx="529" cy="205" r="7" fill="#F59E0B"/>
+<text x="500" y="270" font-size="14" fill="#DC2626" text-anchor="middle" font-weight="bold">катастрофа:</text>
+<text x="500" y="288" font-size="14" fill="#DC2626" text-anchor="middle">выжили 5 случайных</text>
+<text x="500" y="306" font-size="14" fill="#DC2626" text-anchor="middle">носителей аллелей</text>
+<circle cx="727" cy="199" r="8" fill="#F59E0B"/>
+<circle cx="874" cy="171" r="8" fill="#F59E0B"/>
+<circle cx="721" cy="145" r="8" fill="#2563EB"/>
+<circle cx="858" cy="215" r="8" fill="#F59E0B"/>
+<circle cx="806" cy="170" r="8" fill="#F59E0B"/>
+<circle cx="878" cy="281" r="8" fill="#F59E0B"/>
+<circle cx="698" cy="193" r="8" fill="#F59E0B"/>
+<circle cx="923" cy="223" r="8" fill="#F59E0B"/>
+<circle cx="887" cy="185" r="8" fill="#F59E0B"/>
+<circle cx="872" cy="146" r="8" fill="#F59E0B"/>
+<circle cx="827" cy="199" r="8" fill="#F59E0B"/>
+<circle cx="766" cy="260" r="8" fill="#F59E0B"/>
+<circle cx="808" cy="238" r="8" fill="#F59E0B"/>
+<circle cx="744" cy="236" r="8" fill="#2563EB"/>
+<circle cx="788" cy="184" r="8" fill="#F59E0B"/>
+<circle cx="805" cy="274" r="8" fill="#F59E0B"/>
+<circle cx="693" cy="232" r="8" fill="#F59E0B"/>
+<circle cx="884" cy="250" r="8" fill="#F59E0B"/>
+<circle cx="877" cy="230" r="8" fill="#F59E0B"/>
+<circle cx="705" cy="255" r="8" fill="#F59E0B"/>
+<circle cx="741" cy="286" r="8" fill="#F59E0B"/>
+<circle cx="785" cy="139" r="8" fill="#F59E0B"/>
+<circle cx="789" cy="241" r="8" fill="#2563EB"/>
+<circle cx="810" cy="219" r="8" fill="#2563EB"/>
+<circle cx="850" cy="149" r="8" fill="#2563EB"/>
+<circle cx="826" cy="268" r="8" fill="#F59E0B"/>
+<circle cx="757" cy="164" r="8" fill="#F59E0B"/>
+<circle cx="748" cy="197" r="8" fill="#2563EB"/>
+<circle cx="907" cy="146" r="8" fill="#2563EB"/>
+<circle cx="696" cy="213" r="8" fill="#F59E0B"/>
+<circle cx="725" cy="232" r="8" fill="#F59E0B"/>
+<circle cx="786" cy="162" r="8" fill="#F59E0B"/>
+<circle cx="792" cy="116" r="8" fill="#F59E0B"/>
+<circle cx="855" cy="187" r="8" fill="#F59E0B"/>
+<circle cx="788" cy="303" r="8" fill="#F59E0B"/>
+<circle cx="837" cy="182" r="8" fill="#2563EB"/>
+<circle cx="891" cy="132" r="8" fill="#F59E0B"/>
+<circle cx="835" cy="300" r="8" fill="#F59E0B"/>
+<circle cx="897" cy="274" r="8" fill="#2563EB"/>
+<circle cx="759" cy="281" r="8" fill="#F59E0B"/>
+<circle cx="763" cy="233" r="8" fill="#F59E0B"/>
+<circle cx="853" cy="123" r="8" fill="#F59E0B"/>
+<circle cx="719" cy="180" r="8" fill="#F59E0B"/>
+<circle cx="863" cy="245" r="8" fill="#F59E0B"/>
+<circle cx="766" cy="187" r="8" fill="#2563EB"/>
+<circle cx="816" cy="143" r="8" fill="#F59E0B"/>
+<circle cx="805" cy="199" r="8" fill="#F59E0B"/>
+<circle cx="848" cy="277" r="8" fill="#F59E0B"/>
+<circle cx="900" cy="211" r="8" fill="#F59E0B"/>
+<circle cx="926" cy="242" r="8" fill="#F59E0B"/>
+<circle cx="841" cy="234" r="8" fill="#F59E0B"/>
+<circle cx="746" cy="217" r="8" fill="#F59E0B"/>
+<circle cx="915" cy="260" r="8" fill="#2563EB"/>
+<circle cx="768" cy="122" r="8" fill="#F59E0B"/>
+<circle cx="737" cy="166" r="8" fill="#F59E0B"/>
+<circle cx="873" cy="200" r="8" fill="#F59E0B"/>
+<circle cx="781" cy="284" r="8" fill="#F59E0B"/>
+<circle cx="744" cy="148" r="8" fill="#F59E0B"/>
+<circle cx="856" cy="167" r="8" fill="#F59E0B"/>
+<circle cx="943" cy="213" r="8" fill="#2563EB"/>
+<text x="815" y="355" font-size="15" fill="#111827" text-anchor="middle" font-weight="bold">Через несколько поколений</text>
+<text x="815" y="375" font-size="14" fill="#374151" text-anchor="middle">аллель 2 — 80%, аллель 1 — 20%, аллеля 3 нет</text>
+<text x="500" y="415" text-anchor="middle" font-size="14" fill="#374151">Частоты изменились случайно — не потому, что аллель 2 полезнее. Кружок — один аллель в генофонде.</text>
+<circle cx="600" cy="62" r="7" fill="#2563EB"/>
+<text x="612" y="67" font-size="13" fill="#374151" text-anchor="start">аллель 1</text>
+<circle cx="705" cy="62" r="7" fill="#F59E0B"/>
+<text x="717" y="67" font-size="13" fill="#374151" text-anchor="start">аллель 2</text>
+<circle cx="810" cy="62" r="7" fill="#16A34A"/>
+<text x="822" y="67" font-size="13" fill="#374151" text-anchor="start">аллель 3</text>
+</svg>
