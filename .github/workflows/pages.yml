@@ -1,0 +1,47 @@
+# Сборка и публикация на GitHub Pages (https://niksoul1881.github.io/biologiya-ai/).
+# Сайт живёт в подпапке /biologiya-ai/, поэтому после сборки ссылки от корня ("/...") переписываются
+# под неё. Когда будет свой домен — убрать шаг «Ссылки под подпапку» и поменять baseURL.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.151.0"
+          extended: true
+      - name: Сборка
+        run: hugo --minify --baseURL "https://niksoul1881.github.io/biologiya-ai/"
+      - name: Ссылки под подпапку
+        run: |
+          find public -name '*.html' -print0 | xargs -0 sed -i -E \
+            's#(href|src|action)="/([^/])#\1="/biologiya-ai/\2#g; s#(href|src)="/"#\1="/biologiya-ai/"#g'
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
