@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="520" fill="#fff"/>
+<path d="M120,260 C160,170 330,150 470,175 C590,195 680,235 760,262 C690,285 590,325 470,345 C330,370 160,350 120,260 Z" fill="#ecfccb" stroke="#3f6212" stroke-width="4"/>
+<path d="M128,252 C150,248 170,245 190,250 C200,262 190,275 170,276 C150,276 135,268 128,262 Z" fill="#dbeafe" stroke="#1e40af" stroke-width="1.5"/>
+<path d="M140,255 C110,230 90,200 70,190 C50,180 40,150 55,120 C70,95 60,70 40,50" stroke="#3f6212" stroke-width="3.5" fill="none"/>
+<ellipse cx="185" cy="232" rx="12" ry="8" fill="#dc2626"/>
+<circle cx="215" cy="282" r="16" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+<ellipse cx="470" cy="262" rx="44" ry="36" fill="#ddd6fe" stroke="#5b21b6" stroke-width="2.5"/><circle cx="478" cy="258" r="11" fill="#6d28d9"/>
+<ellipse cx="270" cy="210" rx="24" ry="10" fill="#22c55e" stroke="#166534" stroke-width="1.5" transform="rotate(-10 270 210)"/>
+<ellipse cx="300" cy="300" rx="24" ry="10" fill="#22c55e" stroke="#166534" stroke-width="1.5" transform="rotate(10 300 300)"/>
+<ellipse cx="350" cy="195" rx="24" ry="10" fill="#22c55e" stroke="#166534" stroke-width="1.5" transform="rotate(-5 350 195)"/>
+<ellipse cx="370" cy="320" rx="24" ry="10" fill="#22c55e" stroke="#166534" stroke-width="1.5" transform="rotate(5 370 320)"/>
+<ellipse cx="560" cy="215" rx="24" ry="10" fill="#22c55e" stroke="#166534" stroke-width="1.5" transform="rotate(8 560 215)"/>
+<ellipse cx="600" cy="300" rx="24" ry="10" fill="#22c55e" stroke="#166534" stroke-width="1.5" transform="rotate(-8 600 300)"/>
+<ellipse cx="650" cy="245" rx="24" ry="10" fill="#22c55e" stroke="#166534" stroke-width="1.5" transform="rotate(0 650 245)"/>
+<ellipse cx="330" cy="255" rx="24" ry="10" fill="#22c55e" stroke="#166534" stroke-width="1.5" transform="rotate(90 330 255)"/>
+<ellipse cx="560" cy="275" rx="24" ry="10" fill="#22c55e" stroke="#166534" stroke-width="1.5" transform="rotate(80 560 275)"/>
+<ellipse cx="700" cy="262" rx="24" ry="10" fill="#22c55e" stroke="#166534" stroke-width="1.5" transform="rotate(0 700 262)"/>
+<ellipse cx="260" cy="262" rx="9" ry="5" fill="#ffffff" stroke="#a3a3a3"/>
+<ellipse cx="400" cy="232" rx="9" ry="5" fill="#ffffff" stroke="#a3a3a3"/>
+<ellipse cx="410" cy="295" rx="9" ry="5" fill="#ffffff" stroke="#a3a3a3"/>
+<ellipse cx="530" cy="320" rx="9" ry="5" fill="#ffffff" stroke="#a3a3a3"/>
+<ellipse cx="620" cy="270" rx="9" ry="5" fill="#ffffff" stroke="#a3a3a3"/>
+<ellipse cx="520" cy="205" rx="9" ry="5" fill="#ffffff" stroke="#a3a3a3"/>
+<line x1="110" y1="80" x2="52" y2="110" stroke="#374151" stroke-width="1.5"/><circle cx="52" cy="110" r="3" fill="#374151"/>
+<text x="118" y="85" font-size="19" font-weight="bold" text-anchor="start" fill="#111827">Жгутик</text>
+<line x1="240" y1="110" x2="186" y2="226" stroke="#374151" stroke-width="1.5"/><circle cx="186" cy="226" r="3" fill="#374151"/>
+<text x="248" y="95" font-size="19" font-weight="bold" text-anchor="start" fill="#111827">Светочувствительный</text>
+<text x="248" y="117" font-size="19" font-weight="bold" text-anchor="start" fill="#111827">глазок (стигма)</text>
+<line x1="150" y1="420" x2="212" y2="296" stroke="#374151" stroke-width="1.5"/><circle cx="212" cy="296" r="3" fill="#374151"/>
+<text x="60" y="440" font-size="19" font-weight="bold" text-anchor="start" fill="#111827">Сократительная вакуоль</text>
+<line x1="420" y1="450" x2="470" y2="292" stroke="#374151" stroke-width="1.5"/><circle cx="470" cy="292" r="3" fill="#374151"/>
+<text x="380" y="470" font-size="19" font-weight="bold" text-anchor="start" fill="#111827">Ядро</text>
+<line x1="640" y1="110" x2="600" y2="214" stroke="#374151" stroke-width="1.5"/><circle cx="600" cy="214" r="3" fill="#374151"/>
+<text x="560" y="95" font-size="19" font-weight="bold" text-anchor="start" fill="#111827">Хлоропласты</text>
+<line x1="760" y1="400" x2="622" y2="274" stroke="#374151" stroke-width="1.5"/><circle cx="622" cy="274" r="3" fill="#374151"/>
+<text x="690" y="420" font-size="19" font-weight="bold" text-anchor="start" fill="#111827">Зёрна запасного</text>
+<text x="690" y="442" font-size="19" font-weight="bold" text-anchor="start" fill="#111827">углевода</text>
+<line x1="800" y1="180" x2="740" y2="255" stroke="#374151" stroke-width="1.5"/><circle cx="740" cy="255" r="3" fill="#374151"/>
+<text x="740" y="165" font-size="19" font-weight="bold" text-anchor="start" fill="#111827">Пелликула —</text>
+<text x="740" y="187" font-size="17" text-anchor="start" fill="#111827">плотная оболочка</text>
+<text x="450" y="505" font-size="16" text-anchor="middle" fill="#4b5563">длина клетки — около 0,05 мм</text>
+</svg>

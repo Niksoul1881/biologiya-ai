@@ -173,5 +173,25 @@
   "source": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
   "author": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-",
   "license": "Public domain"
+ },
+ "/images/lessons/032/ameba.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Amoeba_proteus.jpg",
+  "author": "Cymothoa exigua",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/032/infuzoriya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Paramecium-ru.jpg",
+  "author": "HonzaXJ, russian text: Юкатан",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/032/radiolyarii.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Haeckel_Spyroidea.jpg",
+  "author": "Ernst Haeckel",
+  "license": "Public domain"
+ },
+ "/images/lessons/032/levenguk.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Anthonie_van_Leeuwenhoek_(1632-1723)._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg",
+  "author": "Jan Verkolje",
+  "license": "Public domain"
  }
 }
