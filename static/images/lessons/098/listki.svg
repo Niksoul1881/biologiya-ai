@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="380" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<text x="450.0" y="32" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold">Что развивается из зародышевых листков</text>
+<rect x="30" y="60" width="270" height="305" rx="14" fill="#e3f0fa" stroke="#4f9fd6"/>
+<rect x="30" y="60" width="270" height="58" rx="14" fill="#4f9fd6" stroke="none"/>
+<rect x="30" y="100" width="270" height="18" rx="0" fill="#4f9fd6" stroke="none"/>
+<text x="165" y="88" font-size="20" text-anchor="middle" fill="#fff" font-weight="bold">Эктодерма</text>
+<text x="165" y="110" font-size="13" text-anchor="middle" fill="#fff">наружный листок</text>
+<text x="46" y="148" font-size="15" text-anchor="start" fill="#4f9fd6" font-weight="bold">•</text>
+<text x="60" y="148" font-size="14" text-anchor="start" fill="#333">эпидермис кожи, волосы,</text>
+<text x="60" y="168" font-size="14" text-anchor="start" fill="#333">ногти, перья, чешуя</text>
+<text x="46" y="200" font-size="15" text-anchor="start" fill="#4f9fd6" font-weight="bold">•</text>
+<text x="60" y="200" font-size="14" text-anchor="start" fill="#333">потовые и сальные железы</text>
+<text x="46" y="232" font-size="15" text-anchor="start" fill="#4f9fd6" font-weight="bold">•</text>
+<text x="60" y="232" font-size="14" text-anchor="start" fill="#333">нервная система: головной</text>
+<text x="60" y="252" font-size="14" text-anchor="start" fill="#333">и спинной мозг, нервы</text>
+<text x="46" y="284" font-size="15" text-anchor="start" fill="#4f9fd6" font-weight="bold">•</text>
+<text x="60" y="284" font-size="14" text-anchor="start" fill="#333">органы чувств: сетчатка,</text>
+<text x="60" y="304" font-size="14" text-anchor="start" fill="#333">хрусталик, внутреннее ухо</text>
+<text x="46" y="336" font-size="15" text-anchor="start" fill="#4f9fd6" font-weight="bold">•</text>
+<text x="60" y="336" font-size="14" text-anchor="start" fill="#333">эмаль зубов</text>
+<rect x="320" y="60" width="270" height="305" rx="14" fill="#fbe4e3" stroke="#d9534f"/>
+<rect x="320" y="60" width="270" height="58" rx="14" fill="#d9534f" stroke="none"/>
+<rect x="320" y="100" width="270" height="18" rx="0" fill="#d9534f" stroke="none"/>
+<text x="455" y="88" font-size="20" text-anchor="middle" fill="#fff" font-weight="bold">Мезодерма</text>
+<text x="455" y="110" font-size="13" text-anchor="middle" fill="#fff">средний листок</text>
+<text x="336" y="148" font-size="15" text-anchor="start" fill="#d9534f" font-weight="bold">•</text>
+<text x="350" y="148" font-size="14" text-anchor="start" fill="#333">скелет: кости и хрящи</text>
+<text x="336" y="180" font-size="15" text-anchor="start" fill="#d9534f" font-weight="bold">•</text>
+<text x="350" y="180" font-size="14" text-anchor="start" fill="#333">мышцы: скелетные,</text>
+<text x="350" y="200" font-size="14" text-anchor="start" fill="#333">сердечная, гладкие</text>
+<text x="336" y="232" font-size="15" text-anchor="start" fill="#d9534f" font-weight="bold">•</text>
+<text x="350" y="232" font-size="14" text-anchor="start" fill="#333">кровь и лимфа</text>
+<text x="336" y="264" font-size="15" text-anchor="start" fill="#d9534f" font-weight="bold">•</text>
+<text x="350" y="264" font-size="14" text-anchor="start" fill="#333">сердце и сосуды</text>
+<text x="336" y="296" font-size="15" text-anchor="start" fill="#d9534f" font-weight="bold">•</text>
+<text x="350" y="296" font-size="14" text-anchor="start" fill="#333">почки, половые железы</text>
+<text x="336" y="328" font-size="15" text-anchor="start" fill="#d9534f" font-weight="bold">•</text>
+<text x="350" y="328" font-size="14" text-anchor="start" fill="#333">дерма кожи,</text>
+<text x="350" y="348" font-size="14" text-anchor="start" fill="#333">соединительная ткань</text>
+<rect x="610" y="60" width="270" height="305" rx="14" fill="#fcefe0" stroke="#e3964a"/>
+<rect x="610" y="60" width="270" height="58" rx="14" fill="#e3964a" stroke="none"/>
+<rect x="610" y="100" width="270" height="18" rx="0" fill="#e3964a" stroke="none"/>
+<text x="745" y="88" font-size="20" text-anchor="middle" fill="#fff" font-weight="bold">Энтодерма</text>
+<text x="745" y="110" font-size="13" text-anchor="middle" fill="#fff">внутренний листок</text>
+<text x="626" y="148" font-size="15" text-anchor="start" fill="#e3964a" font-weight="bold">•</text>
+<text x="640" y="148" font-size="14" text-anchor="start" fill="#333">эпителий кишечника</text>
+<text x="626" y="180" font-size="15" text-anchor="start" fill="#e3964a" font-weight="bold">•</text>
+<text x="640" y="180" font-size="14" text-anchor="start" fill="#333">печень и</text>
+<text x="640" y="200" font-size="14" text-anchor="start" fill="#333">поджелудочная железа</text>
+<text x="626" y="232" font-size="15" text-anchor="start" fill="#e3964a" font-weight="bold">•</text>
+<text x="640" y="232" font-size="14" text-anchor="start" fill="#333">эпителий лёгких</text>
+<text x="640" y="252" font-size="14" text-anchor="start" fill="#333">и дыхательных путей</text>
+<text x="626" y="284" font-size="15" text-anchor="start" fill="#e3964a" font-weight="bold">•</text>
+<text x="640" y="284" font-size="14" text-anchor="start" fill="#333">щитовидная железа</text>
+<text x="626" y="316" font-size="15" text-anchor="start" fill="#e3964a" font-weight="bold">•</text>
+<text x="640" y="316" font-size="14" text-anchor="start" fill="#333">эпителий мочевого пузыря</text>
+</svg>

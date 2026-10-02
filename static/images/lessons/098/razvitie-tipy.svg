@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="560" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<text x="450.0" y="32" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold">Типы постэмбрионального развития</text>
+<rect x="20" y="52" width="860" height="150" rx="0" fill="#fff8ef" stroke="none"/>
+<text x="30" y="76" font-size="15" text-anchor="start" fill="#b85c00" font-weight="bold">Непрямое развитие с полным превращением (бабочки, жуки, мухи)</text>
+<ellipse cx="110" cy="140" rx="14" ry="19" fill="#fff6d5" stroke="#b8860b" stroke-width="2"/>
+<text x="110" y="188" font-size="13" text-anchor="middle" fill="#333">яйцо</text>
+<path d="M 135 140 L 185 140" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="212" cy="140" r="9" fill="#9ccc65" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="227" cy="140" r="9" fill="#9ccc65" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="242" cy="140" r="9" fill="#9ccc65" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="257" cy="140" r="9" fill="#9ccc65" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="272" cy="140" r="9" fill="#9ccc65" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="287" cy="140" r="9" fill="#9ccc65" stroke="#558b2f" stroke-width="1.5"/>
+<circle cx="300" cy="137" r="10" fill="#7cb342" stroke="#558b2f" stroke-width="1.5"/>
+<text x="255" y="188" font-size="13" text-anchor="middle" fill="#333">личинка (гусеница)</text>
+<path d="M 320 140 L 380 140" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<ellipse cx="420" cy="140" rx="15" ry="32" fill="#c8a165" stroke="#8d6e3f" stroke-width="2"/><path d="M 408 130 L 432 130 M 406 144 L 434 144 M 408 158 L 432 158" stroke="#8d6e3f" stroke-width="1.2"/>
+<text x="420" y="188" font-size="13" text-anchor="middle" fill="#333">куколка</text>
+<path d="M 445 140 L 510 140" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<ellipse cx="548" cy="121" rx="22" ry="18" fill="#ffb74d" stroke="#e65100" stroke-width="2"/><ellipse cx="592" cy="121" rx="22" ry="18" fill="#ffb74d" stroke="#e65100" stroke-width="2"/>
+<ellipse cx="554" cy="149" rx="14" ry="12" fill="#ffcc80" stroke="#e65100" stroke-width="2"/><ellipse cx="586" cy="149" rx="14" ry="12" fill="#ffcc80" stroke="#e65100" stroke-width="2"/>
+<ellipse cx="570" cy="135" rx="4" ry="24" fill="#4e342e"/>
+<text x="570" y="188" font-size="13" text-anchor="middle" fill="#333">взрослое насекомое</text>
+<text x="780" y="125" font-size="12" text-anchor="middle" fill="#555">личинка совсем</text>
+<text x="780" y="141" font-size="12" text-anchor="middle" fill="#555">не похожа</text>
+<text x="780" y="157" font-size="12" text-anchor="middle" fill="#555">на взрослое</text>
+<rect x="20" y="212" width="860" height="150" rx="0" fill="#f3f9ec" stroke="none"/>
+<text x="30" y="236" font-size="15" text-anchor="start" fill="#33691e" font-weight="bold">Непрямое развитие с неполным превращением (кузнечики, саранча, тараканы, клопы)</text>
+<ellipse cx="110" cy="300" rx="14" ry="19" fill="#fff6d5" stroke="#b8860b" stroke-width="2"/>
+<text x="110" y="348" font-size="13" text-anchor="middle" fill="#333">яйцо</text>
+<path d="M 135 300 L 195 300" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<g transform="translate(260,305) scale(0.7)"><ellipse cx="0" cy="0" rx="34" ry="10" fill="#8bc34a" stroke="#33691e" stroke-width="2"/><circle cx="36" cy="-3" r="9" fill="#8bc34a" stroke="#33691e" stroke-width="2"/><path d="M -10 6 L -30 22 L -40 8" fill="none" stroke="#33691e" stroke-width="2.5"/><path d="M 10 8 L 6 20 M 20 8 L 24 20" stroke="#33691e" stroke-width="2"/><path d="M 42 -10 Q 60 -30 70 -24" fill="none" stroke="#33691e" stroke-width="1.5"/></g>
+<text x="265" y="348" font-size="13" text-anchor="middle" fill="#333">личинка (без крыльев)</text>
+<path d="M 330 300 L 410 300" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<g transform="translate(480,305) scale(1.0)"><ellipse cx="0" cy="0" rx="34" ry="10" fill="#8bc34a" stroke="#33691e" stroke-width="2"/><circle cx="36" cy="-3" r="9" fill="#8bc34a" stroke="#33691e" stroke-width="2"/><path d="M -20 -8 L 25 -12 L -28 -2 z" fill="#c5e1a5" stroke="#33691e" stroke-width="1.5"/><path d="M -10 6 L -30 22 L -40 8" fill="none" stroke="#33691e" stroke-width="2.5"/><path d="M 10 8 L 6 20 M 20 8 L 24 20" stroke="#33691e" stroke-width="2"/><path d="M 42 -10 Q 60 -30 70 -24" fill="none" stroke="#33691e" stroke-width="1.5"/></g>
+<text x="490" y="348" font-size="13" text-anchor="middle" fill="#333">взрослое насекомое</text>
+<text x="760" y="285" font-size="12" text-anchor="middle" fill="#555">стадии куколки нет;</text>
+<text x="760" y="301" font-size="12" text-anchor="middle" fill="#555">личинка похожа</text>
+<text x="760" y="317" font-size="12" text-anchor="middle" fill="#555">на взрослое, растёт</text>
+<text x="760" y="333" font-size="12" text-anchor="middle" fill="#555">и линяет</text>
+<rect x="20" y="372" width="860" height="150" rx="0" fill="#eef6fb" stroke="none"/>
+<text x="30" y="396" font-size="15" text-anchor="start" fill="#1d4f86" font-weight="bold">Земноводные: личинка-головастик → метаморфоз</text>
+<circle cx="100" cy="455" r="8" fill="#e0f7fa" stroke="#555" stroke-width="1.2"/><circle cx="100" cy="455" r="3" fill="#333"/>
+<circle cx="116" cy="461" r="8" fill="#e0f7fa" stroke="#555" stroke-width="1.2"/><circle cx="116" cy="461" r="3" fill="#333"/>
+<circle cx="88" cy="463" r="8" fill="#e0f7fa" stroke="#555" stroke-width="1.2"/><circle cx="88" cy="463" r="3" fill="#333"/>
+<circle cx="106" cy="471" r="8" fill="#e0f7fa" stroke="#555" stroke-width="1.2"/><circle cx="106" cy="471" r="3" fill="#333"/>
+<text x="110" y="508" font-size="13" text-anchor="middle" fill="#333">икра</text>
+<path d="M 135 460 L 195 460" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<ellipse cx="255" cy="460" rx="16" ry="12" fill="#5d4037"/><path d="M 241 460 Q 215 446 199 464 Q 215 468 241 464" fill="#8d6e63"/>
+<text x="240" y="508" font-size="13" text-anchor="middle" fill="#333">головастик (жабры, хвост)</text>
+<path d="M 320 460 L 410 460" stroke="#666" stroke-width="2" marker-end="url(#a)"/>
+<ellipse cx="470" cy="460" rx="30" ry="20" fill="#66bb6a" stroke="#2e7d32" stroke-width="2"/><circle cx="458" cy="442" r="7" fill="#66bb6a" stroke="#2e7d32" stroke-width="2"/><circle cx="482" cy="442" r="7" fill="#66bb6a" stroke="#2e7d32" stroke-width="2"/><circle cx="458" cy="442" r="2.5" fill="#222"/><circle cx="482" cy="442" r="2.5" fill="#222"/><path d="M 442 470 L 426 480 M 498 470 L 514 480" stroke="#2e7d32" stroke-width="3"/>
+<text x="470" y="508" font-size="13" text-anchor="middle" fill="#333">лягушка (лёгкие, конечности)</text>
+<text x="760" y="445" font-size="12" text-anchor="middle" fill="#555">у личинки — жабры</text>
+<text x="760" y="461" font-size="12" text-anchor="middle" fill="#555">и двухкамерное сердце,</text>
+<text x="760" y="477" font-size="12" text-anchor="middle" fill="#555">как у рыб</text>
+<text x="450" y="548" font-size="13" text-anchor="middle" fill="#333">При прямом развитии (пресмыкающиеся, птицы, млекопитающие) рождается организм, похожий на взрослого.</text>
+</svg>
