@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <marker id="arO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+    </marker>
+    <marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2c6fb7"/>
+    </marker>
+  </defs>
+  <rect width="900" height="540" fill="#ffffff"/>
+  <text x="450" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Две фазы фотосинтеза в хлоропласте</text>
+
+  <!-- хлоропласт -->
+  <rect x="40" y="80" width="820" height="360" rx="170" ry="170" fill="#e4f5d4" stroke="#3b8a2e" stroke-width="5"/>
+
+  <!-- световая фаза: граны -->
+  <g>
+    <rect x="130" y="175" width="180" height="22" rx="11" fill="#9fd36b" stroke="#3b8a2e" stroke-width="2"/>
+    <rect x="130" y="200" width="180" height="22" rx="11" fill="#9fd36b" stroke="#3b8a2e" stroke-width="2"/>
+    <rect x="130" y="225" width="180" height="22" rx="11" fill="#9fd36b" stroke="#3b8a2e" stroke-width="2"/>
+    <rect x="130" y="250" width="180" height="22" rx="11" fill="#9fd36b" stroke="#3b8a2e" stroke-width="2"/>
+    <rect x="130" y="275" width="180" height="22" rx="11" fill="#9fd36b" stroke="#3b8a2e" stroke-width="2"/>
+    <text x="220" y="150" font-size="19" font-weight="bold" text-anchor="middle" fill="#1b4d1b">СВЕТОВАЯ ФАЗА</text>
+    <text x="220" y="325" font-size="15" text-anchor="middle" fill="#333">мембраны тилакоидов</text>
+    <text x="220" y="344" font-size="15" text-anchor="middle" fill="#333">(граны)</text>
+  </g>
+
+  <!-- темновая фаза: цикл -->
+  <g>
+    <path d="M 640 167 A 78 78 0 0 1 718 245" fill="none" stroke="#2c6fb7" stroke-width="5" marker-end="url(#arB)"/>
+    <path d="M 718 245 A 78 78 0 0 1 640 323" fill="none" stroke="#2c6fb7" stroke-width="5" marker-end="url(#arB)"/>
+    <path d="M 640 323 A 78 78 0 0 1 562 245" fill="none" stroke="#2c6fb7" stroke-width="5" marker-end="url(#arB)"/>
+    <path d="M 562 245 A 78 78 0 0 1 640 167" fill="none" stroke="#2c6fb7" stroke-width="5" marker-end="url(#arB)"/>
+    <text x="640" y="238" font-size="17" font-weight="bold" text-anchor="middle" fill="#1d4f86">цикл</text>
+    <text x="640" y="260" font-size="17" font-weight="bold" text-anchor="middle" fill="#1d4f86">Кальвина</text>
+    <text x="640" y="135" font-size="19" font-weight="bold" text-anchor="middle" fill="#1d4f86">ТЕМНОВАЯ ФАЗА</text>
+    <text x="560" y="395" font-size="15" text-anchor="middle" fill="#333">строма хлоропласта</text>
+  </g>
+
+  <!-- АТФ и НАДФ·Н вправо -->
+  <path d="M 318 205 L 548 205" stroke="#333" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="433" y="196" font-size="17" font-weight="bold" text-anchor="middle" fill="#b85c00">АТФ</text>
+  <path d="M 318 240 L 548 240" stroke="#333" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="433" y="231" font-size="17" font-weight="bold" text-anchor="middle" fill="#7a3fa0">НАДФ·Н</text>
+  <!-- обратно -->
+  <path d="M 548 285 L 318 285" stroke="#777" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#ar)"/>
+  <text x="433" y="306" font-size="15" text-anchor="middle" fill="#555">АДФ + Ф,  НАДФ⁺</text>
+
+  <!-- свет -->
+  <g>
+    <circle cx="95" cy="40" r="22" fill="#ffd21f" stroke="#e0a800" stroke-width="2"/>
+    <path d="M 108 60 L 126 175" stroke="#e0a800" stroke-width="4" marker-end="url(#ar)"/>
+    <text x="45" y="100" font-size="17" font-weight="bold" fill="#b88a00">свет</text>
+  </g>
+
+  <!-- вода внутрь -->
+  <path d="M 62 470 L 128 300" stroke="#2c6fb7" stroke-width="3" marker-end="url(#arB)"/>
+  <text x="40" y="495" font-size="18" font-weight="bold" fill="#1d4f86">H₂O</text>
+  <!-- кислород наружу -->
+  <path d="M 302 302 L 360 470" stroke="#c0392b" stroke-width="3" marker-end="url(#arO)"/>
+  <text x="290" y="495" font-size="18" font-weight="bold" fill="#c0392b">O₂ — в атмосферу</text>
+
+  <!-- CO2 внутрь -->
+  <path d="M 800 40 L 712 168" stroke="#333" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="740" y="30" font-size="18" font-weight="bold" fill="#333">CO₂ из воздуха</text>
+  <!-- глюкоза наружу -->
+  <path d="M 690 322 L 740 470" stroke="#1b7a3a" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="630" y="495" font-size="18" font-weight="bold" fill="#1b7a3a">глюкоза C₆H₁₂O₆</text>
+  <text x="630" y="518" font-size="14" fill="#555">→ крахмал, сахароза</text>
+</svg>
