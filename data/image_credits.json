@@ -253,5 +253,15 @@
   "source": "https://commons.wikimedia.org/wiki/File:Diagram_human_cell_nucleus_multilang.svg",
   "author": "Mariana Ruiz Villarreal (LadyofHats); подписи заменены цифрами — «Биология AI»",
   "license": "Public domain"
+ },
+ "/images/lessons/090/prokariot-ru.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Prokaryote_cell-ru.svg",
+  "author": "Kirill Borisenko (по схеме Mariana Ruiz Villarreal)",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/090/e-coli.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Scanning_electron_micrograph_of_an_E._coli_colony.jpg",
+  "author": "CDC / Janice Haney Carr",
+  "license": "Public domain"
  }
 }
