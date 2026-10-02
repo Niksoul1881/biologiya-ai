@@ -1,4 +1,59 @@
 {
+ "/images/lessons/001/aristotel.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
+  "author": "After Lysippos",
+  "license": "Public domain"
+ },
+ "/images/lessons/001/fotolovushka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Camera_on_cottonwood_tree_(6659381551).jpg",
+  "author": "U.S. Fish and Wildlife Service Headquarters",
+  "license": "Public domain"
+ },
+ "/images/lessons/001/gerbariy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Taraxacum_officinale_Weber_(AM_AK364994).jpg",
+  "author": "A. E. Wright",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/001/lamark.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste_Lamarck.jpg",
+  "author": "автор не указан",
+  "license": "Public domain"
+ },
+ "/images/lessons/001/nablyudenie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Boy_birdwatching_by_Steve_Hillebrand_USFWS_(54180800037).jpg",
+  "author": "USFWS Headquarters",
+  "license": "Public domain"
+ },
+ "/images/lessons/002/elodeya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Anacharis_Magnified.jpg",
+  "author": "Lilyviolet",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/002/kristall-kuporosa.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Copper_Sulfate_Crystal.jpg",
+  "author": "Crystal Titan",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/002/lyagushka-razvitie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Frog_lifecycle.jpg",
+  "author": "Dr. James Ritchie",
+  "license": "Public domain"
+ },
+ "/images/lessons/002/mimoza.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Mimosa_pudica_open.JPG ; https://commons.wikimedia.org/wiki/File:Mimosa_pudica_closed.JPG",
+  "author": "User:Bluemoose",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/002/paster.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Albert_Edelfelt_-_Louis_Pasteur_-_1885.jpg",
+  "author": "Albert Edelfelt",
+  "license": "Public domain"
+ },
+ "/images/lessons/002/redi.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Illustration_of_Redi's_1668_experiment_to_refute_spontaneous_generation.svg",
+  "author": "Amitchell125",
+  "license": "CC BY-SA 4.0"
+ },
  "/images/lessons/015/hloroplasty-elodei.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Chloroplasts_-_Microscopic_view_of_Elodea_canadensis.jpg",
   "author": "Juan Carlos Fonseca Mata",
