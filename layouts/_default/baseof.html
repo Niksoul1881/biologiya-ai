@@ -1,0 +1,844 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ $pageTitle := "" }}
+    {{ if .IsHome }}
+        {{ $pageTitle = printf "Математика онлайн: 350 бесплатных уроков — %s" .Site.Title }}
+    {{ else }}
+        {{ $baseTitle := .Params.seo_title | default .Title }}
+        {{/* Бренд добавляем, только если итоговый title укладывается в ~70 символов */}}
+        {{ if le (strings.RuneCount $baseTitle) 55 }}
+            {{ $pageTitle = printf "%s — %s" $baseTitle .Site.Title }}
+        {{ else }}
+            {{ $pageTitle = $baseTitle }}
+        {{ end }}
+    {{ end }}
+    <title>{{ $pageTitle }}</title>
+    {{/* seo_description — короткое описание для поиска (≤ 160); иначе description без формул, обрезанный по слову */}}
+    {{ $metaDescription := .Params.seo_description | default .Description }}
+    {{ if $metaDescription }}
+        {{ $metaDescription = $metaDescription | plainify | replaceRE `\$\$[^$]*\$\$|\$[^$]*\$` "" | replaceRE `\s+` " " | replaceRE ` ([,.;:])` "$1" | strings.TrimSpace }}
+        {{ if gt (strings.RuneCount $metaDescription) 160 }}{{ $metaDescription = truncate 157 $metaDescription }}{{ end }}
+    {{ end }}
+    {{ if not $metaDescription }}{{ $metaDescription = .Summary | plainify | truncate 160 }}{{ end }}
+    {{ if not $metaDescription }}{{ $metaDescription = .Site.Params.description }}{{ end }}
+    <meta name="description" content="{{ $metaDescription }}">
+
+    <!-- SEO -->
+    <meta property="og:title" content="{{ $pageTitle }}">
+    <meta property="og:description" content="{{ $metaDescription }}">
+    {{ $isArticle := and .IsPage (in (slice "organizmy" "zhivotnye" "chelovek" "obshchaya-biologiya" "bio-it" "biostatistika" "python-bio" "algoritmy" "genomika" "ml-bio" "sinbio" "glossary" "blog" "oge" "ege") .Section) }}
+    <meta property="og:type" content="{{ if $isArticle }}article{{ else }}website{{ end }}">
+    {{ $canonicalURL := .Permalink }}{{ with .Params.canonical }}{{ $canonicalURL = . | absURL }}{{ end }}
+    <meta property="og:url" content="{{ $canonicalURL }}">
+    <meta property="og:image" content="{{ "og-image.png" | absURL }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="{{ $canonicalURL }}">
+    {{ if .Params.placeholders }}<meta name="robots" content="noindex, follow">{{ end }}
+
+    <!-- Schema.org JSON-LD -->
+    {{ $isoFormat := "2006-01-02T15:04:05Z07:00" }}
+    {{ $org := dict
+        "@type" "Organization"
+        "name" .Site.Title
+        "url" .Site.BaseURL
+        "logo" ("favicon.png" | absURL)
+        "sameAs" (slice .Site.Params.telegramBot)
+    }}
+    {{ if .IsHome }}
+        {{ $website := dict
+            "@context" "https://schema.org"
+            "@type" "WebSite"
+            "name" .Site.Title
+            "url" .Site.BaseURL
+            "inLanguage" "ru"
+            "description" $metaDescription
+        }}
+        {{ $orgLd := merge $org (dict "@context" "https://schema.org") }}
+    <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+    <script type="application/ld+json">{{ $orgLd | jsonify | safeJS }}</script>
+    {{ else if .IsPage }}
+        {{ $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" "Главная" "item" .Site.BaseURL) }}
+        {{ $pos := 2 }}
+        {{ with .CurrentSection }}
+            {{ if not .IsHome }}
+                {{ $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" .Title "item" .Permalink) }}
+                {{ $pos = add $pos 1 }}
+            {{ end }}
+        {{ end }}
+        {{ $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" .Title "item" .Permalink) }}
+        {{ $breadcrumbLd := dict
+            "@context" "https://schema.org"
+            "@type" "BreadcrumbList"
+            "itemListElement" $crumbs
+        }}
+        {{ $article := dict
+            "@context" "https://schema.org"
+            "@type" "Article"
+            "headline" (.Params.seo_title | default .Title)
+            "description" $metaDescription
+            "inLanguage" "ru"
+            "author" $org
+            "publisher" $org
+            "mainEntityOfPage" (dict "@type" "WebPage" "@id" $canonicalURL)
+            "image" ("og-image.png" | absURL)
+        }}
+        {{ if not .Date.IsZero }}
+            {{ $article = merge $article (dict "datePublished" (.Date.Format $isoFormat)) }}
+        {{ end }}
+        {{ if not .Lastmod.IsZero }}
+            {{ $article = merge $article (dict "dateModified" (.Lastmod.Format $isoFormat)) }}
+        {{ end }}
+    <script type="application/ld+json">{{ $breadcrumbLd | jsonify | safeJS }}</script>
+    {{ if $isArticle }}
+    <script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
+    {{ end }}
+    {{ end }}
+
+    <!-- Yandex Verification -->
+    
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png" sizes="120x120">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        }
+        
+        :root {
+            --primary: #111111;
+            --primary-dark: #000000;
+            --secondary: #0F766E;
+            --accent: #16A34A;
+            --success: #4C7A5E;
+            --danger: #B5533C;
+            --bg: #FFFFFF;
+            --bg-secondary: #FAFAF8;
+            --bg-tertiary: #F0F0F0;
+            --text: #1F2937;
+            --text-light: #6B7280;
+            --text-lighter: #9CA3AF;
+            --border: #E5E7EB;
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+            --shadow: 0 4px 6px rgba(0,0,0,0.07);
+            --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+            --shadow-xl: 0 20px 25px rgba(0,0,0,0.15);
+        }
+        
+        html {
+            overflow-x: hidden;
+            max-width: 100%;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--bg);
+            overflow-x: hidden;
+            max-width: 100%;
+        }
+        
+        /* Header */
+        header.site-header {
+            background: white;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow-sm);
+            transform: translateZ(0);
+            will-change: transform;
+        }
+        
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 72px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 24px;
+            font-weight: 800;
+            font-family: 'Montserrat', sans-serif;
+            color: var(--primary);
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
+        }
+        
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            flex-shrink: 0;
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            transition: color 0.2s;
+            position: relative;
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 15px;
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            box-shadow: var(--shadow);
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+        }
+        
+        .btn-secondary {
+            background: var(--bg-secondary);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--bg-tertiary);
+            border-color: var(--primary);
+        }
+        
+        /* Main Content */
+        main {
+            min-height: calc(100vh - 72px - 200px);
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border);
+            padding: 48px 32px;
+            margin-top: 120px;
+        }
+        
+        .footer-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 48px;
+        }
+        
+        .footer-brand {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .footer-brand .logo {
+            margin-bottom: 8px;
+        }
+        
+        .footer-brand p {
+            color: var(--text-light);
+            line-height: 1.6;
+            max-width: 350px;
+        }
+        
+        .footer-section h4 {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text);
+            margin-bottom: 16px;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .footer-section a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+        
+        .footer-section a:hover {
+            color: var(--primary);
+        }
+        
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 32px auto 0;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-light);
+            font-size: 14px;
+        }
+        
+        /* Mobile Menu */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--text);
+            padding: 8px;
+            transition: transform 0.3s;
+        }
+
+        .mobile-menu-btn.active {
+            transform: rotate(90deg);
+        }
+
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 64px;
+            left: 0;
+            right: 0;
+            background: white;
+            border-bottom: 1px solid var(--border);
+            box-shadow: var(--shadow-lg);
+            z-index: 999;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .mobile-menu.active {
+            max-height: 520px;
+        }
+
+        .mobile-menu ul {
+            list-style: none;
+            padding: 16px;
+        }
+
+        .mobile-menu li {
+            border-bottom: 1px solid var(--border);
+        }
+
+        .mobile-menu li:last-child {
+            border-bottom: none;
+        }
+
+        .mobile-menu a {
+            display: block;
+            padding: 16px 12px;
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .mobile-menu a:hover {
+            background: var(--bg-secondary);
+            color: var(--primary);
+        }
+
+        .mobile-menu .btn {
+            width: 100%;
+            justify-content: center;
+            margin-top: 8px;
+        }
+
+        /* Responsive */
+        /* Шапка: 6 пунктов меню + кнопка бота не помещаются на узких десктопах */
+        @media (max-width: 1180px) {
+            .nav-links {
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .header-container {
+                padding: 0 24px;
+            }
+
+            .nav-links {
+                gap: 16px;
+            }
+
+            .nav-links a {
+                font-size: 14px;
+            }
+
+            nav > .btn {
+                display: none;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr 1fr;
+                gap: 32px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-container {
+                padding: 0 16px;
+                height: 64px;
+            }
+
+            .logo {
+                font-size: 20px;
+            }
+
+            .logo-icon {
+                width: 28px;
+                height: 28px;
+            }
+
+            nav {
+                gap: 16px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            nav > .btn {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .mobile-menu {
+                display: block;
+            }
+
+            .btn {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+        }
+        
+        /* Telegram Widget */
+        .telegram-widget {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: var(--primary);
+            color: white;
+            padding: 16px 24px;
+            border-radius: 16px;
+            box-shadow: var(--shadow-xl);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            z-index: 999;
+        }
+
+        .telegram-widget:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 30px rgba(0,0,0,0.3);
+        }
+
+        .telegram-widget-icon {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+        }
+
+        .telegram-widget-text {
+            display: inline;
+        }
+
+        @media (max-width: 768px) {
+            .telegram-widget {
+                bottom: 16px;
+                right: 16px;
+                padding: 12px 16px;
+                font-size: 14px;
+                border-radius: 50%;
+                width: 56px;
+                height: 56px;
+                justify-content: center;
+            }
+
+            .telegram-widget-text {
+                display: none;
+            }
+
+            .telegram-widget-icon {
+                width: 26px;
+                height: 26px;
+            }
+        }
+
+        /* Шорткод solution: раскрывающееся решение */
+        .solution-block {
+            border-left: 3px solid var(--border);
+            padding-left: 16px;
+            margin: 16px 0 24px;
+        }
+
+        .solution-toggle {
+            background: transparent;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .solution-toggle:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .solution-toggle.active {
+            background: var(--primary);
+            color: #FFFFFF;
+        }
+
+        .solution-content {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 12px;
+            max-width: 100%;
+            overflow-wrap: break-word;
+        }
+
+        .solution-content[hidden] {
+            display: none;
+        }
+
+        .solution-content > :last-child {
+            margin-bottom: 0;
+        }
+
+        .solution-content .katex-display {
+            overflow-x: auto;
+            overflow-y: hidden;
+            max-width: 100%;
+        }
+
+        .solution-ask {
+            display: block;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border);
+            font-size: 14px;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .solution-ask:hover {
+            text-decoration: underline;
+        }
+
+        /* Шорткод kratko: блок «Коротко» */
+        .bio-figure { margin: 28px 0; text-align: center; }
+        .bio-figure img { max-width: 100%; height: auto; border-radius: 12px; background: #fff; border: 1px solid #E5E7EB; }
+        .bio-figure figcaption { margin-top: 10px; font-size: 15px; line-height: 1.5; color: #4B5563; text-align: left; }
+        .bio-figure-caption { display: block; }
+        .bio-figure-credit { display: block; margin-top: 4px; font-size: 12px; color: #9CA3AF; }
+        .bio-figure-credit a { color: inherit; }
+        .kratko {
+            background: var(--bg-secondary);
+            border-left: 4px solid var(--secondary);
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin: 24px 0;
+            max-width: 100%;
+            overflow-wrap: break-word;
+        }
+
+        .kratko-label {
+            display: block;
+            font-size: 13px;
+            font-weight: 700;
+            font-variant-caps: all-small-caps;
+            letter-spacing: 0.08em;
+            color: var(--secondary);
+            margin-bottom: 8px;
+        }
+
+        .kratko-body > :last-child {
+            margin-bottom: 0;
+        }
+
+        .kratko .katex-display {
+            overflow-x: auto;
+            overflow-y: hidden;
+            max-width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .kratko {
+                padding: 16px;
+            }
+        }
+    </style>
+    
+    {{/* Метрика — свой счётчик после покупки домена */}}
+    {{ partial "math.html" . }}
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="logo">
+                <svg class="logo-icon" width="28" height="28" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><rect width="512" height="512" rx="96" fill="#111"/><path d="M150 112C150 230 362 282 362 400M362 112C362 230 150 282 150 400" fill="none" stroke="#fff" stroke-width="52" stroke-linecap="round"/><g fill="#fff"><circle cx="150" cy="112" r="44"/><circle cx="362" cy="112" r="44"/><circle cx="150" cy="400" r="44"/><circle cx="362" cy="400" r="44"/></g><circle cx="256" cy="256" r="58" fill="#16A34A"/></svg>
+                <span>Биология AI</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/courses/">Уроки</a></li>
+                    <li><a href="/program/">Программа</a></li>
+                    <li><a href="/oge/">ОГЭ</a></li>
+                    <li><a href="/ege/">ЕГЭ</a></li>
+                    <li><a href="/glossary/">Глоссарий</a></li>
+                    <li><a href="/bio-it/">Биоинформатика</a></li>
+                </ul>
+
+                <a href="{{ site.Params.telegramBot }}" class="btn btn-primary">
+                    Открыть бота
+                </a>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </nav>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="/courses/">Уроки</a></li>
+                    <li><a href="/program/">Программа</a></li>
+                    <li><a href="/oge/">ОГЭ</a></li>
+                    <li><a href="/ege/">ЕГЭ</a></li>
+                    <li><a href="/glossary/">Глоссарий</a></li>
+                    <li><a href="/bio-it/">Биоинформатика</a></li>
+                <li>
+                    <a href="{{ site.Params.telegramBot }}" class="btn btn-primary">
+                        Открыть бота
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+    
+    <!-- Floating Telegram Widget -->
+    <a href="{{ site.Params.telegramBot }}" class="telegram-widget">
+        <svg class="telegram-widget-icon" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.9A8 8 0 1 1 21 12z"/></svg>
+        <span class="telegram-widget-text">Есть вопрос? Спроси бота!</span>
+    </a>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="/" class="logo">
+                    <svg class="logo-icon" width="28" height="28" viewBox="0 0 512 512" aria-hidden="true" focusable="false"><rect width="512" height="512" rx="96" fill="#111"/><path d="M150 112C150 230 362 282 362 400M362 112C362 230 150 282 150 400" fill="none" stroke="#fff" stroke-width="52" stroke-linecap="round"/><g fill="#fff"><circle cx="150" cy="112" r="44"/><circle cx="362" cy="112" r="44"/><circle cx="150" cy="400" r="44"/><circle cx="362" cy="400" r="44"/></g><circle cx="256" cy="256" r="58" fill="#16A34A"/></svg>
+                    <span>Биология AI</span>
+                </a>
+                <p>Биология от школьной программы до биоинформатики и машинного обучения: уроки, схемы, задания ОГЭ и ЕГЭ.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Обучение</h4>
+                <ul>
+                    <li><a href="/organizmy/">Школьный курс</a></li>
+                    <li><a href="/program/">Полная программа</a></li>
+                    <li><a href="/glossary/">Глоссарий</a></li>
+                    <li><a href="{{ site.Params.telegramBot }}">Telegram бот</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Проект</h4>
+                <ul>
+                    <li><a href="/blog/">Блог</a></li>
+                    
+                    <li><a href="{{ site.Params.donateUrl }}" target="_blank" rel="noopener">Поддержать проект</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Поддержка</h4>
+                <ul>
+                    <li><a href="{{ site.Params.telegramBot }}">Связаться</a></li>
+                    <li><a href="/oferta/">Оферта</a></li>
+                    <li><a href="/privacy/">Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2026 Биология AI. От клетки до нейросетей</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Обработка кликов по кнопкам "Показать решение"
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+
+            if (mobileMenuBtn && mobileMenu) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    mobileMenu.classList.toggle('active');
+                });
+
+                // Close menu when clicking on a link
+                const menuLinks = mobileMenu.querySelectorAll('a');
+                menuLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        mobileMenuBtn.classList.remove('active');
+                        mobileMenu.classList.remove('active');
+                    });
+                });
+
+                // Close menu when clicking outside
+                document.addEventListener('click', function(event) {
+                    if (!mobileMenu.contains(event.target) &&
+                        !mobileMenuBtn.contains(event.target) &&
+                        mobileMenu.classList.contains('active')) {
+                        mobileMenuBtn.classList.remove('active');
+                        mobileMenu.classList.remove('active');
+                    }
+                });
+            }
+
+            const toggleButtons = document.querySelectorAll('.solution-toggle');
+
+            toggleButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const solutionContent = this.nextElementSibling;
+                    if (!solutionContent) return;
+                    const willShow = solutionContent.hidden || getComputedStyle(solutionContent).display === 'none';
+
+                    solutionContent.hidden = !willShow;
+                    solutionContent.style.display = willShow ? 'block' : 'none';
+                    this.textContent = willShow ? 'Скрыть решение' : 'Показать решение';
+                    this.setAttribute('aria-expanded', willShow);
+                    this.classList.toggle('active', willShow);
+
+                    if (willShow && typeof ym === 'function') {
+                        ym(104554801, 'reachGoal', 'solution_open');
+                    }
+                });
+            });
+
+            // Цель Метрики: переход в бота из любого места урока
+            document.querySelectorAll('a[href*="t.me/professor_kvasich_bot"]').forEach(link => {
+                link.addEventListener('click', function() {
+                    if (typeof ym === 'function') {
+                        ym(104554801, 'reachGoal', this.dataset.goal || 'bot_click');
+                    }
+                });
+            });
+
+            // Fade-in animations on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.fade-in').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>

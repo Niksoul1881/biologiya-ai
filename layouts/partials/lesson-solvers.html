@@ -1,0 +1,17 @@
+{{- /* «Проверь себя в решателе»: решатели, у которых этот урок указан в lessons (content/reshit/*.md). */ -}}
+{{- $here := .RelPermalink -}}
+{{- $found := slice -}}
+{{- range where site.RegularPages "Section" "reshit" -}}
+  {{- $s := . -}}
+  {{- range .Params.lessons -}}
+    {{- if eq .url $here }}{{ $found = $found | append $s }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $found }}
+<div class="lesson-prereq lesson-solvers">
+    <span class="lesson-prereq-label">Решить онлайн:</span>
+    {{- range $i, $s := . }}{{ if $i }}, {{ end }}<a href="{{ $s.RelPermalink }}">{{ $s.Params.h1 | default $s.Title }}</a>{{ end }}
+    <span class="lesson-solvers__hint">— с решением по шагам</span>
+</div>
+<style>.lesson-solvers { margin-top: 8px; } .lesson-solvers__hint { color: var(--text-light); }</style>
+{{- end }}

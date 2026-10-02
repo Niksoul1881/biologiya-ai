@@ -1,0 +1,257 @@
+﻿{{ define "main" }}
+<div class="lesson-layout">
+    
+    <!-- КНОПКА МЕНЮ (Чистая, без лишних иконок) -->
+    <button class="lesson-sidebar-toggle" id="lessonSidebarToggle">
+        <span>☰</span>
+        <span>Уроки</span>
+    </button>
+
+    <!-- Боковое меню -->
+    <aside class="lesson-sidebar" id="lessonSidebar">
+        <div class="lesson-sidebar-header">
+            <h2>Список уроков</h2>
+            <button class="lesson-sidebar-close" id="lessonSidebarClose">✕</button>
+        </div>
+        <nav>
+            <ul class="lesson-nav">
+                <!-- Числовая сортировка по номеру урока (не по строке — иначе 100 встаёт раньше 76) -->
+                {{ $items := slice }}
+                {{ range .CurrentSection.RegularPages }}
+                    {{ $numMatch := findRE "^[0-9]+" .File.BaseFileName }}
+                    {{ $num := 0 }}
+                    {{ if $numMatch }}
+                        {{ $trimmed := strings.TrimLeft "0" (index $numMatch 0) }}
+                        {{ if ne $trimmed "" }}
+                            {{ $num = int $trimmed }}
+                        {{ end }}
+                    {{ end }}
+                    {{ $items = $items | append (dict "num" $num "page" .) }}
+                {{ end }}
+                {{ range sort $items "num" "asc" }}
+                {{ $p := .page }}
+                <li class="lesson-nav-item">
+                    <a href="{{ $p.Permalink }}" class="lesson-nav-link">
+                        <span class="lesson-number">
+                            {{ .num }}
+                        </span>
+                        <span>{{ $p.Title }}</span>
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Контент -->
+    <div class="lesson-list-content">
+        <div class="lesson-list-container">
+            <h1>{{ .Title }}</h1>
+            <p class="subtitle">{{ .Params.description }}</p>
+
+            <div class="welcome-card">
+                <h2>Выбери урок</h2>
+                <p>Нажми на кнопку «Уроки» внизу экрана,<br>чтобы открыть список тем.</p>
+                <div class="lesson-counter">{{ len .Pages }} уроков ждут тебя!</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* --- 1. Прячем старый Telegram-виджет, чтобы не мешал --- */
+.telegram-widget {
+    display: none !important; /* Скрываем его на этой странице */
+}
+
+/* --- 2. Стили Кнопки "Уроки" (Фиолетовая, справа) --- */
+.lesson-sidebar-toggle {
+    display: none; /* Скрыто на ПК */
+    position: fixed;
+    bottom: 30px;
+    right: 20px; /* Справа */
+    background: #111;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px; /* Закругленная */
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.lesson-sidebar-toggle:active {
+    transform: scale(0.95);
+}
+
+/* --- 3. Базовые стили (ПК) --- */
+.lesson-layout {
+    display: flex;
+    min-height: calc(100vh - 80px);
+    position: relative;
+    background: #f9fafb;
+}
+
+.lesson-sidebar {
+    width: 300px;
+    background: white;
+    border-right: 1px solid #e5e7eb;
+    padding: 24px 16px;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+    position: sticky;
+    top: 80px;
+    flex-shrink: 0;
+}
+
+.lesson-sidebar-header { display: none; }
+
+.lesson-nav { list-style: none; padding: 0; }
+.lesson-nav-item { margin-bottom: 4px; }
+
+.lesson-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.lesson-nav-link:hover {
+    background: #f3f4f6;
+    color: #6366f1;
+}
+
+.lesson-number {
+    background: #eef2ff;
+    color: #6366f1;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 6px;
+    min-width: 30px;
+    text-align: center;
+}
+
+.lesson-list-content {
+    flex: 1;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.lesson-list-container {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 { font-size: 3rem; font-weight: 800; margin-bottom: 16px; color: #111827; }
+.subtitle { font-size: 1.25rem; color: #6b7280; margin-bottom: 48px; }
+
+.welcome-card {
+    background: #111;
+    padding: 60px 40px;
+    border-radius: 24px;
+    color: white;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.welcome-icon { font-size: 80px; margin-bottom: 24px; }
+.welcome-card h2 { font-size: 2rem; margin-bottom: 12px; color: white;}
+.welcome-card p { font-size: 1.1rem; opacity: 0.9; margin-bottom: 24px; }
+.lesson-counter {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* --- Мобильная версия --- */
+@media (max-width: 1024px) {
+    /* Показываем кнопку УРОКИ */
+    .lesson-sidebar-toggle {
+        display: flex;
+    }
+
+    .lesson-sidebar {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2000;
+        padding-top: 0;
+    }
+
+    .lesson-sidebar.active { display: block; }
+
+    .lesson-sidebar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 1px solid #eee;
+        background: white;
+        position: sticky;
+        top: 0;
+    }
+
+    .lesson-sidebar-close {
+        background: none;
+        border: none;
+        font-size: 24px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .lesson-list-content { padding: 30px 20px; }
+    h1 { font-size: 2rem; }
+    .subtitle { font-size: 1rem; margin-bottom: 30px; }
+    .welcome-card { padding: 30px 20px; }
+    .welcome-icon { font-size: 50px; margin-bottom: 16px; }
+    .welcome-card h2 { font-size: 1.5rem; }
+    .welcome-card p { font-size: 0.95rem; }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const sidebar = document.getElementById('lessonSidebar');
+    const toggleBtn = document.getElementById('lessonSidebarToggle');
+    const closeBtn = document.getElementById('lessonSidebarClose');
+
+    if(toggleBtn && sidebar) {
+        toggleBtn.addEventListener('click', function() {
+            sidebar.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        closeBtn.addEventListener('click', function() {
+            sidebar.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+
+        sidebar.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                sidebar.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+        });
+    }
+});
+</script>
+{{ end }}

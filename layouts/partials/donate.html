@@ -1,0 +1,14 @@
+{{- /* Скромная просьба о поддержке в конце урока (ссылка — params.donateUrl, сбор Т-Банка). */ -}}
+{{- with site.Params.donateUrl }}
+<div class="donate-block">
+    <span>Уроки бесплатные и без рекламы. Если помогли — можно поддержать проект.</span>
+    <a href="{{ . }}" target="_blank" rel="noopener" onclick="if (typeof ym === 'function') ym(104554801, 'reachGoal', 'donate_click');">Поддержать ♥</a>
+</div>
+<style>
+.donate-block { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;
+    margin: 16px 0 0; padding: 14px 20px; border-radius: 12px; border: 1px dashed var(--border);
+    color: var(--text-light); font-size: 15px; }
+.donate-block a { color: var(--accent); font-weight: 600; text-decoration: none; white-space: nowrap; }
+.donate-block a:hover { text-decoration: underline; }
+</style>
+{{- end }}

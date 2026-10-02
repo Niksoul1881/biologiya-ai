@@ -1,0 +1,116 @@
+{{ $title := .Get "title" }}
+{{ $formula := .Get "formula" }}
+{{ $vars := split (.Get "vars") "," }}
+{{ $outputsRaw := split (.Get "outputs") ";" }}
+{{ $id := printf "calc-%d" .Ordinal }}
+<style>
+.calc-widget {
+    background: #F9FAFB;
+    border: 2px solid #E5E7EB;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 32px 0;
+}
+.calc-title {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #111827;
+}
+.calc-formula {
+    margin-bottom: 20px;
+    font-size: 18px;
+    overflow-x: auto;
+}
+.calc-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.calc-inputs label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    color: #374151;
+}
+.calc-input {
+    width: 90px;
+    padding: 8px 10px;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.calc-btn {
+    background: var(--primary, #111);
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+.calc-btn:hover { opacity: 0.85; }
+.calc-results {
+    margin-top: 16px;
+}
+.calc-results p {
+    margin: 4px 0;
+    font-size: 16px;
+}
+.calc-error { color: #B5533C; }
+</style>
+<div class="calc-widget" id="{{ $id }}">
+    <div class="calc-title">{{ $title }}</div>
+    <div class="calc-formula">$${{ $formula }}$$</div>
+    <div class="calc-inputs">
+        {{ range $v := $vars }}
+        <label>{{ $v }} = <input type="number" step="any" class="calc-input" data-var="{{ $v }}"></label>
+        {{ end }}
+    </div>
+    <button type="button" class="calc-btn">Посчитать</button>
+    <div class="calc-results"></div>
+</div>
+<script>
+(function(){
+    var root = document.getElementById({{ $id }});
+    var outputs = [
+        {{ range $o := $outputsRaw }}
+        {{ $parts := split $o ":" }}
+        { label: {{ index $parts 0 }}, expr: {{ delimit (after 1 $parts) ":" }} },
+        {{ end }}
+    ];
+    root.querySelector(".calc-btn").addEventListener("click", function(){
+        var scope = {};
+        var ok = true;
+        root.querySelectorAll(".calc-input").forEach(function(inp){
+            var val = parseFloat(inp.value);
+            if (isNaN(val)) ok = false;
+            scope[inp.dataset.var] = val;
+        });
+        var resultsEl = root.querySelector(".calc-results");
+        if (!ok) {
+            resultsEl.innerHTML = '<p class="calc-error">Заполни все поля числами</p>';
+            return;
+        }
+        var html = '';
+        try {
+            outputs.forEach(function(o){
+                var fn = Function.apply(null, Object.keys(scope).concat(["return (" + o.expr + ");"]));
+                var val = fn.apply(null, Object.keys(scope).map(function(k){ return scope[k]; }));
+                scope[o.label] = val;
+                if (typeof val !== "number" || isNaN(val)) {
+                    html += '<p><strong>' + o.label + '</strong> = нет решения</p>';
+                } else {
+                    html += '<p><strong>' + o.label + '</strong> = ' + (Math.round(val * 10000) / 10000) + '</p>';
+                }
+            });
+        } catch (e) {
+            html = '<p class="calc-error">Ошибка в вычислении — проверь введённые значения</p>';
+        }
+        resultsEl.innerHTML = html;
+    });
+})();
+</script>

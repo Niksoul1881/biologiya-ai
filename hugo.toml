@@ -1,0 +1,35 @@
+baseURL = 'https://www.biologiya-ai.ru/'   # домен ещё не куплен — заменить при покупке
+languageCode = 'ru'
+title = 'Биология AI'
+
+[params]
+  description = 'Биология от 5 класса до биоинформатики и ML: уроки, ОГЭ, ЕГЭ, глоссарий'
+  telegramBot = '#bot'   # бота пока нет
+  donateUrl = '#'
+
+[markup.goldmark.renderer]
+  unsafe = true
+[markup.goldmark.extensions]
+  [markup.goldmark.extensions.typographer]
+    disable = true
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      block = [['\[', '\]'], ['$$', '$$']]
+      inline = [['\(', '\)'], ['$', '$']]
+
+[outputs]
+  home = ["HTML", "JSON"]
+  section = ["HTML"]
+  page = ["HTML"]
+
+# Дата изменения страницы — из lastmod в front matter. Правишь урок — обнови lastmod.
+enableGitInfo = false
+
+[frontmatter]
+  lastmod = ["lastmod", "date"]
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.7

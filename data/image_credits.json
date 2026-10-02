@@ -1,0 +1,42 @@
+{
+ "/images/lessons/088/kletka-zhivotnaya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Biological_cell_ru.svg",
+  "author": "Biological_cell.svg: MesserWoland and Szczepan1990\nderivative work: Цуканов Кири",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/088/kletka-rastitelnaya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Plant_cell_structure-ru-v2.png",
+  "author": "Original: LadyofHats (Mariana Ruiz) / Derivative: Dhatfield / Derivative: Lady3m",
+  "license": "CC0"
+ },
+ "/images/lessons/088/mitohondriya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Animal_mitochondrion_diagram_ru.svg",
+  "author": "Animal_mitochondrion_diagram_en.svg: Mariana Ruiz Villarreal LadyofHats\nderivati",
+  "license": "Public domain"
+ },
+ "/images/lessons/088/hloroplast.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Chloroplast_(standalone_version)-en.svg",
+  "author": "Kelvinsong",
+  "license": "CC0"
+ },
+ "/images/lessons/088/golgi.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:0314_Golgi_Apparatus_a_ru.png",
+  "author": "OpenStax",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/088/lizosomy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lysosomes_(NIH_BioArt_306).png",
+  "author": "Courtesy of NIAID\n\nRyan Kissinger",
+  "license": "Public domain"
+ },
+ "/images/lessons/088/hooke-probka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Micrographia_Schem_11.jpg",
+  "author": "Robert Hooke (1635-1703)",
+  "license": "Public domain"
+ },
+ "/images/lessons/088/eps.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Blausen_0350_EndoplasmicReticulum.png",
+  "author": "BruceBlaus. When using this image in external sources it can be cited as:\n\nBlaus",
+  "license": "CC BY 3.0"
+ }
+}

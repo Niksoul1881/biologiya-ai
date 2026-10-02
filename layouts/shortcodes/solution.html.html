@@ -1,0 +1,20 @@
+{{- $base := .Page.File.BaseFileName -}}
+{{- $payload := "" -}}
+{{- if in (slice "oge" "ege") .Page.Section -}}
+{{- /* Страницы экзаменов: oge13_s1, ege19_s2, oge1-5_s0 — бот ставит контекст задания */ -}}
+{{- $task := replaceRE "^zadani(e|ya)-" "" $base -}}
+{{- $payload = printf "%s%s_s%d" .Page.Section $task .Ordinal -}}
+{{- else -}}
+{{- $m := findRE "^[0-9]+" $base 1 -}}
+{{- $num := cond (gt (len $m) 0) (strings.TrimLeft "0" (index $m 0) | default "0") "0" -}}
+{{- $payload = printf "l%s_s%d" $num .Ordinal -}}
+{{- end -}}
+<div class="solution-block">
+    <button class="solution-toggle" type="button" aria-expanded="false">Показать решение</button>
+    <div class="solution-content" hidden>
+        {{ .Inner | markdownify }}
+        <a class="solution-ask" href="{{ site.Params.telegramBot }}?start={{ $payload }}" target="_blank" rel="noopener" data-goal="bot_from_solution">
+            Не понял решение? Разобрать с Квасичем по шагам →
+        </a>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+﻿<a href="{{ .Permalink }}" style="display: block; text-decoration: none; border: 1px solid var(--border); border-radius: 12px; padding: 24px; transition: all 0.2s; background: white;">
+    <div style="display: flex; justify-content: space-between; margin-bottom: 12px;">
+        <span style="background: var(--bg-secondary); color: var(--primary); padding: 4px 12px; border-radius: 6px; font-size: 12px; font-weight: 600;">
+            {{ .Params.grade }} класс
+        </span>
+        {{ with .Params.duration }}
+        <span style="color: var(--text-light); font-size: 14px;">
+            {{ . }} мин
+        </span>
+        {{ end }}
+    </div>
+    <h3 style="font-size: 20px; font-weight: 600; color: var(--text); margin-bottom: 8px;">
+        {{ .Title }}
+    </h3>
+    <p style="color: var(--text-light); font-size: 14px;">
+        {{ .Summary }}
+    </p>
+</a>

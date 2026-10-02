@@ -1,0 +1,21 @@
+{{- /* Внутренняя перелинковка: блок «Нужно знать» по .Params.prerequisites (basename файлов уроков) */ -}}
+{{- with .Params.prerequisites }}
+    {{- $section := $.CurrentSection }}
+    {{- $prereqPages := slice }}
+    {{- range . }}
+        {{- $base := . }}
+        {{- $found := where $section.RegularPages "File.BaseFileName" $base }}
+        {{- if not $found }}
+            {{- $found = where site.RegularPages "File.BaseFileName" $base }}
+        {{- end }}
+        {{- with $found }}
+            {{- $prereqPages = $prereqPages | append (index . 0) }}
+        {{- end }}
+    {{- end }}
+    {{- with $prereqPages }}
+<p class="lesson-prereq">
+    <span class="lesson-prereq-label">Нужно знать:</span>
+    {{ range $i, $p := . }}{{ if $i }}, {{ end }}<a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>{{ end }}
+</p>
+    {{- end }}
+{{- end }}

@@ -1,0 +1,41 @@
+{{- $items := slice -}}
+{{- range .CurrentSection.RegularPages -}}
+  {{- $numMatch := findRE "^[0-9]+" .File.BaseFileName -}}
+  {{- $num := 0 -}}
+  {{- if $numMatch -}}
+    {{- $trimmed := strings.TrimLeft "0" (index $numMatch 0) -}}
+    {{- if eq $trimmed "" -}}
+      {{- $num = 0 -}}
+    {{- else -}}
+      {{- $num = int $trimmed -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $items = $items | append (dict "num" $num "page" .) -}}
+{{- end -}}
+{{- $sorted := sort $items "num" "asc" -}}
+{{- $index := -1 -}}
+{{- $self := . -}}
+{{- range $i, $it := $sorted -}}
+  {{- if eq $it.page.Permalink $self.Permalink -}}
+    {{- $index = $i -}}
+  {{- end -}}
+{{- end -}}
+{{- if ge $index 0 -}}
+<nav class="lesson-navigation">
+  {{- if gt $index 0 -}}
+    {{- $prev := (index $sorted (sub $index 1)).page }}
+    <a href="{{ $prev.Permalink }}" class="lesson-nav-btn">
+        <div class="lesson-nav-label">← Предыдущий урок</div>
+        <div class="lesson-nav-title">{{ $prev.Title }}</div>
+    </a>
+  {{- end }}
+  {{- $lastIndex := sub (len $sorted) 1 -}}
+  {{- if lt $index $lastIndex -}}
+    {{- $next := (index $sorted (add $index 1)).page }}
+    <a href="{{ $next.Permalink }}" class="lesson-nav-btn">
+        <div class="lesson-nav-label">Следующий урок →</div>
+        <div class="lesson-nav-title">{{ $next.Title }}</div>
+    </a>
+  {{- end }}
+</nav>
+{{- end -}}

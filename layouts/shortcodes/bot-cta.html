@@ -1,0 +1,74 @@
+{{- /*
+  Блок-приглашение в бота Профессора Квасича.
+  Использование: {{< bot-cta source="oge_15" >}}
+                 {{< bot-cta source="ege_hub" title="..." text="..." >}}
+  source — обязательный; нормализуется до [A-Za-z0-9_-], payload ≤ 64 символов.
+  Бесплатная кнопка → ?start=q_<source>, ссылка Pro → ?start=pro_<source>.
+*/ -}}
+{{- $raw := .Get "source" -}}
+{{- if not $raw -}}
+  {{- errorf "bot-cta: параметр source обязателен (%s)" .Position -}}
+{{- end -}}
+{{- $src := replaceRE "[^A-Za-z0-9_-]" "_" (string $raw) -}}
+{{- /* q_/pro_ + source ≤ 64 → source ≤ 60 */ -}}
+{{- $src = substr $src 0 60 -}}
+{{- $title := .Get "title" | default "Разберём задание с Квасичем" -}}
+{{- $text := .Get "text" | default "Бесплатно 5 вопросов в день. Нужно больше — Квасич Pro за 200 Stars на 30 дней" -}}
+{{- if not (.Page.Store.Get "botCtaStyle") -}}
+{{- .Page.Store.Set "botCtaStyle" true -}}
+<style>
+.bot-cta {
+    margin: 40px 0;
+    padding: 28px 32px;
+    border: 2px solid var(--primary, #111);
+    border-radius: 16px;
+    background: var(--bg-secondary, #fafafa);
+}
+.bot-cta__title {
+    margin: 0 0 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--text, #111);
+}
+.bot-cta__text {
+    margin: 0 0 20px;
+    color: var(--text-light, #555);
+    font-size: 15px;
+}
+.bot-cta__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 20px;
+}
+.bot-cta__btn {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 12px;
+    background: var(--primary, #111);
+    color: #fff !important;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+.bot-cta__btn:hover { background: var(--secondary, #0F766E); }
+.bot-cta__pro {
+    color: var(--secondary, #0F766E);
+    font-weight: 600;
+    font-size: 15px;
+}
+@media (max-width: 600px) {
+    .bot-cta { padding: 22px 18px; }
+    .bot-cta__btn { width: 100%; text-align: center; }
+}
+</style>
+{{- end }}
+<aside class="bot-cta">
+    <p class="bot-cta__title">{{ $title }}</p>
+    <p class="bot-cta__text">{{ $text }}</p>
+    <div class="bot-cta__actions">
+        <a class="bot-cta__btn" href="{{ site.Params.telegramBot }}?start=q_{{ $src }}" target="_blank" rel="noopener" data-goal="bot_from_cta_block">Спросить Квасича</a>
+        <a class="bot-cta__pro" href="{{ site.Params.telegramBot }}?start=pro_{{ $src }}" target="_blank" rel="noopener" data-goal="pro_click">Подключить Pro →</a>
+        <a class="bot-cta__pro" href="/pro/">Что даёт Pro</a>
+    </div>
+</aside>

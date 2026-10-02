@@ -1,0 +1,5 @@
+﻿{{ $content := .Inner }}
+{{ $content = replaceRE "\\^(\\d+)" "<span style=\"color: #2563eb; font-weight: 700; font-size: 16px; display: inline-block; border: 2px solid #ef4444; border-radius: 4px; padding: 2px 6px; margin: 0 2px; background: #fee; position: relative; top: -8px;\">$1</span>" $content }}
+<div style="display: inline-block; border: 3px solid #ef4444; border-radius: 12px; padding: 30px 40px; background: #ffffff; margin: 20px 10px; box-shadow: 0 4px 12px rgba(239,68,68,0.2);">
+    <pre style="font-family: 'Courier New', monospace; font-size: 26px; line-height: 2.2; margin: 0; text-align: center; color: #1f2937; font-weight: 600; white-space: pre;">{{ $content | safeHTML }}</pre>
+</div>

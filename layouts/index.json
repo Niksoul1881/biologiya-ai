@@ -1,0 +1,10 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range where .Site.Pages "Type" "in" (slice "base-course" "high-school" "university" "ml-course") -}}
+  {{- if .Params.id -}}
+    {{- $content := .Plain | truncate 500 "" -}}
+    {{- $keywords := .Params.keywords | default slice -}}
+    {{- $entry := dict "id" .Params.id "title" .Title "url" .Permalink "keywords" $keywords "content" $content -}}
+    {{- $.Scratch.Add "index" $entry -}}
+  {{- end -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

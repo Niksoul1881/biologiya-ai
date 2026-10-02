@@ -1,0 +1,1137 @@
+﻿{{ define "main" }}
+<style>
+    /* Hero Section — big typographic progression 5 → 11 → ML, fills the first screen */
+    .hero {
+        background: #fff;
+        padding: 0 56px;
+        position: relative;
+        overflow: hidden;
+        min-height: calc(100vh - 72px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero-math-symbol {
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #EFEFEF;
+        user-select: none;
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    .hero-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero-progression {
+        display: flex;
+        align-items: baseline;
+        gap: 28px;
+        margin-bottom: 8px;
+        flex-wrap: wrap;
+        animation: fadeInUp 0.6s ease-out 0.1s backwards;
+    }
+
+    .hero-progression .num {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 150px;
+        line-height: 0.85;
+        color: #111;
+        letter-spacing: -0.03em;
+    }
+
+    .hero-progression .num.accent {
+        color: #16A34A;
+    }
+
+    .hero-progression .arrow {
+        align-self: center;
+        color: #D0D0D0;
+        flex-shrink: 0;
+    }
+
+    .hero-labels {
+        display: flex;
+        gap: 28px;
+        margin-bottom: 56px;
+        flex-wrap: wrap;
+        animation: fadeInUp 0.6s ease-out 0.15s backwards;
+    }
+
+    .hero-labels span {
+        font-size: 13px;
+        color: #999;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    .hero-labels span.accent {
+        color: #16A34A;
+    }
+
+    .hero-bottom-row {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 32px;
+        flex-wrap: wrap;
+        padding-bottom: 56px;
+        animation: fadeInUp 0.6s ease-out 0.2s backwards;
+    }
+
+    .hero-subtitle {
+        font-size: 19px;
+        line-height: 1.6;
+        color: #333;
+        font-weight: 500;
+        max-width: 560px;
+        margin: 0;
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .hero-buttons .btn {
+        font-size: 16px;
+        padding: 17px 30px;
+    }
+
+    .hero-buttons .btn-primary {
+        background: #111;
+        border-radius: 100px;
+    }
+
+    .hero-buttons .btn-secondary {
+        background: transparent;
+        border: none;
+        border-bottom: 1.5px solid #111;
+        border-radius: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .hero-stats {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 56px;
+        border-top: 1px solid #F0F0F0;
+        padding: 22px 56px;
+    }
+
+    .stat-item {
+        text-align: center;
+    }
+
+    .stat-number {
+        display: none;
+    }
+
+    .stat-label {
+        font-size: 13px;
+        color: #AAA;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+    }
+    
+    /* Features Section */
+    .features-section {
+        padding: 64px 32px 100px;
+        background: white;
+    }
+
+    .section-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .section-header {
+        text-align: center;
+        margin-bottom: 64px;
+    }
+    
+    .section-badge {
+        display: inline-block;
+        color: #999;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 16px;
+    }
+    
+    .section-header h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 42px;
+        font-weight: 800;
+        color: var(--text);
+        margin-bottom: 16px;
+    }
+    
+    .section-header p {
+        font-size: 18px;
+        color: var(--text-light);
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+    }
+    
+    .feature-card {
+        background: var(--bg-secondary);
+        padding: 40px;
+        border-radius: 20px;
+        transition: all 0.3s;
+        border: 2px solid transparent;
+    }
+    
+    .feature-card:hover {
+        transform: translateY(-8px);
+        border-color: #E0E0E0;
+        box-shadow: 0 16px 40px rgba(17,17,17,0.08);
+        background: white;
+    }
+    
+    .feature-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+
+    .feature-icon svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .feature-icon.tint-blue {
+        background: #E8EEF7;
+        color: #0F766E;
+    }
+
+    .feature-icon.tint-orange {
+        background: #FDEAE6;
+        color: #16A34A;
+    }
+    
+    .feature-card h3 {
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 12px;
+    }
+    
+    .feature-card p {
+        color: var(--text-light);
+        line-height: 1.7;
+    }
+    
+    /* How It Works */
+    .how-it-works {
+        padding: 100px 32px;
+        background: var(--bg-secondary);
+    }
+    
+    .steps-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 32px;
+        margin-top: 64px;
+    }
+    
+    .step-card {
+        text-align: center;
+        position: relative;
+    }
+    
+    .step-number {
+        width: 64px;
+        height: 64px;
+        background: #111;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        margin: 0 auto 24px;
+    }
+    
+    .step-card h3 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    
+    .step-card p {
+        color: var(--text-light);
+        font-size: 15px;
+    }
+    
+    /* Pricing Section */
+    .pricing-section {
+        padding: 100px 32px;
+        background: white;
+    }
+    
+    .pricing-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+        max-width: 900px;
+        margin: 64px auto 0;
+    }
+    
+    .pricing-card {
+        background: var(--bg-secondary);
+        padding: 48px;
+        border-radius: 24px;
+        border: 2px solid var(--border);
+        transition: all 0.3s;
+    }
+    
+    .pricing-card.featured {
+        background: #111;
+        color: white;
+        transform: scale(1.05);
+        box-shadow: 0 24px 60px rgba(17,17,17,0.2);
+    }
+    
+    .pricing-card:hover {
+        transform: translateY(-8px);
+        box-shadow: var(--shadow-xl);
+    }
+    
+    .pricing-badge {
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 6px 12px;
+        border-radius: 12px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+    
+    .pricing-card h3 {
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 8px;
+    }
+    
+    .pricing-price {
+        font-size: 48px;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 24px;
+    }
+    
+    .pricing-price span {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .pricing-features {
+        list-style: none;
+        margin: 32px 0;
+    }
+    
+    .pricing-features li {
+        padding: 12px 0;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 15px;
+    }
+    
+    .pricing-features li::before {
+        content: '✓';
+        width: 24px;
+        height: 24px;
+        background: rgba(16, 185, 129, 0.2);
+        color: var(--success);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        flex-shrink: 0;
+    }
+    
+    .pricing-card.featured .pricing-features li::before {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+    }
+    
+    /* CTA Section */
+    .cta-section {
+        padding: 100px 32px;
+        background: #111;
+        text-align: center;
+        color: white;
+    }
+    
+    .cta-section h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        font-weight: 800;
+        margin-bottom: 24px;
+    }
+    
+    .cta-section p {
+        font-size: 20px;
+        opacity: 0.9;
+        max-width: 600px;
+        margin: 0 auto 40px;
+    }
+    
+    .cta-section .btn {
+        background: white;
+        color: #111;
+        font-size: 18px;
+        padding: 16px 40px;
+    }
+    
+    .cta-section .btn:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Animations */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes fadeInDown {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .fade-in {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 0.8s ease;
+    }
+    
+    .fade-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    /* Responsive */
+    @media (max-width: 1024px) {
+        .features-grid,
+        .steps-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        .pricing-cards {
+            grid-template-columns: 1fr;
+        }
+        
+        .pricing-card.featured {
+            transform: scale(1);
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .hero {
+            padding: 40px 20px 100px;
+        }
+
+        .hero-math-symbol {
+            display: none;
+        }
+
+        .hero-progression {
+            gap: 12px;
+            margin-bottom: 4px;
+        }
+
+        .hero-progression .num {
+            font-size: 56px;
+        }
+
+        .hero-progression .arrow {
+            width: 22px;
+            height: 22px;
+        }
+
+        .hero-labels {
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+
+        .hero-labels span {
+            font-size: 11px;
+        }
+
+        .hero-bottom-row {
+            flex-direction: column;
+            align-items: flex-start;
+            padding-bottom: 32px;
+        }
+
+        .hero-subtitle {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .hero-buttons {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .hero-buttons .btn {
+            width: 100%;
+            justify-content: center;
+            padding: 14px 24px;
+            font-size: 16px;
+        }
+
+        .hero-buttons .btn-secondary {
+            border-bottom: none;
+            border: 1.5px solid #111;
+            border-radius: 100px;
+        }
+
+        .hero-stats {
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: space-around;
+            padding: 16px 20px;
+        }
+
+        .stat-item {
+            flex: 0 0 calc(33.333% - 16px);
+            min-width: 80px;
+        }
+
+        .stat-label {
+            font-size: 11px;
+        }
+
+        .features-section,
+        .how-it-works,
+        .pricing-section,
+        .blog-preview-section {
+            padding: 60px 16px;
+        }
+
+        .cta-section {
+            padding: 60px 16px;
+        }
+
+        .section-header {
+            margin-bottom: 40px;
+        }
+
+        .section-badge {
+            font-size: 11px;
+        }
+
+        .section-header h2 {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+
+        .section-header p {
+            font-size: 15px;
+        }
+
+        .features-grid,
+        .steps-grid {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .feature-card {
+            padding: 28px;
+        }
+
+        .feature-icon {
+            width: 44px;
+            height: 44px;
+            margin-bottom: 20px;
+        }
+
+        .feature-icon svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 20px;
+        }
+
+        .feature-card p {
+            font-size: 15px;
+        }
+
+        .step-number {
+            width: 56px;
+            height: 56px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .step-card h3 {
+            font-size: 17px;
+        }
+
+        .step-card p {
+            font-size: 14px;
+        }
+
+        .pricing-card {
+            padding: 36px 24px;
+        }
+
+        .pricing-card h3 {
+            font-size: 24px;
+        }
+
+        .pricing-price {
+            font-size: 40px;
+        }
+
+        .pricing-price span {
+            font-size: 18px;
+        }
+
+        .pricing-features li {
+            font-size: 14px;
+        }
+
+        .cta-section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            font-size: 16px;
+            margin-bottom: 32px;
+        }
+
+        .cta-section .btn {
+            font-size: 16px;
+            padding: 14px 32px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .hero-progression .num {
+            font-size: 42px;
+        }
+
+        .hero-subtitle {
+            font-size: 15px;
+        }
+
+        .stat-item {
+            flex: 0 0 calc(50% - 20px);
+        }
+
+        .section-header h2 {
+            font-size: 24px;
+        }
+
+        .cta-section h2 {
+            font-size: 24px;
+        }
+    }
+</style>
+
+<!-- Hero Section -->
+<section class="hero">
+    <span class="hero-math-symbol" style="top:30px; right:130px; font-size:64px; transform:rotate(-8deg);">∫</span>
+    <span class="hero-math-symbol" style="top:160px; right:280px; font-size:38px; transform:rotate(6deg);">π</span>
+    <span class="hero-math-symbol" style="top:50px; right:340px; font-size:44px; transform:rotate(4deg);">Σ</span>
+    <span class="hero-math-symbol" style="top:240px; right:110px; font-size:30px; transform:rotate(-10deg);">√2</span>
+    <span class="hero-math-symbol" style="top:20px; right:60px; font-size:26px; transform:rotate(9deg);">x²</span>
+
+    <div class="hero-container">
+        <div class="hero-progression">
+            <span class="num">5</span>
+            <svg class="arrow" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <span class="num">11</span>
+            <svg class="arrow" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <span class="num accent">ML</span>
+        </div>
+
+        <div class="hero-labels">
+            <span>класс, с нуля</span>
+            <span>класс + ЕГЭ</span>
+            <span class="accent">нейросети, embeddings, матрицы</span>
+        </div>
+
+        <div class="hero-bottom-row">
+            <p class="hero-subtitle">
+                Один непрерывный курс математики — от «пять плюс три» до математики, на которой строится машинное обучение. С AI-учителем в Telegram на каждом шаге.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="{{ site.Params.telegramBot }}" class="btn btn-primary">
+                    Открыть бота
+                </a>
+                <a href="/program/" class="btn btn-secondary">
+                    Программа курса
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-stats">
+        <div class="stat-item">
+            <span class="stat-label">350+ уроков</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">Бесплатный старт</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">AI-ответы 24/7</span>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section fade-in">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Преимущества</span>
+            <h2>Почему Математика AI?</h2>
+            <p>Современный подход к изучению математики с персональным AI-помощником</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <span class="feature-icon tint-blue">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><path d="M8 16h.01"/><path d="M16 16h.01"/></svg>
+                </span>
+                <h3>AI-тьютор 24/7</h3>
+                <p>Отвечает на вопросы мгновенно, объясняет непонятные моменты и помогает с домашкой в любое время</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon tint-orange">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg>
+                </span>
+                <h3>Геймификация</h3>
+                <p>Зарабатывай XP за правильные ответы, получай ранги и соревнуйся с друзьями</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon tint-blue">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15v3"/><path d="M12 10v8"/><path d="M17 6v12"/></svg>
+                </span>
+                <h3>Отслеживание прогресса</h3>
+                <p>Видь свою статистику, слабые места и области для улучшения в реальном времени</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon tint-orange">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>
+                </span>
+                <h3>Пошаговое обучение</h3>
+                <p>От простого к сложному. Каждая тема разложена по полочкам с примерами из жизни</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon tint-blue">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.7.5 1 1.4 1 2.3h6c0-.9.3-1.8 1-2.3A7 7 0 0 0 12 2Z"/></svg>
+                </span>
+                <h3>Понятные объяснения</h3>
+                <p>Никакой зубрёжки! Только логика и понимание того, КАК это работает</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon tint-orange">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg>
+                </span>
+                <h3>Удобно везде</h3>
+                <p>Учись в школе, дома или в дороге — нужен только Telegram на телефоне</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works -->
+<section class="how-it-works fade-in">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Как это работает</span>
+            <h2>4 простых шага к знаниям</h2>
+            <p>Начни учиться прямо сейчас без регистрации и установки приложений</p>
+        </div>
+        
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3>Открой бота</h3>
+                <p>Запусти @professor_kvasich_bot в Telegram — это займёт 5 секунд</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3>Выбери урок</h3>
+                <p>350 тем от чисел до нейронных сетей. Выбирай что непонятно</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3>Тренируйся</h3>
+                <p>Решай задачи, получай подсказки от AI и закрепляй материал</p>
+            </div>
+
+            <div class="step-card">
+                <div class="step-number">4</div>
+                <h3>Получай ранги</h3>
+                <p>Зарабатывай XP, повышай уровень и становись экспертом!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Exams: анонс разделов ОГЭ и ЕГЭ -->
+{{- $oge := site.Data.exams.oge -}}
+{{- $ege := site.Data.exams.ege -}}
+<section class="exam-promo fade-in">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Экзамены</span>
+            <h2>Подготовка к ОГЭ и ЕГЭ</h2>
+            <p>Каждое задание экзамена связано с уроками сайта: какую теорию читать и где потренироваться.</p>
+        </div>
+
+        <div class="exam-promo-grid">
+            <a class="exam-promo-card" href="/oge/">
+                <span class="exam-promo-kicker">9 класс</span>
+                <h3>ОГЭ по математике</h3>
+                <p>{{ with $oge }}{{ .exam.tasks_total }} заданий, максимум {{ .exam.max_primary_score }} баллов, {{ .exam.duration_minutes }} минут.{{ end }} Карта заданий, план подготовки на 10 недель и уроки под каждое задание, включая геометрию 7–9 класса.</p>
+                <span class="exam-promo-link">Все задания ОГЭ →</span>
+            </a>
+            <a class="exam-promo-card" href="/ege/">
+                <span class="exam-promo-kicker">11 класс, профиль</span>
+                <h3>ЕГЭ по математике</h3>
+                <p>{{ with $ege }}{{ .exam.tasks_total }} заданий, максимум {{ .exam.max_primary_score }} первичных баллов, {{ .exam.duration_minutes }} минут.{{ with .exam.verified_year }} Структура {{ . }} года по проекту ФИПИ, с новыми заданиями и сдвинутой нумерацией.{{ end }}{{ end }}</p>
+                <span class="exam-promo-link">Все задания ЕГЭ →</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<style>
+    .exam-promo {
+        padding: 100px 32px;
+        background: white;
+        border-bottom: 1px solid var(--border);
+    }
+    .exam-promo-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 32px;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .exam-promo-card {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        background: var(--bg-secondary);
+        border: 2px solid transparent;
+        border-radius: 20px;
+        padding: 36px;
+        text-decoration: none;
+        color: var(--text);
+        transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+    }
+    .exam-promo-card:hover {
+        border-color: var(--primary);
+        background: white;
+        box-shadow: 0 16px 40px rgba(17,17,17,0.08);
+    }
+    .exam-promo-kicker {
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--secondary);
+    }
+    .exam-promo-card h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 26px;
+        font-weight: 800;
+        color: var(--primary);
+    }
+    .exam-promo-card p {
+        color: var(--text-light);
+        line-height: 1.7;
+        flex: 1;
+    }
+    .exam-promo-link {
+        font-weight: 700;
+        color: var(--accent);
+    }
+    @media (max-width: 768px) {
+        .exam-promo { padding: 60px 16px; }
+        .exam-promo-grid { grid-template-columns: 1fr; gap: 20px; }
+        .exam-promo-card { padding: 28px; }
+        .exam-promo-card h3 { font-size: 22px; }
+    }
+</style>
+
+<!-- Pricing -->
+<section class="pricing-section fade-in">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Тарифы</span>
+            <h2>Учиться бесплатно, ускориться с Pro</h2>
+            <p>Все уроки и решения открыты без оплаты. Pro нужен тем, кому не хватает 5 вопросов в день — например, перед ОГЭ и ЕГЭ.</p>
+        </div>
+
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <div class="pricing-badge" style="background: var(--bg-tertiary); color: var(--text);">Навсегда</div>
+                <h3>Бесплатно</h3>
+                <div class="pricing-price">
+                    0 ₽
+                </div>
+
+                <ul class="pricing-features">
+                    <li>Все 350 уроков с решениями на сайте</li>
+                    <li>Тренировки в Telegram-боте</li>
+                    <li>5 вопросов Профессору Квасичу в день</li>
+                    <li>Режим «Экзамен»: разбор заданий ОГЭ и ЕГЭ по номеру — в пределах дневного лимита</li>
+                </ul>
+
+                <a href="{{ site.Params.telegramBot }}?start=home_free" class="btn btn-secondary" style="width: 100%; justify-content: center;" target="_blank" rel="noopener" data-goal="free_click">
+                    Начать бесплатно
+                </a>
+            </div>
+
+            <div class="pricing-card featured">
+                <div class="pricing-badge">Для подготовки к экзаменам</div>
+                <h3>Квасич Pro</h3>
+                <div class="pricing-price">
+                    200 Stars
+                    <span>/ 30 дней</span>
+                </div>
+                <p class="pricing-alt">или 1000 Stars до 30 июня 2027 года. Разовый платёж, без автосписаний.</p>
+
+                <ul class="pricing-features">
+                    <li>Всё, что есть в бесплатном</li>
+                    <li>Вопросы Квасичу без дневного лимита</li>
+                    <li>Подробные пошаговые разборы с проверкой ответа</li>
+                    <li>Режим «Экзамен» без лимита</li>
+                    <li>Оплата внутри Telegram через Telegram Stars</li>
+                </ul>
+
+                <a href="{{ site.Params.telegramBot }}?start=pro_home" class="btn btn-primary" style="width: 100%; justify-content: center; background: white; color: #111;" target="_blank" rel="noopener" data-goal="pro_click">
+                    Подключить Pro в Telegram
+                </a>
+                <a href="/pro/" class="pricing-more">Подробнее о Pro</a>
+            </div>
+        </div>
+    </div>
+    <style>
+    .pricing-alt {
+        margin: -12px 0 0;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.75);
+    }
+    .pricing-more {
+        display: block;
+        margin-top: 16px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+    .pricing-more:hover { color: #fff; }
+    </style>
+</section>
+<section class="blog-preview-section fade-in">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Блог</span>
+            <h2>Полезные статьи</h2>
+            <p>Разбираем сложные темы простым языком. Читай, понимай, применяй!</p>
+        </div>
+        
+        <div class="blog-preview-grid">
+            {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+            <a href="{{ .Permalink }}" class="blog-preview-card">
+                <div class="blog-preview-icon">
+                    {{ upper (substr (.Params.category | default .Title) 0 1) }}
+                </div>
+                <div class="blog-preview-content">
+                    {{ if .Params.category }}
+                    <span class="blog-preview-tag">{{ .Params.category }}</span>
+                    {{ end }}
+                    <h3>{{ .Title }}</h3>
+                    <p>{{ .Description | truncate 100 }}</p>
+                    <span class="blog-preview-link">Читать статью →</span>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="/blog/" class="btn btn-secondary">
+                Все статьи
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 
+ДОБАВИТЬ ЭТИ СТИЛИ в <style> в index.html:
+-->
+
+<style>
+/* Blog Preview Section */
+.blog-preview-section {
+    padding: 100px 32px;
+    background: var(--bg-secondary);
+}
+
+.blog-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.blog-preview-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-preview-card:hover {
+    transform: translateY(-8px);
+    border-color: #E0E0E0;
+    box-shadow: 0 16px 40px rgba(17,17,17,0.08);
+}
+
+.blog-preview-icon {
+    height: 140px;
+    background: #FAFAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    color: var(--secondary);
+}
+
+.blog-preview-content {
+    padding: 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-preview-tag {
+    display: inline-block;
+    background: #E8EEF7;
+    color: #0F766E;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    width: fit-content;
+}
+
+.blog-preview-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.blog-preview-card p {
+    color: var(--text-light);
+    font-size: 14px;
+    line-height: 1.6;
+    flex: 1;
+    margin-bottom: 16px;
+}
+
+.blog-preview-link {
+    color: #111;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+    .blog-preview-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-preview-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+<!-- CTA -->
+<section class="cta-section">
+    <div class="section-container">
+        <h2>Начни своё математическое путешествие</h2>
+        <p>Присоединяйся к студентам, которые уже прокачивают математику с AI-тьютором</p>
+        <a href="{{ site.Params.telegramBot }}" class="btn">
+            Начать обучение бесплатно
+        </a>
+    </div>
+</section>
+
+{{ end }}

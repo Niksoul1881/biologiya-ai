@@ -1,0 +1,10 @@
+{{- /* Картинка урока: src, alt, caption, credit (автор, источник, лицензия — обязательно для чужих картинок), width (необяз.) */ -}}
+<figure class="bio-figure">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" | default (.Get "caption") }}" loading="lazy" decoding="async"{{ with .Get "width" }} style="max-width:{{ . }}"{{ end }}>
+    {{- if or (.Get "caption") (.Get "credit") }}
+    <figcaption>
+        {{- with .Get "caption" }}<span class="bio-figure-caption">{{ . | markdownify }}</span>{{ end }}
+        {{- with .Get "credit" }}<span class="bio-figure-credit">{{ . | markdownify }}</span>{{ end }}
+    </figcaption>
+    {{- end }}
+</figure>
