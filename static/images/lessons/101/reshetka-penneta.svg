@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="600" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<text x="450.0" y="32" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold">Решётка Пеннета: AaBb × AaBb</text>
+<text x="390" y="78" font-size="15" text-anchor="middle" fill="#1d4f86" font-weight="bold">гаметы ♂</text>
+<text x="50" y="350" font-size="15" font-weight="bold" fill="#a0306a" text-anchor="middle" transform="rotate(-90 50 350)">гаметы ♀</text>
+<rect x="170" y="90" width="110" height="40" rx="0" fill="#eef6fb" stroke="#999"/>
+<text x="225.0" y="116" font-size="18" text-anchor="middle" fill="#1d4f86" font-weight="bold">AB</text>
+<rect x="90" y="130" width="80" height="110" rx="0" fill="#fbeef4" stroke="#999"/>
+<text x="130" y="191.0" font-size="18" text-anchor="middle" fill="#a0306a" font-weight="bold">AB</text>
+<rect x="280" y="90" width="110" height="40" rx="0" fill="#eef6fb" stroke="#999"/>
+<text x="335.0" y="116" font-size="18" text-anchor="middle" fill="#1d4f86" font-weight="bold">Ab</text>
+<rect x="90" y="240" width="80" height="110" rx="0" fill="#fbeef4" stroke="#999"/>
+<text x="130" y="301.0" font-size="18" text-anchor="middle" fill="#a0306a" font-weight="bold">Ab</text>
+<rect x="390" y="90" width="110" height="40" rx="0" fill="#eef6fb" stroke="#999"/>
+<text x="445.0" y="116" font-size="18" text-anchor="middle" fill="#1d4f86" font-weight="bold">aB</text>
+<rect x="90" y="350" width="80" height="110" rx="0" fill="#fbeef4" stroke="#999"/>
+<text x="130" y="411.0" font-size="18" text-anchor="middle" fill="#a0306a" font-weight="bold">aB</text>
+<rect x="500" y="90" width="110" height="40" rx="0" fill="#eef6fb" stroke="#999"/>
+<text x="555.0" y="116" font-size="18" text-anchor="middle" fill="#1d4f86" font-weight="bold">ab</text>
+<rect x="90" y="460" width="80" height="110" rx="0" fill="#fbeef4" stroke="#999"/>
+<text x="130" y="521.0" font-size="18" text-anchor="middle" fill="#a0306a" font-weight="bold">ab</text>
+<rect x="170" y="130" width="110" height="110" rx="0" fill="#fdf2c4" stroke="#999"/>
+<text x="225.0" y="181.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">AABB</text>
+<text x="225.0" y="203.0" font-size="12" text-anchor="middle" fill="#555">жёлт. глад.</text>
+<rect x="280" y="130" width="110" height="110" rx="0" fill="#fdf2c4" stroke="#999"/>
+<text x="335.0" y="181.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">AABb</text>
+<text x="335.0" y="203.0" font-size="12" text-anchor="middle" fill="#555">жёлт. глад.</text>
+<rect x="390" y="130" width="110" height="110" rx="0" fill="#fdf2c4" stroke="#999"/>
+<text x="445.0" y="181.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">AaBB</text>
+<text x="445.0" y="203.0" font-size="12" text-anchor="middle" fill="#555">жёлт. глад.</text>
+<rect x="500" y="130" width="110" height="110" rx="0" fill="#fdf2c4" stroke="#999"/>
+<text x="555.0" y="181.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">AaBb</text>
+<text x="555.0" y="203.0" font-size="12" text-anchor="middle" fill="#555">жёлт. глад.</text>
+<rect x="170" y="240" width="110" height="110" rx="0" fill="#fdf2c4" stroke="#999"/>
+<text x="225.0" y="291.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">AABb</text>
+<text x="225.0" y="313.0" font-size="12" text-anchor="middle" fill="#555">жёлт. глад.</text>
+<rect x="280" y="240" width="110" height="110" rx="0" fill="#fbe1b0" stroke="#999"/>
+<text x="335.0" y="291.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">AAbb</text>
+<text x="335.0" y="313.0" font-size="12" text-anchor="middle" fill="#555">жёлт. морщ.</text>
+<rect x="390" y="240" width="110" height="110" rx="0" fill="#fdf2c4" stroke="#999"/>
+<text x="445.0" y="291.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">AaBb</text>
+<text x="445.0" y="313.0" font-size="12" text-anchor="middle" fill="#555">жёлт. глад.</text>
+<rect x="500" y="240" width="110" height="110" rx="0" fill="#fbe1b0" stroke="#999"/>
+<text x="555.0" y="291.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">Aabb</text>
+<text x="555.0" y="313.0" font-size="12" text-anchor="middle" fill="#555">жёлт. морщ.</text>
+<rect x="170" y="350" width="110" height="110" rx="0" fill="#fdf2c4" stroke="#999"/>
+<text x="225.0" y="401.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">AaBB</text>
+<text x="225.0" y="423.0" font-size="12" text-anchor="middle" fill="#555">жёлт. глад.</text>
+<rect x="280" y="350" width="110" height="110" rx="0" fill="#fdf2c4" stroke="#999"/>
+<text x="335.0" y="401.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">AaBb</text>
+<text x="335.0" y="423.0" font-size="12" text-anchor="middle" fill="#555">жёлт. глад.</text>
+<rect x="390" y="350" width="110" height="110" rx="0" fill="#dff0cf" stroke="#999"/>
+<text x="445.0" y="401.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">aaBB</text>
+<text x="445.0" y="423.0" font-size="12" text-anchor="middle" fill="#555">зел. глад.</text>
+<rect x="500" y="350" width="110" height="110" rx="0" fill="#dff0cf" stroke="#999"/>
+<text x="555.0" y="401.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">aaBb</text>
+<text x="555.0" y="423.0" font-size="12" text-anchor="middle" fill="#555">зел. глад.</text>
+<rect x="170" y="460" width="110" height="110" rx="0" fill="#fdf2c4" stroke="#999"/>
+<text x="225.0" y="511.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">AaBb</text>
+<text x="225.0" y="533.0" font-size="12" text-anchor="middle" fill="#555">жёлт. глад.</text>
+<rect x="280" y="460" width="110" height="110" rx="0" fill="#fbe1b0" stroke="#999"/>
+<text x="335.0" y="511.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">Aabb</text>
+<text x="335.0" y="533.0" font-size="12" text-anchor="middle" fill="#555">жёлт. морщ.</text>
+<rect x="390" y="460" width="110" height="110" rx="0" fill="#dff0cf" stroke="#999"/>
+<text x="445.0" y="511.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">aaBb</text>
+<text x="445.0" y="533.0" font-size="12" text-anchor="middle" fill="#555">зел. глад.</text>
+<rect x="500" y="460" width="110" height="110" rx="0" fill="#c9e3b4" stroke="#999"/>
+<text x="555.0" y="511.0" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">aabb</text>
+<text x="555.0" y="533.0" font-size="12" text-anchor="middle" fill="#555">зел. морщ.</text>
+<rect x="645" y="150" width="24" height="24" rx="0" fill="#fdf2c4" stroke="#999"/>
+<text x="677" y="167" font-size="13.5" text-anchor="start" fill="#333">9 — жёлтые гладкие</text>
+<rect x="645" y="190" width="24" height="24" rx="0" fill="#fbe1b0" stroke="#999"/>
+<text x="677" y="207" font-size="13.5" text-anchor="start" fill="#333">3 — жёлтые морщинистые</text>
+<rect x="645" y="230" width="24" height="24" rx="0" fill="#dff0cf" stroke="#999"/>
+<text x="677" y="247" font-size="13.5" text-anchor="start" fill="#333">3 — зелёные гладкие</text>
+<rect x="645" y="270" width="24" height="24" rx="0" fill="#c9e3b4" stroke="#999"/>
+<text x="677" y="287" font-size="13.5" text-anchor="start" fill="#333">1 — зелёные морщинистые</text>
+<text x="645" y="340" font-size="13.5" text-anchor="start" fill="#555">16 сочетаний гамет,</text>
+<text x="645" y="360" font-size="13.5" text-anchor="start" fill="#555">9 генотипов,</text>
+<text x="645" y="380" font-size="13.5" text-anchor="start" fill="#555">4 фенотипических класса</text>
+<text x="645" y="420" font-size="13.5" text-anchor="start" fill="#333">A — жёлтая окраска,</text>
+<text x="645" y="440" font-size="13.5" text-anchor="start" fill="#333">a — зелёная;</text>
+<text x="645" y="460" font-size="13.5" text-anchor="start" fill="#333">B — гладкая форма,</text>
+<text x="645" y="480" font-size="13.5" text-anchor="start" fill="#333">b — морщинистая.</text>
+</svg>
