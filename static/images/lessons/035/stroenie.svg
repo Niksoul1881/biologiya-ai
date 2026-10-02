@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="420" fill="#fff"/>
+<path d="M50,210 C70,170 130,150 220,145 L780,145 C870,150 920,180 960,215 C920,240 870,265 780,272 L220,272 C130,268 70,250 50,210 Z" fill="#dbeafe" stroke="#374151" stroke-width="5"/>
+<path d="M60,210 C78,176 135,158 220,154 L780,154 C866,159 912,186 946,215 C912,236 866,258 780,263 L220,263 C135,260 78,245 60,210 Z" fill="none" stroke="#fca5a5" stroke-width="8"/>
+<path d="M150,166 L900,182" stroke="#7c3aed" stroke-width="3"/><path d="M150,252 L900,240" stroke="#7c3aed" stroke-width="3"/>
+<path d="M52,210 L120,210" stroke="#b45309" stroke-width="8"/>
+<ellipse cx="160" cy="210" rx="42" ry="20" fill="#f59e0b" stroke="#b45309" stroke-width="2"/>
+<path d="M200,210 C400,195 600,225 840,212" stroke="#fcd34d" stroke-width="26" fill="none"/>
+<path d="M200,210 C400,195 600,225 840,212" stroke="#b45309" stroke-width="2" fill="none" stroke-dasharray="0"/>
+<path d="M838,212 C870,214 885,230 892,252" stroke="#b45309" stroke-width="8" fill="none"/>
+<circle cx="893" cy="258" r="6" fill="#fff" stroke="#b45309" stroke-width="2.5"/>
+<ellipse cx="135" cy="210" rx="9" ry="48" fill="none" stroke="#7c3aed" stroke-width="6"/>
+<path d="M330,175 q12,12 24,0 q12,-12 24,0 q12,12 24,0 q12,-12 24,0 q12,12 24,0 q12,-12 24,0 q12,12 24,0 q12,-12 24,0 q12,12 24,0 q12,-12 24,0 q12,12 24,0 q12,-12 24,0 q12,12 24,0 q12,-12 24,0 q12,12 24,0 q12,-12 24,0 q12,12 24,0 q12,-12 24,0" stroke="#ec4899" stroke-width="5" fill="none"/>
+<path d="M360,245 q12,10 24,0 q12,-10 24,0 q12,10 24,0 q12,-10 24,0 q12,10 24,0 q12,-10 24,0 q12,10 24,0 q12,-10 24,0 q12,10 24,0 q12,-10 24,0 q12,10 24,0 q12,-10 24,0 q12,10 24,0 q12,-10 24,0 q12,10 24,0 q12,-10 24,0" stroke="#ec4899" stroke-width="5" fill="none"/>
+<line x1="90" y1="95" x2="55" y2="208" stroke="#374151" stroke-width="1.5"/><circle cx="55" cy="208" r="3" fill="#374151"/>
+<text x="40" y="85" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Рот</text>
+<line x1="185" y1="95" x2="160" y2="198" stroke="#374151" stroke-width="1.5"/><circle cx="160" cy="198" r="3" fill="#374151"/>
+<text x="150" y="85" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Глотка</text>
+<line x1="115" y1="340" x2="132" y2="255" stroke="#374151" stroke-width="1.5"/><circle cx="132" cy="255" r="3" fill="#374151"/>
+<text x="30" y="360" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Окологлоточное</text>
+<text x="30" y="378" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">нервное кольцо</text>
+<line x1="320" y1="95" x2="330" y2="177" stroke="#374151" stroke-width="1.5"/><circle cx="330" cy="177" r="3" fill="#374151"/>
+<text x="270" y="85" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Половые органы</text>
+<line x1="520" y1="95" x2="500" y2="205" stroke="#374151" stroke-width="1.5"/><circle cx="500" cy="205" r="3" fill="#374151"/>
+<text x="470" y="85" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Средняя кишка</text>
+<line x1="700" y1="95" x2="700" y2="153" stroke="#374151" stroke-width="1.5"/><circle cx="700" cy="153" r="3" fill="#374151"/>
+<text x="640" y="85" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Кутикула и</text>
+<text x="640" y="103" font-size="14" text-anchor="start" fill="#111827">продольные мышцы</text>
+<line x1="330" y1="340" x2="300" y2="250" stroke="#374151" stroke-width="1.5"/><circle cx="300" cy="250" r="3" fill="#374151"/>
+<text x="260" y="360" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Нервные стволы</text>
+<line x1="700" y1="340" x2="800" y2="232" stroke="#374151" stroke-width="1.5"/><circle cx="800" cy="232" r="3" fill="#374151"/>
+<text x="560" y="360" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Полость тела с жидкостью</text>
+<line x1="860" y1="95" x2="870" y2="225" stroke="#374151" stroke-width="1.5"/><circle cx="870" cy="225" r="3" fill="#374151"/>
+<text x="810" y="85" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Задняя кишка</text>
+<line x1="930" y1="340" x2="894" y2="262" stroke="#374151" stroke-width="1.5"/><circle cx="894" cy="262" r="3" fill="#374151"/>
+<text x="840" y="360" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Анальное</text>
+<text x="840" y="378" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">отверстие</text>
+</svg>

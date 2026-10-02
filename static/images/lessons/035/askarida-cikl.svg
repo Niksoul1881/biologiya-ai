@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="600" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker></defs>
+<rect x="10" y="40" width="290" height="540" rx="18" fill="#ecfccb" stroke="#65a30d" stroke-width="2"/>
+<rect x="330" y="40" width="660" height="540" rx="18" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+<text x="155" y="30" font-size="15" font-weight="bold" text-anchor="middle" fill="#3f6212">ПОЧВА</text>
+<text x="660" y="30" font-size="15" font-weight="bold" text-anchor="middle" fill="#991b1b">ТЕЛО ЧЕЛОВЕКА (один хозяин)</text>
+<rect x="25" y="80" width="260" height="130" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="43" cy="100" r="13" fill="#16A34A"/>
+<text x="43" y="106" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">2</text>
+<text x="63" y="107" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Яйца в почве</text>
+<text x="39" y="132" font-size="15" text-anchor="start" fill="#374151">за 2–3 недели в яйце</text>
+<text x="39" y="152" font-size="15" text-anchor="start" fill="#374151">созревает личинка —</text>
+<text x="39" y="172" font-size="15" text-anchor="start" fill="#374151">яйцо становится</text>
+<text x="39" y="192" font-size="15" text-anchor="start" fill="#374151">заразным</text>
+<rect x="25" y="400" width="260" height="150" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="43" cy="420" r="13" fill="#16A34A"/>
+<text x="43" y="426" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">3</text>
+<text x="63" y="427" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Заражение</text>
+<text x="39" y="452" font-size="15" text-anchor="start" fill="#374151">человек глотает яйца</text>
+<text x="39" y="472" font-size="15" text-anchor="start" fill="#374151">с немытыми овощами,</text>
+<text x="39" y="492" font-size="15" text-anchor="start" fill="#374151">ягодами, зеленью,</text>
+<text x="39" y="512" font-size="15" text-anchor="start" fill="#374151">с грязных рук</text>
+<rect x="350" y="400" width="280" height="130" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="368" cy="420" r="13" fill="#16A34A"/>
+<text x="368" y="426" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">4</text>
+<text x="388" y="427" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Кишечник</text>
+<text x="364" y="452" font-size="15" text-anchor="start" fill="#374151">из яиц выходят</text>
+<text x="364" y="472" font-size="15" text-anchor="start" fill="#374151">личинки и проникают</text>
+<text x="364" y="492" font-size="15" text-anchor="start" fill="#374151">в кровь</text>
+<rect x="690" y="400" width="280" height="130" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="708" cy="420" r="13" fill="#16A34A"/>
+<text x="708" y="426" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">5</text>
+<text x="728" y="427" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Печень и сердце</text>
+<text x="704" y="452" font-size="15" text-anchor="start" fill="#374151">с током крови</text>
+<text x="704" y="472" font-size="15" text-anchor="start" fill="#374151">личинки попадают</text>
+<text x="704" y="492" font-size="15" text-anchor="start" fill="#374151">в печень, затем в сердце</text>
+<rect x="690" y="220" width="280" height="130" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="708" cy="240" r="13" fill="#16A34A"/>
+<text x="708" y="246" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">6</text>
+<text x="728" y="247" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Лёгкие</text>
+<text x="704" y="272" font-size="15" text-anchor="start" fill="#374151">личинки растут и линяют;</text>
+<text x="704" y="292" font-size="15" text-anchor="start" fill="#374151">поднимаются по</text>
+<text x="704" y="312" font-size="15" text-anchor="start" fill="#374151">дыхательным путям</text>
+<text x="704" y="332" font-size="15" text-anchor="start" fill="#374151">в глотку</text>
+<rect x="690" y="70" width="280" height="120" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="708" cy="90" r="13" fill="#16A34A"/>
+<text x="708" y="96" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">7</text>
+<text x="728" y="97" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Глотка</text>
+<text x="704" y="122" font-size="15" text-anchor="start" fill="#374151">личинки заглатываются</text>
+<text x="704" y="142" font-size="15" text-anchor="start" fill="#374151">со слюной и мокротой</text>
+<rect x="350" y="70" width="280" height="170" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="368" cy="90" r="13" fill="#16A34A"/>
+<text x="368" y="96" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">1</text>
+<text x="388" y="97" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Тонкий кишечник</text>
+<text x="364" y="122" font-size="15" text-anchor="start" fill="#374151">личинки вырастают</text>
+<text x="364" y="142" font-size="15" text-anchor="start" fill="#374151">во взрослых аскарид</text>
+<text x="364" y="162" font-size="15" text-anchor="start" fill="#374151">(самка до 40 см);</text>
+<text x="364" y="182" font-size="15" text-anchor="start" fill="#374151">самка откладывает</text>
+<text x="364" y="202" font-size="15" text-anchor="start" fill="#374151">до 200 тыс. яиц в сутки</text>
+<line x1="348" y1="155" x2="288" y2="150" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="155" y1="210" x2="155" y2="397" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="285" y1="470" x2="347" y2="465" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="630" y1="465" x2="687" y2="465" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="830" y1="400" x2="830" y2="353" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="830" y1="220" x2="830" y2="193" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="690" y1="130" x2="633" y2="140" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<text x="318" y="135" font-size="13" text-anchor="middle" fill="#374151">яйца</text>
+</svg>
