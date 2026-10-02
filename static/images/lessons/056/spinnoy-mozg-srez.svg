@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="560" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="25" font-weight="bold" fill="#1F2937">Спинной мозг: поперечный срез</text>
+  <!-- white matter -->
+  <ellipse cx="450" cy="285" rx="200" ry="160" fill="#F3F4F6" stroke="#6B7280" stroke-width="3"/>
+  <!-- grey matter butterfly -->
+  <path d="M450,165 C395,150 345,190 352,235 C358,262 400,262 410,275 C398,292 352,300 345,335 C338,375 385,405 450,395 C515,405 562,375 555,335 C548,300 502,292 490,275 C500,262 542,262 548,235 C555,190 505,150 450,165 z" fill="#9CA3AF" stroke="#4B5563" stroke-width="2"/>
+  <circle cx="450" cy="282" r="7" fill="#FFFFFF" stroke="#4B5563" stroke-width="2"/>
+  <!-- fissures -->
+  <line x1="450" y1="125" x2="450" y2="160" stroke="#6B7280" stroke-width="3"/>
+  <line x1="450" y1="400" x2="450" y2="445" stroke="#6B7280" stroke-width="4"/>
+  <!-- roots: dorsal (top) and ventral (bottom), right side -->
+  <path d="M530,180 C600,150 640,150 690,165" fill="none" stroke="#2563EB" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="690" cy="168" rx="28" ry="20" fill="#FDE68A" stroke="#B45309" stroke-width="3"/>
+  <path d="M535,385 C610,400 660,330 720,240" fill="none" stroke="#DC2626" stroke-width="10" stroke-linecap="round"/>
+  <path d="M715,175 C740,195 750,215 760,240" fill="none" stroke="#2563EB" stroke-width="10" stroke-linecap="round"/>
+  <path d="M760,240 L840,300" fill="none" stroke="#7C3AED" stroke-width="14" stroke-linecap="round"/>
+  <!-- left side mirror roots -->
+  <path d="M370,180 C300,150 260,150 210,165" fill="none" stroke="#2563EB" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="210" cy="168" rx="28" ry="20" fill="#FDE68A" stroke="#B45309" stroke-width="3"/>
+  <path d="M365,385 C290,400 240,330 180,240" fill="none" stroke="#DC2626" stroke-width="10" stroke-linecap="round"/>
+  <path d="M185,175 C160,195 150,215 140,240" fill="none" stroke="#2563EB" stroke-width="10" stroke-linecap="round"/>
+  <path d="M140,240 L60,300" fill="none" stroke="#7C3AED" stroke-width="14" stroke-linecap="round"/>
+  <!-- labels -->
+  <g font-size="16" fill="#1F2937">
+    <text x="450" y="118" text-anchor="middle" font-size="15" fill="#6B7280">задняя сторона (к спине)</text>
+    <text x="450" y="470" text-anchor="middle" font-size="15" fill="#6B7280">передняя сторона (к животу)</text>
+    <line x1="400" y1="215" x2="300" y2="90" stroke="#4B5563" stroke-width="1.5"/><text x="140" y="80" font-weight="bold">задние рога</text><text x="140" y="98" font-size="14" fill="#374151">вставочные нейроны</text>
+    <line x1="395" y1="345" x2="290" y2="510" stroke="#4B5563" stroke-width="1.5"/><text x="120" y="520" font-weight="bold">передние рога</text><text x="120" y="538" font-size="14" fill="#374151">тела двигательных нейронов</text>
+    <line x1="458" y1="282" x2="500" y2="505" stroke="#4B5563" stroke-width="1.5"/><text x="440" y="525" font-size="15">центральный канал</text>
+    <line x1="580" y1="390" x2="660" y2="500" stroke="#4B5563" stroke-width="1.5"/><text x="640" y="520" font-weight="bold">белое вещество</text><text x="640" y="538" font-size="14" fill="#374151">проводящие пути</text>
+    <line x1="520" y1="250" x2="600" y2="70" stroke="#4B5563" stroke-width="1.5"/><text x="560" y="62" font-weight="bold">серое вещество</text>
+    <text x="655" y="212" font-size="14" fill="#B45309" font-weight="bold">спинномозговой узел</text>
+    <text x="560" y="128" font-size="14" fill="#2563EB" font-weight="bold">задний корешок</text><text x="560" y="144" font-size="13" fill="#2563EB">(чувствительный)</text>
+    <text x="668" y="372" font-size="14" fill="#DC2626" font-weight="bold">передний корешок</text><text x="668" y="388" font-size="13" fill="#DC2626">(двигательный)</text>
+    <text x="770" y="330" font-size="14" fill="#7C3AED" font-weight="bold">спинномозговой</text><text x="770" y="347" font-size="14" fill="#7C3AED" font-weight="bold">нерв (смешанный)</text>
+  </g>
+</svg>
