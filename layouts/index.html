@@ -682,11 +682,11 @@
 
 <!-- Hero Section -->
 <section class="hero">
-    <span class="hero-math-symbol" style="top:30px; right:130px; font-size:64px; transform:rotate(-8deg);">∫</span>
-    <span class="hero-math-symbol" style="top:160px; right:280px; font-size:38px; transform:rotate(6deg);">π</span>
-    <span class="hero-math-symbol" style="top:50px; right:340px; font-size:44px; transform:rotate(4deg);">Σ</span>
-    <span class="hero-math-symbol" style="top:240px; right:110px; font-size:30px; transform:rotate(-10deg);">√2</span>
-    <span class="hero-math-symbol" style="top:20px; right:60px; font-size:26px; transform:rotate(9deg);">x²</span>
+    <span class="hero-math-symbol" style="top:30px; right:130px; font-size:52px; transform:rotate(-8deg);">ATG</span>
+    <span class="hero-math-symbol" style="top:160px; right:280px; font-size:34px; transform:rotate(6deg);">2n</span>
+    <span class="hero-math-symbol" style="top:50px; right:360px; font-size:40px; transform:rotate(4deg);">Aa</span>
+    <span class="hero-math-symbol" style="top:240px; right:100px; font-size:28px; transform:rotate(-10deg);">C₆H₁₂O₆</span>
+    <span class="hero-math-symbol" style="top:20px; right:40px; font-size:26px; transform:rotate(9deg);">ДНК</span>
 
     <div class="hero-container">
         <div class="hero-progression">
@@ -694,170 +694,175 @@
             <svg class="arrow" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             <span class="num">11</span>
             <svg class="arrow" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-            <span class="num accent">ML</span>
+            <span class="num accent">Био-IT</span>
         </div>
 
         <div class="hero-labels">
-            <span>класс, с нуля</span>
-            <span>класс + ЕГЭ</span>
-            <span class="accent">нейросети, embeddings, матрицы</span>
+            <span>класс: растения, животные, человек</span>
+            <span>класс + ЕГЭ: клетка, генетика</span>
+            <span class="accent">биоинформатика, геномика, ML</span>
         </div>
 
         <div class="hero-bottom-row">
             <p class="hero-subtitle">
-                Один непрерывный курс математики — от «пять плюс три» до математики, на которой строится машинное обучение. С AI-учителем в Telegram на каждом шаге.
+                Один непрерывный курс биологии — от строения цветка до того, как нейросети предсказывают форму белков и ищут новые лекарства. Со схемами, рисунками и заданиями ОГЭ и ЕГЭ в каждом уроке.
             </p>
 
             <div class="hero-buttons">
-                <a href="{{ site.Params.telegramBot }}" class="btn btn-primary">
-                    Открыть бота
-                </a>
-                <a href="/program/" class="btn btn-secondary">
-                    Программа курса
-                </a>
+                <a href="/program/" class="btn btn-primary">Программа курса</a>
+                <a href="/obshchaya-biologiya/088-organoidy-kletki/" class="btn btn-secondary">Пример урока</a>
             </div>
         </div>
     </div>
 
     <div class="hero-stats">
-        <div class="stat-item">
-            <span class="stat-label">350+ уроков</span>
-        </div>
-        <div class="stat-item">
-            <span class="stat-label">Бесплатный старт</span>
-        </div>
-        <div class="stat-item">
-            <span class="stat-label">AI-ответы 24/7</span>
-        </div>
+        <div class="stat-item"><span class="stat-label">300 уроков</span></div>
+        <div class="stat-item"><span class="stat-label">Схемы к каждой теме</span></div>
+        <div class="stat-item"><span class="stat-label">Бесплатно</span></div>
     </div>
 </section>
 
-<!-- Features Section -->
+<!-- Курсы -->
 <section class="features-section fade-in">
     <div class="section-container">
         <div class="section-header">
-            <span class="section-badge">Преимущества</span>
-            <h2>Почему Математика AI?</h2>
-            <p>Современный подход к изучению математики с персональным AI-помощником</p>
+            <span class="section-badge">Курсы</span>
+            <h2>{{ len site.Data.program.courses }} курсов: от школы до биоинформатики</h2>
+            <p>Школьная биология, подготовка к экзаменам и то, чего почти нет на русском: биология для программистов, геномика и ML</p>
         </div>
-        
-        <div class="features-grid">
-            <div class="feature-card">
-                <span class="feature-icon tint-blue">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4"/><path d="M8 16h.01"/><path d="M16 16h.01"/></svg>
-                </span>
-                <h3>AI-тьютор 24/7</h3>
-                <p>Отвечает на вопросы мгновенно, объясняет непонятные моменты и помогает с домашкой в любое время</p>
-            </div>
-
-            <div class="feature-card">
-                <span class="feature-icon tint-orange">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg>
-                </span>
-                <h3>Геймификация</h3>
-                <p>Зарабатывай XP за правильные ответы, получай ранги и соревнуйся с друзьями</p>
-            </div>
-
-            <div class="feature-card">
-                <span class="feature-icon tint-blue">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15v3"/><path d="M12 10v8"/><path d="M17 6v12"/></svg>
-                </span>
-                <h3>Отслеживание прогресса</h3>
-                <p>Видь свою статистику, слабые места и области для улучшения в реальном времени</p>
-            </div>
-
-            <div class="feature-card">
-                <span class="feature-icon tint-orange">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>
-                </span>
-                <h3>Пошаговое обучение</h3>
-                <p>От простого к сложному. Каждая тема разложена по полочкам с примерами из жизни</p>
-            </div>
-
-            <div class="feature-card">
-                <span class="feature-icon tint-blue">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.7.5 1 1.4 1 2.3h6c0-.9.3-1.8 1-2.3A7 7 0 0 0 12 2Z"/></svg>
-                </span>
-                <h3>Понятные объяснения</h3>
-                <p>Никакой зубрёжки! Только логика и понимание того, КАК это работает</p>
-            </div>
-
-            <div class="feature-card">
-                <span class="feature-icon tint-orange">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg>
-                </span>
-                <h3>Удобно везде</h3>
-                <p>Учись в школе, дома или в дороге — нужен только Telegram на телефоне</p>
-            </div>
+        <div class="bio-courses-grid">
+            {{- range site.Data.program.courses }}
+            <a class="bio-course-card" href="/{{ .id }}/" style="--c: {{ .color }}">
+                <span class="bio-course-emoji">{{ .emoji }}</span>
+                <span class="bio-course-count">{{ .count }} уроков</span>
+                <h3>{{ .title }}</h3>
+                <p>{{ .subtitle }}</p>
+            </a>
+            {{- end }}
         </div>
     </div>
 </section>
 
-<!-- How It Works -->
-<section class="how-it-works fade-in">
+<!-- Почему -->
+<section class="features-section fade-in">
     <div class="section-container">
         <div class="section-header">
-            <span class="section-badge">Как это работает</span>
-            <h2>4 простых шага к знаниям</h2>
-            <p>Начни учиться прямо сейчас без регистрации и установки приложений</p>
+            <span class="section-badge">Подход</span>
+            <h2>Почему Биология AI?</h2>
+            <p>Биология — это картинки и понимание, а не зубрёжка терминов</p>
         </div>
-        
-        <div class="steps-grid">
-            <div class="step-card">
-                <div class="step-number">1</div>
-                <h3>Открой бота</h3>
-                <p>Запусти @professor_kvasich_bot в Telegram — это займёт 5 секунд</p>
+        <div class="features-grid">
+            <div class="feature-card">
+                <span class="feature-icon tint-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg></span>
+                <h3>Схемы и рисунки</h3>
+                <p>В каждом уроке 4–8 научных иллюстраций: клетки, органы, циклы, процессы — с подписями на русском</p>
             </div>
-
-            <div class="step-card">
-                <div class="step-number">2</div>
-                <h3>Выбери урок</h3>
-                <p>350 тем от чисел до нейронных сетей. Выбирай что непонятно</p>
+            <div class="feature-card">
+                <span class="feature-icon tint-orange"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
+                <h3>30 заданий в формате экзамена</h3>
+                <p>Выбор, соответствие, последовательность, задачи по генетике — как на ОГЭ и ЕГЭ, с подробными решениями</p>
             </div>
-
-            <div class="step-card">
-                <div class="step-number">3</div>
-                <h3>Тренируйся</h3>
-                <p>Решай задачи, получай подсказки от AI и закрепляй материал</p>
+            <div class="feature-card">
+                <span class="feature-icon tint-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.7.5 1 1.4 1 2.3h6c0-.9.3-1.8 1-2.3A7 7 0 0 0 12 2Z"/></svg></span>
+                <h3>Понимание, а не зубрёжка</h3>
+                <p>Почему клетка устроена именно так: строение и функция, история открытий, аналогии из жизни</p>
             </div>
-
-            <div class="step-card">
-                <div class="step-number">4</div>
-                <h3>Получай ранги</h3>
-                <p>Зарабатывай XP, повышай уровень и становись экспертом!</p>
+            <div class="feature-card">
+                <span class="feature-icon tint-orange"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 15c6.667-6 13.333 0 20-6"/><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"/><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"/><path d="m17 6-2.5-2.5"/><path d="m14 8-1-1"/><path d="m7 18 2.5 2.5"/><path d="m3.5 14.5.5.5"/><path d="m20 9 .5.5"/><path d="m6.5 12.5 1 1"/><path d="m16.5 10.5 1 1"/><path d="m10 16 1.5 1.5"/></svg></span>
+                <h3>Биология будущего</h3>
+                <p>В каждом уроке — где тема работает в биотехнологиях, медицине, агротехе и биоинформатике</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon tint-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+                <h3>Биоинформатика с нуля</h3>
+                <p>Python, алгоритмы выравнивания, геномика, AlphaFold — понятным языком, на русском</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon tint-orange"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v12"/><path d="M15 9.5c0-1.4-1.3-2.5-3-2.5s-3 1.1-3 2.5 1.3 2.2 3 2.5 3 1.1 3 2.5-1.3 2.5-3 2.5-3-1.1-3-2.5"/></svg></span>
+                <h3>Бесплатно</h3>
+                <p>Все уроки открыты: без регистрации, подписок и платных «полных версий»</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Exams: анонс разделов ОГЭ и ЕГЭ -->
-{{- $oge := site.Data.exams.oge -}}
-{{- $ege := site.Data.exams.ege -}}
+<!-- Экзамены -->
 <section class="exam-promo fade-in">
     <div class="section-container">
         <div class="section-header">
             <span class="section-badge">Экзамены</span>
-            <h2>Подготовка к ОГЭ и ЕГЭ</h2>
-            <p>Каждое задание экзамена связано с уроками сайта: какую теорию читать и где потренироваться.</p>
+            <h2>Подготовка к ОГЭ и ЕГЭ по биологии</h2>
+            <p>Разбор каждого задания: что проверяет, алгоритм решения, типичные ошибки и уроки с теорией.</p>
         </div>
-
         <div class="exam-promo-grid">
             <a class="exam-promo-card" href="/oge/">
                 <span class="exam-promo-kicker">9 класс</span>
-                <h3>ОГЭ по математике</h3>
-                <p>{{ with $oge }}{{ .exam.tasks_total }} заданий, максимум {{ .exam.max_primary_score }} баллов, {{ .exam.duration_minutes }} минут.{{ end }} Карта заданий, план подготовки на 10 недель и уроки под каждое задание, включая геометрию 7–9 класса.</p>
+                <h3>ОГЭ по биологии</h3>
+                <p>26 заданий, 150 минут, максимум 47 баллов. Ботаника, зоология, анатомия и общая биология — с разбором каждого номера.</p>
                 <span class="exam-promo-link">Все задания ОГЭ →</span>
             </a>
             <a class="exam-promo-card" href="/ege/">
-                <span class="exam-promo-kicker">11 класс, профиль</span>
-                <h3>ЕГЭ по математике</h3>
-                <p>{{ with $ege }}{{ .exam.tasks_total }} заданий, максимум {{ .exam.max_primary_score }} первичных баллов, {{ .exam.duration_minutes }} минут.{{ with .exam.verified_year }} Структура {{ . }} года по проекту ФИПИ, с новыми заданиями и сдвинутой нумерацией.{{ end }}{{ end }}</p>
+                <span class="exam-promo-kicker">11 класс</span>
+                <h3>ЕГЭ по биологии</h3>
+                <p>28 заданий, 235 минут: 21 с кратким ответом и 7 с развёрнутым, включая задачи по цитологии и генетике.</p>
                 <span class="exam-promo-link">Все задания ЕГЭ →</span>
             </a>
         </div>
     </div>
 </section>
 
+<!-- Биология будущего -->
+<section class="how-it-works fade-in">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Новый технологический уклад</span>
+            <h2>Где биология станет главной профессией</h2>
+            <p>Человек, который знает биологию, математику и умеет работать с данными, — один из самых редких и востребованных специалистов ближайших десятилетий</p>
+        </div>
+        <div class="steps-grid">
+            <a class="step-card bio-future" href="/genomika/">
+                <div class="step-number">🧬</div>
+                <h3>Геномика</h3>
+                <p>Поиск мутаций и связи генов с болезнями. Данных больше, чем людей, которые умеют их анализировать</p>
+            </a>
+            <a class="step-card bio-future" href="/ml-bio/">
+                <div class="step-number">🧪</div>
+                <h3>Белки и лекарства</h3>
+                <p>AlphaFold предсказывает структуру белков, нейросети ищут новые лекарства вместо долгого перебора в лаборатории</p>
+            </a>
+            <a class="step-card bio-future" href="/sinbio/">
+                <div class="step-number">⚗️</div>
+                <h3>Синтетическая биология</h3>
+                <p>Клетки-фабрики, которые производят лекарства, топливо и материалы вместо нефтехимии</p>
+            </a>
+            <a class="step-card bio-future" href="/bio-it/">
+                <div class="step-number">💻</div>
+                <h3>Биоинформатика</h3>
+                <p>Программирование, статистика и биология в одной профессии. Начать можно со школьной программы</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="section-container">
+        <h2>Начни с клетки — дойди до нейросетей</h2>
+        <p>Выбери тему в программе: от школьной ботаники до геномики и ML</p>
+        <a href="/program/" class="btn">Открыть программу</a>
+    </div>
+</section>
+
+<style>
+    .bio-courses-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 16px; margin-top: 40px; }
+    .bio-course-card { position: relative; display: block; padding: 22px; border: 1px solid #E5E7EB; border-radius: 16px; background: #fff; color: inherit; text-decoration: none; transition: transform .15s, box-shadow .15s, border-color .15s; }
+    .bio-course-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.06); border-color: var(--c); }
+    .bio-course-emoji { display: inline-flex; width: 44px; height: 44px; align-items: center; justify-content: center; font-size: 24px; border-radius: 12px; background: color-mix(in srgb, var(--c) 12%, white); }
+    .bio-course-count { position: absolute; top: 22px; right: 22px; font-size: 12px; font-weight: 700; color: var(--c); background: color-mix(in srgb, var(--c) 10%, white); border-radius: 999px; padding: 3px 10px; }
+    .bio-course-card h3 { margin: 14px 0 6px; font-size: 18px; }
+    .bio-course-card p { margin: 0; font-size: 14px; color: #6B7280; line-height: 1.45; }
+    .bio-future { color: inherit; text-decoration: none; }
+    .bio-future .step-number { background: #F0FDF4; font-size: 22px; }
+</style>
 <style>
     .exam-promo {
         padding: 100px 32px;
@@ -917,221 +922,4 @@
         .exam-promo-card h3 { font-size: 22px; }
     }
 </style>
-
-<!-- Pricing -->
-<section class="pricing-section fade-in">
-    <div class="section-container">
-        <div class="section-header">
-            <span class="section-badge">Тарифы</span>
-            <h2>Учиться бесплатно, ускориться с Pro</h2>
-            <p>Все уроки и решения открыты без оплаты. Pro нужен тем, кому не хватает 5 вопросов в день — например, перед ОГЭ и ЕГЭ.</p>
-        </div>
-
-        <div class="pricing-cards">
-            <div class="pricing-card">
-                <div class="pricing-badge" style="background: var(--bg-tertiary); color: var(--text);">Навсегда</div>
-                <h3>Бесплатно</h3>
-                <div class="pricing-price">
-                    0 ₽
-                </div>
-
-                <ul class="pricing-features">
-                    <li>Все 350 уроков с решениями на сайте</li>
-                    <li>Тренировки в Telegram-боте</li>
-                    <li>5 вопросов Профессору Квасичу в день</li>
-                    <li>Режим «Экзамен»: разбор заданий ОГЭ и ЕГЭ по номеру — в пределах дневного лимита</li>
-                </ul>
-
-                <a href="{{ site.Params.telegramBot }}?start=home_free" class="btn btn-secondary" style="width: 100%; justify-content: center;" target="_blank" rel="noopener" data-goal="free_click">
-                    Начать бесплатно
-                </a>
-            </div>
-
-            <div class="pricing-card featured">
-                <div class="pricing-badge">Для подготовки к экзаменам</div>
-                <h3>Квасич Pro</h3>
-                <div class="pricing-price">
-                    200 Stars
-                    <span>/ 30 дней</span>
-                </div>
-                <p class="pricing-alt">или 1000 Stars до 30 июня 2027 года. Разовый платёж, без автосписаний.</p>
-
-                <ul class="pricing-features">
-                    <li>Всё, что есть в бесплатном</li>
-                    <li>Вопросы Квасичу без дневного лимита</li>
-                    <li>Подробные пошаговые разборы с проверкой ответа</li>
-                    <li>Режим «Экзамен» без лимита</li>
-                    <li>Оплата внутри Telegram через Telegram Stars</li>
-                </ul>
-
-                <a href="{{ site.Params.telegramBot }}?start=pro_home" class="btn btn-primary" style="width: 100%; justify-content: center; background: white; color: #111;" target="_blank" rel="noopener" data-goal="pro_click">
-                    Подключить Pro в Telegram
-                </a>
-                <a href="/pro/" class="pricing-more">Подробнее о Pro</a>
-            </div>
-        </div>
-    </div>
-    <style>
-    .pricing-alt {
-        margin: -12px 0 0;
-        font-size: 14px;
-        color: rgba(255, 255, 255, 0.75);
-    }
-    .pricing-more {
-        display: block;
-        margin-top: 16px;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 600;
-        color: rgba(255, 255, 255, 0.85);
-        text-decoration: underline;
-        text-underline-offset: 3px;
-    }
-    .pricing-more:hover { color: #fff; }
-    </style>
-</section>
-<section class="blog-preview-section fade-in">
-    <div class="section-container">
-        <div class="section-header">
-            <span class="section-badge">Блог</span>
-            <h2>Полезные статьи</h2>
-            <p>Разбираем сложные темы простым языком. Читай, понимай, применяй!</p>
-        </div>
-        
-        <div class="blog-preview-grid">
-            {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
-            <a href="{{ .Permalink }}" class="blog-preview-card">
-                <div class="blog-preview-icon">
-                    {{ upper (substr (.Params.category | default .Title) 0 1) }}
-                </div>
-                <div class="blog-preview-content">
-                    {{ if .Params.category }}
-                    <span class="blog-preview-tag">{{ .Params.category }}</span>
-                    {{ end }}
-                    <h3>{{ .Title }}</h3>
-                    <p>{{ .Description | truncate 100 }}</p>
-                    <span class="blog-preview-link">Читать статью →</span>
-                </div>
-            </a>
-            {{ end }}
-        </div>
-        
-        <div style="text-align: center; margin-top: 40px;">
-            <a href="/blog/" class="btn btn-secondary">
-                Все статьи
-            </a>
-        </div>
-    </div>
-</section>
-
-<!-- 
-ДОБАВИТЬ ЭТИ СТИЛИ в <style> в index.html:
--->
-
-<style>
-/* Blog Preview Section */
-.blog-preview-section {
-    padding: 100px 32px;
-    background: var(--bg-secondary);
-}
-
-.blog-preview-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-}
-
-.blog-preview-card {
-    background: white;
-    border-radius: 20px;
-    overflow: hidden;
-    text-decoration: none;
-    transition: all 0.3s;
-    border: 2px solid transparent;
-    display: flex;
-    flex-direction: column;
-}
-
-.blog-preview-card:hover {
-    transform: translateY(-8px);
-    border-color: #E0E0E0;
-    box-shadow: 0 16px 40px rgba(17,17,17,0.08);
-}
-
-.blog-preview-icon {
-    height: 140px;
-    background: #FAFAF8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 56px;
-    color: var(--secondary);
-}
-
-.blog-preview-content {
-    padding: 24px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.blog-preview-tag {
-    display: inline-block;
-    background: #E8EEF7;
-    color: #0F766E;
-    padding: 4px 12px;
-    border-radius: 12px;
-    font-size: 12px;
-    font-weight: 600;
-    margin-bottom: 12px;
-    width: fit-content;
-}
-
-.blog-preview-card h3 {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 8px;
-    line-height: 1.4;
-}
-
-.blog-preview-card p {
-    color: var(--text-light);
-    font-size: 14px;
-    line-height: 1.6;
-    flex: 1;
-    margin-bottom: 16px;
-}
-
-.blog-preview-link {
-    color: #111;
-    font-weight: 700;
-    font-size: 14px;
-}
-
-@media (max-width: 1024px) {
-    .blog-preview-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .blog-preview-grid {
-        grid-template-columns: 1fr;
-    }
-}
-</style>
-<!-- CTA -->
-<section class="cta-section">
-    <div class="section-container">
-        <h2>Начни своё математическое путешествие</h2>
-        <p>Присоединяйся к студентам, которые уже прокачивают математику с AI-тьютором</p>
-        <a href="{{ site.Params.telegramBot }}" class="btn">
-            Начать обучение бесплатно
-        </a>
-    </div>
-</section>
-
 {{ end }}

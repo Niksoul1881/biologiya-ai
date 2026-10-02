@@ -1,0 +1,435 @@
+# Сгенерировано scripts/gen_program.py из PROGRAM.md — правь PROGRAM.md и перезапускай
+courses:
+  - id: organizmy
+    title: "Растения, грибы, бактерии"
+    subtitle: "5–7 класс: живые организмы, растения, грибы и бактерии"
+    color: "#16A34A"
+    emoji: "🌱"
+    count: 30
+    sections:
+      - title: "Биология как наука и живые организмы"
+        lessons:
+          - { num: 1, slug: "001-chto-izuchaet-biologiya-razdely-i-metody", title: "Что изучает биология: разделы и методы" }
+          - { num: 2, slug: "002-priznaki-zhivogo-chem-zhivoe-otlichaetsya-ot-nezhivogo", title: "Признаки живого: чем живое отличается от неживого" }
+          - { num: 3, slug: "003-uvelichitelnye-pribory-lupa-i-mikroskop", title: "Увеличительные приборы: лупа и микроскоп" }
+          - { num: 4, slug: "004-carstva-zhivoy-prirody-klassifikaciya-organizmov", title: "Царства живой природы: классификация организмов" }
+          - { num: 5, slug: "005-sredy-zhizni-vodnaya-nazemno-vozdushnaya-pochvennaya", title: "Среды жизни: водная, наземно-воздушная, почвенная, организменная" }
+      - title: "Бактерии, грибы, лишайники"
+        lessons:
+          - { num: 6, slug: "006-bakterii-stroenie-razmnozhenie-znachenie", title: "Бактерии: строение, размножение, значение" }
+          - { num: 7, slug: "007-virusy-nekletochnaya-forma-zhizni", title: "Вирусы: неклеточная форма жизни" }
+          - { num: 8, slug: "008-griby-stroenie-pitanie-shlyapochnye-i-plesnevye-griby", title: "Грибы: строение, питание, шляпочные и плесневые грибы" }
+          - { num: 9, slug: "009-drozhzhi-i-plesen-griby-kotorye-rabotayut-na-cheloveka", title: "Дрожжи и плесень: грибы, которые работают на человека" }
+          - { num: 10, slug: "010-lishayniki-simbioz-griba-i-vodorosli", title: "Лишайники: симбиоз гриба и водоросли" }
+      - title: "Растения"
+        lessons:
+          - { num: 11, slug: "011-rastitelnaya-kletka-i-tkani-rasteniy", title: "Растительная клетка и ткани растений" }
+          - { num: 12, slug: "012-koren-stroenie-vidy-kornevyh-sistem-funkcii", title: "Корень: строение, виды корневых систем, функции" }
+          - { num: 13, slug: "013-pobeg-stebel-i-pochka", title: "Побег, стебель и почка" }
+          - { num: 14, slug: "014-list-stroenie-i-funkcii", title: "Лист: строение и функции" }
+          - { num: 15, slug: "015-fotosintez-prostymi-slovami", title: "Фотосинтез простыми словами" }
+          - { num: 16, slug: "016-dyhanie-i-isparenie-u-rasteniy", title: "Дыхание и испарение у растений" }
+          - { num: 17, slug: "017-cvetok-stroenie-i-opylenie", title: "Цветок: строение и опыление" }
+          - { num: 18, slug: "018-plody-i-semena-stroenie-rasprostranenie", title: "Плоды и семена: строение, распространение" }
+          - { num: 19, slug: "019-razmnozhenie-rasteniy-polovoe-i-vegetativnoe", title: "Размножение растений: половое и вегетативное" }
+          - { num: 20, slug: "020-vodorosli", title: "Водоросли" }
+          - { num: 21, slug: "021-mhi", title: "Мхи" }
+          - { num: 22, slug: "022-paporotniki-hvoshchi-plauny", title: "Папоротники, хвощи, плауны" }
+          - { num: 23, slug: "023-golosemennye-rasteniya", title: "Голосеменные растения" }
+          - { num: 24, slug: "024-pokrytosemennye-odnodolnye-i-dvudolnye", title: "Покрытосеменные: однодольные и двудольные" }
+          - { num: 25, slug: "025-osnovnye-semeystva-cvetkovyh-rasteniy", title: "Основные семейства цветковых растений" }
+      - title: "Растения и человек"
+        lessons:
+          - { num: 26, slug: "026-kulturnye-rasteniya-i-ih-proishozhdenie", title: "Культурные растения и их происхождение" }
+          - { num: 27, slug: "027-rastitelnye-soobshchestva", title: "Растительные сообщества" }
+          - { num: 28, slug: "028-ohrana-rasteniy-krasnaya-kniga", title: "Охрана растений, Красная книга" }
+          - { num: 29, slug: "029-sistematika-rasteniy-kak-ustroena-klassifikaciya", title: "Систематика растений: как устроена классификация" }
+          - { num: 30, slug: "030-praktikum-opredelenie-rasteniy-po-priznakam", title: "Практикум: определение растений по признакам" }
+  - id: zhivotnye
+    title: "Животные"
+    subtitle: "7–8 класс: от простейших до млекопитающих"
+    color: "#CA8A04"
+    emoji: "🦎"
+    count: 22
+    sections:
+      - title: ""
+        lessons:
+          - { num: 31, slug: "031-zhivotnaya-kletka-i-tkani-zhivotnyh", title: "Животная клетка и ткани животных" }
+          - { num: 32, slug: "032-odnokletochnye-zhivotnye-prosteyshie", title: "Одноклеточные животные (простейшие)" }
+          - { num: 33, slug: "033-gubki-i-kishechnopolostnye", title: "Губки и кишечнополостные" }
+          - { num: 34, slug: "034-ploskie-chervi", title: "Плоские черви" }
+          - { num: 35, slug: "035-kruglye-chervi", title: "Круглые черви" }
+          - { num: 36, slug: "036-kolchatye-chervi", title: "Кольчатые черви" }
+          - { num: 37, slug: "037-mollyuski", title: "Моллюски" }
+          - { num: 38, slug: "038-chlenistonogie-rakoobraznye", title: "Членистоногие: ракообразные" }
+          - { num: 39, slug: "039-paukoobraznye", title: "Паукообразные" }
+          - { num: 40, slug: "040-nasekomye-stroenie-i-razvitie", title: "Насекомые: строение и развитие" }
+          - { num: 41, slug: "041-otryady-nasekomyh", title: "Отряды насекомых" }
+          - { num: 42, slug: "042-hordovye-lancetnik-i-obshchiy-plan-stroeniya", title: "Хордовые: ланцетник и общий план строения" }
+          - { num: 43, slug: "043-ryby", title: "Рыбы" }
+          - { num: 44, slug: "044-zemnovodnye", title: "Земноводные" }
+          - { num: 45, slug: "045-presmykayushchiesya", title: "Пресмыкающиеся" }
+          - { num: 46, slug: "046-pticy", title: "Птицы" }
+          - { num: 47, slug: "047-mlekopitayushchie-stroenie-i-priznaki", title: "Млекопитающие: строение и признаки" }
+          - { num: 48, slug: "048-otryady-mlekopitayushchih", title: "Отряды млекопитающих" }
+          - { num: 49, slug: "049-evolyuciya-sistem-organov-zhivotnyh", title: "Эволюция систем органов животных" }
+          - { num: 50, slug: "050-povedenie-zhivotnyh", title: "Поведение животных" }
+          - { num: 51, slug: "051-proishozhdenie-i-evolyuciya-zhivotnyh", title: "Происхождение и эволюция животных" }
+          - { num: 52, slug: "052-zhivotnye-i-chelovek-domashnie-zhivotnye-ohrana", title: "Животные и человек: домашние животные, охрана" }
+  - id: chelovek
+    title: "Человек и его здоровье"
+    subtitle: "8–9 класс: анатомия, физиология, гигиена"
+    color: "#DC2626"
+    emoji: "❤️"
+    count: 28
+    sections:
+      - title: ""
+        lessons:
+          - { num: 53, slug: "053-organizm-cheloveka-urovni-organizacii", title: "Организм человека: уровни организации" }
+          - { num: 54, slug: "054-tkani-cheloveka", title: "Ткани человека" }
+          - { num: 55, slug: "055-nervnaya-sistema-stroenie-i-refleksy", title: "Нервная система: строение и рефлексы" }
+          - { num: 56, slug: "056-golovnoy-i-spinnoy-mozg", title: "Головной и спинной мозг" }
+          - { num: 57, slug: "057-organy-chuvstv-zrenie", title: "Органы чувств: зрение" }
+          - { num: 58, slug: "058-organy-chuvstv-sluh-ravnovesie-vkus-obonyanie", title: "Органы чувств: слух, равновесие, вкус, обоняние" }
+          - { num: 59, slug: "059-vysshaya-nervnaya-deyatelnost-pamyat-son-povedenie", title: "Высшая нервная деятельность: память, сон, поведение" }
+          - { num: 60, slug: "060-endokrinnaya-sistema-i-gormony", title: "Эндокринная система и гормоны" }
+          - { num: 61, slug: "061-oporno-dvigatelnaya-sistema-skelet", title: "Опорно-двигательная система: скелет" }
+          - { num: 62, slug: "062-myshcy-i-dvizhenie", title: "Мышцы и движение" }
+          - { num: 63, slug: "063-krov-sostav-i-funkcii", title: "Кровь: состав и функции" }
+          - { num: 64, slug: "064-immunitet-i-vakcinaciya", title: "Иммунитет и вакцинация" }
+          - { num: 65, slug: "065-gruppy-krovi-i-perelivanie", title: "Группы крови и переливание" }
+          - { num: 66, slug: "066-serdce-i-krovoobrashchenie", title: "Сердце и кровообращение" }
+          - { num: 67, slug: "067-dyhatelnaya-sistema", title: "Дыхательная система" }
+          - { num: 68, slug: "068-pishchevaritelnaya-sistema", title: "Пищеварительная система" }
+          - { num: 69, slug: "069-fermenty-pishchevareniya", title: "Ферменты пищеварения" }
+          - { num: 70, slug: "070-obmen-veshchestv-i-energii", title: "Обмен веществ и энергии" }
+          - { num: 71, slug: "071-vitaminy", title: "Витамины" }
+          - { num: 72, slug: "072-vydelitelnaya-sistema-pochki", title: "Выделительная система: почки" }
+          - { num: 73, slug: "073-kozha-i-termoregulyaciya", title: "Кожа и терморегуляция" }
+          - { num: 74, slug: "074-razmnozhenie-i-razvitie-cheloveka", title: "Размножение и развитие человека" }
+          - { num: 75, slug: "075-nasledstvennye-zabolevaniya-cheloveka", title: "Наследственные заболевания человека" }
+          - { num: 76, slug: "076-infekcionnye-bolezni-i-ih-profilaktika", title: "Инфекционные болезни и их профилактика" }
+          - { num: 77, slug: "077-zdorovyy-obraz-zhizni-pitanie-son-vrednye-privychki", title: "Здоровый образ жизни: питание, сон, вредные привычки" }
+          - { num: 78, slug: "078-pervaya-pomoshch", title: "Первая помощь" }
+          - { num: 79, slug: "079-proishozhdenie-cheloveka", title: "Происхождение человека" }
+          - { num: 80, slug: "080-praktikum-zadachi-po-anatomii-dlya-oge", title: "Практикум: задачи по анатомии для ОГЭ" }
+  - id: obshchaya-biologiya
+    title: "Общая биология"
+    subtitle: "10–11 класс: клетка, генетика, эволюция, экология"
+    color: "#0F766E"
+    emoji: "🧬"
+    count: 32
+    sections:
+      - title: "Химия и строение клетки"
+        lessons:
+          - { num: 81, slug: "081-himicheskiy-sostav-kletki-voda-i-mineralnye-veshchestva", title: "Химический состав клетки: вода и минеральные вещества" }
+          - { num: 82, slug: "082-uglevody-i-lipidy", title: "Углеводы и липиды" }
+          - { num: 83, slug: "083-belki-stroenie-i-funkcii", title: "Белки: строение и функции" }
+          - { num: 84, slug: "084-nukleinovye-kisloty-dnk-i-rnk", title: "Нуклеиновые кислоты: ДНК и РНК" }
+          - { num: 85, slug: "085-atf-i-energiya-kletki", title: "АТФ и энергия клетки" }
+          - { num: 86, slug: "086-kletochnaya-teoriya", title: "Клеточная теория" }
+          - { num: 87, slug: "087-stroenie-kletki-membrana-i-citoplazma", title: "Строение клетки: мембрана и цитоплазма" }
+          - { num: 88, slug: "088-organoidy-kletki", title: "Органоиды клетки" }
+          - { num: 89, slug: "089-yadro-i-hromosomy", title: "Ядро и хромосомы" }
+          - { num: 90, slug: "090-prokarioty-i-eukarioty-sravnenie", title: "Прокариоты и эукариоты: сравнение" }
+      - title: "Обмен веществ и деление"
+        lessons:
+          - { num: 91, slug: "091-energeticheskiy-obmen-glikoliz-i-dyhanie", title: "Энергетический обмен: гликолиз и дыхание" }
+          - { num: 92, slug: "092-fotosintez-svetovaya-i-temnovaya-faza", title: "Фотосинтез: световая и темновая фаза" }
+          - { num: 93, slug: "093-geneticheskiy-kod-i-ego-svoystva", title: "Генетический код и его свойства" }
+          - { num: 94, slug: "094-biosintez-belka-transkripciya-i-translyaciya", title: "Биосинтез белка: транскрипция и трансляция" }
+          - { num: 95, slug: "095-mitoz", title: "Митоз" }
+          - { num: 96, slug: "096-meyoz", title: "Мейоз" }
+          - { num: 97, slug: "097-obrazovanie-polovyh-kletok-gametogenez", title: "Образование половых клеток: гаметогенез" }
+          - { num: 98, slug: "098-ontogenez-individualnoe-razvitie", title: "Онтогенез: индивидуальное развитие" }
+      - title: "Генетика"
+        lessons:
+          - { num: 99, slug: "099-osnovnye-ponyatiya-genetiki", title: "Основные понятия генетики" }
+          - { num: 100, slug: "100-zakony-mendelya-monogibridnoe-skreshchivanie", title: "Законы Менделя: моногибридное скрещивание" }
+          - { num: 101, slug: "101-digibridnoe-skreshchivanie", title: "Дигибридное скрещивание" }
+          - { num: 102, slug: "102-sceplennoe-nasledovanie-zakon-morgana", title: "Сцепленное наследование: закон Моргана" }
+          - { num: 103, slug: "103-genetika-pola-i-sceplennoe-s-polom-nasledovanie", title: "Генетика пола и сцепленное с полом наследование" }
+          - { num: 104, slug: "104-izmenchivost-modifikacionnaya-i-mutacionnaya", title: "Изменчивость: модификационная и мутационная" }
+          - { num: 105, slug: "105-mutacii-gennye-hromosomnye-genomnye", title: "Мутации: генные, хромосомные, геномные" }
+          - { num: 106, slug: "106-reshenie-zadach-po-genetike-algoritm", title: "Решение задач по генетике: алгоритм" }
+          - { num: 107, slug: "107-selekciya-i-biotehnologiya", title: "Селекция и биотехнология" }
+      - title: "Эволюция и экология"
+        lessons:
+          - { num: 108, slug: "108-teoriya-evolyucii-ot-lamarka-do-darvina", title: "Теория эволюции: от Ламарка до Дарвина" }
+          - { num: 109, slug: "109-sinteticheskaya-teoriya-evolyucii-i-estestvennyy-otbor", title: "Синтетическая теория эволюции и естественный отбор" }
+          - { num: 110, slug: "110-vidoobrazovanie-i-dokazatelstva-evolyucii", title: "Видообразование и доказательства эволюции" }
+          - { num: 111, slug: "111-ekosistemy-pishchevye-cepi-i-energiya", title: "Экосистемы: пищевые цепи и энергия" }
+          - { num: 112, slug: "112-biosfera-i-krugovorot-veshchestv", title: "Биосфера и круговорот веществ" }
+  - id: ege
+    title: "ЕГЭ по биологии"
+    subtitle: "Все 28 заданий с разборами"
+    color: "#7C3AED"
+    emoji: "🎯"
+    count: 28
+    sections:
+      - title: "Часть 1: краткий ответ"
+        lessons:
+          - { num: 113, slug: "zadanie-1", title: "Задание 1: Биология как наука: термины" }
+          - { num: 114, slug: "zadanie-2", title: "Задание 2: Результаты эксперимента" }
+          - { num: 115, slug: "zadanie-3", title: "Задание 3: Расчётная задача" }
+          - { num: 116, slug: "zadanie-4", title: "Задание 4: Генетика: задача в одно действие" }
+          - { num: 117, slug: "zadanie-5", title: "Задание 5: Клетка и организм: работа с рисунком" }
+          - { num: 118, slug: "zadanie-6", title: "Задание 6: Клетка и организм: соответствие" }
+          - { num: 119, slug: "zadanie-7", title: "Задание 7: Клетка и организм: выбор трёх ответов" }
+          - { num: 120, slug: "zadanie-8", title: "Задание 8: Клетка и организм: последовательность" }
+          - { num: 121, slug: "zadanie-9", title: "Задание 9: Многообразие организмов: работа с рисунком" }
+          - { num: 122, slug: "zadanie-10", title: "Задание 10: Многообразие организмов: соответствие" }
+          - { num: 123, slug: "zadanie-11", title: "Задание 11: Многообразие организмов: выбор трёх ответов" }
+          - { num: 124, slug: "zadanie-12", title: "Задание 12: Систематика: последовательность таксонов" }
+          - { num: 125, slug: "zadanie-13", title: "Задание 13: Человек: работа с рисунком" }
+          - { num: 126, slug: "zadanie-14", title: "Задание 14: Человек: соответствие" }
+          - { num: 127, slug: "zadanie-15", title: "Задание 15: Человек: выбор трёх ответов" }
+          - { num: 128, slug: "zadanie-16", title: "Задание 16: Человек: последовательность" }
+          - { num: 129, slug: "zadanie-17", title: "Задание 17: Эволюция: работа с текстом" }
+          - { num: 130, slug: "zadanie-18", title: "Задание 18: Экология: выбор трёх ответов" }
+          - { num: 131, slug: "zadanie-19", title: "Задание 19: Эволюция и экология: соответствие" }
+          - { num: 132, slug: "zadanie-20", title: "Задание 20: Общебиологические закономерности: работа с таблицей" }
+          - { num: 133, slug: "zadanie-21", title: "Задание 21: Анализ данных: выбор верных утверждений" }
+      - title: "Часть 2: развёрнутый ответ"
+        lessons:
+          - { num: 134, slug: "zadanie-22", title: "Задание 22: Методология эксперимента" }
+          - { num: 135, slug: "zadanie-23", title: "Задание 23: Выводы из эксперимента" }
+          - { num: 136, slug: "zadanie-24", title: "Задание 24: Задание с иллюстрацией" }
+          - { num: 137, slug: "zadanie-25", title: "Задание 25: Многообразие организмов и человек: развёрнутый ответ" }
+          - { num: 138, slug: "zadanie-26", title: "Задание 26: Общебиологические закономерности: развёрнутый ответ" }
+          - { num: 139, slug: "zadanie-27", title: "Задание 27: Задача по цитологии" }
+          - { num: 140, slug: "zadanie-28", title: "Задание 28: Задача по генетике" }
+  - id: oge
+    title: "ОГЭ по биологии"
+    subtitle: "Все 26 заданий с разборами"
+    color: "#2563EB"
+    emoji: "📝"
+    count: 26
+    sections:
+      - title: "Часть 1: краткий ответ"
+        lessons:
+          - { num: 141, slug: "zadanie-1", title: "Задание 1" }
+          - { num: 142, slug: "zadanie-2", title: "Задание 2" }
+          - { num: 143, slug: "zadanie-3", title: "Задание 3" }
+          - { num: 144, slug: "zadanie-4", title: "Задание 4" }
+          - { num: 145, slug: "zadanie-5", title: "Задание 5" }
+          - { num: 146, slug: "zadanie-6", title: "Задание 6" }
+          - { num: 147, slug: "zadanie-7", title: "Задание 7" }
+          - { num: 148, slug: "zadanie-8", title: "Задание 8" }
+          - { num: 149, slug: "zadanie-9", title: "Задание 9" }
+          - { num: 150, slug: "zadanie-10", title: "Задание 10" }
+          - { num: 151, slug: "zadanie-11", title: "Задание 11" }
+          - { num: 152, slug: "zadanie-12", title: "Задание 12" }
+          - { num: 153, slug: "zadanie-13", title: "Задание 13" }
+          - { num: 154, slug: "zadanie-14", title: "Задание 14" }
+          - { num: 155, slug: "zadanie-15", title: "Задание 15" }
+          - { num: 156, slug: "zadanie-16", title: "Задание 16" }
+          - { num: 157, slug: "zadanie-17", title: "Задание 17" }
+          - { num: 158, slug: "zadanie-18", title: "Задание 18" }
+          - { num: 159, slug: "zadanie-19", title: "Задание 19" }
+          - { num: 160, slug: "zadanie-20", title: "Задание 20" }
+          - { num: 161, slug: "zadanie-21", title: "Задание 21" }
+      - title: "Часть 2: развёрнутый ответ"
+        lessons:
+          - { num: 162, slug: "zadanie-22", title: "Задание 22" }
+          - { num: 163, slug: "zadanie-23", title: "Задание 23" }
+          - { num: 164, slug: "zadanie-24", title: "Задание 24" }
+          - { num: 165, slug: "zadanie-25", title: "Задание 25" }
+          - { num: 166, slug: "zadanie-26", title: "Задание 26: задача на питание и энергозатраты" }
+  - id: bio-it
+    title: "Биология для программиста"
+    subtitle: "ДНК, белки и гены языком IT"
+    color: "#0891B2"
+    emoji: "💻"
+    count: 20
+    sections:
+      - title: ""
+        lessons:
+          - { num: 167, slug: "167-zachem-programmistu-biologiya-karta-oblasti", title: "Зачем программисту биология: карта области" }
+          - { num: 168, slug: "168-kletka-kak-sistema-vhody-vyhody-processy", title: "Клетка как система: входы, выходы, процессы" }
+          - { num: 169, slug: "169-dnk-kak-kod-alfavit-a-c-g-t", title: "ДНК как код: алфавит A, C, G, T" }
+          - { num: 170, slug: "170-centralnaya-dogma-dnk-rnk-belok", title: "Центральная догма: ДНК → РНК → белок" }
+          - { num: 171, slug: "171-geny-ekzony-introny-struktura-gena", title: "Гены, экзоны, интроны: структура гена" }
+          - { num: 172, slug: "172-genom-cheloveka-v-cifrah", title: "Геном человека в цифрах" }
+          - { num: 173, slug: "173-belki-aminokisloty-i-ukladka", title: "Белки: аминокислоты и укладка" }
+          - { num: 174, slug: "174-pochemu-forma-belka-opredelyaet-funkciyu", title: "Почему форма белка определяет функцию" }
+          - { num: 175, slug: "175-mutacii-kak-bagi-v-kode", title: "Мутации как баги в коде" }
+          - { num: 176, slug: "176-regulyaciya-genov-kak-kletka-vklyuchaet-i-vyklyuchaet-geny", title: "Регуляция генов: как клетка включает и выключает гены" }
+          - { num: 177, slug: "177-epigenetika", title: "Эпигенетика" }
+          - { num: 178, slug: "178-kletochnye-tipy-i-differencirovka", title: "Клеточные типы и дифференцировка" }
+          - { num: 179, slug: "179-immunnaya-sistema-kak-sistema-raspoznavaniya", title: "Иммунная система как система распознавания" }
+          - { num: 180, slug: "180-evolyuciya-kak-algoritm-optimizacii", title: "Эволюция как алгоритм оптимизации" }
+          - { num: 181, slug: "181-populyacionnaya-genetika", title: "Популяционная генетика" }
+          - { num: 182, slug: "182-modelnye-organizmy-e-coli-drozhzhi-mysh", title: "Модельные организмы: E. coli, дрожжи, мышь" }
+          - { num: 183, slug: "183-kak-ustroena-laboratornaya-rabota-eksperiment-dannye", title: "Как устроена лабораторная работа: эксперимент → данные" }
+          - { num: 184, slug: "184-pcr-sekvenirovanie-crispr-osnovnye-metody", title: "ПЦР, секвенирование, CRISPR: основные методы" }
+          - { num: 185, slug: "185-biologicheskie-bazy-dannyh-ncbi-uniprot-pdb-ensembl", title: "Биологические базы данных: NCBI, UniProt, PDB, Ensembl" }
+          - { num: 186, slug: "186-formaty-dannyh-fasta-fastq-sam-bam-vcf", title: "Форматы данных: FASTA, FASTQ, SAM/BAM, VCF" }
+  - id: biostatistika
+    title: "Математика и статистика для биологии"
+    subtitle: "Вероятности, тесты, модели"
+    color: "#4F46E5"
+    emoji: "📊"
+    count: 20
+    sections:
+      - title: ""
+        lessons:
+          - { num: 187, slug: "187-veroyatnost-v-genetike-reshetka-penneta-kak-veroyatnostnaya", title: "Вероятность в генетике: решётка Пеннета как вероятностная модель" }
+          - { num: 188, slug: "188-binomialnoe-raspredelenie-i-nasledovanie", title: "Биномиальное распределение и наследование" }
+          - { num: 189, slug: "189-normalnoe-raspredelenie-v-biologii", title: "Нормальное распределение в биологии" }
+          - { num: 190, slug: "190-opisatelnaya-statistika-biologicheskih-dannyh", title: "Описательная статистика биологических данных" }
+          - { num: 191, slug: "191-proverka-gipotez-p-value-prostymi-slovami", title: "Проверка гипотез: p-value простыми словами" }
+          - { num: 192, slug: "192-t-test-i-sravnenie-grupp", title: "t-тест и сравнение групп" }
+          - { num: 193, slug: "193-hi-kvadrat-proverka-rasshchepleniya-po-mendelyu", title: "Хи-квадрат: проверка расщепления по Менделю" }
+          - { num: 194, slug: "194-mnozhestvennye-sravneniya-popravki-bonferroni-i-fdr", title: "Множественные сравнения: поправки Бонферрони и FDR" }
+          - { num: 195, slug: "195-korrelyaciya-i-regressiya-na-biodannyh", title: "Корреляция и регрессия на биоданных" }
+          - { num: 196, slug: "196-bayesovskiy-podhod-v-biologii", title: "Байесовский подход в биологии" }
+          - { num: 197, slug: "197-zakon-hardi-vaynberga", title: "Закон Харди — Вайнберга" }
+          - { num: 198, slug: "198-markovskie-cepi-i-posledovatelnosti-dnk", title: "Марковские цепи и последовательности ДНК" }
+          - { num: 199, slug: "199-skrytye-markovskie-modeli-poisk-genov", title: "Скрытые марковские модели: поиск генов" }
+          - { num: 200, slug: "200-teoriya-informacii-entropiya-posledovatelnostey", title: "Теория информации: энтропия последовательностей" }
+          - { num: 201, slug: "201-matricy-i-grafy-v-biologii", title: "Матрицы и графы в биологии" }
+          - { num: 202, slug: "202-differencialnye-uravneniya-rost-populyaciy", title: "Дифференциальные уравнения: рост популяций" }
+          - { num: 203, slug: "203-model-hishchnik-zhertva", title: "Модель «хищник — жертва»" }
+          - { num: 204, slug: "204-epidemiologicheskie-modeli-sir", title: "Эпидемиологические модели: SIR" }
+          - { num: 205, slug: "205-snizhenie-razmernosti-pca-na-geneticheskih-dannyh", title: "Снижение размерности: PCA на генетических данных" }
+          - { num: 206, slug: "206-klasterizaciya-gruppy-kletok-i-genov", title: "Кластеризация: группы клеток и генов" }
+  - id: python-bio
+    title: "Python для биологов"
+    subtitle: "От строк ДНК до Biopython и pandas"
+    color: "#0D9488"
+    emoji: "🐍"
+    count: 15
+    sections:
+      - title: ""
+        lessons:
+          - { num: 207, slug: "207-python-s-nulya-dlya-biologa-ustanovka-i-pervye-shagi", title: "Python с нуля для биолога: установка и первые шаги" }
+          - { num: 208, slug: "208-stroki-rabota-s-posledovatelnostyami-dnk", title: "Строки: работа с последовательностями ДНК" }
+          - { num: 209, slug: "209-spiski-i-slovari-podschet-nukleotidov", title: "Списки и словари: подсчёт нуклеотидов" }
+          - { num: 210, slug: "210-chtenie-fasta-faylov", title: "Чтение FASTA-файлов" }
+          - { num: 211, slug: "211-biopython-osnovy", title: "Biopython: основы" }
+          - { num: 212, slug: "212-komplementarnaya-cep-i-obratnaya-transkripciya-v-kode", title: "Комплементарная цепь и обратная транскрипция в коде" }
+          - { num: 213, slug: "213-translyaciya-perevod-dnk-v-belok-programmoy", title: "Трансляция: перевод ДНК в белок программой" }
+          - { num: 214, slug: "214-pandas-dlya-tablic-ekspressii-genov", title: "pandas для таблиц экспрессии генов" }
+          - { num: 215, slug: "215-vizualizaciya-matplotlib-i-seaborn", title: "Визуализация: matplotlib и seaborn" }
+          - { num: 216, slug: "216-zaprosy-k-bazam-ncbi-iz-koda", title: "Запросы к базам NCBI из кода" }
+          - { num: 217, slug: "217-rabota-s-vcf-varianty-genoma", title: "Работа с VCF: варианты генома" }
+          - { num: 218, slug: "218-jupyter-noutbuki-dlya-analiza-dannyh", title: "Jupyter-ноутбуки для анализа данных" }
+          - { num: 219, slug: "219-komandnaya-stroka-i-payplayny", title: "Командная строка и пайплайны" }
+          - { num: 220, slug: "220-vosproizvodimost-okruzheniya-snakemake", title: "Воспроизводимость: окружения, Snakemake" }
+          - { num: 221, slug: "221-mini-proekt-analiz-genoma-bakterii", title: "Мини-проект: анализ генома бактерии" }
+  - id: algoritmy
+    title: "Алгоритмы биоинформатики"
+    subtitle: "Выравнивание, сборка генома, филогенетика"
+    color: "#9333EA"
+    emoji: "🧩"
+    count: 25
+    sections:
+      - title: ""
+        lessons:
+          - { num: 222, slug: "222-poisk-podstroki-v-dnk-naivnyy-algoritm-i-kmp", title: "Поиск подстроки в ДНК: наивный алгоритм и КМП" }
+          - { num: 223, slug: "223-poisk-motivov", title: "Поиск мотивов" }
+          - { num: 224, slug: "224-rasstoyanie-hemminga-i-redakcionnoe-rasstoyanie", title: "Расстояние Хэмминга и редакционное расстояние" }
+          - { num: 225, slug: "225-dinamicheskoe-programmirovanie-osnovy", title: "Динамическое программирование: основы" }
+          - { num: 226, slug: "226-globalnoe-vyravnivanie-algoritm-nidlmana-vunsha", title: "Глобальное выравнивание: алгоритм Нидлмана — Вунша" }
+          - { num: 227, slug: "227-lokalnoe-vyravnivanie-algoritm-smita-vatermana", title: "Локальное выравнивание: алгоритм Смита — Ватермана" }
+          - { num: 228, slug: "228-matricy-zamen-pam-i-blosum", title: "Матрицы замен: PAM и BLOSUM" }
+          - { num: 229, slug: "229-blast-bystryy-poisk-pohozhih-posledovatelnostey", title: "BLAST: быстрый поиск похожих последовательностей" }
+          - { num: 230, slug: "230-mnozhestvennoe-vyravnivanie", title: "Множественное выравнивание" }
+          - { num: 231, slug: "231-sborka-genoma-zadacha-i-podhody", title: "Сборка генома: задача и подходы" }
+          - { num: 232, slug: "232-grafy-de-breyna", title: "Графы де Брёйна" }
+          - { num: 233, slug: "233-suffiksnye-derevya-i-massivy", title: "Суффиксные деревья и массивы" }
+          - { num: 234, slug: "234-preobrazovanie-barrouza-uilera", title: "Преобразование Барроуза — Уилера" }
+          - { num: 235, slug: "235-vyravnivanie-prochteniy-na-genom-bwa-bowtie", title: "Выравнивание прочтений на геном: BWA, Bowtie" }
+          - { num: 236, slug: "236-filogenetika-derevya-rodstva", title: "Филогенетика: деревья родства" }
+          - { num: 237, slug: "237-metody-postroeniya-derevev-upgma-blizhayshee-sosedstvo", title: "Методы построения деревьев: UPGMA, ближайшее соседство" }
+          - { num: 238, slug: "238-maksimalnoe-pravdopodobie-v-filogenetike", title: "Максимальное правдоподобие в филогенетике" }
+          - { num: 239, slug: "239-skrytye-markovskie-modeli-na-praktike-profili-belkov", title: "Скрытые марковские модели на практике: профили белков" }
+          - { num: 240, slug: "240-predskazanie-genov", title: "Предсказание генов" }
+          - { num: 241, slug: "241-vtorichnaya-struktura-rnk", title: "Вторичная структура РНК" }
+          - { num: 242, slug: "242-struktura-belka-ot-posledovatelnosti-k-3d", title: "Структура белка: от последовательности к 3D" }
+          - { num: 243, slug: "243-molekulyarnyy-doking", title: "Молекулярный докинг" }
+          - { num: 244, slug: "244-seti-vzaimodeystviya-belkov", title: "Сети взаимодействия белков" }
+          - { num: 245, slug: "245-metabolicheskie-seti-i-puti", title: "Метаболические сети и пути" }
+          - { num: 246, slug: "246-slozhnost-algoritmov-v-bioinformatike", title: "Сложность алгоритмов в биоинформатике" }
+  - id: genomika
+    title: "Геномика и транскриптомика"
+    subtitle: "Секвенирование, GWAS, RNA-seq, single-cell"
+    color: "#C026D3"
+    emoji: "🔬"
+    count: 20
+    sections:
+      - title: ""
+        lessons:
+          - { num: 247, slug: "247-sekvenirovanie-pokoleniya-tehnologiy", title: "Секвенирование: поколения технологий" }
+          - { num: 248, slug: "248-ngs-kak-ustroeno-sekvenirovanie-novogo-pokoleniya", title: "NGS: как устроено секвенирование нового поколения" }
+          - { num: 249, slug: "249-kontrol-kachestva-prochteniy", title: "Контроль качества прочтений" }
+          - { num: 250, slug: "250-poisk-variantov-snp-i-indely", title: "Поиск вариантов: SNP и инделы" }
+          - { num: 251, slug: "251-annotaciya-variantov", title: "Аннотация вариантов" }
+          - { num: 252, slug: "252-gwas-poisk-genov-bolezney", title: "GWAS: поиск генов болезней" }
+          - { num: 253, slug: "253-poligennye-shkaly-riska", title: "Полигенные шкалы риска" }
+          - { num: 254, slug: "254-populyacionnaya-genomika", title: "Популяционная геномика" }
+          - { num: 255, slug: "255-metagenomika-mikrobiom", title: "Метагеномика: микробиом" }
+          - { num: 256, slug: "256-rna-seq-izmeryaem-ekspressiyu-genov", title: "RNA-seq: измеряем экспрессию генов" }
+          - { num: 257, slug: "257-differencialnaya-ekspressiya", title: "Дифференциальная экспрессия" }
+          - { num: 258, slug: "258-analiz-obogashcheniya-go-i-puti", title: "Анализ обогащения: GO и пути" }
+          - { num: 259, slug: "259-single-cell-rna-seq", title: "Single-cell RNA-seq" }
+          - { num: 260, slug: "260-prostranstvennaya-transkriptomika", title: "Пространственная транскриптомика" }
+          - { num: 261, slug: "261-epigenomika-metilirovanie-chip-seq", title: "Эпигеномика: метилирование, ChIP-seq" }
+          - { num: 262, slug: "262-proteomika-mass-spektrometriya", title: "Протеомика: масс-спектрометрия" }
+          - { num: 263, slug: "263-multiomika-obedinenie-dannyh", title: "Мультиомика: объединение данных" }
+          - { num: 264, slug: "264-genomika-raka", title: "Геномика рака" }
+          - { num: 265, slug: "265-personalizirovannaya-medicina", title: "Персонализированная медицина" }
+          - { num: 266, slug: "266-etika-geneticheskih-dannyh", title: "Этика генетических данных" }
+  - id: ml-bio
+    title: "ML в биологии"
+    subtitle: "AlphaFold, белковые модели, поиск лекарств"
+    color: "#E11D48"
+    emoji: "🤖"
+    count: 22
+    sections:
+      - title: ""
+        lessons:
+          - { num: 267, slug: "267-karta-ml-v-biologii-zadachi-i-dannye", title: "Карта ML в биологии: задачи и данные" }
+          - { num: 268, slug: "268-kak-predstavit-dnk-i-belok-dlya-neyroseti-kodirovanie", title: "Как представить ДНК и белок для нейросети: кодирование" }
+          - { num: 269, slug: "269-klassicheskie-modeli-na-biodannyh-derevya-busting", title: "Классические модели на биоданных: деревья, бустинг" }
+          - { num: 270, slug: "270-svertochnye-seti-dlya-posledovatelnostey-dnk", title: "Свёрточные сети для последовательностей ДНК" }
+          - { num: 271, slug: "271-predskazanie-regulyatornyh-elementov", title: "Предсказание регуляторных элементов" }
+          - { num: 272, slug: "272-transformery-dlya-biologicheskih-posledovatelnostey", title: "Трансформеры для биологических последовательностей" }
+          - { num: 273, slug: "273-belkovye-yazykovye-modeli-esm", title: "Белковые языковые модели: ESM" }
+          - { num: 274, slug: "274-alphafold-kak-predskazyvayut-strukturu-belka", title: "AlphaFold: как предсказывают структуру белка" }
+          - { num: 275, slug: "275-posle-alphafold-kompleksy-dinamika-dizayn", title: "После AlphaFold: комплексы, динамика, дизайн" }
+          - { num: 276, slug: "276-dizayn-belkov-neyrosetyami", title: "Дизайн белков нейросетями" }
+          - { num: 277, slug: "277-grafovye-neyroseti-dlya-molekul", title: "Графовые нейросети для молекул" }
+          - { num: 278, slug: "278-poisk-lekarstv-virtualnyy-skrining", title: "Поиск лекарств: виртуальный скрининг" }
+          - { num: 279, slug: "279-generativnye-modeli-molekul", title: "Генеративные модели молекул" }
+          - { num: 280, slug: "280-predskazanie-svoystv-molekul-admet", title: "Предсказание свойств молекул: ADMET" }
+          - { num: 281, slug: "281-ml-na-medicinskih-izobrazheniyah-gistologiya", title: "ML на медицинских изображениях: гистология" }
+          - { num: 282, slug: "282-ml-v-single-cell-analize", title: "ML в single-cell анализе" }
+          - { num: 283, slug: "283-predskazanie-effekta-mutaciy", title: "Предсказание эффекта мутаций" }
+          - { num: 284, slug: "284-genomnye-yazykovye-modeli", title: "Геномные языковые модели" }
+          - { num: 285, slug: "285-oshibki-ml-v-biologii-utechki-dannyh-pereobuchenie", title: "Ошибки ML в биологии: утечки данных, переобучение" }
+          - { num: 286, slug: "286-interpretiruemost-modeley-v-biologii", title: "Интерпретируемость моделей в биологии" }
+          - { num: 287, slug: "287-otkrytye-datasety-i-sorevnovaniya", title: "Открытые датасеты и соревнования" }
+          - { num: 288, slug: "288-mini-proekt-klassifikator-posledovatelnostey", title: "Мини-проект: классификатор последовательностей" }
+  - id: sinbio
+    title: "Синтетическая биология"
+    subtitle: "CRISPR, клетки-фабрики, профессии будущего"
+    color: "#65A30D"
+    emoji: "⚗️"
+    count: 12
+    sections:
+      - title: ""
+        lessons:
+          - { num: 289, slug: "289-chto-takoe-sinteticheskaya-biologiya", title: "Что такое синтетическая биология" }
+          - { num: 290, slug: "290-gennaya-inzheneriya-plazmidy-i-vektory", title: "Генная инженерия: плазмиды и векторы" }
+          - { num: 291, slug: "291-crispr-kak-redaktiruyut-geny", title: "CRISPR: как редактируют гены" }
+          - { num: 292, slug: "292-geneticheskie-shemy-logika-vnutri-kletki", title: "Генетические схемы: логика внутри клетки" }
+          - { num: 293, slug: "293-metabolicheskaya-inzheneriya-kletki-fabriki", title: "Метаболическая инженерия: клетки-фабрики" }
+          - { num: 294, slug: "294-biotoplivo-i-zamena-nefti", title: "Биотопливо и замена нефти" }
+          - { num: 295, slug: "295-fermenty-i-napravlennaya-evolyuciya", title: "Ферменты и направленная эволюция" }
+          - { num: 296, slug: "296-ml-v-proektirovanii-organizmov", title: "ML в проектировании организмов" }
+          - { num: 297, slug: "297-kletochnaya-i-gennaya-terapiya", title: "Клеточная и генная терапия" }
+          - { num: 298, slug: "298-biobezopasnost-i-regulirovanie", title: "Биобезопасность и регулирование" }
+          - { num: 299, slug: "299-professii-na-styke-biologii-i-it", title: "Профессии на стыке биологии и IT" }
+          - { num: 300, slug: "300-dorozhnaya-karta-kak-stat-bioinformatikom", title: "Дорожная карта: как стать биоинформатиком" }
