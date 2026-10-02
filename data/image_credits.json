@@ -1,27 +1,32 @@
 {
- "/images/lessons/088/kletka-zhivotnaya.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Biological_cell_ru.svg",
-  "author": "Biological_cell.svg: MesserWoland and Szczepan1990\nderivative work: Цуканов Кири",
+ "/images/lessons/088/eps.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Blausen_0350_EndoplasmicReticulum.png",
+  "author": "BruceBlaus. When using this image in external sources it can be cited as:\n\nBlaus",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/088/golgi.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:0314_Golgi_Apparatus_a_ru.png",
+  "author": "OpenStax",
   "license": "CC BY-SA 3.0"
- },
- "/images/lessons/088/kletka-rastitelnaya.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Plant_cell_structure-ru-v2.png",
-  "author": "Original: LadyofHats (Mariana Ruiz) / Derivative: Dhatfield / Derivative: Lady3m",
-  "license": "CC0"
- },
- "/images/lessons/088/mitohondriya.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Animal_mitochondrion_diagram_ru.svg",
-  "author": "Animal_mitochondrion_diagram_en.svg: Mariana Ruiz Villarreal LadyofHats\nderivati",
-  "license": "Public domain"
  },
  "/images/lessons/088/hloroplast.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Chloroplast_(standalone_version)-en.svg",
   "author": "Kelvinsong",
   "license": "CC0"
  },
- "/images/lessons/088/golgi.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:0314_Golgi_Apparatus_a_ru.png",
-  "author": "OpenStax",
+ "/images/lessons/088/hooke-probka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Micrographia_Schem_11.jpg",
+  "author": "Robert Hooke (1635-1703)",
+  "license": "Public domain"
+ },
+ "/images/lessons/088/kletka-rastitelnaya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Plant_cell_structure-ru-v2.png",
+  "author": "Original: LadyofHats (Mariana Ruiz) / Derivative: Dhatfield / Derivative: Lady3m",
+  "license": "CC0"
+ },
+ "/images/lessons/088/kletka-zhivotnaya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Biological_cell_ru.svg",
+  "author": "Biological_cell.svg: MesserWoland and Szczepan1990\nderivative work: Цуканов Кири",
   "license": "CC BY-SA 3.0"
  },
  "/images/lessons/088/lizosomy.webp": {
@@ -29,20 +34,25 @@
   "author": "Courtesy of NIAID\n\nRyan Kissinger",
   "license": "Public domain"
  },
- "/images/lessons/088/hooke-probka.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Micrographia_Schem_11.jpg",
-  "author": "Robert Hooke (1635-1703)",
+ "/images/lessons/088/mitohondriya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Animal_mitochondrion_diagram_ru.svg",
+  "author": "Animal_mitochondrion_diagram_en.svg: Mariana Ruiz Villarreal LadyofHats\nderivati",
   "license": "Public domain"
  },
- "/images/lessons/088/eps.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Blausen_0350_EndoplasmicReticulum.png",
-  "author": "BruceBlaus. When using this image in external sources it can be cited as:\n\nBlaus",
-  "license": "CC BY 3.0"
- },
- "/images/lessons/096/meyoz-obzor.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Meiosis_Overview_ru.svg",
-  "author": "Meiosis_Overview.svg: National Institutes of Health\n\nderivative work: Anhe1ina",
+ "/images/lessons/096/kariotip-dauna.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Down_Syndrome_Karyotype.png",
+  "author": "Courtesy: National Human Genome Research Institute",
   "license": "Public domain"
+ },
+ "/images/lessons/096/krossingover.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Chromosomal_Crossover.svg",
+  "author": "Abbyprovenzano",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/096/krossingover3.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Chromosomal_Recombination.svg",
+  "author": "David Eccles (Gringer)",
+  "license": "CC BY 2.5"
  },
  "/images/lessons/096/kuznechik-mikro.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Grasshopper_meiosis_stages.jpg",
@@ -54,14 +64,9 @@
   "author": "Ali Zifan",
   "license": "CC BY-SA 4.0"
  },
- "/images/lessons/096/krossingover.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Chromosomal_Crossover.svg",
-  "author": "Abbyprovenzano",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/096/kariotip-dauna.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Down_Syndrome_Karyotype.png",
-  "author": "Courtesy: National Human Genome Research Institute",
+ "/images/lessons/096/meyoz-obzor.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Meiosis_Overview_ru.svg",
+  "author": "Meiosis_Overview.svg: National Institutes of Health\n\nderivative work: Anhe1ina",
   "license": "Public domain"
  },
  "/images/lessons/096/mitoz-meyoz.webp": {
@@ -69,14 +74,44 @@
   "author": "Kirill Borisenko",
   "license": "CC BY-SA 4.0"
  },
- "/images/lessons/096/krossingover3.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Chromosomal_Recombination.svg",
-  "author": "David Eccles (Gringer)",
-  "license": "CC BY 2.5"
- },
  "/images/lessons/096/nerashozhdenie.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Trisomy_due_to_nondisjunction_in_maternal_meiosis_1.png",
   "author": "Wpeissner",
   "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/100/cvetok-goroha.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Flower_of_Pisum_sativum.JPG",
+  "author": "Chmee2",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/100/gorokh-semena.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:PSM_V85_D331_Results_of_crossing_yellow_and_green_seeded_peas.png",
+  "author": "Popular Science Monthly, автор неизвестен",
+  "license": "Public domain"
+ },
+ "/images/lessons/100/mendel-portret.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_2.jpg",
+  "author": "автор неизвестен",
+  "license": "Public domain"
+ },
+ "/images/lessons/100/nepolnoe-dominirovanie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Intermediate_inheritance_-_incomplete_dominance.png",
+  "author": "Sciencia58",
+  "license": "CC0"
+ },
+ "/images/lessons/100/sem-priznakov.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_-_characteristics_of_pea_plants_-_english.png",
+  "author": "LadyofHats, reworked by Sciencia58",
+  "license": "CC0"
+ },
+ "/images/lessons/100/shema-skreshchivaniya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Mendelian_inheritance.svg",
+  "author": "Benutzer:Magnus Manske",
+  "license": "Public domain"
+ },
+ "/images/lessons/100/statya-mendelya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Mendel_paper.jpg",
+  "author": "Gregor Mendel, 1866",
+  "license": "Public domain"
  }
 }
