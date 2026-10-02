@@ -148,5 +148,25 @@
   "source": "https://commons.wikimedia.org/wiki/File:Mendel_paper.jpg",
   "author": "Gregor Mendel, 1866",
   "license": "Public domain"
+ },
+ "/images/lessons/006/stroenie-bakterii.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Average_prokaryote_cell-_ru.svg",
+  "author": "Mariana Ruiz Villarreal (LadyofHats); русская версия",
+  "license": "Public domain"
+ },
+ "/images/lessons/006/formy-bakteriy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Bacterial_morphology_diagram-ru.svg",
+  "author": "Kirill Borisenko",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/006/levenguk-bakterii.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Leuwenhoek_picture_of_animacules.png",
+  "author": "Antoni van Leeuwenhoek, 1683; оцифровка — Huydang2910",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/006/kishechnaya-palochka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:E_coli_at_10000x,_original.jpg",
+  "author": "Eric Erbe, Christopher Pooley (USDA ARS)",
+  "license": "Public domain"
  }
 }

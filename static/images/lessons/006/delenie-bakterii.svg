@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="430" fill="#ffffff"/>
+  <text x="450" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Деление бактерии надвое</text>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <!-- 1 -->
+  <g>
+    <rect x="30" y="110" width="150" height="80" rx="40" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/>
+    <circle cx="105" cy="150" r="18" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <text x="105" y="80" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">1</text>
+    <text x="105" y="225" font-size="16" text-anchor="middle" fill="#1f2937">Клетка растёт,</text>
+    <text x="105" y="245" font-size="16" text-anchor="middle" fill="#1f2937">у неё одна</text>
+    <text x="105" y="265" font-size="16" text-anchor="middle" fill="#1f2937">кольцевая ДНК</text>
+  </g>
+  <line x1="190" y1="150" x2="225" y2="150" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- 2 -->
+  <g>
+    <rect x="235" y="110" width="190" height="80" rx="40" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/>
+    <circle cx="295" cy="150" r="18" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <circle cx="365" cy="150" r="18" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <text x="330" y="80" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">2</text>
+    <text x="330" y="225" font-size="16" text-anchor="middle" fill="#1f2937">ДНК копируется:</text>
+    <text x="330" y="245" font-size="16" text-anchor="middle" fill="#1f2937">теперь две копии,</text>
+    <text x="330" y="265" font-size="16" text-anchor="middle" fill="#1f2937">они расходятся</text>
+  </g>
+  <line x1="435" y1="150" x2="470" y2="150" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- 3 -->
+  <g>
+    <path d="M520,110 L570,110 Q580,110 585,125 Q590,140 595,140 Q600,140 605,125 Q610,110 620,110 L630,110 A40,40 0 0 1 630,190 L620,190 Q610,190 605,175 Q600,160 595,160 Q590,160 585,175 Q580,190 570,190 L520,190 A40,40 0 0 1 520,110 z" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/>
+    <circle cx="548" cy="150" r="18" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <circle cx="642" cy="150" r="18" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <text x="595" y="80" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">3</text>
+    <text x="595" y="225" font-size="16" text-anchor="middle" fill="#1f2937">Посередине</text>
+    <text x="595" y="245" font-size="16" text-anchor="middle" fill="#1f2937">растёт перетяжка</text>
+    <text x="595" y="265" font-size="16" text-anchor="middle" fill="#1f2937">(перегородка)</text>
+  </g>
+  <line x1="690" y1="150" x2="725" y2="150" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- 4 -->
+  <g>
+    <rect x="735" y="95" width="140" height="60" rx="30" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/>
+    <circle cx="805" cy="125" r="14" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <rect x="735" y="165" width="140" height="60" rx="30" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/>
+    <circle cx="805" cy="195" r="14" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <text x="805" y="80" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">4</text>
+    <text x="805" y="250" font-size="16" text-anchor="middle" fill="#1f2937">Две одинаковые</text>
+    <text x="805" y="270" font-size="16" text-anchor="middle" fill="#1f2937">дочерние клетки</text>
+  </g>
+  <!-- рост числа -->
+  <rect x="30" y="305" width="845" height="105" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="452" y="337" font-size="18" font-weight="bold" text-anchor="middle" fill="#166534">Если делиться каждые 20 минут (кишечная палочка в идеальных условиях):</text>
+  <text x="452" y="372" font-size="20" text-anchor="middle" fill="#1f2937">1 → 2 → 4 → 8 → 16 → … → через 1 час 8 клеток → через 10 часов больше миллиарда</text>
+  <text x="452" y="398" font-size="15" text-anchor="middle" fill="#4b5563">В природе так быстро не выходит: кончается еда, копятся отходы, мешают другие микробы.</text>
+  <!-- легенда -->
+  <circle cx="320" cy="50" r="0" fill="none"/>
+</svg>
