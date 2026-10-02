@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" font-family="Arial, Helvetica, sans-serif">
+  <title>Мотыльковый цветок и боб</title>
+  <rect width="1000" height="520" fill="#ffffff"/>
+  <text x="500" y="34" font-size="23" font-weight="bold" fill="#14532d" text-anchor="middle">Цветок бобовых (гороха) и плод боб</text>
+  <!-- цветок -->
+  <g>
+    <path d="M250,300 Q110,280 120,170 Q135,70 250,65 Q365,70 380,170 Q390,280 250,300 z" fill="#d8b4fe" stroke="#7e22ce" stroke-width="2.5"/>
+    <path d="M250,290 L250,110 M250,250 Q200,200 170,140 M250,250 Q300,200 330,140" stroke="#a855f7" stroke-width="1.5" fill="none"/>
+    <ellipse cx="185" cy="315" rx="72" ry="42" transform="rotate(-18 185 315)" fill="#f3e8ff" stroke="#7e22ce" stroke-width="2.5"/>
+    <ellipse cx="315" cy="315" rx="72" ry="42" transform="rotate(18 315 315)" fill="#f3e8ff" stroke="#7e22ce" stroke-width="2.5"/>
+    <path d="M200,330 Q250,300 300,330 Q295,390 250,402 Q205,390 200,330 z" fill="#ffffff" stroke="#7e22ce" stroke-width="2.5"/>
+    <path d="M225,400 Q250,440 275,400 L268,420 Q250,450 232,420 z" fill="#4ade80" stroke="#15803d" stroke-width="2"/>
+    <line x1="250" y1="440" x2="250" y2="490" stroke="#15803d" stroke-width="5"/>
+  </g>
+  <g font-size="18" fill="#1f2937">
+    <line x1="330" y1="110" x2="420" y2="85" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="425" y="80" font-weight="bold">парус</text>
+    <text x="425" y="102" font-size="15" fill="#4b5563">1 крупный верхний</text>
+    <line x1="110" y1="330" x2="50" y2="380" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="20" y="400" font-weight="bold">вёсла</text>
+    <text x="20" y="420" font-size="15" fill="#4b5563">2 боковых</text>
+    <line x1="290" y1="380" x2="380" y2="430" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="385" y="435" font-weight="bold">лодочка</text>
+    <text x="385" y="455" font-size="15" fill="#4b5563">2 сросшихся нижних</text>
+    <line x1="232" y1="425" x2="140" y2="470" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="40" y="482" font-weight="bold">чашечка</text>
+    <text x="40" y="502" font-size="15" fill="#4b5563">5 сросшихся</text>
+  </g>
+  <!-- внутри лодочки -->
+  <rect x="560" y="60" width="210" height="305" rx="12" fill="#faf5ff" stroke="#c4b5fd" stroke-width="1.5"/>
+  <text x="660" y="88" font-size="17" font-weight="bold" fill="#5b21b6" text-anchor="middle">внутри лодочки</text>
+  <g>
+    <path d="M610,290 L610,150 Q640,120 670,150 L670,290 z" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+    <g fill="#facc15" stroke="#a16207" stroke-width="1">
+      <ellipse cx="612" cy="140" rx="5" ry="8"/><ellipse cx="622" cy="130" rx="5" ry="8"/><ellipse cx="632" cy="124" rx="5" ry="8"/><ellipse cx="642" cy="121" rx="5" ry="8"/>
+      <ellipse cx="652" cy="124" rx="5" ry="8"/><ellipse cx="662" cy="130" rx="5" ry="8"/><ellipse cx="670" cy="140" rx="5" ry="8"/><ellipse cx="627" cy="112" rx="5" ry="8"/><ellipse cx="657" cy="112" rx="5" ry="8"/>
+    </g>
+    <line x1="700" y1="290" x2="700" y2="140" stroke="#7c3aed" stroke-width="3"/>
+    <ellipse cx="700" cy="132" rx="5" ry="8" fill="#facc15" stroke="#a16207"/>
+    <line x1="640" y1="290" x2="640" y2="100" stroke="#15803d" stroke-width="3"/>
+    <circle cx="640" cy="97" r="5" fill="#15803d"/>
+  </g>
+  <g font-size="15" fill="#1f2937">
+    <text x="572" y="312">9 тычинок срослись</text>
+    <text x="572" y="332">1 тычинка свободна</text>
+    <text x="572" y="352" fill="#15803d" font-weight="bold">зелёный — пестик</text>
+    <text x="665" y="395" font-size="19" font-weight="bold" fill="#5b21b6" text-anchor="middle">Т(9)+1, П1</text>
+  </g>
+  <!-- боб -->
+  <g transform="translate(870,290)">
+    <path d="M-70,-180 Q-20,-200 -5,-120 Q5,-20 -15,100 Q-30,140 -55,120 Q-70,0 -70,-180 z" fill="#86efac" stroke="#15803d" stroke-width="2"/>
+    <path d="M70,-180 Q20,-200 5,-120 Q-5,-20 15,100 Q30,140 55,120 Q70,0 70,-180 z" fill="#86efac" stroke="#15803d" stroke-width="2"/>
+    <g fill="#65a30d" stroke="#3f6212">
+      <circle cx="-22" cy="-120" r="11"/><circle cx="-18" cy="-80" r="11"/><circle cx="-16" cy="-40" r="11"/><circle cx="-18" cy="0" r="11"/>
+      <circle cx="22" cy="-100" r="11"/><circle cx="18" cy="-60" r="11"/><circle cx="17" cy="-20" r="11"/>
+    </g>
+  </g>
+  <g font-size="16" fill="#1f2937" text-anchor="middle">
+    <text x="870" y="440" font-weight="bold">Боб</text>
+    <text x="870" y="462">две створки,</text>
+    <text x="870" y="482">семена на створках,</text>
+    <text x="870" y="502">перегородки нет</text>
+  </g>
+</svg>
