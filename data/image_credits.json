@@ -93,5 +93,40 @@
   "source": "https://commons.wikimedia.org/wiki/File:Mimosa_pudica_open.JPG ; https://commons.wikimedia.org/wiki/File:Mimosa_pudica_closed.JPG",
   "author": "User:Bluemoose",
   "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/003/mikroskop-bukvy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Microscope-letters.svg",
+  "author": "User:Tomia",
+  "license": "CC BY 2.5"
+ },
+ "/images/lessons/003/mikroskop-guka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Hooke-microscope.png",
+  "author": "Robert Hooke",
+  "license": "Public domain"
+ },
+ "/images/lessons/003/pyltsa.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Misc_pollen_colorized.jpg",
+  "author": "Dartmouth Electron Microscope Facility, Dartmouth College",
+  "license": "Public domain"
+ },
+ "/images/lessons/003/vidy-mikroskopov.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:MicroscopesOverview-ru.svg",
+  "author": "FDominec",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/003/kletki-luka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Onion_Cells_Under_the_Microscope.jpg",
+  "author": "Syed Sajidul Islam",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/003/lupa.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:A_magnifying_glass.jpg",
+  "author": "PLBechly",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/003/mikroskop-levenguka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Leeuwenhoek_Microscope.png",
+  "author": "Jeroen Rouwkema",
+  "license": "CC BY-SA 3.0"
  }
 }
