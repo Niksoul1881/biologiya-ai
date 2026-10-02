@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 860" font-family="Arial, Helvetica, sans-serif">
+  <title>Центры происхождения культурных растений</title>
+  <rect width="1000" height="860" fill="#ffffff"/>
+  <rect x="0" y="50" width="1000" height="570" fill="#e0f2fe"/>
+  <text x="500" y="34" font-size="23" font-weight="bold" fill="#14532d" text-anchor="middle">Центры происхождения культурных растений по Н. И. Вавилову</text>
+  <g fill="#e7e5e4" stroke="#e7e5e4" stroke-width="1">
+    <polygon points="42,120 111,100 236,92 278,128 333,160 319,200 278,260 272,280 231,300 250,320 269,344 283,348 236,316 208,300 181,260 153,220 153,180 111,140 42,140"/>
+    <polygon points="375,140 444,100 431,60 333,60 306,72"/>
+    <polygon points="278,340 328,340 361,380 403,404 389,468 367,492 339,532 319,600 300,580 300,520 303,452 275,400"/>
+    <polygon points="472,236 475,204 494,188 514,164 514,132 542,104 583,100 611,112 667,100 722,88 778,72 889,92 1000,108 972,140 944,160 889,180 861,212 839,220 833,260 806,300 792,340 778,328 772,348 756,296 722,320 714,348 700,300 667,280 658,292 644,320 619,332 597,260 578,232 572,220 561,232 542,228 533,204 522,204 508,212 486,236"/>
+    <polygon points="453,296 472,260 486,236 528,232 589,256 597,268 619,332 642,332 611,400 611,440 592,484 556,520 547,492 533,440 525,380 486,360 458,340"/>
+    <polygon points="814,468 839,448 864,424 894,424 906,456 925,488 917,528 889,532 861,508 819,516"/>
+  </g>
+  <circle cx="736" cy="308" r="30" fill="#dc2626" fill-opacity="0.35" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="736" cy="308" r="14" fill="#dc2626"/>
+  <text x="736" y="314" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+  <circle cx="811" cy="248" r="30" fill="#ea580c" fill-opacity="0.35" stroke="#ea580c" stroke-width="2"/>
+  <circle cx="811" cy="248" r="14" fill="#ea580c"/>
+  <text x="811" y="254" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+  <circle cx="667" cy="236" r="30" fill="#ca8a04" fill-opacity="0.35" stroke="#ca8a04" stroke-width="2"/>
+  <circle cx="667" cy="236" r="14" fill="#ca8a04"/>
+  <text x="667" y="242" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+  <circle cx="542" cy="216" r="30" fill="#16a34a" fill-opacity="0.35" stroke="#16a34a" stroke-width="2"/>
+  <circle cx="542" cy="216" r="14" fill="#16a34a"/>
+  <text x="542" y="222" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+  <circle cx="608" cy="340" r="30" fill="#0891b2" fill-opacity="0.35" stroke="#0891b2" stroke-width="2"/>
+  <circle cx="608" cy="340" r="14" fill="#0891b2"/>
+  <text x="608" y="346" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+  <circle cx="228" cy="308" r="30" fill="#2563eb" fill-opacity="0.35" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="228" cy="308" r="14" fill="#2563eb"/>
+  <text x="228" y="314" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">6</text>
+  <circle cx="300" cy="428" r="30" fill="#7c3aed" fill-opacity="0.35" stroke="#7c3aed" stroke-width="2"/>
+  <circle cx="300" cy="428" r="14" fill="#7c3aed"/>
+  <text x="300" y="434" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">7</text>
+  <text x="500" y="612" font-size="14" fill="#64748b" text-anchor="middle">Карта схематичная: границы материков и центров показаны условно</text>
+  <circle cx="36" cy="650" r="14" fill="#dc2626"/><text x="36" y="656" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+  <text x="60" y="647" font-size="17" font-weight="bold" fill="#1f2937">Южноазиатский тропический</text>
+  <text x="60" y="667" font-size="15" fill="#4b5563">рис, огурец, сахарный тростник</text>
+  <circle cx="36" cy="702" r="14" fill="#ea580c"/><text x="36" y="708" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">2</text>
+  <text x="60" y="699" font-size="17" font-weight="bold" fill="#1f2937">Восточноазиатский</text>
+  <text x="60" y="719" font-size="15" fill="#4b5563">соя, просо, гречиха, чай</text>
+  <circle cx="36" cy="754" r="14" fill="#ca8a04"/><text x="36" y="760" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">3</text>
+  <text x="60" y="751" font-size="17" font-weight="bold" fill="#1f2937">Юго-Западноазиатский</text>
+  <text x="60" y="771" font-size="15" fill="#4b5563">пшеница, рожь, горох, лён</text>
+  <circle cx="36" cy="806" r="14" fill="#16a34a"/><text x="36" y="812" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">4</text>
+  <text x="60" y="803" font-size="17" font-weight="bold" fill="#1f2937">Средиземноморский</text>
+  <text x="60" y="823" font-size="15" fill="#4b5563">капуста, свёкла, маслина</text>
+  <circle cx="536" cy="650" r="14" fill="#0891b2"/><text x="536" y="656" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">5</text>
+  <text x="560" y="647" font-size="17" font-weight="bold" fill="#1f2937">Абиссинский</text>
+  <text x="560" y="667" font-size="15" fill="#4b5563">кофе, твёрдая пшеница, сорго</text>
+  <circle cx="536" cy="702" r="14" fill="#2563eb"/><text x="536" y="708" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">6</text>
+  <text x="560" y="699" font-size="17" font-weight="bold" fill="#1f2937">Центральноамериканский</text>
+  <text x="560" y="719" font-size="15" fill="#4b5563">кукуруза, фасоль, тыква</text>
+  <circle cx="536" cy="754" r="14" fill="#7c3aed"/><text x="536" y="760" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">7</text>
+  <text x="560" y="751" font-size="17" font-weight="bold" fill="#1f2937">Южноамериканский (Андийский)</text>
+  <text x="560" y="771" font-size="15" fill="#4b5563">картофель, томат</text>
+</svg>
