@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 742" width="900" height="742" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="900" height="742" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9CA3AF"/></marker></defs>
+<text x="450" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#111827">Алгоритм решения задачи по генетике</text>
+<rect x="80" y="60" width="740" height="74" rx="14" fill="#ffffff" stroke="#0F766E" stroke-width="2.5"/>
+<circle cx="80" cy="97.0" r="26" fill="#0F766E"/>
+<text x="80" y="106.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#ffffff">1</text>
+<text x="125" y="92" font-size="20" font-weight="bold" fill="#111827">Прочитай и обозначь гены</text>
+<text x="125" y="118" font-size="16" fill="#4B5563">таблица: признак → ген → генотипы</text>
+<path d="M450,136 L450,154" stroke="#9CA3AF" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="80" y="156" width="740" height="74" rx="14" fill="#ffffff" stroke="#0F766E" stroke-width="2.5"/>
+<circle cx="80" cy="193.0" r="26" fill="#0F766E"/>
+<text x="80" y="202.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#ffffff">2</text>
+<text x="125" y="188" font-size="20" font-weight="bold" fill="#111827">Определи тип наследования</text>
+<text x="125" y="214" font-size="16" fill="#4B5563">доминирование? сцепление? связь с полом?</text>
+<path d="M450,232 L450,250" stroke="#9CA3AF" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="80" y="252" width="740" height="74" rx="14" fill="#ffffff" stroke="#16A34A" stroke-width="2.5"/>
+<circle cx="80" cy="289.0" r="26" fill="#16A34A"/>
+<text x="80" y="298.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#ffffff">3</text>
+<text x="125" y="284" font-size="20" font-weight="bold" fill="#111827">Запиши генотипы родителей</text>
+<text x="125" y="310" font-size="16" fill="#4B5563">по фенотипам и по потомкам; неизвестное — «_»</text>
+<path d="M450,328 L450,346" stroke="#9CA3AF" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="80" y="348" width="740" height="74" rx="14" fill="#ffffff" stroke="#16A34A" stroke-width="2.5"/>
+<circle cx="80" cy="385.0" r="26" fill="#16A34A"/>
+<text x="80" y="394.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#ffffff">4</text>
+<text x="125" y="380" font-size="20" font-weight="bold" fill="#111827">Выпиши гаметы</text>
+<text x="125" y="406" font-size="16" fill="#4B5563">по одному аллелю каждого гена; типов гамет 2ⁿ (n — гетерозиготных пар)</text>
+<path d="M450,424 L450,442" stroke="#9CA3AF" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="80" y="444" width="740" height="74" rx="14" fill="#ffffff" stroke="#D97706" stroke-width="2.5"/>
+<circle cx="80" cy="481.0" r="26" fill="#D97706"/>
+<text x="80" y="490.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#ffffff">5</text>
+<text x="125" y="476" font-size="20" font-weight="bold" fill="#111827">Составь схему скрещивания</text>
+<text x="125" y="502" font-size="16" fill="#4B5563">P → G → F; при нужде — решётка Пеннета</text>
+<path d="M450,520 L450,538" stroke="#9CA3AF" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="80" y="540" width="740" height="74" rx="14" fill="#ffffff" stroke="#D97706" stroke-width="2.5"/>
+<circle cx="80" cy="577.0" r="26" fill="#D97706"/>
+<text x="80" y="586.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#ffffff">6</text>
+<text x="125" y="572" font-size="20" font-weight="bold" fill="#111827">Проанализируй потомство</text>
+<text x="125" y="598" font-size="16" fill="#4B5563">генотипы, фенотипы, соотношения, вероятности</text>
+<path d="M450,616 L450,634" stroke="#9CA3AF" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="80" y="636" width="740" height="74" rx="14" fill="#ffffff" stroke="#7C3AED" stroke-width="2.5"/>
+<circle cx="80" cy="673.0" r="26" fill="#7C3AED"/>
+<text x="80" y="682.0" text-anchor="middle" font-size="25" font-weight="bold" fill="#ffffff">7</text>
+<text x="125" y="668" font-size="20" font-weight="bold" fill="#111827">Запиши ответ и объяснение</text>
+<text x="125" y="694" font-size="16" fill="#4B5563">ответ на каждый вопрос + закон или закономерность</text>
+</svg>

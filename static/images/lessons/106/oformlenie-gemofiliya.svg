@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="960" height="560" fill="#FFFDF5"/>
+<line x1="0" y1="60" x2="960" y2="60" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="92" x2="960" y2="92" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="124" x2="960" y2="124" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="156" x2="960" y2="156" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="188" x2="960" y2="188" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="220" x2="960" y2="220" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="252" x2="960" y2="252" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="284" x2="960" y2="284" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="316" x2="960" y2="316" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="348" x2="960" y2="348" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="380" x2="960" y2="380" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="412" x2="960" y2="412" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="444" x2="960" y2="444" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="476" x2="960" y2="476" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="508" x2="960" y2="508" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="0" y1="540" x2="960" y2="540" stroke="#E0E7FF" stroke-width="1"/>
+<line x1="70" y1="0" x2="70" y2="560" stroke="#FCA5A5" stroke-width="1.5"/>
+<text x="480" y="40" font-size="21" fill="#111827" font-weight="bold" text-anchor="middle">Как оформить решение: наследование гемофилии</text>
+<text x="90" y="88" font-size="20" fill="#0F766E" font-weight="bold" text-anchor="start">Дано:</text>
+<text x="180" y="88" font-size="18" fill="#111827" text-anchor="start">X<tspan dy="-9" font-size="14">H</tspan><tspan dy="9"> </tspan>— нормальная свёртываемость крови; X<tspan dy="-9" font-size="14">h</tspan><tspan dy="9"> </tspan>— гемофилия</text>
+<text x="180" y="120" font-size="18" fill="#111827" text-anchor="start">мать — здоровая носительница, отец — здоров</text>
+<text x="90" y="184" font-size="20" fill="#0F766E" font-weight="bold" text-anchor="start">P:</text>
+<text x="180" y="184" font-size="20" fill="#111827" font-weight="bold" text-anchor="start">♀ X<tspan dy="-9" font-size="14">H</tspan><tspan dy="9"> </tspan>X<tspan dy="-9" font-size="14">h</tspan><tspan dy="9"> </tspan></text>
+<text x="360" y="184" font-size="20" fill="#111827" font-weight="bold" text-anchor="start">×</text>
+<text x="420" y="184" font-size="20" fill="#111827" font-weight="bold" text-anchor="start">♂ X<tspan dy="-9" font-size="14">H</tspan><tspan dy="9"> </tspan>Y</text>
+<text x="180" y="214" font-size="15" fill="#6B7280" text-anchor="start">норма, носительница</text>
+<text x="420" y="214" font-size="15" fill="#6B7280" text-anchor="start">норма</text>
+<text x="90" y="280" font-size="20" fill="#0F766E" font-weight="bold" text-anchor="start">G:</text>
+<text x="180" y="280" font-size="20" fill="#111827" text-anchor="start">X<tspan dy="-9" font-size="14">H</tspan><tspan dy="9"> </tspan>  ,  X<tspan dy="-9" font-size="14">h</tspan><tspan dy="9"> </tspan></text>
+<text x="420" y="280" font-size="20" fill="#111827" text-anchor="start">X<tspan dy="-9" font-size="14">H</tspan><tspan dy="9"> </tspan>  ,  Y</text>
+<text x="90" y="344" font-size="20" fill="#0F766E" font-weight="bold" text-anchor="start">F₁:</text>
+<text x="180" y="344" font-size="20" fill="#111827" text-anchor="start">X<tspan dy="-9" font-size="14">H</tspan><tspan dy="9"> </tspan>X<tspan dy="-9" font-size="14">H</tspan><tspan dy="9"> </tspan>— девочка, здорова</text>
+<text x="180" y="376" font-size="20" fill="#111827" text-anchor="start">X<tspan dy="-9" font-size="14">H</tspan><tspan dy="9"> </tspan>X<tspan dy="-9" font-size="14">h</tspan><tspan dy="9"> </tspan>— девочка, здорова, носительница</text>
+<text x="180" y="408" font-size="20" fill="#111827" text-anchor="start">X<tspan dy="-9" font-size="14">H</tspan><tspan dy="9"> </tspan>Y — мальчик, здоров</text>
+<text x="180" y="440" font-size="20" fill="#DC2626" font-weight="bold" text-anchor="start">X<tspan dy="-9" font-size="14">h</tspan><tspan dy="9"> </tspan>Y — мальчик, болен гемофилией</text>
+<text x="90" y="504" font-size="20" fill="#0F766E" font-weight="bold" text-anchor="start">Ответ:</text>
+<text x="180" y="504" font-size="18" fill="#7C3AED" font-weight="bold" text-anchor="start">больной ребёнок — 1/4 (25%); среди сыновей — 1/2 (50%)</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="960" height="500" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="960" height="500" fill="#ffffff"/>
+<text x="480" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#111827">Родословная: условные обозначения и пример</text>
+<rect x="20" y="60" width="300" height="425" rx="14" fill="#F9FAFB" stroke="#E5E7EB"/>
+<text x="40" y="90" font-size="17" fill="#111827" text-anchor="start" font-weight="bold">Обозначения</text>
+<rect x="40" y="107" width="36" height="36" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<text x="90" y="131" font-size="15" fill="#374151" text-anchor="start">мужчина</text>
+<circle cx="58" cy="175" r="19" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<text x="90" y="181" font-size="15" fill="#374151" text-anchor="start">женщина</text>
+<rect x="40" y="207" width="36" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="2.5"/>
+<circle cx="110" cy="225" r="19" fill="#1F2937" stroke="#1F2937" stroke-width="2.5"/>
+<text x="140" y="231" font-size="15" fill="#374151" text-anchor="start">больные</text>
+<circle cx="58" cy="275" r="19" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<circle cx="58" cy="275" r="6" fill="#1F2937"/>
+<text x="90" y="272" font-size="14" fill="#374151" text-anchor="start">носительница</text>
+<text x="90" y="290" font-size="14" fill="#374151" text-anchor="start">(гетерозигота)</text>
+<rect x="27" y="312" width="36" height="36" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<circle cx="115" cy="330" r="19" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="63" y1="330" x2="96" y2="330" stroke="#1F2937" stroke-width="2.5"/>
+<text x="145" y="336" font-size="15" fill="#374151" text-anchor="start">брак</text>
+<line x1="80" y1="370" x2="80" y2="385" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="45" y1="385" x2="115" y2="385" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="45" y1="385" x2="45" y2="398" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="115" y1="385" x2="115" y2="398" stroke="#1F2937" stroke-width="2.5"/>
+<rect x="27" y="396" width="36" height="36" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<circle cx="115" cy="414" r="19" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<text x="145" y="404" font-size="14" fill="#374151" text-anchor="start">дети одних</text>
+<text x="145" y="422" font-size="14" fill="#374151" text-anchor="start">родителей</text>
+<text x="40" y="466" font-size="14" fill="#374151" text-anchor="start">I, II, III — поколения</text>
+<text x="640" y="70" font-size="15" fill="#0F766E" text-anchor="middle" font-weight="bold">Пример: гемофилия (рецессивный, сцеплен с X)</text>
+<text x="370" y="136" font-size="18" fill="#6B7280" text-anchor="middle" font-weight="bold">I</text>
+<text x="370" y="256" font-size="18" fill="#6B7280" text-anchor="middle" font-weight="bold">II</text>
+<text x="370" y="386" font-size="18" fill="#6B7280" text-anchor="middle" font-weight="bold">III</text>
+<circle cx="560" cy="130" r="19" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<circle cx="560" cy="130" r="6" fill="#1F2937"/>
+<rect x="662" y="112" width="36" height="36" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="579" y1="130" x2="662" y2="130" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="620" y1="130" x2="620" y2="190" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="440" y1="190" x2="860" y2="190" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="440" y1="190" x2="440" y2="231" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="540" y1="190" x2="540" y2="231" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="760" y1="190" x2="760" y2="231" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="860" y1="190" x2="860" y2="231" stroke="#1F2937" stroke-width="2.5"/>
+<rect x="422" y="232" width="36" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="2.5"/>
+<circle cx="540" cy="250" r="19" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<circle cx="540" cy="250" r="6" fill="#1F2937"/>
+<rect x="742" y="232" width="36" height="36" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<circle cx="860" cy="250" r="19" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<rect x="632" y="232" width="36" height="36" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="559" y1="250" x2="632" y2="250" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="595" y1="250" x2="595" y2="320" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="510" y1="320" x2="690" y2="320" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="510" y1="320" x2="510" y2="361" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="600" y1="320" x2="600" y2="361" stroke="#1F2937" stroke-width="2.5"/>
+<line x1="690" y1="320" x2="690" y2="361" stroke="#1F2937" stroke-width="2.5"/>
+<rect x="492" y="362" width="36" height="36" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<rect x="582" y="362" width="36" height="36" fill="#1F2937" stroke="#1F2937" stroke-width="2.5"/>
+<circle cx="690" cy="380" r="19" fill="#ffffff" stroke="#1F2937" stroke-width="2.5"/>
+<text x="440" y="290" font-size="13" fill="#DC2626" text-anchor="middle">болен</text>
+<text x="540" y="290" font-size="13" fill="#6B7280" text-anchor="middle">носительница</text>
+<text x="650" y="290" font-size="13" fill="#6B7280" text-anchor="middle">здоров</text>
+<text x="600" y="420" font-size="13" fill="#DC2626" text-anchor="middle">болен</text>
+<text x="640" y="476" font-size="13" fill="#374151" text-anchor="middle">Болеют в основном мужчины; ген передаётся через здоровых матерей-носительниц</text>
+</svg>
