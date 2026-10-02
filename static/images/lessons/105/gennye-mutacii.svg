@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 622" width="1000" height="622" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1000" height="622" fill="#ffffff"/>
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Генные мутации: что происходит с белком</text>
+<text x="40" y="70" font-size="14" fill="#6B7280">ТИП МУТАЦИИ</text><text x="300" y="70" font-size="14" fill="#6B7280">иРНК (кодоны)</text><text x="650" y="70" font-size="14" fill="#6B7280">БЕЛОК</text>
+<rect x="20" y="90" width="960" height="70" rx="10" fill="#F9FAFB" stroke="#E5E7EB"/>
+<text x="40" y="122" font-size="17" font-weight="bold" fill="#111827">Норма</text>
+<text x="300.0" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="312.6" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="325.2" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="347.9" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="360.5" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="373.1" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="395.8" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="408.4" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="421.0" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="443.6" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="456.2" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="468.8" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="491.5" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="504.1" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="516.7" y="128" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="650" y="128" font-size="16" fill="#111827" font-weight="bold">Мет – Глу – Лей – Лиз – Тир</text>
+<rect x="20" y="172" width="960" height="70" rx="10" fill="#ffffff" stroke="#E5E7EB"/>
+<text x="40" y="204" font-size="17" font-weight="bold" fill="#B45309">Замена (миссенс)</text>
+<text x="40" y="227" font-size="14" fill="#6B7280">другая аминокислота</text>
+<text x="300.0" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="312.6" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="325.2" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="347.9" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<rect x="359.5" y="188" width="14.6" height="28" rx="3" fill="#B45309" opacity="0.25"/>
+<text x="360.5" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="373.1" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="395.8" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="408.4" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="421.0" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="443.6" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="456.2" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="468.8" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="491.5" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="504.1" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="516.7" y="210" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="650" y="210" font-size="16" fill="#B45309" font-weight="bold">Мет – Вал – Лей – Лиз – Тир</text>
+<rect x="20" y="254" width="960" height="70" rx="10" fill="#ffffff" stroke="#E5E7EB"/>
+<text x="40" y="286" font-size="17" font-weight="bold" fill="#16A34A">Замена «молчащая»</text>
+<text x="40" y="309" font-size="14" fill="#6B7280">белок не изменился</text>
+<text x="300.0" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="312.6" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="325.2" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="347.9" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="360.5" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<rect x="372.1" y="270" width="14.6" height="28" rx="3" fill="#16A34A" opacity="0.25"/>
+<text x="373.1" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="395.8" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="408.4" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="421.0" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="443.6" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="456.2" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="468.8" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="491.5" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="504.1" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="516.7" y="292" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="650" y="292" font-size="16" fill="#16A34A" font-weight="bold">Мет – Глу – Лей – Лиз – Тир</text>
+<rect x="20" y="336" width="960" height="70" rx="10" fill="#ffffff" stroke="#E5E7EB"/>
+<text x="40" y="368" font-size="17" font-weight="bold" fill="#DC2626">Замена (нонсенс)</text>
+<text x="40" y="391" font-size="14" fill="#6B7280">появился стоп-кодон</text>
+<text x="300.0" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="312.6" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="325.2" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="347.9" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="360.5" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="373.1" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="395.8" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="408.4" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="421.0" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<rect x="442.6" y="352" width="14.6" height="28" rx="3" fill="#DC2626" opacity="0.25"/>
+<text x="443.6" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="456.2" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="468.8" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="491.5" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="504.1" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="516.7" y="374" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="650" y="374" font-size="16" fill="#DC2626" font-weight="bold">Мет – Глу – Лей – СТОП</text>
+<rect x="20" y="418" width="960" height="70" rx="10" fill="#ffffff" stroke="#E5E7EB"/>
+<text x="40" y="450" font-size="17" font-weight="bold" fill="#7C3AED">Вставка</text>
+<text x="40" y="473" font-size="14" fill="#6B7280">сдвиг рамки считывания</text>
+<text x="300.0" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="312.6" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="325.2" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<rect x="346.9" y="434" width="14.6" height="28" rx="3" fill="#7C3AED" opacity="0.25"/>
+<text x="347.9" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="360.5" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="373.1" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="395.8" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="408.4" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="421.0" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="443.6" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="456.2" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="468.8" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="491.5" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="504.1" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="516.7" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="539.4" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="552.0" y="456" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">…</text>
+<text x="300" y="480" font-size="12" fill="#7C3AED">после АУГ вставлен Ц</text>
+<text x="650" y="456" font-size="16" fill="#7C3AED" font-weight="bold">Мет – Арг – Ала – Глу – Иле …</text>
+<rect x="20" y="500" width="960" height="70" rx="10" fill="#ffffff" stroke="#E5E7EB"/>
+<text x="40" y="532" font-size="17" font-weight="bold" fill="#7C3AED">Выпадение</text>
+<text x="40" y="555" font-size="14" fill="#6B7280">сдвиг рамки и обрыв</text>
+<text x="300.0" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="312.6" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="325.2" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="347.9" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="360.5" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="373.1" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="395.8" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="408.4" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Г</text>
+<text x="421.0" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="443.6" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="456.2" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="468.8" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">У</text>
+<text x="491.5" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">А</text>
+<text x="504.1" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">Ц</text>
+<text x="516.7" y="538" font-family="DejaVu Sans Mono, Courier New, monospace" font-size="21" fill="#111827">…</text>
+<text x="300" y="562" font-size="12" fill="#7C3AED">выпал первый Г второго кодона</text>
+<text x="650" y="538" font-size="16" fill="#7C3AED" font-weight="bold">Мет – Сер – СТОП</text>
+<text x="980" y="608" text-anchor="end" font-size="12" fill="#6B7280">Кодоны и аминокислоты — по таблице генетического кода</text>
+</svg>
