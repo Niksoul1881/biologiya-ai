@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<rect width="900" height="540" fill="#ffffff"/>
+<line x1="90.0" y1="220.0" x2="90.0" y2="40.0" stroke="#4f8a2b" stroke-width="3" stroke-linecap="round"/>
+<line x1="90.0" y1="74.0" x2="120.0" y2="60.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="126.0" cy="58.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="90.0" y1="102.0" x2="60.0" y2="88.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="54.0" cy="86.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="90.0" y1="130.0" x2="120.0" y2="116.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="126.0" cy="114.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="90.0" y1="158.0" x2="60.0" y2="144.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="54.0" cy="142.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="90.0" y1="186.0" x2="120.0" y2="172.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="126.0" cy="170.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="90.0" y1="214.0" x2="60.0" y2="200.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="54.0" cy="198.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="90.0" cy="36.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<text x="90" y="242" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Кисть</text>
+<text x="90" y="262" text-anchor="middle" fill="#555">черёмуха, ландыш</text>
+<line x1="270.0" y1="220.0" x2="270.0" y2="40.0" stroke="#4f8a2b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="279.0" cy="55.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="261.0" cy="75.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="279.0" cy="95.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="261.0" cy="115.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="279.0" cy="135.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="261.0" cy="155.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="279.0" cy="175.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="261.0" cy="195.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<text x="270" y="242" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Колос</text>
+<text x="270" y="262" text-anchor="middle" fill="#555">подорожник</text>
+<line x1="450.0" y1="220.0" x2="450.0" y2="170.0" stroke="#4f8a2b" stroke-width="4" stroke-linecap="round"/>
+<rect x="433" y="45" width="34" height="130" rx="17" fill="#c9e08a" stroke="#4f8a2b" stroke-width="3"/>
+<circle cx="442.0" cy="62.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="458.0" cy="62.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="442.0" cy="82.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="458.0" cy="82.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="442.0" cy="102.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="458.0" cy="102.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="442.0" cy="122.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="458.0" cy="122.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="442.0" cy="142.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="458.0" cy="142.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="442.0" cy="162.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="458.0" cy="162.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<text x="450" y="242" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Початок</text>
+<text x="450" y="262" text-anchor="middle" fill="#555">кукуруза, белокрыльник</text>
+<line x1="630.0" y1="220.0" x2="630.0" y2="130.0" stroke="#4f8a2b" stroke-width="3" stroke-linecap="round"/>
+<line x1="630.0" y1="130.0" x2="565.0" y2="92.5" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="565.0" cy="92.5" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="630.0" y1="130.0" x2="581.8" y2="72.5" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="581.8" cy="72.5" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="630.0" y1="130.0" x2="604.3" y2="59.5" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="604.3" cy="59.5" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="630.0" y1="130.0" x2="630.0" y2="55.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="630.0" cy="55.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="630.0" y1="130.0" x2="655.7" y2="59.5" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="655.7" cy="59.5" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="630.0" y1="130.0" x2="678.2" y2="72.5" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="678.2" cy="72.5" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="630.0" y1="130.0" x2="695.0" y2="92.5" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="695.0" cy="92.5" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<text x="630" y="242" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Зонтик</text>
+<text x="630" y="262" text-anchor="middle" fill="#555">вишня, лук, примула</text>
+<line x1="810.0" y1="220.0" x2="810.0" y2="60.0" stroke="#4f8a2b" stroke-width="3" stroke-linecap="round"/>
+<line x1="810.0" y1="170.0" x2="748.0" y2="60.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="748.0" cy="56.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="810.0" y1="170.0" x2="872.0" y2="60.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="872.0" cy="56.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="810.0" y1="135.0" x2="768.0" y2="60.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="768.0" cy="56.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="810.0" y1="135.0" x2="852.0" y2="60.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="852.0" cy="56.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="810.0" y1="100.0" x2="788.0" y2="60.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="788.0" cy="56.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="810.0" y1="100.0" x2="832.0" y2="60.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="832.0" cy="56.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="810.0" cy="56.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<text x="810" y="242" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Щиток</text>
+<text x="810" y="262" text-anchor="middle" fill="#555">груша, рябина</text>
+<line x1="90.0" y1="490.0" x2="90.0" y2="370.0" stroke="#4f8a2b" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="90" cy="355" rx="30" ry="28" fill="#c9e08a" stroke="#4f8a2b" stroke-width="2"/>
+<circle cx="112.0" cy="355.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="106.9" cy="367.9" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="93.8" cy="374.7" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="79.0" cy="372.3" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="69.3" cy="361.8" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="69.3" cy="348.2" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="79.0" cy="337.7" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="93.8" cy="335.3" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="106.9" cy="342.1" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="90.0" cy="355.0" r="7" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<text x="90" y="512" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Головка</text>
+<text x="90" y="532" text-anchor="middle" fill="#555">клевер</text>
+<line x1="270.0" y1="490.0" x2="270.0" y2="385.0" stroke="#4f8a2b" stroke-width="4" stroke-linecap="round"/>
+<path d="M215,370 Q270,415 325,370 Z" fill="#7cbf4f" stroke="#4f8a2b" stroke-width="2"/>
+<circle cx="222.0" cy="362.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="234.0" cy="362.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="246.0" cy="362.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="258.0" cy="362.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="270.0" cy="362.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="282.0" cy="362.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="294.0" cy="362.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="306.0" cy="362.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="318.0" cy="362.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="234.0" cy="352.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="246.0" cy="352.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="258.0" cy="352.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="270.0" cy="352.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="282.0" cy="352.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="294.0" cy="352.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="306.0" cy="352.0" r="6" fill="#f2c94c" stroke="#a3245f" stroke-width="1.2"/>
+<ellipse cx="202" cy="356" rx="16" ry="6" fill="#ffffff" stroke="#999" stroke-width="1.5"/>
+<ellipse cx="338" cy="356" rx="16" ry="6" fill="#ffffff" stroke="#999" stroke-width="1.5"/>
+<text x="270" y="512" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Корзинка</text>
+<text x="270" y="532" text-anchor="middle" fill="#555">подсолнечник, ромашка</text>
+<line x1="450.0" y1="490.0" x2="450.0" y2="310.0" stroke="#4f8a2b" stroke-width="3" stroke-linecap="round"/>
+<line x1="450.0" y1="450.0" x2="395.0" y2="420.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<line x1="422.5" y1="435.0" x2="416.5" y2="412.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="395.0" cy="420.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="416.5" cy="408.0" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="450.0" y1="450.0" x2="505.0" y2="420.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<line x1="477.5" y1="435.0" x2="483.5" y2="412.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="505.0" cy="420.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="483.5" cy="408.0" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="450.0" y1="415.0" x2="405.0" y2="385.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<line x1="427.5" y1="400.0" x2="421.5" y2="377.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="405.0" cy="385.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="421.5" cy="373.0" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="450.0" y1="415.0" x2="495.0" y2="385.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<line x1="472.5" y1="400.0" x2="478.5" y2="377.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="495.0" cy="385.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="478.5" cy="373.0" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="450.0" y1="380.0" x2="415.0" y2="350.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<line x1="432.5" y1="365.0" x2="426.5" y2="342.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="415.0" cy="350.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="426.5" cy="338.0" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="450.0" y1="380.0" x2="485.0" y2="350.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<line x1="467.5" y1="365.0" x2="473.5" y2="342.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="485.0" cy="350.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="473.5" cy="338.0" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="450.0" y1="350.0" x2="426.0" y2="320.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<line x1="438.0" y1="335.0" x2="432.0" y2="312.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="426.0" cy="320.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="432.0" cy="308.0" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="450.0" y1="350.0" x2="474.0" y2="320.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<line x1="462.0" y1="335.0" x2="468.0" y2="312.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="474.0" cy="320.0" r="5.5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="468.0" cy="308.0" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="450.0" cy="306.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<text x="450" y="512" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Метёлка</text>
+<text x="450" y="532" text-anchor="middle" fill="#555">сирень, овёс, рис</text>
+<line x1="630.0" y1="490.0" x2="630.0" y2="420.0" stroke="#4f8a2b" stroke-width="3" stroke-linecap="round"/>
+<line x1="630.0" y1="420.0" x2="576.4" y2="375.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="562.2" cy="358.2" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="576.4" y1="375.0" x2="565.4" y2="362.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="576.4" cy="353.0" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="576.4" y1="375.0" x2="576.4" y2="358.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="590.5" cy="358.2" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="576.4" y1="375.0" x2="587.3" y2="362.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="630.0" y1="420.0" x2="609.5" y2="353.1" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="595.4" cy="336.2" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="609.5" y1="353.1" x2="598.6" y2="340.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="609.5" cy="331.1" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="609.5" y1="353.1" x2="609.5" y2="336.1" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="623.7" cy="336.2" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="609.5" y1="353.1" x2="620.5" y2="340.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="630.0" y1="420.0" x2="650.5" y2="353.1" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="636.3" cy="336.2" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="650.5" y1="353.1" x2="639.5" y2="340.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="650.5" cy="331.1" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="650.5" y1="353.1" x2="650.5" y2="336.1" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="664.6" cy="336.2" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="650.5" y1="353.1" x2="661.4" y2="340.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="630.0" y1="420.0" x2="683.6" y2="375.0" stroke="#4f8a2b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="669.5" cy="358.2" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="683.6" y1="375.0" x2="672.7" y2="362.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="683.6" cy="353.0" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="683.6" y1="375.0" x2="683.6" y2="358.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="697.8" cy="358.2" r="5" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<line x1="683.6" y1="375.0" x2="694.6" y2="362.0" stroke="#4f8a2b" stroke-width="1.5" stroke-linecap="round"/>
+<text x="630" y="512" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Сложный зонтик</text>
+<text x="630" y="532" text-anchor="middle" fill="#555">морковь, укроп</text>
+<line x1="810.0" y1="490.0" x2="810.0" y2="310.0" stroke="#4f8a2b" stroke-width="3" stroke-linecap="round"/>
+<circle cx="820.0" cy="330.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="827.0" cy="324.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="834.0" cy="318.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="800.0" cy="356.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="793.0" cy="350.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="786.0" cy="344.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="820.0" cy="382.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="827.0" cy="376.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="834.0" cy="370.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="800.0" cy="408.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="793.0" cy="402.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="786.0" cy="396.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="820.0" cy="434.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="827.0" cy="428.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="834.0" cy="422.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="800.0" cy="460.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="793.0" cy="454.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<circle cx="786.0" cy="448.0" r="6" fill="#e85d9a" stroke="#a3245f" stroke-width="1.2"/>
+<text x="810" y="512" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Сложный колос</text>
+<text x="810" y="532" text-anchor="middle" fill="#555">пшеница, рожь, ячмень</text>
+</svg>
