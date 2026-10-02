@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="300" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="23" font-weight="bold" fill="#1F2937">Найди своё слепое пятно</text>
+  <g stroke="#1F2937" stroke-width="8" stroke-linecap="round"><line x1="190" y1="125" x2="250" y2="125"/><line x1="220" y1="95" x2="220" y2="155"/></g>
+  <circle cx="680" cy="125" r="28" fill="#DC2626"/>
+  <text x="450" y="215" text-anchor="middle" font-size="17" fill="#374151">Закрой левый глаз, правым смотри на крестик. Медленно приближай лицо к экрану</text>
+  <text x="450" y="240" text-anchor="middle" font-size="17" fill="#374151">(начни примерно с 50 см). На каком-то расстоянии красный кружок исчезнет —</text>
+  <text x="450" y="265" text-anchor="middle" font-size="17" fill="#374151">его изображение упало на слепое пятно, где нет фоторецепторов.</text>
+</svg>
