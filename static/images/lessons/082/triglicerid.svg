@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="960" height="420" font-family="sans-serif">
+<rect width="960" height="420" fill="#fff"/>
+<text x="480" y="36" font-size="25" font-weight="bold" fill="#1f2937" text-anchor="middle">Как образуется молекула жира (триглицерида)</text>
+<rect x="60" y="80" width="150" height="240" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<text x="135" y="345" font-size="19" font-weight="bold" fill="#1e3a8a" text-anchor="middle">Глицерин</text>
+<text x="135" y="368" font-size="15" fill="#374151" text-anchor="middle">трёхатомный спирт</text>
+<text x="80" y="127" font-size="20" fill="#1f2937">CH₂–OH</text>
+<text x="80" y="207" font-size="20" fill="#1f2937">CH–OH</text>
+<text x="80" y="287" font-size="20" fill="#1f2937">CH₂–OH</text>
+<text x="235" y="210" font-size="40" fill="#374151">+</text>
+<rect x="280" y="96" width="260" height="48" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+<text x="292" y="127" font-size="20" fill="#1f2937">HO–OC–</text>
+<polyline points="380,128 394,112 408,128 422,112 436,128 450,112 464,128 478,112 492,128 506,112 520,128" fill="none" stroke="#92400E" stroke-width="3"/>
+<rect x="280" y="176" width="260" height="48" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+<text x="292" y="207" font-size="20" fill="#1f2937">HO–OC–</text>
+<polyline points="380,208 394,192 408,208 422,192 436,208 450,192 464,208 478,192 492,208 506,192 520,208" fill="none" stroke="#92400E" stroke-width="3"/>
+<rect x="280" y="256" width="260" height="48" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+<text x="292" y="287" font-size="20" fill="#1f2937">HO–OC–</text>
+<polyline points="380,288 394,272 408,288 422,272 436,288 450,272 464,288 478,272 492,288 506,272 520,288" fill="none" stroke="#92400E" stroke-width="3"/>
+<text x="410" y="345" font-size="19" font-weight="bold" fill="#92400E" text-anchor="middle">3 жирные кислоты</text>
+<text x="410" y="368" font-size="15" fill="#374151" text-anchor="middle">длинный углеводородный «хвост»</text>
+<line x1="560" y1="200" x2="620" y2="200" stroke="#374151" stroke-width="4"/><polygon points="620,190 640,200 620,210" fill="#374151"/>
+<text x="600" y="180" font-size="15" fill="#b91c1c" text-anchor="middle">−3 H₂O</text>
+<rect x="655" y="80" width="80" height="240" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<circle cx="735" cy="120" r="9" fill="#b91c1c"/>
+<polyline points="747,128 763,112 779,128 795,112 811,128 827,112 843,128 859,112 875,128 891,112 907,128 923,112" fill="none" stroke="#92400E" stroke-width="3"/>
+<circle cx="735" cy="200" r="9" fill="#b91c1c"/>
+<polyline points="747,208 763,192 779,208 795,192 811,208 827,192 843,208 859,192 875,208 891,192 907,208 923,192" fill="none" stroke="#92400E" stroke-width="3"/>
+<circle cx="735" cy="280" r="9" fill="#b91c1c"/>
+<polyline points="747,288 763,272 779,288 795,272 811,288 827,272 843,288 859,272 875,288 891,272 907,288 923,272" fill="none" stroke="#92400E" stroke-width="3"/>
+<text x="785" y="345" font-size="19" font-weight="bold" fill="#1f2937" text-anchor="middle">Жир (триглицерид)</text>
+<text x="785" y="368" font-size="15" fill="#374151" text-anchor="middle">красные точки — сложноэфирные связи</text>
+<text x="480" y="405" font-size="15" fill="#6b7280" text-anchor="middle">Каждая жирная кислота присоединяется к глицерину с выделением молекулы воды (реакция этерификации)</text>
+</svg>
