@@ -27,7 +27,7 @@ jobs:
           hugo-version: "0.151.0"
           extended: true
       - name: Сборка
-        run: hugo --minify --baseURL "https://niksoul1881.github.io/biologiya-ai/"
+        run: hugo --baseURL "https://niksoul1881.github.io/biologiya-ai/"
       - name: Ссылки под подпапку
         run: |
           find public -name '*.html' -print0 | xargs -0 sed -i -E \
