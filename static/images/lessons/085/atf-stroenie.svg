@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 452" width="980" height="452" font-family="sans-serif">
+<rect width="980" height="452" fill="#fff"/>
+<text x="490" y="36" font-size="25" font-weight="bold" fill="#1f2937" text-anchor="middle">Строение АТФ (аденозинтрифосфата)</text>
+<polygon points="183.7,221.0 130.0,252.0 76.3,221.0 76.3,159.0 130.0,128.0 183.7,159.0" fill="#BFDBFE" stroke="#2563EB" stroke-width="3"/><text x="130" y="197" font-size="19" font-weight="bold" fill="#1E3A8A" text-anchor="middle">аденин</text>
+<line x1="192" y1="190" x2="250" y2="190" stroke="#374151" stroke-width="4"/>
+<polygon points="310.0,132.0 365.2,172.1 344.1,236.9 275.9,236.9 254.8,172.1" fill="#FED7AA" stroke="#EA580C" stroke-width="3"/><text x="310" y="197" font-size="19" font-weight="bold" fill="#7C2D12" text-anchor="middle">рибоза</text>
+<line x1="368" y1="190" x2="424" y2="190" stroke="#374151" stroke-width="4"/>
+<circle cx="470" cy="190" r="46" fill="#FEF08A" stroke="#CA8A04" stroke-width="3"/><text x="470" y="200" font-size="28" font-weight="bold" fill="#713F12" text-anchor="middle">P</text>
+<circle cx="640" cy="190" r="46" fill="#FEF08A" stroke="#CA8A04" stroke-width="3"/><text x="640" y="200" font-size="28" font-weight="bold" fill="#713F12" text-anchor="middle">P</text>
+<circle cx="810" cy="190" r="46" fill="#FEF08A" stroke="#CA8A04" stroke-width="3"/><text x="810" y="200" font-size="28" font-weight="bold" fill="#713F12" text-anchor="middle">P</text>
+<polyline points="516.0,199 522.5,181 529.0,199 535.5,181 542.0,199 548.5,181 555.0,199 561.5,181 568.0,199 574.5,181 581.0,199 587.5,181 594.0,199" fill="none" stroke="#DC2626" stroke-width="4"/>
+<text x="555.0" y="160" font-size="26" font-weight="bold" fill="#DC2626" text-anchor="middle">~</text>
+<polyline points="686.0,199 692.5,181 699.0,199 705.5,181 712.0,199 718.5,181 725.0,199 731.5,181 738.0,199 744.5,181 751.0,199 757.5,181 764.0,199" fill="none" stroke="#DC2626" stroke-width="4"/>
+<text x="725.0" y="160" font-size="26" font-weight="bold" fill="#DC2626" text-anchor="middle">~</text>
+<path d="M68,262 v12 H368 v-12" fill="none" stroke="#1f2937" stroke-width="2.5"/>
+<text x="218.0" y="298" font-size="18" font-weight="bold" fill="#1f2937" text-anchor="middle">аденозин</text>
+<path d="M68,312 v12 H516 v-12" fill="none" stroke="#6b7280" stroke-width="2.5"/>
+<text x="292.0" y="348" font-size="18" font-weight="bold" fill="#6b7280" text-anchor="middle">АМФ (аденозинмонофосфат)</text>
+<path d="M68,362 v12 H686 v-12" fill="none" stroke="#6b7280" stroke-width="2.5"/>
+<text x="377.0" y="398" font-size="18" font-weight="bold" fill="#6b7280" text-anchor="middle">АДФ (аденозиндифосфат)</text>
+<text x="640" y="100" font-size="17" fill="#DC2626" text-anchor="middle">макроэргические связи (~)</text>
+<line x1="600" y1="108" x2="560" y2="140" stroke="#DC2626" stroke-width="1.5"/><line x1="680" y1="108" x2="722" y2="140" stroke="#DC2626" stroke-width="1.5"/>
+<text x="810" y="262" font-size="16" fill="#374151" text-anchor="middle">остатки фосфорной</text><text x="810" y="284" font-size="16" fill="#374151" text-anchor="middle">кислоты</text>
+<text x="490" y="440" font-size="16" fill="#6b7280" text-anchor="middle">АТФ = аденин + рибоза + 3 остатка фосфорной кислоты; при отщеплении концевого фосфата — около 40 кДж/моль</text>
+</svg>

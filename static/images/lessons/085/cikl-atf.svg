@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="sans-serif">
+<rect width="900" height="520" fill="#fff"/>
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="14" refY="9" orient="auto"><path d="M0,0 L18,9 L0,18 z" fill="#374151"/></marker></defs>
+<text x="450" y="36" font-size="25" font-weight="bold" fill="#1f2937" text-anchor="middle">Цикл АТФ — АДФ: «зарядка» и «разрядка» батарейки</text>
+<rect x="340" y="80" width="220" height="80" rx="16" fill="#DCFCE7" stroke="#16A34A" stroke-width="3"/><text x="450" y="118" font-size="28" font-weight="bold" fill="#166534" text-anchor="middle">АТФ</text><text x="450" y="144" font-size="15" fill="#166534" text-anchor="middle">«заряженная батарейка»</text>
+<rect x="340" y="350" width="220" height="80" rx="16" fill="#FEE2E2" stroke="#DC2626" stroke-width="3"/><text x="450" y="388" font-size="28" font-weight="bold" fill="#991B1B" text-anchor="middle">АДФ + Ф</text><text x="450" y="414" font-size="15" fill="#991B1B" text-anchor="middle">«разряженная батарейка»</text>
+<path d="M560,130 C690,150 690,330 570,382" fill="none" stroke="#374151" stroke-width="4" marker-end="url(#ar)"/>
+<path d="M340,385 C210,350 210,160 332,128" fill="none" stroke="#374151" stroke-width="4" marker-end="url(#ar)"/>
+<text x="680" y="225" font-size="18" font-weight="bold" fill="#DC2626">гидролиз АТФ</text><text x="680" y="248" font-size="15" fill="#374151">(+H₂O, энергия</text><text x="680" y="268" font-size="15" fill="#374151">выделяется)</text>
+<text x="40" y="200" font-size="18" font-weight="bold" fill="#16A34A">синтез АТФ</text><text x="40" y="223" font-size="15" fill="#374151">(фосфорилирование,</text><text x="40" y="243" font-size="15" fill="#374151">энергия поглощается)</text>
+<rect x="20" y="300" width="270" height="150" rx="12" fill="#f0fdf4" stroke="#16A34A"/>
+<text x="34" y="326" font-size="16" fill="#1f2937">Откуда энергия:</text>
+<text x="34" y="348" font-size="16" fill="#1f2937">• окисление глюкозы и жиров</text>
+<text x="34" y="370" font-size="16" fill="#1f2937">  (гликолиз, дыхание</text>
+<text x="34" y="392" font-size="16" fill="#1f2937">  в митохондриях)</text>
+<text x="34" y="414" font-size="16" fill="#1f2937">• свет (фотосинтез</text>
+<text x="34" y="436" font-size="16" fill="#1f2937">  в хлоропластах)</text>
+<rect x="620" y="300" width="270" height="180" rx="12" fill="#fef2f2" stroke="#DC2626"/>
+<text x="634" y="326" font-size="16" fill="#1f2937">На что тратится:</text>
+<text x="634" y="348" font-size="16" fill="#1f2937">• синтез белков, ДНК, жиров</text>
+<text x="634" y="370" font-size="16" fill="#1f2937">• сокращение мышц</text>
+<text x="634" y="392" font-size="16" fill="#1f2937">• активный транспорт</text>
+<text x="634" y="414" font-size="16" fill="#1f2937">  (Na⁺/K⁺-насос)</text>
+<text x="634" y="436" font-size="16" fill="#1f2937">• нервный импульс</text>
+<text x="634" y="458" font-size="16" fill="#1f2937">• тепло, свечение</text>
+<text x="450" y="505" font-size="15" fill="#6b7280" text-anchor="middle">Человек за сутки «перезаряжает» количество АТФ, сравнимое с массой собственного тела</text>
+</svg>
