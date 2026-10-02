@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Arial, Helvetica, sans-serif" font-size="16">
+  <defs>
+    <g id="jar">
+      <path d="M-60,-150 L-60,60 Q-60,80 -40,80 L40,80 Q60,80 60,60 L60,-150" fill="#eaf6fb" fill-opacity="0.6" stroke="#6a8fa3" stroke-width="3"/>
+      <rect x="-66" y="-160" width="132" height="12" rx="3" fill="#cfdfe8" stroke="#6a8fa3" stroke-width="2"/>
+    </g>
+    <g id="candleOn">
+      <line x1="0" y1="-160" x2="0" y2="-60" stroke="#555" stroke-width="2"/>
+      <rect x="-7" y="-60" width="14" height="36" fill="#f6efe0" stroke="#a08c60" stroke-width="1.5"/>
+      <path d="M0,-88 C10,-75 8,-64 0,-62 C-8,-64 -10,-75 0,-88 Z" fill="#ffb300" stroke="#e65c00" stroke-width="1.5"/>
+    </g>
+    <g id="candleOff">
+      <line x1="0" y1="-160" x2="0" y2="-60" stroke="#555" stroke-width="2"/>
+      <rect x="-7" y="-60" width="14" height="36" fill="#f6efe0" stroke="#a08c60" stroke-width="1.5"/>
+      <path d="M0,-64 q6,-10 0,-20 q-6,-10 0,-20" stroke="#999" stroke-width="2" fill="none"/>
+    </g>
+    <g id="cyl">
+      <rect x="-28" y="-170" width="56" height="230" fill="none" stroke="#6a8fa3" stroke-width="3"/>
+      <path d="M-28,60 Q0,72 28,60" fill="none" stroke="#6a8fa3" stroke-width="3"/>
+    </g>
+  </defs>
+  <rect width="900" height="500" fill="#ffffff"/>
+
+  <!-- Опыт 1 -->
+  <text x="220" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#2f5d1e">Опыт 1. Семена дышат</text>
+  <g transform="translate(110,300)">
+    <use href="#jar"/>
+    <g fill="#d9b26b" stroke="#8a6a2a" stroke-width="1.2">
+      <ellipse cx="-30" cy="62" rx="12" ry="8"/><ellipse cx="-5" cy="65" rx="12" ry="8"/><ellipse cx="20" cy="62" rx="12" ry="8"/>
+      <ellipse cx="-18" cy="50" rx="12" ry="8"/><ellipse cx="8" cy="50" rx="12" ry="8"/><ellipse cx="34" cy="52" rx="11" ry="8"/>
+    </g>
+    <g stroke="#e8f5d0" stroke-width="3" fill="none"><path d="M-30,55 q-4,-14 4,-22"/><path d="M8,43 q6,-12 -2,-20"/><path d="M34,45 q4,-12 -4,-18"/></g>
+    <use href="#candleOff"/>
+  </g>
+  <g transform="translate(330,300)">
+    <use href="#jar"/>
+    <g fill="#c9a35a" stroke="#8a6a2a" stroke-width="1.2">
+      <ellipse cx="-30" cy="62" rx="12" ry="8"/><ellipse cx="-5" cy="65" rx="12" ry="8"/><ellipse cx="20" cy="62" rx="12" ry="8"/>
+      <ellipse cx="-18" cy="50" rx="12" ry="8"/><ellipse cx="8" cy="50" rx="12" ry="8"/><ellipse cx="34" cy="52" rx="11" ry="8"/>
+    </g>
+    <use href="#candleOn"/>
+  </g>
+  <g text-anchor="middle" fill="#222">
+    <text x="110" y="410" font-weight="bold">проросшие семена</text>
+    <text x="110" y="432">свеча гаснет:</text>
+    <text x="110" y="452">кислород поглощён,</text>
+    <text x="110" y="472">накопился CO₂</text>
+    <text x="330" y="410" font-weight="bold">варёные семена</text>
+    <text x="330" y="432">свеча горит:</text>
+    <text x="330" y="452">мёртвые семена</text>
+    <text x="330" y="472">не дышат</text>
+  </g>
+
+  <line x1="450" y1="20" x2="450" y2="480" stroke="#ccc" stroke-width="2" stroke-dasharray="8 6"/>
+
+  <!-- Опыт 2 -->
+  <text x="680" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#2f5d1e">Опыт 2. Листья испаряют воду</text>
+  <!-- цилиндр с листьями -->
+  <g transform="translate(580,300)">
+    <rect x="-26" y="-20" width="52" height="80" fill="#9fd0ef"/>
+    <rect x="-26" y="-28" width="52" height="8" fill="#f2c94c"/>
+    <use href="#cyl"/>
+    <line x1="0" y1="50" x2="0" y2="-200" stroke="#4f8a2b" stroke-width="4"/>
+    <g fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5">
+      <path d="M0,-90 C-20,-110 -55,-110 -65,-98 C-50,-85 -20,-82 0,-90 Z"/>
+      <path d="M0,-120 C20,-140 55,-140 65,-128 C50,-115 20,-112 0,-120 Z"/>
+      <path d="M0,-155 C-20,-175 -55,-175 -65,-163 C-50,-150 -20,-147 0,-155 Z"/>
+      <path d="M0,-185 C20,-205 50,-205 60,-193 C45,-180 20,-177 0,-185 Z"/>
+    </g>
+    <line x1="34" y1="-75" x2="50" y2="-75" stroke="#c0392b" stroke-width="2"/>
+    <line x1="34" y1="-28" x2="50" y2="-28" stroke="#c0392b" stroke-width="2"/>
+    <line x1="44" y1="-72" x2="44" y2="-32" stroke="#c0392b" stroke-width="2" marker-end="url(#m)"/>
+  </g>
+  <!-- цилиндр без листьев -->
+  <g transform="translate(790,300)">
+    <rect x="-26" y="-68" width="52" height="128" fill="#9fd0ef"/>
+    <rect x="-26" y="-76" width="52" height="8" fill="#f2c94c"/>
+    <use href="#cyl"/>
+    <line x1="0" y1="50" x2="0" y2="-200" stroke="#4f8a2b" stroke-width="4"/>
+    <line x1="34" y1="-75" x2="50" y2="-75" stroke="#c0392b" stroke-width="2"/>
+  </g>
+  <text x="640" y="215" font-size="14" fill="#c0392b">было</text>
+  <text x="462" y="300" font-size="14" fill="#b38b00">слой</text>
+  <text x="462" y="318" font-size="14" fill="#b38b00">масла</text>
+  <line x1="500" y1="300" x2="553" y2="275" stroke="#b38b00" stroke-width="1.2"/>
+  <g text-anchor="middle" fill="#222">
+    <text x="580" y="410" font-weight="bold">побег с листьями</text>
+    <text x="580" y="432">воды стало</text>
+    <text x="580" y="452">заметно меньше</text>
+    <text x="790" y="410" font-weight="bold">листья оборваны</text>
+    <text x="790" y="432">уровень воды</text>
+    <text x="790" y="452">почти не изменился</text>
+  </g>
+  <text x="680" y="488" text-anchor="middle" font-size="14" fill="#555">масло не даёт воде испаряться с поверхности</text>
+</svg>
