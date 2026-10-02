@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Кто больше: клетка, бактерия, вирус</text>
+  <text x="450" y="60" font-size="15" text-anchor="middle" fill="#4b5563">1 мкм (микрометр) = 1000 нм (нанометров) = 0,001 мм</text>
+
+  <!-- Бактерия: 2000 нм = 400 px (масштаб 1 нм = 0,2 px) -->
+  <rect x="60" y="120" width="400" height="160" rx="80" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/>
+  <path d="M150,200 C190,160 230,240 270,200 C310,160 350,240 390,200" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <text x="260" y="105" font-size="18" font-weight="bold" text-anchor="middle" fill="#1d4ed8">Бактерия (кишечная палочка) — около 2000 нм</text>
+
+  <!-- Мимивирус ~750 нм с волокнами = 150 px -->
+  <circle cx="575" cy="200" r="75" fill="#fde68a" stroke="#b45309" stroke-width="4"/>
+  <circle cx="575" cy="200" r="55" fill="#fcd34d" stroke="#b45309" stroke-width="2"/>
+  <text x="575" y="305" font-size="16" font-weight="bold" text-anchor="middle" fill="#92400e">Гигантский мимивирус</text>
+  <text x="575" y="325" font-size="16" text-anchor="middle" fill="#92400e">около 750 нм</text>
+
+  <!-- ВТМ 300 х 18 нм = 60 х 3.6 px -->
+  <rect x="680" y="128" width="60" height="4" fill="#16a34a"/>
+  <text x="755" y="135" font-size="15" font-weight="bold" fill="#166534">табачная мозаика</text>
+  <text x="755" y="153" font-size="14" fill="#166534">300 нм</text>
+  <!-- Грипп 100 нм = 20 px -->
+  <circle cx="710" cy="200" r="10" fill="#f9a8d4" stroke="#be185d" stroke-width="2"/>
+  <text x="755" y="198" font-size="15" font-weight="bold" fill="#9d174d">вирус гриппа</text>
+  <text x="755" y="216" font-size="14" fill="#9d174d">100 нм</text>
+  <!-- Полиомиелит 30 нм = 6 px -->
+  <circle cx="710" cy="262" r="3" fill="#7c3aed"/>
+  <text x="755" y="260" font-size="15" font-weight="bold" fill="#5b21b6">полиомиелит</text>
+  <text x="755" y="278" font-size="14" fill="#5b21b6">30 нм</text>
+
+  <!-- шкала -->
+  <line x1="60" y1="365" x2="260" y2="365" stroke="#111827" stroke-width="3"/>
+  <line x1="60" y1="357" x2="60" y2="373" stroke="#111827" stroke-width="3"/>
+  <line x1="260" y1="357" x2="260" y2="373" stroke="#111827" stroke-width="3"/>
+  <text x="160" y="392" font-size="16" text-anchor="middle" fill="#111827">1000 нм = 1 мкм</text>
+
+  <rect x="300" y="350" width="570" height="95" rx="12" fill="#f3f4f6"/>
+  <text x="585" y="377" font-size="15" text-anchor="middle" fill="#1f2937">Все фигуры нарисованы в одном масштабе.</text>
+  <text x="585" y="402" font-size="15" text-anchor="middle" fill="#1f2937">Клетка кожи человека (около 30 000 нм) в этом масштабе</text>
+  <text x="585" y="427" font-size="15" text-anchor="middle" fill="#1f2937">была бы в 6–7 раз шире всей этой картинки.</text>
+</svg>
