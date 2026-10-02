@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="640" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f766e">Алгоритм: человек лежит и не двигается</text>
+  <defs><marker id="m" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="10" refY="8" orient="auto"><path d="M0 0 L16 8 L0 16 z" fill="#374151"/></marker></defs>
+  <g text-anchor="middle">
+    <rect x="250" y="55" width="400" height="62" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <text x="450" y="82" font-size="18" font-weight="bold" fill="#92400e">1. Безопасно ли подходить?</text>
+    <text x="450" y="104" font-size="15" fill="#1f2937">дорога, ток, огонь, газ — сначала устрани опасность</text>
+
+    <rect x="250" y="145" width="400" height="62" rx="12" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+    <text x="450" y="172" font-size="18" font-weight="bold" fill="#075985">2. Есть ли сознание?</text>
+    <text x="450" y="194" font-size="15" fill="#1f2937">громко окликни, осторожно потряси за плечи</text>
+
+    <rect x="250" y="235" width="400" height="62" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+    <text x="450" y="262" font-size="18" font-weight="bold" fill="#991b1b">3. Позови на помощь</text>
+    <text x="450" y="284" font-size="15" fill="#1f2937">крикни окружающим; вызови скорую: 112 или 103</text>
+
+    <rect x="250" y="325" width="400" height="76" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/>
+    <text x="450" y="352" font-size="18" font-weight="bold" fill="#5b21b6">4. Есть ли нормальное дыхание?</text>
+    <text x="450" y="374" font-size="15" fill="#1f2937">запрокинь голову, подними подбородок;</text>
+    <text x="450" y="393" font-size="15" fill="#1f2937">смотри, слушай, чувствуй — 10 секунд</text>
+
+    <rect x="40" y="460" width="360" height="150" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <text x="220" y="492" font-size="19" font-weight="bold" fill="#166534">Дышит</text>
+    <text x="220" y="522" font-size="15" fill="#1f2937">устойчивое боковое положение,</text>
+    <text x="220" y="544" font-size="15" fill="#1f2937">осмотреть на кровотечения и травмы,</text>
+    <text x="220" y="566" font-size="15" fill="#1f2937">укрыть, следить за дыханием</text>
+    <text x="220" y="588" font-size="15" fill="#1f2937">до приезда скорой</text>
+
+    <rect x="500" y="460" width="360" height="150" rx="12" fill="#fee2e2" stroke="#b91c1c" stroke-width="3"/>
+    <text x="680" y="492" font-size="19" font-weight="bold" fill="#991b1b">Не дышит или хрипит редко</text>
+    <text x="680" y="522" font-size="15" fill="#1f2937">сердечно-лёгочная реанимация:</text>
+    <text x="680" y="546" font-size="17" font-weight="bold" fill="#1f2937">30 нажатий : 2 вдоха</text>
+    <text x="680" y="570" font-size="15" fill="#1f2937">попросить принести дефибриллятор</text>
+    <text x="680" y="592" font-size="15" fill="#1f2937">(АНД), если он есть рядом</text>
+  </g>
+  <g stroke="#374151" stroke-width="3" fill="none">
+    <line x1="450" y1="117" x2="450" y2="141" marker-end="url(#m)"/>
+    <line x1="450" y1="207" x2="450" y2="231" marker-end="url(#m)"/>
+    <line x1="450" y1="297" x2="450" y2="321" marker-end="url(#m)"/>
+    <path d="M400 401 L220 440 L220 456" marker-end="url(#m)"/>
+    <path d="M500 401 L680 440 L680 456" marker-end="url(#m)"/>
+  </g>
+  <text x="285" y="450" font-size="16" fill="#166534" font-weight="bold">да</text>
+  <text x="590" y="450" font-size="16" fill="#991b1b" font-weight="bold">нет</text>
+</svg>
