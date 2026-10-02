@@ -328,5 +328,25 @@
   "source": "https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_Röntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg",
   "author": "Wilhelm Röntgen",
   "license": "Public domain"
+ },
+ "/images/lessons/062/galvani.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Galvani-frogs-legs-electricity.jpg",
+  "author": "Luigi Galvani",
+  "license": "Public domain"
+ },
+ "/images/lessons/062/myshca-stroenie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Blausen_0801_SkeletalMuscle_(ru).svg",
+  "author": "BruceBlaus. When using this image in external sources it can be cited as:\n\nBlaus",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/062/skolzhenie-niti.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:1006_Sliding_Filament_Model_of_Muscle_Contraction.jpg",
+  "author": "OpenStax",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/062/myshcy-tela.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Muscles_anterior_labeled.png",
+  "author": "Mikael Häggström.\nWhen using this image in external works, it may be cited as:\n\n",
+  "license": "Public domain"
  }
 }
