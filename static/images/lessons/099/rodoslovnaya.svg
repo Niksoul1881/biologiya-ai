@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="500" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<text x="450.0" y="32" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold">Генеалогический метод: символы родословной</text>
+<rect x="20" y="55" width="300" height="430" rx="10" fill="#f7f7f7" stroke="#ddd"/>
+<rect x="41" y="76" width="28" height="28" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="85" y="95" font-size="14" text-anchor="start" fill="#333">мужчина</text>
+<circle cx="55" cy="132" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="85" y="137" font-size="14" text-anchor="start" fill="#333">женщина</text>
+<rect x="41" y="160" width="28" height="28" fill="#c0392b" stroke="#333" stroke-width="2"/>
+<circle cx="100" cy="174" r="15" fill="#c0392b" stroke="#333" stroke-width="2"/>
+<text x="130" y="179" font-size="14" text-anchor="start" fill="#333">проявили признак</text>
+<circle cx="55" cy="216" r="15" fill="#fff" stroke="#333" stroke-width="2"/><circle cx="55" cy="216" r="5" fill="#333"/>
+<text x="85" y="221" font-size="14" text-anchor="start" fill="#333">гетерозиготная носительница</text>
+<text x="85" y="238" font-size="12" text-anchor="start" fill="#666">(если известно)</text>
+<rect x="31" y="252" width="28" height="28" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="110" cy="266" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="59" y1="266" x2="95" y2="266" stroke="#333" stroke-width="2"/>
+<text x="135" y="271" font-size="14" text-anchor="start" fill="#333">брак</text>
+<rect x="31" y="294" width="28" height="28" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="110" cy="308" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="59" y1="305" x2="95" y2="305" stroke="#333" stroke-width="2"/><line x1="59" y1="311" x2="95" y2="311" stroke="#333" stroke-width="2"/>
+<text x="135" y="313" font-size="14" text-anchor="start" fill="#333">родственный брак</text>
+<line x1="78" y1="338" x2="78" y2="352" stroke="#333" stroke-width="2"/><line x1="45" y1="352" x2="110" y2="352" stroke="#333" stroke-width="2"/><line x1="45" y1="352" x2="45" y2="362" stroke="#333" stroke-width="2"/><line x1="110" y1="352" x2="110" y2="362" stroke="#333" stroke-width="2"/>
+<rect x="31" y="362" width="28" height="28" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="110" cy="376" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="135" y="376" font-size="14" text-anchor="start" fill="#333">дети (сибсы)</text>
+<rect x="41" y="404" width="28" height="28" fill="#fff" stroke="#333" stroke-width="2"/>
+<path d="M 30 443 L 48 425" stroke="#333" stroke-width="2" marker-end="url(#a)"/>
+<text x="85" y="423" font-size="14" text-anchor="start" fill="#333">пробанд — с него</text>
+<text x="85" y="440" font-size="12" text-anchor="start" fill="#666">начинают составление</text>
+<text x="610" y="80" font-size="15" text-anchor="middle" fill="#333" font-weight="bold">Пример: родословная с рецессивным признаком</text>
+<text x="345" y="130" font-size="16" text-anchor="middle" fill="#555" font-weight="bold">I</text>
+<text x="345" y="250" font-size="16" text-anchor="middle" fill="#555" font-weight="bold">II</text>
+<text x="345" y="370" font-size="16" text-anchor="middle" fill="#555" font-weight="bold">III</text>
+<rect x="506" y="111" width="28" height="28" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="640" cy="125" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="534" y1="125" x2="625" y2="125" stroke="#333" stroke-width="2"/>
+<line x1="580" y1="125" x2="580" y2="195" stroke="#333" stroke-width="2"/>
+<line x1="440" y1="195" x2="700" y2="195" stroke="#333" stroke-width="2"/>
+<line x1="440" y1="195" x2="440" y2="231" stroke="#333" stroke-width="2"/>
+<line x1="530" y1="195" x2="530" y2="231" stroke="#333" stroke-width="2"/>
+<line x1="620" y1="195" x2="620" y2="231" stroke="#333" stroke-width="2"/>
+<line x1="700" y1="195" x2="700" y2="231" stroke="#333" stroke-width="2"/>
+<circle cx="440" cy="245" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="516" y="231" width="28" height="28" fill="#c0392b" stroke="#333" stroke-width="2"/>
+<rect x="606" y="231" width="28" height="28" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="700" cy="245" r="15" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="715" y1="245" x2="786" y2="245" stroke="#333" stroke-width="2"/>
+<rect x="786" y="231" width="28" height="28" fill="#fff" stroke="#333" stroke-width="2"/>
+<line x1="750" y1="245" x2="750" y2="315" stroke="#333" stroke-width="2"/>
+<line x1="690" y1="315" x2="810" y2="315" stroke="#333" stroke-width="2"/>
+<line x1="690" y1="315" x2="690" y2="351" stroke="#333" stroke-width="2"/>
+<line x1="750" y1="315" x2="750" y2="351" stroke="#333" stroke-width="2"/>
+<line x1="810" y1="315" x2="810" y2="351" stroke="#333" stroke-width="2"/>
+<rect x="676" y="351" width="28" height="28" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="750" cy="365" r="15" fill="#c0392b" stroke="#333" stroke-width="2"/>
+<rect x="796" y="351" width="28" height="28" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="610" y="425" font-size="13" text-anchor="middle" fill="#333">Признак проявился у детей здоровых родителей —</text>
+<text x="610" y="445" font-size="13" text-anchor="middle" fill="#333">значит, он рецессивный, а родители гетерозиготны (Aa).</text>
+<text x="610" y="470" font-size="12" text-anchor="middle" fill="#666">Римские цифры — поколения.</text>
+</svg>

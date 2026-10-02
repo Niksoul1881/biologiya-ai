@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="480" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<text x="450.0" y="32" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold">Один генотип — разные фенотипы: листья стрелолиста</text>
+<rect x="0" y="210" width="900" height="230" rx="0" fill="#dcefff" stroke="none"/>
+<path d="M 0 210 Q 30 202 60 210 T 120 210 T 180 210 T 240 210 T 300 210 T 360 210 T 420 210 T 480 210 T 540 210 T 600 210 T 660 210 T 720 210 T 780 210 T 840 210 T 900 210" fill="none" stroke="#4f9fd6" stroke-width="3"/>
+<rect x="0" y="430" width="900" height="50" rx="0" fill="#a1887f" stroke="none"/>
+<path d="M 300 432 Q 360 420 420 432" fill="none" stroke="#6d4c41" stroke-width="10" stroke-linecap="round"/>
+<path d="M 330 430 C 310.0 380, 270 330, 282.0 260" fill="none" stroke="#66bb6a" stroke-width="9" stroke-linecap="round"/>
+<path d="M 345 430 C 333.3333333333333 380, 310 330, 317.0 260" fill="none" stroke="#66bb6a" stroke-width="9" stroke-linecap="round"/>
+<path d="M 360 430 C 330.0 380, 270 330, 288.0 260" fill="none" stroke="#66bb6a" stroke-width="9" stroke-linecap="round"/>
+<path d="M 375 430 C 390 360, 420 260, 470 212" fill="none" stroke="#558b2f" stroke-width="4"/>
+<ellipse cx="505" cy="208" rx="45" ry="11" fill="#7cb342" stroke="#33691e" stroke-width="2"/>
+<path d="M 395 430 C 400 330, 410 200, 420 135" fill="none" stroke="#558b2f" stroke-width="5"/>
+<path d="M 420 95 L 448 165 L 426 143 L 414 143 L 392 165 z" fill="#43a047" stroke="#1b5e20" stroke-width="2" transform="rotate(8 420 135)"/>
+<path d="M 405 430 C 410 330, 460 200, 470 160" fill="none" stroke="#558b2f" stroke-width="5"/>
+<path d="M 470 120 L 498 190 L 476 168 L 464 168 L 442 190 z" fill="#43a047" stroke="#1b5e20" stroke-width="2" transform="rotate(8 470 160)"/>
+<text x="620" y="110" font-size="15" text-anchor="start" fill="#1b4d1b" font-weight="bold">в воздухе — стреловидные</text>
+<text x="620" y="128" font-size="13" text-anchor="start" fill="#333">прочные, с жилками</text>
+<path d="M 614 105 L 500 140" stroke="#888" stroke-width="1.3"/>
+<text x="620" y="205" font-size="15" text-anchor="start" fill="#1b4d1b" font-weight="bold">на поверхности — округлые</text>
+<text x="620" y="223" font-size="13" text-anchor="start" fill="#333">плавающие</text>
+<path d="M 614 200 L 550 208" stroke="#888" stroke-width="1.3"/>
+<text x="600" y="330" font-size="15" text-anchor="start" fill="#1b4d1b" font-weight="bold">под водой — лентовидные</text>
+<text x="600" y="348" font-size="13" text-anchor="start" fill="#333">мягкие, тонкие: не рвутся течением</text>
+<path d="M 594 325 L 300 320" stroke="#888" stroke-width="1.3"/>
+<text x="450" y="452" font-size="13.5" text-anchor="middle" fill="#fff" font-weight="bold">Все листья одного растения имеют одинаковый генотип.</text>
+<text x="450" y="471" font-size="13.5" text-anchor="middle" fill="#fff">Разная форма — модификационная изменчивость в пределах нормы реакции.</text>
+</svg>
