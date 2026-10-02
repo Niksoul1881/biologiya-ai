@@ -238,5 +238,20 @@
   "source": "https://commons.wikimedia.org/wiki/File:Micrographia_Schem_11.jpg",
   "author": "Robert Hooke",
   "license": "Public domain"
+ },
+ "/images/lessons/089/kariotip.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:NHGRI_human_male_karyotype.png",
+  "author": "National Human Genome Research Institute",
+  "license": "Public domain"
+ },
+ "/images/lessons/089/yadro-shema.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Diagram_human_cell_nucleus_multilang.svg",
+  "author": "Mariana Ruiz Villarreal (LadyofHats)",
+  "license": "Public domain"
+ },
+ "/images/lessons/089/yadro-cifry.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Diagram_human_cell_nucleus_multilang.svg",
+  "author": "Mariana Ruiz Villarreal (LadyofHats); подписи заменены цифрами — «Биология AI»",
+  "license": "Public domain"
  }
 }
