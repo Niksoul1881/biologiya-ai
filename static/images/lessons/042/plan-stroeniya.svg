@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="620" fill="#ffffff"/>
+<text x="250" y="40" font-size="26" font-weight="bold" fill="#16803c" text-anchor="middle">ХОРДОВОЕ</text>
+<text x="750" y="40" font-size="26" font-weight="bold" fill="#7a4a1e" text-anchor="middle">ЧЛЕНИСТОНОГОЕ</text>
+<text x="250" y="64" font-size="16" fill="#4b5563" text-anchor="middle">поперечный разрез</text>
+<text x="750" y="64" font-size="16" fill="#4b5563" text-anchor="middle">поперечный разрез</text>
+<line x1="500" y1="20" x2="500" y2="560" stroke="#d1d5db" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="500" y="100" font-size="16" fill="#6b7280" text-anchor="middle">▲ спина</text>
+<text x="500" y="545" font-size="16" fill="#6b7280" text-anchor="middle">▼ брюхо</text>
+<!-- ХОРДОВОЕ, центр x=180 -->
+<ellipse cx="180" cy="320" rx="130" ry="215" fill="#fde2d6" stroke="#9a5b45" stroke-width="3"/>
+<circle cx="180" cy="160" r="30" fill="#facc15" stroke="#a16207" stroke-width="3"/>
+<circle cx="180" cy="160" r="7" fill="#fde2d6" stroke="#a16207" stroke-width="2"/>
+<circle cx="180" cy="240" r="40" fill="#e5e7eb" stroke="#6b7280" stroke-width="3"/>
+<ellipse cx="180" cy="355" rx="56" ry="50" fill="#86efac" stroke="#15803d" stroke-width="3"/>
+<ellipse cx="180" cy="355" rx="23" ry="19" fill="#fde2d6" stroke="#15803d" stroke-width="2"/>
+<ellipse cx="180" cy="470" rx="30" ry="20" fill="#ef4444" stroke="#991b1b" stroke-width="3"/>
+<g font-size="19" fill="#1f2937" font-weight="bold">
+<line x1="212" y1="160" x2="322" y2="160" stroke="#16803c" stroke-width="2"/><text x="330" y="166">нервная трубка</text>
+<line x1="222" y1="240" x2="322" y2="240" stroke="#16803c" stroke-width="2"/><text x="330" y="246">хорда</text>
+<line x1="238" y1="355" x2="322" y2="355" stroke="#16803c" stroke-width="2"/><text x="330" y="361">кишка</text>
+<line x1="212" y1="470" x2="322" y2="470" stroke="#16803c" stroke-width="2"/><text x="330" y="476">сердце</text>
+</g>
+<text x="80" y="300" font-size="15" fill="#9a5b45">мышцы</text>
+<!-- ЧЛЕНИСТОНОГОЕ, центр x=700 -->
+<path d="M580 185 Q700 100 820 185 L838 430 Q700 555 562 430 Z" fill="#fef3c7" stroke="#7a4a1e" stroke-width="9"/>
+<ellipse cx="700" cy="185" rx="34" ry="18" fill="#ef4444" stroke="#991b1b" stroke-width="3"/>
+<ellipse cx="700" cy="320" rx="60" ry="54" fill="#86efac" stroke="#15803d" stroke-width="3"/>
+<ellipse cx="700" cy="320" rx="25" ry="21" fill="#fef3c7" stroke="#15803d" stroke-width="2"/>
+<circle cx="684" cy="450" r="15" fill="#facc15" stroke="#a16207" stroke-width="3"/>
+<circle cx="716" cy="450" r="15" fill="#facc15" stroke="#a16207" stroke-width="3"/>
+<g font-size="19" fill="#1f2937" font-weight="bold">
+<line x1="734" y1="185" x2="842" y2="150" stroke="#7a4a1e" stroke-width="2"/><text x="848" y="152">сердце</text>
+<line x1="760" y1="320" x2="852" y2="320" stroke="#7a4a1e" stroke-width="2"/><text x="858" y="326">кишка</text>
+<line x1="731" y1="452" x2="852" y2="470" stroke="#7a4a1e" stroke-width="2"/><text x="858" y="468">нервная</text><text x="858" y="490">цепочка</text>
+</g>
+<line x1="571" y1="300" x2="535" y2="300" stroke="#7a4a1e" stroke-width="2"/>
+<text x="515" y="250" font-size="15" fill="#7a4a1e">наружный</text><text x="515" y="268" font-size="15" fill="#7a4a1e">скелет</text>
+<text x="500" y="595" font-size="18" fill="#374151" text-anchor="middle">У хордовых нервная система на спинной стороне, сердце — на брюшной; у членистоногих наоборот</text>
+</svg>

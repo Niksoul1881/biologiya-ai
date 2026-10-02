@@ -233,5 +233,25 @@
   "source": "https://commons.wikimedia.org/wiki/File:Papilio_machaon_-_Swallowtail_1.jpg",
   "author": "Zeynel Cebeci",
   "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/042/lancetnik-foto.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Branchiostoma_lanceolatum.jpg",
+  "author": "Hans Hillewaert",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/042/ascidiya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Ciona_intestinalis_-_Station_biologique_de_Roscoff_-_PXL_20240501_074626345.jpg",
+  "author": "Tadeusz Hare",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/042/ascidiya-razvitie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:EB1911_Tunicata_-_Metamorphosis_of_an_Ascidian.jpg",
+  "author": "Modified from Kowalevsky and others from The Cambridge Natural History, vol. vii",
+  "license": "Public domain"
+ },
+ "/images/lessons/042/kovalevskiy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Alexander_Kovalevsky.JPG",
+  "author": "anonymous/unknown",
+  "license": "Public domain"
  }
 }
