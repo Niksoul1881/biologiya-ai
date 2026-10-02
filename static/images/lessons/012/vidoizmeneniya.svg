@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="960" height="470" fill="#ffffff"/>
+  <text x="480" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Видоизменения корней</text>
+
+  <!-- 1 корнеплод -->
+  <rect x="10" y="55" width="180" height="400" rx="14" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text x="100" y="82" font-size="17" font-weight="bold" text-anchor="middle" fill="#c2410c">Корнеплод</text>
+  <g stroke="#15803d" stroke-width="4" fill="none" stroke-linecap="round"><path d="M100,165 C95,140 85,120 70,105"/><path d="M100,165 C100,135 102,115 105,98"/><path d="M100,165 C110,140 120,122 135,110"/></g>
+  <path d="M78,165 C78,165 122,165 122,165 C122,220 108,290 100,340 C92,290 78,220 78,165 z" fill="#fb923c" stroke="#c2410c" stroke-width="2.5"/>
+  <g stroke="#c2410c" stroke-width="1.5"><line x1="84" y1="195" x2="92" y2="197"/><line x1="112" y1="215" x2="104" y2="217"/><line x1="88" y1="245" x2="96" y2="247"/><line x1="110" y1="270" x2="103" y2="272"/></g>
+  <path d="M100,340 L100,370" stroke="#c2410c" stroke-width="2"/>
+  <text x="100" y="400" font-size="14" text-anchor="middle" fill="#1f2937">запас веществ</text>
+  <text x="100" y="420" font-size="14" font-weight="bold" text-anchor="middle" fill="#c2410c">морковь, свёкла,</text>
+  <text x="100" y="438" font-size="14" font-weight="bold" text-anchor="middle" fill="#c2410c">редис</text>
+
+  <!-- 2 корневые клубни -->
+  <rect x="200" y="55" width="180" height="400" rx="14" fill="#fdf4ff" stroke="#e879f9" stroke-width="2"/>
+  <text x="290" y="82" font-size="17" font-weight="bold" text-anchor="middle" fill="#a21caf">Корневые клубни</text>
+  <path d="M290,180 L290,110" stroke="#65a30d" stroke-width="7"/>
+  <circle cx="290" cy="105" r="16" fill="#f472b6" stroke="#be185d" stroke-width="2"/>
+  <g fill="#d6a35c" stroke="#92400e" stroke-width="2.5">
+    <path d="M288,182 C260,200 240,240 245,290 C250,310 265,300 268,280 C272,240 280,210 288,182 z"/>
+    <path d="M290,182 C292,220 288,270 290,320 C295,340 310,330 308,310 C306,260 300,220 290,182 z"/>
+    <path d="M292,182 C318,200 338,240 333,285 C328,305 314,298 312,280 C308,240 300,210 292,182 z"/>
+  </g>
+  <text x="290" y="400" font-size="14" text-anchor="middle" fill="#1f2937">запас веществ</text>
+  <text x="290" y="420" font-size="14" font-weight="bold" text-anchor="middle" fill="#a21caf">георгин, батат</text>
+
+  <!-- 3 воздушные корни -->
+  <rect x="390" y="55" width="180" height="400" rx="14" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+  <text x="480" y="82" font-size="17" font-weight="bold" text-anchor="middle" fill="#166534">Воздушные</text>
+  <rect x="408" y="100" width="22" height="270" fill="#92400e"/>
+  <g fill="#4ade80" stroke="#15803d" stroke-width="2"><ellipse cx="470" cy="150" rx="35" ry="12" transform="rotate(-20 470 150)"/><ellipse cx="480" cy="180" rx="38" ry="12" transform="rotate(15 480 180)"/></g>
+  <g fill="none" stroke="#d1d5db" stroke-width="7" stroke-linecap="round"><path d="M440,190 C450,240 445,290 455,340"/><path d="M450,190 C480,240 495,280 500,330"/><path d="M445,192 C470,250 520,270 540,300"/></g>
+  <g fill="none" stroke="#86efac" stroke-width="3" stroke-linecap="round"><path d="M455,335 L455,342"/><path d="M500,325 L500,332"/><path d="M540,295 L543,302"/></g>
+  <text x="480" y="400" font-size="14" text-anchor="middle" fill="#1f2937">впитывают влагу</text>
+  <text x="480" y="420" font-size="14" text-anchor="middle" fill="#1f2937">из воздуха</text>
+  <text x="480" y="440" font-size="14" font-weight="bold" text-anchor="middle" fill="#166534">орхидеи</text>
+
+  <!-- 4 прицепки -->
+  <rect x="580" y="55" width="180" height="400" rx="14" fill="#f5f5f4" stroke="#a8a29e" stroke-width="2"/>
+  <text x="670" y="82" font-size="17" font-weight="bold" text-anchor="middle" fill="#44403c">Корни-прицепки</text>
+  <rect x="690" y="95" width="55" height="300" fill="#d6d3d1" stroke="#78716c" stroke-width="2"/>
+  <g stroke="#a8a29e" stroke-width="1"><line x1="690" y1="130" x2="745" y2="130"/><line x1="690" y1="170" x2="745" y2="170"/><line x1="690" y1="210" x2="745" y2="210"/><line x1="690" y1="250" x2="745" y2="250"/><line x1="690" y1="290" x2="745" y2="290"/><line x1="690" y1="330" x2="745" y2="330"/><line x1="717" y1="130" x2="717" y2="170"/><line x1="705" y1="170" x2="705" y2="210"/><line x1="725" y1="210" x2="725" y2="250"/><line x1="710" y1="250" x2="710" y2="290"/></g>
+  <path d="M672,390 C668,320 676,250 670,110" fill="none" stroke="#3f6212" stroke-width="6"/>
+  <g fill="none" stroke="#a16207" stroke-width="2.5"><path d="M671,140 L690,135 M671,175 L690,172 M672,210 L690,212 M673,245 L690,243 M673,280 L690,283 M672,315 L690,312 M671,350 L690,352"/></g>
+  <g fill="#15803d"><path d="M670,160 C640,150 625,165 630,180 C645,178 660,172 670,160 z"/><path d="M672,260 C642,250 627,265 632,280 C647,278 662,272 672,260 z"/></g>
+  <text x="670" y="420" font-size="14" text-anchor="middle" fill="#1f2937">цепляются за опору</text>
+  <text x="670" y="440" font-size="14" font-weight="bold" text-anchor="middle" fill="#44403c">плющ</text>
+
+  <!-- 5 дыхательные -->
+  <rect x="770" y="55" width="180" height="400" rx="14" fill="#ecfeff" stroke="#67e8f9" stroke-width="2"/>
+  <text x="860" y="82" font-size="17" font-weight="bold" text-anchor="middle" fill="#155e75">Дыхательные</text>
+  <rect x="772" y="250" width="176" height="45" fill="#bae6fd" opacity="0.8"/>
+  <rect x="772" y="295" width="176" height="85" fill="#78716c"/>
+  <text x="860" y="370" font-size="13" text-anchor="middle" fill="#f5f5f4">ил без кислорода</text>
+  <path d="M860,295 L860,120" stroke="#92400e" stroke-width="12"/>
+  <ellipse cx="860" cy="120" rx="50" ry="26" fill="#4ade80" stroke="#15803d" stroke-width="2"/>
+  <g fill="none" stroke="#92400e" stroke-width="4"><path d="M860,300 C830,310 810,320 790,330"/><path d="M860,300 C890,310 910,320 930,330"/></g>
+  <g stroke="#a16207" stroke-width="5" stroke-linecap="round"><line x1="800" y1="328" x2="800" y2="230"/><line x1="825" y1="316" x2="825" y2="238"/><line x1="895" y1="316" x2="895" y2="236"/><line x1="920" y1="326" x2="920" y2="228"/></g>
+  <text x="860" y="400" font-size="14" text-anchor="middle" fill="#1f2937">добывают воздух</text>
+  <text x="860" y="420" font-size="14" text-anchor="middle" fill="#1f2937">для корней в иле</text>
+  <text x="860" y="440" font-size="14" font-weight="bold" text-anchor="middle" fill="#155e75">мангровые деревья</text>
+</svg>
