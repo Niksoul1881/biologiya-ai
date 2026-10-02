@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Arial, Helvetica, sans-serif">
+  <title>Семя фасоли и зерновка пшеницы</title>
+  <rect width="1000" height="600" fill="#ffffff"/>
+  <rect x="10" y="10" width="485" height="580" rx="14" fill="#f0fdf4" stroke="#15803d" stroke-width="1.5"/>
+  <rect x="505" y="10" width="485" height="580" rx="14" fill="#fffbeb" stroke="#b45309" stroke-width="1.5"/>
+  <text x="252" y="45" font-size="22" font-weight="bold" fill="#14532d" text-anchor="middle">Семя фасоли</text>
+  <text x="252" y="70" font-size="17" fill="#15803d" text-anchor="middle">двудольное растение</text>
+  <text x="747" y="45" font-size="22" font-weight="bold" fill="#92400e" text-anchor="middle">Зерновка пшеницы</text>
+  <text x="747" y="70" font-size="17" fill="#b45309" text-anchor="middle">однодольное растение (плод)</text>
+
+  <!-- целое семя фасоли -->
+  <g transform="translate(110,190)">
+    <path d="M-60,-30 Q-70,-75 -10,-72 Q60,-70 68,-10 Q72,50 10,62 Q-50,70 -62,30 Q-40,10 -60,-30 z" fill="#b45309" stroke="#78350f" stroke-width="2"/>
+    <ellipse cx="-52" cy="0" rx="7" ry="15" fill="#fef3c7" stroke="#78350f" stroke-width="1.5"/>
+  </g>
+  <g font-size="16" fill="#1f2937">
+    <line x1="58" y1="190" x2="30" y2="290" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="22" y="310">рубчик</text>
+    <line x1="150" y1="150" x2="200" y2="105" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="150" y="98">семенная кожура</text>
+  </g>
+  <text x="110" y="345" font-size="15" fill="#4b5563" text-anchor="middle">снаружи</text>
+
+  <!-- раскрытое семя: семядоля с зародышем -->
+  <g transform="translate(340,300)">
+    <path d="M-80,-60 Q-75,-120 0,-118 Q85,-112 92,-20 Q95,70 10,95 Q-70,110 -88,40 Q-60,0 -80,-60 z" fill="#fde68a" stroke="#a16207" stroke-width="2"/>
+    <!-- зародыш у вогнутого края -->
+    <path d="M-62,10 Q-58,-10 -52,-25" stroke="#65a30d" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M-62,10 Q-70,35 -78,52" stroke="#a3a3a3" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-44" cy="-38" rx="7" ry="15" transform="rotate(35 -44 -38)" fill="#22c55e" stroke="#15803d" stroke-width="1.5"/>
+    <ellipse cx="-58" cy="-40" rx="6" ry="13" transform="rotate(-20 -58 -40)" fill="#22c55e" stroke="#15803d" stroke-width="1.5"/>
+  </g>
+  <g font-size="16" fill="#1f2937">
+    <line x1="380" y1="240" x2="420" y2="150" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="350" y="125" font-weight="bold">семядоля</text>
+    <text x="350" y="145">(запас веществ)</text>
+    <line x1="290" y1="258" x2="230" y2="215" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="195" y="208">почечка</text>
+    <line x1="280" y1="295" x2="210" y2="370" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="150" y="388">стебелёк</text>
+    <line x1="265" y1="350" x2="245" y2="430" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="205" y="450">корешок</text>
+  </g>
+  <text x="390" y="470" font-size="15" fill="#4b5563" text-anchor="middle">вторая семядоля снята</text>
+  <rect x="35" y="490" width="435" height="80" rx="10" fill="#dcfce7"/>
+  <text x="252" y="522" font-size="18" fill="#14532d" text-anchor="middle" font-weight="bold">Две семядоли.</text>
+  <text x="252" y="550" font-size="18" fill="#14532d" text-anchor="middle">Запас питательных веществ — в семядолях</text>
+
+  <!-- зерновка в разрезе -->
+  <g transform="translate(700,290)">
+    <path d="M0,-170 Q85,-160 88,0 Q85,160 0,172 Q-85,160 -88,0 Q-85,-160 0,-170 z" fill="#92400e"/>
+    <path d="M0,-160 Q75,-150 78,0 Q75,150 0,162 Q-75,150 -78,0 Q-75,-150 0,-160 z" fill="#fef9c3"/>
+    <g fill="#fde68a" opacity="0.8">
+      <circle cx="-20" cy="-90" r="6"/><circle cx="25" cy="-60" r="6"/><circle cx="-35" cy="-30" r="6"/><circle cx="10" cy="-10" r="6"/>
+      <circle cx="40" cy="20" r="6"/><circle cx="-10" cy="40" r="6"/><circle cx="30" cy="70" r="6"/><circle cx="0" cy="-120" r="6"/>
+    </g>
+    <!-- зародыш внизу сбоку -->
+    <path d="M-60,95 Q-30,85 -22,120 Q-25,150 -45,150 Q-70,140 -60,95 z" fill="#a3e635" stroke="#4d7c0f" stroke-width="2"/>
+    <path d="M-72,90 Q-48,78 -30,92" stroke="#15803d" stroke-width="5" fill="none"/>
+    <path d="M-52,128 L-58,108" stroke="#15803d" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-50,135 L-50,152" stroke="#a3a3a3" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g font-size="16" fill="#1f2937">
+    <line x1="782" y1="210" x2="832" y2="170" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="835" y="140">оболочка:</text>
+    <text x="835" y="160">стенка плода</text>
+    <text x="835" y="180">+ кожура семени</text>
+    <line x1="730" y1="290" x2="830" y2="265" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="835" y="262" font-weight="bold">эндосперм</text>
+    <text x="835" y="282">(крахмал —</text>
+    <text x="835" y="302">из него мука)</text>
+    <line x1="667" y1="380" x2="560" y2="330" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="520" y="300">щиток —</text>
+    <text x="520" y="320">семядоля</text>
+    <line x1="644" y1="398" x2="560" y2="400" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="522" y="395">почечка</text>
+    <line x1="650" y1="438" x2="580" y2="455" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="522" y="470">корешок</text>
+  </g>
+  <rect x="530" y="490" width="435" height="80" rx="10" fill="#fef3c7"/>
+  <text x="747" y="522" font-size="18" fill="#92400e" text-anchor="middle" font-weight="bold">Одна семядоля (щиток).</text>
+  <text x="747" y="550" font-size="18" fill="#92400e" text-anchor="middle">Запас питательных веществ — в эндосперме</text>
+</svg>
