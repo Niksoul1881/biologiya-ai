@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 628" width="860" height="628" font-family="Arial, Helvetica, sans-serif">
+<rect width="860" height="628" fill="#fff"/>
+<text x="430.0" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Генетический код (по иРНК)</text>
+<text x="450" y="70" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Второе основание</text>
+<text x="30" y="334" font-size="16" font-weight="bold" text-anchor="middle" fill="#333" transform="rotate(-90 30 334)">Первое основание</text>
+<text x="842" y="334" font-size="16" font-weight="bold" text-anchor="middle" fill="#333" transform="rotate(90 842 334)">Третье основание</text>
+<text x="195.0" y="98" font-size="20" font-weight="bold" text-anchor="middle" fill="#1d4f86">У</text>
+<text x="365.0" y="98" font-size="20" font-weight="bold" text-anchor="middle" fill="#1d4f86">Ц</text>
+<text x="535.0" y="98" font-size="20" font-weight="bold" text-anchor="middle" fill="#1d4f86">А</text>
+<text x="705.0" y="98" font-size="20" font-weight="bold" text-anchor="middle" fill="#1d4f86">Г</text>
+<text x="80" y="169" font-size="22" font-weight="bold" text-anchor="middle" fill="#1d4f86">У</text>
+<rect x="112" y="110" width="166" height="104" rx="6" fill="#eef6fb" stroke="#9bb" stroke-width="1"/>
+<text x="124" y="129" font-size="15" fill="#555">УУУ</text>
+<text x="264" y="129" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Фен</text>
+<text x="124" y="155" font-size="15" fill="#555">УУЦ</text>
+<text x="264" y="155" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Фен</text>
+<text x="124" y="181" font-size="15" fill="#555">УУА</text>
+<text x="264" y="181" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Лей</text>
+<text x="124" y="207" font-size="15" fill="#555">УУГ</text>
+<text x="264" y="207" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Лей</text>
+<rect x="282" y="110" width="166" height="104" rx="6" fill="#f3f9ec" stroke="#9bb" stroke-width="1"/>
+<text x="294" y="129" font-size="15" fill="#555">УЦУ</text>
+<text x="434" y="129" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Сер</text>
+<text x="294" y="155" font-size="15" fill="#555">УЦЦ</text>
+<text x="434" y="155" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Сер</text>
+<text x="294" y="181" font-size="15" fill="#555">УЦА</text>
+<text x="434" y="181" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Сер</text>
+<text x="294" y="207" font-size="15" fill="#555">УЦГ</text>
+<text x="434" y="207" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Сер</text>
+<rect x="452" y="110" width="166" height="104" rx="6" fill="#eef6fb" stroke="#9bb" stroke-width="1"/>
+<text x="464" y="129" font-size="15" fill="#555">УАУ</text>
+<text x="604" y="129" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Тир</text>
+<text x="464" y="155" font-size="15" fill="#555">УАЦ</text>
+<text x="604" y="155" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Тир</text>
+<text x="464" y="181" font-size="15" fill="#555">УАА</text>
+<text x="604" y="181" font-size="16" font-weight="bold" text-anchor="end" fill="#c0392b">стоп</text>
+<text x="464" y="207" font-size="15" fill="#555">УАГ</text>
+<text x="604" y="207" font-size="16" font-weight="bold" text-anchor="end" fill="#c0392b">стоп</text>
+<rect x="622" y="110" width="166" height="104" rx="6" fill="#f3f9ec" stroke="#9bb" stroke-width="1"/>
+<text x="634" y="129" font-size="15" fill="#555">УГУ</text>
+<text x="774" y="129" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Цис</text>
+<text x="634" y="155" font-size="15" fill="#555">УГЦ</text>
+<text x="774" y="155" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Цис</text>
+<text x="634" y="181" font-size="15" fill="#555">УГА</text>
+<text x="774" y="181" font-size="16" font-weight="bold" text-anchor="end" fill="#c0392b">стоп</text>
+<text x="634" y="207" font-size="15" fill="#555">УГГ</text>
+<text x="774" y="207" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Три</text>
+<text x="808" y="129" font-size="15" font-weight="bold" fill="#1d4f86">У</text>
+<text x="808" y="155" font-size="15" font-weight="bold" fill="#1d4f86">Ц</text>
+<text x="808" y="181" font-size="15" font-weight="bold" fill="#1d4f86">А</text>
+<text x="808" y="207" font-size="15" font-weight="bold" fill="#1d4f86">Г</text>
+<text x="80" y="281" font-size="22" font-weight="bold" text-anchor="middle" fill="#1d4f86">Ц</text>
+<rect x="112" y="222" width="166" height="104" rx="6" fill="#f3f9ec" stroke="#9bb" stroke-width="1"/>
+<text x="124" y="241" font-size="15" fill="#555">ЦУУ</text>
+<text x="264" y="241" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Лей</text>
+<text x="124" y="267" font-size="15" fill="#555">ЦУЦ</text>
+<text x="264" y="267" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Лей</text>
+<text x="124" y="293" font-size="15" fill="#555">ЦУА</text>
+<text x="264" y="293" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Лей</text>
+<text x="124" y="319" font-size="15" fill="#555">ЦУГ</text>
+<text x="264" y="319" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Лей</text>
+<rect x="282" y="222" width="166" height="104" rx="6" fill="#eef6fb" stroke="#9bb" stroke-width="1"/>
+<text x="294" y="241" font-size="15" fill="#555">ЦЦУ</text>
+<text x="434" y="241" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Про</text>
+<text x="294" y="267" font-size="15" fill="#555">ЦЦЦ</text>
+<text x="434" y="267" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Про</text>
+<text x="294" y="293" font-size="15" fill="#555">ЦЦА</text>
+<text x="434" y="293" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Про</text>
+<text x="294" y="319" font-size="15" fill="#555">ЦЦГ</text>
+<text x="434" y="319" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Про</text>
+<rect x="452" y="222" width="166" height="104" rx="6" fill="#f3f9ec" stroke="#9bb" stroke-width="1"/>
+<text x="464" y="241" font-size="15" fill="#555">ЦАУ</text>
+<text x="604" y="241" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Гис</text>
+<text x="464" y="267" font-size="15" fill="#555">ЦАЦ</text>
+<text x="604" y="267" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Гис</text>
+<text x="464" y="293" font-size="15" fill="#555">ЦАА</text>
+<text x="604" y="293" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Глн</text>
+<text x="464" y="319" font-size="15" fill="#555">ЦАГ</text>
+<text x="604" y="319" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Глн</text>
+<rect x="622" y="222" width="166" height="104" rx="6" fill="#eef6fb" stroke="#9bb" stroke-width="1"/>
+<text x="634" y="241" font-size="15" fill="#555">ЦГУ</text>
+<text x="774" y="241" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Арг</text>
+<text x="634" y="267" font-size="15" fill="#555">ЦГЦ</text>
+<text x="774" y="267" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Арг</text>
+<text x="634" y="293" font-size="15" fill="#555">ЦГА</text>
+<text x="774" y="293" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Арг</text>
+<text x="634" y="319" font-size="15" fill="#555">ЦГГ</text>
+<text x="774" y="319" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Арг</text>
+<text x="808" y="241" font-size="15" font-weight="bold" fill="#1d4f86">У</text>
+<text x="808" y="267" font-size="15" font-weight="bold" fill="#1d4f86">Ц</text>
+<text x="808" y="293" font-size="15" font-weight="bold" fill="#1d4f86">А</text>
+<text x="808" y="319" font-size="15" font-weight="bold" fill="#1d4f86">Г</text>
+<text x="80" y="393" font-size="22" font-weight="bold" text-anchor="middle" fill="#1d4f86">А</text>
+<rect x="112" y="334" width="166" height="104" rx="6" fill="#eef6fb" stroke="#9bb" stroke-width="1"/>
+<text x="124" y="353" font-size="15" fill="#555">АУУ</text>
+<text x="264" y="353" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Иле</text>
+<text x="124" y="379" font-size="15" fill="#555">АУЦ</text>
+<text x="264" y="379" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Иле</text>
+<text x="124" y="405" font-size="15" fill="#555">АУА</text>
+<text x="264" y="405" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Иле</text>
+<text x="124" y="431" font-size="15" fill="#555">АУГ</text>
+<text x="264" y="431" font-size="16" font-weight="bold" text-anchor="end" fill="#1b7a3a">Мет</text>
+<rect x="282" y="334" width="166" height="104" rx="6" fill="#f3f9ec" stroke="#9bb" stroke-width="1"/>
+<text x="294" y="353" font-size="15" fill="#555">АЦУ</text>
+<text x="434" y="353" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Тре</text>
+<text x="294" y="379" font-size="15" fill="#555">АЦЦ</text>
+<text x="434" y="379" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Тре</text>
+<text x="294" y="405" font-size="15" fill="#555">АЦА</text>
+<text x="434" y="405" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Тре</text>
+<text x="294" y="431" font-size="15" fill="#555">АЦГ</text>
+<text x="434" y="431" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Тре</text>
+<rect x="452" y="334" width="166" height="104" rx="6" fill="#eef6fb" stroke="#9bb" stroke-width="1"/>
+<text x="464" y="353" font-size="15" fill="#555">ААУ</text>
+<text x="604" y="353" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Асн</text>
+<text x="464" y="379" font-size="15" fill="#555">ААЦ</text>
+<text x="604" y="379" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Асн</text>
+<text x="464" y="405" font-size="15" fill="#555">ААА</text>
+<text x="604" y="405" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Лиз</text>
+<text x="464" y="431" font-size="15" fill="#555">ААГ</text>
+<text x="604" y="431" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Лиз</text>
+<rect x="622" y="334" width="166" height="104" rx="6" fill="#f3f9ec" stroke="#9bb" stroke-width="1"/>
+<text x="634" y="353" font-size="15" fill="#555">АГУ</text>
+<text x="774" y="353" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Сер</text>
+<text x="634" y="379" font-size="15" fill="#555">АГЦ</text>
+<text x="774" y="379" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Сер</text>
+<text x="634" y="405" font-size="15" fill="#555">АГА</text>
+<text x="774" y="405" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Арг</text>
+<text x="634" y="431" font-size="15" fill="#555">АГГ</text>
+<text x="774" y="431" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Арг</text>
+<text x="808" y="353" font-size="15" font-weight="bold" fill="#1d4f86">У</text>
+<text x="808" y="379" font-size="15" font-weight="bold" fill="#1d4f86">Ц</text>
+<text x="808" y="405" font-size="15" font-weight="bold" fill="#1d4f86">А</text>
+<text x="808" y="431" font-size="15" font-weight="bold" fill="#1d4f86">Г</text>
+<text x="80" y="505" font-size="22" font-weight="bold" text-anchor="middle" fill="#1d4f86">Г</text>
+<rect x="112" y="446" width="166" height="104" rx="6" fill="#f3f9ec" stroke="#9bb" stroke-width="1"/>
+<text x="124" y="465" font-size="15" fill="#555">ГУУ</text>
+<text x="264" y="465" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Вал</text>
+<text x="124" y="491" font-size="15" fill="#555">ГУЦ</text>
+<text x="264" y="491" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Вал</text>
+<text x="124" y="517" font-size="15" fill="#555">ГУА</text>
+<text x="264" y="517" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Вал</text>
+<text x="124" y="543" font-size="15" fill="#555">ГУГ</text>
+<text x="264" y="543" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Вал</text>
+<rect x="282" y="446" width="166" height="104" rx="6" fill="#eef6fb" stroke="#9bb" stroke-width="1"/>
+<text x="294" y="465" font-size="15" fill="#555">ГЦУ</text>
+<text x="434" y="465" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Ала</text>
+<text x="294" y="491" font-size="15" fill="#555">ГЦЦ</text>
+<text x="434" y="491" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Ала</text>
+<text x="294" y="517" font-size="15" fill="#555">ГЦА</text>
+<text x="434" y="517" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Ала</text>
+<text x="294" y="543" font-size="15" fill="#555">ГЦГ</text>
+<text x="434" y="543" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Ала</text>
+<rect x="452" y="446" width="166" height="104" rx="6" fill="#f3f9ec" stroke="#9bb" stroke-width="1"/>
+<text x="464" y="465" font-size="15" fill="#555">ГАУ</text>
+<text x="604" y="465" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Асп</text>
+<text x="464" y="491" font-size="15" fill="#555">ГАЦ</text>
+<text x="604" y="491" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Асп</text>
+<text x="464" y="517" font-size="15" fill="#555">ГАА</text>
+<text x="604" y="517" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Глу</text>
+<text x="464" y="543" font-size="15" fill="#555">ГАГ</text>
+<text x="604" y="543" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Глу</text>
+<rect x="622" y="446" width="166" height="104" rx="6" fill="#eef6fb" stroke="#9bb" stroke-width="1"/>
+<text x="634" y="465" font-size="15" fill="#555">ГГУ</text>
+<text x="774" y="465" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Гли</text>
+<text x="634" y="491" font-size="15" fill="#555">ГГЦ</text>
+<text x="774" y="491" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Гли</text>
+<text x="634" y="517" font-size="15" fill="#555">ГГА</text>
+<text x="774" y="517" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Гли</text>
+<text x="634" y="543" font-size="15" fill="#555">ГГГ</text>
+<text x="774" y="543" font-size="16" font-weight="normal" text-anchor="end" fill="#222">Гли</text>
+<text x="808" y="465" font-size="15" font-weight="bold" fill="#1d4f86">У</text>
+<text x="808" y="491" font-size="15" font-weight="bold" fill="#1d4f86">Ц</text>
+<text x="808" y="517" font-size="15" font-weight="bold" fill="#1d4f86">А</text>
+<text x="808" y="543" font-size="15" font-weight="bold" fill="#1d4f86">Г</text>
+<text x="110" y="586" font-size="15" fill="#333"><tspan fill="#1b7a3a" font-weight="bold">АУГ (Мет)</tspan> — старт-кодон;  <tspan fill="#c0392b" font-weight="bold">УАА, УАГ, УГА</tspan> — стоп-кодоны (аминокислоты не кодируют)</text>
+</svg>

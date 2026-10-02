@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="470" fill="#fff"/>
+  <text x="450" y="32" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Кодон и антикодон спариваются антипараллельно</text>
+
+  <!-- тРНК: упрощённый «клеверный лист» -->
+  <g>
+    <!-- аминокислота -->
+    <circle cx="450" cy="78" r="26" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2.5"/>
+    <text x="450" y="84" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b7a3a">Ала</text>
+    <line x1="450" y1="104" x2="450" y2="128" stroke="#b85c00" stroke-width="4"/>
+    <text x="462" y="124" font-size="13" fill="#b85c00">3′-конец (акцепторный)</text>
+    <!-- стебель -->
+    <rect x="425" y="128" width="50" height="70" rx="8" fill="#fde9d4" stroke="#b85c00" stroke-width="2.5"/>
+    <!-- боковые петли -->
+    <ellipse cx="365" cy="215" rx="55" ry="32" fill="#fde9d4" stroke="#b85c00" stroke-width="2.5"/>
+    <ellipse cx="535" cy="215" rx="55" ry="32" fill="#fde9d4" stroke="#b85c00" stroke-width="2.5"/>
+    <rect x="420" y="195" width="60" height="70" rx="8" fill="#fde9d4" stroke="#b85c00" stroke-width="2.5"/>
+    <!-- антикодоновая петля -->
+    <path d="M 420 262 Q 400 300 410 318 L 490 318 Q 500 300 480 262 z" fill="#fde9d4" stroke="#b85c00" stroke-width="2.5"/>
+    <text x="300" y="160" font-size="15" fill="#b85c00" font-weight="bold">тРНК</text>
+  </g>
+
+  <!-- антикодон -->
+  <g font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="24">
+    <text x="372" y="345" font-family="Arial" font-size="15" fill="#b85c00">3′</text>
+    <rect x="395" y="322" width="36" height="34" rx="5" fill="#fff" stroke="#b85c00"/><text x="413" y="347" text-anchor="middle" fill="#b85c00">Ц</text>
+    <rect x="432" y="322" width="36" height="34" rx="5" fill="#fff" stroke="#b85c00"/><text x="450" y="347" text-anchor="middle" fill="#b85c00">Г</text>
+    <rect x="469" y="322" width="36" height="34" rx="5" fill="#fff" stroke="#b85c00"/><text x="487" y="347" text-anchor="middle" fill="#b85c00">А</text>
+    <text x="512" y="345" font-family="Arial" font-size="15" fill="#b85c00">5′</text>
+  </g>
+  <text x="560" y="345" font-size="15" fill="#b85c00">антикодон: 3′-ЦГА-5′, записывают 5′-АГЦ-3′</text>
+
+  <!-- связи -->
+  <g stroke="#888" stroke-width="2" stroke-dasharray="4 3">
+    <line x1="413" y1="358" x2="413" y2="382"/><line x1="450" y1="358" x2="450" y2="382"/><line x1="487" y1="358" x2="487" y2="382"/>
+  </g>
+
+  <!-- иРНК -->
+  <g font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="24">
+    <text x="80" y="409" font-family="Arial" font-size="15" fill="#7a3fa0">5′</text>
+    <rect x="100" y="384" width="700" height="38" rx="8" fill="#f6effa" stroke="#7a3fa0" stroke-width="2"/>
+    <text x="812" y="409" font-family="Arial" font-size="15" fill="#7a3fa0">3′</text>
+    <text x="180" y="411" text-anchor="middle" fill="#7a3fa0">А У Г</text>
+    <text x="300" y="411" text-anchor="middle" fill="#7a3fa0">Ц У У</text>
+    <text x="413" y="411" text-anchor="middle" fill="#7a3fa0">Г</text><text x="450" y="411" text-anchor="middle" fill="#7a3fa0">Ц</text><text x="487" y="411" text-anchor="middle" fill="#7a3fa0">У</text>
+    <text x="600" y="411" text-anchor="middle" fill="#7a3fa0">А А А</text>
+    <text x="720" y="411" text-anchor="middle" fill="#7a3fa0">У А А</text>
+  </g>
+  <text x="450" y="450" font-size="15" text-anchor="middle" fill="#333">кодон иРНК 5′-ГЦУ-3′ → по таблице <tspan font-weight="bold" fill="#1b7a3a">аланин</tspan>; тРНК с антикодоном АГЦ несёт именно аланин</text>
+</svg>

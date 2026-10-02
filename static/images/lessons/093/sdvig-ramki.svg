@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="400" fill="#fff"/>
+<text x="450" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Код читается триплетами без запятых и перекрываний</text>
+<text x="30" y="72" font-size="16" font-weight="bold" fill="#333">Исходная иРНК: 5′-АУГГЦУАААУУУГГЦУАА-3′</text>
+<rect x="40" y="84" width="92" height="38" rx="6" fill="#eef6fb" stroke="#888"/>
+<text x="86.0" y="111" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">АУГ</text>
+<text x="86.0" y="150" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Мет</text>
+<rect x="142" y="84" width="92" height="38" rx="6" fill="#f3f9ec" stroke="#888"/>
+<text x="188.0" y="111" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">ГЦУ</text>
+<text x="188.0" y="150" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Ала</text>
+<rect x="244" y="84" width="92" height="38" rx="6" fill="#eef6fb" stroke="#888"/>
+<text x="290.0" y="111" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">ААА</text>
+<text x="290.0" y="150" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Лиз</text>
+<rect x="346" y="84" width="92" height="38" rx="6" fill="#f3f9ec" stroke="#888"/>
+<text x="392.0" y="111" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">УУУ</text>
+<text x="392.0" y="150" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Фен</text>
+<rect x="448" y="84" width="92" height="38" rx="6" fill="#eef6fb" stroke="#888"/>
+<text x="494.0" y="111" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">ГГЦ</text>
+<text x="494.0" y="150" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Гли</text>
+<rect x="550" y="84" width="92" height="38" rx="6" fill="#f3f9ec" stroke="#888"/>
+<text x="596.0" y="111" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">УАА</text>
+<text x="596.0" y="150" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">стоп</text>
+<text x="30" y="200" font-size="15" fill="#c0392b">Выпал один нуклеотид Г во втором кодоне (ГЦУ → ЦУ…) — рамка считывания сдвинулась:</text>
+<text x="30" y="252" font-size="16" font-weight="bold" fill="#333">После выпадения: 5′-АУГЦУАААУУУГГЦУАА-3′</text>
+<rect x="40" y="264" width="92" height="38" rx="6" fill="#eef6fb" stroke="#888"/>
+<text x="86.0" y="291" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">АУГ</text>
+<text x="86.0" y="330" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Мет</text>
+<rect x="142" y="264" width="92" height="38" rx="6" fill="#fdecea" stroke="#888"/>
+<text x="188.0" y="291" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">ЦУА</text>
+<text x="188.0" y="330" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Лей</text>
+<rect x="244" y="264" width="92" height="38" rx="6" fill="#fdecea" stroke="#888"/>
+<text x="290.0" y="291" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">ААУ</text>
+<text x="290.0" y="330" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Асн</text>
+<rect x="346" y="264" width="92" height="38" rx="6" fill="#fdecea" stroke="#888"/>
+<text x="392.0" y="291" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">УУГ</text>
+<text x="392.0" y="330" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Лей</text>
+<rect x="448" y="264" width="92" height="38" rx="6" fill="#fdecea" stroke="#888"/>
+<text x="494.0" y="291" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">ГЦУ</text>
+<text x="494.0" y="330" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">Ала</text>
+<rect x="550" y="264" width="68" height="38" rx="6" fill="#fdecea" stroke="#888"/>
+<text x="584.0" y="291" font-size="21" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans Mono, Courier New, monospace" fill="#222">АА</text>
+<text x="584.0" y="330" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">…</text>
+<text x="30" y="380" font-size="15" fill="#333">Все кодоны после мутации прочитаны «не так» — меняется вся дальнейшая последовательность аминокислот.</text>
+</svg>
