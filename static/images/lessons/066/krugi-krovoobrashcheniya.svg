@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 660" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="r" markerWidth="3.2" markerHeight="3.2" refX="2.6" refY="1.6" orient="auto"><path d="M0,0 L3.2,1.6 L0,3.2 z" fill="#dc2626"/></marker>
+    <marker id="b" markerWidth="3.2" markerHeight="3.2" refX="2.6" refY="1.6" orient="auto"><path d="M0,0 L3.2,1.6 L0,3.2 z" fill="#2563eb"/></marker>
+  </defs>
+  <rect width="720" height="660" fill="#ffffff"/>
+  <text x="360" y="30" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">Большой и малый круги кровообращения</text>
+  <!-- лёгкие -->
+  <rect x="240" y="62" width="240" height="66" rx="30" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+  <text x="360" y="90" font-size="17" font-weight="bold" text-anchor="middle" fill="#9d174d">Капилляры лёгких</text>
+  <text x="360" y="112" font-size="14" text-anchor="middle" fill="#374151">CO₂ уходит, O₂ поступает в кровь</text>
+  <!-- органы -->
+  <rect x="240" y="540" width="240" height="70" rx="30" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="360" y="568" font-size="17" font-weight="bold" text-anchor="middle" fill="#78350f">Капилляры органов тела</text>
+  <text x="360" y="590" font-size="14" text-anchor="middle" fill="#374151">O₂ уходит в ткани, CO₂ — в кровь</text>
+  <!-- сосуды малого круга -->
+  <path d="M260 370 L170 370 L170 95 L232 95" fill="none" stroke="#2563eb" stroke-width="10" marker-end="url(#b)"/>
+  <path d="M480 95 L550 95 L550 290 L458 290" fill="none" stroke="#dc2626" stroke-width="10" marker-end="url(#r)"/>
+  <!-- сосуды большого круга -->
+  <path d="M440 370 L620 370 L620 575 L488 575" fill="none" stroke="#dc2626" stroke-width="12" marker-end="url(#r)"/>
+  <path d="M150 290 L190 290" fill="none" stroke="#ffffff" stroke-width="22"/>
+  <path d="M240 575 L90 575 L90 290 L252 290" fill="none" stroke="#2563eb" stroke-width="12" marker-end="url(#b)"/>
+  <!-- сердце -->
+  <rect x="260" y="250" width="90" height="75" rx="12" fill="#bfdbfe" stroke="#1e3a8a" stroke-width="2"/>
+  <rect x="260" y="330" width="90" height="85" rx="12" fill="#93c5fd" stroke="#1e3a8a" stroke-width="2"/>
+  <rect x="360" y="250" width="90" height="75" rx="12" fill="#fecaca" stroke="#7f1d1d" stroke-width="2"/>
+  <rect x="360" y="330" width="90" height="85" rx="12" fill="#fca5a5" stroke="#7f1d1d" stroke-width="2"/>
+  <text x="305" y="284" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Правое</text>
+  <text x="305" y="300" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e3a8a">предсердие</text>
+  <text x="305" y="368" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Правый</text>
+  <text x="305" y="384" font-size="13" font-weight="bold" text-anchor="middle" fill="#1e3a8a">желудочек</text>
+  <text x="405" y="284" font-size="13" font-weight="bold" text-anchor="middle" fill="#7f1d1d">Левое</text>
+  <text x="405" y="300" font-size="13" font-weight="bold" text-anchor="middle" fill="#7f1d1d">предсердие</text>
+  <text x="405" y="368" font-size="13" font-weight="bold" text-anchor="middle" fill="#7f1d1d">Левый</text>
+  <text x="405" y="384" font-size="13" font-weight="bold" text-anchor="middle" fill="#7f1d1d">желудочек</text>
+  <text x="355" y="438" font-size="13" text-anchor="middle" fill="#6b7280">сердце (вид спереди: правая половина — слева на рисунке)</text>
+  <!-- подписи сосудов -->
+  <text x="160" y="200" font-size="14" font-weight="bold" text-anchor="end" fill="#1d4ed8">Лёгочная</text>
+  <text x="160" y="217" font-size="14" font-weight="bold" text-anchor="end" fill="#1d4ed8">артерия</text>
+  <text x="160" y="234" font-size="12" text-anchor="end" fill="#374151">(венозная кровь)</text>
+  <text x="562" y="190" font-size="14" font-weight="bold" fill="#b91c1c">Лёгочные вены</text>
+  <text x="562" y="207" font-size="12" fill="#374151">(артериальная кровь)</text>
+  <text x="632" y="460" font-size="14" font-weight="bold" fill="#b91c1c">Аорта</text>
+  <text x="632" y="477" font-size="12" fill="#374151">(артериальная</text>
+  <text x="632" y="492" font-size="12" fill="#374151">кровь)</text>
+  <text x="80" y="450" font-size="14" font-weight="bold" text-anchor="end" fill="#1d4ed8">Полые</text>
+  <text x="80" y="467" font-size="14" font-weight="bold" text-anchor="end" fill="#1d4ed8">вены</text>
+  <text x="80" y="484" font-size="12" text-anchor="end" fill="#374151">(венозная)</text>
+  <!-- названия кругов -->
+  <rect x="250" y="160" width="220" height="40" rx="8" fill="#f3f4f6"/>
+  <text x="360" y="178" font-size="15" font-weight="bold" text-anchor="middle" fill="#111827">МАЛЫЙ (лёгочный) круг</text>
+  <text x="360" y="194" font-size="12" text-anchor="middle" fill="#374151">ПЖ → лёгкие → ЛП</text>
+  <rect x="250" y="470" width="220" height="40" rx="8" fill="#f3f4f6"/>
+  <text x="360" y="488" font-size="15" font-weight="bold" text-anchor="middle" fill="#111827">БОЛЬШОЙ круг</text>
+  <text x="360" y="504" font-size="12" text-anchor="middle" fill="#374151">ЛЖ → органы → ПП</text>
+  <rect x="200" y="628" width="18" height="12" fill="#dc2626"/><text x="224" y="639" font-size="13" fill="#374151">артериальная кровь (богата O₂)</text>
+  <rect x="440" y="628" width="18" height="12" fill="#2563eb"/><text x="464" y="639" font-size="13" fill="#374151">венозная кровь (богата CO₂)</text>
+</svg>

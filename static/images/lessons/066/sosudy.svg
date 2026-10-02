@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 430" font-family="Arial, Helvetica, sans-serif">
+  <rect width="780" height="430" fill="#ffffff"/>
+  <text x="390" y="32" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">Артерия, вена и капилляр в разрезе</text>
+  <!-- артерия -->
+  <circle cx="140" cy="170" r="92" fill="#fecaca" stroke="#7f1d1d" stroke-width="2"/>
+  <circle cx="140" cy="170" r="76" fill="#f87171"/>
+  <circle cx="140" cy="170" r="50" fill="#fde68a"/>
+  <circle cx="140" cy="170" r="42" fill="#dc2626"/>
+  <text x="140" y="176" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">просвет</text>
+  <text x="140" y="300" font-size="20" font-weight="bold" text-anchor="middle" fill="#991b1b">Артерия</text>
+  <text x="140" y="324" font-size="14" text-anchor="middle" fill="#374151">толстая упругая стенка,</text>
+  <text x="140" y="342" font-size="14" text-anchor="middle" fill="#374151">много мышц и эластичных волокон;</text>
+  <text x="140" y="360" font-size="14" text-anchor="middle" fill="#374151">высокое давление,</text>
+  <text x="140" y="378" font-size="14" text-anchor="middle" fill="#374151">кровь — от сердца</text>
+  <!-- вена -->
+  <ellipse cx="400" cy="170" rx="98" ry="70" fill="#bfdbfe" stroke="#1e3a8a" stroke-width="2"/>
+  <ellipse cx="400" cy="170" rx="88" ry="60" fill="#93c5fd"/>
+  <ellipse cx="400" cy="170" rx="80" ry="52" fill="#1d4ed8"/>
+  <path d="M340 150 Q370 175 400 160 Q430 175 460 150" fill="none" stroke="#e0e7ff" stroke-width="5"/>
+  <text x="400" y="200" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">широкий просвет</text>
+  <text x="400" y="138" font-size="12" fill="#e0e7ff" text-anchor="middle">клапан</text>
+  <text x="400" y="300" font-size="20" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Вена</text>
+  <text x="400" y="324" font-size="14" text-anchor="middle" fill="#374151">тонкая мягкая стенка,</text>
+  <text x="400" y="342" font-size="14" text-anchor="middle" fill="#374151">есть клапаны (особенно в ногах);</text>
+  <text x="400" y="360" font-size="14" text-anchor="middle" fill="#374151">низкое давление,</text>
+  <text x="400" y="378" font-size="14" text-anchor="middle" fill="#374151">кровь — к сердцу</text>
+  <!-- капилляр -->
+  <circle cx="650" cy="170" r="34" fill="#fde2e4" stroke="#9d174d" stroke-width="7" stroke-dasharray="18 4"/>
+  <ellipse cx="650" cy="170" rx="18" ry="11" fill="#dc2626"/>
+  <text x="650" y="230" font-size="12" text-anchor="middle" fill="#374151">эритроцит проходит</text>
+  <text x="650" y="245" font-size="12" text-anchor="middle" fill="#374151">по одному</text>
+  <text x="650" y="300" font-size="20" font-weight="bold" text-anchor="middle" fill="#9d174d">Капилляр</text>
+  <text x="650" y="324" font-size="14" text-anchor="middle" fill="#374151">стенка — один слой</text>
+  <text x="650" y="342" font-size="14" text-anchor="middle" fill="#374151">плоских клеток;</text>
+  <text x="650" y="360" font-size="14" text-anchor="middle" fill="#374151">диаметр ≈ 5–10 мкм;</text>
+  <text x="650" y="378" font-size="14" text-anchor="middle" fill="#374151">здесь идёт обмен веществ</text>
+  <text x="390" y="418" font-size="13" text-anchor="middle" fill="#6b7280">Размеры условные: капилляр на самом деле в сотни раз тоньше крупных сосудов</text>
+</svg>
