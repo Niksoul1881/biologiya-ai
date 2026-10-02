@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker>
+  </defs>
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Два потока в стебле</text>
+
+  <!-- Левая часть: продольная схема -->
+  <rect x="0" y="440" width="460" height="80" fill="#e7d3b5"/>
+  <!-- крона -->
+  <ellipse cx="230" cy="110" rx="150" ry="60" fill="#86efac" stroke="#15803d" stroke-width="2"/>
+  <text x="230" y="105" font-size="16" font-weight="bold" text-anchor="middle" fill="#166534">листья</text>
+  <text x="230" y="125" font-size="13" text-anchor="middle" fill="#166534">делают органические вещества</text>
+  <!-- ствол: кора | древесина | кора -->
+  <rect x="170" y="165" width="120" height="280" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+  <rect x="170" y="165" width="22" height="280" fill="#d97706"/>
+  <rect x="268" y="165" width="22" height="280" fill="#d97706"/>
+  <!-- корни -->
+  <g fill="none" stroke="#b45309" stroke-width="6" stroke-linecap="round"><path d="M200,445 C180,470 150,485 110,500"/><path d="M230,445 C230,470 228,490 226,510"/><path d="M260,445 C280,470 310,485 350,500"/></g>
+  <!-- синие стрелки вверх по древесине -->
+  <g stroke="#1d4ed8" stroke-width="5" marker-end="url(#ab)"><line x1="215" y1="430" x2="215" y2="190"/><line x1="245" y1="430" x2="245" y2="190"/></g>
+  <!-- оранжевые вниз по лубу -->
+  <g stroke="#ea580c" stroke-width="5" marker-end="url(#ao)"><line x1="181" y1="185" x2="181" y2="430"/><line x1="279" y1="185" x2="279" y2="430"/></g>
+  <g font-size="15" fill="#1f2937">
+    <text x="20" y="270" font-weight="bold" fill="#ea580c">Луб</text>
+    <text x="20" y="289" font-size="13" fill="#4b5563">органические</text>
+    <text x="20" y="305" font-size="13" fill="#4b5563">вещества — от</text>
+    <text x="20" y="321" font-size="13" fill="#4b5563">листьев вниз</text>
+    <line x1="120" y1="335" x2="178" y2="335" stroke="#374151" stroke-width="1.5"/>
+    <text x="305" y="330" font-weight="bold" fill="#1d4ed8">Древесина</text>
+    <text x="305" y="349" font-size="13" fill="#4b5563">вода и минеральные</text>
+    <text x="305" y="365" font-size="13" fill="#4b5563">вещества — вверх</text>
+    <line x1="303" y1="325" x2="250" y2="300" stroke="#374151" stroke-width="1.5"/>
+  </g>
+
+  <line x1="470" y1="60" x2="470" y2="500" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- Правая часть: кольцевание -->
+  <text x="685" y="75" font-size="19" font-weight="bold" text-anchor="middle" fill="#1f2937">Опыт: кольцевание</text>
+  <path d="M640,100 L640,470 L730,470 L730,100 z" fill="#d97706" stroke="#92400e" stroke-width="2"/>
+  <!-- наплыв -->
+  <path d="M640,240 C620,250 615,280 640,295 L730,295 C755,280 750,250 730,240 z" fill="#d97706" stroke="#92400e" stroke-width="2"/>
+  <!-- снятое кольцо (видна древесина) -->
+  <rect x="640" y="295" width="90" height="40" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+  <g stroke="#ea580c" stroke-width="5" marker-end="url(#ao)"><line x1="685" y1="115" x2="685" y2="232"/></g>
+  <g stroke="#1d4ed8" stroke-width="4" marker-end="url(#ab)"><line x1="700" y1="460" x2="700" y2="345"/></g>
+  <g font-size="15" fill="#1f2937">
+    <line x1="752" y1="262" x2="790" y2="230" stroke="#374151" stroke-width="1.5"/>
+    <text x="760" y="200" font-weight="bold" fill="#92400e">Наплыв:</text>
+    <text x="760" y="218" font-size="13" fill="#4b5563">вещества скопились</text>
+    <line x1="733" y1="315" x2="790" y2="320" stroke="#374151" stroke-width="1.5"/>
+    <text x="760" y="310" font-weight="bold" fill="#a16207" transform="translate(25,10)">Кора снята</text>
+    <text x="785" y="338" font-size="13" fill="#4b5563">луба нет —</text>
+    <text x="785" y="354" font-size="13" fill="#4b5563">пути вниз нет</text>
+    <text x="745" y="420" font-size="13" fill="#4b5563">вода по древесине</text>
+    <text x="745" y="436" font-size="13" fill="#4b5563">идёт вверх</text>
+  </g>
+  <text x="685" y="500" font-size="14" text-anchor="middle" fill="#6b7280">кольцо коры по кругу губит дерево: корни голодают</text>
+</svg>
