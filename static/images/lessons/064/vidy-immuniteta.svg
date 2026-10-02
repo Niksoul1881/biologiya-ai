@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="760" height="420" fill="#ffffff"/>
+  <text x="380" y="32" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">Виды иммунитета</text>
+  <g stroke="#6b7280" stroke-width="2" fill="none">
+    <path d="M380 82 L380 100 L190 100 L190 118"/><path d="M380 100 L570 100 L570 118"/>
+    <path d="M570 168 L570 186 L470 186 L470 204"/><path d="M570 186 L670 186 L670 204"/>
+    <path d="M470 274 L470 290 L420 290 L420 306"/><path d="M470 290 L525 290 L525 306"/>
+    <path d="M670 274 L670 290 L620 290 L620 306"/><path d="M670 290 L715 290 L715 306"/>
+  </g>
+  <rect x="270" y="44" width="220" height="38" rx="8" fill="#1f2937"/>
+  <text x="380" y="69" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">Иммунитет</text>
+  <rect x="60" y="118" width="260" height="110" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="190" y="144" font-size="17" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Врождённый</text>
+  <text x="190" y="166" font-size="13" text-anchor="middle" fill="#374151">есть с рождения, неспецифический:</text>
+  <text x="190" y="184" font-size="13" text-anchor="middle" fill="#374151">кожа, слизь, фагоциты,</text>
+  <text x="190" y="202" font-size="13" text-anchor="middle" fill="#374151">воспаление, температура;</text>
+  <text x="190" y="220" font-size="13" text-anchor="middle" fill="#374151">видовой — передаётся по наследству</text>
+  <rect x="410" y="118" width="320" height="50" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="570" y="140" font-size="17" font-weight="bold" text-anchor="middle" fill="#7f1d1d">Приобретённый</text>
+  <text x="570" y="159" font-size="12" text-anchor="middle" fill="#374151">специфический, против конкретного микроба</text>
+  <rect x="395" y="204" width="150" height="70" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="470" y="228" font-size="16" font-weight="bold" text-anchor="middle" fill="#78350f">Естественный</text>
+  <text x="470" y="248" font-size="12" text-anchor="middle" fill="#374151">возникает сам,</text>
+  <text x="470" y="264" font-size="12" text-anchor="middle" fill="#374151">без медицины</text>
+  <rect x="595" y="204" width="150" height="70" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <text x="670" y="228" font-size="16" font-weight="bold" text-anchor="middle" fill="#14532d">Искусственный</text>
+  <text x="670" y="248" font-size="12" text-anchor="middle" fill="#374151">создаётся</text>
+  <text x="670" y="264" font-size="12" text-anchor="middle" fill="#374151">медициной</text>
+  <rect x="362" y="306" width="114" height="100" rx="8" fill="#fffbeb" stroke="#b45309"/>
+  <text x="419" y="326" font-size="13" font-weight="bold" text-anchor="middle" fill="#78350f">активный</text>
+  <text x="419" y="346" font-size="12" text-anchor="middle" fill="#374151">после</text>
+  <text x="419" y="362" font-size="12" text-anchor="middle" fill="#374151">перенесённой</text>
+  <text x="419" y="378" font-size="12" text-anchor="middle" fill="#374151">болезни</text>
+  <rect x="482" y="306" width="96" height="100" rx="8" fill="#fffbeb" stroke="#b45309"/>
+  <text x="530" y="326" font-size="13" font-weight="bold" text-anchor="middle" fill="#78350f">пассивный</text>
+  <text x="530" y="346" font-size="12" text-anchor="middle" fill="#374151">антитела</text>
+  <text x="530" y="362" font-size="12" text-anchor="middle" fill="#374151">матери —</text>
+  <text x="530" y="378" font-size="12" text-anchor="middle" fill="#374151">через плаценту</text>
+  <text x="530" y="394" font-size="12" text-anchor="middle" fill="#374151">и молоко</text>
+  <rect x="584" y="306" width="78" height="100" rx="8" fill="#f0fdf4" stroke="#15803d"/>
+  <text x="623" y="326" font-size="13" font-weight="bold" text-anchor="middle" fill="#14532d">активный</text>
+  <text x="623" y="346" font-size="12" text-anchor="middle" fill="#374151">вакцина</text>
+  <text x="623" y="362" font-size="12" text-anchor="middle" fill="#374151">(прививка)</text>
+  <rect x="666" y="306" width="88" height="100" rx="8" fill="#f0fdf4" stroke="#15803d"/>
+  <text x="710" y="326" font-size="13" font-weight="bold" text-anchor="middle" fill="#14532d">пассивный</text>
+  <text x="710" y="346" font-size="12" text-anchor="middle" fill="#374151">лечебная</text>
+  <text x="710" y="362" font-size="12" text-anchor="middle" fill="#374151">сыворотка</text>
+  <text x="710" y="378" font-size="12" text-anchor="middle" fill="#374151">(готовые</text>
+  <text x="710" y="394" font-size="12" text-anchor="middle" fill="#374151">антитела)</text>
+</svg>
