@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="760" height="560" fill="#ffffff"/>
+  <text x="380" y="32" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">Органы мочевыделительной системы</text>
+  <!-- силуэт туловища -->
+  <path d="M250 60 Q380 40 510 60 L540 300 Q545 420 500 520 L260 520 Q215 420 220 300 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <!-- позвоночник -->
+  <rect x="372" y="70" width="16" height="420" rx="6" fill="#e2e8f0"/>
+  <!-- аорта и полая вена -->
+  <rect x="392" y="80" width="12" height="330" fill="#dc2626"/>
+  <rect x="354" y="80" width="14" height="330" fill="#2563eb"/>
+  <!-- почки -->
+  <path d="M290 170 C250 170 240 230 250 260 C262 300 300 305 318 285 C306 265 306 235 320 215 C318 190 305 170 290 170 Z" fill="#b91c1c" stroke="#7f1d1d" stroke-width="2"/>
+  <path d="M470 160 C510 160 520 220 510 250 C498 290 460 295 442 275 C454 255 454 225 440 205 C442 180 455 160 470 160 Z" fill="#b91c1c" stroke="#7f1d1d" stroke-width="2"/>
+  <!-- надпочечники -->
+  <path d="M275 168 Q290 145 305 168 Z" fill="#facc15" stroke="#a16207"/>
+  <path d="M455 158 Q470 135 485 158 Z" fill="#facc15" stroke="#a16207"/>
+  <!-- почечные сосуды -->
+  <line x1="318" y1="235" x2="392" y2="235" stroke="#dc2626" stroke-width="5"/>
+  <line x1="318" y1="250" x2="360" y2="250" stroke="#2563eb" stroke-width="5"/>
+  <line x1="442" y1="225" x2="404" y2="225" stroke="#dc2626" stroke-width="5"/>
+  <line x1="442" y1="240" x2="368" y2="240" stroke="#2563eb" stroke-width="5"/>
+  <!-- мочеточники -->
+  <path d="M312 270 C320 330 330 380 350 420" fill="none" stroke="#ca8a04" stroke-width="7"/>
+  <path d="M448 262 C440 330 430 380 410 420" fill="none" stroke="#ca8a04" stroke-width="7"/>
+  <!-- мочевой пузырь -->
+  <ellipse cx="380" cy="440" rx="50" ry="36" fill="#fde68a" stroke="#a16207" stroke-width="2"/>
+  <!-- мочеиспускательный канал -->
+  <rect x="374" y="474" width="12" height="40" fill="#ca8a04"/>
+  <!-- подписи -->
+  <g font-size="16" fill="#111827">
+    <line x1="250" y1="230" x2="150" y2="210" stroke="#374151"/><text x="40" y="200" font-weight="bold">Почки</text><text x="40" y="220" font-size="13">образуют мочу</text>
+    <line x1="285" y1="162" x2="262" y2="140" stroke="#374151"/><text x="40" y="110" font-weight="bold">Надпочечники</text><text x="40" y="130" font-size="13">(железы, не органы выделения)</text>
+    <line x1="325" y1="340" x2="200" y2="340" stroke="#374151"/><text x="40" y="335" font-weight="bold">Мочеточники</text><text x="40" y="355" font-size="13">несут мочу в пузырь</text>
+    <line x1="430" y1="440" x2="560" y2="440" stroke="#374151"/><text x="568" y="435" font-weight="bold">Мочевой пузырь</text><text x="568" y="455" font-size="13">накапливает мочу</text>
+    <line x1="386" y1="500" x2="560" y2="505" stroke="#374151"/><text x="568" y="500" font-weight="bold">Мочеиспускательный</text><text x="568" y="520" font-weight="bold">канал</text>
+    <line x1="400" y1="225" x2="580" y2="190" stroke="#374151"/><text x="588" y="185" font-weight="bold" fill="#b91c1c">Почечная артерия</text><text x="588" y="203" font-size="13">от аорты</text>
+    <line x1="400" y1="240" x2="580" y2="260" stroke="#374151"/><text x="588" y="258" font-weight="bold" fill="#1d4ed8">Почечная вена</text><text x="588" y="276" font-size="13">в нижнюю полую вену</text>
+  </g>
+</svg>

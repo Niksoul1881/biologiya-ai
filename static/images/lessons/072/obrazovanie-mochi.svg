@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Arial, Helvetica, sans-serif">
+  <defs><marker id="a" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 z" fill="#374151"/></marker></defs>
+  <rect width="800" height="400" fill="#ffffff"/>
+  <text x="400" y="30" font-size="21" font-weight="bold" text-anchor="middle" fill="#1f2937">Как образуется моча: два главных этапа</text>
+  <!-- этап 1 -->
+  <rect x="20" y="56" width="230" height="250" rx="14" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="135" y="84" font-size="17" font-weight="bold" text-anchor="middle" fill="#7f1d1d">Кровь в капиллярах</text>
+  <text x="135" y="104" font-size="17" font-weight="bold" text-anchor="middle" fill="#7f1d1d">клубочка</text>
+  <text x="135" y="134" font-size="14" text-anchor="middle" fill="#374151">через почки проходит</text>
+  <text x="135" y="152" font-size="14" text-anchor="middle" fill="#374151">около 1500–1700 л крови</text>
+  <text x="135" y="170" font-size="14" text-anchor="middle" fill="#374151">в сутки</text>
+  <text x="135" y="210" font-size="13" text-anchor="middle" fill="#374151">клетки крови и крупные</text>
+  <text x="135" y="228" font-size="13" text-anchor="middle" fill="#374151">белки НЕ проходят</text>
+  <text x="135" y="246" font-size="13" text-anchor="middle" fill="#374151">через фильтр и</text>
+  <text x="135" y="264" font-size="13" text-anchor="middle" fill="#374151">остаются в крови</text>
+  <line x1="252" y1="180" x2="290" y2="180" stroke="#374151" stroke-width="4" marker-end="url(#a)"/>
+  <text x="271" y="168" font-size="12" text-anchor="middle" font-weight="bold" fill="#111827">1</text>
+  <!-- первичная моча -->
+  <rect x="294" y="56" width="220" height="250" rx="14" fill="#fef9c3" stroke="#a16207" stroke-width="2"/>
+  <text x="404" y="84" font-size="17" font-weight="bold" text-anchor="middle" fill="#713f12">Первичная моча</text>
+  <text x="404" y="110" font-size="14" text-anchor="middle" fill="#374151">≈ 150–180 л в сутки</text>
+  <text x="404" y="140" font-size="13" text-anchor="middle" fill="#374151">вода, глюкоза, аминокислоты,</text>
+  <text x="404" y="158" font-size="13" text-anchor="middle" fill="#374151">соли, мочевина —</text>
+  <text x="404" y="176" font-size="13" text-anchor="middle" fill="#374151">как плазма без белков</text>
+  <text x="404" y="220" font-size="13" text-anchor="middle" fill="#374151">в капсуле нефрона</text>
+  <line x1="516" y1="180" x2="554" y2="180" stroke="#374151" stroke-width="4" marker-end="url(#a)"/>
+  <text x="535" y="168" font-size="12" text-anchor="middle" font-weight="bold" fill="#111827">2</text>
+  <!-- вторичная моча -->
+  <rect x="558" y="56" width="222" height="250" rx="14" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="669" y="84" font-size="17" font-weight="bold" text-anchor="middle" fill="#78350f">Вторичная моча</text>
+  <text x="669" y="110" font-size="14" text-anchor="middle" fill="#374151">≈ 1,5 л в сутки</text>
+  <text x="669" y="140" font-size="13" text-anchor="middle" fill="#374151">вода, мочевина,</text>
+  <text x="669" y="158" font-size="13" text-anchor="middle" fill="#374151">мочевая кислота,</text>
+  <text x="669" y="176" font-size="13" text-anchor="middle" fill="#374151">лишние соли</text>
+  <text x="669" y="210" font-size="13" text-anchor="middle" fill="#374151">глюкозы и аминокислот</text>
+  <text x="669" y="228" font-size="13" text-anchor="middle" fill="#374151">в норме НЕТ</text>
+  <text x="669" y="262" font-size="13" text-anchor="middle" fill="#374151">→ мочеточник</text>
+  <!-- подписи этапов -->
+  <rect x="20" y="320" width="370" height="66" rx="10" fill="#f1f5f9"/>
+  <text x="205" y="344" font-size="15" font-weight="bold" text-anchor="middle" fill="#111827">1. Фильтрация (в клубочке)</text>
+  <text x="205" y="366" font-size="13" text-anchor="middle" fill="#374151">под давлением крови жидкость выходит в капсулу</text>
+  <rect x="410" y="320" width="370" height="66" rx="10" fill="#f1f5f9"/>
+  <text x="595" y="344" font-size="15" font-weight="bold" text-anchor="middle" fill="#111827">2. Обратное всасывание (в канальцах)</text>
+  <text x="595" y="366" font-size="13" text-anchor="middle" fill="#374151">≈ 99% воды, вся глюкоза и аминокислоты — в кровь</text>
+</svg>
