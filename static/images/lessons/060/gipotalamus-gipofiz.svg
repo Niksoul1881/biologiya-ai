@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="560" fill="#FFFFFF"/>
+  <defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#0F766E"/></marker>
+  <marker id="r" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#DC2626"/></marker></defs>
+  <text x="450" y="36" text-anchor="middle" font-size="25" font-weight="bold" fill="#1F2937">Гипоталамус → гипофиз → железа: цепочка управления</text>
+  <rect x="300" y="65" width="300" height="80" rx="14" fill="#EDE9FE" stroke="#7C3AED" stroke-width="3"/>
+  <text x="450" y="97" text-anchor="middle" font-size="19" font-weight="bold" fill="#5B21B6">Гипоталамус</text>
+  <text x="450" y="123" text-anchor="middle" font-size="15" fill="#374151">отдел мозга: «нервы → гормоны»</text>
+  <rect x="300" y="195" width="300" height="80" rx="14" fill="#FEF3C7" stroke="#D97706" stroke-width="3"/>
+  <text x="450" y="227" text-anchor="middle" font-size="19" font-weight="bold" fill="#92400E">Гипофиз</text>
+  <text x="450" y="253" text-anchor="middle" font-size="15" fill="#374151">«главная» железа: тропные гормоны</text>
+  <rect x="300" y="325" width="300" height="80" rx="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+  <text x="450" y="357" text-anchor="middle" font-size="19" font-weight="bold" fill="#1E3A8A">Щитовидная железа</text>
+  <text x="450" y="383" text-anchor="middle" font-size="15" fill="#374151">выделяет тироксин</text>
+  <rect x="300" y="455" width="300" height="80" rx="14" fill="#DCFCE7" stroke="#16A34A" stroke-width="3"/>
+  <text x="450" y="487" text-anchor="middle" font-size="19" font-weight="bold" fill="#166534">Клетки всего тела</text>
+  <text x="450" y="513" text-anchor="middle" font-size="15" fill="#374151">обмен веществ ускоряется</text>
+  <g stroke="#0F766E" stroke-width="4" fill="none" marker-end="url(#a)">
+    <line x1="450" y1="147" x2="450" y2="189"/><line x1="450" y1="277" x2="450" y2="319"/><line x1="450" y1="407" x2="450" y2="449"/>
+  </g>
+  <text x="465" y="174" font-size="14" fill="#0F766E">рилизинг-гормон</text>
+  <text x="465" y="304" font-size="14" fill="#0F766E">тиреотропный гормон (ТТГ)</text>
+  <text x="465" y="434" font-size="14" fill="#0F766E">тироксин с кровью</text>
+  <g stroke="#DC2626" stroke-width="3" fill="none" stroke-dasharray="8,6" marker-end="url(#r)">
+    <path d="M605,365 C720,365 720,240 606,236"/>
+    <path d="M605,375 C800,375 800,105 606,105"/>
+  </g>
+  <text x="778" y="200" font-size="14" fill="#DC2626" font-weight="bold">много</text><text x="778" y="219" font-size="14" fill="#DC2626" font-weight="bold">тироксина —</text><text x="778" y="238" font-size="14" fill="#DC2626" font-weight="bold">тормозит</text><text x="778" y="257" font-size="14" fill="#DC2626" font-weight="bold">выделение</text><text x="778" y="276" font-size="14" fill="#DC2626" font-weight="bold">ТТГ и</text><text x="778" y="295" font-size="14" fill="#DC2626" font-weight="bold">рилизинг-</text><text x="778" y="314" font-size="14" fill="#DC2626" font-weight="bold">гормона</text>
+  <text x="40" y="200" font-size="16" fill="#1F2937" font-weight="bold">Гипофиз управляет</text>
+  <text x="40" y="224" font-size="15" fill="#374151">• щитовидной железой</text>
+  <text x="40" y="246" font-size="15" fill="#374151">• корой надпочечников</text>
+  <text x="40" y="268" font-size="15" fill="#374151">• половыми железами</text>
+  <text x="40" y="290" font-size="15" fill="#374151">• ростом (гормон роста)</text>
+  <text x="40" y="312" font-size="15" fill="#374151">• почками (АДГ)</text>
+  <text x="40" y="440" font-size="15" fill="#6B7280">Отрицательная обратная</text>
+  <text x="40" y="460" font-size="15" fill="#6B7280">связь: конечный гормон</text>
+  <text x="40" y="480" font-size="15" fill="#6B7280">сам ограничивает своё</text>
+  <text x="40" y="500" font-size="15" fill="#6B7280">выделение</text>
+</svg>
