@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1000" height="520" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker></defs>
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Движущие силы эволюции по Дарвину</text>
+<rect x="30" y="70" width="290" height="110" rx="14" fill="#FEF3C7" stroke="#D97706" stroke-width="2.5"/>
+<text x="175.0" y="102" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Изменчивость</text>
+<text x="175.0" y="126" text-anchor="middle" font-size="14" fill="#374151">особи вида различаются;</text>
+<text x="175.0" y="145" text-anchor="middle" font-size="14" fill="#374151">часть различий наследуется</text>
+<rect x="355" y="70" width="290" height="110" rx="14" fill="#E0F2FE" stroke="#0284C7" stroke-width="2.5"/>
+<text x="500.0" y="102" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Наследственность</text>
+<text x="500.0" y="126" text-anchor="middle" font-size="14" fill="#374151">потомки похожи на родителей,</text>
+<text x="500.0" y="145" text-anchor="middle" font-size="14" fill="#374151">полезные отличия передаются</text>
+<rect x="680" y="70" width="290" height="110" rx="14" fill="#FCE7F3" stroke="#DB2777" stroke-width="2.5"/>
+<text x="825.0" y="102" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Избыточное размножение</text>
+<text x="825.0" y="126" text-anchor="middle" font-size="14" fill="#374151">потомков рождается больше,</text>
+<text x="825.0" y="145" text-anchor="middle" font-size="14" fill="#374151">чем может выжить</text>
+<rect x="560" y="235" width="410" height="100" rx="14" fill="#F3F4F6" stroke="#6B7280" stroke-width="2.5"/>
+<text x="765.0" y="267" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Борьба за существование</text>
+<text x="765.0" y="291" text-anchor="middle" font-size="14" fill="#374151">внутривидовая, межвидовая,</text>
+<text x="765.0" y="310" text-anchor="middle" font-size="14" fill="#374151">с неблагоприятными условиями среды</text>
+<rect x="250" y="235" width="270" height="100" rx="14" fill="#16A34A" stroke="#15803D" stroke-width="2.5"/>
+<text x="385.0" y="267" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">Естественный отбор</text>
+<text x="385.0" y="291" text-anchor="middle" font-size="14" fill="#ffffff">выживают и размножаются</text>
+<text x="385.0" y="310" text-anchor="middle" font-size="14" fill="#ffffff">наиболее приспособленные</text>
+<rect x="60" y="400" width="400" height="95" rx="14" fill="#DCFCE7" stroke="#16A34A" stroke-width="2.5"/>
+<text x="260.0" y="432" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Приспособленность</text>
+<text x="260.0" y="456" text-anchor="middle" font-size="14" fill="#374151">накопление полезных признаков</text>
+<text x="260.0" y="475" text-anchor="middle" font-size="14" fill="#374151">в ряду поколений</text>
+<rect x="540" y="400" width="400" height="95" rx="14" fill="#DCFCE7" stroke="#16A34A" stroke-width="2.5"/>
+<text x="740.0" y="432" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Образование новых видов</text>
+<text x="740.0" y="456" text-anchor="middle" font-size="14" fill="#374151">расхождение признаков (дивергенция)</text>
+<text x="740.0" y="475" text-anchor="middle" font-size="14" fill="#374151">потомков общего предка</text>
+<path d="M825,182 L800,232" stroke="#6B7280" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+<path d="M560,285 L524,285" stroke="#6B7280" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+<path d="M175,182 C175,230 230,260 248,270" stroke="#6B7280" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+<path d="M500,182 L430,232" stroke="#6B7280" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+<path d="M330,337 L270,397" stroke="#6B7280" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+<path d="M440,337 L660,397" stroke="#6B7280" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+</svg>

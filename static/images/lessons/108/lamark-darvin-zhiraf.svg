@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1000" height="560" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker></defs>
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Почему у жирафа длинная шея: Ламарк и Дарвин</text>
+<rect x="20" y="55" width="460" height="490" rx="16" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+<text x="250" y="85" font-size="19" fill="#92400E" text-anchor="middle" font-weight="bold">Ламарк (1809)</text>
+<text x="250" y="107" font-size="13" fill="#92400E" text-anchor="middle">упражнение органа + наследование приобретённого</text>
+<line x1="60" y1="360" x2="60" y2="210" stroke="#78350F" stroke-width="8"/>
+<ellipse cx="60" cy="190" rx="45" ry="30" fill="#86EFAC" stroke="#16A34A" stroke-width="2"/>
+<rect x="102" y="290" width="56" height="32" rx="12" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<line x1="108" y1="320" x2="108" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="122" y1="320" x2="122" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="138" y1="320" x2="138" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="152" y1="320" x2="152" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="150" y1="294" x2="154" y2="250" stroke="#92400E" stroke-width="9" stroke-linecap="round"/>
+<line x1="150" y1="294" x2="154" y2="250" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="162" cy="250" rx="12" ry="7" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<path d="M170,270 L170,238" stroke="#DC2626" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="150" y="388" font-size="12" fill="#374151" text-anchor="middle">тянется к листьям,</text>
+<text x="150" y="404" font-size="12" fill="#374151" text-anchor="middle">шея удлиняется</text>
+<path d="M205,300 L245,300" stroke="#6B7280" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="272" y="290" width="56" height="32" rx="12" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<line x1="278" y1="320" x2="278" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="292" y1="320" x2="292" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="308" y1="320" x2="308" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="322" y1="320" x2="322" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="320" y1="294" x2="324" y2="220" stroke="#92400E" stroke-width="9" stroke-linecap="round"/>
+<line x1="320" y1="294" x2="324" y2="220" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="332" cy="220" rx="12" ry="7" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<path d="M340,240 L340,208" stroke="#DC2626" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="320" y="388" font-size="12" fill="#374151" text-anchor="middle">потомкам передаётся</text>
+<text x="320" y="404" font-size="12" fill="#374151" text-anchor="middle">удлинённая шея</text>
+<path d="M365,300 L395,300" stroke="#6B7280" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="402" y="290" width="56" height="32" rx="12" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<line x1="408" y1="320" x2="408" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="422" y1="320" x2="422" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="438" y1="320" x2="438" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="452" y1="320" x2="452" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="450" y1="294" x2="454" y2="180" stroke="#92400E" stroke-width="9" stroke-linecap="round"/>
+<line x1="450" y1="294" x2="454" y2="180" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="462" cy="180" rx="12" ry="7" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<text x="250" y="450" font-size="14" fill="#DC2626" text-anchor="middle" font-weight="bold">❌ Ошибка: приобретённые при жизни</text>
+<text x="250" y="470" font-size="14" fill="#374151" text-anchor="middle">изменения (модификации) не наследуются,</text>
+<text x="250" y="490" font-size="14" fill="#374151" text-anchor="middle">и «стремления к совершенству» у организмов нет</text>
+<rect x="520" y="55" width="460" height="490" rx="16" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+<text x="750" y="85" font-size="19" fill="#14532D" text-anchor="middle" font-weight="bold">Дарвин (1859)</text>
+<text x="750" y="107" font-size="13" fill="#14532D" text-anchor="middle">изменчивость + борьба за существование + отбор</text>
+<line x1="560" y1="360" x2="560" y2="210" stroke="#78350F" stroke-width="8"/>
+<ellipse cx="560" cy="190" rx="45" ry="30" fill="#86EFAC" stroke="#16A34A" stroke-width="2"/>
+<rect x="592" y="290" width="56" height="32" rx="12" fill="#FCD34D" stroke="#92400E" stroke-width="2"/>
+<line x1="598" y1="320" x2="598" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="612" y1="320" x2="612" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="628" y1="320" x2="628" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="642" y1="320" x2="642" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="640" y1="294" x2="644" y2="260" stroke="#92400E" stroke-width="9" stroke-linecap="round"/>
+<line x1="640" y1="294" x2="644" y2="260" stroke="#FCD34D" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="652" cy="260" rx="12" ry="7" fill="#FCD34D" stroke="#92400E" stroke-width="2"/>
+<line x1="590" y1="250" x2="660" y2="360" stroke="#DC2626" stroke-width="4"/>
+<line x1="660" y1="250" x2="590" y2="360" stroke="#DC2626" stroke-width="4"/>
+<rect x="672" y="290" width="56" height="32" rx="12" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<line x1="678" y1="320" x2="678" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="692" y1="320" x2="692" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="708" y1="320" x2="708" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="722" y1="320" x2="722" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="720" y1="294" x2="724" y2="230" stroke="#92400E" stroke-width="9" stroke-linecap="round"/>
+<line x1="720" y1="294" x2="724" y2="230" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="732" cy="230" rx="12" ry="7" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<rect x="752" y="290" width="56" height="32" rx="12" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<line x1="758" y1="320" x2="758" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="772" y1="320" x2="772" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="788" y1="320" x2="788" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="802" y1="320" x2="802" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="800" y1="294" x2="804" y2="195" stroke="#92400E" stroke-width="9" stroke-linecap="round"/>
+<line x1="800" y1="294" x2="804" y2="195" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="812" cy="195" rx="12" ry="7" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<text x="700" y="388" font-size="12" fill="#374151" text-anchor="middle">шеи разной длины —</text>
+<text x="700" y="404" font-size="12" fill="#374151" text-anchor="middle">наследственная изменчивость</text>
+<path d="M830,300 L860,300" stroke="#6B7280" stroke-width="3" marker-end="url(#ar)"/>
+<rect x="882" y="290" width="56" height="32" rx="12" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<line x1="888" y1="320" x2="888" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="902" y1="320" x2="902" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="918" y1="320" x2="918" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="932" y1="320" x2="932" y2="360" stroke="#92400E" stroke-width="4"/>
+<line x1="930" y1="294" x2="934" y2="180" stroke="#92400E" stroke-width="9" stroke-linecap="round"/>
+<line x1="930" y1="294" x2="934" y2="180" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="942" cy="180" rx="12" ry="7" fill="#F59E0B" stroke="#92400E" stroke-width="2"/>
+<text x="905" y="388" font-size="12" fill="#374151" text-anchor="middle">выживают и</text>
+<text x="905" y="404" font-size="12" fill="#374151" text-anchor="middle">оставляют потомство</text>
+<text x="905" y="420" font-size="12" fill="#374151" text-anchor="middle">длинношеие</text>
+<text x="750" y="450" font-size="14" fill="#16A34A" text-anchor="middle" font-weight="bold">✅ Отбор сохраняет полезные</text>
+<text x="750" y="470" font-size="14" fill="#374151" text-anchor="middle">наследственные отличия, которые уже были</text>
+<text x="750" y="490" font-size="14" fill="#374151" text-anchor="middle">в популяции; за поколения они накапливаются</text>
+</svg>
