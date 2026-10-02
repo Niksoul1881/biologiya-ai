@@ -19,7 +19,8 @@ import requests
 from PIL import Image
 
 API = "https://commons.wikimedia.org/w/api.php"
-H = {"User-Agent": "BiologiyaAI/0.1 (educational site; contact via site)"}
+H = {"User-Agent": "BiologiyaAI/0.2 (https://niksoul1881.github.io/biologiya-ai/; https://github.com/Niksoul1881/biologiya-ai) python-requests"}
+# Commons ограничивает частоту: запросы строго по одному, не запускать несколько копий скрипта параллельно.
 OK = re.compile(r"^(public domain|pd|cc0|cc[ -]by(-sa)?[ -]?\d)", re.I)
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CREDITS = ROOT / "data" / "image_credits.json"
@@ -27,11 +28,13 @@ CREDITS = ROOT / "data" / "image_credits.json"
 
 def api(params):
     """Запрос к API Commons с повтором при ограничении частоты."""
-    for attempt in range(6):
+    params = {**params, "maxlag": 5}
+    for attempt in range(8):
         r = requests.get(API, params=params, headers=H, timeout=30)
-        if r.ok and r.text.lstrip().startswith("{"):
+        if r.ok and r.text.lstrip().startswith("{") and "error" not in r.json():
+            time.sleep(1)                      # не чаще раза в секунду
             return r.json()
-        time.sleep(5 * (attempt + 1))
+        time.sleep(int(r.headers.get("Retry-After", 0) or 0) or 5 * (attempt + 1))
     sys.exit(f"Commons не отвечает: {r.status_code}")
 
 
@@ -78,11 +81,11 @@ def get(lesson, name, title):
     if not OK.match(lic):
         sys.exit(f"лицензия не подходит: {lic}")
     url = ii.get("thumburl") or ii["url"]
-    for attempt in range(4):
+    for attempt in range(6):
         r = requests.get(url, headers=H, timeout=60)
         if r.ok and r.headers.get("content-type", "").startswith("image"):
             break
-        time.sleep(3 + attempt * 4)
+        time.sleep(int(r.headers.get("Retry-After", 0) or 0) or 5 + attempt * 10)
     else:
         sys.exit(f"не скачалось: {r.status_code}")
     im = Image.open(io.BytesIO(r.content))
