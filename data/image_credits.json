@@ -148,5 +148,30 @@
   "source": "https://commons.wikimedia.org/wiki/File:Mendel_paper.jpg",
   "author": "Gregor Mendel, 1866",
   "license": "Public domain"
+ },
+ "/images/lessons/031/kletka-zhivotnaya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Biological_cell_ru.svg",
+  "author": "Biological_cell.svg: MesserWoland and Szczepan1990\nderivative work: Цуканов Кири",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/031/neyron.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Complete_neuron_cell_diagram_ru.svg",
+  "author": "Mariana Ruiz LadyofHats (original English version)\n\nWassily (Russian translation",
+  "license": "Public domain"
+ },
+ "/images/lessons/031/shvann.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Th._Schwann,_PA06401.jpg",
+  "author": "Schwann, Theodor (1810-1882) (depicted)",
+  "license": "Public domain"
+ },
+ "/images/lessons/031/tipy-tkaney.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:401_Types_of_Tissue.jpg",
+  "author": "OpenStax College",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/031/krov.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
+  "author": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-",
+  "license": "Public domain"
  }
 }
