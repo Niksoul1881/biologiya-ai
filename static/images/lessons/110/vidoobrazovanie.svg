@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1000" height="620" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker></defs>
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Два пути видообразования</text>
+<text x="30" y="72" font-size="17" fill="#0F766E" text-anchor="start" font-weight="bold">Географическое (аллопатрическое) видообразование</text>
+<rect x="30" y="85" width="210" height="150" rx="12" fill="#F0FDF4" stroke="#D1D5DB"/>
+<circle cx="126" cy="168" r="6" fill="#2563EB"/>
+<circle cx="219" cy="155" r="6" fill="#2563EB"/>
+<circle cx="137" cy="172" r="6" fill="#2563EB"/>
+<circle cx="73" cy="162" r="6" fill="#2563EB"/>
+<circle cx="161" cy="200" r="6" fill="#2563EB"/>
+<circle cx="55" cy="133" r="6" fill="#2563EB"/>
+<circle cx="54" cy="203" r="6" fill="#2563EB"/>
+<circle cx="173" cy="97" r="6" fill="#2563EB"/>
+<circle cx="230" cy="224" r="6" fill="#2563EB"/>
+<circle cx="165" cy="176" r="6" fill="#2563EB"/>
+<circle cx="67" cy="93" r="6" fill="#2563EB"/>
+<circle cx="141" cy="99" r="6" fill="#2563EB"/>
+<circle cx="74" cy="124" r="6" fill="#2563EB"/>
+<circle cx="42" cy="155" r="6" fill="#2563EB"/>
+<circle cx="123" cy="207" r="6" fill="#2563EB"/>
+<circle cx="139" cy="179" r="6" fill="#2563EB"/>
+<circle cx="135" cy="182" r="6" fill="#2563EB"/>
+<circle cx="127" cy="129" r="6" fill="#2563EB"/>
+<circle cx="234" cy="228" r="6" fill="#2563EB"/>
+<circle cx="202" cy="189" r="6" fill="#2563EB"/>
+<circle cx="98" cy="123" r="6" fill="#2563EB"/>
+<circle cx="93" cy="101" r="6" fill="#2563EB"/>
+<circle cx="188" cy="146" r="6" fill="#2563EB"/>
+<circle cx="204" cy="144" r="6" fill="#2563EB"/>
+<circle cx="226" cy="208" r="6" fill="#2563EB"/>
+<circle cx="36" cy="120" r="6" fill="#2563EB"/>
+<circle cx="216" cy="156" r="6" fill="#2563EB"/>
+<circle cx="230" cy="146" r="6" fill="#2563EB"/>
+<circle cx="50" cy="178" r="6" fill="#2563EB"/>
+<circle cx="190" cy="128" r="6" fill="#2563EB"/>
+<text x="135.0" y="257" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">1. Одна популяция</text>
+<rect x="280" y="85" width="210" height="150" rx="12" fill="#F0FDF4" stroke="#D1D5DB"/>
+<path d="M357.0,235 L377.0,105 L385.0,120 L397.0,85 L415.0,235 Z" fill="#A8A29E" stroke="#78716C"/>
+<circle cx="291" cy="137" r="6" fill="#2563EB"/>
+<circle cx="347" cy="196" r="6" fill="#2563EB"/>
+<circle cx="293" cy="125" r="6" fill="#2563EB"/>
+<circle cx="292" cy="99" r="6" fill="#2563EB"/>
+<circle cx="336" cy="116" r="6" fill="#2563EB"/>
+<circle cx="321" cy="153" r="6" fill="#2563EB"/>
+<circle cx="298" cy="192" r="6" fill="#2563EB"/>
+<circle cx="294" cy="180" r="6" fill="#2563EB"/>
+<circle cx="293" cy="149" r="6" fill="#2563EB"/>
+<circle cx="299" cy="128" r="6" fill="#2563EB"/>
+<circle cx="347" cy="202" r="6" fill="#2563EB"/>
+<circle cx="305" cy="213" r="6" fill="#2563EB"/>
+<circle cx="299" cy="145" r="6" fill="#2563EB"/>
+<circle cx="340" cy="180" r="6" fill="#2563EB"/>
+<circle cx="427" cy="228" r="6" fill="#2563EB"/>
+<circle cx="434" cy="127" r="6" fill="#2563EB"/>
+<circle cx="470" cy="136" r="6" fill="#2563EB"/>
+<circle cx="440" cy="101" r="6" fill="#2563EB"/>
+<circle cx="427" cy="171" r="6" fill="#2563EB"/>
+<circle cx="436" cy="174" r="6" fill="#2563EB"/>
+<circle cx="444" cy="154" r="6" fill="#2563EB"/>
+<circle cx="481" cy="158" r="6" fill="#2563EB"/>
+<circle cx="457" cy="211" r="6" fill="#2563EB"/>
+<circle cx="433" cy="112" r="6" fill="#2563EB"/>
+<circle cx="478" cy="204" r="6" fill="#2563EB"/>
+<circle cx="437" cy="117" r="6" fill="#2563EB"/>
+<circle cx="468" cy="221" r="6" fill="#2563EB"/>
+<circle cx="433" cy="222" r="6" fill="#2563EB"/>
+<text x="385.0" y="257" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">2. Появился барьер:</text>
+<text x="385.0" y="275" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">горы, река, море</text>
+<rect x="530" y="85" width="210" height="150" rx="12" fill="#F0FDF4" stroke="#D1D5DB"/>
+<path d="M607.0,235 L627.0,105 L635.0,120 L647.0,85 L665.0,235 Z" fill="#A8A29E" stroke="#78716C"/>
+<circle cx="592" cy="174" r="6" fill="#2563EB"/>
+<circle cx="563" cy="105" r="6" fill="#2563EB"/>
+<circle cx="538" cy="224" r="6" fill="#2563EB"/>
+<circle cx="551" cy="188" r="6" fill="#2563EB"/>
+<circle cx="552" cy="205" r="6" fill="#2563EB"/>
+<circle cx="574" cy="131" r="6" fill="#2563EB"/>
+<circle cx="547" cy="190" r="6" fill="#2563EB"/>
+<circle cx="540" cy="123" r="6" fill="#2563EB"/>
+<circle cx="571" cy="209" r="6" fill="#2563EB"/>
+<circle cx="575" cy="130" r="6" fill="#2563EB"/>
+<circle cx="594" cy="119" r="6" fill="#2563EB"/>
+<circle cx="537" cy="128" r="6" fill="#2563EB"/>
+<circle cx="564" cy="99" r="6" fill="#2563EB"/>
+<circle cx="547" cy="142" r="6" fill="#2563EB"/>
+<rect x="701" y="103" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="688" y="208" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="727" y="176" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="709" y="166" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="674" y="90" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="666" y="211" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="709" y="218" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="666" y="173" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="695" y="186" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="685" y="223" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="670" y="160" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="711" y="209" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="711" y="182" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="715" y="211" width="12" height="12" rx="2" fill="#7C3AED"/>
+<text x="635.0" y="257" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">3. Разные мутации,</text>
+<text x="635.0" y="275" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">отбор и дрейф</text>
+<rect x="780" y="85" width="210" height="150" rx="12" fill="#F0FDF4" stroke="#D1D5DB"/>
+<circle cx="856" cy="186" r="6" fill="#2563EB"/>
+<circle cx="964" cy="211" r="6" fill="#2563EB"/>
+<circle cx="869" cy="200" r="6" fill="#2563EB"/>
+<circle cx="957" cy="170" r="6" fill="#2563EB"/>
+<circle cx="910" cy="144" r="6" fill="#2563EB"/>
+<circle cx="901" cy="175" r="6" fill="#2563EB"/>
+<circle cx="802" cy="179" r="6" fill="#2563EB"/>
+<circle cx="983" cy="212" r="6" fill="#2563EB"/>
+<circle cx="930" cy="145" r="6" fill="#2563EB"/>
+<circle cx="932" cy="171" r="6" fill="#2563EB"/>
+<circle cx="873" cy="207" r="6" fill="#2563EB"/>
+<circle cx="803" cy="195" r="6" fill="#2563EB"/>
+<circle cx="792" cy="174" r="6" fill="#2563EB"/>
+<circle cx="881" cy="123" r="6" fill="#2563EB"/>
+<rect x="918" y="154" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="902" y="212" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="831" y="87" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="840" y="179" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="820" y="108" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="959" y="176" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="868" y="208" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="845" y="177" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="819" y="144" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="940" y="211" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="954" y="138" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="895" y="129" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="807" y="154" width="12" height="12" rx="2" fill="#7C3AED"/>
+<rect x="946" y="202" width="12" height="12" rx="2" fill="#7C3AED"/>
+<text x="885.0" y="257" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">4. Барьер исчез,</text>
+<text x="885.0" y="275" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">но они не скрещиваются</text>
+<path d="M246,160.0 L274,160.0" stroke="#6B7280" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M496,160.0 L524,160.0" stroke="#6B7280" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M746,160.0 L774,160.0" stroke="#6B7280" stroke-width="3" marker-end="url(#ar)"/>
+<text x="885.0" y="295" font-size="14" fill="#7C3AED" text-anchor="middle" font-weight="bold">— это два вида</text>
+<text x="30" y="362" font-size="17" fill="#D97706" text-anchor="start" font-weight="bold">Экологическое и полиплоидное (симпатрическое) видообразование</text>
+<rect x="30" y="375" width="210" height="150" rx="12" fill="#FFFBEB" stroke="#D1D5DB"/>
+<circle cx="177" cy="512" r="6" fill="#2563EB"/>
+<circle cx="91" cy="404" r="6" fill="#2563EB"/>
+<circle cx="125" cy="419" r="6" fill="#2563EB"/>
+<circle cx="78" cy="438" r="6" fill="#2563EB"/>
+<circle cx="160" cy="449" r="6" fill="#2563EB"/>
+<circle cx="98" cy="497" r="6" fill="#2563EB"/>
+<circle cx="230" cy="443" r="6" fill="#2563EB"/>
+<circle cx="51" cy="385" r="6" fill="#2563EB"/>
+<circle cx="209" cy="387" r="6" fill="#2563EB"/>
+<circle cx="176" cy="460" r="6" fill="#2563EB"/>
+<circle cx="97" cy="490" r="6" fill="#2563EB"/>
+<circle cx="40" cy="400" r="6" fill="#2563EB"/>
+<circle cx="126" cy="384" r="6" fill="#2563EB"/>
+<circle cx="200" cy="414" r="6" fill="#2563EB"/>
+<circle cx="64" cy="387" r="6" fill="#2563EB"/>
+<circle cx="161" cy="443" r="6" fill="#2563EB"/>
+<circle cx="161" cy="471" r="6" fill="#2563EB"/>
+<circle cx="196" cy="513" r="6" fill="#2563EB"/>
+<circle cx="172" cy="409" r="6" fill="#2563EB"/>
+<circle cx="130" cy="406" r="6" fill="#2563EB"/>
+<circle cx="38" cy="446" r="6" fill="#2563EB"/>
+<circle cx="177" cy="406" r="6" fill="#2563EB"/>
+<circle cx="90" cy="429" r="6" fill="#2563EB"/>
+<circle cx="174" cy="453" r="6" fill="#2563EB"/>
+<circle cx="158" cy="485" r="6" fill="#2563EB"/>
+<circle cx="114" cy="490" r="6" fill="#2563EB"/>
+<circle cx="215" cy="393" r="6" fill="#2563EB"/>
+<circle cx="221" cy="481" r="6" fill="#2563EB"/>
+<circle cx="62" cy="444" r="6" fill="#2563EB"/>
+<circle cx="160" cy="507" r="6" fill="#2563EB"/>
+<text x="135.0" y="547" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">1. Одна популяция</text>
+<rect x="280" y="375" width="210" height="150" rx="12" fill="#FFFBEB" stroke="#D1D5DB"/>
+<circle cx="361" cy="459" r="6" fill="#2563EB"/>
+<circle cx="460" cy="491" r="6" fill="#2563EB"/>
+<circle cx="473" cy="445" r="6" fill="#2563EB"/>
+<circle cx="415" cy="409" r="6" fill="#2563EB"/>
+<circle cx="429" cy="494" r="6" fill="#2563EB"/>
+<circle cx="413" cy="480" r="6" fill="#2563EB"/>
+<circle cx="328" cy="505" r="6" fill="#2563EB"/>
+<circle cx="480" cy="516" r="6" fill="#2563EB"/>
+<circle cx="392" cy="490" r="6" fill="#2563EB"/>
+<circle cx="349" cy="507" r="6" fill="#2563EB"/>
+<circle cx="455" cy="429" r="6" fill="#2563EB"/>
+<circle cx="302" cy="442" r="6" fill="#2563EB"/>
+<circle cx="395" cy="487" r="6" fill="#2563EB"/>
+<circle cx="383" cy="385" r="6" fill="#2563EB"/>
+<circle cx="446" cy="390" r="6" fill="#2563EB"/>
+<circle cx="444" cy="405" r="6" fill="#2563EB"/>
+<circle cx="352" cy="490" r="6" fill="#2563EB"/>
+<circle cx="314" cy="402" r="6" fill="#2563EB"/>
+<circle cx="388" cy="481" r="6" fill="#2563EB"/>
+<circle cx="452" cy="476" r="6" fill="#2563EB"/>
+<circle cx="473" cy="449" r="6" fill="#2563EB"/>
+<circle cx="474" cy="393" r="6" fill="#2563EB"/>
+<circle cx="330" cy="454" r="6" fill="#2563EB"/>
+<circle cx="343" cy="482" r="6" fill="#2563EB"/>
+<rect x="406" y="447" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="447" y="452" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="342" y="428" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="447" y="499" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="321" y="492" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="472" y="447" width="12" height="12" rx="2" fill="#D97706"/>
+<text x="385.0" y="547" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">2. Часть особей: другой корм,</text>
+<text x="385.0" y="565" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">другие сроки размножения</text>
+<text x="385.0" y="583" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">или полиплоидия</text>
+<rect x="530" y="375" width="210" height="150" rx="12" fill="#FFFBEB" stroke="#D1D5DB"/>
+<circle cx="649" cy="409" r="6" fill="#2563EB"/>
+<circle cx="642" cy="450" r="6" fill="#2563EB"/>
+<circle cx="656" cy="385" r="6" fill="#2563EB"/>
+<circle cx="728" cy="452" r="6" fill="#2563EB"/>
+<circle cx="615" cy="492" r="6" fill="#2563EB"/>
+<circle cx="647" cy="449" r="6" fill="#2563EB"/>
+<circle cx="673" cy="390" r="6" fill="#2563EB"/>
+<circle cx="643" cy="438" r="6" fill="#2563EB"/>
+<circle cx="725" cy="508" r="6" fill="#2563EB"/>
+<circle cx="589" cy="446" r="6" fill="#2563EB"/>
+<circle cx="561" cy="441" r="6" fill="#2563EB"/>
+<circle cx="698" cy="505" r="6" fill="#2563EB"/>
+<circle cx="630" cy="425" r="6" fill="#2563EB"/>
+<circle cx="574" cy="466" r="6" fill="#2563EB"/>
+<circle cx="719" cy="399" r="6" fill="#2563EB"/>
+<circle cx="690" cy="384" r="6" fill="#2563EB"/>
+<rect x="568" y="406" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="666" y="419" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="600" y="461" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="551" y="476" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="554" y="445" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="580" y="402" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="635" y="435" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="604" y="432" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="635" y="397" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="570" y="462" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="656" y="448" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="699" y="459" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="700" y="407" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="677" y="487" width="12" height="12" rx="2" fill="#D97706"/>
+<text x="635.0" y="547" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">3. Живут вместе, но</text>
+<text x="635.0" y="565" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">почти не скрещиваются</text>
+<rect x="780" y="375" width="210" height="150" rx="12" fill="#FFFBEB" stroke="#D1D5DB"/>
+<circle cx="965" cy="425" r="6" fill="#2563EB"/>
+<circle cx="848" cy="508" r="6" fill="#2563EB"/>
+<circle cx="829" cy="519" r="6" fill="#2563EB"/>
+<circle cx="962" cy="399" r="6" fill="#2563EB"/>
+<circle cx="833" cy="481" r="6" fill="#2563EB"/>
+<circle cx="837" cy="394" r="6" fill="#2563EB"/>
+<circle cx="951" cy="439" r="6" fill="#2563EB"/>
+<circle cx="942" cy="398" r="6" fill="#2563EB"/>
+<circle cx="866" cy="476" r="6" fill="#2563EB"/>
+<circle cx="790" cy="409" r="6" fill="#2563EB"/>
+<circle cx="921" cy="507" r="6" fill="#2563EB"/>
+<circle cx="978" cy="397" r="6" fill="#2563EB"/>
+<circle cx="886" cy="486" r="6" fill="#2563EB"/>
+<circle cx="886" cy="476" r="6" fill="#2563EB"/>
+<circle cx="823" cy="391" r="6" fill="#2563EB"/>
+<rect x="801" y="380" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="889" y="446" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="893" y="395" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="817" y="403" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="946" y="512" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="964" y="388" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="792" y="506" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="871" y="481" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="845" y="439" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="882" y="434" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="899" y="377" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="919" y="492" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="816" y="438" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="926" y="431" width="12" height="12" rx="2" fill="#D97706"/>
+<rect x="819" y="398" width="12" height="12" rx="2" fill="#D97706"/>
+<text x="885.0" y="547" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">4. Два вида</text>
+<text x="885.0" y="565" font-size="14" fill="#111827" text-anchor="middle" font-weight="bold">на одной территории</text>
+<path d="M246,450.0 L274,450.0" stroke="#6B7280" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M496,450.0 L524,450.0" stroke="#6B7280" stroke-width="3" marker-end="url(#ar)"/>
+<path d="M746,450.0 L774,450.0" stroke="#6B7280" stroke-width="3" marker-end="url(#ar)"/>
+</svg>
