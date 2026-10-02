@@ -303,5 +303,30 @@
   "source": "https://commons.wikimedia.org/wiki/File:Illu_endocrine_system_-ru.png",
   "author": "US Government",
   "license": "Public domain"
+ },
+ "/images/lessons/061/skelet-ru.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Human_skeleton_front_ru.svg",
+  "author": "Human_skeleton_front_en.svg: LadyofHats Mariana Ruiz Villarreal\nderivative work:",
+  "license": "Public domain"
+ },
+ "/images/lessons/061/kost-razrez.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Bone_cross-section-ru.svg",
+  "author": "Bone_cross-section.svg: Pbroks13\nderivative work: Kvap (talk)",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/061/cherep-ru.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Human_skull_side_simplified_(bones)_ru.svg",
+  "author": "Human_skull_side_simplified_(bones).svg: LadyofHats Mariana Ruiz Villarreal\nderi",
+  "license": "Public domain"
+ },
+ "/images/lessons/061/pozvonochnik.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gray_111_-_Vertebral_column-coloured.png",
+  "author": "Henry Vandyke Carter",
+  "license": "Public domain"
+ },
+ "/images/lessons/061/rentgen-ruka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_Röntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg",
+  "author": "Wilhelm Röntgen",
+  "license": "Public domain"
  }
 }
