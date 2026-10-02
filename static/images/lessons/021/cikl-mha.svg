@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<rect width="900" height="600" fill="#ffffff"/>
+<text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#2f5d1e">Цикл развития кукушкина льна</text>
+<path d="M450,300 m-360,0 a360,240 0 0,1 720,0 Z" fill="#eef7e6"/>
+<path d="M450,300 m-360,0 a360,240 0 0,0 720,0 Z" fill="#fbf1e2"/>
+<text x="450" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#2f6b1e">Половое поколение — зелёное растение мха (гаметофит)</text>
+<text x="450" y="318" text-anchor="middle" font-size="15" font-weight="bold" fill="#8a5a10">Бесполое поколение — коробочка на ножке (спорофит)</text>
+<path d="M124.9,261.3 A330,225 0 0,1 191.9,159.8" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M292.3,102.3 A330,225 0 0,1 441.6,75.1" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M570.7,90.6 A330,225 0 0,1 683.8,141.2" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M768.6,241.4 A330,225 0 0,1 780.0,300.4" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M736.1,412.1 A330,225 0 0,1 597.0,501.4" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M470.4,524.6 A330,225 0 0,1 267.7,487.5" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M174.9,424.3 A330,225 0 0,1 139.7,376.6" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<rect x="21" y="286" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="121" y="310" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Спора</text>
+<text x="121" y="329" text-anchor="middle" font-size="13" fill="#555">падает на влажную почву</text>
+<text x="121" y="345" text-anchor="middle" font-size="13" fill="#555"></text>
+<rect x="138" y="94" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="238" y="118" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Протонема</text>
+<text x="238" y="137" text-anchor="middle" font-size="13" fill="#555">зелёная нить, похожа на</text>
+<text x="238" y="153" text-anchor="middle" font-size="13" fill="#555">водоросль</text>
+<rect x="407" y="44" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="507" y="68" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Мужское растение</text>
+<text x="507" y="87" text-anchor="middle" font-size="13" fill="#555">на верхушке — антеридии со</text>
+<text x="507" y="103" text-anchor="middle" font-size="13" fill="#555">сперматозоидами</text>
+<rect x="636" y="154" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="736" y="178" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Женское растение</text>
+<text x="736" y="196" text-anchor="middle" font-size="13" fill="#555">на верхушке — архегонии с</text>
+<text x="736" y="212" text-anchor="middle" font-size="13" fill="#555">яйцеклеткой</text>
+<rect x="669" y="324" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="769" y="348" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Оплодотворение</text>
+<text x="769" y="367" text-anchor="middle" font-size="13" fill="#555">сперматозоид плывёт к</text>
+<text x="769" y="383" text-anchor="middle" font-size="13" fill="#555">яйцеклетке в капле воды</text>
+<rect x="435" y="483" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="535" y="507" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Коробочка на ножке</text>
+<text x="535" y="526" text-anchor="middle" font-size="13" fill="#555">растёт на женском растении</text>
+<text x="535" y="542" text-anchor="middle" font-size="13" fill="#555">из зиготы</text>
+<rect x="117" y="425" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="217" y="449" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Споры созрели</text>
+<text x="217" y="468" text-anchor="middle" font-size="13" fill="#555">крышечка открывается, споры</text>
+<text x="217" y="484" text-anchor="middle" font-size="13" fill="#555">высыпаются</text>
+<text x="450" y="590" text-anchor="middle" font-size="13" fill="#666">Без воды оплодотворение невозможно — поэтому мхи растут во влажных местах</text>
+</svg>
