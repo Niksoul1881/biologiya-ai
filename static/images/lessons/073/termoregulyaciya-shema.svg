@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="560" fill="#ffffff"/>
+  <!-- Центр: гипоталамус -->
+  <rect x="300" y="20" width="300" height="90" rx="14" fill="#ecfdf5" stroke="#0f766e" stroke-width="3"/>
+  <text x="450" y="55" text-anchor="middle" font-size="22" font-weight="bold" fill="#0f766e">Гипоталамус</text>
+  <text x="450" y="85" text-anchor="middle" font-size="17" fill="#134e4a">«термостат»: норма ≈ 36,6 °C</text>
+  <!-- Стрелки к колонкам -->
+  <path d="M330 110 L190 165" stroke="#dc2626" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+  <path d="M570 110 L710 165" stroke="#2563eb" stroke-width="4" fill="none" marker-end="url(#ab)"/>
+  <defs>
+    <marker id="ar" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="12" refY="9" orient="auto"><path d="M0 0 L18 9 L0 18 z" fill="#dc2626"/></marker>
+    <marker id="ab" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="12" refY="9" orient="auto"><path d="M0 0 L18 9 L0 18 z" fill="#2563eb"/></marker>
+  </defs>
+  <!-- Жарко -->
+  <rect x="20" y="170" width="410" height="370" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="3"/>
+  <text x="225" y="210" text-anchor="middle" font-size="24" font-weight="bold" fill="#b91c1c">Жарко: отдать тепло</text>
+  <text x="225" y="236" text-anchor="middle" font-size="15" fill="#7f1d1d">температура тела растёт</text>
+  <g font-size="17" fill="#1f2937">
+    <circle cx="48" cy="275" r="6" fill="#dc2626"/>
+    <text x="64" y="281">Сосуды кожи <tspan font-weight="bold">расширяются</tspan></text>
+    <text x="64" y="303" font-size="15" fill="#4b5563">кожа краснеет, теплее — больше тепла уходит</text>
+    <circle cx="48" cy="340" r="6" fill="#dc2626"/>
+    <text x="64" y="346"><tspan font-weight="bold">Потоотделение</tspan> усиливается</text>
+    <text x="64" y="368" font-size="15" fill="#4b5563">пот испаряется и уносит тепло</text>
+    <circle cx="48" cy="405" r="6" fill="#dc2626"/>
+    <text x="64" y="411">Волоски <tspan font-weight="bold">прилегают</tspan> к коже</text>
+    <text x="64" y="433" font-size="15" fill="#4b5563">мышцы волос расслаблены</text>
+    <circle cx="48" cy="470" r="6" fill="#dc2626"/>
+    <text x="64" y="476">Теплообразование <tspan font-weight="bold">снижается</tspan></text>
+    <text x="64" y="498" font-size="15" fill="#4b5563">вялость, хочется в тень и пить</text>
+  </g>
+  <!-- Холодно -->
+  <rect x="470" y="170" width="410" height="370" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+  <text x="675" y="210" text-anchor="middle" font-size="24" font-weight="bold" fill="#1d4ed8">Холодно: сберечь тепло</text>
+  <text x="675" y="236" text-anchor="middle" font-size="15" fill="#1e3a8a">температура тела падает</text>
+  <g font-size="17" fill="#1f2937">
+    <circle cx="498" cy="275" r="6" fill="#2563eb"/>
+    <text x="514" y="281">Сосуды кожи <tspan font-weight="bold">сужаются</tspan></text>
+    <text x="514" y="303" font-size="15" fill="#4b5563">кожа бледнеет, теплоотдача меньше</text>
+    <circle cx="498" cy="340" r="6" fill="#2563eb"/>
+    <text x="514" y="346"><tspan font-weight="bold">Потоотделение</tspan> почти прекращается</text>
+    <text x="514" y="368" font-size="15" fill="#4b5563">тепло не уходит с испарением</text>
+    <circle cx="498" cy="405" r="6" fill="#2563eb"/>
+    <text x="514" y="411">Волоски <tspan font-weight="bold">поднимаются</tspan></text>
+    <text x="514" y="433" font-size="15" fill="#4b5563">«гусиная кожа»</text>
+    <circle cx="498" cy="470" r="6" fill="#2563eb"/>
+    <text x="514" y="476"><tspan font-weight="bold">Дрожь</tspan>, обмен веществ растёт</text>
+    <text x="514" y="498" font-size="15" fill="#4b5563">мышцы сокращаются и выделяют тепло</text>
+  </g>
+</svg>
