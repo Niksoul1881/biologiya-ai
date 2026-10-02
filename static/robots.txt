@@ -1,4 +1,3 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://www.matematika-ai.ru/sitemap.xml
+Disallow: /
+# Временно: сайт на тестовом адресе. При запуске на домене заменить на Allow: / и добавить Sitemap.

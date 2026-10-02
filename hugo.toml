@@ -6,6 +6,7 @@ title = 'Биология AI'
   description = 'Биология от 5 класса до биоинформатики и ML: уроки, ОГЭ, ЕГЭ, глоссарий'
   telegramBot = '#bot'   # бота пока нет
   donateUrl = '#'
+  noindexSite = true   # тестовый адрес: закрыт от поиска. При запуске на домене — false и открыть static/robots.txt
 
 [markup.goldmark.renderer]
   unsafe = true
