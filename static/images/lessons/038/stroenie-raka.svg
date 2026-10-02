@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" font-family="Arial, Helvetica, sans-serif">
+<rect width="1100" height="560" fill="#fff"/>
+<path d="M262,294 C200,320 120,360 40,470" stroke="#7c2d12" stroke-width="3" fill="none"/>
+<path d="M252,288 L200,300 L150,294 M200,300 L155,316" stroke="#7c2d12" stroke-width="2.5" fill="none"/>
+<line x1="258" y1="292" x2="244" y2="310" stroke="#7c2d12" stroke-width="5"/><circle cx="242" cy="313" r="7" fill="#111827"/>
+<path d="M300,330 L270,380 L230,410" stroke="#7c2d12" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="270" cy="380" r="6.5" fill="#fdba74" stroke="#7c2d12" stroke-width="1.5"/>
+<path d="M230,410 C190,430 120,430 90,420 C120,410 160,405 180,400 C150,398 110,392 95,385 C140,380 200,385 230,410 Z" fill="#c2410c" stroke="#7c2d12" stroke-width="2"/>
+<path d="M360,335 L350,400 L330,455" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="350" cy="400" r="4.5" fill="#fdba74" stroke="#7c2d12" stroke-width="1.5"/>
+<path d="M400,335 L398,400 L386,455" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="398" cy="400" r="4.5" fill="#fdba74" stroke="#7c2d12" stroke-width="1.5"/>
+<path d="M440,335 L446,400 L442,455" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="446" cy="400" r="4.5" fill="#fdba74" stroke="#7c2d12" stroke-width="1.5"/>
+<path d="M480,335 L494,400 L498,455" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="494" cy="400" r="4.5" fill="#fdba74" stroke="#7c2d12" stroke-width="1.5"/>
+<line x1="560" y1="320" x2="568" y2="338" stroke="#7c2d12" stroke-width="3"/>
+<line x1="610" y1="320" x2="618" y2="338" stroke="#7c2d12" stroke-width="3"/>
+<line x1="660" y1="320" x2="668" y2="338" stroke="#7c2d12" stroke-width="3"/>
+<line x1="710" y1="320" x2="718" y2="338" stroke="#7c2d12" stroke-width="3"/>
+<path d="M262,266 C200,240 120,200 40,90" stroke="#7c2d12" stroke-width="3" fill="none"/>
+<path d="M252,272 L200,260 L150,266 M200,260 L155,244" stroke="#7c2d12" stroke-width="2.5" fill="none"/>
+<line x1="258" y1="268" x2="244" y2="250" stroke="#7c2d12" stroke-width="5"/><circle cx="242" cy="247" r="7" fill="#111827"/>
+<path d="M300,230 L270,180 L230,150" stroke="#7c2d12" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="270" cy="180" r="6.5" fill="#fdba74" stroke="#7c2d12" stroke-width="1.5"/>
+<path d="M230,150 C190,130 120,130 90,140 C120,150 160,155 180,160 C150,162 110,168 95,175 C140,180 200,175 230,150 Z" fill="#c2410c" stroke="#7c2d12" stroke-width="2"/>
+<path d="M360,225 L350,160 L330,105" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="350" cy="160" r="4.5" fill="#fdba74" stroke="#7c2d12" stroke-width="1.5"/>
+<path d="M400,225 L398,160 L386,105" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="398" cy="160" r="4.5" fill="#fdba74" stroke="#7c2d12" stroke-width="1.5"/>
+<path d="M440,225 L446,160 L442,105" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="446" cy="160" r="4.5" fill="#fdba74" stroke="#7c2d12" stroke-width="1.5"/>
+<path d="M480,225 L494,160 L498,105" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="494" cy="160" r="4.5" fill="#fdba74" stroke="#7c2d12" stroke-width="1.5"/>
+<line x1="560" y1="240" x2="568" y2="222" stroke="#7c2d12" stroke-width="3"/>
+<line x1="610" y1="240" x2="618" y2="222" stroke="#7c2d12" stroke-width="3"/>
+<line x1="660" y1="240" x2="668" y2="222" stroke="#7c2d12" stroke-width="3"/>
+<line x1="710" y1="240" x2="718" y2="222" stroke="#7c2d12" stroke-width="3"/>
+<path d="M255,280 C255,225 320,210 420,212 C480,214 520,225 525,280 C520,335 480,346 420,348 C320,350 255,335 255,280 Z" fill="#c2410c" stroke="#7c2d12" stroke-width="3"/>
+<path d="M255,280 L212,280" stroke="#7c2d12" stroke-width="6" stroke-linecap="round"/>
+<path d="M330,218 C350,260 350,300 330,342" stroke="#7c2d12" stroke-width="2" fill="none"/>
+<rect x="525" y="232.0" width="59" height="96.0" rx="10" fill="#c2410c" stroke="#7c2d12" stroke-width="2.5"/>
+<rect x="580" y="235.92857142857144" width="54" height="88.14285714285714" rx="10" fill="#c2410c" stroke="#7c2d12" stroke-width="2.5"/>
+<rect x="630" y="239.5" width="54" height="81.0" rx="10" fill="#c2410c" stroke="#7c2d12" stroke-width="2.5"/>
+<rect x="680" y="243.07142857142856" width="49" height="73.85714285714286" rx="10" fill="#c2410c" stroke="#7c2d12" stroke-width="2.5"/>
+<rect x="725" y="246.28571428571428" width="44" height="67.42857142857143" rx="10" fill="#c2410c" stroke="#7c2d12" stroke-width="2.5"/>
+<rect x="765" y="249.14285714285714" width="39" height="61.714285714285715" rx="10" fill="#c2410c" stroke="#7c2d12" stroke-width="2.5"/>
+<path d="M800,258 L880,225 L895,265 L900,295 L880,335 L800,302 Z" fill="#c2410c" stroke="#7c2d12" stroke-width="2.5"/>
+<path d="M800,280 L898,280 M805,268 L885,245 M805,292 L885,315" stroke="#7c2d12" stroke-width="1.5"/>
+<line x1="70" y1="70" x2="60" y2="140" stroke="#374151" stroke-width="1.5"/><circle cx="60" cy="140" r="3" fill="#374151"/>
+<text x="20" y="60" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Длинные усики</text>
+<line x1="120" y1="190" x2="160" y2="264" stroke="#374151" stroke-width="1.5"/><circle cx="160" cy="264" r="3" fill="#374151"/>
+<text x="20" y="180" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Короткие усики</text>
+<line x1="240" y1="108" x2="242" y2="238" stroke="#374151" stroke-width="1.5"/><circle cx="242" cy="238" r="3" fill="#374151"/>
+<text x="130" y="100" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Глаз на стебельке</text>
+<line x1="60" y1="320" x2="214" y2="281" stroke="#374151" stroke-width="1.5"/><circle cx="214" cy="281" r="3" fill="#374151"/>
+<text x="20" y="340" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Шип (рострум)</text>
+<line x1="110" y1="500" x2="140" y2="425" stroke="#374151" stroke-width="1.5"/><circle cx="140" cy="425" r="3" fill="#374151"/>
+<text x="30" y="520" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Клешня (1-я пара ходильных ног)</text>
+<line x1="430" y1="520" x2="442" y2="447" stroke="#374151" stroke-width="1.5"/><circle cx="442" cy="447" r="3" fill="#374151"/>
+<text x="350" y="540" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Ходильные ноги (ещё 4 пары)</text>
+<line x1="952" y1="90" x2="450" y2="215" stroke="#374151" stroke-width="1.5"/><circle cx="450" cy="215" r="3" fill="#374151"/>
+<text x="960" y="85" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Головогрудь</text>
+<text x="960" y="103" font-size="14" text-anchor="start" fill="#111827">под панцирем</text>
+<line x1="952" y1="200" x2="700" y2="240" stroke="#374151" stroke-width="1.5"/><circle cx="700" cy="240" r="3" fill="#374151"/>
+<text x="960" y="195" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Брюшко</text>
+<text x="960" y="213" font-size="14" text-anchor="start" fill="#111827">(6 сегментов)</text>
+<line x1="952" y1="350" x2="714" y2="324" stroke="#374151" stroke-width="1.5"/><circle cx="714" cy="324" r="3" fill="#374151"/>
+<text x="960" y="345" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Брюшные ножки</text>
+<line x1="952" y1="430" x2="882" y2="330" stroke="#374151" stroke-width="1.5"/><circle cx="882" cy="330" r="3" fill="#374151"/>
+<text x="960" y="425" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">Хвостовой</text>
+<text x="960" y="443" font-size="16" font-weight="bold" text-anchor="start" fill="#111827">плавник</text>
+</svg>
