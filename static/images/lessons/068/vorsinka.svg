@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="760" height="520" fill="#ffffff"/>
+  <text x="380" y="32" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">Ворсинка тонкой кишки: здесь идёт всасывание</text>
+  <!-- ворсинка -->
+  <path d="M240 470 L240 150 Q240 70 320 70 Q400 70 400 150 L400 470" fill="#fde2e4" stroke="#be185d" stroke-width="3"/>
+  <!-- эпителий: ряд клеток -->
+  <g stroke="#be185d" stroke-width="1.5" fill="none">
+    <path d="M262 470 L262 152 Q262 92 320 92 Q378 92 378 152 L378 470"/>
+    <line x1="240" y1="200" x2="262" y2="200"/><line x1="240" y1="250" x2="262" y2="250"/><line x1="240" y1="300" x2="262" y2="300"/><line x1="240" y1="350" x2="262" y2="350"/><line x1="240" y1="400" x2="262" y2="400"/>
+    <line x1="378" y1="200" x2="400" y2="200"/><line x1="378" y1="250" x2="400" y2="250"/><line x1="378" y1="300" x2="400" y2="300"/><line x1="378" y1="350" x2="400" y2="350"/><line x1="378" y1="400" x2="400" y2="400"/>
+  </g>
+  <!-- микроворсинки -->
+  <g stroke="#be185d" stroke-width="1.5">
+    <line x1="240" y1="215" x2="232" y2="215"/><line x1="240" y1="222" x2="232" y2="222"/><line x1="240" y1="229" x2="232" y2="229"/><line x1="240" y1="236" x2="232" y2="236"/>
+    <line x1="240" y1="315" x2="232" y2="315"/><line x1="240" y1="322" x2="232" y2="322"/><line x1="240" y1="329" x2="232" y2="329"/><line x1="240" y1="336" x2="232" y2="336"/>
+  </g>
+  <!-- капилляры: артериальный и венозный -->
+  <path d="M290 470 L290 160 Q290 120 320 120 Q350 120 350 160 L350 470" fill="none" stroke="url(#cap)" stroke-width="7"/>
+  <linearGradient id="cap" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#dc2626"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+  <g stroke="#7c3aed" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M290 200 L350 230"/><path d="M290 260 L350 290"/><path d="M290 320 L350 350"/><path d="M290 380 L350 410"/>
+  </g>
+  <!-- лимфатический капилляр -->
+  <path d="M312 470 L312 170 Q320 150 328 170 L328 470" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <!-- подписи -->
+  <g font-size="15" fill="#111827">
+    <line x1="232" y1="225" x2="150" y2="200" stroke="#374151"/><text x="20" y="180" font-weight="bold">Микроворсинки</text><text x="20" y="198">на клетках эпителия —</text><text x="20" y="216">ещё больше площадь</text>
+    <line x1="250" y1="420" x2="150" y2="440" stroke="#374151"/><text x="20" y="440" font-weight="bold">Эпителий</text><text x="20" y="458">один слой клеток</text>
+    <line x1="350" y1="260" x2="470" y2="200" stroke="#374151"/><text x="478" y="186" font-weight="bold" fill="#b91c1c">Кровеносные капилляры</text><text x="478" y="206">всасывают глюкозу, аминокислоты,</text><text x="478" y="224">воду, соли, витамины;</text><text x="478" y="242">кровь идёт в печень</text>
+    <line x1="328" y1="330" x2="470" y2="340" stroke="#374151"/><text x="478" y="330" font-weight="bold" fill="#a16207">Лимфатический капилляр</text><text x="478" y="350">всасывает большую часть жиров</text><text x="478" y="368">(в виде мелких капелек)</text>
+  </g>
+  <text x="320" y="500" font-size="14" text-anchor="middle" fill="#374151">высота ворсинки — около 0,5–1 мм</text>
+  <text x="560" y="440" font-size="13" text-anchor="middle" fill="#6b7280">Складки + ворсинки + микроворсинки</text>
+  <text x="560" y="458" font-size="13" text-anchor="middle" fill="#6b7280">увеличивают площадь кишки</text>
+  <text x="560" y="476" font-size="13" text-anchor="middle" fill="#6b7280">в сотни раз</text>
+</svg>
