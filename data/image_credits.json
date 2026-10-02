@@ -148,5 +148,30 @@
   "source": "https://commons.wikimedia.org/wiki/File:Mendel_paper.jpg",
   "author": "Gregor Mendel, 1866",
   "license": "Public domain"
+ },
+ "/images/lessons/063/krov-pod-mikroskopom.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Кровь_человека.jpg",
+  "author": "Лаборатория \"Микрокосмос\"",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/063/eritrocity-lejkocity-sem.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
+  "author": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-",
+  "license": "Public domain"
+ },
+ "/images/lessons/063/lejkocity-vidy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Blausen_0909_WhiteBloodCells.png",
+  "author": "BruceBlaus. When using this image in external sources it can be cited as:\n\nBlaus",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/063/gemoglobin.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:1GZX_Haemoglobin.png",
+  "author": "Zephyris at English Wikipedia",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/063/levenguk.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Antoni_van_Leeuwenhoek_(by_Jan_Verkolje,_1686).jpg",
+  "author": "Jan Verkolje (1650—1693)",
+  "license": "Public domain"
  }
 }

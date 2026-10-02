@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, Helvetica, sans-serif">
+  <rect width="640" height="460" fill="#ffffff"/>
+  <text x="320" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">Состав крови: что видно в пробирке после центрифуги</text>
+  <!-- пробирка -->
+  <path d="M120 70 L120 360 Q120 420 170 420 Q220 420 220 360 L220 70" fill="none" stroke="#374151" stroke-width="4"/>
+  <!-- плазма -->
+  <path d="M123 100 L217 100 L217 245 L123 245 Z" fill="#f6d365"/>
+  <!-- лейкоциты и тромбоциты -->
+  <rect x="123" y="245" width="94" height="10" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1"/>
+  <!-- эритроциты -->
+  <path d="M123 255 L217 255 L217 360 Q217 417 170 417 Q123 417 123 360 Z" fill="#b91c1c"/>
+  <!-- подписи -->
+  <line x1="225" y1="170" x2="300" y2="170" stroke="#374151" stroke-width="2"/>
+  <text x="308" y="160" font-size="20" font-weight="bold" fill="#92400e">Плазма — около 55%</text>
+  <text x="308" y="184" font-size="16" fill="#374151">вода (90–92%), белки (7–8%),</text>
+  <text x="308" y="204" font-size="16" fill="#374151">глюкоза, соли, гормоны, витамины</text>
+  <line x1="225" y1="250" x2="300" y2="262" stroke="#374151" stroke-width="2"/>
+  <text x="308" y="258" font-size="18" font-weight="bold" fill="#4b5563">Лейкоциты и тромбоциты</text>
+  <text x="308" y="280" font-size="16" fill="#374151">тонкий белёсый слой — менее 1%</text>
+  <line x1="225" y1="345" x2="300" y2="345" stroke="#374151" stroke-width="2"/>
+  <text x="308" y="338" font-size="20" font-weight="bold" fill="#991b1b">Эритроциты — около 45%</text>
+  <text x="308" y="362" font-size="16" fill="#374151">эта доля называется гематокритом</text>
+  <text x="308" y="382" font-size="16" fill="#374151">(у взрослых примерно 36–50%)</text>
+  <text x="170" y="448" font-size="15" text-anchor="middle" fill="#6b7280">кровь с веществом против свёртывания</text>
+</svg>
