@@ -188,5 +188,20 @@
   "source": "https://commons.wikimedia.org/wiki/File:Cicada-skins.jpg",
   "author": "Bundschuh",
   "license": "Public domain"
+ },
+ "/images/lessons/083/urovni-struktury.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Main_protein_structure_levels_en.svg",
+  "author": "LadyofHats",
+  "license": "Public domain"
+ },
+ "/images/lessons/083/inducirovannoe-sootvetstvie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Induced_fit_diagram.svg",
+  "author": "Created by TimVickers, vectorized by Fvasconcellos",
+  "license": "Public domain"
+ },
+ "/images/lessons/083/urovni-bukvy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:225_Peptide_Bond-01_labeled.jpg",
+  "author": "OpenStax",
+  "license": "CC BY 3.0"
  }
 }
