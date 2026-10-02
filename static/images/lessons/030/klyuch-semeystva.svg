@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" font-family="Arial, Helvetica, sans-serif">
+  <title>Ключ для определения семейства</title>
+  <rect width="1000" height="750" fill="#ffffff"/>
+  <text x="500" y="34" font-size="23" font-weight="bold" fill="#14532d" text-anchor="middle">Ключ: определяем семейство цветкового растения</text>
+  <text x="500" y="58" font-size="15" fill="#4b5563" text-anchor="middle">Читай обе строчки шага, выбери ту, что подходит, и иди по стрелке</text>
+  <rect x="15" y="70" width="970" height="100" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <circle cx="48" cy="120" r="22" fill="#15803d"/><text x="48" y="127" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+  <text x="85" y="102" font-size="17" fill="#1f2937">а) Жилкование параллельное или дуговое, части цветка по 3</text>
+  <line x1="640" y1="96" x2="735" y2="96" stroke="#9ca3af" stroke-width="2"/><polygon points="735,90 747,96 735,102" fill="#9ca3af"/>
+  <text x="760" y="102" font-size="17" font-weight="bold" fill="#15803d">к шагу 2</text>
+  <text x="85" y="144" font-size="17" fill="#1f2937">б) Жилкование сетчатое, части цветка по 4 или 5</text>
+  <line x1="640" y1="138" x2="735" y2="138" stroke="#9ca3af" stroke-width="2"/><polygon points="735,132 747,138 735,144" fill="#9ca3af"/>
+  <text x="760" y="144" font-size="17" font-weight="bold" fill="#15803d">к шагу 3</text>
+  <rect x="15" y="180" width="970" height="100" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <circle cx="48" cy="230" r="22" fill="#15803d"/><text x="48" y="237" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">2</text>
+  <text x="85" y="212" font-size="17" fill="#1f2937">а) Стебель — соломина, цветки мелкие, в колосках</text>
+  <line x1="640" y1="206" x2="735" y2="206" stroke="#9ca3af" stroke-width="2"/><polygon points="735,200 747,206 735,212" fill="#9ca3af"/>
+  <rect x="755" y="188" width="215" height="34" rx="17" fill="#ca8a04"/><text x="862" y="211" font-size="17" font-weight="bold" fill="#fff" text-anchor="middle">ЗЛАКИ</text>
+  <text x="85" y="254" font-size="17" fill="#1f2937">б) Яркий околоцветник из 6 листочков</text>
+  <line x1="640" y1="248" x2="735" y2="248" stroke="#9ca3af" stroke-width="2"/><polygon points="735,242 747,248 735,254" fill="#9ca3af"/>
+  <rect x="755" y="230" width="215" height="34" rx="17" fill="#c2410c"/><text x="862" y="253" font-size="17" font-weight="bold" fill="#fff" text-anchor="middle">ЛИЛЕЙНЫЕ</text>
+  <rect x="15" y="290" width="970" height="100" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <circle cx="48" cy="340" r="22" fill="#15803d"/><text x="48" y="347" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">3</text>
+  <text x="85" y="322" font-size="17" fill="#1f2937">а) Много мелких цветков в соцветии-корзинке</text>
+  <line x1="640" y1="316" x2="735" y2="316" stroke="#9ca3af" stroke-width="2"/><polygon points="735,310 747,316 735,322" fill="#9ca3af"/>
+  <rect x="755" y="298" width="215" height="34" rx="17" fill="#eab308"/><text x="862" y="321" font-size="17" font-weight="bold" fill="#fff" text-anchor="middle">СЛОЖНОЦВЕТНЫЕ</text>
+  <text x="85" y="364" font-size="17" fill="#1f2937">б) Цветки не в корзинке</text>
+  <line x1="640" y1="358" x2="735" y2="358" stroke="#9ca3af" stroke-width="2"/><polygon points="735,352 747,358 735,364" fill="#9ca3af"/>
+  <text x="760" y="364" font-size="17" font-weight="bold" fill="#15803d">к шагу 4</text>
+  <rect x="15" y="400" width="970" height="100" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <circle cx="48" cy="450" r="22" fill="#15803d"/><text x="48" y="457" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">4</text>
+  <text x="85" y="432" font-size="17" fill="#1f2937">а) Цветок-«мотылёк»: парус, вёсла, лодочка; плод боб</text>
+  <line x1="640" y1="426" x2="735" y2="426" stroke="#9ca3af" stroke-width="2"/><polygon points="735,420 747,426 735,432" fill="#9ca3af"/>
+  <rect x="755" y="408" width="215" height="34" rx="17" fill="#7c3aed"/><text x="862" y="431" font-size="17" font-weight="bold" fill="#fff" text-anchor="middle">БОБОВЫЕ</text>
+  <text x="85" y="474" font-size="17" fill="#1f2937">б) Цветок правильный, «звёздочка»</text>
+  <line x1="640" y1="468" x2="735" y2="468" stroke="#9ca3af" stroke-width="2"/><polygon points="735,462 747,468 735,474" fill="#9ca3af"/>
+  <text x="760" y="474" font-size="17" font-weight="bold" fill="#15803d">к шагу 5</text>
+  <rect x="15" y="510" width="970" height="100" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <circle cx="48" cy="560" r="22" fill="#15803d"/><text x="48" y="567" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">5</text>
+  <text x="85" y="542" font-size="17" fill="#1f2937">а) 4 лепестка крестом, тычинок 6 (4 + 2), плод стручок</text>
+  <line x1="640" y1="536" x2="735" y2="536" stroke="#9ca3af" stroke-width="2"/><polygon points="735,530 747,536 735,542" fill="#9ca3af"/>
+  <rect x="755" y="518" width="215" height="34" rx="17" fill="#65a30d"/><text x="862" y="541" font-size="17" font-weight="bold" fill="#fff" text-anchor="middle">КАПУСТНЫЕ</text>
+  <text x="85" y="584" font-size="17" fill="#1f2937">б) Лепестков 5</text>
+  <line x1="640" y1="578" x2="735" y2="578" stroke="#9ca3af" stroke-width="2"/><polygon points="735,572 747,578 735,584" fill="#9ca3af"/>
+  <text x="760" y="584" font-size="17" font-weight="bold" fill="#15803d">к шагу 6</text>
+  <rect x="15" y="620" width="970" height="100" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <circle cx="48" cy="670" r="22" fill="#15803d"/><text x="48" y="677" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">6</text>
+  <text x="85" y="652" font-size="17" fill="#1f2937">а) Лепестки свободные, тычинок много</text>
+  <line x1="640" y1="646" x2="735" y2="646" stroke="#9ca3af" stroke-width="2"/><polygon points="735,640 747,646 735,652" fill="#9ca3af"/>
+  <rect x="755" y="628" width="215" height="34" rx="17" fill="#db2777"/><text x="862" y="651" font-size="17" font-weight="bold" fill="#fff" text-anchor="middle">РОЗОЦВЕТНЫЕ</text>
+  <text x="85" y="694" font-size="17" fill="#1f2937">б) Лепестки сросшиеся, тычинок 5</text>
+  <line x1="640" y1="688" x2="735" y2="688" stroke="#9ca3af" stroke-width="2"/><polygon points="735,682 747,688 735,694" fill="#9ca3af"/>
+  <rect x="755" y="670" width="215" height="34" rx="17" fill="#6d28d9"/><text x="862" y="693" font-size="17" font-weight="bold" fill="#fff" text-anchor="middle">ПАСЛЁНОВЫЕ</text>
+</svg>
