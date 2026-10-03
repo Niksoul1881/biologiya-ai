@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="560" fill="#fff"/>
+<text x="500" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Три уровня мутаций — и что им соответствует в коде</text>
+<rect x="15" y="55" width="315" height="380" rx="14" fill="#eef6fb" stroke="#1d4f86" stroke-width="2.5"/>
+<text x="172.5" y="86" font-size="20" font-weight="bold" text-anchor="middle" fill="#1d4f86">Генные (точечные)</text>
+<text x="172.5" y="108" font-size="14" text-anchor="middle" fill="#444">в пределах одного гена</text>
+<rect x="27" y="120" width="291" height="92" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="39" y="142" font-size="16" font-weight="bold" fill="#222">замена нуклеотида</text>
+<text x="39" y="166" font-size="14" fill="#333">пример: серповидноклеточная анемия</text>
+<text x="39" y="190" font-size="14" font-style="italic" fill="#1d4f86">в IT: опечатка в строке</text>
+<rect x="27" y="222" width="291" height="92" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="39" y="244" font-size="16" font-weight="bold" fill="#222">вставка / делеция</text>
+<text x="39" y="268" font-size="14" fill="#333">пример: муковисцидоз (ΔF508)</text>
+<text x="39" y="292" font-size="14" font-style="italic" fill="#1d4f86">в IT: лишний / пропущенный символ</text>
+<rect x="27" y="324" width="291" height="92" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="39" y="346" font-size="16" font-weight="bold" fill="#222">экспансия повторов</text>
+<text x="39" y="370" font-size="14" fill="#333">пример: болезнь Хантингтона</text>
+<text x="39" y="394" font-size="14" font-style="italic" fill="#1d4f86">в IT: строка, повторённая сотню раз</text>
+<rect x="347" y="55" width="315" height="380" rx="14" fill="#f6effa" stroke="#7a3fa0" stroke-width="2.5"/>
+<text x="504.5" y="86" font-size="20" font-weight="bold" text-anchor="middle" fill="#7a3fa0">Хромосомные</text>
+<text x="504.5" y="108" font-size="14" text-anchor="middle" fill="#444">перестройка участков хромосом</text>
+<rect x="359" y="120" width="291" height="92" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="371" y="142" font-size="16" font-weight="bold" fill="#222">делеция, дупликация</text>
+<text x="371" y="166" font-size="14" fill="#333">пример: синдром «кошачьего крика»</text>
+<text x="371" y="190" font-size="14" font-style="italic" fill="#7a3fa0">в IT: удалили / скопировали модуль</text>
+<rect x="359" y="222" width="291" height="92" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="371" y="244" font-size="16" font-weight="bold" fill="#222">инверсия</text>
+<text x="371" y="268" font-size="14" fill="#333">пример: (часто без симптомов)</text>
+<text x="371" y="292" font-size="14" font-style="italic" fill="#7a3fa0">в IT: блок кода задом наперёд</text>
+<rect x="359" y="324" width="291" height="92" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="371" y="346" font-size="16" font-weight="bold" fill="#222">транслокация</text>
+<text x="371" y="370" font-size="14" fill="#333">пример: хронический миелолейкоз</text>
+<text x="371" y="394" font-size="14" font-style="italic" fill="#7a3fa0">в IT: склеили две функции</text>
+<rect x="679" y="55" width="315" height="380" rx="14" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2.5"/>
+<text x="836.5" y="86" font-size="20" font-weight="bold" text-anchor="middle" fill="#1b7a3a">Геномные</text>
+<text x="836.5" y="108" font-size="14" text-anchor="middle" fill="#444">изменение числа хромосом</text>
+<rect x="691" y="120" width="291" height="92" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="703" y="142" font-size="16" font-weight="bold" fill="#222">анеуплоидия (±1 хромосома)</text>
+<text x="703" y="166" font-size="14" fill="#333">пример: синдром Дауна (трисомия 21)</text>
+<text x="703" y="190" font-size="14" font-style="italic" fill="#1b7a3a">в IT: лишняя копия файла в сборке</text>
+<rect x="691" y="222" width="291" height="92" rx="10" fill="#fff" stroke="#ccc"/>
+<text x="703" y="244" font-size="16" font-weight="bold" fill="#222">полиплоидия (×2, ×3 набора)</text>
+<text x="703" y="268" font-size="14" fill="#333">пример: культурные пшеница, банан</text>
+<text x="703" y="292" font-size="14" font-style="italic" fill="#1b7a3a">в IT: весь проект склонирован дважды</text>
+<rect x="15" y="452" width="480" height="92" rx="12" fill="#fff8e6" stroke="#b36b00" stroke-width="2"/>
+<text x="30" y="478" font-size="16" font-weight="bold" fill="#b36b00">Соматическая мутация</text>
+<text x="30" y="502" font-size="14" fill="#333">в клетке тела: передаётся только её потомкам</text>
+<text x="30" y="526" font-size="14" font-style="italic" fill="#b36b00">в IT: баг в одном запущенном инстансе</text>
+<rect x="505" y="452" width="480" height="92" rx="12" fill="#fde8e6" stroke="#b3261e" stroke-width="2"/>
+<text x="520" y="478" font-size="16" font-weight="bold" fill="#b3261e">Генеративная (в половых клетках)</text>
+<text x="520" y="502" font-size="14" fill="#333">попадает в каждую клетку потомка</text>
+<text x="520" y="526" font-size="14" font-style="italic" fill="#b3261e">в IT: баг в базовом образе — уехал во все деплои</text>
+</svg>
