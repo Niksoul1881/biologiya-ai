@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="620" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<text x="450.0" y="32" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold">Опыт Моргана: сцепленное наследование у дрозофилы</text>
+<text x="450" y="62" font-size="13.5" text-anchor="middle" fill="#333">B — серое тело, b — чёрное; V — нормальные крылья, v — зачаточные. Гены лежат в одной хромосоме.</text>
+<text x="40" y="110" font-size="20" text-anchor="start" fill="#333" font-weight="bold">P</text>
+<g transform="translate(200 110) scale(1.0) translate(-200 -110)"><ellipse cx="218" cy="110" rx="16" ry="10" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><ellipse cx="196" cy="110" rx="10" ry="9" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><circle cx="182" cy="110" r="7" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><circle cx="179" cy="107" r="3.2" fill="#c0392b"/><ellipse cx="214" cy="96" rx="26" ry="9" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(-25 204 96)" opacity="0.9"/><ellipse cx="214" cy="124" rx="26" ry="9" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(25 204 124)" opacity="0.9"/></g>
+<text x="200" y="150" font-size="15" text-anchor="middle" fill="#1d4f86" font-weight="bold">BV / BV</text>
+<text x="330" y="116" font-size="24" text-anchor="middle" fill="#333">×</text>
+<g transform="translate(460 110) scale(1.0) translate(-460 -110)"><ellipse cx="478" cy="110" rx="16" ry="10" fill="#3b3026" stroke="#333" stroke-width="1.2"/><ellipse cx="456" cy="110" rx="10" ry="9" fill="#3b3026" stroke="#333" stroke-width="1.2"/><circle cx="442" cy="110" r="7" fill="#3b3026" stroke="#333" stroke-width="1.2"/><circle cx="439" cy="107" r="3.2" fill="#c0392b"/><ellipse cx="466" cy="96" rx="9" ry="5" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(-25 464 96)" opacity="0.9"/><ellipse cx="466" cy="124" rx="9" ry="5" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(25 464 124)" opacity="0.9"/></g>
+<text x="460" y="150" font-size="15" text-anchor="middle" fill="#1d4f86" font-weight="bold">bv / bv</text>
+<text x="650" y="110" font-size="14" text-anchor="start" fill="#333" font-weight="bold">F₁: все серые</text>
+<text x="650" y="128" font-size="14" text-anchor="start" fill="#333">с нормальными крыльями</text>
+<text x="650" y="148" font-size="15" text-anchor="start" fill="#1d4f86" font-weight="bold">BV / bv</text>
+<rect x="20" y="175" width="420" height="425" rx="10" fill="#eef6fb" stroke="#9bb"/>
+<rect x="460" y="175" width="420" height="425" rx="10" fill="#fdf8ef" stroke="#d8c39a"/>
+<text x="230" y="203" font-size="16" text-anchor="middle" fill="#1d4f86" font-weight="bold">♂ F₁ × ♀ bv/bv</text>
+<text x="230" y="224" font-size="14" text-anchor="middle" fill="#1d4f86" font-weight="bold">полное сцепление</text>
+<text x="670" y="203" font-size="16" text-anchor="middle" fill="#a87020" font-weight="bold">♀ F₁ × ♂ bv/bv</text>
+<text x="670" y="224" font-size="14" text-anchor="middle" fill="#a87020" font-weight="bold">неполное сцепление</text>
+<g transform="translate(120 290) scale(1.0) translate(-120 -290)"><ellipse cx="138" cy="290" rx="16" ry="10" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><ellipse cx="116" cy="290" rx="10" ry="9" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><circle cx="102" cy="290" r="7" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><circle cx="99" cy="287" r="3.2" fill="#c0392b"/><ellipse cx="134" cy="276" rx="26" ry="9" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(-25 124 276)" opacity="0.9"/><ellipse cx="134" cy="304" rx="26" ry="9" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(25 124 304)" opacity="0.9"/></g>
+<text x="120" y="330" font-size="12" text-anchor="middle" fill="#333">серые, норм. крылья</text>
+<text x="120" y="348" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">50%</text>
+<g transform="translate(330 290) scale(1.0) translate(-330 -290)"><ellipse cx="348" cy="290" rx="16" ry="10" fill="#3b3026" stroke="#333" stroke-width="1.2"/><ellipse cx="326" cy="290" rx="10" ry="9" fill="#3b3026" stroke="#333" stroke-width="1.2"/><circle cx="312" cy="290" r="7" fill="#3b3026" stroke="#333" stroke-width="1.2"/><circle cx="309" cy="287" r="3.2" fill="#c0392b"/><ellipse cx="336" cy="276" rx="9" ry="5" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(-25 334 276)" opacity="0.9"/><ellipse cx="336" cy="304" rx="9" ry="5" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(25 334 304)" opacity="0.9"/></g>
+<text x="330" y="330" font-size="12" text-anchor="middle" fill="#333">чёрные, зачат. крылья</text>
+<text x="330" y="348" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">50%</text>
+<text x="230" y="400" font-size="13" text-anchor="middle" fill="#333">Только два класса, как у родителей:</text>
+<text x="230" y="420" font-size="13" text-anchor="middle" fill="#333">гены одной хромосомы наследуются вместе.</text>
+<text x="230" y="440" font-size="13" text-anchor="middle" fill="#333">У самцов дрозофилы кроссинговера нет.</text>
+<g transform="translate(560 290) scale(1.0) translate(-560 -290)"><ellipse cx="578" cy="290" rx="16" ry="10" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><ellipse cx="556" cy="290" rx="10" ry="9" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><circle cx="542" cy="290" r="7" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><circle cx="539" cy="287" r="3.2" fill="#c0392b"/><ellipse cx="574" cy="276" rx="26" ry="9" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(-25 564 276)" opacity="0.9"/><ellipse cx="574" cy="304" rx="26" ry="9" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(25 564 304)" opacity="0.9"/></g>
+<text x="560" y="330" font-size="12" text-anchor="middle" fill="#333">серые, норм.</text>
+<text x="560" y="348" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">41,5%</text>
+<g transform="translate(780 290) scale(1.0) translate(-780 -290)"><ellipse cx="798" cy="290" rx="16" ry="10" fill="#3b3026" stroke="#333" stroke-width="1.2"/><ellipse cx="776" cy="290" rx="10" ry="9" fill="#3b3026" stroke="#333" stroke-width="1.2"/><circle cx="762" cy="290" r="7" fill="#3b3026" stroke="#333" stroke-width="1.2"/><circle cx="759" cy="287" r="3.2" fill="#c0392b"/><ellipse cx="786" cy="276" rx="9" ry="5" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(-25 784 276)" opacity="0.9"/><ellipse cx="786" cy="304" rx="9" ry="5" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(25 784 304)" opacity="0.9"/></g>
+<text x="780" y="330" font-size="12" text-anchor="middle" fill="#333">чёрные, зачат.</text>
+<text x="780" y="348" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">41,5%</text>
+<g transform="translate(560 420) scale(1.0) translate(-560 -420)"><ellipse cx="578" cy="420" rx="16" ry="10" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><ellipse cx="556" cy="420" rx="10" ry="9" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><circle cx="542" cy="420" r="7" fill="#b5a58a" stroke="#333" stroke-width="1.2"/><circle cx="539" cy="417" r="3.2" fill="#c0392b"/><ellipse cx="566" cy="406" rx="9" ry="5" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(-25 564 406)" opacity="0.9"/><ellipse cx="566" cy="434" rx="9" ry="5" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(25 564 434)" opacity="0.9"/></g>
+<text x="560" y="460" font-size="12" text-anchor="middle" fill="#333">серые, зачат.</text>
+<text x="560" y="478" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">8,5%</text>
+<g transform="translate(780 420) scale(1.0) translate(-780 -420)"><ellipse cx="798" cy="420" rx="16" ry="10" fill="#3b3026" stroke="#333" stroke-width="1.2"/><ellipse cx="776" cy="420" rx="10" ry="9" fill="#3b3026" stroke="#333" stroke-width="1.2"/><circle cx="762" cy="420" r="7" fill="#3b3026" stroke="#333" stroke-width="1.2"/><circle cx="759" cy="417" r="3.2" fill="#c0392b"/><ellipse cx="794" cy="406" rx="26" ry="9" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(-25 784 406)" opacity="0.9"/><ellipse cx="794" cy="434" rx="26" ry="9" fill="#e8eef5" stroke="#8aa" stroke-width="1.2" transform="rotate(25 784 434)" opacity="0.9"/></g>
+<text x="780" y="460" font-size="12" text-anchor="middle" fill="#333">чёрные, норм.</text>
+<text x="780" y="478" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">8,5%</text>
+<text x="670" y="248" font-size="12.5" text-anchor="middle" fill="#555">родительские сочетания — 83%</text>
+<text x="670" y="392" font-size="12.5" text-anchor="middle" fill="#a0306a" font-weight="bold">рекомбинанты (кроссинговер) — 17%</text>
+<text x="670" y="535" font-size="13" text-anchor="middle" fill="#333">Кроссинговер у самки разрывает сцепление:</text>
+<text x="670" y="555" font-size="13" text-anchor="middle" fill="#333">17% рекомбинантов → расстояние между</text>
+<text x="670" y="575" font-size="13" text-anchor="middle" fill="#333">генами 17 морганид (сантиморганид)</text>
+</svg>

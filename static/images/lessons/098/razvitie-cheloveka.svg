@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="400" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<text x="450.0" y="32" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold">Внутриутробное развитие человека</text>
+<rect x="40" y="150" width="320" height="34" rx="6" fill="#f8dcea" stroke="#a0306a"/>
+<rect x="360" y="150" width="210" height="34" fill="#fbe7c6" stroke="#a87020"/>
+<rect x="570" y="150" width="290" height="34" rx="6" fill="#dbe9f6" stroke="#1d4f86"/>
+<text x="200" y="172" font-size="14" text-anchor="middle" fill="#a0306a" font-weight="bold">первые 2 недели</text>
+<text x="465" y="172" font-size="14" text-anchor="middle" fill="#a87020" font-weight="bold">3–8 недели</text>
+<text x="715" y="172" font-size="14" text-anchor="middle" fill="#1d4f86" font-weight="bold">9–38 недели</text>
+<text x="200" y="212" font-size="13" text-anchor="middle" fill="#333" font-weight="bold">начальный период:</text>
+<text x="200" y="230" font-size="13" text-anchor="middle" fill="#333">дробление, бластоциста,</text>
+<text x="200" y="248" font-size="13" text-anchor="middle" fill="#333">имплантация в стенку матки</text>
+<text x="465" y="212" font-size="13" text-anchor="middle" fill="#333" font-weight="bold">зародышевый период:</text>
+<text x="465" y="230" font-size="13" text-anchor="middle" fill="#333">гаструляция, нейруляция,</text>
+<text x="465" y="248" font-size="13" text-anchor="middle" fill="#333">закладка органов; сердце</text>
+<text x="465" y="266" font-size="13" text-anchor="middle" fill="#333">бьётся с 4-й недели</text>
+<text x="715" y="212" font-size="13" text-anchor="middle" fill="#333" font-weight="bold">плодный период:</text>
+<text x="715" y="230" font-size="13" text-anchor="middle" fill="#333">рост и созревание</text>
+<text x="715" y="248" font-size="13" text-anchor="middle" fill="#333">органов и систем</text>
+<line x1="62" y1="132" x2="62" y2="150" stroke="#555" stroke-width="2"/>
+<text x="62" y="126" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">0</text>
+<text x="70" y="86" font-size="13" text-anchor="middle" fill="#333" font-weight="bold">оплодотворение</text>
+<line x1="140" y1="132" x2="140" y2="150" stroke="#555" stroke-width="2"/>
+<text x="140" y="126" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">3–4 сут</text>
+<text x="140" y="106" font-size="13" text-anchor="middle" fill="#333" font-weight="bold">морула</text>
+<line x1="220" y1="132" x2="220" y2="150" stroke="#555" stroke-width="2"/>
+<text x="220" y="126" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">5 сут</text>
+<text x="220" y="86" font-size="13" text-anchor="middle" fill="#333" font-weight="bold">бластоциста</text>
+<line x1="310" y1="132" x2="310" y2="150" stroke="#555" stroke-width="2"/>
+<text x="310" y="126" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">6–7 сут</text>
+<text x="310" y="106" font-size="13" text-anchor="middle" fill="#333" font-weight="bold">имплантация</text>
+<line x1="400" y1="132" x2="400" y2="150" stroke="#555" stroke-width="2"/>
+<text x="400" y="126" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">3 нед</text>
+<text x="400" y="86" font-size="13" text-anchor="middle" fill="#333" font-weight="bold">гаструляция</text>
+<line x1="560" y1="132" x2="560" y2="150" stroke="#555" stroke-width="2"/>
+<text x="560" y="126" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">8 нед</text>
+<text x="560" y="106" font-size="13" text-anchor="middle" fill="#333" font-weight="bold">органы заложены</text>
+<line x1="850" y1="132" x2="850" y2="150" stroke="#555" stroke-width="2"/>
+<text x="850" y="126" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="bold">≈ 38 нед</text>
+<text x="850" y="86" font-size="13" text-anchor="middle" fill="#333" font-weight="bold">роды</text>
+<rect x="40" y="290" width="820" height="90" rx="10" fill="#fff8e1" stroke="#e0a800"/>
+<text x="450" y="317" font-size="14" text-anchor="middle" fill="#333" font-weight="bold">Период закладки органов (3–8 недели) особенно чувствителен</text>
+<text x="450" y="339" font-size="14" text-anchor="middle" fill="#333">к алкоголю, никотину, некоторым лекарствам, вирусам (например, краснухе) и облучению.</text>
+<text x="450" y="363" font-size="13" text-anchor="middle" fill="#555">Акушеры считают срок беременности от первого дня последней менструации — около 40 недель.</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="900" height="470" fill="#fff"/>
+  <text x="450" y="32" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Трансляция: элонгация на рибосоме</text>
+  <!-- большая субъединица -->
+  <path d="M 230 300 L 230 170 Q 230 80 450 80 Q 670 80 670 170 L 670 300 z" fill="#dbe9f6" stroke="#1d4f86" stroke-width="3"/>
+  <text x="60" y="160" font-size="15" fill="#1d4f86" font-weight="bold">большая</text><text x="60" y="178" font-size="15" fill="#1d4f86" font-weight="bold">субъединица</text>
+  <!-- малая -->
+  <path d="M 240 330 L 660 330 Q 660 400 450 400 Q 240 400 240 330 z" fill="#c9dcf0" stroke="#1d4f86" stroke-width="3"/>
+  <text x="450" y="388" font-size="15" text-anchor="middle" fill="#1d4f86" font-weight="bold">малая субъединица</text>
+  <!-- участки -->
+  <g font-size="22" font-weight="bold" fill="#1d4f86" text-anchor="middle">
+    <text x="330" y="150">E</text><text x="478" y="150">P</text><text x="570" y="150">A</text>
+  </g>
+  <g stroke="#9bb" stroke-width="1.5" stroke-dasharray="4 4"><line x1="390" y1="130" x2="390" y2="300"/><line x1="510" y1="130" x2="510" y2="300"/></g>
+  <!-- иРНК -->
+  <rect x="60" y="302" width="790" height="26" rx="6" fill="#7a3fa0"/>
+  <text x="30" y="321" font-size="15" fill="#7a3fa0" font-weight="bold">5′</text>
+  <text x="858" y="321" font-size="15" fill="#7a3fa0" font-weight="bold">3′</text>
+  <g font-family="DejaVu Sans Mono, Courier New, monospace" font-size="17" font-weight="bold" fill="#fff" text-anchor="middle">
+    <text x="130" y="321">АУГ</text><text x="210" y="321">ГЦУ</text><text x="330" y="321">ААА</text><text x="450" y="321">УУУ</text><text x="570" y="321">ГГЦ</text><text x="690" y="321">УАА</text><text x="780" y="321">…</text>
+  </g>
+  <!-- тРНК в P -->
+  <path d="M 425 300 L 425 225 L 475 225 L 475 300 z" fill="#fde9d4" stroke="#b85c00" stroke-width="2.5"/>
+  <text x="450" y="296" font-size="13" text-anchor="middle" fill="#b85c00" font-weight="bold">ААА</text>
+  <!-- тРНК в A -->
+  <path d="M 545 300 L 545 225 L 595 225 L 595 300 z" fill="#fde9d4" stroke="#b85c00" stroke-width="2.5"/>
+  <text x="570" y="296" font-size="13" text-anchor="middle" fill="#b85c00" font-weight="bold">ЦЦГ</text>
+  <!-- тРНК уходит из E -->
+  <path d="M 300 270 L 300 195 L 350 195 L 350 270 z" fill="#fde9d4" stroke="#b85c00" stroke-width="2" stroke-dasharray="5 4" opacity="0.8"/>
+  <path d="M 298 240 L 150 240" stroke="#999" stroke-width="2" marker-end="url(#a)"/>
+  <text x="40" y="228" font-size="14" fill="#777">тРНК уходит</text><text x="40" y="262" font-size="14" fill="#777">из участка E</text>
+  <!-- пептид -->
+  <g font-size="12" font-weight="bold" text-anchor="middle" fill="#1b7a3a">
+    <circle cx="450" cy="205" r="17" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2"/><text x="450" y="209">Фен</text>
+    <circle cx="430" cy="172" r="17" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2"/><text x="430" y="176">Лиз</text>
+    <circle cx="420" cy="138" r="17" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2"/><text x="420" y="142">Ала</text>
+    <circle cx="430" cy="104" r="17" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2"/><text x="430" y="108">Мет</text>
+    <circle cx="570" cy="205" r="17" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2"/><text x="570" y="209">Гли</text>
+  </g>
+  
+  <text x="455" y="70" font-size="14" fill="#1b7a3a" font-weight="bold">растущая белковая цепь</text>
+  <path d="M 553 200 Q 510 185 470 200" fill="none" stroke="#c0392b" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="680" y="190" font-size="14" fill="#c0392b">пептидная связь:</text>
+  <text x="680" y="208" font-size="14" fill="#c0392b">цепь переходит на</text>
+  <text x="680" y="226" font-size="14" fill="#c0392b">аминокислоту в A</text>
+  <!-- движение -->
+  <path d="M 520 438 L 680 438" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+  <text x="120" y="443" font-size="15" fill="#333">рибосома сдвигается на 1 кодон к 3′-концу</text>
+</svg>

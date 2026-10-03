@@ -1793,5 +1793,45 @@
   "source": "https://commons.wikimedia.org/wiki/File:Mendel_paper.jpg",
   "author": "Gregor Mendel, 1866",
   "license": "Public domain"
+ },
+ "/images/lessons/092/cikl-kalvina.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Calvin-cycle4_ru.svg",
+  "author": "Mike Jones; русская версия — Meddoc13",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/092/hloroplast-cifry.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Chloroplast-drawing-numb.svg",
+  "author": "Kārlis Kalviškis",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/092/tilakoid-membrana.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Thylakoid_membrane_2.svg",
+  "author": "Tameeria; SVG — Elisardojm",
+  "license": "Public domain"
+ },
+ "/images/lessons/092/spektr-hlorofilla.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Chlorophyll_Absorption_Spectrum.svg",
+  "author": "Serge Helfrich",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/092/list-tkani.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Leaf_Tissue_Structure_ru.svg",
+  "author": "Эрг",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/102/morgan.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Thomas_Hunt_Morgan.jpg",
+  "author": "автор неизвестен",
+  "license": "Public domain"
+ },
+ "/images/lessons/103/krest-nakrest-morgan.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Criss-cross_inheritance.jpg",
+  "author": "Morgan T. H., Sturtevant A. H., Muller H. J., Bridges C. B.",
+  "license": "Public domain"
+ },
+ "/images/lessons/103/trehcvetnaya-koshka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Calico_cat,_Lebanon_0.jpg",
+  "author": "ولاء",
+  "license": "Public domain"
  }
 }

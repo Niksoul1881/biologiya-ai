@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="340" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<text x="450.0" y="32" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold">Анализирующее скрещивание дигетерозиготы</text>
+<text x="80" y="80" font-size="20" text-anchor="start" fill="#333" font-weight="bold">P:</text>
+<text x="300" y="80" font-size="20" text-anchor="middle" fill="#333" font-weight="bold">♀ AaBb</text>
+<text x="450" y="80" font-size="22" text-anchor="middle" fill="#333" font-weight="bold">×</text>
+<text x="600" y="80" font-size="20" text-anchor="middle" fill="#333" font-weight="bold">♂ aabb</text>
+<text x="300" y="104" font-size="13" text-anchor="middle" fill="#555">жёлтые гладкие</text>
+<text x="600" y="104" font-size="13" text-anchor="middle" fill="#555">зелёные морщинистые</text>
+<text x="80" y="145" font-size="20" text-anchor="start" fill="#333" font-weight="bold">G:</text>
+<text x="300" y="145" font-size="17" text-anchor="middle" fill="#1d4f86" font-weight="bold">AB,  Ab,  aB,  ab</text>
+<text x="600" y="145" font-size="17" text-anchor="middle" fill="#1d4f86" font-weight="bold">ab</text>
+<text x="300" y="145" font-size="17" text-anchor="middle" fill="#1d4f86" font-weight="bold" xml:space="preserve"></text>
+<text x="80" y="215" font-size="20" text-anchor="start" fill="#333" font-weight="bold">F:</text>
+<rect x="120" y="180" width="175" height="90" rx="10" fill="#fdf2c4" stroke="#999"/>
+<text x="207" y="210" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">AaBb</text>
+<text x="207" y="233" font-size="13" text-anchor="middle" fill="#333">жёлтые гладкие</text>
+<text x="207" y="257" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">25%</text>
+<rect x="310" y="180" width="175" height="90" rx="10" fill="#fbe1b0" stroke="#999"/>
+<text x="397" y="210" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">Aabb</text>
+<text x="397" y="233" font-size="13" text-anchor="middle" fill="#333">жёлтые морщинистые</text>
+<text x="397" y="257" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">25%</text>
+<rect x="500" y="180" width="175" height="90" rx="10" fill="#dff0cf" stroke="#999"/>
+<text x="587" y="210" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">aaBb</text>
+<text x="587" y="233" font-size="13" text-anchor="middle" fill="#333">зелёные гладкие</text>
+<text x="587" y="257" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">25%</text>
+<rect x="690" y="180" width="175" height="90" rx="10" fill="#c9e3b4" stroke="#999"/>
+<text x="777" y="210" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">aabb</text>
+<text x="777" y="233" font-size="13" text-anchor="middle" fill="#333">зелёные морщинистые</text>
+<text x="777" y="257" font-size="16" text-anchor="middle" fill="#c0392b" font-weight="bold">25%</text>
+<text x="450" y="310" font-size="14" text-anchor="middle" fill="#1b4d1b" font-weight="bold">1 : 1 : 1 : 1 — по фенотипам потомков видно, какие гаметы и в какой доле дала дигетерозигота</text>
+</svg>

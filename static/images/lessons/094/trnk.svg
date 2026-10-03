@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="900" height="470" fill="#fff"/>
+  <text x="450" y="32" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Транспортная РНК и «зарядка» аминокислотой</text>
+  <!-- тРНК клеверный лист -->
+  <g stroke="#b85c00" stroke-width="3" fill="#fde9d4">
+    <rect x="215" y="95" width="46" height="95" rx="6"/>
+    <circle cx="150" cy="215" r="44"/>
+    <circle cx="330" cy="215" r="44"/>
+    <rect x="205" y="185" width="66" height="70" rx="6"/>
+    <rect x="215" y="250" width="46" height="70" rx="6"/>
+    <circle cx="238" cy="352" r="42"/>
+  </g>
+  <g stroke="#e0b48a" stroke-width="2">
+    <line x1="223" y1="110" x2="253" y2="110"/><line x1="223" y1="125" x2="253" y2="125"/><line x1="223" y1="140" x2="253" y2="140"/><line x1="223" y1="155" x2="253" y2="155"/><line x1="223" y1="170" x2="253" y2="170"/>
+    <line x1="223" y1="265" x2="253" y2="265"/><line x1="223" y1="280" x2="253" y2="280"/><line x1="223" y1="295" x2="253" y2="295"/>
+  </g>
+  <!-- акцепторный конец -->
+  <text x="268" y="70" font-size="18" font-weight="bold" fill="#b85c00">ЦЦА-3′</text>
+  <line x1="255" y1="95" x2="265" y2="75" stroke="#b85c00" stroke-width="3"/>
+  <text x="196" y="88" font-size="15" fill="#b85c00">5′</text>
+  <text x="300" y="110" font-size="14" fill="#333">акцепторный конец:</text>
+  <text x="300" y="128" font-size="14" fill="#333">здесь крепится аминокислота</text>
+  <!-- антикодон -->
+  <g font-family="DejaVu Sans Mono, Courier New, monospace" font-weight="bold" font-size="20" text-anchor="middle" fill="#b85c00">
+    <text x="216" y="374">Г</text><text x="238" y="380">А</text><text x="260" y="374">А</text>
+  </g>
+  <text x="238" y="425" font-size="15" text-anchor="middle" fill="#333">антикодон</text>
+  <text x="238" y="445" font-size="14" text-anchor="middle" fill="#555">(узнаёт кодон иРНК)</text>
+  <text x="40" y="215" font-size="14" fill="#555">петля</text>
+  <text x="380" y="215" font-size="14" fill="#555">петля</text>
+
+  <!-- зарядка -->
+  <g>
+    <rect x="520" y="90" width="340" height="300" rx="16" fill="#f7f7f7" stroke="#ccc"/>
+    <text x="690" y="118" font-size="17" font-weight="bold" text-anchor="middle" fill="#333">Активация аминокислоты</text>
+    <text x="690" y="160" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">аминокислота + тРНК + АТФ</text>
+    <path d="M 690 175 L 690 240" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+    <text x="705" y="200" font-size="14" fill="#7a3fa0" font-weight="bold">аминоацил-тРНК-</text>
+    <text x="705" y="218" font-size="14" fill="#7a3fa0" font-weight="bold">синтетаза</text>
+    <text x="690" y="270" font-size="16" text-anchor="middle" fill="#1b7a3a" font-weight="bold">аминоацил-тРНК</text>
+    <text x="690" y="292" font-size="14" text-anchor="middle" fill="#333">(«заряженная» тРНК) + АМФ + 2Ф</text>
+    <text x="545" y="335" font-size="13.5" fill="#555">Для каждой из 20 аминокислот — свой</text>
+    <text x="545" y="353" font-size="13.5" fill="#555">фермент, который узнаёт и аминокислоту,</text>
+    <text x="545" y="371" font-size="13.5" fill="#555">и подходящие ей тРНК.</text>
+  </g>
+</svg>
