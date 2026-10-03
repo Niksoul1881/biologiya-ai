@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <clipPath id="field"><circle cx="270" cy="250" r="200"/></clipPath>
+    <g id="cell">
+      <rect x="0" y="0" width="150" height="56" rx="6" fill="#fef9c3" stroke="#a16207" stroke-width="4"/>
+      <rect x="10" y="9" width="130" height="38" rx="10" fill="#fefce8" stroke="#d6d3d1" stroke-width="1.5"/>
+    </g>
+  </defs>
+  <rect width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Кожица лука под микроскопом (окрашена йодом)</text>
+  <circle cx="270" cy="250" r="205" fill="#111827"/>
+  <g clip-path="url(#field)">
+    <rect x="60" y="40" width="420" height="420" fill="#fde68a"/>
+    <!-- ряды клеток, сдвинутые как кирпичная кладка -->
+    <g>
+      <use href="#cell" x="-20" y="40"/><use href="#cell" x="130" y="40"/><use href="#cell" x="280" y="40"/><use href="#cell" x="430" y="40"/>
+      <use href="#cell" x="55" y="96"/><use href="#cell" x="205" y="96"/><use href="#cell" x="355" y="96"/>
+      <use href="#cell" x="-20" y="152"/><use href="#cell" x="130" y="152"/><use href="#cell" x="280" y="152"/><use href="#cell" x="430" y="152"/>
+      <use href="#cell" x="55" y="208"/><use href="#cell" x="205" y="208"/><use href="#cell" x="355" y="208"/>
+      <use href="#cell" x="-20" y="264"/><use href="#cell" x="130" y="264"/><use href="#cell" x="280" y="264"/><use href="#cell" x="430" y="264"/>
+      <use href="#cell" x="55" y="320"/><use href="#cell" x="205" y="320"/><use href="#cell" x="355" y="320"/>
+      <use href="#cell" x="-20" y="376"/><use href="#cell" x="130" y="376"/><use href="#cell" x="280" y="376"/><use href="#cell" x="430" y="376"/>
+      <use href="#cell" x="55" y="432"/><use href="#cell" x="205" y="432"/>
+    </g>
+    <!-- ядра -->
+    <g fill="#b45309" stroke="#78350f" stroke-width="2">
+      <ellipse cx="170" cy="66" rx="11" ry="9"/><ellipse cx="350" cy="72" rx="11" ry="9"/>
+      <ellipse cx="105" cy="126" rx="11" ry="9"/><ellipse cx="300" cy="120" rx="11" ry="9"/><ellipse cx="430" cy="130" rx="11" ry="9"/>
+      <ellipse cx="180" cy="182" rx="11" ry="9"/><ellipse cx="320" cy="176" rx="11" ry="9"/>
+      <ellipse cx="120" cy="236" rx="11" ry="9"/><ellipse cx="260" cy="234" rx="11" ry="9"/><ellipse cx="410" cy="240" rx="11" ry="9"/>
+      <ellipse cx="200" cy="290" rx="11" ry="9"/><ellipse cx="360" cy="292" rx="11" ry="9"/>
+      <ellipse cx="90" cy="348" rx="11" ry="9"/><ellipse cx="275" cy="344" rx="11" ry="9"/><ellipse cx="420" cy="350" rx="11" ry="9"/>
+      <ellipse cx="160" cy="404" rx="11" ry="9"/><ellipse cx="330" cy="400" rx="11" ry="9"/>
+    </g>
+    <g fill="#78350f"><circle cx="262" cy="232" r="3"/><circle cx="322" cy="174" r="3"/></g>
+  </g>
+  <circle cx="270" cy="250" r="200" fill="none" stroke="#374151" stroke-width="8"/>
+  <!-- подписи -->
+  <g font-size="18" fill="#1f2937">
+    <line x1="350" y1="208" x2="560" y2="120" stroke="#ffffff" stroke-width="5"/>
+    <line x1="350" y1="208" x2="560" y2="120" stroke="#374151" stroke-width="2"/>
+    <text x="568" y="115" font-weight="bold" fill="#a16207">Клеточная стенка</text>
+    <text x="568" y="135" font-size="15" fill="#4b5563">прочная, из целлюлозы</text>
+    <line x1="270" y1="234" x2="560" y2="200" stroke="#ffffff" stroke-width="5"/>
+    <line x1="270" y1="234" x2="560" y2="200" stroke="#374151" stroke-width="2"/>
+    <text x="568" y="196" font-weight="bold" fill="#92400e">Ядро</text>
+    <text x="568" y="216" font-size="15" fill="#4b5563">после йода жёлто-коричневое,</text>
+    <text x="568" y="234" font-size="15" fill="#4b5563">внутри видно ядрышко</text>
+    <line x1="395" y1="300" x2="560" y2="290" stroke="#ffffff" stroke-width="5"/>
+    <line x1="395" y1="300" x2="560" y2="290" stroke="#374151" stroke-width="2"/>
+    <text x="568" y="286" font-weight="bold" fill="#57534e">Цитоплазма с вакуолью</text>
+    <text x="568" y="306" font-size="15" fill="#4b5563">вакуоль занимает почти всю клетку,</text>
+    <text x="568" y="324" font-size="15" fill="#4b5563">цитоплазма — тонким слоем у стенок</text>
+  </g>
+  <text x="590" y="380" font-size="15" fill="#4b5563">Хлоропластов нет: чешуи луковицы</text>
+  <text x="590" y="398" font-size="15" fill="#4b5563">растут в темноте.</text>
+  <text x="590" y="430" font-size="14" fill="#6b7280">Клетки вытянутые, плотно прилегают</text>
+  <text x="590" y="447" font-size="14" fill="#6b7280">друг к другу — как кирпичная кладка.</text>
+</svg>

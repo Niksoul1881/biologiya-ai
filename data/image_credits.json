@@ -368,5 +368,50 @@
   "source": "https://commons.wikimedia.org/wiki/File:Mendel_paper.jpg",
   "author": "Gregor Mendel, 1866",
   "license": "Public domain"
+ },
+ "/images/lessons/006/stroenie-bakterii.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Average_prokaryote_cell-_ru.svg",
+  "author": "Mariana Ruiz Villarreal (LadyofHats); русская версия",
+  "license": "Public domain"
+ },
+ "/images/lessons/006/formy-bakteriy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Bacterial_morphology_diagram-ru.svg",
+  "author": "Kirill Borisenko",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/006/levenguk-bakterii.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Leuwenhoek_picture_of_animacules.png",
+  "author": "Antoni van Leeuwenhoek, 1683; оцифровка — Huydang2910",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/006/kishechnaya-palochka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:E_coli_at_10000x,_original.jpg",
+  "author": "Eric Erbe, Christopher Pooley (USDA ARS)",
+  "license": "Public domain"
+ },
+ "/images/lessons/007/tabachnaya-mozaika-list.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Tobacco_mosaic_virus_symptoms_tobacco.jpg",
+  "author": "R. J. Reynolds Tobacco Company Slide Set, Bugwood.org",
+  "license": "CC BY 3.0 us"
+ },
+ "/images/lessons/008/gribnica.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Mycelium.JPG",
+  "author": "Christian Scheckhuber",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/010/ksantoriya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Xanthoria_parietina_(06_03_31).jpg",
+  "author": "Taka",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/011/hooke-probka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Micrographia_Schem_11.jpg",
+  "author": "Robert Hooke (1635-1703)",
+  "license": "Public domain"
+ },
+ "/images/lessons/011/kletka-rastitelnaya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Plant_cell_structure-ru-v2.png",
+  "author": "Original: LadyofHats (Mariana Ruiz) / Derivative: Dhatfield / Derivative: Lady3m",
+  "license": "CC0"
  }
 }

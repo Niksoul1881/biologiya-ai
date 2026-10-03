@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="960" height="470" fill="#ffffff"/>
+  <text x="480" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Видоизменённые побеги</text>
+
+  <!-- 1 клубень -->
+  <rect x="10" y="55" width="180" height="400" rx="14" fill="#fefce8" stroke="#facc15" stroke-width="2"/>
+  <text x="100" y="82" font-size="17" font-weight="bold" text-anchor="middle" fill="#a16207">Клубень</text>
+  <ellipse cx="100" cy="230" rx="70" ry="52" fill="#d6a35c" stroke="#92400e" stroke-width="3"/>
+  <g fill="#78350f"><circle cx="70" cy="210" r="4"/><circle cx="120" cy="200" r="4"/><circle cx="95" cy="250" r="4"/><circle cx="140" cy="240" r="4"/><circle cx="60" cy="250" r="4"/></g>
+  <g fill="none" stroke="#78350f" stroke-width="2"><path d="M62,218 q8,6 16,0"/><path d="M112,208 q8,6 16,0"/><path d="M87,258 q8,6 16,0"/><path d="M132,248 q8,6 16,0"/></g>
+  <path d="M30,200 C10,180 20,160 40,150" fill="none" stroke="#a16207" stroke-width="4"/>
+  <text x="100" y="320" font-size="13" text-anchor="middle" fill="#1f2937">глазки = почки,</text>
+  <text x="100" y="337" font-size="13" text-anchor="middle" fill="#1f2937">бровки = следы листьев</text>
+  <text x="100" y="380" font-size="14" text-anchor="middle" fill="#1f2937">запас крахмала</text>
+  <text x="100" y="425" font-size="15" font-weight="bold" text-anchor="middle" fill="#a16207">картофель</text>
+
+  <!-- 2 луковица -->
+  <rect x="200" y="55" width="180" height="400" rx="14" fill="#fdf4ff" stroke="#e879f9" stroke-width="2"/>
+  <text x="290" y="82" font-size="17" font-weight="bold" text-anchor="middle" fill="#a21caf">Луковица</text>
+  <path d="M290,110 C230,170 220,250 240,280 L340,280 C360,250 350,170 290,110 z" fill="#f5d0fe" stroke="#a21caf" stroke-width="3"/>
+  <path d="M290,135 C250,180 245,245 258,275 L322,275 C335,245 330,180 290,135 z" fill="#fae8ff" stroke="#c026d3" stroke-width="2"/>
+  <path d="M290,160 C265,195 262,245 272,272 L308,272 C318,245 315,195 290,160 z" fill="#ffffff" stroke="#c026d3" stroke-width="2"/>
+  <path d="M290,200 C282,220 282,250 285,268 L295,268 C298,250 298,220 290,200 z" fill="#86efac" stroke="#15803d" stroke-width="1.5"/>
+  <rect x="240" y="280" width="100" height="18" rx="6" fill="#a16207" stroke="#713f12" stroke-width="2"/>
+  <g stroke="#a8a29e" stroke-width="2"><line x1="255" y1="298" x2="248" y2="325"/><line x1="270" y1="298" x2="268" y2="330"/><line x1="290" y1="298" x2="290" y2="332"/><line x1="310" y1="298" x2="312" y2="330"/><line x1="325" y1="298" x2="332" y2="325"/></g>
+
+  <text x="290" y="355" font-size="13" text-anchor="middle" fill="#1f2937">донце = стебель,</text>
+  <text x="290" y="372" font-size="13" text-anchor="middle" fill="#1f2937">чешуи = листья,</text><text x="290" y="389" font-size="13" text-anchor="middle" fill="#1f2937">в центре — почка</text>
+  <text x="290" y="425" font-size="15" font-weight="bold" text-anchor="middle" fill="#a21caf">лук, тюльпан</text>
+
+  <!-- 3 корневище -->
+  <rect x="390" y="55" width="180" height="400" rx="14" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+  <text x="480" y="82" font-size="17" font-weight="bold" text-anchor="middle" fill="#166534">Корневище</text>
+  <rect x="392" y="160" width="176" height="150" fill="#f3e8d6"/>
+  <path d="M405,230 C440,222 480,238 520,228 C540,224 552,228 560,230" fill="none" stroke="#d6a35c" stroke-width="14" stroke-linecap="round"/>
+  <g stroke="#92400e" stroke-width="2"><line x1="440" y1="220" x2="440" y2="240"/><line x1="480" y1="226" x2="480" y2="246"/><line x1="520" y1="218" x2="520" y2="238"/></g>
+  <g fill="#a3e635" stroke="#3f6212" stroke-width="1.5"><path d="M440,220 C436,210 440,202 444,198 C448,206 446,214 440,220 z"/><path d="M520,218 C516,208 520,200 524,196 C528,204 526,212 520,218 z"/></g>
+  <path d="M555,225 L555,110" stroke="#65a30d" stroke-width="5"/>
+  <path d="M555,140 C530,120 520,100 525,85 C540,100 550,120 555,140 z" fill="#4ade80" stroke="#15803d" stroke-width="2"/>
+  <g fill="#ffffff" stroke="#a8a29e"><circle cx="562" cy="118" r="4"/><circle cx="560" cy="128" r="4"/><circle cx="563" cy="138" r="4"/></g>
+  <g stroke="#a8a29e" stroke-width="2"><line x1="440" y1="238" x2="430" y2="275"/><line x1="440" y1="238" x2="452" y2="280"/><line x1="480" y1="244" x2="476" y2="285"/><line x1="520" y1="236" x2="512" y2="275"/><line x1="520" y1="236" x2="530" y2="280"/></g>
+  <text x="480" y="340" font-size="13" text-anchor="middle" fill="#1f2937">узлы, почки, чешуи;</text>
+  <text x="480" y="357" font-size="13" text-anchor="middle" fill="#1f2937">корни — придаточные</text>
+  <text x="480" y="380" font-size="14" text-anchor="middle" fill="#1f2937">запас, размножение</text>
+  <text x="480" y="425" font-size="15" font-weight="bold" text-anchor="middle" fill="#166534">ландыш, пырей</text>
+
+  <!-- 4 усы -->
+  <rect x="580" y="55" width="180" height="400" rx="14" fill="#fff1f2" stroke="#fda4af" stroke-width="2"/>
+  <text x="670" y="82" font-size="17" font-weight="bold" text-anchor="middle" fill="#be123c">Усы</text>
+  <rect x="582" y="270" width="176" height="40" fill="#f3e8d6"/>
+  <path d="M610,268 C640,240 690,240 720,268" fill="none" stroke="#be123c" stroke-width="3"/>
+  <g fill="#4ade80" stroke="#15803d" stroke-width="2">
+    <ellipse cx="600" cy="230" rx="14" ry="22" transform="rotate(-20 600 230)"/><ellipse cx="620" cy="225" rx="14" ry="22" transform="rotate(20 620 225)"/>
+    <ellipse cx="712" cy="245" rx="10" ry="16" transform="rotate(-20 712 245)"/><ellipse cx="728" cy="242" rx="10" ry="16" transform="rotate(20 728 242)"/>
+  </g>
+  <g fill="#ef4444"><circle cx="610" cy="262" r="6"/></g>
+  <g stroke="#a8a29e" stroke-width="2"><line x1="720" y1="270" x2="715" y2="295"/><line x1="720" y1="270" x2="728" y2="295"/></g>
+  <text x="670" y="340" font-size="13" text-anchor="middle" fill="#1f2937">ползучие побеги:</text>
+  <text x="670" y="357" font-size="13" text-anchor="middle" fill="#1f2937">в узле — новая розетка</text>
+  <text x="670" y="380" font-size="14" text-anchor="middle" fill="#1f2937">размножение</text>
+  <text x="670" y="425" font-size="15" font-weight="bold" text-anchor="middle" fill="#be123c">земляника</text>
+
+  <!-- 5 колючки -->
+  <rect x="770" y="55" width="180" height="400" rx="14" fill="#f5f5f4" stroke="#a8a29e" stroke-width="2"/>
+  <text x="860" y="82" font-size="17" font-weight="bold" text-anchor="middle" fill="#44403c">Колючки</text>
+  <path d="M860,310 L860,110" stroke="#78350f" stroke-width="8"/>
+  <g fill="#4ade80" stroke="#15803d" stroke-width="2">
+    <path d="M864,160 C890,150 915,155 925,165 C905,175 885,172 864,160 z"/>
+    <path d="M856,240 C830,230 805,235 795,245 C815,255 835,252 856,240 z"/>
+  </g>
+  <g stroke="#57534e" stroke-width="4" stroke-linecap="round"><line x1="864" y1="155" x2="895" y2="130"/><line x1="856" y1="235" x2="825" y2="210"/></g>
+  <text x="860" y="340" font-size="13" text-anchor="middle" fill="#1f2937">колючка в пазухе</text>
+  <text x="860" y="357" font-size="13" text-anchor="middle" fill="#1f2937">листа — это побег</text>
+  <text x="860" y="380" font-size="14" text-anchor="middle" fill="#1f2937">защита</text>
+  <text x="860" y="425" font-size="15" font-weight="bold" text-anchor="middle" fill="#44403c">боярышник</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Стержневая и мочковатая корневые системы</text>
+  <rect x="0" y="170" width="900" height="300" fill="#f3e8d6"/>
+  <line x1="0" y1="170" x2="900" y2="170" stroke="#92400e" stroke-width="3"/>
+  <line x1="450" y1="55" x2="450" y2="470" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- одуванчик -->
+  <text x="225" y="70" font-size="20" font-weight="bold" text-anchor="middle" fill="#92400e">Стержневая</text>
+  <g fill="#65a30d" stroke="#3f6212" stroke-width="2">
+    <path d="M225,170 C200,150 160,140 135,150 C165,158 190,165 225,170 z"/>
+    <path d="M225,170 C250,148 295,138 318,150 C288,158 260,165 225,170 z"/>
+    <path d="M225,170 C215,140 205,115 210,100 C222,118 228,145 225,170 z"/>
+  </g>
+  <path d="M225,168 L228,100" stroke="#84cc16" stroke-width="4"/>
+  <circle cx="228" cy="92" r="14" fill="#facc15" stroke="#ca8a04" stroke-width="2"/>
+  <path d="M225,172 C226,240 222,330 226,440" fill="none" stroke="#b45309" stroke-width="14" stroke-linecap="round"/>
+  <g fill="none" stroke="#d97706" stroke-width="3" stroke-linecap="round">
+    <path d="M222,210 C200,220 185,235 170,255"/><path d="M228,225 C250,235 265,250 280,270"/>
+    <path d="M222,280 C205,295 195,310 185,330"/><path d="M229,295 C245,310 255,325 265,345"/>
+    <path d="M223,350 C210,365 202,380 196,400"/><path d="M228,365 C242,378 250,395 255,410"/>
+  </g>
+  <g font-size="16" fill="#1f2937" text-anchor="middle">
+    <text x="225" y="490" font-weight="bold">одуванчик, морковь, фасоль, подсолнечник</text>
+    <text x="225" y="510" font-size="14" fill="#4b5563">главный корень хорошо заметен — чаще у двудольных</text>
+  </g>
+  <line x1="240" y1="330" x2="330" y2="320" stroke="#374151" stroke-width="1.5"/>
+  <text x="335" y="315" font-size="15" font-weight="bold" fill="#92400e">главный</text>
+  <text x="335" y="333" font-size="15" font-weight="bold" fill="#92400e">корень</text>
+  <line x1="185" y1="330" x2="80" y2="345" stroke="#374151" stroke-width="1.5"/>
+  <text x="25" y="365" font-size="15" font-weight="bold" fill="#d97706">боковые</text>
+
+  <!-- пшеница -->
+  <text x="675" y="70" font-size="20" font-weight="bold" text-anchor="middle" fill="#3f6212">Мочковатая</text>
+  <g stroke="#65a30d" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M675,170 C672,140 668,125 665,115"/><path d="M675,170 C680,140 688,128 695,120"/><path d="M675,170 C660,140 640,120 625,108"/><path d="M675,170 C690,140 710,122 728,112"/>
+  </g>
+  <g fill="#eab308"><ellipse cx="665" cy="105" rx="5" ry="12"/><ellipse cx="695" cy="110" rx="5" ry="12"/></g>
+  <g fill="none" stroke="#b45309" stroke-width="3.5" stroke-linecap="round">
+    <path d="M675,172 C640,230 615,300 600,380"/><path d="M675,172 C655,240 645,320 640,410"/><path d="M675,172 C675,250 672,330 676,420"/>
+    <path d="M675,172 C695,240 705,320 710,405"/><path d="M675,172 C710,230 735,300 752,380"/><path d="M675,172 C625,215 590,260 570,320"/>
+    <path d="M675,172 C725,215 760,260 780,320"/><path d="M675,172 C660,220 630,280 620,350"/><path d="M675,172 C690,220 720,280 730,350"/>
+  </g>
+  <g fill="none" stroke="#d97706" stroke-width="1.8"><path d="M610,300 L595,315 M645,330 L630,345 M675,300 L660,315 M705,320 L720,335 M740,300 L755,312 M600,370 L588,385 M710,390 L722,404"/></g>
+  <g font-size="16" fill="#1f2937" text-anchor="middle">
+    <text x="675" y="490" font-weight="bold">пшеница, рожь, кукуруза, лук</text>
+    <text x="675" y="510" font-size="14" fill="#4b5563">пучок придаточных корней — чаще у однодольных</text>
+  </g>
+  <line x1="780" y1="320" x2="820" y2="270" stroke="#374151" stroke-width="1.5"/>
+  <text x="790" y="250" font-size="15" font-weight="bold" fill="#b45309">придаточные</text>
+  <text x="790" y="268" font-size="15" font-weight="bold" fill="#b45309">корни</text>
+</svg>

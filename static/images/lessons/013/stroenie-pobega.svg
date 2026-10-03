@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="560" fill="#ffffff"/>
+  <text x="450" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Строение побега</text>
+  <!-- стебель -->
+  <path d="M330,540 C328,420 334,300 330,100" fill="none" stroke="#65a30d" stroke-width="12" stroke-linecap="round"/>
+  <!-- верхушечная почка -->
+  <path d="M330,100 C318,95 316,75 330,55 C344,75 342,95 330,100 z" fill="#a3e635" stroke="#3f6212" stroke-width="2.5"/>
+  <!-- узлы -->
+  <g stroke="#3f6212" stroke-width="3"><line x1="320" y1="180" x2="340" y2="180"/><line x1="320" y1="300" x2="340" y2="300"/><line x1="320" y1="420" x2="340" y2="420"/></g>
+  <!-- листья -->
+  <g fill="#4ade80" stroke="#15803d" stroke-width="2.5">
+    <path d="M336,180 C380,150 450,145 500,160 C455,185 390,195 336,180 z"/>
+    <path d="M324,300 C280,270 210,265 160,280 C205,305 270,315 324,300 z"/>
+    <path d="M336,420 C380,390 450,385 500,400 C455,425 390,435 336,420 z"/>
+  </g>
+  <g stroke="#15803d" stroke-width="1.5"><line x1="336" y1="180" x2="495" y2="161"/><line x1="324" y1="300" x2="165" y2="281"/><line x1="336" y1="420" x2="495" y2="401"/></g>
+  <!-- пазушные почки -->
+  <g fill="#bef264" stroke="#3f6212" stroke-width="2">
+    <path d="M338,172 C336,160 342,152 348,148 C352,158 348,168 338,172 z"/>
+    <path d="M322,292 C324,280 318,272 312,268 C308,278 312,288 322,292 z"/>
+    <path d="M338,412 C336,400 342,392 348,388 C352,398 348,408 338,412 z"/>
+  </g>
+  <!-- подписи -->
+  <g font-size="17" fill="#1f2937">
+    <line x1="342" y1="70" x2="560" y2="70" stroke="#374151" stroke-width="1.5"/>
+    <text x="568" y="75" font-weight="bold" fill="#3f6212">Верхушечная почка</text>
+    <text x="568" y="94" font-size="14" fill="#4b5563">отсюда побег растёт в длину</text>
+    <line x1="350" y1="152" x2="560" y2="125" stroke="#374151" stroke-width="1.5"/>
+    <text x="568" y="130" font-weight="bold" fill="#3f6212">Пазушная почка</text>
+    <text x="568" y="149" font-size="14" fill="#4b5563">в пазухе листа — даст боковой побег</text>
+    <line x1="500" y1="165" x2="560" y2="200" stroke="#374151" stroke-width="1.5"/>
+    <text x="568" y="205" font-weight="bold" fill="#15803d">Лист</text>
+    <line x1="342" y1="300" x2="560" y2="270" stroke="#374151" stroke-width="1.5"/>
+    <text x="568" y="275" font-weight="bold">Узел</text>
+    <text x="568" y="294" font-size="14" fill="#4b5563">место, где отходит лист</text>
+    <line x1="340" y1="240" x2="560" y2="340" stroke="#374151" stroke-width="1.5"/>
+    <text x="568" y="345" font-weight="bold">Междоузлие</text>
+    <text x="568" y="364" font-size="14" fill="#4b5563">участок стебля между узлами</text>
+    <line x1="337" y1="480" x2="560" y2="470" stroke="#374151" stroke-width="1.5"/>
+    <text x="568" y="475" font-weight="bold" fill="#65a30d">Стебель</text>
+    <line x1="316" y1="288" x2="160" y2="355" stroke="#374151" stroke-width="1.5"/>
+    <text x="40" y="378" font-weight="bold">Пазуха листа</text>
+    <text x="40" y="397" font-size="14" fill="#4b5563">угол между листом</text>
+    <text x="40" y="414" font-size="14" fill="#4b5563">и стеблем</text>
+  </g>
+  <!-- скобка междоузлия -->
+  <path d="M305,186 L295,186 L295,294 L305,294" fill="none" stroke="#b45309" stroke-width="2.5"/>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Как устроены вирусы</text>
+
+  <!-- Левая часть: вирус табачной мозаики -->
+  <text x="220" y="72" font-size="19" font-weight="bold" text-anchor="middle" fill="#166534">Вирус табачной мозаики</text>
+  <text x="220" y="94" font-size="15" text-anchor="middle" fill="#4b5563">простой вирус-палочка</text>
+  <g transform="translate(60,130)">
+    <!-- капсомеры: ряды -->
+    <g fill="#bbf7d0" stroke="#15803d" stroke-width="1.5">
+      <rect x="0" y="0" width="26" height="22" rx="5"/><rect x="26" y="0" width="26" height="22" rx="5"/><rect x="52" y="0" width="26" height="22" rx="5"/><rect x="78" y="0" width="26" height="22" rx="5"/><rect x="104" y="0" width="26" height="22" rx="5"/><rect x="130" y="0" width="26" height="22" rx="5"/><rect x="156" y="0" width="26" height="22" rx="5"/><rect x="182" y="0" width="26" height="22" rx="5"/><rect x="208" y="0" width="26" height="22" rx="5"/><rect x="234" y="0" width="26" height="22" rx="5"/><rect x="260" y="0" width="26" height="22" rx="5"/><rect x="286" y="0" width="26" height="22" rx="5"/>
+      <rect x="0" y="78" width="26" height="22" rx="5"/><rect x="26" y="78" width="26" height="22" rx="5"/><rect x="52" y="78" width="26" height="22" rx="5"/><rect x="78" y="78" width="26" height="22" rx="5"/><rect x="104" y="78" width="26" height="22" rx="5"/><rect x="130" y="78" width="26" height="22" rx="5"/><rect x="156" y="78" width="26" height="22" rx="5"/><rect x="182" y="78" width="26" height="22" rx="5"/><rect x="208" y="78" width="26" height="22" rx="5"/><rect x="234" y="78" width="26" height="22" rx="5"/><rect x="260" y="78" width="26" height="22" rx="5"/><rect x="286" y="78" width="26" height="22" rx="5"/>
+    </g>
+    <rect x="0" y="22" width="312" height="56" fill="#f0fdf4" stroke="#15803d" stroke-width="1.5"/>
+    <path d="M0,50 C13,25 26,75 39,50 C52,25 65,75 78,50 C91,25 104,75 117,50 C130,25 143,75 156,50 C169,25 182,75 195,50 C208,25 221,75 234,50 C247,25 260,75 273,50 C286,25 299,75 312,50" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  </g>
+  <g font-size="16" fill="#1f2937">
+    <line x1="140" y1="141" x2="120" y2="280" stroke="#374151" stroke-width="1.5"/>
+    <line x1="150" y1="180" x2="230" y2="280" stroke="#374151" stroke-width="1.5"/>
+    <text x="60" y="300" font-weight="bold">Капсид</text>
+    <text x="60" y="320" font-size="14" fill="#4b5563">одинаковые белки,</text>
+    <text x="60" y="338" font-size="14" fill="#4b5563">уложенные по спирали</text>
+    <text x="230" y="300" font-weight="bold" fill="#6d28d9">РНК</text>
+    <text x="230" y="320" font-size="14" fill="#4b5563">«инструкция» вируса</text>
+  </g>
+  <text x="220" y="390" font-size="14" text-anchor="middle" fill="#4b5563">длина около 300 нм, толщина около 18 нм</text>
+
+  <!-- разделитель -->
+  <line x1="450" y1="60" x2="450" y2="440" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- Правая часть: вирус с оболочкой -->
+  <text x="680" y="72" font-size="19" font-weight="bold" text-anchor="middle" fill="#9d174d">Вирус гриппа</text>
+  <text x="680" y="94" font-size="15" text-anchor="middle" fill="#4b5563">вирус с липидной оболочкой</text>
+  <g transform="translate(610,240)">
+    <g stroke="#be185d" stroke-width="5" stroke-linecap="round">
+      <line x1="0" y1="-95" x2="0" y2="-118"/><line x1="0" y1="95" x2="0" y2="118"/><line x1="-95" y1="0" x2="-118" y2="0"/><line x1="95" y1="0" x2="118" y2="0"/>
+      <line x1="67" y1="67" x2="84" y2="84"/><line x1="-67" y1="-67" x2="-84" y2="-84"/><line x1="67" y1="-67" x2="84" y2="-84"/><line x1="-67" y1="67" x2="-84" y2="84"/>
+      <line x1="36" y1="-88" x2="45" y2="-109"/><line x1="-36" y1="88" x2="-45" y2="109"/><line x1="88" y1="36" x2="109" y2="45"/><line x1="-88" y1="-36" x2="-109" y2="-45"/>
+      <line x1="-36" y1="-88" x2="-45" y2="-109"/><line x1="36" y1="88" x2="45" y2="109"/><line x1="88" y1="-36" x2="109" y2="-45"/><line x1="-88" y1="36" x2="-109" y2="45"/>
+    </g>
+    <circle r="95" fill="#fce7f3" stroke="#f59e0b" stroke-width="8"/>
+    <circle r="62" fill="#fdf2f8" stroke="#be185d" stroke-width="4" stroke-dasharray="10 4"/>
+    <path d="M-40,-20 C-25,-40 -10,0 5,-20 M-30,15 C-15,-5 0,35 15,15 M10,-35 C25,-55 40,-15 45,-30 M15,30 C25,15 40,45 45,25" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  </g>
+  <g font-size="16" fill="#1f2937">
+    <line x1="715" y1="150" x2="755" y2="120" stroke="#374151" stroke-width="1.5"/>
+    <text x="760" y="117" font-weight="bold" fill="#9d174d">«Шипы»</text>
+    <text x="760" y="135" font-size="13" fill="#4b5563">белки для</text>
+    <text x="760" y="151" font-size="13" fill="#4b5563">прикрепления</text>
+    <line x1="698" y1="275" x2="755" y2="300" stroke="#374151" stroke-width="1.5"/>
+    <text x="760" y="298" font-weight="bold" fill="#b45309">Липидная</text>
+    <text x="760" y="316" font-weight="bold" fill="#b45309">оболочка</text>
+    <text x="760" y="333" font-size="13" fill="#4b5563">кусочек мембраны</text>
+    <text x="760" y="349" font-size="13" fill="#4b5563">клетки-хозяина</text>
+    <line x1="560" y1="285" x2="520" y2="345" stroke="#374151" stroke-width="1.5"/>
+    <text x="470" y="365" font-weight="bold">Капсид</text>
+    <line x1="630" y1="255" x2="600" y2="410" stroke="#374151" stroke-width="1.5"/>
+    <text x="560" y="428" font-weight="bold" fill="#6d28d9">РНК</text>
+  </g>
+  <text x="650" y="455" font-size="14" text-anchor="middle" fill="#4b5563">диаметр около 100 нм</text>
+</svg>

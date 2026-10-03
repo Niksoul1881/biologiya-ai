@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+    <g id="lf"><path d="M0,0 C20,-14 45,-14 60,-6 C45,6 20,8 0,0 z" fill="#4ade80" stroke="#15803d" stroke-width="2"/></g>
+  </defs>
+  <rect width="900" height="460" fill="#ffffff"/>
+  <text x="450" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Прищипка и ветвление</text>
+  <rect x="0" y="400" width="900" height="60" fill="#e7d3b5"/>
+
+  <!-- 1 до -->
+  <text x="150" y="75" font-size="18" font-weight="bold" text-anchor="middle" fill="#1f2937">1. Растёт верхушка</text>
+  <path d="M150,400 L150,110" stroke="#65a30d" stroke-width="8"/>
+  <path d="M150,112 C141,108 140,92 150,80 C160,92 159,108 150,112 z" fill="#a3e635" stroke="#3f6212" stroke-width="2"/>
+  <use href="#lf" x="154" y="180"/><use href="#lf" x="146" y="250" transform="rotate(180 146 250)"/><use href="#lf" x="154" y="320"/>
+  <g fill="#d9f99d" stroke="#65a30d" stroke-width="1.5"><circle cx="157" cy="172" r="4"/><circle cx="143" cy="243" r="4"/><circle cx="157" cy="312" r="4"/></g>
+  <text x="150" y="430" font-size="14" text-anchor="middle" fill="#1f2937">пазушные почки «спят»</text>
+
+  <line x1="255" y1="230" x2="320" y2="230" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+
+  <!-- 2 прищипка -->
+  <text x="450" y="75" font-size="18" font-weight="bold" text-anchor="middle" fill="#b91c1c">2. Удаляем верхушку</text>
+  <path d="M450,400 L450,140" stroke="#65a30d" stroke-width="8"/>
+  <path d="M450,108 C441,104 440,88 450,76 C460,88 459,104 450,108 z" fill="#fecaca" stroke="#b91c1c" stroke-width="2" stroke-dasharray="4 3"/>
+  <g stroke="#b91c1c" stroke-width="3"><line x1="430" y1="120" x2="470" y2="130"/><line x1="430" y1="130" x2="470" y2="120"/></g>
+  <use href="#lf" x="454" y="180"/><use href="#lf" x="446" y="250" transform="rotate(180 446 250)"/><use href="#lf" x="454" y="320"/>
+  <g fill="#bef264" stroke="#3f6212" stroke-width="1.5"><circle cx="457" cy="172" r="6"/><circle cx="443" cy="243" r="6"/><circle cx="457" cy="312" r="5"/></g>
+  <text x="450" y="430" font-size="14" text-anchor="middle" fill="#1f2937">пазушные почки просыпаются</text>
+
+  <line x1="555" y1="230" x2="620" y2="230" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+
+  <!-- 3 куст -->
+  <text x="750" y="75" font-size="18" font-weight="bold" text-anchor="middle" fill="#15803d">3. Растение ветвится</text>
+  <path d="M750,400 L750,150" stroke="#65a30d" stroke-width="8"/>
+  <g fill="none" stroke="#65a30d" stroke-width="6" stroke-linecap="round">
+    <path d="M752,175 C770,160 785,140 800,122"/><path d="M748,245 C730,232 708,215 690,195"/><path d="M752,315 C775,300 795,285 815,268"/>
+  </g>
+  <use href="#lf" x="754" y="180"/><use href="#lf" x="746" y="250" transform="rotate(180 746 250)"/><use href="#lf" x="754" y="320"/>
+  <use href="#lf" transform="translate(800 122) rotate(-50) scale(0.75)"/>
+  <use href="#lf" transform="translate(785 142) rotate(10) scale(0.6)"/>
+  <use href="#lf" transform="translate(690 195) rotate(230) scale(0.75)"/>
+  <use href="#lf" transform="translate(708 215) rotate(170) scale(0.6)"/>
+  <use href="#lf" transform="translate(815 268) rotate(-40) scale(0.75)"/>
+  <use href="#lf" transform="translate(795 285) rotate(15) scale(0.6)"/>
+  <text x="750" y="430" font-size="14" text-anchor="middle" fill="#1f2937">растут боковые побеги — куст пышнее</text>
+</svg>

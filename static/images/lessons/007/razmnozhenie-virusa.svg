@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+    <g id="vir">
+      <circle r="11" fill="#f9a8d4" stroke="#be185d" stroke-width="2.5"/>
+      <path d="M-5,-2 C-2,-7 2,3 5,-2" fill="none" stroke="#7c3aed" stroke-width="2"/>
+      <g stroke="#be185d" stroke-width="2">
+        <line x1="0" y1="-11" x2="0" y2="-16"/><line x1="0" y1="11" x2="0" y2="16"/>
+        <line x1="-11" y1="0" x2="-16" y2="0"/><line x1="11" y1="0" x2="16" y2="0"/>
+      </g>
+    </g>
+    <path id="rna" d="M-14,0 C-9,-7 -4,7 1,0 C6,-7 11,7 14,0" fill="none" stroke="#7c3aed" stroke-width="3"/>
+  </defs>
+  <rect width="960" height="400" fill="#ffffff"/>
+  <text x="480" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Как вирус размножается в клетке</text>
+
+  <!-- панели: клетка = зелёный прямоугольник, мембрана сверху -->
+  <g id="p1">
+    <rect x="20" y="110" width="160" height="150" rx="16" fill="#ecfdf5" stroke="#059669" stroke-width="4"/>
+    <use href="#vir" x="100" y="91"/>
+    <rect x="92" y="104" width="16" height="10" fill="#059669"/>
+    <text x="100" y="62" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">1</text>
+  </g>
+  <g>
+    <rect x="210" y="110" width="160" height="150" rx="16" fill="#ecfdf5" stroke="#059669" stroke-width="4"/>
+    <use href="#rna" x="290" y="170"/>
+    <circle cx="290" cy="100" r="11" fill="none" stroke="#be185d" stroke-width="2.5" stroke-dasharray="4 3"/>
+    <line x1="290" y1="118" x2="290" y2="150" stroke="#6b7280" stroke-width="2.5" marker-end="url(#ar)"/>
+    <text x="290" y="62" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">2</text>
+  </g>
+  <g>
+    <rect x="400" y="110" width="160" height="150" rx="16" fill="#ecfdf5" stroke="#059669" stroke-width="4"/>
+    <use href="#rna" x="440" y="145"/><use href="#rna" x="480" y="145"/><use href="#rna" x="520" y="145"/>
+    <use href="#rna" x="460" y="175"/><use href="#rna" x="500" y="175"/>
+    <rect x="430" y="205" width="12" height="12" fill="#f9a8d4" stroke="#be185d"/>
+    <rect x="452" y="215" width="12" height="12" fill="#f9a8d4" stroke="#be185d"/>
+    <rect x="474" y="205" width="12" height="12" fill="#f9a8d4" stroke="#be185d"/>
+    <rect x="496" y="215" width="12" height="12" fill="#f9a8d4" stroke="#be185d"/>
+    <rect x="518" y="205" width="12" height="12" fill="#f9a8d4" stroke="#be185d"/>
+    <text x="480" y="62" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">3</text>
+  </g>
+  <g>
+    <rect x="590" y="110" width="160" height="150" rx="16" fill="#ecfdf5" stroke="#059669" stroke-width="4"/>
+    <use href="#vir" x="630" y="150"/><use href="#vir" x="670" y="150"/><use href="#vir" x="710" y="150"/>
+    <use href="#vir" x="630" y="215"/><use href="#vir" x="670" y="215"/><use href="#vir" x="710" y="215"/>
+    <text x="670" y="62" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">4</text>
+  </g>
+  <g>
+    <path d="M780,110 L860,110 L870,150 L900,140 L880,185 L940,200 L900,215 L940,260 L780,260 z" fill="#ecfdf5" stroke="#059669" stroke-width="4" stroke-linejoin="round"/>
+    <use href="#vir" x="815" y="185"/><use href="#vir" x="845" y="225"/>
+    <use href="#vir" x="905" y="105"/><use href="#vir" x="940" y="160"/><use href="#vir" x="940" y="235"/>
+    <text x="860" y="62" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">5</text>
+  </g>
+  <g stroke="#6b7280" stroke-width="3" marker-end="url(#ar)">
+    <line x1="183" y1="185" x2="205" y2="185"/>
+    <line x1="373" y1="185" x2="395" y2="185"/>
+    <line x1="563" y1="185" x2="585" y2="185"/>
+    <line x1="753" y1="185" x2="775" y2="185"/>
+  </g>
+  <g font-size="16" text-anchor="middle" fill="#1f2937">
+    <text x="100" y="292" font-weight="bold">Прикрепление</text>
+    <text x="100" y="314" font-size="14">белки вируса</text>
+    <text x="100" y="332" font-size="14">цепляются за «замок»</text>
+    <text x="100" y="350" font-size="14">на мембране клетки</text>
+    <text x="290" y="292" font-weight="bold">Проникновение</text>
+    <text x="290" y="314" font-size="14">внутрь попадает</text>
+    <text x="290" y="332" font-size="14">нуклеиновая кислота</text>
+    <text x="290" y="350" font-size="14">(ДНК или РНК) вируса</text>
+    <text x="480" y="292" font-weight="bold">Копирование</text>
+    <text x="480" y="314" font-size="14">клетка копирует</text>
+    <text x="480" y="332" font-size="14">ДНК/РНК вируса и на своих</text>
+    <text x="480" y="350" font-size="14">рибосомах делает его белки</text>
+    <text x="670" y="292" font-weight="bold">Сборка</text>
+    <text x="670" y="314" font-size="14">из кислот и белков</text>
+    <text x="670" y="332" font-size="14">собираются новые</text>
+    <text x="670" y="350" font-size="14">вирусы — сотни штук</text>
+    <text x="860" y="292" font-weight="bold">Выход</text>
+    <text x="860" y="314" font-size="14">клетка лопается</text>
+    <text x="860" y="332" font-size="14">или вирусы выходят</text>
+    <text x="860" y="350" font-size="14">через мембрану</text>
+  </g>
+  <text x="480" y="388" font-size="15" text-anchor="middle" fill="#4b5563">Новые вирусы заражают соседние клетки — и всё повторяется.</text>
+</svg>

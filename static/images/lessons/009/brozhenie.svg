@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#374151"/>
+    </marker>
+  </defs>
+  <rect width="900" height="420" fill="#ffffff"/>
+  <text x="450" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Спиртовое брожение и тесто</text>
+  <!-- сахар -->
+  <rect x="30" y="100" width="150" height="70" rx="12" fill="#fef9c3" stroke="#ca8a04" stroke-width="3"/>
+  <text x="105" y="132" font-size="18" font-weight="bold" text-anchor="middle" fill="#854d0e">сахар</text>
+  <text x="105" y="155" font-size="14" text-anchor="middle" fill="#854d0e">(глюкоза)</text>
+  <line x1="185" y1="135" x2="250" y2="135" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- дрожжевая клетка -->
+  <ellipse cx="335" cy="135" rx="75" ry="58" fill="#fef3c7" stroke="#b45309" stroke-width="4"/>
+  <circle cx="335" cy="140" r="17" fill="#c4b5fd" stroke="#6d28d9" stroke-width="3"/>
+  <text x="335" y="215" font-size="15" text-anchor="middle" fill="#1f2937">дрожжевая клетка</text>
+  <text x="335" y="234" font-size="14" text-anchor="middle" fill="#6b7280">без кислорода</text>
+  <line x1="415" y1="115" x2="500" y2="85" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="415" y1="155" x2="500" y2="185" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="410" y1="135" x2="500" y2="135" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+  <!-- продукты -->
+  <rect x="505" y="58" width="190" height="48" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+  <text x="600" y="88" font-size="17" font-weight="bold" text-anchor="middle" fill="#075985">углекислый газ</text>
+  <rect x="505" y="113" width="190" height="44" rx="10" fill="#fce7f3" stroke="#db2777" stroke-width="3"/>
+  <text x="600" y="141" font-size="17" font-weight="bold" text-anchor="middle" fill="#9d174d">немного энергии</text>
+  <rect x="505" y="164" width="190" height="48" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/>
+  <text x="600" y="194" font-size="17" font-weight="bold" text-anchor="middle" fill="#5b21b6">спирт</text>
+  <text x="708" y="88" font-size="14" fill="#075985">поднимает тесто</text>
+  <text x="708" y="186" font-size="14" fill="#5b21b6">испаряется</text>
+  <text x="708" y="204" font-size="14" fill="#5b21b6">при выпечке</text>
+  <!-- тесто -->
+  <path d="M60,390 L60,330 C60,280 140,262 200,262 C260,262 340,280 340,330 L340,390 z" fill="#fde68a" stroke="#b45309" stroke-width="3"/>
+  <g fill="#ffffff" stroke="#d97706" stroke-width="1.5">
+    <circle cx="110" cy="330" r="9"/><circle cx="150" cy="300" r="6"/><circle cx="190" cy="345" r="11"/><circle cx="235" cy="305" r="8"/><circle cx="280" cy="340" r="9"/><circle cx="130" cy="365" r="6"/><circle cx="250" cy="370" r="7"/><circle cx="310" cy="315" r="5"/><circle cx="90" cy="300" r="5"/>
+  </g>
+  <text x="200" y="257" font-size="16" font-weight="bold" text-anchor="middle" fill="#92400e">тесто с пузырьками газа</text>
+  <path d="M520,390 L520,340 C520,300 600,285 650,285 C700,285 780,300 780,340 L780,390 z" fill="#d6a35c" stroke="#7c2d12" stroke-width="3"/>
+  <path d="M535,385 L535,345 C535,312 605,300 650,300 C695,300 765,312 765,345 L765,385 z" fill="#fef3c7" stroke="none"/>
+  <g fill="#f5d08a" stroke="#b45309" stroke-width="1.5">
+    <circle cx="580" cy="340" r="8"/><circle cx="620" cy="320" r="5"/><circle cx="650" cy="355" r="10"/><circle cx="700" cy="325" r="7"/><circle cx="730" cy="360" r="8"/><circle cx="600" cy="370" r="5"/>
+  </g>
+  <text x="650" y="273" font-size="16" font-weight="bold" text-anchor="middle" fill="#7c2d12">хлеб: на месте пузырьков — поры</text>
+  <line x1="360" y1="340" x2="500" y2="340" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="430" y="328" font-size="14" text-anchor="middle" fill="#374151">выпечка</text>
+</svg>
