@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="960" height="470" fill="#ffffff"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#374151"/>
+    </marker>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" font-size="25" font-weight="bold" text-anchor="middle" fill="#1f2937">Центральная догма: главный конвейер данных в клетке</text>
+
+  <!-- ДНК -->
+  <rect x="40" y="120" width="210" height="130" rx="16" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <text x="145" y="162" font-size="26" font-weight="bold" text-anchor="middle" fill="#1e3a8a">ДНК</text>
+  <text x="145" y="192" font-size="15" text-anchor="middle" fill="#1f2937">долговременное хранение</text>
+  <text x="145" y="214" font-size="15" text-anchor="middle" fill="#1f2937">алфавит A, C, G, T</text>
+  <text x="145" y="236" font-size="15" text-anchor="middle" fill="#1f2937">двойная цепь, есть «бэкап»</text>
+
+  <!-- РНК -->
+  <rect x="375" y="120" width="210" height="130" rx="16" fill="#fef9c3" stroke="#ca8a04" stroke-width="4"/>
+  <text x="480" y="162" font-size="26" font-weight="bold" text-anchor="middle" fill="#713f12">РНК</text>
+  <text x="480" y="192" font-size="15" text-anchor="middle" fill="#1f2937">временная рабочая копия</text>
+  <text x="480" y="214" font-size="15" text-anchor="middle" fill="#1f2937">алфавит A, C, G, U</text>
+  <text x="480" y="236" font-size="15" text-anchor="middle" fill="#1f2937">живёт от минут до часов</text>
+
+  <!-- белок -->
+  <rect x="710" y="120" width="210" height="130" rx="16" fill="#dcfce7" stroke="#15803d" stroke-width="4"/>
+  <text x="815" y="162" font-size="26" font-weight="bold" text-anchor="middle" fill="#14532d">Белок</text>
+  <text x="815" y="192" font-size="15" text-anchor="middle" fill="#1f2937">работающая машина</text>
+  <text x="815" y="214" font-size="15" text-anchor="middle" fill="#1f2937">20 аминокислот,</text>
+  <text x="815" y="236" font-size="15" text-anchor="middle" fill="#1f2937">свёрнут в 3D-форму</text>
+
+  <!-- стрелки -->
+  <line x1="255" y1="170" x2="368" y2="170" stroke="#374151" stroke-width="4" marker-end="url(#ar)"/>
+  <text x="312" y="156" font-size="14" font-weight="bold" text-anchor="middle" fill="#374151">транскрипция</text>
+  <line x1="590" y1="170" x2="703" y2="170" stroke="#374151" stroke-width="4" marker-end="url(#ar)"/>
+  <text x="647" y="156" font-size="14" font-weight="bold" text-anchor="middle" fill="#374151">трансляция</text>
+
+  <!-- репликация: петля над ДНК -->
+  <path d="M90,116 C90,66 200,66 200,112" fill="none" stroke="#374151" stroke-width="4" marker-end="url(#ar)"/>
+  <text x="145" y="60" font-size="14" font-weight="bold" text-anchor="middle" fill="#374151">репликация (копирование)</text>
+
+  <!-- обратная транскрипция -->
+  <path d="M375,225 C345,300 290,300 258,236" fill="none" stroke="#b91c1c" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#arr)"/>
+  <text x="312" y="318" font-size="14" text-anchor="middle" fill="#b91c1c">обратная транскрипция</text>
+  <text x="312" y="336" font-size="14" text-anchor="middle" fill="#b91c1c">(ретровирусы, например ВИЧ)</text>
+
+  <!-- IT-аналогии -->
+  <rect x="40" y="370" width="880" height="80" rx="12" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+  <text x="480" y="398" font-size="16" font-weight="bold" text-anchor="middle" fill="#1f2937">Грубая IT-аналогия</text>
+  <text x="145" y="428" font-size="15" text-anchor="middle" fill="#1f2937">репозиторий / исходник</text>
+  <text x="480" y="428" font-size="15" text-anchor="middle" fill="#1f2937">временная копия, как checkout</text>
+  <text x="815" y="428" font-size="15" text-anchor="middle" fill="#1f2937">запущенный процесс</text>
+</svg>

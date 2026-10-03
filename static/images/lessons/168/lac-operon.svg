@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="960" height="560" fill="#ffffff"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#374151"/>
+    </marker>
+  </defs>
+  <text x="480" y="34" font-size="24" font-weight="bold" text-anchor="middle" fill="#1f2937">Лактозный оперон кишечной палочки как логический элемент</text>
+
+  <!-- ДНК -->
+  <text x="60" y="88" font-size="16" font-weight="bold" fill="#1f2937">Участок ДНК бактерии:</text>
+  <rect x="60" y="100" width="130" height="50" fill="#e5e7eb" stroke="#374151" stroke-width="2"/>
+  <text x="125" y="131" font-size="16" text-anchor="middle" fill="#1f2937">промотор</text>
+  <rect x="190" y="100" width="120" height="50" fill="#fecaca" stroke="#374151" stroke-width="2"/>
+  <text x="250" y="131" font-size="16" text-anchor="middle" fill="#1f2937">оператор</text>
+  <rect x="310" y="100" width="210" height="50" fill="#bbf7d0" stroke="#374151" stroke-width="2"/>
+  <text x="415" y="131" font-size="16" text-anchor="middle" fill="#1f2937">lacZ</text>
+  <rect x="520" y="100" width="170" height="50" fill="#bbf7d0" stroke="#374151" stroke-width="2"/>
+  <text x="605" y="131" font-size="16" text-anchor="middle" fill="#1f2937">lacY</text>
+  <rect x="690" y="100" width="130" height="50" fill="#bbf7d0" stroke="#374151" stroke-width="2"/>
+  <text x="755" y="131" font-size="16" text-anchor="middle" fill="#1f2937">lacA</text>
+
+  <text x="125" y="178" font-size="14" text-anchor="middle" fill="#374151">сюда садится</text>
+  <text x="125" y="196" font-size="14" text-anchor="middle" fill="#374151">РНК-полимераза</text>
+  <text x="250" y="178" font-size="14" text-anchor="middle" fill="#374151">сюда садится</text>
+  <text x="250" y="196" font-size="14" text-anchor="middle" fill="#374151">белок-репрессор</text>
+  <text x="565" y="178" font-size="14" text-anchor="middle" fill="#374151">гены ферментов: расщепление лактозы (lacZ),</text>
+  <text x="565" y="196" font-size="14" text-anchor="middle" fill="#374151">её транспорт в клетку (lacY), lacA</text>
+
+  <!-- логика -->
+  <rect x="60" y="230" width="380" height="150" rx="12" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="250" y="258" font-size="17" font-weight="bold" text-anchor="middle" fill="#1f2937">Вход 1: есть лактоза?</text>
+  <text x="250" y="286" font-size="15" text-anchor="middle" fill="#1f2937">нет → репрессор сидит на операторе,</text>
+  <text x="250" y="306" font-size="15" text-anchor="middle" fill="#1f2937">транскрипция заблокирована</text>
+  <text x="250" y="334" font-size="15" text-anchor="middle" fill="#1f2937">да → производное лактозы связывает</text>
+  <text x="250" y="354" font-size="15" text-anchor="middle" fill="#1f2937">репрессор, и тот уходит с ДНК</text>
+
+  <rect x="520" y="230" width="380" height="150" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="710" y="258" font-size="17" font-weight="bold" text-anchor="middle" fill="#1f2937">Вход 2: мало глюкозы?</text>
+  <text x="710" y="286" font-size="15" text-anchor="middle" fill="#1f2937">да → растёт уровень цАМФ, белок-активатор</text>
+  <text x="710" y="306" font-size="15" text-anchor="middle" fill="#1f2937">CAP помогает полимеразе: сильная транскрипция</text>
+  <text x="710" y="334" font-size="15" text-anchor="middle" fill="#1f2937">нет → активатор не работает,</text>
+  <text x="710" y="354" font-size="15" text-anchor="middle" fill="#1f2937">транскрипция слабая</text>
+
+  <line x1="250" y1="385" x2="430" y2="425" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="710" y1="385" x2="530" y2="425" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+
+  <rect x="300" y="430" width="360" height="110" rx="12" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+  <text x="480" y="460" font-size="18" font-weight="bold" text-anchor="middle" fill="#14532d">Выход: гены lac включены</text>
+  <text x="480" y="488" font-size="16" text-anchor="middle" fill="#1f2937">сильно — если лактоза ЕСТЬ</text>
+  <text x="480" y="510" font-size="16" text-anchor="middle" fill="#1f2937">И глюкозы МАЛО</text>
+  <text x="480" y="532" font-size="13" text-anchor="middle" fill="#4b5563">(похоже на AND, но выход не 0/1, а плавный и шумный)</text>
+</svg>
