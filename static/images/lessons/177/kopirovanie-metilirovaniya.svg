@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="960" height="520" fill="#fff"/>
+  <text x="480" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Как метилирование переживает деление клетки</text>
+
+  <!-- Шаг 1: исходная ДНК -->
+  <text x="150" y="72" font-size="15" font-weight="bold" text-anchor="middle" fill="#333">1. Исходная ДНК</text>
+  <text x="150" y="208" font-size="13" text-anchor="middle" fill="#555">CpG метилированы на обеих цепях</text>
+
+  <!-- стрелка репликации -->
+  <path d="M 270 135 L 340 135" stroke="#333" stroke-width="3.5" marker-end="url(#a)"/>
+  <text x="305" y="120" font-size="13" text-anchor="middle" fill="#333">репликация</text>
+
+  <!-- Шаг 2: две полуметилированные -->
+  <text x="490" y="72" font-size="15" font-weight="bold" text-anchor="middle" fill="#333">2. Две полуметилированные копии</text>
+  <text x="490" y="296" font-size="13" text-anchor="middle" fill="#555">старая цепь — с метками (синяя),</text>
+  <text x="490" y="313" font-size="13" text-anchor="middle" fill="#555">новая — пока без меток (серая)</text>
+
+  <!-- стрелка DNMT1 -->
+  <path d="M 615 165 L 685 165" stroke="#333" stroke-width="3.5" marker-end="url(#a)"/>
+  <text x="650" y="150" font-size="13" font-weight="bold" text-anchor="middle" fill="#a04000">DNMT1</text>
+
+  <!-- Шаг 3 -->
+  <text x="815" y="72" font-size="15" font-weight="bold" text-anchor="middle" fill="#333">3. Узор восстановлен</text>
+  <text x="815" y="296" font-size="13" text-anchor="middle" fill="#555">DNMT1 «видит» метку на старой</text>
+  <text x="815" y="313" font-size="13" text-anchor="middle" fill="#555">цепи и ставит такую же напротив</text>
+
+  <!-- последовательности -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="20" font-weight="bold">
+    <text x="95" y="118" fill="#1d4f86" text-anchor="end">5′-</text>
+    <text x="103" y="118" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="118" y="118" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="133" y="118" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="148" y="118" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="163" y="118" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="178" y="118" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="193" y="118" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="208" y="118" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="217" y="118" fill="#1d4f86">-3′</text>
+    <text x="95" y="150" fill="#1d4f86" text-anchor="end">3′-</text>
+    <text x="103" y="150" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="118" y="150" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="133" y="150" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="148" y="150" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="163" y="150" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="178" y="150" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="193" y="150" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="208" y="150" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="217" y="150" fill="#1d4f86">-5′</text>
+    <text x="430" y="118" fill="#1d4f86" text-anchor="end">5′-</text>
+    <text x="438" y="118" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="453" y="118" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="468" y="118" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="483" y="118" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="498" y="118" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="513" y="118" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="528" y="118" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="543" y="118" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="552" y="118" fill="#1d4f86">-3′</text>
+    <text x="430" y="150" fill="#7f8c8d" text-anchor="end">3′-</text>
+    <text x="438" y="150" fill="#7f8c8d" text-anchor="middle">T</text>
+    <text x="453" y="150" fill="#7f8c8d" text-anchor="middle">G</text>
+    <text x="468" y="150" fill="#7f8c8d" text-anchor="middle">C</text>
+    <text x="483" y="150" fill="#7f8c8d" text-anchor="middle">A</text>
+    <text x="498" y="150" fill="#7f8c8d" text-anchor="middle">A</text>
+    <text x="513" y="150" fill="#7f8c8d" text-anchor="middle">G</text>
+    <text x="528" y="150" fill="#7f8c8d" text-anchor="middle">C</text>
+    <text x="543" y="150" fill="#7f8c8d" text-anchor="middle">T</text>
+    <text x="552" y="150" fill="#7f8c8d">-5′</text>
+    <text x="430" y="224" fill="#7f8c8d" text-anchor="end">5′-</text>
+    <text x="438" y="224" fill="#7f8c8d" text-anchor="middle">A</text>
+    <text x="453" y="224" fill="#7f8c8d" text-anchor="middle">C</text>
+    <text x="468" y="224" fill="#7f8c8d" text-anchor="middle">G</text>
+    <text x="483" y="224" fill="#7f8c8d" text-anchor="middle">T</text>
+    <text x="498" y="224" fill="#7f8c8d" text-anchor="middle">T</text>
+    <text x="513" y="224" fill="#7f8c8d" text-anchor="middle">C</text>
+    <text x="528" y="224" fill="#7f8c8d" text-anchor="middle">G</text>
+    <text x="543" y="224" fill="#7f8c8d" text-anchor="middle">A</text>
+    <text x="552" y="224" fill="#7f8c8d">-3′</text>
+    <text x="430" y="256" fill="#1d4f86" text-anchor="end">3′-</text>
+    <text x="438" y="256" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="453" y="256" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="468" y="256" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="483" y="256" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="498" y="256" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="513" y="256" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="528" y="256" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="543" y="256" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="552" y="256" fill="#1d4f86">-5′</text>
+    <text x="755" y="118" fill="#1d4f86" text-anchor="end">5′-</text>
+    <text x="763" y="118" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="778" y="118" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="793" y="118" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="808" y="118" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="823" y="118" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="838" y="118" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="853" y="118" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="868" y="118" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="877" y="118" fill="#1d4f86">-3′</text>
+    <text x="755" y="150" fill="#7f8c8d" text-anchor="end">3′-</text>
+    <text x="763" y="150" fill="#7f8c8d" text-anchor="middle">T</text>
+    <text x="778" y="150" fill="#7f8c8d" text-anchor="middle">G</text>
+    <text x="793" y="150" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="808" y="150" fill="#7f8c8d" text-anchor="middle">A</text>
+    <text x="823" y="150" fill="#7f8c8d" text-anchor="middle">A</text>
+    <text x="838" y="150" fill="#7f8c8d" text-anchor="middle">G</text>
+    <text x="853" y="150" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="868" y="150" fill="#7f8c8d" text-anchor="middle">T</text>
+    <text x="877" y="150" fill="#7f8c8d">-5′</text>
+    <text x="755" y="224" fill="#7f8c8d" text-anchor="end">5′-</text>
+    <text x="763" y="224" fill="#7f8c8d" text-anchor="middle">A</text>
+    <text x="778" y="224" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="793" y="224" fill="#7f8c8d" text-anchor="middle">G</text>
+    <text x="808" y="224" fill="#7f8c8d" text-anchor="middle">T</text>
+    <text x="823" y="224" fill="#7f8c8d" text-anchor="middle">T</text>
+    <text x="838" y="224" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="853" y="224" fill="#7f8c8d" text-anchor="middle">G</text>
+    <text x="868" y="224" fill="#7f8c8d" text-anchor="middle">A</text>
+    <text x="877" y="224" fill="#7f8c8d">-3′</text>
+    <text x="755" y="256" fill="#1d4f86" text-anchor="end">3′-</text>
+    <text x="763" y="256" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="778" y="256" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="793" y="256" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="808" y="256" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="823" y="256" fill="#1d4f86" text-anchor="middle">A</text>
+    <text x="838" y="256" fill="#1d4f86" text-anchor="middle">G</text>
+    <text x="853" y="256" fill="#c0392b" text-anchor="middle">C</text>
+    <text x="868" y="256" fill="#1d4f86" text-anchor="middle">T</text>
+    <text x="877" y="256" fill="#1d4f86">-5′</text>
+  </g>
+  <g fill="#e67e22" stroke="#a04000" stroke-width="1.5">
+    <circle cx="118" cy="94" r="6.5"/>
+    <circle cx="178" cy="94" r="6.5"/>
+    <circle cx="133" cy="166" r="6.5"/>
+    <circle cx="193" cy="166" r="6.5"/>
+    <circle cx="453" cy="94" r="6.5"/>
+    <circle cx="513" cy="94" r="6.5"/>
+    <circle cx="468" cy="272" r="6.5"/>
+    <circle cx="528" cy="272" r="6.5"/>
+    <circle cx="778" cy="94" r="6.5"/>
+    <circle cx="838" cy="94" r="6.5"/>
+    <circle cx="793" cy="166" r="6.5"/>
+    <circle cx="853" cy="166" r="6.5"/>
+    <circle cx="778" cy="200" r="6.5"/>
+    <circle cx="838" cy="200" r="6.5"/>
+    <circle cx="793" cy="272" r="6.5"/>
+    <circle cx="853" cy="272" r="6.5"/>
+  </g>
+
+  <!-- легенда -->
+  <circle cx="60" cy="335" r="7" fill="#e67e22" stroke="#a04000" stroke-width="1.5"/>
+  <text x="76" y="340" font-size="14" fill="#333">метильная группа на цитозине (5-метилцитозин)</text>
+  <text x="470" y="340" font-size="14" fill="#333">CpG читается одинаково на обеих цепях: 5′-CG-3′ / 3′-GC-5′</text>
+
+  <!-- аналогия -->
+  <rect x="15" y="372" width="930" height="132" rx="14" fill="#fafafa" stroke="#ccc" stroke-width="2"/>
+  <text x="35" y="398" font-size="15" font-weight="bold" fill="#333">Аналогия для программиста:</text>
+  <g font-size="13.5" fill="#333">
+    <text x="35" y="424">Метки — как метаданные файла (права доступа, флаги), а не его содержимое. При делении копируется и код, и «конфигурация».</text>
+    <text x="35" y="446">Симметрия CpG работает как зеркальная копия: половина метки остаётся на старой цепи, по ней восстанавливают вторую.</text>
+    <text x="35" y="470" fill="#a02020">Где ломается: копирование неточное — часть меток теряется при каждом делении, а «конфиг» пишут и стирают</text>
+    <text x="35" y="490" fill="#a02020">ферменты, которые сами закодированы в том же геноме. Код и его настройки управляют друг другом.</text>
+  </g>
+</svg>

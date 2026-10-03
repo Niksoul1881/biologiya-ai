@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="960" height="560" fill="#fff"/>
+  <text x="480" y="32" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Две волны стирания меток у млекопитающих</text>
+  <text x="480" y="56" font-size="14" text-anchor="middle" fill="#555">схема по данным для мыши, уровни условные</text>
+
+  <!-- зоны волн -->
+  <rect x="230" y="70" width="190" height="300" fill="#fdf2e9"/>
+  <text x="325" y="90" font-size="14" font-weight="bold" text-anchor="middle" fill="#a04000">Волна 1</text>
+  <text x="325" y="107" font-size="12.5" text-anchor="middle" fill="#a04000">после оплодотворения</text>
+  <rect x="620" y="70" width="150" height="300" fill="#f4ecf7"/>
+  <text x="695" y="90" font-size="14" font-weight="bold" text-anchor="middle" fill="#6c3483">Волна 2</text>
+  <text x="695" y="107" font-size="12.5" text-anchor="middle" fill="#6c3483">в зачатках половых клеток</text>
+
+  <!-- оси -->
+  <line x1="80" y1="370" x2="920" y2="370" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="370" x2="80" y2="80" stroke="#333" stroke-width="2"/>
+  <text x="40" y="225" font-size="14" text-anchor="middle" fill="#333" transform="rotate(-90 40 225)">метилирование ДНК</text>
+  <text x="74" y="124" font-size="12" text-anchor="end" fill="#555">высокое</text>
+  <text x="74" y="364" font-size="12" text-anchor="end" fill="#555">низкое</text>
+
+  <!-- стадии -->
+  <g font-size="12.5" text-anchor="middle" fill="#333">
+    <text x="120" y="392">гаметы</text><text x="120" y="408">родителей</text>
+    <text x="250" y="392">зигота</text>
+    <text x="400" y="392">бластоциста</text>
+    <text x="530" y="392">имплантация</text>
+    <text x="695" y="392">первичные</text><text x="695" y="408">половые клетки</text>
+    <text x="880" y="392">новые гаметы</text><text x="880" y="408">(следующее поколение)</text>
+  </g>
+  <g stroke="#bbb" stroke-width="1">
+    <line x1="120" y1="370" x2="120" y2="376"/><line x1="250" y1="370" x2="250" y2="376"/><line x1="400" y1="370" x2="400" y2="376"/><line x1="530" y1="370" x2="530" y2="376"/><line x1="695" y1="370" x2="695" y2="376"/><line x1="880" y1="370" x2="880" y2="376"/>
+  </g>
+
+  <!-- отцовский геном: быстрое активное деметилирование -->
+  <polyline points="120,125 180,140 250,280 330,320 400,330" fill="none" stroke="#1d4f86" stroke-width="3.5"/>
+  <!-- материнский геном: медленное пассивное -->
+  <polyline points="120,240 250,250 330,290 400,330" fill="none" stroke="#c0392b" stroke-width="3.5"/>
+  <!-- соматическая линия: метилирование заново -->
+  <polyline points="400,330 470,250 530,150 900,140" fill="none" stroke="#1b7a3a" stroke-width="4"/>
+  <!-- половая линия -->
+  <polyline points="560,148 620,200 670,345 720,345 790,260 880,168" fill="none" stroke="#6c3483" stroke-width="4" stroke-dasharray="2 0"/>
+  <!-- импринты -->
+  <polyline points="120,175 560,175 620,215 670,350 720,350 790,272 880,192" fill="none" stroke="#e67e22" stroke-width="3" stroke-dasharray="9 6"/>
+
+  <!-- подписи линий -->
+  <text x="185" y="128" font-size="13" fill="#1d4f86" font-weight="bold">геном от отца</text>
+  <text x="128" y="270" font-size="13" fill="#c0392b" font-weight="bold">геном от матери</text>
+  <text x="300" y="168" font-size="13" fill="#e67e22" font-weight="bold">импринты — остаются</text>
+  <text x="560" y="134" font-size="13" fill="#1b7a3a" font-weight="bold">клетки тела: новые метки</text>
+  <text x="790" y="300" font-size="13" fill="#6c3483" font-weight="bold">половая линия:</text>
+  <text x="790" y="316" font-size="13" fill="#6c3483" font-weight="bold">стёрто почти всё,</text>
+  <text x="790" y="332" font-size="13" fill="#6c3483" font-weight="bold">включая импринты</text>
+
+  <!-- вывод -->
+  <rect x="15" y="430" width="930" height="116" rx="14" fill="#fafafa" stroke="#ccc" stroke-width="2"/>
+  <text x="35" y="456" font-size="15" font-weight="bold" fill="#333">Что из этого следует:</text>
+  <g font-size="13.5" fill="#333">
+    <text x="35" y="482">Внутри одного организма метки передаются от клетки к клетке при делении — это клеточная память, она работает надёжно.</text>
+    <text x="35" y="504">Между поколениями у млекопитающих метки дважды почти полностью стираются — как сброс к заводским настройкам.</text>
+    <text x="35" y="526" fill="#a02020">Поэтому истории про «голод или стресс бабушки, записанные в генах внуков», у человека не доказаны: исключения редки и спорны.</text>
+  </g>
+</svg>
