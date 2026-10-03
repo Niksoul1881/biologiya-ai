@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="sans-serif">
+<rect width="900" height="470" fill="#fff"/>
+<text x="450" y="38" font-size="24" font-weight="bold" fill="#1f2937" text-anchor="middle">Как вода растворяет поваренную соль (NaCl)</text>
+<line x1="297.5" y1="234.0" x2="301.2" y2="259.7" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="301.2" cy="259.7" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="297.5" y1="234.0" x2="321.7" y2="224.3" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="321.7" cy="224.3" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="297.5" cy="234.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<line x1="230.0" y1="273.0" x2="209.5" y2="289.0" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="209.5" cy="289.0" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="230.0" y1="273.0" x2="250.5" y2="289.0" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="250.5" cy="289.0" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="230.0" cy="273.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<line x1="162.5" y1="234.0" x2="138.3" y2="224.3" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="138.3" cy="224.3" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="162.5" y1="234.0" x2="158.8" y2="259.7" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="158.8" cy="259.7" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="162.5" cy="234.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<line x1="162.5" y1="156.0" x2="158.8" y2="130.3" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="158.8" cy="130.3" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="162.5" y1="156.0" x2="138.3" y2="165.7" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="138.3" cy="165.7" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="162.5" cy="156.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<line x1="230.0" y1="117.0" x2="250.5" y2="101.0" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="250.5" cy="101.0" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="230.0" y1="117.0" x2="209.5" y2="101.0" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="209.5" cy="101.0" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="230.0" cy="117.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<line x1="297.5" y1="156.0" x2="321.7" y2="165.7" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="321.7" cy="165.7" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="297.5" y1="156.0" x2="301.2" y2="130.3" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="301.2" cy="130.3" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="297.5" cy="156.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<circle cx="230" cy="195" r="34" fill="#7c3aed" stroke="#1f2937" stroke-width="2"/>
+<text x="230" y="203" font-size="24" font-weight="bold" fill="#fff" text-anchor="middle">Na⁺</text>
+<text x="230" y="345" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">Ион натрия</text>
+<text x="230" y="371" font-size="17" fill="#374151" text-anchor="middle">к нему повёрнут кислород (δ−)</text>
+<line x1="753.1" y1="243.0" x2="730.6" y2="230.0" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="730.6" cy="230.0" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="753.1" y1="243.0" x2="771.4" y2="224.5" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="771.4" cy="224.5" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="753.1" cy="243.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<line x1="670.0" y1="291.0" x2="670.0" y2="265.0" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="670.0" cy="265.0" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="670.0" y1="291.0" x2="695.2" y2="297.5" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="695.2" cy="297.5" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="670.0" cy="291.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<line x1="586.9" y1="243.0" x2="609.4" y2="230.0" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="609.4" cy="230.0" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="586.9" y1="243.0" x2="593.8" y2="268.1" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="593.8" cy="268.1" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="586.9" cy="243.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<line x1="586.9" y1="147.0" x2="609.4" y2="160.0" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="609.4" cy="160.0" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="586.9" y1="147.0" x2="568.6" y2="165.5" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="568.6" cy="165.5" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="586.9" cy="147.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<line x1="670.0" y1="99.0" x2="670.0" y2="125.0" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="670.0" cy="125.0" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="670.0" y1="99.0" x2="644.8" y2="92.5" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="644.8" cy="92.5" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="670.0" cy="99.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<line x1="753.1" y1="147.0" x2="730.6" y2="160.0" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="730.6" cy="160.0" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<line x1="753.1" y1="147.0" x2="746.2" y2="121.9" stroke="#9ca3af" stroke-width="4"/>
+<circle cx="746.2" cy="121.9" r="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="753.1" cy="147.0" r="16" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+<circle cx="670" cy="195" r="34" fill="#16a34a" stroke="#1f2937" stroke-width="2"/>
+<text x="670" y="203" font-size="24" font-weight="bold" fill="#fff" text-anchor="middle">Cl⁻</text>
+<text x="670" y="345" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">Ион хлора</text>
+<text x="670" y="371" font-size="17" fill="#374151" text-anchor="middle">к нему повёрнут водород (δ+)</text>
+<circle cx="330" cy="425" r="12" fill="#ef4444" stroke="#991b1b"/><text x="350" y="431" font-size="17" fill="#374151">O (δ−)</text>
+<circle cx="450" cy="425" r="8" fill="#e5e7eb" stroke="#6b7280"/><text x="466" y="431" font-size="17" fill="#374151">H (δ+)</text>
+<text x="450" y="458" font-size="15" fill="#6b7280" text-anchor="middle">Каждый ион окружён «шубой» из молекул воды — гидратной оболочкой</text>
+</svg>

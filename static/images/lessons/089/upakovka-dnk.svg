@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" width="1000" height="430" font-family="sans-serif">
+<rect width="1000" height="430" fill="#fff"/>
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#6b7280"/></marker></defs>
+<text x="500" y="36" font-size="25" font-weight="bold" fill="#1f2937" text-anchor="middle">Как ДНК упаковывается в хромосому</text>
+<polyline points="40,190.0 43,194.5 46,198.6 49,202.3 52,205.1 55,207.1 58,208.0 61,207.7 64,206.4 67,204.0 70,200.8 73,196.9 76,192.5 79,188.1 82,183.7 85,179.7 88,176.4 91,173.9 94,172.4 97,172.0 100,172.7 103,174.5 106,177.3 109,180.9 112,185.0 115,189.4 118,193.9 121,198.1 124,201.8 127,204.8 130,206.9 133,207.9 136,207.8 139,206.6 142,204.4 145,201.2 148,197.4 151,193.1 154,188.6 157,184.2 160,180.2 163,176.8 166,174.2 169,172.5 172,172.0 175,172.6 178,174.2 181,176.9 184,180.3 187,184.4" fill="none" stroke="#2563EB" stroke-width="3"/><polyline points="40,190.0 43,185.5 46,181.4 49,177.7 52,174.9 55,172.9 58,172.0 61,172.3 64,173.6 67,176.0 70,179.2 73,183.1 76,187.5 79,191.9 82,196.3 85,200.3 88,203.6 91,206.1 94,207.6 97,208.0 100,207.3 103,205.5 106,202.7 109,199.1 112,195.0 115,190.6 118,186.1 121,181.9 124,178.2 127,175.2 130,173.1 133,172.1 136,172.2 139,173.4 142,175.6 145,178.8 148,182.6 151,186.9 154,191.4 157,195.8 160,199.8 163,203.2 166,205.8 169,207.5 172,208.0 175,207.4 178,205.8 181,203.1 184,199.7 187,195.6" fill="none" stroke="#F59E0B" stroke-width="3"/>
+<circle cx="240" cy="190" r="13" fill="#FCA5A5" stroke="#991B1B" stroke-width="2"/>
+<circle cx="274" cy="190" r="13" fill="#FCA5A5" stroke="#991B1B" stroke-width="2"/>
+<circle cx="308" cy="190" r="13" fill="#FCA5A5" stroke="#991B1B" stroke-width="2"/>
+<circle cx="342" cy="190" r="13" fill="#FCA5A5" stroke="#991B1B" stroke-width="2"/>
+<circle cx="376" cy="190" r="13" fill="#FCA5A5" stroke="#991B1B" stroke-width="2"/>
+<path d="M215,200 Q223,168 240,176  Q257,212 274,176  Q291,168 308,176  Q325,212 342,176  Q359,168 376,176 " fill="none" stroke="#2563EB" stroke-width="2.5"/>
+<circle cx="470" cy="178" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<circle cx="470" cy="202" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<circle cx="492" cy="178" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<circle cx="492" cy="202" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<circle cx="514" cy="178" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<circle cx="514" cy="202" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<circle cx="536" cy="178" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<circle cx="536" cy="202" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<circle cx="558" cy="178" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<circle cx="558" cy="202" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<circle cx="580" cy="178" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<circle cx="580" cy="202" r="12" fill="#FCA5A5" stroke="#991B1B" stroke-width="1.5"/>
+<line x1="680" y1="130" x2="680" y2="250" stroke="#6b7280" stroke-width="4"/>
+<path d="M680,135 q-55,5 -45,14 t45,6" fill="none" stroke="#DC2626" stroke-width="5"/>
+<path d="M680,157 q55,5 45,14 t-45,6" fill="none" stroke="#DC2626" stroke-width="5"/>
+<path d="M680,179 q-55,5 -45,14 t45,6" fill="none" stroke="#DC2626" stroke-width="5"/>
+<path d="M680,201 q55,5 45,14 t-45,6" fill="none" stroke="#DC2626" stroke-width="5"/>
+<path d="M680,223 q-55,5 -45,14 t45,6" fill="none" stroke="#DC2626" stroke-width="5"/>
+<path d="M680,245 q55,5 45,14 t-45,6" fill="none" stroke="#DC2626" stroke-width="5"/>
+<rect x="850" y="105" width="28" height="80" rx="14" fill="#3B82F6" stroke="#1e3a8a" stroke-width="2"/>
+<rect x="850" y="180" width="28" height="100" rx="14" fill="#3B82F6" stroke="#1e3a8a" stroke-width="2"/>
+<rect x="882" y="105" width="28" height="80" rx="14" fill="#3B82F6" stroke="#1e3a8a" stroke-width="2"/>
+<rect x="882" y="180" width="28" height="100" rx="14" fill="#3B82F6" stroke="#1e3a8a" stroke-width="2"/>
+<ellipse cx="880" cy="183" rx="12" ry="8" fill="#DC2626"/>
+<line x1="185" y1="190" x2="215" y2="190" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="410" y1="190" x2="450" y2="190" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="615" y1="190" x2="640" y2="190" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+<line x1="760" y1="190" x2="830" y2="190" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+<text x="110" y="310" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">Двойная спираль ДНК</text>
+<text x="110" y="332" font-size="15"  fill="#1f2937" text-anchor="middle">2 нм</text>
+<text x="310" y="310" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">Нуклеосомы</text>
+<text x="310" y="332" font-size="15"  fill="#1f2937" text-anchor="middle">«бусины» из гистонов,</text>
+<text x="310" y="354" font-size="15"  fill="#1f2937" text-anchor="middle">11 нм</text>
+<text x="525" y="310" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">Хроматиновая</text>
+<text x="525" y="332" font-size="15"  fill="#1f2937" text-anchor="middle">фибрилла</text>
+<text x="525" y="354" font-size="15"  fill="#1f2937" text-anchor="middle">около 30 нм</text>
+<text x="690" y="310" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">Петли</text>
+<text x="690" y="332" font-size="15"  fill="#1f2937" text-anchor="middle">на белковом</text>
+<text x="690" y="354" font-size="15"  fill="#1f2937" text-anchor="middle">каркасе</text>
+<text x="880" y="310" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">Метафазная</text>
+<text x="880" y="332" font-size="15"  fill="#1f2937" text-anchor="middle">хромосома</text>
+<text x="880" y="354" font-size="15"  fill="#1f2937" text-anchor="middle">около 1 мкм толщиной</text>
+<text x="500" y="400" font-size="15" fill="#6b7280" text-anchor="middle">ДНК одной клетки человека длиной около 2 м укорачивается в тысячи раз и помещается в ядре диаметром в несколько микрометров</text>
+</svg>

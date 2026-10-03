@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500" font-family="sans-serif">
+<rect width="1000" height="500" fill="#fff"/>
+<text x="500" y="38" font-size="25" font-weight="bold" fill="#1f2937" text-anchor="middle">Как создавалась клеточная теория</text>
+<line x1="40" y1="290" x2="960" y2="290" stroke="#0F766E" stroke-width="5"/>
+<circle cx="40" cy="290" r="11" fill="#fff" stroke="#0F766E" stroke-width="4"/>
+<line x1="40" y1="279" x2="40" y2="232" stroke="#9ca3af" stroke-width="2"/>
+<text x="95" y="150" font-size="22" font-weight="bold" fill="#0F766E" text-anchor="middle">1665</text>
+<text x="95" y="176" font-size="16" font-weight="bold" fill="#1f2937" text-anchor="middle">Р. Гук</text>
+<text x="95" y="198" font-size="14.5" fill="#374151" text-anchor="middle">видит «ячейки» в пробке,</text>
+<text x="95" y="218" font-size="14.5" fill="#374151" text-anchor="middle">вводит слово «клетка»</text>
+<circle cx="193" cy="290" r="11" fill="#fff" stroke="#0F766E" stroke-width="4"/>
+<line x1="193" y1="301" x2="193" y2="338" stroke="#9ca3af" stroke-width="2"/>
+<text x="193" y="350" font-size="22" font-weight="bold" fill="#0F766E" text-anchor="middle">1674</text>
+<text x="193" y="376" font-size="16" font-weight="bold" fill="#1f2937" text-anchor="middle">А. ван Левенгук</text>
+<text x="193" y="398" font-size="14.5" fill="#374151" text-anchor="middle">первым видит живые</text>
+<text x="193" y="418" font-size="14.5" fill="#374151" text-anchor="middle">одноклеточные организмы</text>
+<circle cx="347" cy="290" r="11" fill="#fff" stroke="#0F766E" stroke-width="4"/>
+<line x1="347" y1="279" x2="347" y2="232" stroke="#9ca3af" stroke-width="2"/>
+<text x="347" y="150" font-size="22" font-weight="bold" fill="#0F766E" text-anchor="middle">1831</text>
+<text x="347" y="176" font-size="16" font-weight="bold" fill="#1f2937" text-anchor="middle">Р. Броун</text>
+<text x="347" y="198" font-size="14.5" fill="#374151" text-anchor="middle">описывает ядро</text>
+<text x="347" y="218" font-size="14.5" fill="#374151" text-anchor="middle">в клетках растений</text>
+<circle cx="500" cy="290" r="11" fill="#fff" stroke="#0F766E" stroke-width="4"/>
+<line x1="500" y1="301" x2="500" y2="338" stroke="#9ca3af" stroke-width="2"/>
+<text x="500" y="350" font-size="22" font-weight="bold" fill="#0F766E" text-anchor="middle">1838–39</text>
+<text x="500" y="376" font-size="16" font-weight="bold" fill="#1f2937" text-anchor="middle">М. Шлейден, Т. Шванн</text>
+<text x="500" y="398" font-size="14.5" fill="#374151" text-anchor="middle">клеточная теория:</text>
+<text x="500" y="418" font-size="14.5" fill="#374151" text-anchor="middle">растения и животные из клеток</text>
+<circle cx="653" cy="290" r="11" fill="#fff" stroke="#0F766E" stroke-width="4"/>
+<line x1="653" y1="279" x2="653" y2="232" stroke="#9ca3af" stroke-width="2"/>
+<text x="653" y="150" font-size="22" font-weight="bold" fill="#0F766E" text-anchor="middle">1855</text>
+<text x="653" y="176" font-size="16" font-weight="bold" fill="#1f2937" text-anchor="middle">Р. Вирхов</text>
+<text x="653" y="198" font-size="14.5" fill="#374151" text-anchor="middle">«Каждая клетка —</text>
+<text x="653" y="218" font-size="14.5" fill="#374151" text-anchor="middle">из клетки»</text>
+<circle cx="807" cy="290" r="11" fill="#fff" stroke="#0F766E" stroke-width="4"/>
+<line x1="807" y1="301" x2="807" y2="338" stroke="#9ca3af" stroke-width="2"/>
+<text x="807" y="350" font-size="22" font-weight="bold" fill="#0F766E" text-anchor="middle">1931</text>
+<text x="807" y="376" font-size="16" font-weight="bold" fill="#1f2937" text-anchor="middle">Э. Руска, М. Кнолль</text>
+<text x="807" y="398" font-size="14.5" fill="#374151" text-anchor="middle">первый электронный</text>
+<text x="807" y="418" font-size="14.5" fill="#374151" text-anchor="middle">микроскоп</text>
+<circle cx="960" cy="290" r="11" fill="#fff" stroke="#0F766E" stroke-width="4"/>
+<line x1="960" y1="279" x2="960" y2="232" stroke="#9ca3af" stroke-width="2"/>
+<text x="905" y="150" font-size="22" font-weight="bold" fill="#0F766E" text-anchor="middle">2017</text>
+<text x="905" y="176" font-size="16" font-weight="bold" fill="#1f2937" text-anchor="middle">Нобелевская премия</text>
+<text x="905" y="198" font-size="14.5" fill="#374151" text-anchor="middle">за криоэлектронную</text>
+<text x="905" y="218" font-size="14.5" fill="#374151" text-anchor="middle">микроскопию</text>
+<text x="500" y="480" font-size="15" fill="#6b7280" text-anchor="middle">От первого увиденного «ящичка» до молекулярных снимков клетки прошло больше 350 лет</text>
+</svg>

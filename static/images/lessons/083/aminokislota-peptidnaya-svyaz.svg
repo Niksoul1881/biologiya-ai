@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" width="980" height="560" font-family="sans-serif">
+<rect width="980" height="560" fill="#fff"/>
+<text x="490" y="36" font-size="25" font-weight="bold" fill="#1f2937" text-anchor="middle">Аминокислота и пептидная связь</text>
+<rect x="68" y="106" width="88" height="58" rx="8" fill="#DBEAFE" stroke="#2563EB"/>
+<text x="80" y="140" font-size="24" fill="#1f2937">H₂N</text>
+<text x="172" y="140" font-size="24" fill="#1f2937">–</text>
+<text x="192" y="140" font-size="24" font-weight="bold" fill="#1f2937">C</text>
+<text x="192" y="94" font-size="24" fill="#1f2937">H</text><line x1="200" y1="100" x2="200" y2="118" stroke="#1f2937" stroke-width="2"/>
+<line x1="200" y1="146" x2="200" y2="166" stroke="#1f2937" stroke-width="2"/>
+<rect x="178" y="168" width="46" height="40" rx="8" fill="#FEF3C7" stroke="#D97706"/><text x="201" y="196" font-size="22" font-weight="bold" fill="#92400E" text-anchor="middle">R₁</text>
+<text x="218" y="140" font-size="24" fill="#1f2937">–</text>
+<rect x="232" y="106" width="92" height="58" rx="8" fill="#FEE2E2" stroke="#DC2626"/>
+<text x="240" y="140" font-size="24" fill="#1f2937">COOH</text>
+<text x="200" y="236" font-size="17" fill="#374151" text-anchor="middle">аминокислота 1</text>
+<text x="345" y="150" font-size="34" fill="#374151">+</text>
+<rect x="388" y="106" width="88" height="58" rx="8" fill="#DBEAFE" stroke="#2563EB"/>
+<text x="400" y="140" font-size="24" fill="#1f2937">H₂N</text>
+<text x="492" y="140" font-size="24" fill="#1f2937">–</text>
+<text x="512" y="140" font-size="24" font-weight="bold" fill="#1f2937">C</text>
+<text x="512" y="94" font-size="24" fill="#1f2937">H</text><line x1="520" y1="100" x2="520" y2="118" stroke="#1f2937" stroke-width="2"/>
+<line x1="520" y1="146" x2="520" y2="166" stroke="#1f2937" stroke-width="2"/>
+<rect x="498" y="168" width="46" height="40" rx="8" fill="#FEF3C7" stroke="#D97706"/><text x="521" y="196" font-size="22" font-weight="bold" fill="#92400E" text-anchor="middle">R₂</text>
+<text x="538" y="140" font-size="24" fill="#1f2937">–</text>
+<rect x="552" y="106" width="92" height="58" rx="8" fill="#FEE2E2" stroke="#DC2626"/>
+<text x="560" y="140" font-size="24" fill="#1f2937">COOH</text>
+<text x="520" y="236" font-size="17" fill="#374151" text-anchor="middle">аминокислота 2</text>
+<line x1="680" y1="132" x2="740" y2="132" stroke="#374151" stroke-width="4"/><polygon points="740,122 760,132 740,142" fill="#374151"/>
+<text x="720" y="112" font-size="17" fill="#b91c1c" text-anchor="middle">−H₂O</text>
+<text x="775" y="125" font-size="18" fill="#1f2937">дипептид</text><text x="775" y="150" font-size="18" fill="#1f2937">+ вода</text>
+<rect x="80" y="270" width="26" height="20" rx="4" fill="#DBEAFE" stroke="#2563EB"/><text x="116" y="286" font-size="17" fill="#374151">аминогруппа –NH₂ (основные свойства)</text>
+<rect x="460" y="270" width="26" height="20" rx="4" fill="#FEE2E2" stroke="#DC2626"/><text x="496" y="286" font-size="17" fill="#374151">карбоксильная группа –COOH (кислотные свойства)</text>
+<rect x="80" y="302" width="26" height="20" rx="4" fill="#FEF3C7" stroke="#D97706"/><text x="116" y="318" font-size="17" fill="#374151">радикал R — у каждой из 20 аминокислот свой</text>
+<text x="80" y="440" font-size="24" fill="#1f2937">H₂N–CH–</text>
+<rect x="178" y="406" width="150" height="58" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="2.5"/>
+<text x="188" y="440" font-size="24" font-weight="bold" fill="#166534">CO–NH</text>
+<text x="330" y="440" font-size="24" fill="#1f2937">–CH–COOH</text>
+<text x="118" y="482" font-size="20" fill="#92400E">R₁</text><line x1="126" y1="446" x2="126" y2="462" stroke="#1f2937" stroke-width="2"/>
+<text x="372" y="482" font-size="20" fill="#92400E">R₂</text><line x1="380" y1="446" x2="380" y2="462" stroke="#1f2937" stroke-width="2"/>
+<text x="253" y="394" font-size="18" font-weight="bold" fill="#166534" text-anchor="middle">пептидная связь</text>
+<text x="560" y="420" font-size="17" fill="#374151">Карбоксильная группа одной аминокислоты</text>
+<text x="560" y="444" font-size="17" fill="#374151">соединяется с аминогруппой другой,</text>
+<text x="560" y="468" font-size="17" fill="#374151">выделяется молекула воды.</text>
+<text x="560" y="500" font-size="17" fill="#374151">Много аминокислот → полипептид → белок.</text>
+</svg>

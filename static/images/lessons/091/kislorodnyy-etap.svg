@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="sans-serif">
+<rect width="1000" height="560" fill="#fff"/>
+<defs><marker id="ar" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#374151"/></marker><marker id="arr" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#DC2626"/></marker></defs>
+<text x="500" y="34" font-size="25" font-weight="bold" fill="#1f2937" text-anchor="middle">Кислородный этап в митохондрии</text>
+<rect x="20" y="55" width="960" height="85" fill="#FFF7ED"/>
+<text x="40" y="85" font-size="16" font-weight="bold" fill="#7C2D12">Межмембранное пространство</text><text x="40" y="107" font-size="15" fill="#7C2D12">здесь накапливается много ионов H⁺</text>
+<text x="520" y="100" font-size="16" font-weight="bold" fill="#DC2626">H⁺</text>
+<text x="560" y="100" font-size="16" font-weight="bold" fill="#DC2626">H⁺</text>
+<text x="610" y="80" font-size="16" font-weight="bold" fill="#DC2626">H⁺</text>
+<text x="660" y="100" font-size="16" font-weight="bold" fill="#DC2626">H⁺</text>
+<text x="700" y="100" font-size="16" font-weight="bold" fill="#DC2626">H⁺</text>
+<text x="760" y="100" font-size="16" font-weight="bold" fill="#DC2626">H⁺</text>
+<rect x="20" y="140" width="960" height="40" fill="#FDBA74" stroke="#9A3412" stroke-width="2"/>
+<text x="40" y="166" font-size="16" font-weight="bold" fill="#7C2D12">Внутренняя мембрана (кристы)</text>
+<rect x="20" y="180" width="960" height="320" fill="#FFEDD5"/>
+<text x="40" y="210" font-size="16" font-weight="bold" fill="#7C2D12">Матрикс</text>
+<rect x="500" y="128" width="46" height="64" rx="9" fill="#93C5FD" stroke="#1E40AF" stroke-width="2"/>
+<line x1="523" y1="205" x2="523" y2="120" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="580" y="128" width="46" height="64" rx="9" fill="#93C5FD" stroke="#1E40AF" stroke-width="2"/>
+<line x1="603" y1="205" x2="603" y2="120" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="660" y="128" width="46" height="64" rx="9" fill="#93C5FD" stroke="#1E40AF" stroke-width="2"/>
+<line x1="683" y1="205" x2="683" y2="120" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="665" y="232" font-size="15" fill="#1E40AF" text-anchor="middle">дыхательная цепь: энергия электронов</text><text x="665" y="252" font-size="15" fill="#1E40AF" text-anchor="middle">перекачивает H⁺ наружу (красные стрелки)</text>
+<text x="700" y="300" font-size="17" fill="#1f2937">в конце цепи:</text><text x="700" y="324" font-size="18" font-weight="bold" fill="#1f2937">O₂ + 4H⁺ + 4e⁻ → 2 H₂O</text>
+<rect x="830" y="118" width="64" height="86" rx="12" fill="#86EFAC" stroke="#166534" stroke-width="2"/><text x="862" y="158" font-size="13" font-weight="bold" fill="#14532d" text-anchor="middle">АТФ-</text><text x="862" y="174" font-size="13" font-weight="bold" fill="#14532d" text-anchor="middle">синтаза</text>
+<line x1="862" y1="66" x2="862" y2="226" stroke="#DC2626" stroke-width="3" marker-end="url(#arr)"/>
+<text x="862" y="252" font-size="17" font-weight="bold" fill="#166534" text-anchor="middle">АДФ + Ф → АТФ</text><text x="862" y="274" font-size="14" fill="#166534" text-anchor="middle">(≈ 34 АТФ)</text>
+<text x="60" y="250" font-size="17" fill="#1f2937">2 ПВК из цитоплазмы</text>
+<line x1="140" y1="260" x2="190" y2="300" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+<circle cx="270" cy="370" r="88" fill="#FEF9C3" stroke="#CA8A04" stroke-width="3"/>
+<text x="270" y="362" font-size="20" font-weight="bold" fill="#713F12" text-anchor="middle">цикл Кребса</text><text x="270" y="386" font-size="15" fill="#713F12" text-anchor="middle">окисление до CO₂</text><text x="270" y="406" font-size="15" fill="#713F12" text-anchor="middle">+ 2 АТФ</text>
+<line x1="190" y1="410" x2="110" y2="460" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/><text x="50" y="485" font-size="17" font-weight="bold" fill="#374151">6 CO₂</text>
+<line x1="355" y1="340" x2="495" y2="205" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+<text x="395" y="330" font-size="15" fill="#374151">водород (электроны)</text><text x="395" y="350" font-size="15" fill="#374151">на переносчиках НАД·H</text>
+<text x="500" y="540" font-size="15" fill="#6b7280" text-anchor="middle">Итог кислородного этапа на 1 молекулу глюкозы (по школьному курсу): 2 АТФ в цикле Кребса + 34 АТФ на мембране = 36 АТФ</text>
+</svg>

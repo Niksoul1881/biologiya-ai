@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 400" width="980" height="400" font-family="sans-serif">
+<rect width="980" height="400" fill="#fff"/>
+<text x="490" y="36" font-size="25" font-weight="bold" fill="#1f2937" text-anchor="middle">Сравнение размеров (в одном масштабе)</text>
+<circle cx="640" cy="205" r="140" fill="#FFE4E6" stroke="#9F1239" stroke-width="2.5"/>
+<circle cx="650" cy="200" r="42" fill="#BFDBFE" stroke="#2563EB" stroke-width="2"/>
+<ellipse cx="570" cy="265" rx="14" ry="7.0" fill="#FDBA74" stroke="#9A3412" stroke-width="1.5"/>
+<ellipse cx="700" cy="125" rx="14" ry="7.0" fill="#FDBA74" stroke="#9A3412" stroke-width="1.5"/>
+<ellipse cx="580" cy="135" rx="14" ry="7.0" fill="#FDBA74" stroke="#9A3412" stroke-width="1.5"/>
+<ellipse cx="720" cy="255" rx="14" ry="7.0" fill="#FDBA74" stroke="#9A3412" stroke-width="1.5"/>
+<text x="640" y="373" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">клетка животного (эукариот) ≈ 20 мкм</text>
+<text x="650" y="205" font-size="14" fill="#1e3a8a" text-anchor="middle">ядро ≈ 6 мкм</text>
+<text x="600" y="292" font-size="13" fill="#9A3412" text-anchor="middle">митохондрия ≈ 2 мкм</text>
+<rect x="180" y="190" width="28" height="11.200000000000001" rx="5.6000000000000005" fill="#FEF9C3" stroke="#a16207" stroke-width="2"/>
+<text x="194" y="235" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">бактерия ≈ 2 мкм</text>
+<text x="194" y="258" font-size="14" fill="#374151" text-anchor="middle">(кишечная палочка)</text>
+<circle cx="120" cy="195" r="2" fill="#7c3aed"/>
+<line x1="120" y1="192" x2="100" y2="150" stroke="#7c3aed" stroke-width="1.5"/><text x="100" y="142" font-size="14" fill="#7c3aed" text-anchor="middle">вирус ≈ 0,1 мкм</text>
+<line x1="60" y1="350" x2="200" y2="350" stroke="#1f2937" stroke-width="4"/><text x="130" y="375" font-size="15" fill="#1f2937" text-anchor="middle">10 мкм</text>
+<text x="300" y="300" font-size="15" fill="#6b7280" text-anchor="middle">Объём типичной эукариотической клетки</text><text x="300" y="320" font-size="15" fill="#6b7280" text-anchor="middle">в сотни и тысячи раз больше, чем у бактерии</text>
+</svg>

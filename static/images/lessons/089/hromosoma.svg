@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 600" width="980" height="600" font-family="sans-serif">
+<rect width="980" height="600" fill="#fff"/>
+<text x="490" y="36" font-size="25" font-weight="bold" fill="#1f2937" text-anchor="middle">Строение метафазной хромосомы</text>
+<path d="M191.0,109.0 A29.0,29.0 0 0 1 249.0,109.0 L249.0,191.0 Q249.0,220 233.05,220 Q249.0,220 249.0,249.0 L249.0,451.0 A29.0,29.0 0 0 1 191.0,451.0 L191.0,249.0 Q191.0,220 206.95,220 Q191.0,220 191.0,191.0 Z" fill="#60A5FA" stroke="#1e3a8a" stroke-width="2.5"/>
+<path d="M251.0,109.0 A29.0,29.0 0 0 1 309.0,109.0 L309.0,191.0 Q309.0,220 293.05,220 Q309.0,220 309.0,249.0 L309.0,451.0 A29.0,29.0 0 0 1 251.0,451.0 L251.0,249.0 Q251.0,220 266.95,220 Q251.0,220 251.0,191.0 Z" fill="#3B82F6" stroke="#1e3a8a" stroke-width="2.5"/>
+<rect x="193" y="120" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="193" y="165" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="193" y="290" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="193" y="340" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="193" y="395" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="193" y="440" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="200" y="80" width="40" height="8" rx="4" fill="#F59E0B"/>
+<rect x="200" y="472" width="40" height="8" rx="4" fill="#F59E0B"/>
+<rect x="253" y="120" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="253" y="165" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="253" y="290" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="253" y="340" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="253" y="395" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="253" y="440" width="54" height="9" fill="#1e3a8a" opacity="0.3"/>
+<rect x="260" y="80" width="40" height="8" rx="4" fill="#F59E0B"/>
+<rect x="260" y="472" width="40" height="8" rx="4" fill="#F59E0B"/>
+<ellipse cx="250" cy="220" rx="22" ry="13" fill="#DC2626" stroke="#7f1d1d" stroke-width="2"/>
+<line x1="294" y1="84" x2="400" y2="84" stroke="#374151" stroke-width="2"/>
+<text x="408" y="90" font-size="19" font-weight="bold" fill="#1f2937">Теломеры</text>
+<text x="408" y="112" font-size="15" fill="#4b5563">концевые участки, защищают концы ДНК</text>
+<line x1="310" y1="150" x2="400" y2="150" stroke="#374151" stroke-width="2"/>
+<text x="408" y="156" font-size="19" font-weight="bold" fill="#1f2937">Короткое плечо (p)</text>
+<line x1="272" y1="220" x2="400" y2="220" stroke="#374151" stroke-width="2"/>
+<text x="408" y="226" font-size="19" font-weight="bold" fill="#1f2937">Центромера (первичная перетяжка)</text>
+<text x="408" y="248" font-size="15" fill="#4b5563">к ней крепятся нити веретена деления</text>
+<line x1="310" y1="370" x2="400" y2="330" stroke="#374151" stroke-width="2"/>
+<text x="408" y="336" font-size="19" font-weight="bold" fill="#1f2937">Длинное плечо (q)</text>
+<path d="M192,494 v10 H308 v-10" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="250" y="530" font-size="18" font-weight="bold" fill="#1f2937" text-anchor="middle">две сестринские хроматиды</text>
+<text x="250" y="552" font-size="15" fill="#4b5563" text-anchor="middle">одинаковые копии ДНК после репликации</text>
+<text x="680" y="400" font-size="18" font-weight="bold" fill="#1f2937" text-anchor="middle">Типы по положению центромеры</text>
+<path d="M539.0,430.0 A10.0,10.0 0 0 1 559.0,430.0 L559.0,470.0 Q559.0,480.0 553.5,480.0 Q559.0,480.0 559.0,490.0 L559.0,530.0 A10.0,10.0 0 0 1 539.0,530.0 L539.0,490.0 Q539.0,480.0 544.5,480.0 Q539.0,480.0 539.0,470.0 Z" fill="#93C5FD" stroke="#1e3a8a" stroke-width="2.5"/>
+<path d="M561.0,430.0 A10.0,10.0 0 0 1 581.0,430.0 L581.0,470.0 Q581.0,480.0 575.5,480.0 Q581.0,480.0 581.0,490.0 L581.0,530.0 A10.0,10.0 0 0 1 561.0,530.0 L561.0,490.0 Q561.0,480.0 566.5,480.0 Q561.0,480.0 561.0,470.0 Z" fill="#60A5FA" stroke="#1e3a8a" stroke-width="2.5"/>
+<circle cx="560" cy="480.0" r="6" fill="#DC2626"/>
+<text x="560" y="566" font-size="15" fill="#374151" text-anchor="middle">равноплечая</text>
+<path d="M659.0,430.0 A10.0,10.0 0 0 1 679.0,430.0 L679.0,446.0 Q679.0,456.0 673.5,456.0 Q679.0,456.0 679.0,466.0 L679.0,530.0 A10.0,10.0 0 0 1 659.0,530.0 L659.0,466.0 Q659.0,456.0 664.5,456.0 Q659.0,456.0 659.0,446.0 Z" fill="#93C5FD" stroke="#1e3a8a" stroke-width="2.5"/>
+<path d="M681.0,430.0 A10.0,10.0 0 0 1 701.0,430.0 L701.0,446.0 Q701.0,456.0 695.5,456.0 Q701.0,456.0 701.0,466.0 L701.0,530.0 A10.0,10.0 0 0 1 681.0,530.0 L681.0,466.0 Q681.0,456.0 686.5,456.0 Q681.0,456.0 681.0,446.0 Z" fill="#60A5FA" stroke="#1e3a8a" stroke-width="2.5"/>
+<circle cx="680" cy="456.0" r="6" fill="#DC2626"/>
+<text x="680" y="566" font-size="15" fill="#374151" text-anchor="middle">неравноплечая</text>
+<path d="M779.0,430.0 A10.0,10.0 0 0 1 799.0,430.0 L799.0,419.6 Q799.0,429.6 793.5,429.6 Q799.0,429.6 799.0,439.6 L799.0,530.0 A10.0,10.0 0 0 1 779.0,530.0 L779.0,439.6 Q779.0,429.6 784.5,429.6 Q779.0,429.6 779.0,419.6 Z" fill="#93C5FD" stroke="#1e3a8a" stroke-width="2.5"/>
+<path d="M801.0,430.0 A10.0,10.0 0 0 1 821.0,430.0 L821.0,419.6 Q821.0,429.6 815.5,429.6 Q821.0,429.6 821.0,439.6 L821.0,530.0 A10.0,10.0 0 0 1 801.0,530.0 L801.0,439.6 Q801.0,429.6 806.5,429.6 Q801.0,429.6 801.0,419.6 Z" fill="#60A5FA" stroke="#1e3a8a" stroke-width="2.5"/>
+<circle cx="800" cy="429.6" r="6" fill="#DC2626"/>
+<text x="800" y="566" font-size="15" fill="#374151" text-anchor="middle">палочковидная</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520" font-family="sans-serif">
+<rect width="960" height="520" fill="#fff"/>
+<text x="480" y="38" font-size="26" font-weight="bold" fill="#1f2937" text-anchor="middle">Классификация углеводов</text>
+<rect x="380" y="58" width="200" height="46" rx="10" fill="#0F766E"/><text x="480" y="88" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Углеводы</text>
+<line x1="480" y1="104" x2="160" y2="140" stroke="#6b7280" stroke-width="2.5"/>
+<rect x="15" y="140" width="290" height="62" rx="10" fill="#0EA5E9"/>
+<text x="160" y="168" font-size="21" font-weight="bold" fill="#fff" text-anchor="middle">Моносахариды</text>
+<text x="160" y="192" font-size="15" fill="#fff" text-anchor="middle">1 остаток сахара</text>
+<rect x="15" y="212" width="290" height="240" rx="10" fill="#f9fafb" stroke="#0EA5E9" stroke-width="2"/>
+<text x="160" y="244" font-size="18" fill="#1f2937" text-anchor="middle">Пентозы (C₅):</text>
+<text x="160" y="270" font-size="18" fill="#1f2937" text-anchor="middle">рибоза, дезоксирибоза</text>
+<text x="160" y="308" font-size="18" fill="#1f2937" text-anchor="middle">Гексозы (C₆):</text>
+<text x="160" y="334" font-size="18" fill="#1f2937" text-anchor="middle">глюкоза, фруктоза,</text>
+<text x="160" y="360" font-size="18" fill="#1f2937" text-anchor="middle">галактоза</text>
+<text x="160" y="482" font-size="16" font-style="italic" fill="#374151" text-anchor="middle">сладкие, растворимы в воде</text>
+<line x1="480" y1="104" x2="480" y2="140" stroke="#6b7280" stroke-width="2.5"/>
+<rect x="335" y="140" width="290" height="62" rx="10" fill="#8B5CF6"/>
+<text x="480" y="168" font-size="21" font-weight="bold" fill="#fff" text-anchor="middle">Дисахариды</text>
+<text x="480" y="192" font-size="15" fill="#fff" text-anchor="middle">2 остатка</text>
+<rect x="335" y="212" width="290" height="240" rx="10" fill="#f9fafb" stroke="#8B5CF6" stroke-width="2"/>
+<text x="480" y="244" font-size="18" fill="#1f2937" text-anchor="middle">сахароза =</text>
+<text x="480" y="270" font-size="18" fill="#1f2937" text-anchor="middle">глюкоза + фруктоза</text>
+<text x="480" y="308" font-size="18" fill="#1f2937" text-anchor="middle">лактоза =</text>
+<text x="480" y="334" font-size="18" fill="#1f2937" text-anchor="middle">глюкоза + галактоза</text>
+<text x="480" y="372" font-size="18" fill="#1f2937" text-anchor="middle">мальтоза =</text>
+<text x="480" y="398" font-size="18" fill="#1f2937" text-anchor="middle">глюкоза + глюкоза</text>
+<text x="480" y="482" font-size="16" font-style="italic" fill="#374151" text-anchor="middle">сладкие, растворимы в воде</text>
+<line x1="480" y1="104" x2="800" y2="140" stroke="#6b7280" stroke-width="2.5"/>
+<rect x="655" y="140" width="290" height="62" rx="10" fill="#F59E0B"/>
+<text x="800" y="168" font-size="21" font-weight="bold" fill="#fff" text-anchor="middle">Полисахариды</text>
+<text x="800" y="192" font-size="15" fill="#fff" text-anchor="middle">сотни и тысячи остатков</text>
+<rect x="655" y="212" width="290" height="240" rx="10" fill="#f9fafb" stroke="#F59E0B" stroke-width="2"/>
+<text x="800" y="244" font-size="18" fill="#1f2937" text-anchor="middle">крахмал — запас</text>
+<text x="800" y="270" font-size="18" fill="#1f2937" text-anchor="middle">у растений</text>
+<text x="800" y="308" font-size="18" fill="#1f2937" text-anchor="middle">гликоген — запас</text>
+<text x="800" y="334" font-size="18" fill="#1f2937" text-anchor="middle">у животных и грибов</text>
+<text x="800" y="372" font-size="18" fill="#1f2937" text-anchor="middle">целлюлоза — стенки</text>
+<text x="800" y="398" font-size="18" fill="#1f2937" text-anchor="middle">растений; хитин</text>
+<text x="800" y="482" font-size="16" font-style="italic" fill="#374151" text-anchor="middle">не сладкие, почти не растворимы</text>
+</svg>
