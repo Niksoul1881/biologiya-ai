@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" font-family="Arial, Helvetica, sans-serif">
+<rect width="1100" height="520" fill="#fff"/>
+<path d="M300,330 L290,380 L305,420" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M350,330 L340,380 L355,420" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M400,330 L390,380 L405,420" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M450,330 L440,380 L455,420" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M500,330 L490,380 L505,420" stroke="#7c2d12" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M580,315 L572,345" stroke="#7c2d12" stroke-width="4"/>
+<path d="M640,315 L632,345" stroke="#7c2d12" stroke-width="4"/>
+<path d="M700,315 L692,345" stroke="#7c2d12" stroke-width="4"/>
+<path d="M760,315 L752,345" stroke="#7c2d12" stroke-width="4"/>
+<path d="M150,230 C110,210 70,160 30,90" stroke="#7c2d12" stroke-width="3" fill="none"/>
+<path d="M150,240 L100,235 L70,225" stroke="#7c2d12" stroke-width="2.5" fill="none"/>
+<path d="M150,250 C150,190 220,160 340,155 L520,160 C540,160 545,180 545,200 L545,320 C520,335 400,340 300,335 C220,330 160,300 150,250 Z" fill="#fed7aa" stroke="#7c2d12" stroke-width="3"/>
+<path d="M545,165.0 L605,173.0 L605,311.0 L545,315.0 Z" fill="#fed7aa" stroke="#7c2d12" stroke-width="2.5"/>
+<path d="M605,176.0 L660,184.0 L660,306.0 L605,310.0 Z" fill="#fed7aa" stroke="#7c2d12" stroke-width="2.5"/>
+<path d="M660,186.08333333333334 L712,194.08333333333334 L712,301.4166666666667 L660,305.4166666666667 Z" fill="#fed7aa" stroke="#7c2d12" stroke-width="2.5"/>
+<path d="M712,195.61666666666667 L760,203.61666666666667 L760,297.0833333333333 L712,301.0833333333333 Z" fill="#fed7aa" stroke="#7c2d12" stroke-width="2.5"/>
+<path d="M760,204.41666666666666 L805,212.41666666666666 L805,293.0833333333333 L760,297.0833333333333 Z" fill="#fed7aa" stroke="#7c2d12" stroke-width="2.5"/>
+<path d="M805,212.66666666666669 L845,220.66666666666669 L845,289.3333333333333 L805,293.3333333333333 Z" fill="#fed7aa" stroke="#7c2d12" stroke-width="2.5"/>
+<path d="M845,228 L930,215 L940,250 L930,290 L845,286 Z" fill="#fed7aa" stroke="#7c2d12" stroke-width="2.5"/>
+<circle cx="175" cy="225" r="9" fill="#111827"/>
+<path d="M180,300 C200,290 205,260 215,240" stroke="#b45309" stroke-width="7" fill="none"/>
+<ellipse cx="240" cy="220" rx="34" ry="26" fill="#fbbf24" stroke="#92400e" stroke-width="2"/>
+<path d="M222,210 l4,10 l4,-10" stroke="#78350f" stroke-width="1.6" fill="none"/>
+<path d="M232,210 l4,10 l4,-10" stroke="#78350f" stroke-width="1.6" fill="none"/>
+<path d="M242,210 l4,10 l4,-10" stroke="#78350f" stroke-width="1.6" fill="none"/>
+<path d="M252,210 l4,10 l4,-10" stroke="#78350f" stroke-width="1.6" fill="none"/>
+<ellipse cx="292" cy="228" rx="20" ry="16" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+<path d="M312,232 C360,230 420,226 520,215 C600,210 760,232 900,248" stroke="#fcd34d" stroke-width="8" fill="none"/>
+<circle cx="905" cy="250" r="4.5" fill="#fff" stroke="#92400e" stroke-width="2"/>
+<ellipse cx="340" cy="262" rx="26" ry="15" fill="#a16207" fill-opacity="0.8" stroke="#713f12"/>
+<ellipse cx="380" cy="268" rx="26" ry="15" fill="#a16207" fill-opacity="0.8" stroke="#713f12"/>
+<ellipse cx="420" cy="262" rx="26" ry="15" fill="#a16207" fill-opacity="0.8" stroke="#713f12"/>
+<ellipse cx="360" cy="290" rx="26" ry="15" fill="#a16207" fill-opacity="0.8" stroke="#713f12"/>
+<ellipse cx="400" cy="292" rx="26" ry="15" fill="#a16207" fill-opacity="0.8" stroke="#713f12"/>
+<path d="M430,190 l30,-12 l30,12 l-10,16 l-40,0 z" fill="#ef4444" stroke="#991b1b" stroke-width="2"/>
+<path d="M430,192 C380,190 300,190 230,192" stroke="#dc2626" stroke-width="2.5" fill="none"/><path d="M490,192 C600,195 760,215 880,232" stroke="#dc2626" stroke-width="2.5" fill="none"/>
+<path d="M290,330 C284,315 296,305 290,292" stroke="#16a34a" stroke-width="5" fill="none"/>
+<path d="M290,300 l-8,-4 M290,300 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M290,310 l-8,-4 M290,310 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M290,320 l-8,-4 M290,320 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M316,330 C310,315 322,305 316,292" stroke="#16a34a" stroke-width="5" fill="none"/>
+<path d="M316,300 l-8,-4 M316,300 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M316,310 l-8,-4 M316,310 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M316,320 l-8,-4 M316,320 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M342,330 C336,315 348,305 342,292" stroke="#16a34a" stroke-width="5" fill="none"/>
+<path d="M342,300 l-8,-4 M342,300 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M342,310 l-8,-4 M342,310 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M342,320 l-8,-4 M342,320 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M368,330 C362,315 374,305 368,292" stroke="#16a34a" stroke-width="5" fill="none"/>
+<path d="M368,300 l-8,-4 M368,300 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M368,310 l-8,-4 M368,310 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M368,320 l-8,-4 M368,320 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M394,330 C388,315 400,305 394,292" stroke="#16a34a" stroke-width="5" fill="none"/>
+<path d="M394,300 l-8,-4 M394,300 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M394,310 l-8,-4 M394,310 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M394,320 l-8,-4 M394,320 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M420,330 C414,315 426,305 420,292" stroke="#16a34a" stroke-width="5" fill="none"/>
+<path d="M420,300 l-8,-4 M420,300 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M420,310 l-8,-4 M420,310 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M420,320 l-8,-4 M420,320 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M446,330 C440,315 452,305 446,292" stroke="#16a34a" stroke-width="5" fill="none"/>
+<path d="M446,300 l-8,-4 M446,300 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M446,310 l-8,-4 M446,310 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M446,320 l-8,-4 M446,320 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M472,330 C466,315 478,305 472,292" stroke="#16a34a" stroke-width="5" fill="none"/>
+<path d="M472,300 l-8,-4 M472,300 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M472,310 l-8,-4 M472,310 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M472,320 l-8,-4 M472,320 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M498,330 C492,315 504,305 498,292" stroke="#16a34a" stroke-width="5" fill="none"/>
+<path d="M498,300 l-8,-4 M498,300 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M498,310 l-8,-4 M498,310 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M498,320 l-8,-4 M498,320 l8,-4" stroke="#16a34a" stroke-width="1.5"/>
+<ellipse cx="190" cy="262" rx="14" ry="10" fill="#4ade80" stroke="#15803d" stroke-width="2"/>
+<ellipse cx="200" cy="206" rx="13" ry="9" fill="#7c3aed"/>
+<path d="M200,214 C215,250 215,290 225,322" stroke="#7c3aed" stroke-width="3" fill="none"/>
+<path d="M225,324 C400,332 600,312 880,282" stroke="#7c3aed" stroke-width="3" fill="none"/>
+<ellipse cx="260" cy="326" rx="6" ry="4.5" fill="#7c3aed"/>
+<ellipse cx="310" cy="329" rx="6" ry="4.5" fill="#7c3aed"/>
+<ellipse cx="360" cy="330" rx="6" ry="4.5" fill="#7c3aed"/>
+<ellipse cx="410" cy="330" rx="6" ry="4.5" fill="#7c3aed"/>
+<ellipse cx="460" cy="329" rx="6" ry="4.5" fill="#7c3aed"/>
+<ellipse cx="510" cy="327" rx="6" ry="4.5" fill="#7c3aed"/>
+<ellipse cx="575" cy="320" rx="6" ry="4.5" fill="#7c3aed"/>
+<ellipse cx="635" cy="313" rx="6" ry="4.5" fill="#7c3aed"/>
+<ellipse cx="690" cy="306" rx="6" ry="4.5" fill="#7c3aed"/>
+<ellipse cx="740" cy="300" rx="6" ry="4.5" fill="#7c3aed"/>
+<ellipse cx="790" cy="294" rx="6" ry="4.5" fill="#7c3aed"/>
+<line x1="160" y1="120" x2="198" y2="200" stroke="#374151" stroke-width="1.5"/><circle cx="198" cy="200" r="3" fill="#374151"/>
+<text x="60" y="105" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Надглоточный узел</text>
+<text x="60" y="121" font-size="13" text-anchor="start" fill="#111827">(головной мозг)</text>
+<line x1="250" y1="90" x2="240" y2="198" stroke="#374151" stroke-width="1.5"/><circle cx="240" cy="198" r="3" fill="#374151"/>
+<text x="210" y="70" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Желудок:</text>
+<text x="210" y="86" font-size="13" text-anchor="start" fill="#111827">жевательный отдел</text>
+<line x1="330" y1="120" x2="295" y2="214" stroke="#374151" stroke-width="1.5"/><circle cx="295" cy="214" r="3" fill="#374151"/>
+<text x="300" y="110" font-size="13" text-anchor="start" fill="#111827">цедильный отдел</text>
+<line x1="470" y1="110" x2="460" y2="180" stroke="#374151" stroke-width="1.5"/><circle cx="460" cy="180" r="3" fill="#374151"/>
+<text x="430" y="100" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Сердце</text>
+<line x1="640" y1="140" x2="600" y2="214" stroke="#374151" stroke-width="1.5"/><circle cx="600" cy="214" r="3" fill="#374151"/>
+<text x="590" y="130" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Кишка</text>
+<line x1="950" y1="330" x2="905" y2="252" stroke="#374151" stroke-width="1.5"/><circle cx="905" cy="252" r="3" fill="#374151"/>
+<text x="930" y="350" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Анальное</text>
+<text x="930" y="366" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">отверстие</text>
+<line x1="100" y1="330" x2="182" y2="266" stroke="#374151" stroke-width="1.5"/><circle cx="182" cy="266" r="3" fill="#374151"/>
+<text x="20" y="345" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Зелёная железа</text>
+<text x="20" y="361" font-size="13" text-anchor="start" fill="#111827">(орган выделения)</text>
+<line x1="130" y1="450" x2="186" y2="302" stroke="#374151" stroke-width="1.5"/><circle cx="186" cy="302" r="3" fill="#374151"/>
+<text x="60" y="470" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Рот</text>
+<line x1="330" y1="470" x2="380" y2="290" stroke="#374151" stroke-width="1.5"/><circle cx="380" cy="290" r="3" fill="#374151"/>
+<text x="250" y="490" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Пищеварительная железа</text>
+<line x1="560" y1="470" x2="470" y2="318" stroke="#374151" stroke-width="1.5"/><circle cx="470" cy="318" r="3" fill="#374151"/>
+<text x="540" y="490" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Жабры</text>
+<line x1="800" y1="420" x2="690" y2="307" stroke="#374151" stroke-width="1.5"/><circle cx="690" cy="307" r="3" fill="#374151"/>
+<text x="760" y="440" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Брюшная нервная цепочка</text>
+</svg>

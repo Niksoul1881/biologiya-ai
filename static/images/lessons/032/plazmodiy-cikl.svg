@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="600" fill="#fff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker></defs>
+<rect x="10" y="40" width="330" height="530" rx="18" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<rect x="360" y="40" width="630" height="530" rx="18" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+<text x="175" y="30" font-size="17" font-weight="bold" text-anchor="middle" fill="#92400e">В КОМАРЕ — окончательный хозяин</text>
+<text x="675" y="30" font-size="17" font-weight="bold" text-anchor="middle" fill="#991b1b">В ЧЕЛОВЕКЕ — промежуточный хозяин</text>
+<rect x="400" y="70" width="260" height="105" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="418" cy="90" r="13" fill="#16A34A"/>
+<text x="418" y="96" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">1</text>
+<text x="438" y="97" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Укус комара</text>
+<text x="414" y="122" font-size="15" text-anchor="start" fill="#374151">самка Anopheles вводит</text>
+<text x="414" y="142" font-size="15" text-anchor="start" fill="#374151">паразитов со слюной в кровь</text>
+<rect x="700" y="70" width="270" height="105" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="718" cy="90" r="13" fill="#16A34A"/>
+<text x="718" y="96" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">2</text>
+<text x="738" y="97" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Печень</text>
+<text x="714" y="122" font-size="15" text-anchor="start" fill="#374151">паразиты проникают в клетки</text>
+<text x="714" y="142" font-size="15" text-anchor="start" fill="#374151">печени и много раз делятся</text>
+<rect x="700" y="250" width="270" height="125" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="718" cy="270" r="13" fill="#16A34A"/>
+<text x="718" y="276" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">3</text>
+<text x="738" y="277" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Эритроциты</text>
+<text x="714" y="302" font-size="15" text-anchor="start" fill="#374151">паразиты делятся внутри,</text>
+<text x="714" y="322" font-size="15" text-anchor="start" fill="#374151">эритроциты лопаются —</text>
+<text x="714" y="342" font-size="15" text-anchor="start" fill="#374151">приступ лихорадки</text>
+<rect x="400" y="250" width="260" height="125" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="418" cy="270" r="13" fill="#16A34A"/>
+<text x="418" y="276" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">4</text>
+<text x="438" y="277" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Половые клетки</text>
+<text x="414" y="302" font-size="15" text-anchor="start" fill="#374151">часть паразитов в эритроцитах</text>
+<text x="414" y="322" font-size="15" text-anchor="start" fill="#374151">превращается в незрелые</text>
+<text x="414" y="342" font-size="15" text-anchor="start" fill="#374151">половые клетки</text>
+<rect x="400" y="430" width="260" height="110" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="418" cy="450" r="13" fill="#16A34A"/>
+<text x="418" y="456" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">5</text>
+<text x="438" y="457" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Комар пьёт кровь</text>
+<text x="414" y="482" font-size="15" text-anchor="start" fill="#374151">вместе с кровью половые</text>
+<text x="414" y="502" font-size="15" text-anchor="start" fill="#374151">клетки попадают в комара</text>
+<rect x="40" y="400" width="270" height="140" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="58" cy="420" r="13" fill="#16A34A"/>
+<text x="58" y="426" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">6</text>
+<text x="78" y="427" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Желудок комара</text>
+<text x="54" y="452" font-size="15" text-anchor="start" fill="#374151">половые клетки сливаются —</text>
+<text x="54" y="472" font-size="15" text-anchor="start" fill="#374151">половой процесс;</text>
+<text x="54" y="492" font-size="15" text-anchor="start" fill="#374151">развиваются новые</text>
+<text x="54" y="512" font-size="15" text-anchor="start" fill="#374151">паразиты</text>
+<rect x="40" y="90" width="270" height="120" rx="12" fill="#fff" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="58" cy="110" r="13" fill="#16A34A"/>
+<text x="58" y="116" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">7</text>
+<text x="78" y="117" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Слюнные железы</text>
+<text x="54" y="142" font-size="15" text-anchor="start" fill="#374151">паразиты скапливаются</text>
+<text x="54" y="162" font-size="15" text-anchor="start" fill="#374151">в слюне — комар готов</text>
+<text x="54" y="182" font-size="15" text-anchor="start" fill="#374151">заразить человека</text>
+<line x1="660" y1="122" x2="697" y2="122" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="835" y1="175" x2="835" y2="247" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="700" y1="312" x2="663" y2="312" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="530" y1="375" x2="530" y2="427" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="400" y1="485" x2="313" y2="470" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="175" y1="400" x2="175" y2="213" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<line x1="310" y1="140" x2="397" y2="122" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+<path d="M930,375 C960,420 900,430 880,380" stroke="#374151" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<text x="860" y="450" font-size="14" text-anchor="middle" fill="#374151">заражают новые эритроциты</text>
+</svg>

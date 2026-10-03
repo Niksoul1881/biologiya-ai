@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="640" viewBox="0 0 1020 640" font-family="Arial, Helvetica, sans-serif">
+<rect width="1020" height="640" fill="#fff"/>
+<path d="M250,40 C275,40 320,55 330,80 C320,95 312,110 314,140 C322,260 325,420 310,520 C295,590 265,610 250,612 C235,610 205,590 190,520 C175,420 178,260 186,140 C188,110 180,95 170,80 C180,55 225,40 250,40 Z" fill="#f5f5f4" stroke="#57534e" stroke-width="2.5"/>
+<circle cx="232" cy="78" r="6" fill="#111827"/><circle cx="268" cy="78" r="6" fill="#111827"/>
+<circle cx="234" cy="76" r="2" fill="#fff"/><circle cx="270" cy="76" r="2" fill="#fff"/>
+<path d="M700,40 C725,40 770,55 780,80 C770,95 762,110 764,140 C772,260 775,420 760,520 C745,590 715,610 700,612 C685,610 655,590 640,520 C625,420 628,260 636,140 C638,110 630,95 620,80 C630,55 675,40 700,40 Z" fill="#f5f5f4" stroke="#57534e" stroke-width="2.5"/>
+<circle cx="682" cy="78" r="6" fill="#111827"/><circle cx="718" cy="78" r="6" fill="#111827"/>
+<circle cx="684" cy="76" r="2" fill="#fff"/><circle cx="720" cy="76" r="2" fill="#fff"/>
+<text x="250" y="630" font-size="17" font-weight="bold" text-anchor="middle" fill="#111827">Пищеварительная система</text>
+<text x="700" y="630" font-size="17" font-weight="bold" text-anchor="middle" fill="#111827">Нервная и выделительная системы</text>
+<path d="M250,300 L250,120" stroke="#f59e0b" stroke-width="9" stroke-linecap="round"/>
+<path d="M250,300 C230,320 225,360 225,560 M250,300 C270,320 275,360 275,560" stroke="#f59e0b" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M250,140 l-38,-8 M250,140 l38,-8" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M250,168 l-38,-8 M250,168 l38,-8" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M250,196 l-38,-8 M250,196 l38,-8" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M250,224 l-38,-8 M250,224 l38,-8" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M250,252 l-38,-8 M250,252 l38,-8" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M250,280 l-38,-8 M250,280 l38,-8" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M226,340 l-30,-6 M274,340 l30,-6" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M226,368 l-30,-6 M274,368 l30,-6" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M226,396 l-30,-6 M274,396 l30,-6" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M226,424 l-30,-6 M274,424 l30,-6" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M226,452 l-30,-6 M274,452 l30,-6" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M226,480 l-30,-6 M274,480 l30,-6" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M226,508 l-30,-6 M274,508 l30,-6" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<path d="M226,536 l-30,-6 M274,536 l30,-6" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+<rect x="241" y="300" width="18" height="120" rx="9" fill="#fb7185" stroke="#be123c" stroke-width="2"/>
+<circle cx="250" cy="425" r="6" fill="#fff" stroke="#be123c" stroke-width="2"/>
+<ellipse cx="686" cy="105" rx="16" ry="11" fill="#7c3aed"/><ellipse cx="714" cy="105" rx="16" ry="11" fill="#7c3aed"/>
+<path d="M682,112 C672,250 672,450 680,590 M718,112 C728,250 728,450 720,590" stroke="#7c3aed" stroke-width="5" fill="none"/>
+<line x1="675" y1="150" x2="725" y2="150" stroke="#7c3aed" stroke-width="2.5"/>
+<line x1="675" y1="190" x2="725" y2="190" stroke="#7c3aed" stroke-width="2.5"/>
+<line x1="675" y1="230" x2="725" y2="230" stroke="#7c3aed" stroke-width="2.5"/>
+<line x1="675" y1="270" x2="725" y2="270" stroke="#7c3aed" stroke-width="2.5"/>
+<line x1="675" y1="310" x2="725" y2="310" stroke="#7c3aed" stroke-width="2.5"/>
+<line x1="675" y1="350" x2="725" y2="350" stroke="#7c3aed" stroke-width="2.5"/>
+<line x1="675" y1="390" x2="725" y2="390" stroke="#7c3aed" stroke-width="2.5"/>
+<line x1="675" y1="430" x2="725" y2="430" stroke="#7c3aed" stroke-width="2.5"/>
+<line x1="675" y1="470" x2="725" y2="470" stroke="#7c3aed" stroke-width="2.5"/>
+<line x1="675" y1="510" x2="725" y2="510" stroke="#7c3aed" stroke-width="2.5"/>
+<line x1="675" y1="550" x2="725" y2="550" stroke="#7c3aed" stroke-width="2.5"/>
+<path d="M748,120 C755,250 755,420 745,560" stroke="#0284c7" stroke-width="3" fill="none"/>
+<path d="M752,150 l10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="762" cy="137" r="3.5" fill="#0284c7"/>
+<path d="M752,195 l10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="762" cy="182" r="3.5" fill="#0284c7"/>
+<path d="M752,240 l10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="762" cy="227" r="3.5" fill="#0284c7"/>
+<path d="M752,285 l10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="762" cy="272" r="3.5" fill="#0284c7"/>
+<path d="M752,330 l10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="762" cy="317" r="3.5" fill="#0284c7"/>
+<path d="M752,375 l10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="762" cy="362" r="3.5" fill="#0284c7"/>
+<path d="M752,420 l10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="762" cy="407" r="3.5" fill="#0284c7"/>
+<path d="M752,465 l10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="762" cy="452" r="3.5" fill="#0284c7"/>
+<path d="M752,510 l10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="762" cy="497" r="3.5" fill="#0284c7"/>
+<path d="M752,555 l10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="762" cy="542" r="3.5" fill="#0284c7"/>
+<line x1="753" y1="250" x2="770" y2="250" stroke="#0284c7" stroke-width="2.5"/><circle cx="770" cy="250" r="4" fill="#fff" stroke="#0284c7" stroke-width="2"/>
+<line x1="753" y1="420" x2="770" y2="420" stroke="#0284c7" stroke-width="2.5"/><circle cx="770" cy="420" r="4" fill="#fff" stroke="#0284c7" stroke-width="2"/>
+<path d="M652,120 C645,250 645,420 655,560" stroke="#0284c7" stroke-width="3" fill="none"/>
+<path d="M648,150 l-10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="638" cy="137" r="3.5" fill="#0284c7"/>
+<path d="M648,195 l-10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="638" cy="182" r="3.5" fill="#0284c7"/>
+<path d="M648,240 l-10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="638" cy="227" r="3.5" fill="#0284c7"/>
+<path d="M648,285 l-10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="638" cy="272" r="3.5" fill="#0284c7"/>
+<path d="M648,330 l-10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="638" cy="317" r="3.5" fill="#0284c7"/>
+<path d="M648,375 l-10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="638" cy="362" r="3.5" fill="#0284c7"/>
+<path d="M648,420 l-10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="638" cy="407" r="3.5" fill="#0284c7"/>
+<path d="M648,465 l-10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="638" cy="452" r="3.5" fill="#0284c7"/>
+<path d="M648,510 l-10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="638" cy="497" r="3.5" fill="#0284c7"/>
+<path d="M648,555 l-10,-12" stroke="#0284c7" stroke-width="2"/><circle cx="638" cy="542" r="3.5" fill="#0284c7"/>
+<line x1="647" y1="250" x2="630" y2="250" stroke="#0284c7" stroke-width="2.5"/><circle cx="630" cy="250" r="4" fill="#fff" stroke="#0284c7" stroke-width="2"/>
+<line x1="647" y1="420" x2="630" y2="420" stroke="#0284c7" stroke-width="2.5"/><circle cx="630" cy="420" r="4" fill="#fff" stroke="#0284c7" stroke-width="2"/>
+<line x1="120" y1="78" x2="226" y2="78" stroke="#374151" stroke-width="1.5"/><circle cx="226" cy="78" r="3" fill="#374151"/>
+<text x="20" y="83" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Глазки</text>
+<line x1="120" y1="190" x2="212" y2="182" stroke="#374151" stroke-width="1.5"/><circle cx="212" cy="182" r="3" fill="#374151"/>
+<text x="20" y="170" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Ветвистый</text>
+<text x="20" y="192" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">кишечник</text>
+<line x1="120" y1="360" x2="240" y2="360" stroke="#374151" stroke-width="1.5"/><circle cx="240" cy="360" r="3" fill="#374151"/>
+<text x="20" y="355" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Глотка</text>
+<text x="20" y="375" font-size="14" text-anchor="start" fill="#111827">(выдвигается)</text>
+<line x1="120" y1="460" x2="244" y2="428" stroke="#374151" stroke-width="1.5"/><circle cx="244" cy="428" r="3" fill="#374151"/>
+<text x="20" y="465" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Рот — на</text>
+<text x="20" y="485" font-size="14" text-anchor="start" fill="#111827">брюшной стороне</text>
+<text x="20" y="540" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">Анального</text>
+<text x="20" y="560" font-size="17" font-weight="bold" text-anchor="start" fill="#111827">отверстия нет</text>
+<line x1="470" y1="105" x2="670" y2="105" stroke="#374151" stroke-width="1.5"/><circle cx="670" cy="105" r="3" fill="#374151"/>
+<text x="462" y="88" font-size="17" font-weight="bold" text-anchor="end" fill="#111827">Головные</text>
+<text x="462" y="110" font-size="17" font-weight="bold" text-anchor="end" fill="#111827">нервные узлы</text>
+<line x1="470" y1="300" x2="675" y2="300" stroke="#374151" stroke-width="1.5"/><circle cx="675" cy="300" r="3" fill="#374151"/>
+<text x="462" y="295" font-size="17" font-weight="bold" text-anchor="end" fill="#111827">Нервные стволы</text>
+<text x="462" y="315" font-size="14" text-anchor="end" fill="#111827">с перемычками</text>
+<line x1="862" y1="200" x2="762" y2="199" stroke="#374151" stroke-width="1.5"/><circle cx="762" cy="199" r="3" fill="#374151"/>
+<text x="870" y="195" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Мерцательные</text>
+<text x="870" y="213" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">клетки</text>
+<line x1="862" y1="330" x2="750" y2="330" stroke="#374151" stroke-width="1.5"/><circle cx="750" cy="330" r="3" fill="#374151"/>
+<text x="870" y="325" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Выделительные</text>
+<text x="870" y="343" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">канальцы</text>
+<line x1="862" y1="420" x2="774" y2="420" stroke="#374151" stroke-width="1.5"/><circle cx="774" cy="420" r="3" fill="#374151"/>
+<text x="870" y="415" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">Выделительная</text>
+<text x="870" y="433" font-size="15" font-weight="bold" text-anchor="start" fill="#111827">пора</text>
+</svg>
