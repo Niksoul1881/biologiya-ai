@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="32" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2937">Дельфин и акула: похожи снаружи, устроены по-разному</text>
+  <!-- акула -->
+  <text x="225" y="70" text-anchor="middle" font-size="18" font-weight="bold" fill="#475569">Акула — рыба</text>
+  <path d="M40,175 Q90,140 200,140 L230,95 L250,140 Q320,145 345,160 L395,105 L385,175 L395,240 L345,190 Q300,205 200,205 Q90,205 40,175 Z" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+  <g stroke="#334155" stroke-width="2"><line x1="120" y1="160" x2="118" y2="185"/><line x1="130" y1="160" x2="128" y2="185"/><line x1="140" y1="160" x2="138" y2="185"/></g>
+  <circle cx="75" cy="167" r="4" fill="#1e293b"/>
+  <path d="M420,140 h40 m-40,0 l10,-7 m-10,7 l10,7 M460,140 l-10,-7 m10,7 l-10,7" stroke="#b91c1c" stroke-width="2.5" fill="none"/>
+  <text x="412" y="125" font-size="13" fill="#b91c1c">вправо-</text><text x="412" y="165" font-size="13" fill="#b91c1c">влево</text>
+  <g font-size="14" fill="#111827">
+    <text x="40" y="262">• хвостовой плавник вертикальный</text>
+    <text x="40" y="286">• дышит жабрами (жаберные щели)</text>
+    <text x="40" y="310">• холоднокровная, тело в чешуе</text>
+    <text x="40" y="334">• одни акулы откладывают яйца, другие</text>
+    <text x="52" y="352">рожают, но молоком не кормит никто</text>
+  </g>
+  <text x="150" y="232" font-size="12" fill="#1e293b">жаберные щели</text><line x1="160" y1="221" x2="135" y2="188" stroke="#6b7280"/>
+  <!-- дельфин -->
+  <line x1="450" y1="55" x2="450" y2="380" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="675" y="70" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e40af">Дельфин — млекопитающее</text>
+  <path d="M490,185 L520,175 Q560,140 650,138 L675,100 L690,140 Q780,150 820,175 L862,172 L862,182 L820,188 Q760,215 650,212 Q580,210 540,195 Z" fill="#60a5fa" stroke="#1e40af" stroke-width="2"/>
+    <circle cx="545" cy="172" r="4" fill="#1e3a8a"/>
+  <circle cx="600" cy="146" r="4" fill="#1e3a8a"/>
+  <text x="560" y="128" font-size="12" fill="#1e3a8a">дыхало</text>
+  <line x1="585" y1="131" x2="598" y2="143" stroke="#6b7280"/>
+  <path d="M875,150 v50 m0,-50 l-7,10 m7,-10 l7,10 M875,200 l-7,-10 m7,10 l7,-10" stroke="#b91c1c" stroke-width="2.5" fill="none"/>
+  <text x="790" y="235" font-size="13" fill="#b91c1c">вверх-вниз</text>
+  <g font-size="14" fill="#111827">
+    <text x="480" y="262">• хвостовой плавник горизонтальный</text>
+    <text x="480" y="286">• дышит лёгкими, всплывает за воздухом</text>
+    <text x="480" y="310">• теплокровный, кожа гладкая, под ней жир</text>
+    <text x="480" y="334">• рожает детёнышей и кормит молоком</text>
+    <text x="480" y="358">• в плавнике — кости руки с пальцами</text>
+  </g>
+  <rect x="40" y="400" width="820" height="100" rx="14" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="60" y="432" font-size="16" font-weight="bold" fill="#1e40af">Почему хвост разный?</text>
+  <text x="60" y="458" font-size="14" fill="#111827">Рыба плывёт, изгибая тело вправо-влево. Предки китов бегали по суше, а у бегущего зверя позвоночник</text>
+  <text x="60" y="480" font-size="14" fill="#111827">гнётся вверх-вниз. Киты сохранили это движение — поэтому их хвостовые лопасти лежат горизонтально.</text>
+</svg>

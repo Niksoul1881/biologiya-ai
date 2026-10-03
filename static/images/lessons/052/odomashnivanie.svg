@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 540" width="920" height="540" font-family="Arial, Helvetica, sans-serif">
+<rect width="920" height="540" fill="#ffffff"/>
+<text x="460" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">Когда и от кого одомашнили животных</text>
+<text x="460" y="54" text-anchor="middle" font-size="13" font-weight="normal" fill="#6b7280">примерное время, тысяч лет назад; данные археологии и генетики уточняются</text>
+<line x1="880.0" y1="80" x2="880.0" y2="470" stroke="#f3f4f6" stroke-width="1.5"/><text x="880.0" y="490" text-anchor="middle" font-size="12" font-weight="normal" fill="#6b7280">0</text>
+<line x1="811.25" y1="80" x2="811.25" y2="470" stroke="#f3f4f6" stroke-width="1.5"/><text x="811.25" y="490" text-anchor="middle" font-size="12" font-weight="normal" fill="#6b7280">2</text>
+<line x1="742.5" y1="80" x2="742.5" y2="470" stroke="#f3f4f6" stroke-width="1.5"/><text x="742.5" y="490" text-anchor="middle" font-size="12" font-weight="normal" fill="#6b7280">4</text>
+<line x1="673.75" y1="80" x2="673.75" y2="470" stroke="#f3f4f6" stroke-width="1.5"/><text x="673.75" y="490" text-anchor="middle" font-size="12" font-weight="normal" fill="#6b7280">6</text>
+<line x1="605.0" y1="80" x2="605.0" y2="470" stroke="#f3f4f6" stroke-width="1.5"/><text x="605.0" y="490" text-anchor="middle" font-size="12" font-weight="normal" fill="#6b7280">8</text>
+<line x1="536.25" y1="80" x2="536.25" y2="470" stroke="#f3f4f6" stroke-width="1.5"/><text x="536.25" y="490" text-anchor="middle" font-size="12" font-weight="normal" fill="#6b7280">10</text>
+<line x1="467.5" y1="80" x2="467.5" y2="470" stroke="#f3f4f6" stroke-width="1.5"/><text x="467.5" y="490" text-anchor="middle" font-size="12" font-weight="normal" fill="#6b7280">12</text>
+<line x1="398.75" y1="80" x2="398.75" y2="470" stroke="#f3f4f6" stroke-width="1.5"/><text x="398.75" y="490" text-anchor="middle" font-size="12" font-weight="normal" fill="#6b7280">14</text>
+<line x1="330.0" y1="80" x2="330.0" y2="470" stroke="#f3f4f6" stroke-width="1.5"/><text x="330.0" y="490" text-anchor="middle" font-size="12" font-weight="normal" fill="#6b7280">16</text>
+<text x="605" y="512" text-anchor="middle" font-size="13" font-weight="normal" fill="#6b7280">тысяч лет назад (справа — наши дни)</text>
+<line x1="330" y1="472" x2="880" y2="472" stroke="#374151" stroke-width="2"/>
+<rect x="12" y="80" width="896" height="44" rx="8" fill="#f9fafb"/>
+<text x="24" y="99" text-anchor="start" font-size="16" font-weight="bold" fill="#111827">Собака</text>
+<text x="24" y="117" text-anchor="start" font-size="13" font-weight="normal" fill="#4b5563">предок: волк</text>
+<line x1="364.375" y1="102" x2="880" y2="102" stroke="#86efac" stroke-width="8" stroke-linecap="round"/>
+<circle cx="364.375" cy="102" r="8" fill="#15803d"/>
+<text x="350.375" y="107" text-anchor="end" font-size="13" font-weight="bold" fill="#15803d">не менее 15 тыс. лет назад</text>
+<text x="24" y="146" text-anchor="start" font-size="16" font-weight="bold" fill="#111827">Овца и коза</text>
+<text x="24" y="164" text-anchor="start" font-size="13" font-weight="normal" fill="#4b5563">предок: дикие бараны и безоаровый козёл</text>
+<line x1="501.875" y1="149" x2="880" y2="149" stroke="#86efac" stroke-width="8" stroke-linecap="round"/>
+<circle cx="501.875" cy="149" r="8" fill="#15803d"/>
+<text x="487.875" y="154" text-anchor="end" font-size="13" font-weight="bold" fill="#15803d">около 11 тыс.</text>
+<rect x="12" y="174" width="896" height="44" rx="8" fill="#f9fafb"/>
+<text x="24" y="193" text-anchor="start" font-size="16" font-weight="bold" fill="#111827">Корова</text>
+<text x="24" y="211" text-anchor="start" font-size="13" font-weight="normal" fill="#4b5563">предок: тур (вымер в 1627 году)</text>
+<line x1="519.0625" y1="196" x2="880" y2="196" stroke="#86efac" stroke-width="8" stroke-linecap="round"/>
+<circle cx="519.0625" cy="196" r="8" fill="#15803d"/>
+<text x="505.0625" y="201" text-anchor="end" font-size="13" font-weight="bold" fill="#15803d">около 10,5 тыс.</text>
+<text x="24" y="240" text-anchor="start" font-size="16" font-weight="bold" fill="#111827">Свинья</text>
+<text x="24" y="258" text-anchor="start" font-size="13" font-weight="normal" fill="#4b5563">предок: кабан</text>
+<line x1="536.25" y1="243" x2="880" y2="243" stroke="#86efac" stroke-width="8" stroke-linecap="round"/>
+<circle cx="536.25" cy="243" r="8" fill="#15803d"/>
+<text x="522.25" y="248" text-anchor="end" font-size="13" font-weight="bold" fill="#15803d">около 10 тыс.</text>
+<rect x="12" y="268" width="896" height="44" rx="8" fill="#f9fafb"/>
+<text x="24" y="287" text-anchor="start" font-size="16" font-weight="bold" fill="#111827">Кошка</text>
+<text x="24" y="305" text-anchor="start" font-size="13" font-weight="normal" fill="#4b5563">предок: степная (ливийская) кошка</text>
+<line x1="553.4375" y1="290" x2="880" y2="290" stroke="#86efac" stroke-width="8" stroke-linecap="round"/>
+<circle cx="553.4375" cy="290" r="8" fill="#15803d"/>
+<text x="539.4375" y="295" text-anchor="end" font-size="13" font-weight="bold" fill="#15803d">около 9,5 тыс.</text>
+<text x="24" y="334" text-anchor="start" font-size="16" font-weight="bold" fill="#111827">Шелкопряд</text>
+<text x="24" y="352" text-anchor="start" font-size="13" font-weight="normal" fill="#4b5563">предок: дикий тутовый шелкопряд</text>
+<line x1="708.125" y1="337" x2="880" y2="337" stroke="#86efac" stroke-width="8" stroke-linecap="round"/>
+<circle cx="708.125" cy="337" r="8" fill="#15803d"/>
+<text x="694.125" y="342" text-anchor="end" font-size="13" font-weight="bold" fill="#15803d">около 5 тыс.</text>
+<rect x="12" y="362" width="896" height="44" rx="8" fill="#f9fafb"/>
+<text x="24" y="381" text-anchor="start" font-size="16" font-weight="bold" fill="#111827">Лошадь</text>
+<text x="24" y="399" text-anchor="start" font-size="13" font-weight="normal" fill="#4b5563">предок: дикая степная лошадь</text>
+<line x1="708.125" y1="384" x2="880" y2="384" stroke="#86efac" stroke-width="8" stroke-linecap="round"/>
+<circle cx="708.125" cy="384" r="8" fill="#15803d"/>
+<text x="694.125" y="389" text-anchor="end" font-size="13" font-weight="bold" fill="#15803d">5–4 тыс.</text>
+<text x="24" y="428" text-anchor="start" font-size="16" font-weight="bold" fill="#111827">Курица</text>
+<text x="24" y="446" text-anchor="start" font-size="13" font-weight="normal" fill="#4b5563">предок: банкивская курица</text>
+<line x1="759.6875" y1="431" x2="880" y2="431" stroke="#86efac" stroke-width="8" stroke-linecap="round"/>
+<circle cx="759.6875" cy="431" r="8" fill="#15803d"/>
+<text x="745.6875" y="436" text-anchor="end" font-size="13" font-weight="bold" fill="#15803d">около 3,5 тыс.</text>
+</svg>

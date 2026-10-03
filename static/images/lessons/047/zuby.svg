@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="540" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#1f2937">Зубы млекопитающего: нижняя челюсть, вид сбоку</text>
+  <!-- направление -->
+  <text x="60" y="64" font-size="15" fill="#6b7280">← передний край (к носу)</text>
+  <text x="840" y="64" font-size="15" fill="#6b7280" text-anchor="end">к горлу →</text>
+  <!-- подписи групп -->
+  <g font-size="18" font-weight="bold" text-anchor="middle">
+    <text x="129" y="100" fill="#1d4ed8">Резцы</text>
+    <text x="210" y="100" fill="#b91c1c">Клык</text>
+    <text x="392" y="86" fill="#a16207">Предкоренные</text>
+    <text x="692" y="86" fill="#15803d">Коренные</text>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#4b5563">
+    <text x="392" y="104">(малые коренные)</text>
+    <text x="692" y="104">(большие коренные)</text>
+  </g>
+  <g stroke="#6b7280" stroke-width="2" fill="none">
+    <path d="M80,122 v-8 h98 v8"/>
+    <path d="M190,122 v-8 h40 v8"/>
+    <path d="M260,122 v-8 h265 v8"/>
+    <path d="M550,122 v-8 h285 v8"/>
+  </g>
+  <!-- челюсть -->
+  <rect x="60" y="226" width="790" height="80" rx="30" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2"/>
+  <rect x="60" y="226" width="790" height="22" rx="10" fill="#f9a8d4" stroke="#db2777" stroke-width="1.5"/>
+  <!-- резцы -->
+  <g fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2">
+    <path d="M80,232 L82,186 Q94,176 106,186 L108,232 Z"/>
+    <path d="M115,232 L117,186 Q129,176 141,186 L143,232 Z"/>
+    <path d="M150,232 L152,186 Q164,176 176,186 L178,232 Z"/>
+  </g>
+  <!-- клык -->
+  <path d="M190,232 L195,172 Q210,128 225,172 L230,232 Z" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+  <!-- предкоренные -->
+  <g fill="#fde68a" stroke="#a16207" stroke-width="2">
+    <path d="M260,232 L264,198 L287,168 L310,198 L315,232 Z"/>
+    <path d="M330,232 L334,198 L357,168 L380,198 L385,232 Z"/>
+    <path d="M400,232 L404,198 L427,168 L450,198 L455,232 Z"/>
+    <path d="M470,232 L474,198 L497,168 L520,198 L525,232 Z"/>
+  </g>
+  <!-- коренные -->
+  <g fill="#bbf7d0" stroke="#15803d" stroke-width="2">
+    <path d="M550,232 L553,196 L570,178 L592,196 L614,178 L632,196 L635,232 Z"/>
+    <path d="M650,232 L653,196 L670,178 L692,196 L714,178 L732,196 L735,232 Z"/>
+    <path d="M750,232 L753,196 L770,178 L792,196 L814,178 L832,196 L835,232 Z"/>
+  </g>
+  <!-- функции -->
+  <g font-size="15" text-anchor="middle" fill="#111827">
+    <text x="118" y="334">откусывают,</text>
+    <text x="118" y="352">отщипывают</text>
+    <text x="218" y="334">хватают,</text>
+    <text x="218" y="352">рвут</text>
+    <text x="392" y="334">дробят и</text>
+    <text x="392" y="352">размельчают</text>
+    <text x="692" y="334">перетирают и</text>
+    <text x="692" y="352">разжёвывают</text>
+  </g>
+  <!-- примеры отрядов -->
+  <g font-size="15" fill="#111827">
+    <rect x="30" y="384" width="270" height="138" rx="12" fill="#fef2f2" stroke="#fca5a5"/>
+    <text x="45" y="410" font-weight="bold" font-size="16">Хищные (волк, кошка)</text>
+    <text x="45" y="436">• крупные клыки</text>
+    <text x="45" y="460">• острые «хищнические» зубы</text>
+    <text x="57" y="480">режут мясо, как ножницы</text>
+    <text x="45" y="504">• мясо почти не жуют</text>
+
+    <rect x="315" y="384" width="270" height="138" rx="12" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="330" y="410" font-weight="bold" font-size="16">Грызуны (белка, бобр)</text>
+    <text x="330" y="436">• резцы растут всю жизнь</text>
+    <text x="342" y="458">и сами затачиваются</text>
+    <text x="330" y="482">• клыков нет: на их месте —</text>
+    <text x="342" y="504">пустой промежуток</text>
+
+    <rect x="600" y="384" width="270" height="138" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+    <text x="615" y="410" font-weight="bold" font-size="16">Копытные (корова, лошадь)</text>
+    <text x="615" y="436">• клыки слабые или их нет</text>
+    <text x="615" y="460">• широкие коренные зубы</text>
+    <text x="627" y="480">с гребнями эмали</text>
+    <text x="615" y="504">• перетирают траву</text>
+  </g>
+</svg>

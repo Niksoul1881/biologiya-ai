@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="600" fill="#ffffff"/>
+<text x="450" y="32" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2937">Резцы грызунов и зайцеобразных (череп сбоку, схема)</text>
+<text x="225" y="72" text-anchor="middle" font-size="18" font-weight="bold" fill="#1d4ed8">Грызун (белка, бобр)</text>
+<text x="675" y="72" text-anchor="middle" font-size="18" font-weight="bold" fill="#0369a1">Зайцеобразное (заяц)</text>
+<line x1="450" y1="55" x2="450" y2="440" stroke="#e5e7eb" stroke-width="2"/>
+<path d="M60,230 Q70,130 190,105 Q340,90 390,160 L395,240 L360,255 L95,255 Z" fill="#f5efe0" stroke="#8b7d5a" stroke-width="2"/>
+<circle cx="270" cy="170" r="26" fill="#ffffff" stroke="#8b7d5a" stroke-width="2"/>
+<path d="M80,300 L340,292 Q380,300 370,350 L320,345 L130,335 Z" fill="#f5efe0" stroke="#8b7d5a" stroke-width="2"/>
+<path d="M115,215 Q80,230 78,288" stroke="#ea580c" stroke-width="13" fill="none" stroke-linecap="round"/>
+<path d="M170,328 Q100,322 84,294" stroke="#ea580c" stroke-width="11" fill="none" stroke-linecap="round"/>
+<rect x="235" y="255" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="235" y="276" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="257" y="255" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="257" y="276" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="279" y="255" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="279" y="276" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="301" y="255" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="301" y="276" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<path d="M125,378 v8 h105 v-8" stroke="#6b7280" stroke-width="2" fill="none"/>
+<path d="M510,230 Q520,130 640,105 Q790,90 840,160 L845,240 L810,255 L545,255 Z" fill="#f5efe0" stroke="#8b7d5a" stroke-width="2"/>
+<circle cx="720" cy="170" r="26" fill="#ffffff" stroke="#8b7d5a" stroke-width="2"/>
+<path d="M530,300 L790,292 Q830,300 820,350 L770,345 L580,335 Z" fill="#f5efe0" stroke="#8b7d5a" stroke-width="2"/>
+<path d="M565,215 Q530,230 528,288" stroke="#ea580c" stroke-width="13" fill="none" stroke-linecap="round"/>
+<path d="M570,240 Q560,252 560,270" stroke="#f59e0b" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M620,328 Q550,322 534,294" stroke="#ea580c" stroke-width="11" fill="none" stroke-linecap="round"/>
+<rect x="685" y="255" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="685" y="276" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="707" y="255" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="707" y="276" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="729" y="255" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="729" y="276" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="751" y="255" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="751" y="276" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="773" y="255" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<rect x="773" y="276" width="19" height="17" rx="3" fill="#e5e7eb" stroke="#6b7280"/>
+<path d="M575,378 v8 h105 v-8" stroke="#6b7280" stroke-width="2" fill="none"/>
+<g font-size="14" fill="#111827" text-anchor="middle">
+<text x="178" y="408">диастема — промежуток без зубов:</text><text x="178" y="426">клыков нет</text>
+<text x="628" y="408">диастема — промежуток без зубов:</text><text x="628" y="426">клыков нет</text></g>
+<g font-size="14" fill="#111827">
+<text x="30" y="110">1 пара резцов сверху</text><text x="30" y="128">и 1 пара снизу</text>
+<text x="480" y="110">2 пары резцов сверху:</text><text x="480" y="128">за большими — маленькие</text>
+<text x="290" y="315">коренные зубы</text></g>
+<g stroke="#6b7280" stroke-width="1.3"><line x1="80" y1="133" x2="72" y2="225"/><line x1="560" y1="133" x2="562" y2="245"/><line x1="335" y1="300" x2="300" y2="282"/></g>
+<rect x="40" y="455" width="820" height="130" rx="14" fill="#fff7ed" stroke="#fdba74"/>
+<text x="60" y="485" font-size="16" font-weight="bold" fill="#9a3412">Почему резцы сами затачиваются</text>
+<path d="M120,570 L120,505 L150,495 L150,570 Z" fill="#fde68a" stroke="#a16207" stroke-width="1.5"/>
+<path d="M112,570 L112,503 L120,505 L120,570 Z" fill="#ea580c"/>
+<path d="M112,503 L150,495 L150,520 Z" fill="#ffffff"/>
+<g font-size="14" fill="#111827"><text x="175" y="515">• спереди резец покрыт твёрдой эмалью (оранжевый слой), сзади — мягкий дентин;</text>
+<text x="175" y="538">• дентин стачивается быстрее, поэтому край резца срезается косо и остаётся острым, как стамеска;</text>
+<text x="175" y="561">• резцы растут всю жизнь: сколько сточилось, столько и отросло.</text></g>
+</svg>

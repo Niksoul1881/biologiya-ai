@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="960" height="640" font-family="Arial, Helvetica, sans-serif">
+<rect width="960" height="640" fill="#ffffff"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#2563eb"/></marker></defs>
+<text x="480" y="30" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2937">Органы дыхания животных</text>
+<rect x="12" y="48" width="226" height="250" rx="14" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="125" y="76" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">Поверхность тела</text>
+<text x="125" y="262" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">гидра, плоские черви,</text>
+<text x="125" y="282" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">дождевой червь (кожа)</text>
+<ellipse cx="125" cy="165" rx="45" ry="30" fill="#fce7f3" stroke="#be185d" stroke-width="2"/>
+<line x1="30" y1="165" x2="72.75" y2="165.0" stroke="#2563eb" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="220" y1="165" x2="177.25" y2="165.0" stroke="#2563eb" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="125" y1="103" x2="125.0" y2="130.9" stroke="#2563eb" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="125" y1="227" x2="125.0" y2="199.1" stroke="#2563eb" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="55" y1="117" x2="86.5" y2="138.6" stroke="#2563eb" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="195" y1="213" x2="163.5" y2="191.4" stroke="#2563eb" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="195" y1="117" x2="163.5" y2="138.6" stroke="#2563eb" stroke-width="2.5" marker-end="url(#a)"/>
+<line x1="55" y1="213" x2="86.5" y2="191.4" stroke="#2563eb" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="125" y="170" text-anchor="middle" font-size="15" font-weight="bold" fill="#be185d">O₂</text>
+<rect x="249" y="48" width="226" height="250" rx="14" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="362" y="76" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">Жабры</text>
+<text x="362" y="262" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">рыбы, раки,</text>
+<text x="362" y="282" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">моллюски, головастики</text>
+<path d="M272,165 Q302,105 422,115 L422,215 Q302,225 272,165 Z" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+<circle cx="307" cy="153" r="6" fill="#1e293b"/>
+<path d="M357,130 q14,35 0,70" stroke="#dc2626" stroke-width="5" fill="none"/>
+<line x1="362" y1="137" x2="369" y2="137" stroke="#ef4444" stroke-width="2"/>
+<line x1="362" y1="148" x2="369" y2="148" stroke="#ef4444" stroke-width="2"/>
+<line x1="362" y1="159" x2="369" y2="159" stroke="#ef4444" stroke-width="2"/>
+<line x1="362" y1="170" x2="369" y2="170" stroke="#ef4444" stroke-width="2"/>
+<line x1="362" y1="181" x2="369" y2="181" stroke="#ef4444" stroke-width="2"/>
+<line x1="362" y1="192" x2="369" y2="192" stroke="#ef4444" stroke-width="2"/>
+<path d="M373,130 q14,35 0,70" stroke="#dc2626" stroke-width="5" fill="none"/>
+<line x1="378" y1="137" x2="385" y2="137" stroke="#ef4444" stroke-width="2"/>
+<line x1="378" y1="148" x2="385" y2="148" stroke="#ef4444" stroke-width="2"/>
+<line x1="378" y1="159" x2="385" y2="159" stroke="#ef4444" stroke-width="2"/>
+<line x1="378" y1="170" x2="385" y2="170" stroke="#ef4444" stroke-width="2"/>
+<line x1="378" y1="181" x2="385" y2="181" stroke="#ef4444" stroke-width="2"/>
+<line x1="378" y1="192" x2="385" y2="192" stroke="#ef4444" stroke-width="2"/>
+<path d="M389,130 q14,35 0,70" stroke="#dc2626" stroke-width="5" fill="none"/>
+<line x1="394" y1="137" x2="401" y2="137" stroke="#ef4444" stroke-width="2"/>
+<line x1="394" y1="148" x2="401" y2="148" stroke="#ef4444" stroke-width="2"/>
+<line x1="394" y1="159" x2="401" y2="159" stroke="#ef4444" stroke-width="2"/>
+<line x1="394" y1="170" x2="401" y2="170" stroke="#ef4444" stroke-width="2"/>
+<line x1="394" y1="181" x2="401" y2="181" stroke="#ef4444" stroke-width="2"/>
+<line x1="394" y1="192" x2="401" y2="192" stroke="#ef4444" stroke-width="2"/>
+<path d="M405,130 q14,35 0,70" stroke="#dc2626" stroke-width="5" fill="none"/>
+<line x1="410" y1="137" x2="417" y2="137" stroke="#ef4444" stroke-width="2"/>
+<line x1="410" y1="148" x2="417" y2="148" stroke="#ef4444" stroke-width="2"/>
+<line x1="410" y1="159" x2="417" y2="159" stroke="#ef4444" stroke-width="2"/>
+<line x1="410" y1="170" x2="417" y2="170" stroke="#ef4444" stroke-width="2"/>
+<line x1="410" y1="181" x2="417" y2="181" stroke="#ef4444" stroke-width="2"/>
+<line x1="410" y1="192" x2="417" y2="192" stroke="#ef4444" stroke-width="2"/>
+<text x="382" y="240" text-anchor="middle" font-size="12" font-weight="normal" fill="#991b1b">жаберные лепестки</text>
+<rect x="486" y="48" width="226" height="250" rx="14" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="599" y="76" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">Трахеи</text>
+<text x="599" y="262" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">насекомые,</text>
+<text x="599" y="282" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">многие паукообразные</text>
+<ellipse cx="599" cy="165" rx="95" ry="38" fill="#fef3c7" stroke="#a16207" stroke-width="2"/>
+<line x1="519" y1="153" x2="679" y2="153" stroke="#2563eb" stroke-width="3"/><line x1="519" y1="177" x2="679" y2="177" stroke="#2563eb" stroke-width="3"/>
+<line x1="537" y1="153" x2="537" y2="129" stroke="#2563eb" stroke-width="2"/><circle cx="537" cy="129" r="3.5" fill="#1e3a8a"/>
+<line x1="537" y1="177" x2="537" y2="201" stroke="#2563eb" stroke-width="2"/><circle cx="537" cy="201" r="3.5" fill="#1e3a8a"/>
+<path d="M537,153 l8,10 M537,177 l-8,-10" stroke="#93c5fd" stroke-width="1.5"/>
+<line x1="562" y1="153" x2="562" y2="129" stroke="#2563eb" stroke-width="2"/><circle cx="562" cy="129" r="3.5" fill="#1e3a8a"/>
+<line x1="562" y1="177" x2="562" y2="201" stroke="#2563eb" stroke-width="2"/><circle cx="562" cy="201" r="3.5" fill="#1e3a8a"/>
+<path d="M562,153 l8,10 M562,177 l-8,-10" stroke="#93c5fd" stroke-width="1.5"/>
+<line x1="587" y1="153" x2="587" y2="129" stroke="#2563eb" stroke-width="2"/><circle cx="587" cy="129" r="3.5" fill="#1e3a8a"/>
+<line x1="587" y1="177" x2="587" y2="201" stroke="#2563eb" stroke-width="2"/><circle cx="587" cy="201" r="3.5" fill="#1e3a8a"/>
+<path d="M587,153 l8,10 M587,177 l-8,-10" stroke="#93c5fd" stroke-width="1.5"/>
+<line x1="612" y1="153" x2="612" y2="129" stroke="#2563eb" stroke-width="2"/><circle cx="612" cy="129" r="3.5" fill="#1e3a8a"/>
+<line x1="612" y1="177" x2="612" y2="201" stroke="#2563eb" stroke-width="2"/><circle cx="612" cy="201" r="3.5" fill="#1e3a8a"/>
+<path d="M612,153 l8,10 M612,177 l-8,-10" stroke="#93c5fd" stroke-width="1.5"/>
+<line x1="637" y1="153" x2="637" y2="129" stroke="#2563eb" stroke-width="2"/><circle cx="637" cy="129" r="3.5" fill="#1e3a8a"/>
+<line x1="637" y1="177" x2="637" y2="201" stroke="#2563eb" stroke-width="2"/><circle cx="637" cy="201" r="3.5" fill="#1e3a8a"/>
+<path d="M637,153 l8,10 M637,177 l-8,-10" stroke="#93c5fd" stroke-width="1.5"/>
+<line x1="662" y1="153" x2="662" y2="129" stroke="#2563eb" stroke-width="2"/><circle cx="662" cy="129" r="3.5" fill="#1e3a8a"/>
+<line x1="662" y1="177" x2="662" y2="201" stroke="#2563eb" stroke-width="2"/><circle cx="662" cy="201" r="3.5" fill="#1e3a8a"/>
+<path d="M662,153 l8,10 M662,177 l-8,-10" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="599" y="235" text-anchor="middle" font-size="12" font-weight="normal" fill="#1e3a8a">дыхальца → трубочки-трахеи</text>
+<rect x="723" y="48" width="226" height="250" rx="14" fill="#f9fafb" stroke="#e5e7eb"/>
+<text x="836" y="76" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">Лёгкие</text>
+<text x="836" y="262" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">наземные позвоночные;</text>
+<text x="836" y="282" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">у пауков — лёгочные мешки</text>
+<rect x="831" y="90" width="10" height="45" fill="#93c5fd"/>
+<path d="M828,133 Q756,130 761,205 Q796,220 826,200 Z" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+<path d="M844,133 Q916,130 911,205 Q876,220 846,200 Z" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+<path d="M836,135 L811,160 L791,180 M811,160 L806,193 M811,160 L786,155" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<path d="M836,135 L861,160 L881,180 M861,160 L866,193 M861,160 L886,155" stroke="#2563eb" stroke-width="2.5" fill="none"/>
+<text x="836" y="235" text-anchor="middle" font-size="12" font-weight="normal" fill="#1e3a8a">трахея → бронхи</text>
+<text x="480" y="335" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">Как усложнялись лёгкие наземных позвоночных: растёт площадь стенок</text>
+<rect x="12" y="352" width="226" height="270" rx="14" fill="#fff7ed" stroke="#fed7aa"/>
+<text x="125" y="380" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">Земноводные</text>
+<line x1="125" y1="392" x2="125" y2="410" stroke="#2563eb" stroke-width="5"/>
+<path d="M125,410 Q65,405 70,470 Q75,525 125,525 Q175,525 180,470 Q185,405 125,410 Z" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+<text x="125" y="560" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">мешки с почти</text>
+<text x="125" y="580" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">гладкими стенками</text>
+<rect x="249" y="352" width="226" height="270" rx="14" fill="#fff7ed" stroke="#fed7aa"/>
+<text x="362" y="380" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">Пресмыкающиеся</text>
+<line x1="362" y1="392" x2="362" y2="410" stroke="#2563eb" stroke-width="5"/>
+<path d="M362,410 Q302,405 307,470 Q312,525 362,525 Q412,525 417,470 Q422,405 362,410 Z" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+<line x1="312" y1="430" x2="342" y2="430" stroke="#b91c1c" stroke-width="2"/><line x1="412" y1="430" x2="382" y2="430" stroke="#b91c1c" stroke-width="2"/>
+<line x1="312" y1="452" x2="342" y2="452" stroke="#b91c1c" stroke-width="2"/><line x1="412" y1="452" x2="382" y2="452" stroke="#b91c1c" stroke-width="2"/>
+<line x1="312" y1="474" x2="342" y2="474" stroke="#b91c1c" stroke-width="2"/><line x1="412" y1="474" x2="382" y2="474" stroke="#b91c1c" stroke-width="2"/>
+<line x1="312" y1="496" x2="342" y2="496" stroke="#b91c1c" stroke-width="2"/><line x1="412" y1="496" x2="382" y2="496" stroke="#b91c1c" stroke-width="2"/>
+<text x="362" y="560" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">ячеистые стенки:</text>
+<text x="362" y="580" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">перегородки внутри</text>
+<rect x="486" y="352" width="226" height="270" rx="14" fill="#fff7ed" stroke="#fed7aa"/>
+<text x="599" y="380" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">Птицы</text>
+<line x1="599" y1="392" x2="599" y2="410" stroke="#2563eb" stroke-width="5"/>
+<path d="M599,410 Q539,405 544,470 Q549,525 599,525 Q649,525 654,470 Q659,405 599,410 Z" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+<line x1="559" y1="422" x2="559" y2="436" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="579" y1="422" x2="579" y2="436" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="599" y1="422" x2="599" y2="436" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="619" y1="422" x2="619" y2="436" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="639" y1="422" x2="639" y2="436" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="559" y1="439" x2="559" y2="453" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="579" y1="439" x2="579" y2="453" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="599" y1="439" x2="599" y2="453" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="619" y1="439" x2="619" y2="453" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="639" y1="439" x2="639" y2="453" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="559" y1="456" x2="559" y2="470" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="579" y1="456" x2="579" y2="470" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="599" y1="456" x2="599" y2="470" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="619" y1="456" x2="619" y2="470" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="639" y1="456" x2="639" y2="470" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="559" y1="473" x2="559" y2="487" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="579" y1="473" x2="579" y2="487" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="599" y1="473" x2="599" y2="487" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="619" y1="473" x2="619" y2="487" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="639" y1="473" x2="639" y2="487" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="559" y1="490" x2="559" y2="504" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="579" y1="490" x2="579" y2="504" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="599" y1="490" x2="599" y2="504" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="619" y1="490" x2="619" y2="504" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="639" y1="490" x2="639" y2="504" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="559" y1="507" x2="559" y2="521" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="579" y1="507" x2="579" y2="521" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="599" y1="507" x2="599" y2="521" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="619" y1="507" x2="619" y2="521" stroke="#b91c1c" stroke-width="1.5"/>
+<line x1="639" y1="507" x2="639" y2="521" stroke="#b91c1c" stroke-width="1.5"/>
+<ellipse cx="519" cy="485" rx="22" ry="35" fill="#e0f2fe" stroke="#0284c7" stroke-dasharray="4 3"/><ellipse cx="679" cy="485" rx="22" ry="35" fill="#e0f2fe" stroke="#0284c7" stroke-dasharray="4 3"/>
+<text x="599" y="560" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">губчатые лёгкие</text>
+<text x="599" y="580" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">+ воздушные мешки</text>
+<rect x="723" y="352" width="226" height="270" rx="14" fill="#fff7ed" stroke="#fed7aa"/>
+<text x="836" y="380" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">Млекопитающие</text>
+<line x1="836" y1="392" x2="836" y2="410" stroke="#2563eb" stroke-width="5"/>
+<path d="M836,410 Q776,405 781,470 Q786,525 836,525 Q886,525 891,470 Q896,405 836,410 Z" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+<circle cx="828" cy="420" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="845" cy="420" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="802" cy="434" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="819" cy="434" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="836" cy="434" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="853" cy="434" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="870" cy="434" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="794" cy="448" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="811" cy="448" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="828" cy="448" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="845" cy="448" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="862" cy="448" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="879" cy="448" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="802" cy="462" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="819" cy="462" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="836" cy="462" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="853" cy="462" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="870" cy="462" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="887" cy="462" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="794" cy="476" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="811" cy="476" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="828" cy="476" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="845" cy="476" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="862" cy="476" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="879" cy="476" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="802" cy="490" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="819" cy="490" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="836" cy="490" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="853" cy="490" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="870" cy="490" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="811" cy="504" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="828" cy="504" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="845" cy="504" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<circle cx="862" cy="504" r="6.5" fill="#fca5a5" stroke="#b91c1c" stroke-width="1"/>
+<text x="836" y="560" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">альвеолы — сотни</text>
+<text x="836" y="580" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">миллионов пузырьков</text>
+</svg>

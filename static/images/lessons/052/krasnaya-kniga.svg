@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="480" fill="#ffffff"/>
+<text x="450" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">Категории редкости в Красной книге России</text>
+<text x="450" y="54" text-anchor="middle" font-size="13" font-weight="normal" fill="#6b7280">цвет — традиционный цвет страниц для каждой категории</text>
+<rect x="30" y="74" width="840" height="56" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<rect x="30" y="74" width="70" height="56" rx="10" fill="#111827" stroke="#9ca3af"/>
+<text x="65" y="111" text-anchor="middle" font-size="26" font-weight="bold" fill="#ffffff">0</text>
+<text x="120" y="98" text-anchor="start" font-size="17" font-weight="bold" fill="#111827">Вероятно исчезнувшие</text>
+<text x="120" y="119" text-anchor="start" font-size="14" font-weight="normal" fill="#374151">давно не встречались в природе, но могут сохраниться</text>
+<rect x="30" y="140" width="840" height="56" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<rect x="30" y="140" width="70" height="56" rx="10" fill="#dc2626" stroke="#9ca3af"/>
+<text x="65" y="177" text-anchor="middle" font-size="26" font-weight="bold" fill="#ffffff">1</text>
+<text x="120" y="164" text-anchor="start" font-size="17" font-weight="bold" fill="#111827">Находящиеся под угрозой исчезновения</text>
+<text x="120" y="185" text-anchor="start" font-size="14" font-weight="normal" fill="#374151">численность критически мала, нужны срочные меры</text>
+<rect x="30" y="206" width="840" height="56" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<rect x="30" y="206" width="70" height="56" rx="10" fill="#facc15" stroke="#9ca3af"/>
+<text x="65" y="243" text-anchor="middle" font-size="26" font-weight="bold" fill="#111827">2</text>
+<text x="120" y="230" text-anchor="start" font-size="17" font-weight="bold" fill="#111827">Сокращающиеся в численности</text>
+<text x="120" y="251" text-anchor="start" font-size="14" font-weight="normal" fill="#374151">численность быстро падает</text>
+<rect x="30" y="272" width="840" height="56" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<rect x="30" y="272" width="70" height="56" rx="10" fill="#ffffff" stroke="#9ca3af"/>
+<text x="65" y="309" text-anchor="middle" font-size="26" font-weight="bold" fill="#111827">3</text>
+<text x="120" y="296" text-anchor="start" font-size="17" font-weight="bold" fill="#111827">Редкие</text>
+<text x="120" y="317" text-anchor="start" font-size="14" font-weight="normal" fill="#374151">немногочисленные или живут на небольшой территории</text>
+<rect x="30" y="338" width="840" height="56" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<rect x="30" y="338" width="70" height="56" rx="10" fill="#9ca3af" stroke="#9ca3af"/>
+<text x="65" y="375" text-anchor="middle" font-size="26" font-weight="bold" fill="#111827">4</text>
+<text x="120" y="362" text-anchor="start" font-size="17" font-weight="bold" fill="#111827">Неопределённые по статусу</text>
+<text x="120" y="383" text-anchor="start" font-size="14" font-weight="normal" fill="#374151">данных мало, но, вероятно, нуждаются в охране</text>
+<rect x="30" y="404" width="840" height="56" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+<rect x="30" y="404" width="70" height="56" rx="10" fill="#22c55e" stroke="#9ca3af"/>
+<text x="65" y="441" text-anchor="middle" font-size="26" font-weight="bold" fill="#ffffff">5</text>
+<text x="120" y="428" text-anchor="start" font-size="17" font-weight="bold" fill="#111827">Восстанавливаемые и восстанавливающиеся</text>
+<text x="120" y="449" text-anchor="start" font-size="14" font-weight="normal" fill="#374151">численность растёт благодаря охране</text>
+</svg>

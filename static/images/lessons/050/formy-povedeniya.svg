@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520" font-family="Arial, Helvetica, sans-serif">
+<rect width="960" height="520" fill="#ffffff"/>
+<rect x="360" y="16" width="240" height="46" rx="12" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/><text x="480" y="46" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Поведение животных</text>
+<path d="M480,62 V82 M240,82 H720 M240,82 V100 M720,82 V100" stroke="#9ca3af" stroke-width="2" fill="none"/>
+<rect x="30" y="100" width="420" height="62" rx="12" fill="#fffbeb" stroke="#b45309" stroke-width="2"/>
+<text x="240" y="126" text-anchor="middle" font-size="18" font-weight="bold" fill="#b45309">Врождённое</text>
+<text x="240" y="149" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">есть с рождения, одинаково у всех особей вида</text>
+<rect x="510" y="100" width="420" height="62" rx="12" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+<text x="720" y="126" text-anchor="middle" font-size="18" font-weight="bold" fill="#1d4ed8">Приобретённое</text>
+<text x="720" y="149" text-anchor="middle" font-size="14" font-weight="normal" fill="#111827">формируется в течение жизни, у каждой особи своё</text>
+<rect x="30" y="180" width="420" height="72" rx="10" fill="#ffffff" stroke="#b45309" stroke-opacity="0.5"/>
+<text x="46" y="204" text-anchor="start" font-size="16" font-weight="bold" fill="#b45309">Безусловные рефлексы</text>
+<text x="46" y="224" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">мгновенный ответ на раздражитель:</text>
+<text x="46" y="242" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">слюна на пищу, отдёргивание лапы</text>
+<rect x="30" y="262" width="420" height="72" rx="10" fill="#ffffff" stroke="#b45309" stroke-opacity="0.5"/>
+<text x="46" y="286" text-anchor="start" font-size="16" font-weight="bold" fill="#b45309">Инстинкты</text>
+<text x="46" y="306" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">цепочки действий: постройка</text>
+<text x="46" y="324" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">гнезда и паутины, миграции, уход за потомством</text>
+<rect x="30" y="344" width="420" height="72" rx="10" fill="#ffffff" stroke="#b45309" stroke-opacity="0.5"/>
+<text x="46" y="368" text-anchor="start" font-size="16" font-weight="bold" fill="#b45309">Таксисы</text>
+<text x="46" y="388" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">движение к раздражителю или от него:</text>
+<text x="46" y="406" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">эвглена плывёт к свету</text>
+<rect x="510" y="180" width="420" height="72" rx="10" fill="#ffffff" stroke="#1d4ed8" stroke-opacity="0.5"/>
+<text x="526" y="204" text-anchor="start" font-size="16" font-weight="bold" fill="#1d4ed8">Условные рефлексы</text>
+<text x="526" y="224" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">связь сигнала с событием:</text>
+<text x="526" y="242" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">собака слышит звонок — выделяется слюна</text>
+<rect x="510" y="262" width="420" height="72" rx="10" fill="#ffffff" stroke="#1d4ed8" stroke-opacity="0.5"/>
+<text x="526" y="286" text-anchor="start" font-size="16" font-weight="bold" fill="#1d4ed8">Импринтинг (запечатление)</text>
+<text x="526" y="306" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">запоминание в первые часы жизни:</text>
+<text x="526" y="324" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">гусёнок идёт за первым увиденным</text>
+<rect x="510" y="344" width="420" height="72" rx="10" fill="#ffffff" stroke="#1d4ed8" stroke-opacity="0.5"/>
+<text x="526" y="368" text-anchor="start" font-size="16" font-weight="bold" fill="#1d4ed8">Научение</text>
+<text x="526" y="388" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">метод проб и ошибок, подражание:</text>
+<text x="526" y="406" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">крыса находит путь в лабиринте</text>
+<rect x="510" y="426" width="420" height="72" rx="10" fill="#ffffff" stroke="#1d4ed8" stroke-opacity="0.5"/>
+<text x="526" y="450" text-anchor="start" font-size="16" font-weight="bold" fill="#1d4ed8">Рассудочная деятельность</text>
+<text x="526" y="470" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">решение новой задачи «в уме»:</text>
+<text x="526" y="488" text-anchor="start" font-size="14" font-weight="normal" fill="#111827">шимпанзе строит пирамиду из ящиков</text>
+<text x="240" y="470" text-anchor="middle" font-size="13" font-weight="normal" fill="#6b7280">Импринтинг — на границе: готовность врождённая,</text>
+<text x="240" y="488" text-anchor="middle" font-size="13" font-weight="normal" fill="#6b7280">а «кого запомнить» — определяет опыт.</text>
+<path d="M480,178 V500" stroke="#e5e7eb" stroke-width="2"/>
+</svg>

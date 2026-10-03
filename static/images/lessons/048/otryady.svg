@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 610" width="920" height="610" font-family="Arial, Helvetica, sans-serif">
+<rect width="920" height="610" fill="#ffffff"/>
+<rect x="320" y="14" width="280" height="46" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/><text x="460" y="44" text-anchor="middle" font-size="20" font-weight="bold" fill="#065f46">Класс Млекопитающие</text>
+<g stroke="#9ca3af" stroke-width="2" fill="none"><path d="M460,60 V82 M130,82 H690 M130,82 V100 M380,82 V100 M690,82 V100"/></g>
+<rect x="30" y="100" width="200" height="62" rx="10" fill="#f9fafb" stroke="#7c2d12" stroke-width="2"/>
+<text x="130.0" y="126" text-anchor="middle" font-size="17" font-weight="bold" fill="#7c2d12">Однопроходные</text>
+<text x="130.0" y="148" text-anchor="middle" font-size="14" fill="#374151">утконос, ехидны</text>
+<rect x="280" y="100" width="200" height="62" rx="10" fill="#f9fafb" stroke="#a16207" stroke-width="2"/>
+<text x="380.0" y="126" text-anchor="middle" font-size="17" font-weight="bold" fill="#a16207">Сумчатые</text>
+<text x="380.0" y="148" text-anchor="middle" font-size="14" fill="#374151">кенгуру, коала, опоссум</text>
+<rect x="560" y="100" width="260" height="62" rx="10" fill="#f9fafb" stroke="#065f46" stroke-width="2"/>
+<text x="690.0" y="126" text-anchor="middle" font-size="17" font-weight="bold" fill="#065f46">Плацентарные</text>
+<text x="690.0" y="148" text-anchor="middle" font-size="14" fill="#374151">детёныш растёт в матке</text>
+<text x="130" y="182" text-anchor="middle" font-size="13" fill="#6b7280">откладывают яйца</text>
+<text x="380" y="182" text-anchor="middle" font-size="13" fill="#6b7280">донашивают в сумке</text>
+<g stroke="#9ca3af" stroke-width="2" fill="none"><path d="M690,162 V196 M120,196 H795 M120,196 V215 M345,196 V215 M570,196 V215 M795,196 V215"/></g>
+<rect x="20" y="215" width="205" height="112" rx="12" fill="#ffffff" stroke="#92400e" stroke-width="2"/>
+<rect x="20" y="215" width="205" height="36" rx="12" fill="#92400e"/><rect x="20" y="237" width="205" height="14" fill="#92400e"/>
+<text x="122" y="240" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Насекомоядные</text>
+<text x="122" y="279" text-anchor="middle" font-size="15" fill="#111827">ёж, крот,</text>
+<text x="122" y="301" text-anchor="middle" font-size="15" fill="#111827">землеройка, выхухоль</text>
+<rect x="245" y="215" width="205" height="112" rx="12" fill="#ffffff" stroke="#4c1d95" stroke-width="2"/>
+<rect x="245" y="215" width="205" height="36" rx="12" fill="#4c1d95"/><rect x="245" y="237" width="205" height="14" fill="#4c1d95"/>
+<text x="347" y="240" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Рукокрылые</text>
+<text x="347" y="279" text-anchor="middle" font-size="15" fill="#111827">летучие мыши,</text>
+<text x="347" y="301" text-anchor="middle" font-size="15" fill="#111827">крыланы</text>
+<rect x="470" y="215" width="205" height="112" rx="12" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+<rect x="470" y="215" width="205" height="36" rx="12" fill="#1d4ed8"/><rect x="470" y="237" width="205" height="14" fill="#1d4ed8"/>
+<text x="572" y="240" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Грызуны</text>
+<text x="572" y="279" text-anchor="middle" font-size="15" fill="#111827">мышь, белка,</text>
+<text x="572" y="301" text-anchor="middle" font-size="15" fill="#111827">бобр, суслик</text>
+<rect x="695" y="215" width="205" height="112" rx="12" fill="#ffffff" stroke="#0369a1" stroke-width="2"/>
+<rect x="695" y="215" width="205" height="36" rx="12" fill="#0369a1"/><rect x="695" y="237" width="205" height="14" fill="#0369a1"/>
+<text x="797" y="240" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Зайцеобразные</text>
+<text x="797" y="279" text-anchor="middle" font-size="15" fill="#111827">заяц, кролик,</text>
+<text x="797" y="301" text-anchor="middle" font-size="15" fill="#111827">пищуха</text>
+<rect x="20" y="345" width="205" height="112" rx="12" fill="#ffffff" stroke="#b91c1c" stroke-width="2"/>
+<rect x="20" y="345" width="205" height="36" rx="12" fill="#b91c1c"/><rect x="20" y="367" width="205" height="14" fill="#b91c1c"/>
+<text x="122" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Хищные</text>
+<text x="122" y="409" text-anchor="middle" font-size="15" fill="#111827">волк, кошка,</text>
+<text x="122" y="431" text-anchor="middle" font-size="15" fill="#111827">медведь, куница</text>
+<rect x="245" y="345" width="205" height="112" rx="12" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
+<rect x="245" y="345" width="205" height="36" rx="12" fill="#0f766e"/><rect x="245" y="367" width="205" height="14" fill="#0f766e"/>
+<text x="347" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Ластоногие</text>
+<text x="347" y="409" text-anchor="middle" font-size="15" fill="#111827">тюлень, морж,</text>
+<text x="347" y="431" text-anchor="middle" font-size="15" fill="#111827">морской котик</text>
+<rect x="470" y="345" width="205" height="112" rx="12" fill="#ffffff" stroke="#1e40af" stroke-width="2"/>
+<rect x="470" y="345" width="205" height="36" rx="12" fill="#1e40af"/><rect x="470" y="367" width="205" height="14" fill="#1e40af"/>
+<text x="572" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Китообразные</text>
+<text x="572" y="409" text-anchor="middle" font-size="15" fill="#111827">дельфин, косатка,</text>
+<text x="572" y="431" text-anchor="middle" font-size="15" fill="#111827">синий кит</text>
+<rect x="695" y="345" width="205" height="112" rx="12" fill="#ffffff" stroke="#065f46" stroke-width="2"/>
+<rect x="695" y="345" width="205" height="36" rx="12" fill="#065f46"/><rect x="695" y="367" width="205" height="14" fill="#065f46"/>
+<text x="797" y="370" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Парнокопытные</text>
+<text x="797" y="409" text-anchor="middle" font-size="15" fill="#111827">корова, олень,</text>
+<text x="797" y="431" text-anchor="middle" font-size="15" fill="#111827">свинья, бегемот</text>
+<rect x="20" y="475" width="205" height="112" rx="12" fill="#ffffff" stroke="#78350f" stroke-width="2"/>
+<rect x="20" y="475" width="205" height="36" rx="12" fill="#78350f"/><rect x="20" y="497" width="205" height="14" fill="#78350f"/>
+<text x="122" y="500" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Непарнокопытные</text>
+<text x="122" y="539" text-anchor="middle" font-size="15" fill="#111827">лошадь, носорог,</text>
+<text x="122" y="561" text-anchor="middle" font-size="15" fill="#111827">тапир</text>
+<rect x="245" y="475" width="205" height="112" rx="12" fill="#ffffff" stroke="#57534e" stroke-width="2"/>
+<rect x="245" y="475" width="205" height="36" rx="12" fill="#57534e"/><rect x="245" y="497" width="205" height="14" fill="#57534e"/>
+<text x="347" y="500" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Хоботные</text>
+<text x="347" y="539" text-anchor="middle" font-size="15" fill="#111827">слоны</text>
+<text x="347" y="561" text-anchor="middle" font-size="15" fill="#111827">(всего 3 вида)</text>
+<rect x="470" y="475" width="205" height="112" rx="12" fill="#ffffff" stroke="#9d174d" stroke-width="2"/>
+<rect x="470" y="475" width="205" height="36" rx="12" fill="#9d174d"/><rect x="470" y="497" width="205" height="14" fill="#9d174d"/>
+<text x="572" y="500" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Приматы</text>
+<text x="572" y="539" text-anchor="middle" font-size="15" fill="#111827">лемуры, обезьяны,</text>
+<text x="572" y="561" text-anchor="middle" font-size="15" fill="#111827">человек</text>
+<rect x="695" y="475" width="205" height="112" rx="12" fill="#f3f4f6" stroke="#d1d5db" stroke-dasharray="5 4"/>
+<text x="797" y="503" text-anchor="middle" font-size="14" fill="#4b5563">В науке ластоногих</text>
+<text x="797" y="525" text-anchor="middle" font-size="14" fill="#4b5563">включают в отряд</text>
+<text x="797" y="547" text-anchor="middle" font-size="14" fill="#4b5563">Хищные, а китов —</text>
+<text x="797" y="569" text-anchor="middle" font-size="14" fill="#4b5563">в Китопарнокопытные</text>
+</svg>
