@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="900" height="470" fill="#fff"/>
+  <text x="450" y="32" font-size="21" font-weight="bold" text-anchor="middle" fill="#0e5a6b">Как сплайсосома находит интрон: сигналы в последовательности</text>
+  <!-- пре-мРНК -->
+  <rect x="40" y="80" width="150" height="40" rx="5" fill="#0e5a6b"/><text x="115" y="106" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">экзон 1</text>
+  <rect x="190" y="86" width="520" height="28" fill="#ddd"/>
+  <rect x="710" y="80" width="150" height="40" rx="5" fill="#0e5a6b"/><text x="785" y="106" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">экзон 2</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="17" font-weight="bold">
+    <text x="196" y="106" fill="#b5462a">GU</text><text x="222" y="106" fill="#777">RAGU</text>
+    <text x="300" y="106" fill="#777">. . . . . .</text>
+    <text x="430" y="106" fill="#7a3fa0">A</text>
+    <text x="460" y="106" fill="#777">. . .</text>
+    <text x="510" y="106" fill="#2a7a2a">YYYYYYYYYY</text>
+    <text x="640" y="106" fill="#777">N</text>
+    <text x="682" y="106" fill="#b5462a">AG</text>
+  </g>
+  <g font-size="13" fill="#333" text-anchor="middle">
+    <path d="M205,165 L205,124" stroke="#b5462a" stroke-width="1.5" marker-end="url(#a)"/>
+    <text x="205" y="182">5′-сайт сплайсинга</text><text x="205" y="198">(донорный): почти всегда GU</text>
+    <path d="M435,165 L435,124" stroke="#7a3fa0" stroke-width="1.5" marker-end="url(#a)"/>
+    <text x="435" y="182">точка ветвления:</text><text x="435" y="198">аденин (A), обычно</text><text x="435" y="214">за 18–40 нт до конца</text>
+    <path d="M575,165 L575,124" stroke="#2a7a2a" stroke-width="1.5" marker-end="url(#a)"/>
+    <text x="580" y="182">полипиримидиновый</text><text x="580" y="198">тракт (Y = C или U)</text>
+    <path d="M692,165 L692,124" stroke="#b5462a" stroke-width="1.5" marker-end="url(#a)"/>
+    <text x="760" y="182">3′-сайт (акцепторный):</text><text x="760" y="198">почти всегда AG</text>
+  </g>
+  <!-- лассо -->
+  <text x="40" y="262" font-size="16" font-weight="bold" fill="#333">Итог реакции</text>
+  <rect x="40" y="300" width="150" height="40" rx="5" fill="#0e5a6b"/><text x="115" y="326" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">экзон 1</text>
+  <rect x="190" y="300" width="150" height="40" rx="5" fill="#0e5a6b"/><text x="265" y="326" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">экзон 2</text>
+  <text x="190" y="362" font-size="13" fill="#333" text-anchor="middle">экзоны сшиты встык</text>
+  <path d="M560,320 C 470,250 470,390 560,320 L 700,320" fill="none" stroke="#999" stroke-width="10"/>
+  <circle cx="560" cy="320" r="7" fill="#7a3fa0"/>
+  <text x="560" y="300" font-size="13" fill="#7a3fa0" text-anchor="middle">A</text>
+  <text x="640" y="300" font-size="14" fill="#555">интрон-«лассо»</text>
+  <text x="600" y="365" font-size="13" fill="#555" text-anchor="middle">вырезан и будет разрушен</text>
+  <rect x="40" y="395" width="820" height="56" rx="8" fill="#eef7f9" stroke="#0e5a6b"/>
+  <text x="56" y="418" font-size="14" fill="#333">Сигналы короткие и «размытые»: GU и AG встречаются в любом гене тысячи раз. Сплайсосома опознаёт</text>
+  <text x="56" y="438" font-size="14" fill="#333">интрон по сочетанию всех сигналов и по контексту — поэтому предсказать сплайсинг по коду непросто.</text>
+</svg>

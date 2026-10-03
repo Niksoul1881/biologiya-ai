@@ -1973,5 +1973,25 @@
   "source": "https://commons.wikimedia.org/wiki/File:1934-V_I_Vernadsky.jpg",
   "author": "АН СССР",
   "license": "Public domain"
+ },
+ "/images/lessons/171/struktura-gena-eukariot.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gene_structure_eukaryote_2_annotated.svg",
+  "author": "Thomas Shafee",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/171/struktura-gena-prokariot.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gene_structure_prokaryote_2_annotated.svg",
+  "author": "Thomas Shafee",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/171/alternativnyy-splaysing.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:DNA_alternative_splicing.gif",
+  "author": "National Human Genome Research Institute",
+  "license": "Public domain"
+ },
+ "/images/lessons/171/sharp.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Phillip_A._Sharp_at_AAAS_2025_02.jpg",
+  "author": "John Sears",
+  "license": "CC BY-SA 4.0"
  }
 }

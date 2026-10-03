@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="470" fill="#fff"/>
+  <text x="450" y="32" font-size="21" font-weight="bold" text-anchor="middle" fill="#0e5a6b">Ген в геномном браузере: так его видит биоинформатик</text>
+  <!-- линейка -->
+  <g font-size="12" fill="#555" text-anchor="middle">
+    <line x1="60" y1="70" x2="870" y2="70" stroke="#888" stroke-width="1.5"/>
+    <line x1="60" y1="64" x2="60" y2="76" stroke="#888"/><text x="60" y="58">1 000</text>
+    <line x1="240" y1="64" x2="240" y2="76" stroke="#888"/><text x="240" y="58">3 000</text>
+    <line x1="420" y1="64" x2="420" y2="76" stroke="#888"/><text x="420" y="58">5 000</text>
+    <line x1="600" y1="64" x2="600" y2="76" stroke="#888"/><text x="600" y="58">7 000</text>
+    <line x1="780" y1="64" x2="780" y2="76" stroke="#888"/><text x="780" y="58">9 000</text>
+  </g>
+  <text x="870" y="92" font-size="12" fill="#555" text-anchor="end">координата на хромосоме, пн</text>
+  <!-- транскрипт 1 -->
+  <text x="60" y="128" font-size="14" font-weight="bold" fill="#333">DEMO1-201 (все 4 экзона)</text>
+  <line x1="78" y1="160" x2="780" y2="160" stroke="#0e5a6b" stroke-width="2"/>
+  <g fill="none" stroke="#0e5a6b" stroke-width="1.6">
+    <path d="M140,155 l6,5 l-6,5"/><path d="M190,155 l6,5 l-6,5"/>
+    <path d="M330,155 l6,5 l-6,5"/><path d="M430,155 l6,5 l-6,5"/><path d="M530,155 l6,5 l-6,5"/>
+    <path d="M710,155 l6,5 l-6,5"/>
+  </g>
+  <rect x="60" y="152" width="9" height="16" fill="#0e5a6b"/>
+  <rect x="69" y="144" width="9" height="32" fill="#0e5a6b"/>
+  <rect x="240" y="144" width="11" height="32" fill="#0e5a6b"/>
+  <rect x="645" y="144" width="14" height="32" fill="#0e5a6b"/>
+  <rect x="780" y="144" width="27" height="32" fill="#0e5a6b"/>
+  <rect x="807" y="152" width="54" height="16" fill="#0e5a6b"/>
+  <!-- транскрипт 2 -->
+  <text x="60" y="222" font-size="14" font-weight="bold" fill="#333">DEMO1-202 (экзон 3 пропущен)</text>
+  <line x1="78" y1="254" x2="780" y2="254" stroke="#b5462a" stroke-width="2"/>
+  <g fill="none" stroke="#b5462a" stroke-width="1.6">
+    <path d="M140,249 l6,5 l-6,5"/><path d="M330,249 l6,5 l-6,5"/><path d="M480,249 l6,5 l-6,5"/><path d="M640,249 l6,5 l-6,5"/>
+  </g>
+  <rect x="60" y="246" width="9" height="16" fill="#b5462a"/>
+  <rect x="69" y="238" width="9" height="32" fill="#b5462a"/>
+  <rect x="240" y="238" width="11" height="32" fill="#b5462a"/>
+  <rect x="780" y="238" width="27" height="32" fill="#b5462a"/>
+  <rect x="807" y="246" width="54" height="16" fill="#b5462a"/>
+  <!-- подписи -->
+  <g font-size="13" fill="#333">
+    <line x1="64" y1="182" x2="64" y2="300" stroke="#999" stroke-dasharray="3,3"/>
+    <text x="40" y="318">тонкий блок — UTR</text>
+    <text x="40" y="335">(экзон, но не белок)</text>
+    <line x1="246" y1="182" x2="246" y2="300" stroke="#999" stroke-dasharray="3,3"/>
+    <text x="210" y="318">толстый блок — CDS</text>
+    <text x="210" y="335">(кодирует белок)</text>
+    <text x="400" y="318">линия со стрелками — интрон;</text>
+    <text x="400" y="335">стрелки показывают цепь «+»</text>
+    <text x="400" y="352">(ген читается слева направо)</text>
+    <text x="690" y="318">экзоны: 200 + 120 +</text>
+    <text x="690" y="335">+ 150 + 900 = 1 370 пн</text>
+    <text x="690" y="352">ген целиком: 8 900 пн</text>
+  </g>
+  <rect x="40" y="380" width="820" height="70" rx="8" fill="#eef7f9" stroke="#0e5a6b"/>
+  <text x="56" y="406" font-size="14" fill="#0e5a6b" font-weight="bold">Как читать трек.</text>
+  <text x="56" y="426" font-size="14" fill="#333">Один ген — несколько транскриптов (изоформ). Экзоны занимают ~15% длины гена, остальное — интроны.</text>
+  <text x="56" y="444" font-size="14" fill="#333">Пример условный: ген DEMO1 выдуман, но так выглядят реальные гены в UCSC Genome Browser и Ensembl.</text>
+</svg>
