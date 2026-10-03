@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Arial, Helvetica, sans-serif">
+  <rect width="960" height="640" fill="#ffffff"/>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <text x="480" y="36" font-size="25" font-weight="bold" text-anchor="middle" fill="#1f2937">Карта области: уровень жизни → данные → IT-направление</text>
+
+  <!-- заголовки колонок -->
+  <text x="150" y="80" font-size="18" font-weight="bold" text-anchor="middle" fill="#0e7490">Уровень организации</text>
+  <text x="480" y="80" font-size="18" font-weight="bold" text-anchor="middle" fill="#0e7490">Какие данные получаем</text>
+  <text x="810" y="80" font-size="18" font-weight="bold" text-anchor="middle" fill="#0e7490">Где работает айтишник</text>
+
+  <!-- ряд 1: молекулы -->
+  <rect x="30" y="100" width="240" height="105" rx="14" fill="#cffafe" stroke="#0891b2" stroke-width="3"/>
+  <text x="150" y="140" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">Молекулы</text>
+  <text x="150" y="166" font-size="15" text-anchor="middle" fill="#374151">ДНК, РНК, белки,</text>
+  <text x="150" y="186" font-size="15" text-anchor="middle" fill="#374151">метаболиты</text>
+  <rect x="345" y="100" width="270" height="105" rx="14" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text x="480" y="134" font-size="15" text-anchor="middle" fill="#1f2937">строки из A, C, G, T и 20 букв</text>
+  <text x="480" y="156" font-size="15" text-anchor="middle" fill="#1f2937">аминокислот (FASTA, FASTQ);</text>
+  <text x="480" y="178" font-size="15" text-anchor="middle" fill="#1f2937">3D-координаты атомов (PDB)</text>
+  <rect x="690" y="100" width="240" height="105" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <text x="810" y="134" font-size="15" text-anchor="middle" fill="#1f2937">алгоритмы на строках,</text>
+  <text x="810" y="156" font-size="15" text-anchor="middle" fill="#1f2937">выравнивание, BLAST,</text>
+  <text x="810" y="178" font-size="15" text-anchor="middle" fill="#1f2937">AlphaFold, дизайн белков</text>
+  <line x1="275" y1="152" x2="338" y2="152" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="620" y1="152" x2="683" y2="152" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+
+  <!-- ряд 2: клетки -->
+  <rect x="30" y="225" width="240" height="105" rx="14" fill="#cffafe" stroke="#0891b2" stroke-width="3"/>
+  <text x="150" y="265" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">Клетки</text>
+  <text x="150" y="291" font-size="15" text-anchor="middle" fill="#374151">какие гены включены,</text>
+  <text x="150" y="311" font-size="15" text-anchor="middle" fill="#374151">как клетки делятся и общаются</text>
+  <rect x="345" y="225" width="270" height="105" rx="14" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text x="480" y="259" font-size="15" text-anchor="middle" fill="#1f2937">матрицы «гены × клетки»</text>
+  <text x="480" y="281" font-size="15" text-anchor="middle" fill="#1f2937">(RNA-seq, single-cell);</text>
+  <text x="480" y="303" font-size="15" text-anchor="middle" fill="#1f2937">снимки микроскопии</text>
+  <rect x="690" y="225" width="240" height="105" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <text x="810" y="259" font-size="15" text-anchor="middle" fill="#1f2937">статистика, кластеризация,</text>
+  <text x="810" y="281" font-size="15" text-anchor="middle" fill="#1f2937">снижение размерности,</text>
+  <text x="810" y="303" font-size="15" text-anchor="middle" fill="#1f2937">компьютерное зрение</text>
+  <line x1="275" y1="277" x2="338" y2="277" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="620" y1="277" x2="683" y2="277" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+
+  <!-- ряд 3: организм -->
+  <rect x="30" y="350" width="240" height="105" rx="14" fill="#cffafe" stroke="#0891b2" stroke-width="3"/>
+  <text x="150" y="390" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">Организм</text>
+  <text x="150" y="416" font-size="15" text-anchor="middle" fill="#374151">органы, болезни,</text>
+  <text x="150" y="436" font-size="15" text-anchor="middle" fill="#374151">реакция на лекарства</text>
+  <rect x="345" y="350" width="270" height="105" rx="14" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text x="480" y="384" font-size="15" text-anchor="middle" fill="#1f2937">геном пациента (VCF),</text>
+  <text x="480" y="406" font-size="15" text-anchor="middle" fill="#1f2937">медицинские снимки,</text>
+  <text x="480" y="428" font-size="15" text-anchor="middle" fill="#1f2937">анализы, электронные карты</text>
+  <rect x="690" y="350" width="240" height="105" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <text x="810" y="384" font-size="15" text-anchor="middle" fill="#1f2937">клиническая геномика,</text>
+  <text x="810" y="406" font-size="15" text-anchor="middle" fill="#1f2937">ML на изображениях,</text>
+  <text x="810" y="428" font-size="15" text-anchor="middle" fill="#1f2937">поиск лекарств</text>
+  <line x1="275" y1="402" x2="338" y2="402" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="620" y1="402" x2="683" y2="402" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+
+  <!-- ряд 4: популяции -->
+  <rect x="30" y="475" width="240" height="105" rx="14" fill="#cffafe" stroke="#0891b2" stroke-width="3"/>
+  <text x="150" y="515" font-size="20" font-weight="bold" text-anchor="middle" fill="#1f2937">Популяции и виды</text>
+  <text x="150" y="541" font-size="15" text-anchor="middle" fill="#374151">родство, эволюция,</text>
+  <text x="150" y="561" font-size="15" text-anchor="middle" fill="#374151">эпидемии, экосистемы</text>
+  <rect x="345" y="475" width="270" height="105" rx="14" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text x="480" y="509" font-size="15" text-anchor="middle" fill="#1f2937">геномы тысяч людей и видов,</text>
+  <text x="480" y="531" font-size="15" text-anchor="middle" fill="#1f2937">метагеномы (ДНК из пробы),</text>
+  <text x="480" y="553" font-size="15" text-anchor="middle" fill="#1f2937">ряды заболеваемости</text>
+  <rect x="690" y="475" width="240" height="105" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <text x="810" y="509" font-size="15" text-anchor="middle" fill="#1f2937">филогенетика (деревья),</text>
+  <text x="810" y="531" font-size="15" text-anchor="middle" fill="#1f2937">GWAS, популяционная</text>
+  <text x="810" y="553" font-size="15" text-anchor="middle" fill="#1f2937">генетика, модели эпидемий</text>
+  <line x1="275" y1="527" x2="338" y2="527" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="620" y1="527" x2="683" y2="527" stroke="#6b7280" stroke-width="3" marker-end="url(#ar)"/>
+
+  <text x="480" y="612" font-size="14.5" font-style="italic" text-anchor="middle" fill="#4b5563">Чем ниже уровень на схеме, тем больше шума и биологического контекста; чем выше — тем «чище» данные и сильнее алгоритмы</text>
+</svg>

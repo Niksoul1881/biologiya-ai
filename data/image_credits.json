@@ -1973,5 +1973,25 @@
   "source": "https://commons.wikimedia.org/wiki/File:1934-V_I_Vernadsky.jpg",
   "author": "АН СССР",
   "license": "Public domain"
+ },
+ "/images/lessons/167/stoimost-genoma.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Cost_per_Genome.png",
+  "author": "National Human Genome Research Institute (NHGRI) Web site genome.gov is in the p",
+  "license": "CC0"
+ },
+ "/images/lessons/167/drevo-zhizni.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Tree_Of_Life_(with_horizontal_gene_transfer)-ru.svg",
+  "author": "Д.Ильин: translation, optimization",
+  "license": "CC0"
+ },
+ "/images/lessons/167/mioglobin.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Myoglobin.png",
+  "author": "→AzaToth",
+  "license": "Public domain"
+ },
+ "/images/lessons/167/minion-usb.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Oxford_Nanopore_MinION_connected_to_a_Mac_via_USB.jpg",
+  "author": "Cirosantilli2",
+  "license": "CC BY-SA 4.0"
  }
 }
