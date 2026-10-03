@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1000" height="560" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0F766E"/></marker>
+<marker id="arY" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F59E0B"/></marker>
+<marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker></defs>
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Энергия течёт, вещества движутся по кругу</text>
+<circle cx="110" cy="130" r="45" fill="#FDE047" stroke="#F59E0B" stroke-width="3"/>
+<text x="110" y="136" font-size="15" fill="#92400E" text-anchor="middle" font-weight="bold">Солнце</text>
+<rect x="250" y="90" width="220" height="100" rx="14" fill="#16A34A"/>
+<text x="360.0" y="122" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">Продуценты</text>
+<text x="360.0" y="144" font-size="13" fill="#ffffff" text-anchor="middle">растения, водоросли,</text>
+<text x="360.0" y="162" font-size="13" fill="#ffffff" text-anchor="middle">цианобактерии</text>
+<rect x="640" y="90" width="250" height="100" rx="14" fill="#EA580C"/>
+<text x="765.0" y="122" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">Консументы</text>
+<text x="765.0" y="144" font-size="13" fill="#ffffff" text-anchor="middle">растительноядные</text>
+<text x="765.0" y="162" font-size="13" fill="#ffffff" text-anchor="middle">и хищные животные</text>
+<rect x="440" y="330" width="250" height="100" rx="14" fill="#7C3AED"/>
+<text x="565.0" y="362" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">Редуценты</text>
+<text x="565.0" y="384" font-size="13" fill="#ffffff" text-anchor="middle">бактерии и грибы:</text>
+<text x="565.0" y="402" font-size="13" fill="#ffffff" text-anchor="middle">разлагают мёртвую органику</text>
+<rect x="110" y="345" width="220" height="70" rx="14" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+<text x="220" y="374" font-size="14" fill="#075985" text-anchor="middle" font-weight="bold">Минеральные вещества</text>
+<text x="220" y="394" font-size="13" fill="#075985" text-anchor="middle">CO₂, вода, соли N, P, K</text>
+<path d="M157,130 L246,135" stroke="#F59E0B" stroke-width="5" marker-end="url(#arY)"/>
+<text x="200" y="115" font-size="13" fill="#92400E" text-anchor="middle">свет</text>
+<path d="M472,140 L636,140" stroke="#0F766E" stroke-width="4" marker-end="url(#ar)"/>
+<text x="555" y="128" font-size="13" fill="#0F766E" text-anchor="middle">органика</text>
+<path d="M760,192 C760,280 720,330 694,360" stroke="#0F766E" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+<text x="800" y="280" font-size="13" fill="#0F766E" text-anchor="middle">трупы, экскременты</text>
+<path d="M360,192 C380,260 420,320 438,350" stroke="#0F766E" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+<text x="330" y="270" font-size="13" fill="#0F766E" text-anchor="middle">опад, отмершие</text>
+<text x="330" y="287" font-size="13" fill="#0F766E" text-anchor="middle">растения</text>
+<path d="M438,380 L334,380" stroke="#0F766E" stroke-width="4" marker-end="url(#ar)"/>
+<path d="M200,343 C200,280 240,230 268,195" stroke="#0F766E" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+<text x="140" y="280" font-size="13" fill="#0F766E" text-anchor="middle">поглощают</text>
+<text x="140" y="297" font-size="13" fill="#0F766E" text-anchor="middle">корни</text>
+<path d="M330,90 L330,55" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arR)"/>
+<path d="M765,90 L765,55" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arR)"/>
+<path d="M565,432 L565,470" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arR)"/>
+<text x="380" y="64" font-size="13" fill="#DC2626" text-anchor="middle">тепло</text>
+<text x="815" y="64" font-size="13" fill="#DC2626" text-anchor="middle">тепло</text>
+<text x="615" y="465" font-size="13" fill="#DC2626" text-anchor="middle">тепло</text>
+<text x="500" y="508" font-size="14" fill="#374151" text-anchor="middle">Энергия входит как свет и уходит как тепло — поток в одну сторону.</text>
+<text x="500" y="530" font-size="14" fill="#374151" text-anchor="middle">Химические элементы возвращаются и используются снова — круговорот веществ.</text>
+</svg>
