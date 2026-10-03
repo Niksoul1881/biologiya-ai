@@ -1,0 +1,56 @@
+{{- /* ДНК → РНК → белок онлайн: {{< dna >}}, логика в /js/translation.js */ -}}
+<div class="dna" id="dna-app">
+  <div class="dna-inputs">
+    <label class="dna-field"><span>Что дано</span>
+      <select id="dna-mode">
+        <option value="template">Матричная цепь ДНК (3′→5′)</option>
+        <option value="template53">Матричная цепь ДНК, записана 5′→3′</option>
+        <option value="coding">Смысловая (кодирующая) цепь ДНК</option>
+        <option value="rna">иРНК</option>
+      </select>
+    </label>
+    <label class="dna-field dna-seq"><span>Последовательность</span>
+      <textarea id="dna-input" rows="2" spellcheck="false" autocomplete="off">ТАЦ ГГА ТЦТ АЦЦ ГГГ АТТ</textarea>
+    </label>
+  </div>
+  <div class="dna-presets"><span>Примеры:</span>
+    <button type="button" data-ex="template|ТАЦГГАТЦТАЦЦГГГАТТ">матричная ДНК</button>
+    <button type="button" data-ex="template53|5′-ТТАЦГГАТЦТ-3′">матричная 5′→3′ (ЕГЭ)</button>
+    <button type="button" data-ex="coding|ATGGCTAGCTGA">смысловая ДНК со стоп-кодоном</button>
+    <button type="button" data-ex="rna|AUGUUUGGCAAAUGA">иРНК</button>
+  </div>
+  <div id="dna-result" class="dna-result" aria-live="polite"></div>
+</div>
+<script src="{{ "js/translation.js" | relURL }}" defer></script>
+<style>
+  .dna { margin: 24px 0 40px; }
+  .dna-inputs { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  @media (min-width: 760px) { .dna-inputs { grid-template-columns: 300px minmax(0, 1fr); } }
+  .dna-field { display: flex; flex-direction: column; gap: 6px; font-weight: 600; color: #374151; min-width: 0; }
+  .dna-field select { padding: 12px; border: 2px solid #D1D5DB; border-radius: 12px; font-size: 15px; background: #fff; }
+  .dna-field textarea { font: 600 20px/1.4 ui-monospace, Consolas, monospace; letter-spacing: .05em; padding: 10px 14px; border: 2px solid #D1D5DB; border-radius: 12px; resize: vertical; width: 100%; box-sizing: border-box; }
+  .dna-field textarea:focus, .dna-field select:focus { border-color: #16A34A; outline: none; }
+  .dna-presets { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 14px 0 18px; font-size: 14px; color: #6B7280; }
+  .dna-presets button { border: 1px solid #D1D5DB; background: #F9FAFB; border-radius: 999px; padding: 6px 12px; font-size: 14px; cursor: pointer; }
+  .dna-presets button:hover { border-color: #16A34A; color: #15803D; }
+  .dna-error { background: #FEF2F2; color: #B91C1C; border: 1px solid #FECACA; border-radius: 12px; padding: 14px 16px; }
+  .dna-note { background: #EFF6FF; color: #1E40AF; border-radius: 10px; padding: 8px 12px; margin-bottom: 10px; font-size: 14px; }
+  .dna-strands { background: #111; color: #fff; border-radius: 14px; padding: 14px 16px; overflow-x: auto; }
+  .dna-row { display: flex; gap: 12px; align-items: baseline; padding: 4px 0; white-space: nowrap; }
+  .dna-lbl { width: 150px; flex: none; color: #9CA3AF; font-size: 13px; }
+  .dna-row code { font: 600 17px ui-monospace, Consolas, monospace; letter-spacing: .06em; background: none; color: inherit; }
+  .dna-tmpl code { color: #93C5FD; }
+  .dna-mrna code { color: #86EFAC; }
+  .dna-protein { margin: 14px 0; font-size: 18px; font-weight: 700; }
+  .dna-protein span { color: #6B7280; font-weight: 500; font-size: 15px; margin-right: 6px; }
+  .dna-tbl { overflow-x: auto; max-width: 100%; }
+  .dna-tbl table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  .dna-tbl th, .dna-tbl td { border-bottom: 1px solid #E5E7EB; padding: 7px 10px; text-align: left; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .dna-tbl th { color: #6B7280; font-size: 13px; font-weight: 600; }
+  .dna-stop td { background: #FEF2F2; color: #B91C1C; }
+  .dna-after td { color: #9CA3AF; }
+  .dna-result h3 { margin: 26px 0 10px; font-size: 19px; }
+  .dna-steps { padding-left: 22px; line-height: 1.6; }
+  .dna-steps li { margin-bottom: 10px; overflow-wrap: anywhere; }
+  .dna-answer { background: #F0FDF4; border-left: 4px solid #16A34A; border-radius: 8px; padding: 14px 16px; font-size: 16px; overflow-wrap: anywhere; }
+</style>
