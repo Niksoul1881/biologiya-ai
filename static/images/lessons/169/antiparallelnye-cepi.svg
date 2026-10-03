@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" width="900" height="430" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4f86"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#a02020"/></marker>
+  </defs>
+  <rect width="900" height="430" fill="#fff"/>
+  <text x="450" y="36" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Две цепи ДНК антипараллельны</text>
+  <!-- верхняя цепь -->
+  <text x="95" y="112" font-size="20" font-weight="bold" text-anchor="middle" fill="#1d4f86">5′</text>
+  <text x="805" y="112" font-size="20" font-weight="bold" text-anchor="middle" fill="#1d4f86">3′</text>
+  <g font-family="Consolas, monospace" font-size="32" font-weight="bold" text-anchor="middle" fill="#1d4f86">
+    <text x="170" y="114">A</text><text x="250" y="114">T</text><text x="330" y="114">G</text><text x="410" y="114">C</text><text x="490" y="114">G</text><text x="570" y="114">T</text><text x="650" y="114">A</text><text x="730" y="114">C</text>
+  </g>
+  <path d="M 150 70 L 750 70" stroke="#1d4f86" stroke-width="3" marker-end="url(#a)"/>
+  <text x="450" y="60" font-size="15" text-anchor="middle" fill="#1d4f86">верхняя цепь читается 5′ → 3′ слева направо</text>
+  <!-- связи -->
+  <g stroke="#888" stroke-width="2" stroke-dasharray="4 4">
+    <line x1="170" y1="126" x2="170" y2="166"/><line x1="250" y1="126" x2="250" y2="166"/><line x1="330" y1="126" x2="330" y2="166"/><line x1="410" y1="126" x2="410" y2="166"/><line x1="490" y1="126" x2="490" y2="166"/><line x1="570" y1="126" x2="570" y2="166"/><line x1="650" y1="126" x2="650" y2="166"/><line x1="730" y1="126" x2="730" y2="166"/>
+  </g>
+  <!-- нижняя цепь -->
+  <text x="95" y="196" font-size="20" font-weight="bold" text-anchor="middle" fill="#a02020">3′</text>
+  <text x="805" y="196" font-size="20" font-weight="bold" text-anchor="middle" fill="#a02020">5′</text>
+  <g font-family="Consolas, monospace" font-size="32" font-weight="bold" text-anchor="middle" fill="#a02020">
+    <text x="170" y="198">T</text><text x="250" y="198">A</text><text x="330" y="198">C</text><text x="410" y="198">G</text><text x="490" y="198">C</text><text x="570" y="198">A</text><text x="650" y="198">T</text><text x="730" y="198">G</text>
+  </g>
+  <path d="M 750 222 L 150 222" stroke="#a02020" stroke-width="3" marker-end="url(#r)"/>
+  <text x="450" y="246" font-size="15" text-anchor="middle" fill="#a02020">нижняя цепь читается 5′ → 3′ справа налево</text>
+  <!-- вывод -->
+  <rect x="60" y="275" width="780" height="135" rx="12" fill="#f7f7f7" stroke="#ccc" stroke-width="2"/>
+  <text x="90" y="309" font-size="17" fill="#333">Верхняя цепь (5′→3′):</text>
+  <text x="430" y="309" font-size="20" font-family="Consolas, monospace" font-weight="bold" fill="#1d4f86">ATGCGTAC</text>
+  <text x="90" y="343" font-size="17" fill="#333">complement (по буквам):</text>
+  <text x="430" y="343" font-size="20" font-family="Consolas, monospace" fill="#777">TACGCATG</text>
+  <text x="620" y="343" font-size="14" fill="#777">— это 3′→5′, так не пишут</text>
+  <text x="90" y="377" font-size="17" fill="#333">Нижняя цепь (5′→3′):</text>
+  <text x="430" y="377" font-size="20" font-family="Consolas, monospace" font-weight="bold" fill="#a02020">GTACGCAT</text>
+  <text x="620" y="377" font-size="14" fill="#333">= reverse complement</text>
+  <text x="90" y="400" font-size="13" fill="#555">Пары: A–T (две водородные связи), G–C (три водородные связи)</text>
+</svg>
