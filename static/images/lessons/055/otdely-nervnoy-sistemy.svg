@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 570" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="570" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="25" font-weight="bold" fill="#1F2937">Отделы нервной системы</text>
+  <g stroke="#6B7280" stroke-width="3" fill="none">
+    <path d="M450,105 L450,125 L230,125 L230,145"/><path d="M450,125 L670,125 L670,145"/>
+    <path d="M230,215 L230,235 L120,235 L120,255"/><path d="M230,235 L340,235 L340,255"/>
+    <path d="M670,215 L670,235 L560,235 L560,255"/><path d="M670,235 L780,235 L780,255"/>
+    <path d="M780,345 L780,370 L570,370 L570,390"/><path d="M780,370 L790,370 L790,390"/>
+  </g>
+  <rect x="300" y="55" width="300" height="50" rx="12" fill="#1F2937"/>
+  <text x="450" y="88" text-anchor="middle" font-size="21" font-weight="bold" fill="#FFFFFF">Нервная система</text>
+  <rect x="100" y="145" width="260" height="70" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="230" y="175" text-anchor="middle" font-size="18" font-weight="bold" fill="#1E3A8A">по расположению</text>
+  <text x="230" y="199" text-anchor="middle" font-size="15" fill="#1E3A8A">(анатомическое деление)</text>
+  <rect x="540" y="145" width="260" height="70" rx="12" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <text x="670" y="175" text-anchor="middle" font-size="18" font-weight="bold" fill="#92400E">по функциям</text>
+  <text x="670" y="199" text-anchor="middle" font-size="15" fill="#92400E">(что иннервирует)</text>
+  <!-- row 3 -->
+  <rect x="20" y="255" width="200" height="90" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="120" y="283" text-anchor="middle" font-size="17" font-weight="bold" fill="#1E3A8A">Центральная</text>
+  <text x="120" y="308" text-anchor="middle" font-size="15" fill="#1F2937">головной мозг,</text>
+  <text x="120" y="329" text-anchor="middle" font-size="15" fill="#1F2937">спинной мозг</text>
+  <rect x="240" y="255" width="200" height="90" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="340" y="283" text-anchor="middle" font-size="17" font-weight="bold" fill="#1E3A8A">Периферическая</text>
+  <text x="340" y="308" text-anchor="middle" font-size="15" fill="#1F2937">нервы, нервные узлы,</text>
+  <text x="340" y="329" text-anchor="middle" font-size="15" fill="#1F2937">нервные окончания</text>
+  <rect x="460" y="255" width="200" height="90" rx="12" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="560" y="283" text-anchor="middle" font-size="17" font-weight="bold" fill="#92400E">Соматическая</text>
+  <text x="560" y="308" text-anchor="middle" font-size="15" fill="#1F2937">скелетные мышцы, кожа;</text>
+  <text x="560" y="329" text-anchor="middle" font-size="15" fill="#1F2937">подчиняется воле</text>
+  <rect x="680" y="255" width="200" height="90" rx="12" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="780" y="283" text-anchor="middle" font-size="17" font-weight="bold" fill="#92400E">Вегетативная</text>
+  <text x="780" y="308" text-anchor="middle" font-size="15" fill="#1F2937">внутренние органы,</text>
+  <text x="780" y="329" text-anchor="middle" font-size="15" fill="#1F2937">сосуды, железы; не по воле</text>
+  <!-- row 4 -->
+  <rect x="470" y="390" width="200" height="150" rx="12" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+  <text x="570" y="418" text-anchor="middle" font-size="17" font-weight="bold" fill="#991B1B">Симпатическая</text>
+  <text x="570" y="443" text-anchor="middle" font-size="15" fill="#1F2937">«бей или беги»:</text>
+  <text x="570" y="465" text-anchor="middle" font-size="15" fill="#1F2937">сердце чаще, зрачки</text>
+  <text x="570" y="487" text-anchor="middle" font-size="15" fill="#1F2937">шире, бронхи шире,</text>
+  <text x="570" y="509" text-anchor="middle" font-size="15" fill="#1F2937">пищеварение тормозится</text>
+  <rect x="690" y="390" width="200" height="150" rx="12" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+  <text x="790" y="418" text-anchor="middle" font-size="17" font-weight="bold" fill="#166534">Парасимпатическая</text>
+  <text x="790" y="443" text-anchor="middle" font-size="15" fill="#1F2937">«отдых и пищеварение»:</text>
+  <text x="790" y="465" text-anchor="middle" font-size="15" fill="#1F2937">сердце реже, зрачки</text>
+  <text x="790" y="487" text-anchor="middle" font-size="15" fill="#1F2937">уже, пищеварение</text>
+  <text x="790" y="509" text-anchor="middle" font-size="15" fill="#1F2937">усиливается</text>
+  <text x="230" y="420" text-anchor="middle" font-size="15" fill="#6B7280">ЦНС принимает и анализирует</text>
+  <text x="230" y="442" text-anchor="middle" font-size="15" fill="#6B7280">информацию и отдаёт команды,</text>
+  <text x="230" y="464" text-anchor="middle" font-size="15" fill="#6B7280">периферическая — «провода»,</text>
+  <text x="230" y="486" text-anchor="middle" font-size="15" fill="#6B7280">по которым идут сигналы</text>
+</svg>

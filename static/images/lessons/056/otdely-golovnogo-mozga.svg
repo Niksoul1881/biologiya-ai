@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="600" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="25" font-weight="bold" fill="#1F2937">Отделы головного мозга (продольный разрез)</text>
+  <!-- cerebrum hemisphere outline -->
+  <path d="M190,330 C150,250 190,140 300,105 C400,72 520,80 600,120 C680,160 715,230 700,300 C690,345 650,360 610,352 C560,342 520,330 470,335 C420,340 380,345 340,352 C280,362 215,370 190,330 z" fill="#BFDBFE" stroke="#1E40AF" stroke-width="3"/>
+  <g fill="none" stroke="#1E40AF" stroke-width="2" opacity="0.5">
+    <path d="M240,200 C270,180 280,220 310,200"/><path d="M330,140 C350,170 380,150 400,170"/><path d="M450,120 C460,150 500,140 510,160"/><path d="M560,140 C570,170 610,160 620,190"/><path d="M640,230 C660,250 650,280 675,290"/><path d="M230,280 C260,260 280,300 310,280"/>
+  </g>
+  <!-- corpus callosum -->
+  <path d="M330,270 C380,225 520,220 590,265 C560,250 400,248 345,280 z" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+  <!-- diencephalon -->
+  <ellipse cx="455" cy="305" rx="55" ry="32" fill="#FDE68A" stroke="#B45309" stroke-width="3"/>
+  <!-- midbrain -->
+  <path d="M440,335 L500,335 L505,372 L438,372 z" fill="#FDBA74" stroke="#C2410C" stroke-width="3"/>
+  <!-- pons -->
+  <ellipse cx="470" cy="400" rx="42" ry="30" fill="#FCA5A5" stroke="#B91C1C" stroke-width="3"/>
+  <!-- medulla -->
+  <path d="M445,425 L495,425 L487,490 L455,490 z" fill="#F9A8D4" stroke="#9D174D" stroke-width="3"/>
+  <!-- spinal cord -->
+  <path d="M455,490 L487,490 L483,580 L459,580 z" fill="#E5E7EB" stroke="#6B7280" stroke-width="3"/>
+  <!-- cerebellum -->
+  <path d="M540,375 C560,345 640,340 680,365 C710,385 700,430 660,445 C610,462 560,450 540,425 C530,410 532,390 540,375 z" fill="#C4B5FD" stroke="#5B21B6" stroke-width="3"/>
+  <g stroke="#5B21B6" stroke-width="1.5" fill="none" opacity="0.6"><path d="M555,380 C600,370 650,372 690,390"/><path d="M550,400 C600,392 650,395 695,410"/><path d="M552,420 C600,415 640,420 680,432"/></g>
+  <!-- labels -->
+  <g font-size="17" fill="#1F2937">
+    <line x1="300" y1="165" x2="248" y2="95" stroke="#1E40AF" stroke-width="2"/><text x="20" y="92" font-weight="bold" fill="#1E40AF">Большие полушария</text><text x="20" y="112" font-size="14" fill="#374151">(конечный мозг) — кора:</text><text x="20" y="130" font-size="14" fill="#374151">мышление, речь, ощущения</text>
+    <line x1="400" y1="248" x2="250" y2="430" stroke="#6B7280" stroke-width="2"/><text x="40" y="440" font-size="15" fill="#374151">мозолистое тело —</text><text x="40" y="458" font-size="15" fill="#374151">связь полушарий</text>
+    <line x1="505" y1="300" x2="760" y2="190" stroke="#B45309" stroke-width="2"/><text x="740" y="160" font-weight="bold" fill="#B45309">Промежуточный</text><text x="740" y="180" font-size="14" fill="#374151">таламус, гипоталамус</text>
+    <line x1="505" y1="355" x2="760" y2="300" stroke="#C2410C" stroke-width="2"/><text x="740" y="282" font-weight="bold" fill="#C2410C">Средний мозг</text><text x="770" y="320" font-size="14" fill="#374151">зрит. и слух.</text><text x="770" y="336" font-size="14" fill="#374151">рефлексы</text>
+    <line x1="680" y1="420" x2="760" y2="470" stroke="#5B21B6" stroke-width="2"/><text x="740" y="490" font-weight="bold" fill="#5B21B6">Мозжечок</text><text x="740" y="508" font-size="14" fill="#374151">координация</text>
+    <line x1="430" y1="400" x2="250" y2="510" stroke="#B91C1C" stroke-width="2"/><text x="120" y="520" font-weight="bold" fill="#B91C1C">Мост</text>
+    <line x1="450" y1="465" x2="300" y2="560" stroke="#9D174D" stroke-width="2"/><text x="60" y="560" font-weight="bold" fill="#9D174D">Продолговатый мозг</text><text x="60" y="578" font-size="14" fill="#374151">дыхание, сердце, кашель, глотание</text>
+    <line x1="487" y1="560" x2="560" y2="560" stroke="#6B7280" stroke-width="2"/><text x="565" y="566" font-size="15" fill="#374151">спинной мозг</text>
+  </g>
+  <text x="640" y="560" font-size="13" fill="#6B7280"> </text>
+  <rect x="560" y="520" width="16" height="16" fill="none"/>
+  <text x="590" y="590" font-size="13" fill="#6B7280">мост + продолговатый + средний = ствол мозга</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="620" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="25" font-weight="bold" fill="#1F2937">Четыре типа тканей человека</text>
+  <g stroke="#E5E7EB" stroke-width="2" fill="#FAFAF8">
+    <rect x="25" y="60" width="415" height="265" rx="16"/><rect x="460" y="60" width="415" height="265" rx="16"/>
+    <rect x="25" y="340" width="415" height="265" rx="16"/><rect x="460" y="340" width="415" height="265" rx="16"/>
+  </g>
+  <!-- 1 epithelium -->
+  <text x="232" y="92" text-anchor="middle" font-size="21" font-weight="bold" fill="#B45309">1. Эпителиальная</text>
+  <g fill="#FDE68A" stroke="#B45309" stroke-width="2">
+    <rect x="70" y="115" width="52" height="80" rx="4"/><rect x="122" y="115" width="52" height="80" rx="4"/><rect x="174" y="115" width="52" height="80" rx="4"/>
+    <rect x="226" y="115" width="52" height="80" rx="4"/><rect x="278" y="115" width="52" height="80" rx="4"/><rect x="330" y="115" width="52" height="80" rx="4"/>
+  </g>
+  <g fill="#92400E"><circle cx="96" cy="165" r="9"/><circle cx="148" cy="165" r="9"/><circle cx="200" cy="165" r="9"/><circle cx="252" cy="165" r="9"/><circle cx="304" cy="165" r="9"/><circle cx="356" cy="165" r="9"/></g>
+  <rect x="62" y="196" width="328" height="7" fill="#6B7280"/>
+  <text x="400" y="205" font-size="13" fill="#6B7280" text-anchor="end"> </text>
+  <text x="226" y="222" text-anchor="middle" font-size="14" fill="#6B7280">базальная мембрана</text>
+  <text x="232" y="256" text-anchor="middle" font-size="16" fill="#1F2937">клетки плотно прижаты друг к другу,</text>
+  <text x="232" y="278" text-anchor="middle" font-size="16" fill="#1F2937">межклеточного вещества почти нет</text>
+  <text x="232" y="304" text-anchor="middle" font-size="15" fill="#6B7280">кожа, слизистые, железы</text>
+  <!-- 2 connective -->
+  <text x="667" y="92" text-anchor="middle" font-size="21" font-weight="bold" fill="#1D4ED8">2. Соединительная</text>
+  <rect x="495" y="110" width="345" height="110" rx="10" fill="#DBEAFE"/>
+  <g stroke="#93C5FD" stroke-width="3" fill="none">
+    <path d="M500,130 C560,150 620,110 690,140 S800,120 835,150"/><path d="M500,195 C570,170 640,215 720,185 S800,205 835,180"/>
+    <path d="M520,215 L600,115"/><path d="M700,215 L780,115"/>
+  </g>
+  <g fill="#1D4ED8"><ellipse cx="560" cy="160" rx="18" ry="11"/><ellipse cx="660" cy="190" rx="18" ry="11"/><ellipse cx="760" cy="150" rx="18" ry="11"/><ellipse cx="805" cy="200" rx="14" ry="9"/></g>
+  <text x="667" y="256" text-anchor="middle" font-size="16" fill="#1F2937">клеток мало, много межклеточного</text>
+  <text x="667" y="278" text-anchor="middle" font-size="16" fill="#1F2937">вещества (волокна + основное вещество)</text>
+  <text x="667" y="304" text-anchor="middle" font-size="15" fill="#6B7280">кость, хрящ, кровь, жир, сухожилия</text>
+  <!-- 3 muscle -->
+  <text x="232" y="372" text-anchor="middle" font-size="21" font-weight="bold" fill="#B91C1C">3. Мышечная</text>
+  <g fill="#FECACA" stroke="#B91C1C" stroke-width="2">
+    <rect x="60" y="392" width="345" height="30" rx="15"/><rect x="60" y="428" width="345" height="30" rx="15"/><rect x="60" y="464" width="345" height="30" rx="15"/>
+  </g>
+  <g stroke="#B91C1C" stroke-width="1.5" opacity="0.55">
+    <line x1="90" y1="394" x2="90" y2="420"/><line x1="110" y1="394" x2="110" y2="420"/><line x1="130" y1="394" x2="130" y2="420"/><line x1="150" y1="394" x2="150" y2="420"/><line x1="170" y1="394" x2="170" y2="420"/><line x1="190" y1="394" x2="190" y2="420"/><line x1="210" y1="394" x2="210" y2="420"/><line x1="230" y1="394" x2="230" y2="420"/><line x1="250" y1="394" x2="250" y2="420"/><line x1="270" y1="394" x2="270" y2="420"/><line x1="290" y1="394" x2="290" y2="420"/><line x1="310" y1="394" x2="310" y2="420"/><line x1="330" y1="394" x2="330" y2="420"/><line x1="350" y1="394" x2="350" y2="420"/><line x1="370" y1="394" x2="370" y2="420"/>
+    <line x1="90" y1="430" x2="90" y2="456"/><line x1="110" y1="430" x2="110" y2="456"/><line x1="130" y1="430" x2="130" y2="456"/><line x1="150" y1="430" x2="150" y2="456"/><line x1="170" y1="430" x2="170" y2="456"/><line x1="190" y1="430" x2="190" y2="456"/><line x1="210" y1="430" x2="210" y2="456"/><line x1="230" y1="430" x2="230" y2="456"/><line x1="250" y1="430" x2="250" y2="456"/><line x1="270" y1="430" x2="270" y2="456"/><line x1="290" y1="430" x2="290" y2="456"/><line x1="310" y1="430" x2="310" y2="456"/><line x1="330" y1="430" x2="330" y2="456"/><line x1="350" y1="430" x2="350" y2="456"/><line x1="370" y1="430" x2="370" y2="456"/>
+    <line x1="90" y1="466" x2="90" y2="492"/><line x1="110" y1="466" x2="110" y2="492"/><line x1="130" y1="466" x2="130" y2="492"/><line x1="150" y1="466" x2="150" y2="492"/><line x1="170" y1="466" x2="170" y2="492"/><line x1="190" y1="466" x2="190" y2="492"/><line x1="210" y1="466" x2="210" y2="492"/><line x1="230" y1="466" x2="230" y2="492"/><line x1="250" y1="466" x2="250" y2="492"/><line x1="270" y1="466" x2="270" y2="492"/><line x1="290" y1="466" x2="290" y2="492"/><line x1="310" y1="466" x2="310" y2="492"/><line x1="330" y1="466" x2="330" y2="492"/><line x1="350" y1="466" x2="350" y2="492"/><line x1="370" y1="466" x2="370" y2="492"/>
+  </g>
+  <g fill="#7F1D1D"><ellipse cx="140" cy="407" rx="10" ry="5"/><ellipse cx="300" cy="407" rx="10" ry="5"/><ellipse cx="220" cy="443" rx="10" ry="5"/><ellipse cx="360" cy="443" rx="10" ry="5"/><ellipse cx="120" cy="479" rx="10" ry="5"/><ellipse cx="270" cy="479" rx="10" ry="5"/></g>
+  <text x="232" y="530" text-anchor="middle" font-size="16" fill="#1F2937">длинные клетки-волокна,</text>
+  <text x="232" y="552" text-anchor="middle" font-size="16" fill="#1F2937">умеют сокращаться</text>
+  <text x="232" y="580" text-anchor="middle" font-size="15" fill="#6B7280">скелетные мышцы, сердце, стенки органов</text>
+  <!-- 4 nervous -->
+  <text x="667" y="372" text-anchor="middle" font-size="21" font-weight="bold" fill="#6D28D9">4. Нервная</text>
+  <g stroke="#7C3AED" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M560,445 L520,405 M520,405 L505,395 M520,405 L512,420"/><path d="M555,465 L510,480 M510,480 L495,470"/><path d="M570,425 L575,390 M575,390 L565,382"/><path d="M590,440 L620,400"/>
+    <path d="M598,452 C650,452 700,470 760,455 S810,440 830,450"/>
+    <path d="M830,450 L845,438 M830,450 L847,455 M830,450 L840,468"/>
+  </g>
+  <circle cx="572" cy="450" r="24" fill="#DDD6FE" stroke="#6D28D9" stroke-width="3"/>
+  <circle cx="574" cy="450" r="9" fill="#6D28D9"/>
+  <g fill="#C4B5FD"><ellipse cx="660" cy="430" rx="14" ry="9"/><ellipse cx="720" cy="490" rx="14" ry="9"/></g>
+  <text x="694" y="418" font-size="13" fill="#6B7280">клетки-спутники (глия)</text>
+  <text x="600" y="505" font-size="13" fill="#6B7280">нейрон</text>
+  <text x="667" y="530" text-anchor="middle" font-size="16" fill="#1F2937">нейроны проводят импульсы,</text>
+  <text x="667" y="552" text-anchor="middle" font-size="16" fill="#1F2937">глия их питает и защищает</text>
+  <text x="667" y="580" text-anchor="middle" font-size="15" fill="#6B7280">головной и спинной мозг, нервы</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="560" fill="#FFFFFF"/>
+  <defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 z" fill="#1F2937"/></marker></defs>
+  <text x="450" y="36" text-anchor="middle" font-size="25" font-weight="bold" fill="#1F2937">Как поджелудочная железа держит сахар крови в норме</text>
+  <!-- center norm -->
+  <rect x="330" y="230" width="240" height="100" rx="50" fill="#ECFDF5" stroke="#16A34A" stroke-width="4"/>
+  <text x="450" y="268" text-anchor="middle" font-size="18" font-weight="bold" fill="#166534">НОРМА глюкозы</text>
+  <text x="450" y="296" text-anchor="middle" font-size="16" fill="#166534">натощак 3,3–5,5 ммоль/л</text>
+  <!-- top: after meal -->
+  <rect x="40" y="70" width="250" height="90" rx="14" fill="#FEE2E2" stroke="#DC2626" stroke-width="3"/>
+  <text x="165" y="104" text-anchor="middle" font-size="17" font-weight="bold" fill="#991B1B">После еды</text>
+  <text x="165" y="130" text-anchor="middle" font-size="15" fill="#374151">глюкоза в крови</text><text x="165" y="148" text-anchor="middle" font-size="15" fill="#374151">повышается ↑</text>
+  <rect x="330" y="70" width="240" height="90" rx="14" fill="#FEF3C7" stroke="#D97706" stroke-width="3"/>
+  <text x="450" y="100" text-anchor="middle" font-size="16" font-weight="bold" fill="#92400E">Поджелудочная железа</text>
+  <text x="450" y="124" text-anchor="middle" font-size="15" fill="#374151">бета-клетки островков</text><text x="450" y="144" text-anchor="middle" font-size="15" fill="#374151">выделяют ИНСУЛИН</text>
+  <rect x="610" y="70" width="250" height="90" rx="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+  <text x="735" y="98" text-anchor="middle" font-size="15" fill="#374151">клетки забирают глюкозу,</text><text x="735" y="118" text-anchor="middle" font-size="15" fill="#374151">печень и мышцы запасают</text><text x="735" y="138" text-anchor="middle" font-size="15" fill="#374151">её в виде гликогена</text>
+  <!-- bottom: fasting -->
+  <rect x="40" y="400" width="250" height="90" rx="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+  <text x="165" y="434" text-anchor="middle" font-size="17" font-weight="bold" fill="#1E3A8A">Голод, нагрузка</text>
+  <text x="165" y="460" text-anchor="middle" font-size="15" fill="#374151">глюкоза в крови</text><text x="165" y="478" text-anchor="middle" font-size="15" fill="#374151">снижается ↓</text>
+  <rect x="330" y="400" width="240" height="90" rx="14" fill="#FEF3C7" stroke="#D97706" stroke-width="3"/>
+  <text x="450" y="430" text-anchor="middle" font-size="16" font-weight="bold" fill="#92400E">Поджелудочная железа</text>
+  <text x="450" y="454" text-anchor="middle" font-size="15" fill="#374151">альфа-клетки островков</text><text x="450" y="474" text-anchor="middle" font-size="15" fill="#374151">выделяют ГЛЮКАГОН</text>
+  <rect x="610" y="400" width="250" height="90" rx="14" fill="#FEE2E2" stroke="#DC2626" stroke-width="3"/>
+  <text x="735" y="430" text-anchor="middle" font-size="15" fill="#374151">печень расщепляет</text><text x="735" y="450" text-anchor="middle" font-size="15" fill="#374151">гликоген до глюкозы</text><text x="735" y="470" text-anchor="middle" font-size="15" fill="#374151">и выпускает её в кровь</text>
+  <g stroke="#1F2937" stroke-width="3" fill="none" marker-end="url(#a)">
+    <line x1="292" y1="115" x2="324" y2="115"/><line x1="572" y1="115" x2="604" y2="115"/>
+    <path d="M735,164 C735,230 650,270 576,275"/>
+    <line x1="292" y1="445" x2="324" y2="445"/><line x1="572" y1="445" x2="604" y2="445"/>
+    <path d="M735,396 C735,330 650,290 576,285"/>
+    <path d="M325,262 C200,250 165,210 165,166"/>
+    <path d="M325,298 C200,310 165,350 165,394"/>
+  </g>
+  <text x="680" y="225" font-size="15" fill="#2563EB" font-weight="bold">глюкоза ↓</text>
+  <text x="680" y="345" font-size="15" fill="#DC2626" font-weight="bold">глюкоза ↑</text>
+  <text x="450" y="525" text-anchor="middle" font-size="15" fill="#6B7280">Инсулин и глюкагон — гормоны-антагонисты: действуют противоположно.</text><text x="450" y="547" text-anchor="middle" font-size="15" fill="#6B7280">При сахарном диабете инсулина не хватает или клетки на него не реагируют.</text>
+</svg>
