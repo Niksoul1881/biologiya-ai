@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker>
+</defs>
+<rect width="1000" height="600" fill="#fff"/>
+<text x="500" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Жизненный цикл пекарских дрожжей</text>
+<!-- панели -->
+<rect x="20" y="55" width="280" height="440" rx="16" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<rect x="360" y="55" width="280" height="440" rx="16" fill="#fdf6e3" stroke="#b7950b" stroke-width="2"/>
+<rect x="700" y="55" width="280" height="440" rx="16" fill="#f6effa" stroke="#7a3fa0" stroke-width="2"/>
+<text x="160" y="84" font-size="17" font-weight="bold" text-anchor="middle" fill="#1d4f86">Гаплоидные клетки (n = 16)</text>
+<text x="500" y="84" font-size="17" font-weight="bold" text-anchor="middle" fill="#7d6608">Диплоидная клетка (2n = 32)</text>
+<text x="840" y="84" font-size="17" font-weight="bold" text-anchor="middle" fill="#7a3fa0">Аск с 4 спорами</text>
+<!-- гаплоиды -->
+<ellipse cx="120" cy="160" rx="42" ry="34" fill="#fff" stroke="#c0392b" stroke-width="3"/>
+<circle cx="120" cy="160" r="10" fill="#c0392b"/>
+<ellipse cx="170" cy="138" rx="16" ry="13" fill="#fff" stroke="#c0392b" stroke-width="3"/>
+<text x="120" y="215" font-size="15" text-anchor="middle" fill="#c0392b">тип a</text>
+<ellipse cx="120" cy="320" rx="42" ry="34" fill="#fff" stroke="#2e86c1" stroke-width="3"/>
+<circle cx="120" cy="320" r="10" fill="#2e86c1"/>
+<ellipse cx="170" cy="298" rx="16" ry="13" fill="#fff" stroke="#2e86c1" stroke-width="3"/>
+<text x="120" y="375" font-size="15" text-anchor="middle" fill="#2e86c1">тип α</text>
+<text x="160" y="420" font-size="14" text-anchor="middle" fill="#333">почкуются (митоз);</text>
+<text x="160" y="442" font-size="14" text-anchor="middle" fill="#333">рецессивные мутации</text>
+<text x="160" y="464" font-size="14" text-anchor="middle" fill="#333">проявляются сразу</text>
+<!-- диплоид -->
+<ellipse cx="490" cy="245" rx="58" ry="45" fill="#fff" stroke="#b7950b" stroke-width="3"/>
+<circle cx="480" cy="245" r="9" fill="#c0392b"/>
+<circle cx="500" cy="245" r="9" fill="#2e86c1"/>
+<ellipse cx="558" cy="215" rx="20" ry="16" fill="#fff" stroke="#b7950b" stroke-width="3"/>
+<text x="490" y="315" font-size="15" text-anchor="middle" fill="#7d6608">тип a/α</text>
+<text x="500" y="420" font-size="14" text-anchor="middle" fill="#333">тоже почкуется (митоз);</text>
+<text x="500" y="442" font-size="14" text-anchor="middle" fill="#333">так проверяют, доминантна</text>
+<text x="500" y="464" font-size="14" text-anchor="middle" fill="#333">или рецессивна мутация</text>
+<!-- аск -->
+<ellipse cx="840" cy="250" rx="70" ry="60" fill="#fff" stroke="#7a3fa0" stroke-width="3"/>
+<circle cx="812" cy="225" r="20" fill="#fff" stroke="#c0392b" stroke-width="3"/><text x="812" y="231" font-size="15" text-anchor="middle" fill="#c0392b">a</text>
+<circle cx="868" cy="225" r="20" fill="#fff" stroke="#2e86c1" stroke-width="3"/><text x="868" y="231" font-size="15" text-anchor="middle" fill="#2e86c1">α</text>
+<circle cx="812" cy="277" r="20" fill="#fff" stroke="#2e86c1" stroke-width="3"/><text x="812" y="283" font-size="15" text-anchor="middle" fill="#2e86c1">α</text>
+<circle cx="868" cy="277" r="20" fill="#fff" stroke="#c0392b" stroke-width="3"/><text x="868" y="283" font-size="15" text-anchor="middle" fill="#c0392b">a</text>
+<text x="840" y="350" font-size="14" text-anchor="middle" fill="#333">тетрада: 2 споры a</text>
+<text x="840" y="372" font-size="14" text-anchor="middle" fill="#333">и 2 споры α — все</text>
+<text x="840" y="394" font-size="14" text-anchor="middle" fill="#333">четыре продукта</text>
+<text x="840" y="416" font-size="14" text-anchor="middle" fill="#333">одного мейоза</text>
+<!-- стрелки поверх панелей -->
+<line x1="190" y1="172" x2="428" y2="232" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<line x1="190" y1="312" x2="428" y2="260" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="400" y="120" width="180" height="50" rx="8" fill="#fff" stroke="#b7950b"/>
+<text x="490" y="141" font-size="15" font-weight="bold" text-anchor="middle" fill="#444">спаривание:</text>
+<text x="490" y="161" font-size="14" text-anchor="middle" fill="#444">клетки a и α сливаются</text>
+<line x1="550" y1="275" x2="764" y2="275" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="600" y="330" width="140" height="50" rx="8" fill="#fff" stroke="#7a3fa0"/>
+<text x="670" y="351" font-size="15" font-weight="bold" text-anchor="middle" fill="#444">нет пищи →</text>
+<text x="670" y="371" font-size="14" text-anchor="middle" fill="#444">мейоз и споры</text>
+<line x1="670" y1="330" x2="670" y2="282" stroke="#444" stroke-width="1.5" stroke-dasharray="4 3"/>
+<path d="M840,497 C840,560 160,560 160,500" fill="none" stroke="#444" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="500" y="585" font-size="15" font-weight="bold" text-anchor="middle" fill="#444">споры прорастают в гаплоидные клетки a и α</text>
+</svg>

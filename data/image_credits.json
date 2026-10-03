@@ -2224,6 +2224,96 @@
   "author": "dun_deagh",
   "license": "CC BY-SA 2.0"
  },
+ "/images/lessons/181/berezovaya-pyadenica.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lichte_en_zwarte_versie_berkenspanner_crop.jpg",
+  "author": "Martinowsky; Chiswick Chap",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/181/butylochnoe-gorlyshko.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Bottleneck_effect.jpg",
+  "author": "Tsaneda",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/181/malyariya-serpovidnoklet.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Malaria_versus_sickle-cell_trait_distributions.png",
+  "author": "Anthony Allison",
+  "license": "CC0"
+ },
+ "/images/lessons/181/rasselenie-cheloveka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Spreading_homo_sapiens_ru.svg",
+  "author": "Altaileopard; Urutseg (русская версия)",
+  "license": "Public domain"
+ },
+ "/images/lessons/182/drozhzhi.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Saccharomyces_cerevisiae_SEM.jpg",
+  "author": "Mogana Das Murtey and Patchamuthu Ramasamy",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/182/e-coli.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:E._coli_Bacteria_(16578744517).jpg",
+  "author": "NIAID",
+  "license": "CC BY 2.0"
+ },
+ "/images/lessons/182/laboratornaya-mysh.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lab_mouse_mg_3263.jpg",
+  "author": "Rama",
+  "license": "CC BY-SA 2.0 fr"
+ },
+ "/images/lessons/182/lenski-kolby.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lenski's_12_long-term_lines_of_E._coli_on_25_June_2008.jpg",
+  "author": "Brian Baer and Neerja Hajela",
+  "license": "CC BY-SA 1.0"
+ },
+ "/images/lessons/182/mysh-ob.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Fatmouse.jpg",
+  "author": "Программа «Геном человека» Министерства энергетики США (ORNL)",
+  "license": "Public domain"
+ },
+ "/images/lessons/185/ebi-data-centre.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:EMBL-EBI_Data_Centre.jpg",
+  "author": "Jeff Dowling | EMBL-EBI",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/185/ensembl-brauzer.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Ensembl_genome_browser.png",
+  "author": "Ensembl",
+  "license": "CC0"
+ },
+ "/images/lessons/185/gemoglobin-1gzx.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:1GZX_Haemoglobin.png",
+  "author": "Zephyris at English Wikipedia",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/185/kendrew-mioglobin.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Myoglobin_protein_model,_created_by_Dr._John_Kendrew_and_technician_at_Cambridge_University,_1965_-_National_Museum_of_American_History_-_DSC00018.jpg",
+  "author": "Daderot",
+  "license": "CC0"
+ },
+ "/images/lessons/185/rost-genbank.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Growth_of_Genbank.svg",
+  "author": "121a0012",
+  "license": "Public domain"
+ },
+ "/images/lessons/185/rost-pdb.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Number_of_structures_of_Protein_Data_Bank_(1976-2020).png",
+  "author": "Dcbmariano",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/186/hiseq-bgi.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Illumina_Hiseq_2000_sequencers,_BGI_Hong_Kong_sequencing_room.JPG",
+  "author": "Scotted400",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/186/minion.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Oxford_Nanopore_MinION_top_cropped.jpg",
+  "author": "Cirosantilli2",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/186/sanger-hromatogramma.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Sanger_sequencing_read_display.png",
+  "author": "Loris",
+  "license": "Public domain"
+ },
  "/images/lessons/187/digibrid-gorokh.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Mendelian_Dihybrid_Cross.svg",
   "author": "Serenaweston",
@@ -2363,50 +2453,5 @@
   "source": "https://commons.wikimedia.org/wiki/File:AAMarkov.jpg",
   "author": "Unknown authorUnknown author",
   "license": "Public domain"
- },
- "/images/lessons/185/kendrew-mioglobin.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Myoglobin_protein_model,_created_by_Dr._John_Kendrew_and_technician_at_Cambridge_University,_1965_-_National_Museum_of_American_History_-_DSC00018.jpg",
-  "author": "Daderot",
-  "license": "CC0"
- },
- "/images/lessons/185/rost-genbank.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Growth_of_Genbank.svg",
-  "author": "121a0012",
-  "license": "Public domain"
- },
- "/images/lessons/185/rost-pdb.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Number_of_structures_of_Protein_Data_Bank_(1976-2020).png",
-  "author": "Dcbmariano",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/185/ensembl-brauzer.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Ensembl_genome_browser.png",
-  "author": "Ensembl",
-  "license": "CC0"
- },
- "/images/lessons/185/ebi-data-centre.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:EMBL-EBI_Data_Centre.jpg",
-  "author": "Jeff Dowling | EMBL-EBI",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/185/gemoglobin-1gzx.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:1GZX_Haemoglobin.png",
-  "author": "Zephyris at English Wikipedia",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/186/sanger-hromatogramma.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Sanger_sequencing_read_display.png",
-  "author": "Loris",
-  "license": "Public domain"
- },
- "/images/lessons/186/hiseq-bgi.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Illumina_Hiseq_2000_sequencers,_BGI_Hong_Kong_sequencing_room.JPG",
-  "author": "Scotted400",
-  "license": "CC BY 3.0"
- },
- "/images/lessons/186/minion.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Oxford_Nanopore_MinION_top_cropped.jpg",
-  "author": "Cirosantilli2",
-  "license": "CC BY-SA 4.0"
  }
 }
