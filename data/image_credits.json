@@ -2224,6 +2224,11 @@
   "author": "dun_deagh",
   "license": "CC BY-SA 2.0"
  },
+ "/images/lessons/187/digibrid-gorokh.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Mendelian_Dihybrid_Cross.svg",
+  "author": "Serenaweston",
+  "license": "CC BY 4.0"
+ },
  "/images/lessons/187/mendel-portret.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_portrait.jpg",
   "author": "Not Mentioned",
@@ -2234,19 +2239,34 @@
   "author": "Madprime",
   "license": "CC BY-SA 3.0"
  },
- "/images/lessons/187/digibrid-gorokh.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Mendelian_Dihybrid_Cross.svg",
-  "author": "Serenaweston",
-  "license": "CC BY 4.0"
+ "/images/lessons/188/ars-conjectandi.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Jacob_Bernoulli_-_Ars_Conjectandi.gif",
+  "author": "Bernoulli",
+  "license": "Public domain"
  },
  "/images/lessons/188/doska-galtona.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:GaltonBoard.png",
   "author": "Mark Hebner",
   "license": "CC BY-SA 4.0"
  },
- "/images/lessons/188/ars-conjectandi.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Jacob_Bernoulli_-_Ars_Conjectandi.gif",
-  "author": "Bernoulli",
+ "/images/lessons/197/hapmap-snp.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Demonstrating_Hardy-Weinberg_proportions_using_10,000_SNPs_from_the_HapMap_CEU_European_and_YRI_African_populations.png",
+  "author": "Graham Coop",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/197/hardi.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Ghhardy@72.jpg",
+  "author": "Unknown authorUnknown author",
+  "license": "Public domain"
+ },
+ "/images/lessons/198/cytosine-thymine.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Cytosine_becomes_thymine.png",
+  "author": "CFCF",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/198/markov.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:AAMarkov.jpg",
+  "author": "Unknown authorUnknown author",
   "license": "Public domain"
  }
 }
