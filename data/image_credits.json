@@ -2223,5 +2223,15 @@
   "source": "https://commons.wikimedia.org/wiki/File:Dolly_the_Sheep_(1996_-_2003)_(7022922845).jpg",
   "author": "dun_deagh",
   "license": "CC BY-SA 2.0"
+ },
+ "/images/lessons/195/galton-diagramma-1875.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Galton's_correlation_diagram_1875.jpg",
+  "author": "Francis Galton",
+  "license": "Public domain"
+ },
+ "/images/lessons/195/primery-korrelyacii.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Correlation_examples2.svg",
+  "author": "DenisBoigelot, original uploader was Imagecreator",
+  "license": "CC0"
  }
 }
