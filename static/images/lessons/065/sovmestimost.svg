@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" font-family="Arial, Helvetica, sans-serif">
+  <defs><marker id="a" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="#b91c1c"/></marker></defs>
+  <rect width="640" height="520" fill="#ffffff"/>
+  <text x="320" y="32" font-size="21" font-weight="bold" text-anchor="middle" fill="#1f2937">Кому можно переливать эритроциты (система AB0)</text>
+  <g stroke="#b91c1c" stroke-width="4" marker-end="url(#a)">
+    <line x1="290" y1="128" x2="178" y2="228"/>
+    <line x1="350" y1="128" x2="462" y2="228"/>
+    <line x1="320" y1="138" x2="320" y2="378"/>
+    <line x1="178" y1="300" x2="282" y2="390"/>
+    <line x1="462" y1="300" x2="358" y2="390"/>
+  </g>
+  <circle cx="320" cy="95" r="45" fill="#fee2e2" stroke="#b91c1c" stroke-width="3"/>
+  <text x="320" y="103" font-size="22" font-weight="bold" text-anchor="middle" fill="#7f1d1d">I (0)</text>
+  <text x="375" y="80" font-size="15" fill="#374151">«универсальный донор»</text>
+  <circle cx="150" cy="265" r="45" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <text x="150" y="272" font-size="22" font-weight="bold" text-anchor="middle" fill="#1e3a8a">II (A)</text>
+  <circle cx="490" cy="265" r="45" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <text x="490" y="272" font-size="22" font-weight="bold" text-anchor="middle" fill="#14532d">III (B)</text>
+  <circle cx="320" cy="425" r="45" fill="#f3e8ff" stroke="#7c3aed" stroke-width="3"/>
+  <text x="320" y="433" font-size="22" font-weight="bold" text-anchor="middle" fill="#4c1d95">IV (AB)</text>
+  <text x="375" y="455" font-size="15" fill="#374151">«универсальный реципиент»</text>
+  <text x="320" y="496" font-size="14" text-anchor="middle" fill="#374151">Стрелка — от донора к реципиенту. Каждой группе можно и свою группу.</text>
+  <text x="320" y="514" font-size="13" text-anchor="middle" fill="#6b7280">Классическое правило. Сегодня переливают только одногруппную кровь с учётом резус-фактора.</text>
+</svg>

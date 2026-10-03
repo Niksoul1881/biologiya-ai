@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Arial, Helvetica, sans-serif">
+  <rect width="760" height="330" fill="#ffffff"/>
+  <text x="380" y="32" font-size="21" font-weight="bold" text-anchor="middle" fill="#1f2937">Сердечный цикл: 0,8 секунды (при 75 ударах в минуту)</text>
+  <!-- шкала: 0..0.8 s -> x 170..730 (700 px per 1 s) -->
+  <text x="20" y="104" font-size="17" font-weight="bold" fill="#111827">Предсердия</text>
+  <rect x="170" y="80" width="70" height="40" fill="#dc2626"/>
+  <rect x="240" y="80" width="490" height="40" fill="#e5e7eb"/>
+  <text x="205" y="106" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">0,1 с</text>
+  <text x="485" y="106" font-size="15" fill="#374151" text-anchor="middle">отдых (расслабление) — 0,7 с</text>
+  <text x="20" y="174" font-size="17" font-weight="bold" fill="#111827">Желудочки</text>
+  <rect x="170" y="150" width="70" height="40" fill="#e5e7eb"/>
+  <rect x="240" y="150" width="210" height="40" fill="#dc2626"/>
+  <rect x="450" y="150" width="280" height="40" fill="#e5e7eb"/>
+  <text x="345" y="176" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">сокращение — 0,3 с</text>
+  <text x="590" y="176" font-size="15" fill="#374151" text-anchor="middle">отдых — 0,5 с</text>
+  <!-- фазы -->
+  <g font-size="14" text-anchor="middle">
+    <line x1="170" y1="205" x2="170" y2="220" stroke="#374151"/><line x1="240" y1="205" x2="240" y2="220" stroke="#374151"/>
+    <line x1="450" y1="205" x2="450" y2="220" stroke="#374151"/><line x1="730" y1="205" x2="730" y2="220" stroke="#374151"/>
+    <text x="170" y="238" fill="#374151">0</text><text x="240" y="238" fill="#374151">0,1</text><text x="450" y="238" fill="#374151">0,4</text><text x="730" y="238" fill="#374151">0,8 с</text>
+    <text x="185" y="270" font-weight="bold" fill="#991b1b">1. Систола</text><text x="185" y="288" font-weight="bold" fill="#991b1b">предсердий</text>
+    <text x="355" y="270" font-weight="bold" fill="#991b1b">2. Систола желудочков</text><text x="355" y="288" fill="#374151">выброс в артерии</text>
+    <text x="590" y="270" font-weight="bold" fill="#1d4ed8">3. Общая диастола (пауза)</text><text x="590" y="288" fill="#374151">сердце наполняется кровью</text>
+  </g>
+  <rect x="200" y="306" width="16" height="12" fill="#dc2626"/><text x="222" y="317" font-size="13" fill="#374151">сокращение (систола)</text>
+  <rect x="420" y="306" width="16" height="12" fill="#e5e7eb"/><text x="442" y="317" font-size="13" fill="#374151">расслабление (диастола)</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="Arial, Helvetica, sans-serif">
+<rect width="800" height="520" fill="#ffffff"/>
+<text x="400" y="32" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">Группы крови системы AB0</text>
+<text x="12" y="60" font-size="15" fill="#374151" font-weight="bold">Группа</text>
+<text x="12" y="120" font-size="15" fill="#374151" font-weight="bold">Эритроцит:</text>
+<text x="12" y="142" font-size="15" fill="#374151" font-weight="normal">антигены</text>
+<text x="12" y="160" font-size="15" fill="#374151" font-weight="normal">(агглютиногены)</text>
+<text x="12" y="330" font-size="15" fill="#374151" font-weight="bold">Антитела</text>
+<text x="12" y="350" font-size="15" fill="#374151" font-weight="normal">в плазме</text>
+<text x="12" y="368" font-size="15" fill="#374151" font-weight="normal">(агглютинины)</text>
+<text x="12" y="470" font-size="15" fill="#374151" font-weight="bold">Генотип</text>
+<rect x="158" y="44" width="144" height="26" rx="6" fill="#1f2937"/><text x="230" y="63" font-size="17" font-weight="bold" text-anchor="middle" fill="#fff">I (0)</text>
+<ellipse cx="230" cy="175" rx="58" ry="58" fill="#fecaca" stroke="#b91c1c" stroke-width="3"/><ellipse cx="230" cy="175" rx="26" ry="26" fill="#fca5a5"/>
+<text x="230" y="268" font-size="16" font-weight="bold" text-anchor="middle" fill="#111827">антигенов нет</text>
+<g stroke="#b45309" stroke-width="5" stroke-linecap="round" fill="none"><path d="M202 342 L202 320 L190 306"/><path d="M202 320 L214 306"/></g><text x="202" y="362" font-size="16" font-weight="bold" text-anchor="middle" fill="#b45309">α</text>
+<g stroke="#7c3aed" stroke-width="5" stroke-linecap="round" fill="none"><path d="M258 342 L258 320 L246 306"/><path d="M258 320 L270 306"/></g><text x="258" y="362" font-size="16" font-weight="bold" text-anchor="middle" fill="#7c3aed">β</text>
+<text x="230" y="470" font-size="15" text-anchor="middle" fill="#111827">I⁰I⁰ (00)</text>
+<rect x="318" y="44" width="144" height="26" rx="6" fill="#1f2937"/><text x="390" y="63" font-size="17" font-weight="bold" text-anchor="middle" fill="#fff">II (A)</text>
+<ellipse cx="390" cy="175" rx="58" ry="58" fill="#fecaca" stroke="#b91c1c" stroke-width="3"/><ellipse cx="390" cy="175" rx="26" ry="26" fill="#fca5a5"/>
+<polygon points="456.0,166.0 465.0,182.0 447.0,182.0" fill="#2563eb"/>
+<polygon points="436.6690475583121,212.66904755831212 445.6690475583121,228.66904755831212 427.6690475583121,228.66904755831212" fill="#2563eb"/>
+<polygon points="390.0,232.0 399.0,248.0 381.0,248.0" fill="#2563eb"/>
+<polygon points="343.3309524416879,212.66904755831214 352.3309524416879,228.66904755831214 334.3309524416879,228.66904755831214" fill="#2563eb"/>
+<polygon points="324.0,166.0 333.0,182.0 315.0,182.0" fill="#2563eb"/>
+<polygon points="343.3309524416878,119.33095244168788 352.3309524416878,135.33095244168788 334.3309524416878,135.33095244168788" fill="#2563eb"/>
+<polygon points="390.0,100.0 399.0,116.0 381.0,116.0" fill="#2563eb"/>
+<polygon points="436.6690475583121,119.33095244168786 445.6690475583121,135.33095244168786 427.6690475583121,135.33095244168786" fill="#2563eb"/>
+<text x="390" y="268" font-size="16" font-weight="bold" text-anchor="middle" fill="#111827">антиген A</text>
+<g stroke="#7c3aed" stroke-width="5" stroke-linecap="round" fill="none"><path d="M390 342 L390 320 L378 306"/><path d="M390 320 L402 306"/></g><text x="390" y="362" font-size="16" font-weight="bold" text-anchor="middle" fill="#7c3aed">β</text>
+<text x="390" y="470" font-size="15" text-anchor="middle" fill="#111827">IᴬIᴬ или IᴬI⁰</text>
+<rect x="478" y="44" width="144" height="26" rx="6" fill="#1f2937"/><text x="550" y="63" font-size="17" font-weight="bold" text-anchor="middle" fill="#fff">III (B)</text>
+<ellipse cx="550" cy="175" rx="58" ry="58" fill="#fecaca" stroke="#b91c1c" stroke-width="3"/><ellipse cx="550" cy="175" rx="26" ry="26" fill="#fca5a5"/>
+<rect x="608.0" y="167.0" width="16" height="16" fill="#16a34a"/>
+<rect x="588.6690475583122" y="213.66904755831212" width="16" height="16" fill="#16a34a"/>
+<rect x="542.0" y="233.0" width="16" height="16" fill="#16a34a"/>
+<rect x="495.3309524416879" y="213.66904755831214" width="16" height="16" fill="#16a34a"/>
+<rect x="476.0" y="167.0" width="16" height="16" fill="#16a34a"/>
+<rect x="495.3309524416878" y="120.33095244168788" width="16" height="16" fill="#16a34a"/>
+<rect x="542.0" y="101.0" width="16" height="16" fill="#16a34a"/>
+<rect x="588.6690475583122" y="120.33095244168786" width="16" height="16" fill="#16a34a"/>
+<text x="550" y="268" font-size="16" font-weight="bold" text-anchor="middle" fill="#111827">антиген B</text>
+<g stroke="#b45309" stroke-width="5" stroke-linecap="round" fill="none"><path d="M550 342 L550 320 L538 306"/><path d="M550 320 L562 306"/></g><text x="550" y="362" font-size="16" font-weight="bold" text-anchor="middle" fill="#b45309">α</text>
+<text x="550" y="470" font-size="15" text-anchor="middle" fill="#111827">IᴮIᴮ или IᴮI⁰</text>
+<rect x="638" y="44" width="144" height="26" rx="6" fill="#1f2937"/><text x="710" y="63" font-size="17" font-weight="bold" text-anchor="middle" fill="#fff">IV (AB)</text>
+<ellipse cx="710" cy="175" rx="58" ry="58" fill="#fecaca" stroke="#b91c1c" stroke-width="3"/><ellipse cx="710" cy="175" rx="26" ry="26" fill="#fca5a5"/>
+<polygon points="776.0,166.0 785.0,182.0 767.0,182.0" fill="#2563eb"/>
+<rect x="748.6690475583122" y="213.66904755831212" width="16" height="16" fill="#16a34a"/>
+<polygon points="710.0,232.0 719.0,248.0 701.0,248.0" fill="#2563eb"/>
+<rect x="655.3309524416878" y="213.66904755831214" width="16" height="16" fill="#16a34a"/>
+<polygon points="644.0,166.0 653.0,182.0 635.0,182.0" fill="#2563eb"/>
+<rect x="655.3309524416878" y="120.33095244168788" width="16" height="16" fill="#16a34a"/>
+<polygon points="710.0,100.0 719.0,116.0 701.0,116.0" fill="#2563eb"/>
+<rect x="748.6690475583122" y="120.33095244168786" width="16" height="16" fill="#16a34a"/>
+<text x="710" y="268" font-size="16" font-weight="bold" text-anchor="middle" fill="#111827">антигены A и B</text>
+<text x="710" y="345" font-size="16" text-anchor="middle" fill="#6b7280">антител нет</text>
+<text x="710" y="470" font-size="15" text-anchor="middle" fill="#111827">IᴬIᴮ</text>
+<line x1="10" y1="290" x2="790" y2="290" stroke="#e5e7eb" stroke-width="2"/><line x1="10" y1="440" x2="790" y2="440" stroke="#e5e7eb" stroke-width="2"/>
+<polygon points="250,496 259,512 241,512" fill="#2563eb"/><text x="264" y="510" font-size="14" fill="#374151">антиген A</text><rect x="372" y="497" width="16" height="16" fill="#16a34a"/><text x="394" y="510" font-size="14" fill="#374151">антиген B</text><text x="500" y="510" font-size="14" fill="#374151">α — антитела против A, β — против B</text>
+</svg>

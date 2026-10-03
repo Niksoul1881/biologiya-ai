@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 500" font-family="Arial, Helvetica, sans-serif">
+  <rect width="680" height="500" fill="#ffffff"/>
+  <text x="340" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">Антитело (иммуноглобулин) и антиген</text>
+  <!-- антигены -->
+  <polygon points="150,70 178,82 172,112 142,116 130,90" fill="#f59e0b" stroke="#92400e" stroke-width="2"/>
+  <polygon points="530,70 558,84 550,114 520,116 510,88" fill="#f59e0b" stroke="#92400e" stroke-width="2"/>
+  <!-- тяжёлые цепи -->
+  <g stroke-linecap="round" fill="none">
+    <path d="M330 440 L330 270 L215 140" stroke="#2563eb" stroke-width="22"/>
+    <path d="M350 440 L350 270 L465 140" stroke="#2563eb" stroke-width="22"/>
+    <!-- лёгкие цепи -->
+    <path d="M300 255 L185 128" stroke="#16a34a" stroke-width="18"/>
+    <path d="M380 255 L495 128" stroke="#16a34a" stroke-width="18"/>
+  </g>
+  <!-- активные центры -->
+  <circle cx="190" cy="120" r="18" fill="#ef4444" opacity="0.85"/>
+  <circle cx="490" cy="120" r="18" fill="#ef4444" opacity="0.85"/>
+  <!-- подписи -->
+  <text x="12" y="60" font-size="17" font-weight="bold" fill="#92400e">Антиген</text>
+  <text x="12" y="80" font-size="14" fill="#374151">чужая</text>
+  <text x="12" y="98" font-size="14" fill="#374151">молекула</text>
+    <text x="560" y="180" font-size="17" font-weight="bold" fill="#b91c1c" text-anchor="middle">Антигенсвязывающие</text>
+  <text x="560" y="200" font-size="17" font-weight="bold" fill="#b91c1c" text-anchor="middle">участки</text>
+  <text x="560" y="220" font-size="14" fill="#374151" text-anchor="middle">подходят к антигену,</text>
+  <text x="560" y="238" font-size="14" fill="#374151" text-anchor="middle">как ключ к замку</text>
+  <line x1="505" y1="135" x2="530" y2="165" stroke="#374151" stroke-width="1.5"/>
+  <text x="120" y="300" font-size="17" font-weight="bold" fill="#15803d">Лёгкие цепи (2)</text>
+  <line x1="200" y1="290" x2="250" y2="210" stroke="#374151" stroke-width="1.5"/>
+  <text x="420" y="380" font-size="17" font-weight="bold" fill="#1d4ed8">Тяжёлые цепи (2)</text>
+  <line x1="418" y1="375" x2="362" y2="360" stroke="#374151" stroke-width="1.5"/>
+  <text x="340" y="478" font-size="15" text-anchor="middle" fill="#374151">Форма буквы Y: два одинаковых «захвата» — антитело может сцепить два микроба</text>
+</svg>

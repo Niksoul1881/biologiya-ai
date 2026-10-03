@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="260" fill="#ffffff"/>
+  <text x="400" y="30" font-size="21" font-weight="bold" text-anchor="middle" fill="#1f2937">Сколько витамина нужно: золотая середина</text>
+  <rect x="30" y="70" width="170" height="80" fill="#fecaca"/>
+  <rect x="200" y="70" width="150" height="80" fill="#fde68a"/>
+  <rect x="350" y="70" width="230" height="80" fill="#bbf7d0"/>
+  <rect x="580" y="70" width="190" height="80" fill="#fecaca"/>
+  <g font-size="16" font-weight="bold" text-anchor="middle">
+    <text x="115" y="104" fill="#7f1d1d">Авитаминоз</text>
+    <text x="275" y="104" fill="#78350f">Гиповитаминоз</text>
+    <text x="465" y="104" fill="#14532d">Норма</text>
+    <text x="675" y="104" fill="#7f1d1d">Гипервитаминоз</text>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#374151">
+    <text x="115" y="128">витамина почти нет</text>
+    <text x="275" y="128">витамина мало</text>
+    <text x="465" y="128">достаточно</text>
+    <text x="675" y="128">избыток</text>
+    <text x="115" y="184">тяжёлая болезнь:</text><text x="115" y="202">цинга, бери-бери, рахит</text>
+    <text x="275" y="184">усталость, частые</text><text x="275" y="202">простуды, сухость кожи</text>
+    <text x="465" y="184">разнообразное питание</text><text x="465" y="202">обычно даёт всё нужное</text>
+    <text x="675" y="184">отравление; опасно</text><text x="675" y="202">для витаминов A и D</text>
+  </g>
+  <line x1="30" y1="160" x2="770" y2="160" stroke="#374151" stroke-width="2"/>
+  <text x="400" y="240" font-size="14" text-anchor="middle" fill="#6b7280">количество витамина в организме увеличивается слева направо →</text>
+</svg>

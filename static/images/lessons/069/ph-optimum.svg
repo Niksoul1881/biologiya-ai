@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="760" height="420" fill="#ffffff"/>
+  <text x="380" y="30" font-size="21" font-weight="bold" text-anchor="middle" fill="#1f2937">У каждого фермента — своя кислотность (pH)</text>
+  <!-- оси: pH 0..12 -> x 80..700 (51.7 px/ед) ; активность 0..100 -> y 360..80 -->
+  <line x1="80" y1="360" x2="710" y2="360" stroke="#374151" stroke-width="2"/>
+  <line x1="80" y1="360" x2="80" y2="70" stroke="#374151" stroke-width="2"/>
+  <g font-size="13" fill="#374151" text-anchor="middle">
+    <text x="80" y="380">0</text><text x="183" y="380">2</text><text x="287" y="380">4</text><text x="390" y="380">6</text><text x="493" y="380">8</text><text x="597" y="380">10</text><text x="700" y="380">12</text>
+  </g>
+  <text x="395" y="404" font-size="14" text-anchor="middle" fill="#374151">pH среды (меньше 7 — кислая, больше 7 — щелочная)</text>
+  <text x="40" y="215" font-size="14" text-anchor="middle" fill="#374151" transform="rotate(-90 40 215)">активность фермента</text>
+  <!-- пепсин: пик pH 2 -->
+  <path d="M90 350 C120 300 150 95 183 95 C216 95 250 300 290 352" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <text x="183" y="85" font-size="15" font-weight="bold" text-anchor="middle" fill="#b91c1c">пепсин (желудок)</text>
+  <!-- амилаза слюны: пик ~6.8 -->
+  <path d="M300 352 C340 320 380 100 432 100 C484 100 520 320 560 352" fill="none" stroke="#b45309" stroke-width="4"/>
+  <text x="400" y="90" font-size="15" font-weight="bold" text-anchor="middle" fill="#92400e">амилаза слюны</text>
+  <!-- трипсин: пик ~8 -->
+  <path d="M360 352 C410 320 450 130 493 130 C536 130 580 320 630 352" fill="none" stroke="#2563eb" stroke-width="4" stroke-dasharray="10 5"/>
+  <text x="560" y="140" font-size="15" font-weight="bold" fill="#1d4ed8">трипсин (кишка)</text>
+  <rect x="140" y="368" width="90" height="0" fill="none"/>
+  <text x="380" y="58" font-size="13" text-anchor="middle" fill="#6b7280">кривые условные: показан примерный оптимум каждого фермента</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="Arial, Helvetica, sans-serif">
+  <defs><marker id="a" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 z" fill="#374151"/></marker></defs>
+  <rect width="800" height="300" fill="#ffffff"/>
+  <text x="400" y="30" font-size="21" font-weight="bold" text-anchor="middle" fill="#1f2937">Витамин D: от солнца до крепких костей</text>
+  <g font-size="14" text-anchor="middle">
+    <circle cx="70" cy="120" r="36" fill="#fde047"/>
+    <g stroke="#facc15" stroke-width="4"><line x1="70" y1="70" x2="70" y2="58"/><line x1="70" y1="170" x2="70" y2="182"/><line x1="20" y1="120" x2="8" y2="120"/><line x1="120" y1="120" x2="132" y2="120"/></g>
+    <text x="70" y="125" font-weight="bold" fill="#713f12">УФ</text>
+    <text x="70" y="210" fill="#374151">ультрафиолет</text><text x="70" y="228" fill="#374151">солнца</text>
+    <line x1="140" y1="120" x2="178" y2="120" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="182" y="80" width="130" height="80" rx="10" fill="#ffedd5" stroke="#c2410c"/>
+    <text x="247" y="112" font-weight="bold" fill="#7c2d12">Кожа</text><text x="247" y="132" fill="#374151">образует</text><text x="247" y="150" fill="#374151">витамин D</text>
+    <text x="247" y="198" fill="#374151">+ из пищи: рыбий жир,</text><text x="247" y="216" fill="#374151">жирная рыба, яйца</text>
+    <line x1="314" y1="120" x2="352" y2="120" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="356" y="80" width="130" height="80" rx="10" fill="#fef3c7" stroke="#a16207"/>
+    <text x="421" y="112" font-weight="bold" fill="#713f12">Печень и почки</text><text x="421" y="132" fill="#374151">превращают его</text><text x="421" y="150" fill="#374151">в активную форму</text>
+    <line x1="488" y1="120" x2="526" y2="120" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="530" y="80" width="120" height="80" rx="10" fill="#dcfce7" stroke="#15803d"/>
+    <text x="590" y="112" font-weight="bold" fill="#14532d">Кишка</text><text x="590" y="132" fill="#374151">всасывает</text><text x="590" y="150" fill="#374151">кальций</text>
+    <line x1="652" y1="120" x2="690" y2="120" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="694" y="80" width="96" height="80" rx="10" fill="#f1f5f9" stroke="#475569"/>
+    <text x="742" y="112" font-weight="bold" fill="#1e293b">Кости</text><text x="742" y="132" fill="#374151">и зубы</text><text x="742" y="150" fill="#374151">крепкие</text>
+  </g>
+  <text x="400" y="270" font-size="15" text-anchor="middle" fill="#991b1b">Нехватка витамина D у детей → рахит: кости мягкие и искривляются</text>
+</svg>

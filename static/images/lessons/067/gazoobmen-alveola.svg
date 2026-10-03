@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -50 760 560" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="o" markerWidth="4" markerHeight="4" refX="3.2" refY="2" orient="auto"><path d="M0,0 L4,2 L0,4 z" fill="#dc2626"/></marker>
+    <marker id="c" markerWidth="4" markerHeight="4" refX="3.2" refY="2" orient="auto"><path d="M0,0 L4,2 L0,4 z" fill="#2563eb"/></marker>
+  </defs>
+  <rect x="0" y="-50" width="760" height="560" fill="#ffffff"/>
+  <text x="380" y="-16" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">Газообмен в лёгких: альвеола и капилляр</text>
+  <!-- альвеола -->
+  <circle cx="280" cy="220" r="150" fill="#fdf2f8" stroke="#db2777" stroke-width="5"/>
+  <text x="250" y="150" font-size="20" font-weight="bold" text-anchor="middle" fill="#9d174d">Альвеола</text>
+  <text x="250" y="174" font-size="14" text-anchor="middle" fill="#374151">воздух: много O₂, мало CO₂</text>
+  <path d="M200 98 L150 40" stroke="#db2777" stroke-width="30"/>
+  <text x="40" y="30" font-size="13" fill="#374151">из бронхиолы</text>
+  <!-- капилляр -->
+  <path d="M470 440 C450 340 430 300 430 220 C430 140 450 100 470 40" fill="none" stroke="#7f1d1d" stroke-width="44" stroke-linecap="round" opacity="0.18"/>
+  <path d="M470 440 C450 340 430 300 430 220 C430 140 450 100 470 40" fill="none" stroke="url(#g)" stroke-width="36" stroke-linecap="round"/>
+  <linearGradient id="g" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#dc2626"/></linearGradient>
+  <text x="510" y="420" font-size="15" font-weight="bold" fill="#1d4ed8">венозная кровь</text>
+  <text x="510" y="438" font-size="13" fill="#374151">от лёгочной артерии</text>
+  <text x="510" y="60" font-size="15" font-weight="bold" fill="#b91c1c">артериальная кровь</text>
+  <text x="510" y="78" font-size="13" fill="#374151">к лёгочным венам</text>
+  <text x="510" y="232" font-size="15" font-weight="bold" fill="#111827">Капилляр</text>
+  <text x="510" y="252" font-size="13" fill="#374151">кровь течёт снизу вверх</text>
+  <!-- стрелки газов -->
+  <line x1="340" y1="200" x2="412" y2="200" stroke="#dc2626" stroke-width="6" marker-end="url(#o)"/>
+  <text x="300" y="206" font-size="20" font-weight="bold" text-anchor="middle" fill="#dc2626">O₂</text>
+  <line x1="412" y1="270" x2="340" y2="270" stroke="#2563eb" stroke-width="6" marker-end="url(#c)"/>
+  <text x="300" y="276" font-size="20" font-weight="bold" text-anchor="middle" fill="#2563eb">CO₂</text>
+  <text x="250" y="320" font-size="13" text-anchor="middle" fill="#374151">стенки альвеолы и капилляра —</text>
+  <text x="250" y="337" font-size="13" text-anchor="middle" fill="#374151">по одному слою плоских клеток</text>
+  <text x="250" y="354" font-size="13" text-anchor="middle" fill="#374151">(общая толщина меньше 1 мкм)</text>
+  <text x="380" y="495" font-size="13" text-anchor="middle" fill="#6b7280">Газы движутся путём диффузии — туда, где их концентрация ниже</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="Arial, Helvetica, sans-serif">
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker></defs>
+  <rect width="720" height="440" fill="#ffffff"/>
+  <text x="360" y="32" font-size="21" font-weight="bold" text-anchor="middle" fill="#1f2937">Почему работает прививка: первичный и вторичный иммунный ответ</text>
+  <line x1="80" y1="360" x2="690" y2="360" stroke="#374151" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="80" y1="360" x2="80" y2="60" stroke="#374151" stroke-width="2" marker-end="url(#a)"/>
+  <text x="40" y="210" font-size="15" fill="#374151" transform="rotate(-90 40 210)" text-anchor="middle">количество антител в крови</text>
+  <text x="680" y="390" font-size="15" fill="#374151" text-anchor="end">время</text>
+  <!-- первичный -->
+  <path d="M110 358 C150 356 175 345 200 320 C220 300 235 290 255 300 C280 315 300 340 340 350" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <!-- вторичный -->
+  <path d="M410 352 C425 350 435 330 450 250 C462 170 480 110 510 105 C545 102 580 160 620 220 C640 250 660 270 680 280" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <!-- отметки -->
+  <line x1="110" y1="360" x2="110" y2="372" stroke="#374151" stroke-width="2"/>
+  <text x="110" y="392" font-size="14" text-anchor="middle" fill="#1d4ed8">1-я встреча</text>
+  <text x="110" y="410" font-size="14" text-anchor="middle" fill="#1d4ed8">(прививка)</text>
+  <line x1="410" y1="360" x2="410" y2="372" stroke="#374151" stroke-width="2"/>
+  <text x="410" y="392" font-size="14" text-anchor="middle" fill="#b91c1c">2-я встреча</text>
+  <text x="410" y="410" font-size="14" text-anchor="middle" fill="#b91c1c">(настоящий микроб)</text>
+  <text x="235" y="232" font-size="15" font-weight="bold" text-anchor="middle" fill="#1d4ed8">первичный ответ</text>
+  <text x="235" y="252" font-size="13" text-anchor="middle" fill="#374151">медленно и слабо,</text>
+  <text x="235" y="270" font-size="13" text-anchor="middle" fill="#374151">1–2 недели</text>
+  <text x="545" y="85" font-size="15" font-weight="bold" text-anchor="middle" fill="#b91c1c">вторичный ответ</text>
+  <text x="600" y="130" font-size="13" fill="#374151">быстро и сильно —</text>
+  <text x="600" y="147" font-size="13" fill="#374151">работают клетки</text>
+  <text x="600" y="164" font-size="13" fill="#374151">памяти</text>
+  <rect x="345" y="300" width="130" height="26" rx="6" fill="#f3f4f6"/>
+  <text x="410" y="318" font-size="13" text-anchor="middle" fill="#374151">клетки памяти ждут</text>
+  <text x="400" y="430" font-size="12" text-anchor="middle" fill="#6b7280">схема качественная: масштаб по осям условный</text>
+</svg>

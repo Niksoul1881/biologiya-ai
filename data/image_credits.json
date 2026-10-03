@@ -999,6 +999,336 @@
   "author": "Emőke Dénes",
   "license": "CC BY-SA 4.0"
  },
+ "/images/lessons/053/polosti-tela.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Scheme_body_cavities_numbered.svg",
+  "author": "Jmarchn",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/053/sistemy-organov-1.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Organ_Systems_I.jpg",
+  "author": "Connexions",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/053/sistemy-organov-2.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Organ_Systems_II.jpg",
+  "author": "Connexions",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/053/vezaliy-myshcy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_p174.jpg",
+  "author": "автор не указан",
+  "license": "Public domain"
+ },
+ "/images/lessons/054/epiteliy-pochki.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Призматический_эпителий_почки_кролика_(гистологический_срез).jpg",
+  "author": "Nikita Kovtun",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/054/epiteliy-tipy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:403_Epithelial_Tissue.jpg",
+  "author": "OpenStax College",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/054/krov-sem.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
+  "author": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-",
+  "license": "Public domain"
+ },
+ "/images/lessons/054/myshechnye-tkani.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Types_Of_Muscle.jpg",
+  "author": "www.scientificanimations.com",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/054/neyron.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:BruceBlausen_Neuron_RU.png",
+  "author": "BruceBlaus",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/055/dekart-refleks.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Descartes-reflex.JPG",
+  "author": "René Descartes",
+  "license": "Public domain"
+ },
+ "/images/lessons/055/nervnaya-sistema.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:TE-Nervous_system_diagram-ru.svg",
+  "author": "The Emirr",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/055/neyron-shema.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Complete_neuron_cell_diagram_ru.svg",
+  "author": "Mariana Ruiz LadyofHats (original English version)\n\nWassily (Russian translation",
+  "license": "Public domain"
+ },
+ "/images/lessons/056/mozg-broka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Cerveau_de_Louis_Victor_Leborgne_dit_Tantan_1.jpg",
+  "author": "Selbymay",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/056/mozg-otdely.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Brain_diagram_ru.png",
+  "author": "Cherttod",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/056/spinnoy-mozg-foto.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Спинной_мозг.jpg",
+  "author": "AnnaTyurkina",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/057/dekart-glaz.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Descartes;_Optics-_dicourse_on_methods...The_Eye_Wellcome_L0012001.jpg",
+  "author": "автор не указан",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/057/glaz-shema-2.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Schematic_diagram_of_the_human_eye_ru.svg",
+  "author": "WikiCommons",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/057/glaz-shema.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Eye_scheme_ru_(2).svg",
+  "author": "Talos, colorized by Jakov, translated by Chesnok",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/057/palochki-kolbochki.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:1414_Rods_and_Cones_-_ru.svg",
+  "author": "Original:  CFCF Vector:  Kaidor",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/058/labirint.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Ear_labyrinth.jpg",
+  "author": "Welleschik",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/058/obonyanie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Olfactory_system.svg",
+  "author": "Chabacano",
+  "license": "CC BY-SA 2.5"
+ },
+ "/images/lessons/058/uho-shema.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear-Number.svg",
+  "author": "File:Anatomy of the Human Ear.svg: Chittka L, Brockmann / *derivative work Sgbee",
+  "license": "CC BY 2.5"
+ },
+ "/images/lessons/058/ulitka-razrez.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Cochlea-crosssection_-_ru.svg",
+  "author": "Fred the Oyster",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/058/vkusovaya-pochka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Taste_bud_2_-_ru.svg",
+  "author": "Jonas Töle",
+  "license": "CC0"
+ },
+ "/images/lessons/059/gippokamp-konek.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Hippocampus_and_seahorse_cropped.JPG",
+  "author": "Hippocampus_and_seahorse.JPG: Professor Laszlo Seress\nderivative work: Anthonyhc",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/059/gippokamp.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Hippocampus_image.png",
+  "author": "Images are generated by Life Science Databases(LSDB).",
+  "license": "CC BY-SA 2.1 jp"
+ },
+ "/images/lessons/059/pavlov-opyt.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:I.P._Pavlov_showing_an_experiment_on_a_dog_in_the_Wellcome_L0022522.jpg",
+  "author": "автор не указан",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/059/uslovnyy-refleks.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Pavlov's_dog_conditioning.svg",
+  "author": "Maxxl²",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/060/banting-best.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Photograph_of_F.G._Banting_and_C.H._Best_with_a_dog_on_the_roof_of_the_Medical_Building_(12309019434).jpg",
+  "author": "Thomas Fisher Rare Book Library",
+  "license": "CC BY 2.0"
+ },
+ "/images/lessons/060/shchitovidnaya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Illu08_thyroid-ru.jpg",
+  "author": "Illu08_thyroid.jpg: Arcadian",
+  "license": "CC0"
+ },
+ "/images/lessons/060/zhelezy-ru.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Illu_endocrine_system_-ru.png",
+  "author": "US Government",
+  "license": "Public domain"
+ },
+ "/images/lessons/061/cherep-ru.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Human_skull_side_simplified_(bones)_ru.svg",
+  "author": "Human_skull_side_simplified_(bones).svg: LadyofHats Mariana Ruiz Villarreal\nderi",
+  "license": "Public domain"
+ },
+ "/images/lessons/061/kost-razrez.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Bone_cross-section-ru.svg",
+  "author": "Bone_cross-section.svg: Pbroks13\nderivative work: Kvap (talk)",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/061/pozvonochnik.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gray_111_-_Vertebral_column-coloured.png",
+  "author": "Henry Vandyke Carter",
+  "license": "Public domain"
+ },
+ "/images/lessons/061/rentgen-ruka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_Röntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg",
+  "author": "Wilhelm Röntgen",
+  "license": "Public domain"
+ },
+ "/images/lessons/061/skelet-ru.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Human_skeleton_front_ru.svg",
+  "author": "Human_skeleton_front_en.svg: LadyofHats Mariana Ruiz Villarreal\nderivative work:",
+  "license": "Public domain"
+ },
+ "/images/lessons/062/galvani.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Galvani-frogs-legs-electricity.jpg",
+  "author": "Luigi Galvani",
+  "license": "Public domain"
+ },
+ "/images/lessons/062/myshca-stroenie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Blausen_0801_SkeletalMuscle_(ru).svg",
+  "author": "BruceBlaus. When using this image in external sources it can be cited as:\n\nBlaus",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/062/myshcy-tela.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Muscles_anterior_labeled.png",
+  "author": "Mikael Häggström.\nWhen using this image in external works, it may be cited as:\n\n",
+  "license": "Public domain"
+ },
+ "/images/lessons/062/skolzhenie-niti.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:1006_Sliding_Filament_Model_of_Muscle_Contraction.jpg",
+  "author": "OpenStax",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/063/eritrocity-lejkocity-sem.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
+  "author": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-",
+  "license": "Public domain"
+ },
+ "/images/lessons/063/gemoglobin.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:1GZX_Haemoglobin.png",
+  "author": "Zephyris at English Wikipedia",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/063/krov-pod-mikroskopom.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Кровь_человека.jpg",
+  "author": "Лаборатория \"Микрокосмос\"",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/063/lejkocity-vidy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Blausen_0909_WhiteBloodCells.png",
+  "author": "BruceBlaus. When using this image in external sources it can be cited as:\n\nBlaus",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/063/levenguk.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Antoni_van_Leeuwenhoek_(by_Jan_Verkolje,_1686).jpg",
+  "author": "Jan Verkolje (1650—1693)",
+  "license": "Public domain"
+ },
+ "/images/lessons/064/fagocitoz.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Phagocytosis2_ru.svg",
+  "author": "Phagocytosis2_es.svg: *Phagocytosis2.png: Graham Colm Talk.\nOriginal uploader wa",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/064/jenner.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Melingue_Jenner_peint.jpg",
+  "author": "Gaston Mélingue",
+  "license": "Public domain"
+ },
+ "/images/lessons/064/kletki-immuniteta.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Innate_Immune_cells_-_ru.svg",
+  "author": "The National Institute of Allergy and Infectious Diseases (NIAID)",
+  "license": "Public domain"
+ },
+ "/images/lessons/065/landshtejner.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Karl_Landsteiner_nobel.jpg",
+  "author": "Bachrach Studios",
+  "license": "Public domain"
+ },
+ "/images/lessons/065/opredelenie-gruppy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Blood_Types.jpg",
+  "author": "Bondarev.gal",
+  "license": "CC0"
+ },
+ "/images/lessons/066/garvej-veny.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:William_Harvey_(1578-1657)_Venenbild.jpg",
+  "author": "Unknown authorUnknown author",
+  "license": "Public domain"
+ },
+ "/images/lessons/066/serdce-stroenie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Heart_diagram-ru.svg",
+  "author": "Illustr",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/067/dyhatelnaya-sistema.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system_complete_ru.svg",
+  "author": "Respiratory_system_complete_numbered.svg: LadyofHats, Jmarchn\nRussification: Ahn",
+  "license": "Public domain"
+ },
+ "/images/lessons/067/lavuaze.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lavoisier-humanexp2.PNG",
+  "author": "Madame Lavoisier  (20 January 1758 – 10 February 1836)",
+  "license": "Public domain"
+ },
+ "/images/lessons/068/pavlov-opyt.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:I.P._Pavlov_showing_an_experiment_on_a_dog_in_the_Wellcome_L0022522.jpg",
+  "author": "автор не указан",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/068/pishchevaritelnaya-sistema.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Digestive_system_diagram_en.svg",
+  "author": "Mariana Ruiz, Jmarchn",
+  "license": "Public domain"
+ },
+ "/images/lessons/068/zub-razrez.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Cross_sections_of_teeth_ru.svg",
+  "author": "Afanasovich",
+  "license": "Public domain"
+ },
+ "/images/lessons/069/inducirovannoe-sootvetstvie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Inducedfit080(rus).png",
+  "author": "Hottuna080, translation by Arevis95",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/070/kalorimetr.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Ice_calorimeter.jpg",
+  "author": "AntoineLavoisier",
+  "license": "Public domain"
+ },
+ "/images/lessons/070/respiracionnyj-kalorimetr.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Respiration_calorimeter.jpg",
+  "author": "Unknown authorUnknown author",
+  "license": "Public domain"
+ },
+ "/images/lessons/071/funk.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Dr._Casimir_Funk_at_work_in_his_new_research_laboratory_on_W._64th_Street_in_New_York_City.jpg",
+  "author": "The Associated Press",
+  "license": "Public domain"
+ },
+ "/images/lessons/071/lunin.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lunin_Nikolay_Ivanovich.jpg",
+  "author": "Карл Булла",
+  "license": "Public domain"
+ },
+ "/images/lessons/071/salat.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Fruits_and_Vegetables_(20170526-AMS-LSC-0002).jpg",
+  "author": "USDAgov",
+  "license": "Public domain"
+ },
+ "/images/lessons/072/apparat-gemodializa.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:HCCH_hemodialysis_machine.jpg",
+  "author": "Jackhsiao",
+  "license": "Public domain"
+ },
+ "/images/lessons/072/pochka-nefron.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:KidneyAndNephron-v4_Antares42-ru.svg",
+  "author": "Д.Ильин",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/072/pochka-niddk.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Kidney_and_Nephron.jpg",
+  "author": "National Institute of Diabetes and Digestive and Kidney Diseases, National Insti",
+  "license": "CC0"
+ },
  "/images/lessons/087/citoskelet.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:FluorescentCells.jpg",
   "author": "National Institutes of Health (NIH)",
@@ -1182,206 +1512,6 @@
  "/images/lessons/100/statya-mendelya.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Mendel_paper.jpg",
   "author": "Gregor Mendel, 1866",
-  "license": "Public domain"
- },
- "/images/lessons/053/vezaliy-myshcy.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Vesalius_Fabrica_p174.jpg",
-  "author": "автор не указан",
-  "license": "Public domain"
- },
- "/images/lessons/053/sistemy-organov-1.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Organ_Systems_I.jpg",
-  "author": "Connexions",
-  "license": "CC BY 3.0"
- },
- "/images/lessons/053/sistemy-organov-2.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Organ_Systems_II.jpg",
-  "author": "Connexions",
-  "license": "CC BY 3.0"
- },
- "/images/lessons/053/polosti-tela.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Scheme_body_cavities_numbered.svg",
-  "author": "Jmarchn",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/054/epiteliy-tipy.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:403_Epithelial_Tissue.jpg",
-  "author": "OpenStax College",
-  "license": "CC BY 3.0"
- },
- "/images/lessons/054/epiteliy-pochki.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Призматический_эпителий_почки_кролика_(гистологический_срез).jpg",
-  "author": "Nikita Kovtun",
-  "license": "CC BY 4.0"
- },
- "/images/lessons/054/myshechnye-tkani.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Types_Of_Muscle.jpg",
-  "author": "www.scientificanimations.com",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/054/neyron.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:BruceBlausen_Neuron_RU.png",
-  "author": "BruceBlaus",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/054/krov-sem.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Red_White_Blood_cells.jpg",
-  "author": "Electron Microscopy Facility at The National Cancer Institute at Frederick (NCI-",
-  "license": "Public domain"
- },
- "/images/lessons/055/dekart-refleks.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Descartes-reflex.JPG",
-  "author": "René Descartes",
-  "license": "Public domain"
- },
- "/images/lessons/055/nervnaya-sistema.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:TE-Nervous_system_diagram-ru.svg",
-  "author": "The Emirr",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/055/neyron-shema.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Complete_neuron_cell_diagram_ru.svg",
-  "author": "Mariana Ruiz LadyofHats (original English version)\n\nWassily (Russian translation",
-  "license": "Public domain"
- },
- "/images/lessons/056/mozg-broka.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Cerveau_de_Louis_Victor_Leborgne_dit_Tantan_1.jpg",
-  "author": "Selbymay",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/056/mozg-otdely.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Brain_diagram_ru.png",
-  "author": "Cherttod",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/056/spinnoy-mozg-foto.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Спинной_мозг.jpg",
-  "author": "AnnaTyurkina",
-  "license": "CC BY 4.0"
- },
- "/images/lessons/057/glaz-shema.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Eye_scheme_ru_(2).svg",
-  "author": "Talos, colorized by Jakov, translated by Chesnok",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/057/glaz-shema-2.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Schematic_diagram_of_the_human_eye_ru.svg",
-  "author": "WikiCommons",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/057/dekart-glaz.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Descartes;_Optics-_dicourse_on_methods...The_Eye_Wellcome_L0012001.jpg",
-  "author": "автор не указан",
-  "license": "CC BY 4.0"
- },
- "/images/lessons/057/palochki-kolbochki.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:1414_Rods_and_Cones_-_ru.svg",
-  "author": "Original:  CFCF Vector:  Kaidor",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/058/uho-shema.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear-Number.svg",
-  "author": "File:Anatomy of the Human Ear.svg: Chittka L, Brockmann / *derivative work Sgbee",
-  "license": "CC BY 2.5"
- },
- "/images/lessons/058/ulitka-razrez.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Cochlea-crosssection_-_ru.svg",
-  "author": "Fred the Oyster",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/058/vkusovaya-pochka.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Taste_bud_2_-_ru.svg",
-  "author": "Jonas Töle",
-  "license": "CC0"
- },
- "/images/lessons/058/obonyanie.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Olfactory_system.svg",
-  "author": "Chabacano",
-  "license": "CC BY-SA 2.5"
- },
- "/images/lessons/058/labirint.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Ear_labyrinth.jpg",
-  "author": "Welleschik",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/059/pavlov-opyt.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:I.P._Pavlov_showing_an_experiment_on_a_dog_in_the_Wellcome_L0022522.jpg",
-  "author": "автор не указан",
-  "license": "CC BY 4.0"
- },
- "/images/lessons/059/uslovnyy-refleks.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Pavlov's_dog_conditioning.svg",
-  "author": "Maxxl²",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/059/gippokamp.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Hippocampus_image.png",
-  "author": "Images are generated by Life Science Databases(LSDB).",
-  "license": "CC BY-SA 2.1 jp"
- },
- "/images/lessons/059/gippokamp-konek.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Hippocampus_and_seahorse_cropped.JPG",
-  "author": "Hippocampus_and_seahorse.JPG: Professor Laszlo Seress\nderivative work: Anthonyhc",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/060/banting-best.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Photograph_of_F.G._Banting_and_C.H._Best_with_a_dog_on_the_roof_of_the_Medical_Building_(12309019434).jpg",
-  "author": "Thomas Fisher Rare Book Library",
-  "license": "CC BY 2.0"
- },
- "/images/lessons/060/shchitovidnaya.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Illu08_thyroid-ru.jpg",
-  "author": "Illu08_thyroid.jpg: Arcadian",
-  "license": "CC0"
- },
- "/images/lessons/060/zhelezy-ru.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Illu_endocrine_system_-ru.png",
-  "author": "US Government",
-  "license": "Public domain"
- },
- "/images/lessons/061/skelet-ru.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Human_skeleton_front_ru.svg",
-  "author": "Human_skeleton_front_en.svg: LadyofHats Mariana Ruiz Villarreal\nderivative work:",
-  "license": "Public domain"
- },
- "/images/lessons/061/kost-razrez.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Bone_cross-section-ru.svg",
-  "author": "Bone_cross-section.svg: Pbroks13\nderivative work: Kvap (talk)",
-  "license": "CC BY 3.0"
- },
- "/images/lessons/061/cherep-ru.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Human_skull_side_simplified_(bones)_ru.svg",
-  "author": "Human_skull_side_simplified_(bones).svg: LadyofHats Mariana Ruiz Villarreal\nderi",
-  "license": "Public domain"
- },
- "/images/lessons/061/pozvonochnik.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Gray_111_-_Vertebral_column-coloured.png",
-  "author": "Henry Vandyke Carter",
-  "license": "Public domain"
- },
- "/images/lessons/061/rentgen-ruka.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_Röntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg",
-  "author": "Wilhelm Röntgen",
-  "license": "Public domain"
- },
- "/images/lessons/062/galvani.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Galvani-frogs-legs-electricity.jpg",
-  "author": "Luigi Galvani",
-  "license": "Public domain"
- },
- "/images/lessons/062/myshca-stroenie.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Blausen_0801_SkeletalMuscle_(ru).svg",
-  "author": "BruceBlaus. When using this image in external sources it can be cited as:\n\nBlaus",
-  "license": "CC BY 3.0"
- },
- "/images/lessons/062/skolzhenie-niti.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:1006_Sliding_Filament_Model_of_Muscle_Contraction.jpg",
-  "author": "OpenStax",
-  "license": "CC BY 4.0"
- },
- "/images/lessons/062/myshcy-tela.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Muscles_anterior_labeled.png",
-  "author": "Mikael Häggström.\nWhen using this image in external works, it may be cited as:\n\n",
   "license": "Public domain"
  }
 }

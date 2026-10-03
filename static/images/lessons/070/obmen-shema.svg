@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial, Helvetica, sans-serif">
+  <defs><marker id="a" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 z" fill="#374151"/></marker></defs>
+  <rect width="800" height="500" fill="#ffffff"/>
+  <text x="400" y="30" font-size="22" font-weight="bold" text-anchor="middle" fill="#1f2937">Обмен веществ и энергии: общая схема</text>
+  <!-- поступление -->
+  <rect x="20" y="60" width="200" height="120" rx="12" fill="#ecfccb" stroke="#4d7c0f" stroke-width="2"/>
+  <text x="120" y="86" font-size="16" font-weight="bold" text-anchor="middle" fill="#365314">Поступление</text>
+  <text x="120" y="110" font-size="13" text-anchor="middle" fill="#374151">пища: белки, жиры, углеводы,</text>
+  <text x="120" y="128" font-size="13" text-anchor="middle" fill="#374151">вода, соли, витамины</text>
+  <text x="120" y="150" font-size="13" text-anchor="middle" fill="#374151">воздух: кислород</text>
+  <line x1="222" y1="120" x2="268" y2="120" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="272" y="60" width="200" height="120" rx="12" fill="#fef9c3" stroke="#a16207" stroke-width="2"/>
+  <text x="372" y="86" font-size="16" font-weight="bold" text-anchor="middle" fill="#713f12">Пищеварение</text>
+  <text x="372" y="110" font-size="13" text-anchor="middle" fill="#374151">аминокислоты, глюкоза,</text>
+  <text x="372" y="128" font-size="13" text-anchor="middle" fill="#374151">глицерин, жирные кислоты</text>
+  <text x="372" y="150" font-size="13" text-anchor="middle" fill="#374151">→ кровь и лимфа → клетки</text>
+  <line x1="372" y1="182" x2="372" y2="212" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+  <!-- клетка -->
+  <rect x="120" y="216" width="560" height="170" rx="20" fill="#f8fafc" stroke="#475569" stroke-width="2" stroke-dasharray="8 4"/>
+  <text x="400" y="240" font-size="16" font-weight="bold" text-anchor="middle" fill="#334155">В клетках</text>
+  <rect x="140" y="252" width="240" height="120" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="260" y="276" font-size="15" font-weight="bold" text-anchor="middle" fill="#1e3a8a">Пластический обмен</text>
+  <text x="260" y="294" font-size="13" text-anchor="middle" fill="#1e3a8a">(ассимиляция)</text>
+  <text x="260" y="316" font-size="13" text-anchor="middle" fill="#374151">синтез своих белков, жиров,</text>
+  <text x="260" y="334" font-size="13" text-anchor="middle" fill="#374151">гликогена — рост, обновление</text>
+  <text x="260" y="356" font-size="13" font-weight="bold" text-anchor="middle" fill="#b91c1c">энергия ЗАТРАЧИВАЕТСЯ</text>
+  <rect x="420" y="252" width="240" height="120" rx="12" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="540" y="276" font-size="15" font-weight="bold" text-anchor="middle" fill="#7f1d1d">Энергетический обмен</text>
+  <text x="540" y="294" font-size="13" text-anchor="middle" fill="#7f1d1d">(диссимиляция)</text>
+  <text x="540" y="316" font-size="13" text-anchor="middle" fill="#374151">окисление органических</text>
+  <text x="540" y="334" font-size="13" text-anchor="middle" fill="#374151">веществ кислородом</text>
+  <text x="540" y="356" font-size="13" font-weight="bold" text-anchor="middle" fill="#15803d">энергия ВЫДЕЛЯЕТСЯ</text>
+  <path d="M420 292 L382 292" stroke="#15803d" stroke-width="3" marker-end="url(#a)"/>
+  <text x="401" y="284" font-size="12" text-anchor="middle" fill="#15803d">АТФ</text>
+  <path d="M380 332 L418 332" stroke="#1d4ed8" stroke-width="3" marker-end="url(#a)"/>
+  <text x="400" y="324" font-size="10" text-anchor="middle" fill="#1d4ed8">вещества</text>
+  <line x1="540" y1="388" x2="540" y2="418" stroke="#374151" stroke-width="3" marker-end="url(#a)"/>
+  <!-- выделение -->
+  <rect x="300" y="422" width="480" height="66" rx="12" fill="#f3e8ff" stroke="#7e22ce" stroke-width="2"/>
+  <text x="540" y="446" font-size="15" font-weight="bold" text-anchor="middle" fill="#581c87">Конечные продукты обмена</text>
+  <text x="540" y="468" font-size="13" text-anchor="middle" fill="#374151">CO₂ — через лёгкие; вода — почки, кожа, лёгкие;</text>
+  <text x="540" y="484" font-size="13" text-anchor="middle" fill="#374151">мочевина и соли — почки и кожа (пот)</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="Arial, Helvetica, sans-serif">
+<rect width="800" height="440" fill="#ffffff"/>
+<text x="400" y="30" font-size="21" font-weight="bold" text-anchor="middle" fill="#1f2937">Опыт: действие амилазы слюны на крахмал</text>
+<text x="400" y="54" font-size="14" text-anchor="middle" fill="#374151">Через 15–20 минут в каждую пробирку капают раствор йода. Крахмал с йодом даёт синее окрашивание.</text>
+<path d="M65 90 L65 250 Q65 280 90 280 Q115 280 115 250 L115 90" fill="none" stroke="#374151" stroke-width="3"/>
+<path d="M68 150 L112 150 L112 250 Q112 277 90 277 Q68 277 68 250 Z" fill="#1e3a8a" opacity="0.85"/>
+<text x="90" y="80" font-size="16" font-weight="bold" text-anchor="middle" fill="#111827">1</text>
+<text x="90" y="308" font-size="13" text-anchor="middle" fill="#111827">крахмал</text>
+<text x="90" y="326" font-size="13" text-anchor="middle" fill="#111827">+ вода</text>
+<text x="90" y="370" font-size="13" text-anchor="middle" fill="#6b7280">37 °C</text>
+<text x="90" y="394" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e3a8a">синее</text>
+<text x="90" y="414" font-size="12" text-anchor="middle" fill="#374151">крахмал не расщеплён</text>
+<path d="M220 90 L220 250 Q220 280 245 280 Q270 280 270 250 L270 90" fill="none" stroke="#374151" stroke-width="3"/>
+<path d="M223 150 L267 150 L267 250 Q267 277 245 277 Q223 277 223 250 Z" fill="#eab308" opacity="0.85"/>
+<text x="245" y="80" font-size="16" font-weight="bold" text-anchor="middle" fill="#111827">2</text>
+<text x="245" y="308" font-size="13" text-anchor="middle" fill="#111827">крахмал</text>
+<text x="245" y="326" font-size="13" text-anchor="middle" fill="#111827">+ слюна</text>
+<text x="245" y="370" font-size="13" text-anchor="middle" fill="#6b7280">37 °C</text>
+<text x="245" y="394" font-size="14" font-weight="bold" text-anchor="middle" fill="#a16207">цвет йода</text>
+<text x="245" y="414" font-size="12" text-anchor="middle" fill="#374151">крахмал расщеплён</text>
+<path d="M375 90 L375 250 Q375 280 400 280 Q425 280 425 250 L425 90" fill="none" stroke="#374151" stroke-width="3"/>
+<path d="M378 150 L422 150 L422 250 Q422 277 400 277 Q378 277 378 250 Z" fill="#1e3a8a" opacity="0.85"/>
+<text x="400" y="80" font-size="16" font-weight="bold" text-anchor="middle" fill="#111827">3</text>
+<text x="400" y="308" font-size="13" text-anchor="middle" fill="#111827">крахмал</text>
+<text x="400" y="326" font-size="13" text-anchor="middle" fill="#111827">+ слюна</text>
+<text x="400" y="370" font-size="13" text-anchor="middle" fill="#6b7280">0 °C (лёд)</text>
+<text x="400" y="394" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e3a8a">синее</text>
+<text x="400" y="414" font-size="12" text-anchor="middle" fill="#374151">фермент «спит»</text>
+<path d="M530 90 L530 250 Q530 280 555 280 Q580 280 580 250 L580 90" fill="none" stroke="#374151" stroke-width="3"/>
+<path d="M533 150 L577 150 L577 250 Q577 277 555 277 Q533 277 533 250 Z" fill="#1e3a8a" opacity="0.85"/>
+<text x="555" y="80" font-size="16" font-weight="bold" text-anchor="middle" fill="#111827">4</text>
+<text x="555" y="308" font-size="13" text-anchor="middle" fill="#111827">крахмал</text>
+<text x="555" y="326" font-size="13" text-anchor="middle" fill="#111827">+ прокипячённая слюна</text>
+<text x="555" y="370" font-size="13" text-anchor="middle" fill="#6b7280">37 °C</text>
+<text x="555" y="394" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e3a8a">синее</text>
+<text x="555" y="414" font-size="12" text-anchor="middle" fill="#374151">фермент разрушен</text>
+<path d="M685 90 L685 250 Q685 280 710 280 Q735 280 735 250 L735 90" fill="none" stroke="#374151" stroke-width="3"/>
+<path d="M688 150 L732 150 L732 250 Q732 277 710 277 Q688 277 688 250 Z" fill="#1e3a8a" opacity="0.85"/>
+<text x="710" y="80" font-size="16" font-weight="bold" text-anchor="middle" fill="#111827">5</text>
+<text x="710" y="308" font-size="13" text-anchor="middle" fill="#111827">крахмал</text>
+<text x="710" y="326" font-size="13" text-anchor="middle" fill="#111827">+ слюна</text>
+<text x="710" y="344" font-size="13" text-anchor="middle" fill="#111827">+ кислота</text>
+<text x="710" y="370" font-size="13" text-anchor="middle" fill="#6b7280">37 °C</text>
+<text x="710" y="394" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e3a8a">синее</text>
+<text x="710" y="414" font-size="12" text-anchor="middle" fill="#374151">кислая среда мешает</text>
+</svg>

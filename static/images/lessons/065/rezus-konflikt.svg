@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="780" height="420" fill="#ffffff"/>
+  <text x="390" y="32" font-size="21" font-weight="bold" text-anchor="middle" fill="#1f2937">Резус-конфликт: мать Rh⁻, ребёнок Rh⁺</text>
+  <!-- панели -->
+  <g font-size="15" fill="#374151" text-anchor="middle">
+    <rect x="20" y="56" width="235" height="250" rx="12" fill="#f9fafb" stroke="#d1d5db"/>
+    <rect x="272" y="56" width="235" height="250" rx="12" fill="#f9fafb" stroke="#d1d5db"/>
+    <rect x="524" y="56" width="235" height="250" rx="12" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="137" y="82" font-weight="bold" fill="#111827">1. Первая беременность</text>
+    <text x="389" y="82" font-weight="bold" fill="#111827">2. После родов</text>
+    <text x="641" y="82" font-weight="bold" fill="#111827">3. Вторая беременность</text>
+  </g>
+  <!-- панель 1 -->
+  <ellipse cx="137" cy="190" rx="80" ry="90" fill="#fde2e4" stroke="#be185d" stroke-width="2"/>
+  <circle cx="137" cy="200" r="38" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+  <text x="137" y="206" font-size="16" font-weight="bold" text-anchor="middle" fill="#c2410c">Rh⁺</text>
+  <text x="137" y="130" font-size="15" font-weight="bold" text-anchor="middle" fill="#be185d">мать Rh⁻</text>
+  <circle cx="95" cy="250" r="6" fill="#dc2626"/><circle cx="80" cy="232" r="6" fill="#dc2626"/><circle cx="105" cy="268" r="6" fill="#dc2626"/>
+  <!-- панель 2 -->
+  <ellipse cx="389" cy="190" rx="80" ry="90" fill="#fde2e4" stroke="#be185d" stroke-width="2"/>
+  <text x="389" y="130" font-size="15" font-weight="bold" text-anchor="middle" fill="#be185d">мать Rh⁻</text>
+  <g stroke="#7c3aed" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M360 230 L360 212 L350 200 M360 212 L370 200"/><path d="M395 200 L395 182 L385 170 M395 182 L405 170"/>
+    <path d="M420 240 L420 222 L410 210 M420 222 L430 210"/><path d="M375 260 L375 242 L365 230 M375 242 L385 230"/>
+  </g>
+  <!-- панель 3 -->
+  <ellipse cx="641" cy="190" rx="80" ry="90" fill="#fde2e4" stroke="#be185d" stroke-width="2"/>
+  <circle cx="641" cy="200" r="38" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+  <text x="641" y="206" font-size="16" font-weight="bold" text-anchor="middle" fill="#c2410c">Rh⁺</text>
+  <text x="641" y="130" font-size="15" font-weight="bold" text-anchor="middle" fill="#be185d">мать Rh⁻</text>
+  <g stroke="#7c3aed" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M590 250 L605 238 L605 224 M605 238 L619 240"/><path d="M690 250 L675 238 L675 224 M675 238 L661 240"/>
+    <path d="M641 270 L641 252 L631 242 M641 252 L651 242"/>
+  </g>
+  <!-- подписи -->
+  <g font-size="14" fill="#374151">
+    <text x="30" y="330">Эритроциты плода с белком</text><text x="30" y="348">резус попадают в кровь матери</text><text x="30" y="366">(чаще всего при родах).</text>
+    <text x="282" y="330">Иммунитет матери вырабатывает</text><text x="282" y="348">антитела против резус-белка</text><text x="282" y="366">и клетки памяти.</text>
+    <text x="534" y="330">Антитела проходят через</text><text x="534" y="348">плаценту и разрушают эритроциты</text><text x="534" y="366">плода Rh⁺ — развивается</text><text x="534" y="384">гемолитическая болезнь.</text>
+  </g>
+  <circle cx="40" cy="408" r="6" fill="#dc2626"/><text x="52" y="413" font-size="13" fill="#374151">эритроциты плода Rh⁺</text>
+  <path d="M220 415 L220 403 L212 396 M220 403 L228 396" stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round"/><text x="236" y="413" font-size="13" fill="#374151">антирезусные антитела матери</text>
+</svg>
