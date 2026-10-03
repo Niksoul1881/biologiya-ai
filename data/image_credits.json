@@ -2363,5 +2363,55 @@
   "source": "https://commons.wikimedia.org/wiki/File:AAMarkov.jpg",
   "author": "Unknown authorUnknown author",
   "license": "Public domain"
+ },
+ "/images/lessons/179/antitelo.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Antibody-ru.svg",
+  "author": "Д.Ильин: translation",
+  "license": "CC0"
+ },
+ "/images/lessons/179/klonalnaya-selekciya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Clonal_selection.svg",
+  "author": "Ilmari Karonen",
+  "license": "CC BY 2.5"
+ },
+ "/images/lessons/179/neytrofil-sibirskaya-yazva.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Neutrophil_with_anthrax_copy.jpg",
+  "author": "Volker Brinkmann",
+  "license": "CC BY 2.5"
+ },
+ "/images/lessons/179/mechnikov.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Elie_Metchnikoff._Photogravure_after_Nicola_Perscheid,_1907._Wellcome_M0004821.jpg",
+  "author": "Nicola Perscheid",
+  "license": "Public domain"
+ },
+ "/images/lessons/179/vdj-rekombinaciya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:VDJ_recombination-ru.svg",
+  "author": "Д.Ильин: vectorization, translation",
+  "license": "CC0"
+ },
+ "/images/lessons/179/mhc1-prezentaciya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:MHC_Class_I_processing.svg",
+  "author": "Scray",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/180/antenna-st5.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:St_5-xband-antenna.jpg",
+  "author": "автор не указан",
+  "license": "Public domain"
+ },
+ "/images/lessons/180/vyurki-darvina.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Darwin's_finches_by_Gould.jpg",
+  "author": "John Gould (14.Sep.1804 - 3.Feb.1881)",
+  "license": "Public domain"
+ },
+ "/images/lessons/180/kolby-lenski.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lenski's_12_long-term_lines_of_E._coli_on_25_June_2008.jpg",
+  "author": "Brian Baer and Neerja Hajela",
+  "license": "CC BY-SA 1.0"
+ },
+ "/images/lessons/180/berezovaya-pyadenica.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lichte_en_zwarte_versie_berkenspanner.jpg",
+  "author": "Martinowksy at Dutch Wikipedia\n\n(Original text: Maarten Sanne)",
+  "license": "CC BY-SA 3.0"
  }
 }
