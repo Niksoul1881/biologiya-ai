@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="960" height="440" font-family="Arial, Helvetica, sans-serif">
+<rect width="960" height="440" fill="#fff"/>
+<text x="480" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Гидрофобный эффект: почему белок сворачивается в глобулу</text>
+<rect x="20" y="56" width="920" height="300" rx="14" fill="#eef7fc" stroke="#cfe3ef" stroke-width="2"/>
+<text x="40" y="82" font-size="14" fill="#4a7a99">вода</text>
+<polyline points="60.0,210.0 75.5,246.6 91.0,272.4 106.5,279.8 122.0,266.6 137.5,236.7 153.0,199.0 168.5,164.5 184.0,143.4 199.5,142.0 215.0,160.6 230.5,193.8 246.0,231.8 261.5,263.4 277.0,279.2 292.5,274.6 308.0,250.9 323.5,215.2 339.0,178.0 354.5,150.2 370.0,140.0 385.5,150.5 401.0,178.5 416.5,215.8" fill="none" stroke="#777" stroke-width="3"/>
+<circle cx="60.0" cy="210.0" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="75.5" cy="246.6" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="91.0" cy="272.4" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="106.5" cy="279.8" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="122.0" cy="266.6" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="137.5" cy="236.7" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="153.0" cy="199.0" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="168.5" cy="164.5" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="184.0" cy="143.4" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="199.5" cy="142.0" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="215.0" cy="160.6" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="230.5" cy="193.8" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="246.0" cy="231.8" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="261.5" cy="263.4" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="277.0" cy="279.2" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="292.5" cy="274.6" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="308.0" cy="250.9" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="323.5" cy="215.2" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="339.0" cy="178.0" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="354.5" cy="150.2" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="370.0" cy="140.0" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="385.5" cy="150.5" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="401.0" cy="178.5" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="416.5" cy="215.8" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<text x="240" y="330" font-size="15" text-anchor="middle" fill="#333">развёрнутая цепь: гидрофобные</text>
+<text x="240" y="348" font-size="15" text-anchor="middle" fill="#333">остатки «торчат» в воду</text>
+<line x1="455" y1="205" x2="525" y2="205" stroke="#555" stroke-width="4"/>
+<polygon points="525,193 545,205 525,217" fill="#555"/>
+<text x="500" y="182" font-size="15" font-weight="bold" text-anchor="middle" fill="#555">укладка</text>
+<text x="500" y="240" font-size="12" text-anchor="middle" fill="#555">микросекунды —</text>
+<text x="500" y="255" font-size="12" text-anchor="middle" fill="#555">секунды</text>
+<circle cx="740" cy="205" r="100" fill="#fff" fill-opacity="0.55" stroke="#1d4f86" stroke-dasharray="6 5" stroke-width="2"/>
+<circle cx="740" cy="205" r="64" fill="#fdf0e0" stroke="#c0661a" stroke-dasharray="4 4" stroke-width="1.5"/>
+<circle cx="740.0" cy="205.0" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="766.0" cy="205.0" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="753.0" cy="227.5" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="727.0" cy="227.5" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="714.0" cy="205.0" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="727.0" cy="182.5" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="753.0" cy="182.5" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="783.9" cy="229.0" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="741.2" cy="255.0" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="697.3" cy="231.0" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="696.1" cy="181.0" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="738.8" cy="155.0" r="11" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<circle cx="824.0" cy="205.0" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="812.7" cy="247.0" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="782.0" cy="277.7" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="740.0" cy="289.0" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="698.0" cy="277.7" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="667.3" cy="247.0" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="656.0" cy="205.0" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="667.3" cy="163.0" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="698.0" cy="132.3" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="740.0" cy="121.0" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="782.0" cy="132.3" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<circle cx="812.7" cy="163.0" r="11" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<text x="740" y="330" font-size="15" text-anchor="middle" fill="#333">глобула: гидрофобное ядро внутри,</text>
+<text x="740" y="348" font-size="15" text-anchor="middle" fill="#333">полярные остатки снаружи, в контакте с водой</text>
+<circle cx="60" cy="392" r="10" fill="#f6c48f" stroke="#c0661a" stroke-width="2"/>
+<text x="78" y="397" font-size="14" fill="#333">гидрофобный остаток (Leu, Ile, Val, Phe…)</text>
+<circle cx="430" cy="392" r="10" fill="#bcd8f0" stroke="#1d4f86" stroke-width="2"/>
+<text x="448" y="397" font-size="14" fill="#333">полярный или заряженный остаток (Ser, Lys, Glu…)</text>
+<text x="480" y="426" font-size="13" text-anchor="middle" fill="#555">Схема упрощена: связи цепи в глобуле не показаны, реальная глобула трёхмерная.</text>
+</svg>

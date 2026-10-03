@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" width="1000" height="580" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="580" fill="#fff"/>
+<text x="500" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">20 аминокислот: группы по свойствам боковой цепи</text>
+<text x="20" y="94" font-size="17" font-weight="bold" fill="#c0661a">Гидрофобные</text>
+<text x="20" y="116" font-size="13" fill="#555">прячутся внутрь глобулы</text>
+<rect x="196" y="60" width="106" height="76" rx="10" fill="#fdf0e0" stroke="#c0661a" stroke-width="2"/>
+<text x="226" y="102" font-size="30" font-weight="bold" text-anchor="middle" fill="#c0661a">A</text>
+<text x="272" y="100" font-size="16" text-anchor="middle" fill="#333">Ala</text>
+<text x="249.0" y="124" font-size="12" text-anchor="middle" fill="#333">аланин</text>
+<rect x="310" y="60" width="106" height="76" rx="10" fill="#fdf0e0" stroke="#c0661a" stroke-width="2"/>
+<text x="340" y="102" font-size="30" font-weight="bold" text-anchor="middle" fill="#c0661a">V</text>
+<text x="386" y="100" font-size="16" text-anchor="middle" fill="#333">Val</text>
+<text x="363.0" y="124" font-size="12" text-anchor="middle" fill="#333">валин</text>
+<rect x="424" y="60" width="106" height="76" rx="10" fill="#fdf0e0" stroke="#c0661a" stroke-width="2"/>
+<text x="454" y="102" font-size="30" font-weight="bold" text-anchor="middle" fill="#c0661a">L</text>
+<text x="500" y="100" font-size="16" text-anchor="middle" fill="#333">Leu</text>
+<text x="477.0" y="124" font-size="12" text-anchor="middle" fill="#333">лейцин</text>
+<rect x="538" y="60" width="106" height="76" rx="10" fill="#fdf0e0" stroke="#c0661a" stroke-width="2"/>
+<text x="568" y="102" font-size="30" font-weight="bold" text-anchor="middle" fill="#c0661a">I</text>
+<text x="614" y="100" font-size="16" text-anchor="middle" fill="#333">Ile</text>
+<text x="591.0" y="124" font-size="12" text-anchor="middle" fill="#333">изолейцин</text>
+<rect x="652" y="60" width="106" height="76" rx="10" fill="#fdf0e0" stroke="#c0661a" stroke-width="2"/>
+<text x="682" y="102" font-size="30" font-weight="bold" text-anchor="middle" fill="#c0661a">M</text>
+<text x="728" y="100" font-size="16" text-anchor="middle" fill="#333">Met</text>
+<text x="705.0" y="124" font-size="12" text-anchor="middle" fill="#333">метионин</text>
+<rect x="766" y="60" width="106" height="76" rx="10" fill="#fdf0e0" stroke="#c0661a" stroke-width="2"/>
+<text x="796" y="102" font-size="30" font-weight="bold" text-anchor="middle" fill="#c0661a">F</text>
+<text x="842" y="100" font-size="16" text-anchor="middle" fill="#333">Phe</text>
+<text x="819.0" y="124" font-size="12" text-anchor="middle" fill="#333">фенилаланин</text>
+<rect x="880" y="60" width="106" height="76" rx="10" fill="#fdf0e0" stroke="#c0661a" stroke-width="2"/>
+<text x="910" y="102" font-size="30" font-weight="bold" text-anchor="middle" fill="#c0661a">W</text>
+<text x="956" y="100" font-size="16" text-anchor="middle" fill="#333">Trp</text>
+<text x="933.0" y="124" font-size="12" text-anchor="middle" fill="#333">триптофан</text>
+<text x="20" y="186" font-size="17" font-weight="bold" fill="#1d4f86">Полярные</text>
+<text x="20" y="208" font-size="13" fill="#555">без заряда, любят воду</text>
+<rect x="196" y="152" width="106" height="76" rx="10" fill="#e9f3fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="226" y="194" font-size="30" font-weight="bold" text-anchor="middle" fill="#1d4f86">S</text>
+<text x="272" y="192" font-size="16" text-anchor="middle" fill="#333">Ser</text>
+<text x="249.0" y="216" font-size="12" text-anchor="middle" fill="#333">серин</text>
+<rect x="310" y="152" width="106" height="76" rx="10" fill="#e9f3fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="340" y="194" font-size="30" font-weight="bold" text-anchor="middle" fill="#1d4f86">T</text>
+<text x="386" y="192" font-size="16" text-anchor="middle" fill="#333">Thr</text>
+<text x="363.0" y="216" font-size="12" text-anchor="middle" fill="#333">треонин</text>
+<rect x="424" y="152" width="106" height="76" rx="10" fill="#e9f3fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="454" y="194" font-size="30" font-weight="bold" text-anchor="middle" fill="#1d4f86">N</text>
+<text x="500" y="192" font-size="16" text-anchor="middle" fill="#333">Asn</text>
+<text x="477.0" y="216" font-size="12" text-anchor="middle" fill="#333">аспарагин</text>
+<rect x="538" y="152" width="106" height="76" rx="10" fill="#e9f3fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="568" y="194" font-size="30" font-weight="bold" text-anchor="middle" fill="#1d4f86">Q</text>
+<text x="614" y="192" font-size="16" text-anchor="middle" fill="#333">Gln</text>
+<text x="591.0" y="216" font-size="12" text-anchor="middle" fill="#333">глутамин</text>
+<rect x="652" y="152" width="106" height="76" rx="10" fill="#e9f3fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="682" y="194" font-size="30" font-weight="bold" text-anchor="middle" fill="#1d4f86">Y</text>
+<text x="728" y="192" font-size="16" text-anchor="middle" fill="#333">Tyr</text>
+<text x="705.0" y="216" font-size="12" text-anchor="middle" fill="#333">тирозин</text>
+<text x="20" y="278" font-size="17" font-weight="bold" fill="#4b3fa0">Заряжены «+»</text>
+<text x="20" y="300" font-size="13" fill="#555">основные</text>
+<rect x="196" y="244" width="106" height="76" rx="10" fill="#eef0fd" stroke="#4b3fa0" stroke-width="2"/>
+<text x="226" y="286" font-size="30" font-weight="bold" text-anchor="middle" fill="#4b3fa0">K</text>
+<text x="272" y="284" font-size="16" text-anchor="middle" fill="#333">Lys</text>
+<text x="249.0" y="308" font-size="12" text-anchor="middle" fill="#333">лизин</text>
+<rect x="310" y="244" width="106" height="76" rx="10" fill="#eef0fd" stroke="#4b3fa0" stroke-width="2"/>
+<text x="340" y="286" font-size="30" font-weight="bold" text-anchor="middle" fill="#4b3fa0">R</text>
+<text x="386" y="284" font-size="16" text-anchor="middle" fill="#333">Arg</text>
+<text x="363.0" y="308" font-size="12" text-anchor="middle" fill="#333">аргинин</text>
+<rect x="424" y="244" width="106" height="76" rx="10" fill="#eef0fd" stroke="#4b3fa0" stroke-width="2"/>
+<text x="454" y="286" font-size="30" font-weight="bold" text-anchor="middle" fill="#4b3fa0">H</text>
+<text x="500" y="284" font-size="16" text-anchor="middle" fill="#333">His</text>
+<text x="477.0" y="308" font-size="12" text-anchor="middle" fill="#333">гистидин*</text>
+<text x="20" y="370" font-size="17" font-weight="bold" fill="#a02020">Заряжены «−»</text>
+<text x="20" y="392" font-size="13" fill="#555">кислые</text>
+<rect x="196" y="336" width="106" height="76" rx="10" fill="#fde9e9" stroke="#a02020" stroke-width="2"/>
+<text x="226" y="378" font-size="30" font-weight="bold" text-anchor="middle" fill="#a02020">D</text>
+<text x="272" y="376" font-size="16" text-anchor="middle" fill="#333">Asp</text>
+<text x="249.0" y="400" font-size="12" text-anchor="middle" fill="#333">аспарагиновая</text>
+<rect x="310" y="336" width="106" height="76" rx="10" fill="#fde9e9" stroke="#a02020" stroke-width="2"/>
+<text x="340" y="378" font-size="30" font-weight="bold" text-anchor="middle" fill="#a02020">E</text>
+<text x="386" y="376" font-size="16" text-anchor="middle" fill="#333">Glu</text>
+<text x="363.0" y="400" font-size="12" text-anchor="middle" fill="#333">глутаминовая</text>
+<text x="20" y="462" font-size="17" font-weight="bold" fill="#1b7a3a">Особые</text>
+<text x="20" y="484" font-size="13" fill="#555">геометрия и мостики</text>
+<rect x="196" y="428" width="106" height="76" rx="10" fill="#e6f4e3" stroke="#1b7a3a" stroke-width="2"/>
+<text x="226" y="470" font-size="30" font-weight="bold" text-anchor="middle" fill="#1b7a3a">G</text>
+<text x="272" y="468" font-size="16" text-anchor="middle" fill="#333">Gly</text>
+<text x="249.0" y="492" font-size="12" text-anchor="middle" fill="#333">глицин</text>
+<rect x="310" y="428" width="106" height="76" rx="10" fill="#e6f4e3" stroke="#1b7a3a" stroke-width="2"/>
+<text x="340" y="470" font-size="30" font-weight="bold" text-anchor="middle" fill="#1b7a3a">P</text>
+<text x="386" y="468" font-size="16" text-anchor="middle" fill="#333">Pro</text>
+<text x="363.0" y="492" font-size="12" text-anchor="middle" fill="#333">пролин</text>
+<rect x="424" y="428" width="106" height="76" rx="10" fill="#e6f4e3" stroke="#1b7a3a" stroke-width="2"/>
+<text x="454" y="470" font-size="30" font-weight="bold" text-anchor="middle" fill="#1b7a3a">C</text>
+<text x="500" y="468" font-size="16" text-anchor="middle" fill="#333">Cys</text>
+<text x="477.0" y="492" font-size="12" text-anchor="middle" fill="#333">цистеин</text>
+<text x="20" y="538" font-size="13" fill="#555">* Гистидин при pH 7 заряжен лишь частично — поэтому он так часто работает в активных центрах ферментов.</text>
+<text x="20" y="560" font-size="13" fill="#555">Границы условны: тирозин и триптофан наполовину гидрофобны, глицин иногда относят к гидрофобным, цистеин — к полярным.</text>
+</svg>

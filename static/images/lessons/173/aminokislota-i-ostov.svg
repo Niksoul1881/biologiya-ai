@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="960" height="560" fill="#fff"/>
+  <text x="480" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Аминокислота, пептидная связь и остов белка</text>
+
+  <!-- Панель А: общая формула -->
+  <rect x="20" y="56" width="330" height="244" rx="12" fill="#f7faf7" stroke="#cfe0cf" stroke-width="2"/>
+  <text x="185" y="82" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">1. Общая формула аминокислоты</text>
+  <line x1="185" y1="152" x2="185" y2="124" stroke="#333" stroke-width="2.5"/>
+  <text x="185" y="118" font-size="20" text-anchor="middle" fill="#333">H</text>
+  <line x1="120" y1="168" x2="165" y2="168" stroke="#333" stroke-width="2.5"/>
+  <line x1="207" y1="168" x2="245" y2="168" stroke="#333" stroke-width="2.5"/>
+  <line x1="185" y1="178" x2="185" y2="206" stroke="#333" stroke-width="2.5"/>
+  <text x="186" y="176" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">C<tspan font-size="15" dy="5">α</tspan></text>
+  <text x="96" y="176" font-size="22" font-weight="bold" text-anchor="middle" fill="#1d4f86">H<tspan font-size="14" dy="5">2</tspan><tspan dy="-5">N</tspan></text>
+  <text x="285" y="176" font-size="22" font-weight="bold" text-anchor="middle" fill="#a02020">COOH</text>
+  <circle cx="185" cy="226" r="20" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2.5"/>
+  <text x="185" y="233" font-size="20" font-weight="bold" text-anchor="middle" fill="#1b7a3a">R</text>
+  <text x="96" y="204" font-size="13" text-anchor="middle" fill="#1d4f86">аминогруппа</text>
+  <text x="285" y="204" font-size="13" text-anchor="middle" fill="#a02020">карбоксильная</text>
+  <text x="285" y="220" font-size="13" text-anchor="middle" fill="#a02020">группа</text>
+  <text x="185" y="268" font-size="13" text-anchor="middle" fill="#1b7a3a">боковая цепь (радикал R):</text>
+  <text x="185" y="285" font-size="13" text-anchor="middle" fill="#1b7a3a">у каждой из 20 аминокислот своя</text>
+
+  <!-- Панель Б: пептидная связь -->
+  <rect x="370" y="56" width="570" height="244" rx="12" fill="#f7f9fc" stroke="#cfd9e6" stroke-width="2"/>
+  <text x="655" y="82" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">2. Конденсация: две аминокислоты → дипептид + вода</text>
+  <g font-size="19" font-weight="bold" text-anchor="middle">
+    <text x="510" y="132" fill="#333">H<tspan font-size="13" dy="4">2</tspan><tspan dy="-4">N–CH(R</tspan><tspan font-size="13" dy="4">1</tspan><tspan dy="-4">)–CO</tspan><tspan fill="#d9822b">OH</tspan></text>
+    <text x="655" y="132" fill="#333">+</text>
+    <text x="800" y="132" fill="#333"><tspan fill="#d9822b">H</tspan>HN–CH(R<tspan font-size="13" dy="4">2</tspan><tspan dy="-4">)–COOH</tspan></text>
+  </g>
+  <line x1="655" y1="148" x2="655" y2="186" stroke="#555" stroke-width="2.5"/>
+  <polygon points="647,182 663,182 655,196" fill="#555"/>
+  <text x="672" y="176" font-size="14" fill="#d9822b">уходит H<tspan font-size="10" dy="3">2</tspan><tspan dy="-3">O</tspan></text>
+  <rect x="571" y="210" width="90" height="36" rx="8" fill="#fde8e8" stroke="#a02020" stroke-width="2.5"/>
+  <g font-size="19" font-weight="bold">
+    <text x="567" y="235" text-anchor="end" fill="#333">H<tspan font-size="13" dy="4">2</tspan><tspan dy="-4">N–CH(R</tspan><tspan font-size="13" dy="4">1</tspan><tspan dy="-4">)–</tspan></text>
+    <text x="616" y="235" text-anchor="middle" fill="#a02020">CO–NH</text>
+    <text x="665" y="235" text-anchor="start" fill="#333">–CH(R<tspan font-size="13" dy="4">2</tspan><tspan dy="-4">)–COOH</tspan></text>
+    <text x="868" y="235" text-anchor="middle" fill="#d9822b">+ H<tspan font-size="13" dy="4">2</tspan><tspan dy="-4">O</tspan></text>
+  </g>
+  <text x="616" y="272" font-size="14" font-weight="bold" text-anchor="middle" fill="#a02020">пептидная связь</text>
+  <text x="616" y="290" font-size="13" text-anchor="middle" fill="#555">жёсткая и плоская: вокруг неё цепь почти не вращается</text>
+
+  <!-- Панель В: остов -->
+  <rect x="20" y="318" width="920" height="226" rx="12" fill="#fafafa" stroke="#ddd" stroke-width="2"/>
+  <text x="480" y="344" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">3. Полипептид: одинаковый остов и разные боковые цепи</text>
+  <g stroke="#333" stroke-width="2.5">
+    <line x1="128" y1="440" x2="150" y2="440"/>
+    <line x1="182" y1="440" x2="215" y2="440"/>
+    <line x1="312" y1="440" x2="345" y2="440"/>
+    <line x1="377" y1="440" x2="410" y2="440"/>
+    <line x1="507" y1="440" x2="540" y2="440"/>
+    <line x1="572" y1="440" x2="605" y2="440"/>
+    <line x1="702" y1="440" x2="735" y2="440"/>
+    <line x1="767" y1="440" x2="790" y2="440"/>
+  </g>
+  <g stroke="#a02020" stroke-width="5">
+    <line x1="245" y1="440" x2="280" y2="440"/>
+    <line x1="440" y1="440" x2="475" y2="440"/>
+    <line x1="635" y1="440" x2="670" y2="440"/>
+  </g>
+  <g stroke="#333" stroke-width="2.5">
+    <line x1="227" y1="452" x2="227" y2="482"/><line x1="233" y1="452" x2="233" y2="482"/>
+    <line x1="422" y1="452" x2="422" y2="482"/><line x1="428" y1="452" x2="428" y2="482"/>
+    <line x1="617" y1="452" x2="617" y2="482"/><line x1="623" y1="452" x2="623" y2="482"/>
+  </g>
+  <g stroke="#1b7a3a" stroke-width="2.5">
+    <line x1="166" y1="428" x2="166" y2="404"/>
+    <line x1="361" y1="452" x2="361" y2="478"/>
+    <line x1="556" y1="428" x2="556" y2="404"/>
+    <line x1="751" y1="452" x2="751" y2="478"/>
+  </g>
+  <g fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2.5">
+    <circle cx="166" cy="386" r="19"/><circle cx="361" cy="496" r="19"/><circle cx="556" cy="386" r="19"/><circle cx="751" cy="496" r="19"/>
+  </g>
+  <g font-size="17" font-weight="bold" text-anchor="middle" fill="#1b7a3a">
+    <text x="166" y="392">R<tspan font-size="12" dy="4">1</tspan></text>
+    <text x="361" y="502">R<tspan font-size="12" dy="4">2</tspan></text>
+    <text x="556" y="392">R<tspan font-size="12" dy="4">3</tspan></text>
+    <text x="751" y="502">R<tspan font-size="12" dy="4">4</tspan></text>
+  </g>
+  <g font-size="20" font-weight="bold" text-anchor="middle" fill="#333">
+    <text x="100" y="447" fill="#1d4f86">H<tspan font-size="13" dy="4">2</tspan><tspan dy="-4">N</tspan></text>
+    <text x="166" y="447">C<tspan font-size="13" dy="4">α</tspan></text>
+    <text x="230" y="447">C</text>
+    <text x="230" y="502">O</text>
+    <text x="296" y="447">N</text><text x="296" y="472" font-size="15">H</text>
+    <text x="361" y="447">C<tspan font-size="13" dy="4">α</tspan></text>
+    <text x="425" y="447">C</text>
+    <text x="425" y="502">O</text>
+    <text x="491" y="447">N</text><text x="491" y="472" font-size="15">H</text>
+    <text x="556" y="447">C<tspan font-size="13" dy="4">α</tspan></text>
+    <text x="620" y="447">C</text>
+    <text x="620" y="502">O</text>
+    <text x="686" y="447">N</text><text x="686" y="472" font-size="15">H</text>
+    <text x="751" y="447">C<tspan font-size="13" dy="4">α</tspan></text>
+    <text x="840" y="447" fill="#a02020">COOH</text>
+  </g>
+  <text x="100" y="404" font-size="13" text-anchor="middle" fill="#1d4f86">N-конец</text>
+  <text x="840" y="404" font-size="13" text-anchor="middle" fill="#a02020">C-конец</text>
+  <text x="480" y="532" font-size="14" text-anchor="middle" fill="#555">Остов …–N–Cα–C–… одинаков у всех белков, различаются только боковые цепи R. Белок записывают от N-конца к C-концу.</text>
+</svg>
