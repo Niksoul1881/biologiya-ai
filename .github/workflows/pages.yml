@@ -31,7 +31,7 @@ jobs:
       - name: Ссылки под подпапку
         # «/путь» → «/biologiya-ai/путь», кроме «//cdn…» и ссылок, где подпапка уже есть (.RelPermalink)
         run: |
-          find public -name '*.html' -print0 | xargs -0 perl -pi -e 's#(href|src|action)="/(?!/|biologiya-ai/)#$1="/biologiya-ai/#g'
+          find public -name '*.html' -print0 | xargs -0 perl -pi -e 's#(href|src|action)="/(?!/|biologiya-ai/)#$1="/biologiya-ai/#g'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
