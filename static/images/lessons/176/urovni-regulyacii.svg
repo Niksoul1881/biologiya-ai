@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" width="1000" height="430" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="1000" height="430" fill="#fff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold" font-style="normal">Где клетка может «повернуть ручку» экспрессии гена</text>
+<rect x="18" y="70" width="148" height="150" rx="12" fill="#eef6fb" stroke="#1d4f86" stroke-width="2.5"/>
+<text x="92.0" y="100" font-size="17" text-anchor="middle" fill="#1d4f86" font-weight="bold" font-style="normal">Хроматин</text>
+<text x="92.0" y="134" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">ДНК открыта</text>
+<text x="92.0" y="153" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">или упакована</text>
+<line x1="32" y1="170" x2="152" y2="170" stroke="#ccc"/>
+<text x="92.0" y="192" font-size="13" text-anchor="middle" fill="#1d4f86" font-weight="normal" font-style="italic">доступ к файлу:</text>
+<text x="92.0" y="210" font-size="13" text-anchor="middle" fill="#1d4f86" font-weight="normal" font-style="italic">есть / нет</text>
+<path d="M 167 145 L 182 145" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+<rect x="184" y="70" width="148" height="150" rx="12" fill="#eef6fb" stroke="#1d4f86" stroke-width="2.5"/>
+<text x="258.0" y="100" font-size="17" text-anchor="middle" fill="#1d4f86" font-weight="bold" font-style="normal">Транскрипция</text>
+<text x="258.0" y="134" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">промотор, энхансеры,</text>
+<text x="258.0" y="153" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">факторы транскрипции</text>
+<line x1="198" y1="170" x2="318" y2="170" stroke="#ccc"/>
+<text x="258.0" y="192" font-size="13" text-anchor="middle" fill="#1d4f86" font-weight="normal" font-style="italic">главный</text>
+<text x="258.0" y="210" font-size="13" text-anchor="middle" fill="#1d4f86" font-weight="normal" font-style="italic">feature flag</text>
+<path d="M 333 145 L 348 145" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+<rect x="350" y="70" width="148" height="150" rx="12" fill="#f6effa" stroke="#7a3fa0" stroke-width="2.5"/>
+<text x="424.0" y="100" font-size="17" text-anchor="middle" fill="#7a3fa0" font-weight="bold" font-style="normal">Процессинг</text>
+<text x="424.0" y="134" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">сплайсинг,</text>
+<text x="424.0" y="153" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">в т. ч. альтернативный</text>
+<line x1="364" y1="170" x2="484" y2="170" stroke="#ccc"/>
+<text x="424.0" y="192" font-size="13" text-anchor="middle" fill="#7a3fa0" font-weight="normal" font-style="italic">сборка из</text>
+<text x="424.0" y="210" font-size="13" text-anchor="middle" fill="#7a3fa0" font-weight="normal" font-style="italic">разных модулей</text>
+<path d="M 499 145 L 514 145" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+<rect x="516" y="70" width="148" height="150" rx="12" fill="#f6effa" stroke="#7a3fa0" stroke-width="2.5"/>
+<text x="590.0" y="100" font-size="17" text-anchor="middle" fill="#7a3fa0" font-weight="bold" font-style="normal">мРНК</text>
+<text x="590.0" y="134" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">время жизни,</text>
+<text x="590.0" y="153" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">микроРНК</text>
+<line x1="530" y1="170" x2="650" y2="170" stroke="#ccc"/>
+<text x="590.0" y="192" font-size="13" text-anchor="middle" fill="#7a3fa0" font-weight="normal" font-style="italic">TTL записи</text>
+<text x="590.0" y="210" font-size="13" text-anchor="middle" fill="#7a3fa0" font-weight="normal" font-style="italic">в кэше</text>
+<path d="M 665 145 L 680 145" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+<rect x="682" y="70" width="148" height="150" rx="12" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2.5"/>
+<text x="756.0" y="100" font-size="17" text-anchor="middle" fill="#1b7a3a" font-weight="bold" font-style="normal">Трансляция</text>
+<text x="756.0" y="134" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">скорость</text>
+<text x="756.0" y="153" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">синтеза белка</text>
+<line x1="696" y1="170" x2="816" y2="170" stroke="#ccc"/>
+<text x="756.0" y="192" font-size="13" text-anchor="middle" fill="#1b7a3a" font-weight="normal" font-style="italic">rate limit</text>
+<text x="756.0" y="210" font-size="13" text-anchor="middle" fill="#1b7a3a" font-weight="normal" font-style="italic">на выдачу</text>
+<path d="M 831 145 L 846 145" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+<rect x="848" y="70" width="148" height="150" rx="12" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2.5"/>
+<text x="922.0" y="100" font-size="17" text-anchor="middle" fill="#1b7a3a" font-weight="bold" font-style="normal">Белок</text>
+<text x="922.0" y="134" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">модификации,</text>
+<text x="922.0" y="153" font-size="12" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">разрушение</text>
+<line x1="862" y1="170" x2="982" y2="170" stroke="#ccc"/>
+<text x="922.0" y="192" font-size="13" text-anchor="middle" fill="#1b7a3a" font-weight="normal" font-style="italic">включение</text>
+<text x="922.0" y="210" font-size="13" text-anchor="middle" fill="#1b7a3a" font-weight="normal" font-style="italic">в рантайме</text>
+<path d="M 40 270 L 960 270" stroke="#b36b00" stroke-width="3" marker-end="url(#a)"/>
+<text x="40" y="296" font-size="14" text-anchor="start" fill="#b36b00" font-weight="normal" font-style="normal">медленно, надолго (часы — поколения клеток)</text>
+<text x="960" y="296" font-size="14" text-anchor="end" fill="#b36b00" font-weight="normal" font-style="normal">быстро, обратимо (секунды — минуты)</text>
+<rect x="40" y="320" width="920" height="90" rx="12" fill="#fafafa" stroke="#ddd"/>
+<text x="60" y="348" font-size="15" text-anchor="start" fill="#222" font-weight="bold" font-style="normal">Главный рычаг — транскрипция: она решает, будет ли вообще рабочая копия гена.</text>
+<text x="60" y="374" font-size="14" text-anchor="start" fill="#333" font-weight="normal" font-style="normal">Чем ближе к белку, тем быстрее реакция, но тем дороже: ресурсы на мРНК и белок уже потрачены.</text>
+<text x="60" y="398" font-size="14" text-anchor="start" fill="#333" font-weight="normal" font-style="normal">Пример: при опасности белки активируются фосфорилированием за секунды, а новые гены включаются за десятки минут.</text>
+</svg>
