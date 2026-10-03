@@ -2363,5 +2363,25 @@
   "source": "https://commons.wikimedia.org/wiki/File:AAMarkov.jpg",
   "author": "Unknown authorUnknown author",
   "license": "Public domain"
+ },
+ "/images/lessons/183/elektroforez-gel.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gel_electrophoresis_2.jpg",
+  "author": "Mnolf",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/183/mnogokanalnaya-pipetka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Use_of_a_Multichannel_Pipette_for_High-Throughput_Liquid_Handling_in_a_Biosafety_Cabinet.jpg",
+  "author": "Siduduziwe Nxumalo",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/183/laboratornyj-zhurnal.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lab_Notebook.jpg",
+  "author": "Katherine Stember",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/183/robot-dozator.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:BioMek_FX_P200_96_liquid_handling_robot.jpg",
+  "author": "National Institute of Allergy and Infectious Diseases (NIAID)",
+  "license": "Public domain"
  }
 }
