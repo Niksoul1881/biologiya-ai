@@ -2223,5 +2223,15 @@
   "source": "https://commons.wikimedia.org/wiki/File:Dolly_the_Sheep_(1996_-_2003)_(7022922845).jpg",
   "author": "dun_deagh",
   "license": "CC BY-SA 2.0"
+ },
+ "/images/lessons/197/hardi.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Ghhardy@72.jpg",
+  "author": "Unknown authorUnknown author",
+  "license": "Public domain"
+ },
+ "/images/lessons/197/hapmap-snp.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Demonstrating_Hardy-Weinberg_proportions_using_10,000_SNPs_from_the_HapMap_CEU_European_and_YRI_African_populations.png",
+  "author": "Graham Coop",
+  "license": "CC BY 3.0"
  }
 }
