@@ -611,7 +611,7 @@
  },
  "/images/lessons/036/darvin-karikatura.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Man_is_But_a_Worm.jpg",
-  "author": "Unknown authorUnknown author",
+  "author": "Unknown author",
   "license": "Public domain"
  },
  "/images/lessons/036/dozhdevoy-cherv.webp": {
@@ -791,7 +791,7 @@
  },
  "/images/lessons/043/osetr.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Acipenser_gueldenstaedtii.jpg",
-  "author": "Unknown authorUnknown author",
+  "author": "Unknown author",
   "license": "Public domain"
  },
  "/images/lessons/043/vnutrennee-stroenie.webp": {
@@ -1251,7 +1251,7 @@
  },
  "/images/lessons/066/garvej-veny.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:William_Harvey_(1578-1657)_Venenbild.jpg",
-  "author": "Unknown authorUnknown author",
+  "author": "Unknown author",
   "license": "Public domain"
  },
  "/images/lessons/066/serdce-stroenie.webp": {
@@ -1296,7 +1296,7 @@
  },
  "/images/lessons/070/respiracionnyj-kalorimetr.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Respiration_calorimeter.jpg",
-  "author": "Unknown authorUnknown author",
+  "author": "Unknown author",
   "license": "Public domain"
  },
  "/images/lessons/071/funk.webp": {
@@ -2272,6 +2272,36 @@
  "/images/lessons/190/galton-i-pirson.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Aged-87-with-karl-pearson.gif",
   "author": "Unknown authorUnknown author",
+  "license": "Public domain"
+ },
+ "/images/lessons/193/karl-pirson.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Karl_Pearson,_1910_(cropped).jpg",
+  "author": "Unknown author",
+  "license": "Public domain"
+ },
+ "/images/lessons/193/priznaki-goroha.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_-_characteristics_of_pea_plants_-_english.png",
+  "author": "LadyofHats, reworked by Sciencia58",
+  "license": "CC0"
+ },
+ "/images/lessons/193/yeyts-fisher-kokren.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:F_Yates_RA_Fisher_WG_Cochran_1952_(PS).jpg",
+  "author": "Barry Eagel",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/194/bonferroni.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Carlo_Emilio_Bonferroni.jpg",
+  "author": "Unknown author",
+  "license": "Public domain"
+ },
+ "/images/lessons/194/manhetten-dysleksiya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Manhattan_Plot_del_Gwas_de_la_Dislexia.png",
+  "author": "Catherine Doust, Pierre Fontanillas, Else Eising, Scott D. Gordon, Zhengjun Wang",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/194/mikrochip.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:DNA-microarray_analysis.jpg",
+  "author": "Bill Branson (Photographer)",
   "license": "Public domain"
  },
  "/images/lessons/197/hapmap-snp.webp": {
