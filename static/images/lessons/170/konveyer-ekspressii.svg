@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="960" height="500" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+  <rect width="960" height="500" fill="#fff"/>
+  <text x="480" y="34" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Путь от гена к белку у эукариот — и аналогия из IT</text>
+  <!-- зоны -->
+  <rect x="15" y="58" width="520" height="300" rx="16" fill="#f4f8fc" stroke="#9db7d6" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="275" y="82" font-size="16" font-weight="bold" text-anchor="middle" fill="#1d4f86">ЯДРО</text>
+  <rect x="555" y="58" width="390" height="300" rx="16" fill="#f6fbf4" stroke="#a5cf9a" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="750" y="82" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b7a3a">ЦИТОПЛАЗМА</text>
+  <!-- блоки -->
+  <rect x="30" y="110" width="140" height="80" rx="12" fill="#eef6fb" stroke="#1d4f86" stroke-width="3"/>
+  <text x="100" y="145" font-size="20" font-weight="bold" text-anchor="middle" fill="#1d4f86">Ген (ДНК)</text>
+  <text x="100" y="170" font-size="13" text-anchor="middle" fill="#333">хранение</text>
+  <rect x="205" y="110" width="140" height="80" rx="12" fill="#f6effa" stroke="#7a3fa0" stroke-width="3"/>
+  <text x="275" y="145" font-size="20" font-weight="bold" text-anchor="middle" fill="#7a3fa0">пре-мРНК</text>
+  <text x="275" y="170" font-size="13" text-anchor="middle" fill="#333">с интронами</text>
+  <rect x="380" y="110" width="140" height="80" rx="12" fill="#f6effa" stroke="#7a3fa0" stroke-width="3"/>
+  <text x="450" y="145" font-size="20" font-weight="bold" text-anchor="middle" fill="#7a3fa0">мРНК</text>
+  <text x="450" y="170" font-size="13" text-anchor="middle" fill="#333">кэп, поли-A хвост</text>
+  <rect x="610" y="110" width="140" height="80" rx="12" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="3"/>
+  <text x="680" y="145" font-size="20" font-weight="bold" text-anchor="middle" fill="#1b7a3a">Полипептид</text>
+  <text x="680" y="170" font-size="13" text-anchor="middle" fill="#333">цепочка аминокислот</text>
+  <rect x="790" y="110" width="140" height="80" rx="12" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="3"/>
+  <text x="860" y="145" font-size="20" font-weight="bold" text-anchor="middle" fill="#1b7a3a">Белок</text>
+  <text x="860" y="170" font-size="13" text-anchor="middle" fill="#333">свёрнут и работает</text>
+  <!-- стрелки -->
+  <path d="M 172 150 L 201 150" stroke="#333" stroke-width="3.5" marker-end="url(#a)"/>
+  <path d="M 347 150 L 376 150" stroke="#333" stroke-width="3.5" marker-end="url(#a)"/>
+  <path d="M 522 150 L 606 150" stroke="#333" stroke-width="3.5" marker-end="url(#a)"/>
+  <path d="M 752 150 L 786 150" stroke="#333" stroke-width="3.5" marker-end="url(#a)"/>
+  <!-- подписи процессов -->
+  <g font-size="14" font-weight="bold" text-anchor="middle" fill="#333">
+    <text x="187" y="222">транскрипция</text>
+    <text x="362" y="244">процессинг</text>
+    <text x="564" y="222">трансляция</text>
+    <text x="770" y="244">сворачивание</text>
+  </g>
+  <g stroke="#bbb" stroke-width="1.5">
+    <line x1="187" y1="160" x2="187" y2="208"/><line x1="362" y1="160" x2="362" y2="230"/><line x1="564" y1="160" x2="564" y2="208"/><line x1="770" y1="160" x2="770" y2="230"/>
+  </g>
+  <g font-size="12.5" text-anchor="middle" fill="#555">
+    <text x="187" y="282">РНК-полимераза</text>
+    <text x="362" y="282">сплайсинг: интроны</text>
+    <text x="362" y="298">вырезаются</text>
+    <text x="564" y="282">рибосома + тРНК,</text>
+    <text x="564" y="298">кодоны → аминокислоты</text>
+    <text x="770" y="282">укладка в 3D,</text>
+    <text x="770" y="298">шапероны</text>
+  </g>
+  <text x="480" y="340" font-size="13" text-anchor="middle" fill="#777">мРНК выходит из ядра через ядерные поры</text>
+  <!-- аналогия -->
+  <rect x="15" y="372" width="930" height="112" rx="14" fill="#fafafa" stroke="#ccc" stroke-width="2"/>
+  <text x="35" y="398" font-size="15" font-weight="bold" fill="#333">Аналогия для программиста:</text>
+  <g font-size="13.5" fill="#333">
+    <text x="35" y="424">ДНК — исходники в репозитории, которые никто не правит на лету · мРНК — временная рабочая копия одного файла</text>
+    <text x="35" y="446">сплайсинг — препроцессор, вырезающий куски · трансляция — «компиляция» по таблице кодонов · белок — запущенный процесс</text>
+    <text x="35" y="470" fill="#a02020">Где ломается: «бинарник» работает только после физического сворачивания, а сборок одного гена бывают тысячи одновременно.</text>
+  </g>
+</svg>
