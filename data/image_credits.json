@@ -1974,15 +1974,45 @@
   "author": "АН СССР",
   "license": "Public domain"
  },
- "/images/lessons/171/struktura-gena-eukariot.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Gene_structure_eukaryote_2_annotated.svg",
-  "author": "Thomas Shafee",
-  "license": "CC BY 4.0"
+ "/images/lessons/169/dnk-himicheskaya-struktura.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:DNA_chemical_structure_RU.svg",
+  "author": "Aeverandi",
+  "license": "CC BY-SA 3.0"
  },
- "/images/lessons/171/struktura-gena-prokariot.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Gene_structure_prokaryote_2_annotated.svg",
-  "author": "Thomas Shafee",
-  "license": "CC BY 4.0"
+ "/images/lessons/169/dvoynaya-spiral.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:DNA_Structure+Key+Labelled.pn_NoBB.png",
+  "author": "Zephyris",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/169/hromatogramma.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:DNA_sequence.svg",
+  "author": "Sjef",
+  "license": "Public domain"
+ },
+ "/images/lessons/169/model-uotsona-krika.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:DNA_Model_Crick-Watson.jpg",
+  "author": "User:Alkivar",
+  "license": "Public domain"
+ },
+ "/images/lessons/170/dogma-krika-1970.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:CentralDogma1970.svg",
+  "author": "Sbrools",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/170/kodonovoe-koleso.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Aminoacids_table.svg",
+  "author": "Mouagip",
+  "license": "Public domain"
+ },
+ "/images/lessons/170/tablica-nirenberga.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:06_chart_lg.jpg",
+  "author": "Marshall Nirenberg",
+  "license": "Public domain"
+ },
+ "/images/lessons/170/translyaciya-ribosoma.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Ribosome_mRNA_translation_ru.svg",
+  "author": "Донор",
+  "license": "CC BY-SA 4.0"
  },
  "/images/lessons/171/alternativnyy-splaysing.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:DNA_alternative_splicing.gif",
@@ -1994,24 +2024,34 @@
   "author": "John Sears",
   "license": "CC BY-SA 4.0"
  },
- "/images/lessons/172/stoimost-genoma.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Cost_per_Genome.png",
-  "author": "National Human Genome Research Institute (NHGRI)",
-  "license": "CC0"
+ "/images/lessons/171/struktura-gena-eukariot.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gene_structure_eukaryote_2_annotated.svg",
+  "author": "Thomas Shafee",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/171/struktura-gena-prokariot.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gene_structure_prokaryote_2_annotated.svg",
+  "author": "Thomas Shafee",
+  "license": "CC BY 4.0"
  },
  "/images/lessons/172/genom-po-funkciyam.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Human_genome_by_functions.svg",
   "author": "Mikael Häggström",
   "license": "CC0"
  },
+ "/images/lessons/172/hgp-2000.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:IHGSC_Human_Genome_Project_Draft_Completion_Announcement_-_June_2000.jpg",
+  "author": "National Human Genome Research Institute (NHGRI)",
+  "license": "Public domain"
+ },
  "/images/lessons/172/kariotip.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Karyotype.png",
   "author": "Courtesy: National Human Genome Research Institute",
   "license": "Public domain"
  },
- "/images/lessons/172/hgp-2000.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:IHGSC_Human_Genome_Project_Draft_Completion_Announcement_-_June_2000.jpg",
+ "/images/lessons/172/stoimost-genoma.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Cost_per_Genome.png",
   "author": "National Human Genome Research Institute (NHGRI)",
-  "license": "Public domain"
+  "license": "CC0"
  }
 }
