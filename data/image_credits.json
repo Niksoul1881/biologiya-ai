@@ -611,7 +611,7 @@
  },
  "/images/lessons/036/darvin-karikatura.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Man_is_But_a_Worm.jpg",
-  "author": "Unknown authorUnknown author",
+  "author": "Unknown author",
   "license": "Public domain"
  },
  "/images/lessons/036/dozhdevoy-cherv.webp": {
@@ -791,7 +791,7 @@
  },
  "/images/lessons/043/osetr.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Acipenser_gueldenstaedtii.jpg",
-  "author": "Unknown authorUnknown author",
+  "author": "Unknown author",
   "license": "Public domain"
  },
  "/images/lessons/043/vnutrennee-stroenie.webp": {
@@ -1251,7 +1251,7 @@
  },
  "/images/lessons/066/garvej-veny.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:William_Harvey_(1578-1657)_Venenbild.jpg",
-  "author": "Unknown authorUnknown author",
+  "author": "Unknown author",
   "license": "Public domain"
  },
  "/images/lessons/066/serdce-stroenie.webp": {
@@ -1296,7 +1296,7 @@
  },
  "/images/lessons/070/respiracionnyj-kalorimetr.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Respiration_calorimeter.jpg",
-  "author": "Unknown authorUnknown author",
+  "author": "Unknown author",
   "license": "Public domain"
  },
  "/images/lessons/071/funk.webp": {
@@ -2223,5 +2223,20 @@
   "source": "https://commons.wikimedia.org/wiki/File:Dolly_the_Sheep_(1996_-_2003)_(7022922845).jpg",
   "author": "dun_deagh",
   "license": "CC BY-SA 2.0"
+ },
+ "/images/lessons/193/priznaki-goroha.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_-_characteristics_of_pea_plants_-_english.png",
+  "author": "LadyofHats, reworked by Sciencia58",
+  "license": "CC0"
+ },
+ "/images/lessons/193/karl-pirson.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Karl_Pearson,_1910_(cropped).jpg",
+  "author": "Unknown author",
+  "license": "Public domain"
+ },
+ "/images/lessons/193/yeyts-fisher-kokren.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:F_Yates_RA_Fisher_WG_Cochran_1952_(PS).jpg",
+  "author": "Barry Eagel",
+  "license": "CC BY-SA 4.0"
  }
 }
