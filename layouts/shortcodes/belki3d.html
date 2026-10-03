@@ -1,0 +1,280 @@
+{{- /* 3D-белки и ДНК: {{< belki3d >}}, логика в /js/belki3d.js, структуры в /pdb/, превью в /images/belki3d/ */ -}}
+<div class="b3" id="b3-app" data-pdb="{{ "pdb/" | relURL }}" data-img="{{ "images/belki3d/" | relURL }}" data-root="{{ "x" | relURL | strings.TrimSuffix "x" }}">
+  <div class="b3-head">
+    <div class="b3-headtxt">
+      <div class="b3-kicker">🧬 3D-белки и ДНК</div>
+      <div class="b3-title">Гемоглобин</div>
+      <div class="b3-sub"></div>
+    </div>
+    <div class="b3-mode" role="group" aria-label="Режим">
+      <button type="button" data-m="gallery" class="on" aria-pressed="true">Коллекция молекул</button>
+      <button type="button" data-m="levels" aria-pressed="false">Уровни структуры белка</button>
+    </div>
+  </div>
+
+  <div class="b3-main">
+    <div class="b3-stage">
+      <div class="b3-frame">
+        <div class="b3-view" aria-label="Трёхмерная модель молекулы: тяните, чтобы вращать, колёсико или щипок — приблизить"></div>
+        <div class="b3-spots" aria-hidden="true"></div>
+        <div class="b3-tip" aria-hidden="true"></div>
+        <div class="b3-badge"><b class="b3-pdbid">PDB 4HHB</b><span class="b3-kind"></span></div>
+        <div class="b3-tools">
+          <button type="button" class="b3-ibtn b3-spin on" aria-pressed="true" title="Автовращение" aria-label="Автовращение"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v4.5h-4.5"/></svg></button>
+          <button type="button" class="b3-ibtn b3-reset" title="Вернуть вид" aria-label="Вернуть вид"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></button>
+          <button type="button" class="b3-ibtn b3-zin" title="Приблизить" aria-label="Приблизить"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button>
+          <button type="button" class="b3-ibtn b3-zout" title="Отдалить" aria-label="Отдалить"><svg viewBox="0 0 24 24"><path d="M5 12h14"/></svg></button>
+        </div>
+        <div class="b3-legend" aria-live="polite"></div>
+        <div class="b3-hint"><span class="b3-hm">Тяните — вращать · колёсико — зум · наведите на атом</span><span class="b3-ht">Ведите пальцем — вращать · щипок — зум</span></div>
+        <div class="b3-loading"><i></i><span>Загружаем структуру…</span></div>
+      </div>
+
+      <div class="b3-levels" aria-live="polite">
+        <div class="b3-steps" role="group" aria-label="Уровень структуры">
+          <button type="button" data-l="1"><b>1</b><span>Первичная</span></button>
+          <button type="button" data-l="2"><b>2</b><span>Вторичная</span></button>
+          <button type="button" data-l="3"><b>3</b><span>Третичная</span></button>
+          <button type="button" data-l="4"><b>4</b><span>Четвертичная</span></button>
+        </div>
+        <div class="b3-ltext"></div>
+        <div class="b3-seq"></div>
+      </div>
+    </div>
+
+    <div class="b3-side">
+      <div class="b3-card">
+        <div class="b3-cap">Модель</div>
+        <div class="b3-reps">
+          <button type="button" data-r="cartoon" class="on"><svg viewBox="0 0 40 40"><path d="M6 28c4-10 8-10 10-4s6 6 8-2 8-10 10-4" class="b3-r2"/><path d="M6 28c4-10 8-10 10-4s6 6 8-2 8-10 10-4"/></svg><span>Ленты</span></button>
+          <button type="button" data-r="surface"><svg viewBox="0 0 40 40"><path d="M9 25c-4-7 3-15 10-13 4-6 14-3 13 5 5 3 2 12-5 11-3 5-12 5-14 0-3 1-5-1-4-3z" class="b3-fill"/></svg><span>Поверхность</span></button>
+          <button type="button" data-r="sphere"><svg viewBox="0 0 40 40"><circle cx="14" cy="16" r="7" class="b3-fill"/><circle cx="26" cy="15" r="6" class="b3-fill"/><circle cx="20" cy="27" r="7" class="b3-fill"/></svg><span>Атомы</span></button>
+          <button type="button" data-r="stick"><svg viewBox="0 0 40 40"><path d="M8 28l8-8 8 4 8-12M16 20l-2-10M24 24l2 8"/><circle cx="8" cy="28" r="2.5"/><circle cx="16" cy="20" r="2.5"/><circle cx="24" cy="24" r="2.5"/><circle cx="32" cy="12" r="2.5"/></svg><span>Палочки</span></button>
+        </div>
+      </div>
+      <div class="b3-card">
+        <div class="b3-cap">Раскраска</div>
+        <div class="b3-chips b3-colors"></div>
+      </div>
+      <div class="b3-card">
+        <div class="b3-cap">Подсветить</div>
+        <div class="b3-chips b3-focus"></div>
+      </div>
+      <div class="b3-card b3-sw">
+        <label class="b3-switch"><input type="checkbox" class="b3-lbl" checked><span></span>Подписи на модели</label>
+        <label class="b3-switch"><input type="checkbox" class="b3-glow" checked><span></span>Свечение</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="b3-info"></div>
+
+  <div class="b3-trayhead"><b>Коллекция молекул</b><span>Изучено: <b class="b3-count">1 из 11</b></span></div>
+  <div class="b3-carousel">
+    <button type="button" class="b3-arrow b3-prev" aria-label="Назад">‹</button>
+    <div class="b3-tray" role="list"></div>
+    <button type="button" class="b3-arrow b3-next" aria-label="Вперёд">›</button>
+  </div>
+  <div class="b3-credit">Структуры — банк данных <a href="https://www.rcsb.org/" target="_blank" rel="noopener">RCSB PDB</a> (общественное достояние): 4HHB, 4INS, 1IGT, 1BNA, 1MBN, 1EMA, 1CGD, 1LYZ, 1AOI, 6VXX; модель p53 — <a href="https://alphafold.ebi.ac.uk/entry/P04637" target="_blank" rel="noopener">AlphaFold DB</a> (Google DeepMind / EMBL-EBI, CC BY 4.0). Для наглядности убраны молекулы воды, ионы и сахара. Визуализация — <a href="https://3dmol.org/" target="_blank" rel="noopener">3Dmol.js</a> (BSD).</div>
+</div>
+<noscript><p>Для работы 3D-моделей включите JavaScript.</p></noscript>
+
+<style>
+.b3 { --b3-acc: #22c55e;
+  position: relative; box-sizing: border-box;
+  width: min(1180px, calc(100vw - 20px)); margin: 28px 0 40px calc(50% - min(590px, (100vw - 20px) / 2));
+  padding: 22px 24px 26px; border-radius: 28px; color: #d1fae5; line-height: 1.45;
+  background:
+    radial-gradient(900px 420px at 50% -8%, rgba(34,197,94,.16), transparent 62%),
+    radial-gradient(700px 380px at 15% 110%, color-mix(in srgb, var(--b3-acc) 22%, transparent), transparent 70%),
+    linear-gradient(180deg, #08110d, #050907);
+  border: 1px solid rgba(110,231,183,.16);
+  box-shadow: 0 40px 90px -40px rgba(2,12,8,.9), inset 0 1px 0 rgba(255,255,255,.05); }
+.b3 *, .b3 *::before, .b3 *::after { box-sizing: border-box; }
+.b3 button { font: inherit; color: inherit; }
+.b3-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
+.b3-headtxt { min-width: 0; }
+.b3-kicker { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: #6ee7b7; font-weight: 700; }
+.b3-title { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 30px; color: #fff; line-height: 1.1; margin-top: 2px; }
+.b3-sub { color: #86b5a0; font-size: 14px; }
+.b3-mode { display: flex; padding: 4px; border-radius: 999px; background: rgba(255,255,255,.05); border: 1px solid rgba(110,231,183,.15); }
+.b3-mode button { border: 0; background: none; padding: 8px 16px; border-radius: 999px; cursor: pointer; font-weight: 700; font-size: 14px; color: #9cc9b4; transition: .2s; }
+.b3-mode button.on { background: linear-gradient(180deg, #22c55e, #15803d); color: #fff; box-shadow: 0 6px 20px -6px rgba(34,197,94,.7); }
+
+.b3-main { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 20px; align-items: start; }
+.b3-stage { min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.b3-frame { position: relative; height: clamp(380px, 64vh, 600px); border-radius: 24px; overflow: hidden; isolation: isolate;
+  background:
+    radial-gradient(60% 55% at 50% 45%, color-mix(in srgb, var(--b3-acc) 24%, transparent), transparent 70%),
+    radial-gradient(40% 40% at 88% 8%, rgba(56,189,248,.13), transparent 70%),
+    radial-gradient(45% 45% at 8% 96%, rgba(244,114,182,.11), transparent 70%),
+    linear-gradient(160deg, #0b1a15, #04080a 70%);
+  border: 1px solid rgba(110,231,183,.18);
+  box-shadow: inset 0 0 80px rgba(0,0,0,.6), 0 0 0 6px rgba(0,0,0,.25), 0 30px 60px -30px #000; }
+.b3-frame::before { content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 0; opacity: .55;
+  background-image: radial-gradient(rgba(167,243,208,.2) 1px, transparent 1.4px); background-size: 26px 26px;
+  -webkit-mask-image: radial-gradient(70% 70% at 50% 50%, #000, transparent); mask-image: radial-gradient(70% 70% at 50% 50%, #000, transparent); }
+.b3-frame::after { content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 3; border-radius: inherit;
+  background: radial-gradient(120% 90% at 50% 50%, transparent 62%, rgba(0,0,0,.45)); }
+.b3-view { position: absolute; inset: 0; z-index: 1; cursor: grab; touch-action: none; }
+.b3-view:active { cursor: grabbing; }
+.b3-view canvas { transition: opacity .45s, transform .7s cubic-bezier(.2,.8,.2,1); }
+.b3-glowon .b3-view canvas { filter: drop-shadow(0 0 12px color-mix(in srgb, var(--b3-acc) 50%, transparent)); }
+.b3-swap .b3-view canvas { opacity: 0; transform: scale(.9); transition: none; }
+.b3-spots, .b3-tip { position: absolute; inset: 0; pointer-events: none; z-index: 4; overflow: hidden; }
+.b3-spot { position: absolute; left: 0; top: 0; opacity: 0; transition: opacity .35s; will-change: transform; }
+.b3-spot.on { opacity: 1; }
+.b3-spot.far { opacity: .45; }
+.b3-spot i { position: absolute; width: 12px; height: 12px; margin: -6px 0 0 -6px; border-radius: 50%; background: var(--c, #22c55e); border: 2px solid #fff;
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--c, #22c55e) 40%, transparent), 0 0 18px var(--c, #22c55e); animation: b3Pulse 2.2s infinite; }
+.b3-spot b { position: absolute; left: 14px; top: -15px; white-space: nowrap; padding: 4px 11px; border-radius: 999px; font-size: 13px; font-weight: 700;
+  background: rgba(5,14,10,.82); color: #ecfdf5; border: 1px solid color-mix(in srgb, var(--c, #22c55e) 70%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 6px 18px rgba(0,0,0,.45); }
+.b3-spot.left b { left: auto; right: 14px; }
+@keyframes b3Pulse { 50% { box-shadow: 0 0 0 10px transparent, 0 0 18px var(--c, #22c55e); } }
+.b3-tip > div { position: absolute; left: 0; top: 0; padding: 6px 11px; border-radius: 10px; font-size: 13px; font-weight: 700; white-space: nowrap;
+  background: rgba(2,8,6,.92); border: 1px solid rgba(255,255,255,.2); color: #fff; box-shadow: 0 8px 22px rgba(0,0,0,.5); }
+.b3-tip small { display: block; color: #9cc9b4; font-weight: 500; font-size: 12px; }
+.b3-badge { position: absolute; left: 14px; top: 14px; z-index: 5; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; pointer-events: none; max-width: calc(100% - 70px); }
+.b3-badge b, .b3-badge span { padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 800; letter-spacing: .04em; background: rgba(5,14,10,.7); border: 1px solid rgba(110,231,183,.3); color: #a7f3d0; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.b3-badge span { font-weight: 600; color: #cbd5e1; border-color: rgba(255,255,255,.14); }
+.b3-badge span:empty { display: none; }
+.b3-tools { position: absolute; right: 12px; top: 12px; z-index: 5; display: flex; flex-direction: column; gap: 8px; }
+.b3-ibtn { width: 38px; height: 38px; padding: 0; border-radius: 12px; border: 1px solid rgba(255,255,255,.14); background: rgba(5,14,10,.65); cursor: pointer; display: grid; place-items: center; transition: .2s; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.b3-ibtn svg { width: 18px; height: 18px; fill: none; stroke: #d1fae5; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.b3-ibtn:hover { border-color: rgba(110,231,183,.5); }
+.b3-ibtn.on { background: rgba(34,197,94,.22); border-color: rgba(34,197,94,.7); box-shadow: 0 0 18px -4px rgba(34,197,94,.8); }
+.b3-ibtn.on svg { animation: b3Rot 3s linear infinite; }
+@keyframes b3Rot { to { transform: rotate(360deg); } }
+.b3-legend { position: absolute; left: 14px; bottom: 14px; z-index: 5; display: flex; flex-wrap: wrap; gap: 6px 12px; max-width: calc(100% - 28px); padding: 7px 12px; border-radius: 14px; font-size: 12.5px;
+  background: rgba(5,14,10,.72); border: 1px solid rgba(255,255,255,.1); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); pointer-events: none; }
+.b3-legend:empty { display: none; }
+.b3-legend span { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; color: #e2f5ec; }
+.b3-legend i { width: 11px; height: 11px; border-radius: 50%; background: var(--c); box-shadow: 0 0 8px var(--c); flex: none; }
+.b3-legend .b3-grad { width: 96px; height: 8px; border-radius: 4px; background: linear-gradient(90deg, #4058ff, #00c2ff, #22d36e, #ffd21f, #ff3b3b); box-shadow: 0 0 8px rgba(255,255,255,.2); }
+.b3-hint { position: absolute; left: 14px; top: 48px; z-index: 5; font-size: 12px; color: #86b5a0; pointer-events: none; max-width: 60%; transition: opacity .6s; }
+.b3-used .b3-hint { opacity: 0; }
+.b3-ht { display: none; }
+@media (hover: none) { .b3-hm { display: none; } .b3-ht { display: inline; } }
+.b3-loading { position: absolute; inset: 0; z-index: 6; display: flex; flex-direction: column; gap: 14px; align-items: center; justify-content: center; font-weight: 700; color: #a7f3d0; pointer-events: none; opacity: 0; transition: opacity .3s; }
+.b3-loading.on { opacity: 1; }
+.b3-loading i { width: 54px; height: 54px; border-radius: 50%; border: 3px solid rgba(34,197,94,.15); border-top-color: #22c55e; border-right-color: #38bdf8; animation: b3Rot .9s linear infinite; box-shadow: 0 0 30px rgba(34,197,94,.35); }
+
+.b3-levels { display: none; padding: 14px; border-radius: 18px; background: linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.02)); border: 1px solid rgba(110,231,183,.13); }
+.b3-lv .b3-levels { display: block; animation: b3In .45s ease; }
+@keyframes b3In { from { opacity: 0; transform: translateY(8px); } }
+.b3-steps { position: relative; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.b3-steps button { position: relative; display: flex; align-items: center; gap: 9px; padding: 9px 10px; border-radius: 14px; cursor: pointer; border: 1px solid rgba(255,255,255,.08); background: rgba(0,0,0,.25); text-align: left; transition: .25s; min-width: 0; }
+.b3-steps b { flex: none; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-size: 14px; background: rgba(255,255,255,.08); color: #fff; transition: .25s; }
+.b3-steps span { font-weight: 700; font-size: 14px; overflow: hidden; text-overflow: ellipsis; }
+.b3-steps button:hover { border-color: rgba(110,231,183,.35); }
+.b3-steps button.done b { background: rgba(34,197,94,.35); }
+.b3-steps button.on { background: rgba(34,197,94,.14); border-color: rgba(34,197,94,.7); box-shadow: 0 0 22px -6px rgba(34,197,94,.7); }
+.b3-steps button.on b { background: linear-gradient(180deg, #22c55e, #15803d); box-shadow: 0 0 14px rgba(34,197,94,.8); }
+.b3-ltext { margin-top: 12px; font-size: 15px; color: #cfe9dc; }
+.b3-ltext h4 { margin: 0 0 4px; font-size: 17px; color: #fff; }
+.b3-ltext p { margin: 0 0 8px; }
+.b3-bond { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 13px; font-weight: 700; background: rgba(250,204,21,.12); color: #fde68a; border: 1px solid rgba(250,204,21,.35); }
+.b3-seq { display: none; margin-top: 12px; padding: 10px; border-radius: 12px; background: rgba(0,0,0,.3); max-height: 118px; overflow-y: auto; font: 700 12px/1 ui-monospace, Consolas, monospace; }
+.b3-seq.on { display: flex; flex-wrap: wrap; gap: 3px; }
+.b3-seq span { width: 19px; height: 19px; display: grid; place-items: center; border-radius: 5px; color: #04110b; background: var(--c); cursor: default; transition: transform .15s; animation: b3Pop .4s backwards; }
+.b3-seq span:hover, .b3-seq span.on { transform: scale(1.35); box-shadow: 0 0 10px var(--c); position: relative; z-index: 1; }
+@keyframes b3Pop { from { transform: scale(0); opacity: 0; } }
+
+.b3-side { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.b3-card { padding: 14px; border-radius: 18px; background: linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.02)); border: 1px solid rgba(110,231,183,.13); }
+.b3-cap { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: #6ee7b7; font-weight: 800; margin-bottom: 10px; }
+.b3-reps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.b3-reps button { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 9px 4px 8px; border-radius: 14px; cursor: pointer; border: 1px solid rgba(255,255,255,.08); background: rgba(0,0,0,.25); transition: .2s; font-size: 13px; font-weight: 700; min-width: 0; }
+.b3-reps svg { width: 38px; height: 30px; fill: none; stroke: #6ee7b7; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.b3-reps svg circle { fill: #6ee7b7; stroke: none; }
+.b3-reps svg .b3-fill { fill: rgba(110,231,183,.35); stroke: #6ee7b7; stroke-width: 1.5; }
+.b3-reps svg .b3-r2 { stroke: rgba(56,189,248,.5); stroke-width: 8; }
+.b3-reps button:hover { border-color: rgba(110,231,183,.35); }
+.b3-reps button.on { background: rgba(34,197,94,.14); border-color: rgba(34,197,94,.7); box-shadow: 0 0 22px -6px rgba(34,197,94,.7); }
+.b3-reps button.on svg { filter: drop-shadow(0 0 6px rgba(110,231,183,.8)); }
+.b3-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.b3-chips button { display: inline-flex; align-items: center; gap: 6px; padding: 6px 11px; border-radius: 999px; cursor: pointer; font-size: 13px; font-weight: 700; border: 1px solid rgba(255,255,255,.12); background: rgba(0,0,0,.22); transition: .2s; text-align: left; }
+.b3-chips button i { flex: none; width: 10px; height: 10px; border-radius: 50%; background: var(--c, #6ee7b7); box-shadow: 0 0 6px var(--c, #6ee7b7); }
+.b3-chips button:hover { border-color: rgba(110,231,183,.4); }
+.b3-chips button.on { background: color-mix(in srgb, var(--c, #22c55e) 22%, transparent); border-color: var(--c, #22c55e); color: #fff; box-shadow: 0 0 16px -4px var(--c, #22c55e); }
+.b3-sw { display: flex; flex-direction: column; gap: 10px; }
+.b3-switch { display: flex; align-items: center; gap: 10px; cursor: pointer; font-weight: 700; font-size: 14px; }
+.b3-switch input { position: absolute; opacity: 0; pointer-events: none; }
+.b3-switch span { flex: none; width: 40px; height: 22px; border-radius: 999px; background: rgba(255,255,255,.12); position: relative; transition: .2s; }
+.b3-switch span::after { content: ""; position: absolute; left: 3px; top: 3px; width: 16px; height: 16px; border-radius: 50%; background: #fff; transition: .2s; }
+.b3-switch input:checked + span { background: #22c55e; } .b3-switch input:checked + span::after { left: 21px; }
+.b3-switch input:focus-visible + span { outline: 2px solid #6ee7b7; outline-offset: 2px; }
+.b3 button:focus-visible { outline: 2px solid #6ee7b7; outline-offset: 2px; }
+.b3-lv .b3-side .b3-card:nth-child(-n+3) { opacity: .45; pointer-events: none; }
+
+.b3-info { margin-top: 18px; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 16px; padding: 18px; border-radius: 22px;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--b3-acc) 12%, transparent), rgba(255,255,255,.02) 60%); border: 1px solid rgba(110,231,183,.14); }
+.b3-info.in { animation: b3In .5s ease; }
+.b3-info h3 { margin: 0 0 6px; font-size: 20px; color: #fff; font-family: 'Montserrat', sans-serif; font-weight: 800; }
+.b3-info p { margin: 0 0 10px; font-size: 15.5px; color: #cfe9dc; }
+.b3-where { color: #a7f3d0; font-weight: 600; }
+.b3-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; align-content: start; }
+.b3-stat { padding: 12px 14px; border-radius: 16px; background: rgba(0,0,0,.28); border: 1px solid rgba(255,255,255,.07); min-width: 0; }
+.b3-stat b { display: block; font-family: 'Montserrat', sans-serif; font-size: 22px; font-weight: 900; line-height: 1.15; color: #fff;
+  background: linear-gradient(90deg, #fff, color-mix(in srgb, var(--b3-acc) 65%, #fff)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.b3-stat span { font-size: 12.5px; color: #9cc9b4; }
+.b3-fact { grid-column: 1 / -1; display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border-radius: 16px; background: rgba(250,204,21,.07); border: 1px solid rgba(250,204,21,.25); color: #fef3c7; font-size: 15px; }
+.b3-fact::before { content: "💡"; font-size: 20px; line-height: 1.2; }
+.b3-links { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 14px; color: #86b5a0; }
+.b3-links a { padding: 6px 12px; border-radius: 999px; background: rgba(34,197,94,.1); border: 1px solid rgba(34,197,94,.35); color: #86efac; text-decoration: none; font-weight: 700; transition: .2s; }
+.b3-links a:hover { background: rgba(34,197,94,.22); color: #fff; }
+
+.b3-trayhead { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px; margin: 26px 0 8px; font-size: 14px; color: #86b5a0; }
+.b3-trayhead > b { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: #6ee7b7; }
+.b3-trayhead span b { color: #fff; }
+.b3-carousel { position: relative; }
+.b3-tray { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 6px 4px 14px; scrollbar-width: thin; scrollbar-color: rgba(110,231,183,.3) transparent; overscroll-behavior-x: contain; }
+.b3-mol { position: relative; flex: none; width: 150px; scroll-snap-align: start; border: 1px solid rgba(255,255,255,.08); border-radius: 18px; padding: 0 0 10px; cursor: pointer; overflow: hidden; text-align: left;
+  background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.015)); transition: transform .25s, border-color .25s, box-shadow .25s; }
+.b3-pic { display: block; height: 112px; background: radial-gradient(60% 60% at 50% 50%, color-mix(in srgb, var(--c) 32%, transparent), transparent 75%), #050b09; position: relative; overflow: hidden; }
+.b3-pic img { position: absolute; inset: 6px; width: calc(100% - 12px); height: calc(100% - 12px); object-fit: contain; transition: transform .6s cubic-bezier(.2,.8,.2,1); filter: drop-shadow(0 0 8px color-mix(in srgb, var(--c) 55%, transparent)); }
+.b3-pic em { position: absolute; inset: 0; display: grid; place-items: center; font-size: 40px; font-style: normal; }
+.b3-mol:hover img, .b3-mol.on img { transform: scale(1.1) rotate(-5deg); }
+.b3-mn { display: block; padding: 8px 10px 0; font-weight: 800; font-size: 14px; color: #fff; line-height: 1.2; }
+.b3-mi { display: block; padding: 2px 10px 0; font-size: 11.5px; color: #86b5a0; letter-spacing: .04em; }
+.b3-mol:hover { transform: translateY(-3px); border-color: rgba(110,231,183,.35); }
+.b3-mol.on { border-color: var(--c); box-shadow: 0 0 0 1px var(--c), 0 10px 30px -8px color-mix(in srgb, var(--c) 70%, transparent); }
+.b3-ok { position: absolute; right: 8px; top: 8px; width: 20px; height: 20px; border-radius: 50%; background: #22c55e; color: #fff; font-size: 12px; font-weight: 900; display: none; align-items: center; justify-content: center; box-shadow: 0 0 10px rgba(34,197,94,.7); }
+.b3-mol.seen .b3-ok { display: flex; }
+.b3-arrow { position: absolute; top: 44px; z-index: 2; width: 38px; height: 38px; padding: 0; border-radius: 50%; border: 1px solid rgba(110,231,183,.35); background: rgba(5,14,10,.88); cursor: pointer; font-size: 24px !important; line-height: 1; color: #a7f3d0 !important; display: grid; place-items: center; box-shadow: 0 6px 18px rgba(0,0,0,.5); }
+.b3-prev { left: -14px; } .b3-next { right: -14px; }
+.b3-credit { margin-top: 8px; font-size: 12.5px; color: #6f9483; }
+.b3-credit a { color: #6f9483; }
+
+@media (max-width: 900px) {
+  .b3-main { grid-template-columns: minmax(0, 1fr); }
+  .b3-side { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .b3-info { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 720px) {
+  .b3 { padding: 16px 12px 18px; border-radius: 22px; }
+  .b3-title { font-size: 24px; }
+  .b3-mode { width: 100%; } .b3-mode button { flex: 1; padding: 8px 6px; font-size: 13px; }
+  .b3-frame { height: min(112vw, 520px); border-radius: 18px; }
+  .b3-side { grid-template-columns: minmax(0, 1fr); }
+  .b3-reps { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+  .b3-reps button { font-size: 11px; padding: 8px 2px 7px; }
+  .b3-reps svg { width: 32px; height: 26px; }
+  .b3-steps { gap: 5px; }
+  .b3-steps button { flex-direction: column; gap: 4px; padding: 8px 2px; text-align: center; }
+  .b3-steps span { font-size: 10.5px; max-width: 100%; }
+  .b3-spot b { font-size: 11.5px; padding: 3px 8px; }
+  .b3-hint { display: none; }
+  .b3-legend { font-size: 11.5px; padding: 6px 10px; left: 8px; bottom: 8px; max-width: calc(100% - 16px); }
+  .b3-badge { left: 8px; top: 8px; }
+  .b3-tools { right: 8px; top: 8px; gap: 6px; } .b3-ibtn { width: 34px; height: 34px; }
+  .b3-info { padding: 14px; }
+  .b3-stat { padding: 10px 12px; } .b3-stat b { font-size: 18px; }
+  .b3-mol { width: 128px; } .b3-pic { height: 92px; }
+  .b3-arrow { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .b3 *, .b3 *::before, .b3 *::after { animation: none !important; transition: none !important; } }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/3dmol@2.5.5/build/3Dmol-min.js" defer></script>
+<script src="{{ "js/belki3d.js" | relURL }}" defer></script>

@@ -1,0 +1,282 @@
+{{- /* Древо жизни: {{< drevo >}}, логика и данные в /js/drevo.js, отрисовка — D3 */ -}}
+<div class="dz" id="dz-app" data-root="{{ "x" | relURL | strings.TrimSuffix "x" }}">
+  <div class="dz-head">
+    <div class="dz-headtxt">
+      <div class="dz-kicker">🌳 Древо жизни</div>
+      <div class="dz-title">От общего предка до кошки</div>
+      <div class="dz-sub">3 домена · 4 царства эукариот · больше 70 видов с полной систематикой</div>
+    </div>
+    <div class="dz-mode" role="group" aria-label="Режим">
+      <button type="button" data-m="tree" class="on" aria-pressed="true">Древо</button>
+      <button type="button" data-m="build" aria-pressed="false">Собери систематику</button>
+      <button type="button" data-m="odd" aria-pressed="false">Кто лишний?</button>
+    </div>
+  </div>
+
+  <div class="dz-treewrap">
+    <div class="dz-bar">
+      <div class="dz-search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <input type="search" class="dz-q" placeholder="Найти: кошка, сосна, мухомор, амёба…" aria-label="Поиск организма или группы" autocomplete="off">
+        <div class="dz-sugg" role="listbox"></div>
+      </div>
+      <div class="dz-btns">
+        <button type="button" class="dz-btn dz-all">Раскрыть всё</button>
+        <button type="button" class="dz-btn dz-fold">Свернуть</button>
+        <button type="button" class="dz-btn dz-home" title="К центру" aria-label="К центру"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></button>
+      </div>
+    </div>
+    <div class="dz-main">
+      <div class="dz-stage">
+        <svg class="dz-svg" role="img" aria-label="Радиальное эволюционное древо: в центре общий предок, по кругам — домены, царства, типы и отделы, классы и виды"></svg>
+        <div class="dz-legend"></div>
+        <div class="dz-hint"><span class="dz-hm">Клик — раскрыть ветку · колёсико — зум · тяните — двигать</span><span class="dz-ht">Нажмите на узел · двумя пальцами — зум</span></div>
+        <div class="dz-loading">Выращиваем древо…</div>
+      </div>
+      <aside class="dz-card" aria-live="polite"></aside>
+    </div>
+    <div class="dz-timehead"><b>Шкала времени</b><span>когда появились группы · млн лет назад</span></div>
+    <div class="dz-time"><div class="dz-eras"></div><div class="dz-marks"></div><div class="dz-ticks"></div></div>
+  </div>
+
+  <div class="dz-game" aria-live="polite"></div>
+</div>
+<noscript><p>Для работы древа жизни включите JavaScript.</p></noscript>
+
+<style>
+.dz { --dz-g: #22c55e;
+  position: relative; box-sizing: border-box;
+  width: min(1180px, calc(100vw - 20px)); margin: 28px 0 40px calc(50% - min(590px, (100vw - 20px) / 2));
+  padding: 22px 24px 26px; border-radius: 28px; color: #d1fae5; line-height: 1.45;
+  background:
+    radial-gradient(900px 420px at 50% -8%, rgba(34,197,94,.16), transparent 62%),
+    radial-gradient(700px 380px at 90% 110%, rgba(167,139,250,.12), transparent 70%),
+    linear-gradient(180deg, #08110d, #050907);
+  border: 1px solid rgba(110,231,183,.16);
+  box-shadow: 0 40px 90px -40px rgba(2,12,8,.9), inset 0 1px 0 rgba(255,255,255,.05); }
+.dz *, .dz *::before, .dz *::after { box-sizing: border-box; }
+.dz button { font: inherit; color: inherit; }
+.dz button:focus-visible, .dz input:focus-visible { outline: 2px solid #6ee7b7; outline-offset: 2px; }
+.dz-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
+.dz-headtxt { min-width: 0; }
+.dz-kicker { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: #6ee7b7; font-weight: 700; }
+.dz-title { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 30px; color: #fff; line-height: 1.1; margin-top: 2px; }
+.dz-sub { color: #86b5a0; font-size: 14px; }
+.dz-mode { display: flex; padding: 4px; border-radius: 999px; background: rgba(255,255,255,.05); border: 1px solid rgba(110,231,183,.15); }
+.dz-mode button { border: 0; background: none; padding: 8px 15px; border-radius: 999px; cursor: pointer; font-weight: 700; font-size: 14px; color: #9cc9b4; transition: .2s; white-space: nowrap; }
+.dz-mode button.on { background: linear-gradient(180deg, #22c55e, #15803d); color: #fff; box-shadow: 0 6px 20px -6px rgba(34,197,94,.7); }
+
+.dz-bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 12px; }
+.dz-search { position: relative; flex: 1 1 320px; min-width: 0; }
+.dz-search svg { position: absolute; left: 14px; top: 50%; width: 18px; height: 18px; margin-top: -9px; fill: none; stroke: #6ee7b7; stroke-width: 2.2; stroke-linecap: round; pointer-events: none; }
+.dz-q { width: 100%; height: 44px; padding: 0 16px 0 42px; border-radius: 999px; font: inherit; font-size: 15px; color: #fff;
+  background: rgba(0,0,0,.35); border: 1px solid rgba(110,231,183,.25); outline: none; transition: .2s; }
+.dz-q::placeholder { color: #6f9483; }
+.dz-q:focus { border-color: #22c55e; box-shadow: 0 0 0 4px rgba(34,197,94,.15), 0 0 24px -6px rgba(34,197,94,.6); }
+.dz-sugg { position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 20; display: none; padding: 6px; border-radius: 16px;
+  background: rgba(6,16,12,.97); border: 1px solid rgba(110,231,183,.25); box-shadow: 0 20px 50px rgba(0,0,0,.6); max-height: 340px; overflow-y: auto; }
+.dz-sugg.on { display: block; }
+.dz-sugg button { display: flex; width: 100%; align-items: center; gap: 10px; padding: 8px 10px; border: 0; border-radius: 10px; background: none; cursor: pointer; text-align: left; font-size: 14.5px; }
+.dz-sugg button:hover, .dz-sugg button.act { background: rgba(34,197,94,.15); }
+.dz-sugg em { font-style: normal; font-size: 20px; width: 26px; text-align: center; flex: none; }
+.dz-sugg small { margin-left: auto; color: #86b5a0; font-size: 12px; white-space: nowrap; padding-left: 8px; }
+.dz-sugg mark { background: none; color: #4ade80; font-weight: 800; }
+.dz-sugg .dz-none { padding: 10px; color: #86b5a0; font-size: 14px; }
+.dz-btns { display: flex; gap: 8px; }
+.dz-btn { height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.05); cursor: pointer; font-weight: 700; font-size: 14px; transition: .2s; display: inline-flex; align-items: center; justify-content: center; }
+.dz-btn:hover { border-color: rgba(110,231,183,.5); background: rgba(34,197,94,.1); }
+.dz-btn svg { width: 18px; height: 18px; fill: none; stroke: #d1fae5; stroke-width: 2; stroke-linecap: round; }
+.dz-home { width: 44px; padding: 0; }
+
+.dz-main { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 18px; align-items: stretch; }
+.dz-stage { position: relative; height: clamp(460px, 74vh, 720px); border-radius: 24px; overflow: hidden; isolation: isolate; min-width: 0;
+  background:
+    radial-gradient(45% 45% at 50% 50%, rgba(167,139,250,.14), transparent 70%),
+    radial-gradient(30% 30% at 50% 50%, rgba(255,255,255,.06), transparent 70%),
+    linear-gradient(160deg, #0a1612, #03070a 75%);
+  border: 1px solid rgba(110,231,183,.18); box-shadow: inset 0 0 90px rgba(0,0,0,.65), 0 30px 60px -30px #000; }
+.dz-stage::before { content: ""; position: absolute; inset: -50%; z-index: 0; pointer-events: none; opacity: .7;
+  background-image:
+    radial-gradient(1.2px 1.2px at 20% 30%, rgba(255,255,255,.55), transparent),
+    radial-gradient(1px 1px at 70% 60%, rgba(167,243,208,.5), transparent),
+    radial-gradient(1.4px 1.4px at 40% 80%, rgba(196,181,253,.5), transparent),
+    radial-gradient(1px 1px at 85% 15%, rgba(255,255,255,.45), transparent),
+    radial-gradient(1px 1px at 10% 70%, rgba(125,211,252,.5), transparent);
+  background-size: 260px 260px, 330px 330px, 410px 410px, 290px 290px, 370px 370px; animation: dzDrift 120s linear infinite; }
+@keyframes dzDrift { to { transform: translate(130px, 90px); } }
+.dz-svg { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 1; cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; }
+.dz-svg:active { cursor: grabbing; }
+.dz-ring { fill: none; stroke: rgba(167,243,208,.08); stroke-dasharray: 2 6; }
+.dz-ringl { fill: rgba(167,243,208,.38); font-size: 11px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; text-anchor: middle; paint-order: stroke; stroke: #050b09; stroke-width: 4px; }
+.dz-link { fill: none; stroke-width: 1.6; stroke-opacity: .55; transition: stroke-opacity .3s, stroke-width .3s; }
+.dz-link.hl { stroke-opacity: 1; stroke-width: 3.2; stroke-dasharray: 7 7; animation: dzFlow 1s linear infinite; }
+.dz-dim .dz-link:not(.hl) { stroke-opacity: .22; }
+@keyframes dzFlow { to { stroke-dashoffset: -14; } }
+.dz-node { cursor: pointer; }
+.dz-node .dz-halo { fill: var(--c); opacity: .0; transition: opacity .3s; }
+.dz-node circle.dz-dot { fill: #07110d; stroke: var(--c); stroke-width: 2; transition: stroke-width .2s; }
+.dz-node:hover circle.dz-dot { stroke-width: 3.5; }
+.dz-node:hover .dz-halo { opacity: .25; }
+.dz-node.path .dz-halo { opacity: .35; }
+.dz-node.sel .dz-halo { opacity: .55; animation: dzHalo 1.8s ease-in-out infinite; }
+.dz-node.sel circle.dz-dot { stroke-width: 3.5; fill: #0d1f19; }
+@keyframes dzHalo { 50% { opacity: .2; } }
+.dz-node .dz-em { font-size: 15px; text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+.dz-node .dz-lbl { font-size: 12px; font-weight: 700; fill: #e2f5ec; paint-order: stroke; stroke: #050b09; stroke-width: 3.5px; stroke-linejoin: round; pointer-events: none; }
+.dz-node.big .dz-lbl { font-size: 14.5px; font-weight: 800; fill: #fff; }
+.dz-node.sp .dz-lbl { font-weight: 600; fill: #cfe9dc; font-size: 11.5px; }
+.dz-node.path .dz-lbl, .dz-node.sel .dz-lbl { fill: #fff; }
+.dz-dim .dz-node:not(.path):not(.sel) { opacity: .55; }
+.dz-node .dz-more { fill: var(--c); font-size: 10px; font-weight: 900; text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+.dz-node .dz-badge { fill: #07110d; stroke: var(--c); stroke-width: 1.4; }
+.dz-legend { position: absolute; left: 12px; bottom: 12px; z-index: 3; display: flex; flex-wrap: wrap; gap: 5px 12px; max-width: calc(100% - 24px); padding: 7px 12px; border-radius: 14px; font-size: 12.5px;
+  background: rgba(5,14,10,.72); border: 1px solid rgba(255,255,255,.1); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.dz-legend button { display: inline-flex; align-items: center; gap: 6px; border: 0; background: none; padding: 0; cursor: pointer; color: #e2f5ec; font-size: 12.5px; }
+.dz-legend i { width: 10px; height: 10px; border-radius: 50%; background: var(--c); box-shadow: 0 0 8px var(--c); }
+.dz-hint { position: absolute; right: 14px; top: 12px; z-index: 3; font-size: 12px; color: #86b5a0; pointer-events: none; transition: opacity .6s; text-align: right; }
+.dz-used .dz-hint { opacity: 0; }
+.dz-ht { display: none; }
+@media (hover: none) { .dz-hm { display: none; } .dz-ht { display: inline; } }
+.dz-loading { position: absolute; inset: 0; display: grid; place-items: center; z-index: 4; color: #a7f3d0; font-weight: 700; pointer-events: none; transition: opacity .4s; }
+.dz-ready .dz-loading { opacity: 0; }
+
+.dz-card { position: relative; padding: 18px; border-radius: 22px; overflow: hidden; min-width: 0; max-height: clamp(460px, 74vh, 720px); overflow-y: auto; scrollbar-width: thin; scrollbar-color: rgba(110,231,183,.3) transparent;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--c, #22c55e) 16%, rgba(255,255,255,.03)), rgba(255,255,255,.02) 55%); border: 1px solid color-mix(in srgb, var(--c, #22c55e) 35%, transparent);
+  box-shadow: 0 0 40px -18px var(--c, #22c55e); transition: border-color .4s, box-shadow .4s; }
+.dz-card.in > * { animation: dzIn .45s both; }
+.dz-card.in > *:nth-child(2) { animation-delay: .04s; } .dz-card.in > *:nth-child(3) { animation-delay: .08s; } .dz-card.in > *:nth-child(4) { animation-delay: .12s; } .dz-card.in > *:nth-child(n+5) { animation-delay: .16s; }
+@keyframes dzIn { from { opacity: 0; transform: translateY(8px); } }
+.dz-rank { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 11.5px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--c, #22c55e); background: color-mix(in srgb, var(--c, #22c55e) 14%, transparent); border: 1px solid color-mix(in srgb, var(--c, #22c55e) 45%, transparent); }
+.dz-card h3 { display: flex; align-items: center; gap: 10px; margin: 10px 0 2px; font-family: 'Montserrat', sans-serif; font-size: 23px; font-weight: 900; line-height: 1.15; color: #fff; }
+.dz-cem { flex: none; width: 48px; height: 48px; border-radius: 16px; display: grid; place-items: center; font-size: 28px; background: rgba(0,0,0,.35); border: 1px solid color-mix(in srgb, var(--c, #22c55e) 45%, transparent); box-shadow: 0 0 22px -6px var(--c, #22c55e); }
+.dz-lat { font-style: italic; color: #86b5a0; font-size: 14px; margin-bottom: 10px; }
+.dz-when { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: 12px; font-size: 13.5px; font-weight: 700; color: #fde68a; background: rgba(250,204,21,.08); border: 1px solid rgba(250,204,21,.3); margin-bottom: 10px; }
+.dz-feats { margin: 4px 0 12px; padding: 0; list-style: none; }
+.dz-feats li { position: relative; padding-left: 18px; margin-bottom: 6px; font-size: 14.5px; color: #d6efe3; }
+.dz-feats li::before { content: ""; position: absolute; left: 2px; top: .55em; width: 7px; height: 7px; border-radius: 50%; background: var(--c, #22c55e); box-shadow: 0 0 6px var(--c, #22c55e); }
+.dz-sec { font-size: 11.5px; text-transform: uppercase; letter-spacing: .1em; color: #6ee7b7; font-weight: 800; margin: 12px 0 8px; }
+.dz-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.dz-chips button { display: inline-flex; align-items: center; gap: 5px; padding: 5px 10px; border-radius: 999px; font-size: 13px; font-weight: 700; cursor: pointer; border: 1px solid rgba(255,255,255,.12); background: rgba(0,0,0,.25); transition: .2s; }
+.dz-chips button:hover { border-color: var(--c, #22c55e); background: color-mix(in srgb, var(--c, #22c55e) 15%, transparent); }
+.dz-fact { margin: 8px 0 4px; padding: 10px 12px; border-radius: 14px; background: rgba(250,204,21,.07); border: 1px solid rgba(250,204,21,.25); color: #fef3c7; font-size: 14.5px; }
+.dz-ladder { position: relative; margin: 0; padding: 0; list-style: none; }
+.dz-ladder::before { content: ""; position: absolute; left: 9px; top: 12px; bottom: 12px; width: 2px; background: linear-gradient(180deg, rgba(255,255,255,.4), var(--c, #22c55e)); opacity: .5; }
+.dz-ladder li { position: relative; display: flex; align-items: baseline; gap: 8px; padding: 4px 0 4px 28px; font-size: 14.5px; }
+.dz-ladder li::before { content: ""; position: absolute; left: 4px; top: 10px; width: 12px; height: 12px; border-radius: 50%; background: #07110d; border: 2px solid var(--lc, var(--c, #22c55e)); }
+.dz-ladder li:last-child::before { background: var(--c, #22c55e); box-shadow: 0 0 10px var(--c, #22c55e); }
+.dz-ladder small { flex: none; width: 82px; color: #86b5a0; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
+.dz-ladder b { color: #fff; font-weight: 700; }
+.dz-ladder button { border: 0; background: none; padding: 0; cursor: pointer; color: #fff; font-weight: 700; text-align: left; text-decoration: underline dotted rgba(255,255,255,.35); text-underline-offset: 3px; }
+.dz-ladder button:hover { color: #86efac; }
+.dz-lesson { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; padding: 8px 14px; border-radius: 999px; font-weight: 700; font-size: 14px; text-decoration: none; color: #86efac !important; background: rgba(34,197,94,.1); border: 1px solid rgba(34,197,94,.4); transition: .2s; }
+.dz-lesson:hover { background: rgba(34,197,94,.22); color: #fff !important; }
+.dz-note { font-size: 13px; color: #9cc9b4; margin: 8px 0 0; }
+.dz-cardbtns { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.dz-cardbtns button { padding: 6px 12px; border-radius: 999px; border: 1px solid rgba(255,255,255,.15); background: rgba(255,255,255,.05); cursor: pointer; font-weight: 700; font-size: 13px; }
+.dz-cardbtns button:hover { border-color: rgba(110,231,183,.5); }
+
+.dz-timehead { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin: 20px 0 8px; font-size: 13px; color: #86b5a0; }
+.dz-timehead b { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: #6ee7b7; }
+.dz-time { position: relative; height: 172px; border-radius: 18px; padding: 0 14px; background: rgba(0,0,0,.25); border: 1px solid rgba(110,231,183,.12); overflow: hidden; }
+.dz-eras { position: absolute; left: 14px; right: 14px; top: 64px; height: 22px; display: flex; border-radius: 8px; overflow: hidden; }
+.dz-eras div { position: relative; height: 100%; display: grid; place-items: center; font-size: 11px; font-weight: 800; letter-spacing: .04em; color: rgba(255,255,255,.85); white-space: nowrap; overflow: hidden; border-right: 1px solid rgba(0,0,0,.4); }
+.dz-marks { position: absolute; left: 14px; right: 14px; top: 0; bottom: 0; }
+.dz-mk { position: absolute; transform: translateX(-50%); border: 0; padding: 0; background: none; cursor: pointer; display: flex; flex-direction: column; align-items: center; }
+.dz-mk em { font-style: normal; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-size: 14px; background: #07110d; border: 1.5px solid var(--c); box-shadow: 0 0 10px -2px var(--c); transition: transform .2s; }
+.dz-mk::after { content: ""; width: 1.5px; height: var(--h, 10px); background: linear-gradient(var(--c), transparent); opacity: .7; }
+.dz-mk.dn { flex-direction: column-reverse; } .dz-mk.dn::after { background: linear-gradient(transparent, var(--c)); }
+.dz-mk:hover em, .dz-mk.on em { transform: scale(1.25); box-shadow: 0 0 16px var(--c); }
+.dz-mk span { position: absolute; bottom: calc(100% + 4px); left: 50%; transform: translateX(-50%); white-space: nowrap; font-size: 12px; font-weight: 700; padding: 3px 8px; border-radius: 8px; background: rgba(2,8,6,.95); border: 1px solid rgba(255,255,255,.15); opacity: 0; pointer-events: none; transition: opacity .2s; z-index: 2; }
+.dz-mk.dn span { bottom: auto; top: calc(100% + 4px); }
+.dz-mk:hover span, .dz-mk:focus-visible span { opacity: 1; }
+.dz-ticks { position: absolute; left: 14px; right: 14px; bottom: 4px; height: 14px; font-size: 10.5px; color: #6f9483; }
+.dz-ticks i { position: absolute; transform: translateX(-50%); font-style: normal; white-space: nowrap; }
+
+.dz-game { display: none; }
+.dz-gm .dz-treewrap { display: none; }
+.dz-gm .dz-game { display: block; animation: dzIn .45s; }
+.dz-gwrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 20px; align-items: start; }
+.dz-gcard { padding: 20px; border-radius: 24px; background: linear-gradient(160deg, color-mix(in srgb, var(--c, #22c55e) 16%, rgba(255,255,255,.03)), rgba(255,255,255,.02) 60%); border: 1px solid color-mix(in srgb, var(--c, #22c55e) 35%, transparent); position: relative; overflow: hidden; }
+.dz-gtop { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; font-size: 14px; color: #9cc9b4; }
+.dz-score { display: flex; gap: 8px; }
+.dz-score span { padding: 5px 12px; border-radius: 999px; background: rgba(0,0,0,.3); border: 1px solid rgba(255,255,255,.1); }
+.dz-score b { color: #fff; }
+.dz-hero { text-align: center; padding: 10px 0 6px; }
+.dz-hero .dz-big { font-size: 74px; line-height: 1; filter: drop-shadow(0 0 24px var(--c, #22c55e)); animation: dzFloat 4s ease-in-out infinite; }
+@keyframes dzFloat { 50% { transform: translateY(-6px) rotate(-3deg); } }
+.dz-hero h3 { margin: 10px 0 0; font-family: 'Montserrat', sans-serif; font-size: 26px; font-weight: 900; color: #fff; }
+.dz-hero .dz-lat { margin: 0; }
+.dz-gq { font-weight: 800; font-size: 18px; color: #fff; margin: 0 0 12px; }
+.dz-gq small { display: block; font-weight: 500; font-size: 14px; color: #9cc9b4; margin-top: 2px; }
+.dz-opts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.dz-opt { min-height: 54px; padding: 10px 14px; border-radius: 16px; border: 1px solid rgba(255,255,255,.14); background: rgba(0,0,0,.28); cursor: pointer; font-weight: 700; font-size: 15px; text-align: left; transition: transform .15s, border-color .2s, background .2s; display: flex; align-items: center; gap: 10px; }
+.dz-opt em { font-style: normal; font-size: 26px; flex: none; }
+.dz-opt:hover { border-color: rgba(110,231,183,.55); transform: translateY(-2px); }
+.dz-opt.ok { border-color: #22c55e; background: rgba(34,197,94,.2); box-shadow: 0 0 24px -6px #22c55e; }
+.dz-opt.bad { border-color: #ef4444; background: rgba(239,68,68,.15); animation: dzShake .4s; }
+.dz-opt[disabled] { cursor: default; transform: none; }
+@keyframes dzShake { 20%, 60% { transform: translateX(-6px); } 40%, 80% { transform: translateX(6px); } }
+.dz-slots { list-style: none; margin: 0; padding: 0; position: relative; }
+.dz-slots::before { content: ""; position: absolute; left: 15px; top: 18px; bottom: 18px; width: 2px; background: rgba(255,255,255,.1); }
+.dz-slots li { position: relative; display: flex; align-items: center; gap: 12px; padding: 7px 0; }
+.dz-slots li > i { position: relative; z-index: 1; flex: none; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; font-style: normal; font-size: 13px; font-weight: 900; background: #0a1511; border: 2px solid rgba(255,255,255,.15); color: #86b5a0; transition: .3s; }
+.dz-slots li small { width: 92px; flex: none; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: #86b5a0; }
+.dz-slots li b { flex: 1; min-width: 0; padding: 8px 12px; border-radius: 12px; border: 1px dashed rgba(255,255,255,.15); color: #6f9483; font-weight: 700; transition: .3s; }
+.dz-slots li.cur > i { border-color: #facc15; color: #facc15; box-shadow: 0 0 14px rgba(250,204,21,.6); }
+.dz-slots li.cur b { border-color: rgba(250,204,21,.6); color: #fde68a; animation: dzBlink 1.4s ease-in-out infinite; }
+@keyframes dzBlink { 50% { border-color: rgba(250,204,21,.2); } }
+.dz-slots li.done > i { background: #22c55e; border-color: #22c55e; color: #fff; box-shadow: 0 0 12px rgba(34,197,94,.7); }
+.dz-slots li.done b { border-style: solid; border-color: color-mix(in srgb, var(--c, #22c55e) 60%, transparent); background: color-mix(in srgb, var(--c, #22c55e) 14%, transparent); color: #fff; animation: dzPop .45s; }
+@keyframes dzPop { 0% { transform: scale(.9); } 60% { transform: scale(1.04); } }
+.dz-res { margin-top: 14px; padding: 14px; border-radius: 16px; background: rgba(34,197,94,.1); border: 1px solid rgba(34,197,94,.4); font-size: 15px; }
+.dz-res.bad { background: rgba(239,68,68,.08); border-color: rgba(239,68,68,.4); }
+.dz-res b { color: #fff; }
+.dz-next { margin-top: 14px; width: 100%; height: 50px; border: 0; border-radius: 16px; cursor: pointer; font-weight: 800 !important; font-size: 16px !important; color: #fff !important; background: linear-gradient(180deg, #22c55e, #15803d); box-shadow: 0 10px 26px -10px rgba(34,197,94,.8); transition: transform .15s; }
+.dz-next:hover { transform: translateY(-2px); }
+.dz-sp { position: absolute; width: 9px; height: 9px; margin: -4.5px 0 0 -4.5px; border-radius: 50%; background: #22c55e; pointer-events: none; animation: dzSpark 1.1s cubic-bezier(.1,.7,.3,1) forwards; z-index: 5; }
+.dz-sp:nth-child(3n) { background: #facc15; } .dz-sp:nth-child(3n+1) { background: #38bdf8; }
+@keyframes dzSpark { to { transform: translate(var(--dx), var(--dy)) scale(.3); opacity: 0; } }
+.dz-oddgrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.dz-oc { position: relative; padding: 18px 10px 14px; border-radius: 20px; border: 1px solid rgba(255,255,255,.12); background: rgba(0,0,0,.28); cursor: pointer; text-align: center; transition: transform .2s, border-color .2s, background .2s; }
+.dz-oc em { display: block; font-style: normal; font-size: 52px; line-height: 1.1; transition: transform .3s; }
+.dz-oc b { display: block; margin-top: 8px; font-size: 15px; color: #fff; line-height: 1.2; }
+.dz-oc small { display: block; margin-top: 4px; font-size: 12px; color: #86b5a0; min-height: 1.3em; }
+.dz-oc:hover { transform: translateY(-4px); border-color: rgba(110,231,183,.5); }
+.dz-oc:hover em { transform: scale(1.1) rotate(-6deg); }
+.dz-oc.ok { border-color: #22c55e; background: rgba(34,197,94,.18); box-shadow: 0 0 30px -8px #22c55e; }
+.dz-oc.bad { border-color: #ef4444; background: rgba(239,68,68,.14); animation: dzShake .4s; }
+.dz-oc.same { border-color: rgba(110,231,183,.35); }
+.dz-oc[disabled] { cursor: default; transform: none; }
+
+@media (max-width: 960px) {
+  .dz-main { grid-template-columns: minmax(0, 1fr); }
+  .dz-card { max-height: none; }
+  .dz-gwrap { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 720px) {
+  .dz { padding: 16px 12px 18px; border-radius: 22px; }
+  .dz-title { font-size: 24px; }
+  .dz-mode { width: 100%; } .dz-mode button { flex: 1; padding: 8px 4px; font-size: 12.5px; white-space: normal; line-height: 1.15; }
+  .dz-bar { gap: 8px; } .dz-search { flex-basis: 100%; }
+  .dz-btns { width: 100%; } .dz-btns .dz-btn { flex: 1; font-size: 13px; padding: 0 8px; height: 40px; } .dz-btns .dz-home { flex: 0 0 40px; }
+  .dz-stage { height: min(118vw, 560px); border-radius: 18px; }
+  .dz-hint { display: none; }
+  .dz-legend { font-size: 11px; gap: 4px 9px; left: 8px; bottom: 8px; padding: 6px 9px; }
+  .dz-legend button { font-size: 11px; }
+  .dz-card { padding: 15px; }
+  .dz-card h3 { font-size: 20px; }
+  .dz-time { padding: 0 8px; }
+  .dz-eras, .dz-marks, .dz-ticks { left: 8px; right: 8px; }
+  .dz-mk em { width: 22px; height: 22px; font-size: 12px; }
+  .dz-eras div { font-size: 9.5px; }
+  .dz-opts { grid-template-columns: minmax(0, 1fr); }
+  .dz-oddgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .dz-oc em { font-size: 44px; }
+  .dz-slots li small { width: 74px; font-size: 11px; }
+  .dz-gcard { padding: 16px; }
+  .dz-hero .dz-big { font-size: 62px; }
+}
+@media (prefers-reduced-motion: reduce) { .dz *, .dz *::before, .dz *::after { animation: none !important; transition: none !important; } }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" defer></script>
+<script src="{{ "js/drevo.js" | relURL }}" defer></script>
