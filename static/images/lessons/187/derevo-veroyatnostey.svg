@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="500" fill="#fff"/>
+  <text x="450" y="36" font-size="22" font-weight="bold" text-anchor="middle" fill="#312e81">Дерево вероятностей для скрещивания Aa × Aa</text>
+  <g font-size="15" fill="#555" text-anchor="middle">
+    <text x="90" y="72">старт</text>
+    <text x="325" y="72">гамета матери ♀</text>
+    <text x="585" y="72">гамета отца ♂</text>
+    <text x="790" y="72">потомок</text>
+  </g>
+  <g stroke="#94a3b8" stroke-width="2.5" fill="none">
+    <line x1="110" y1="270" x2="302" y2="170"/>
+    <line x1="110" y1="270" x2="302" y2="370"/>
+    <line x1="348" y1="165" x2="562" y2="118"/>
+    <line x1="348" y1="165" x2="562" y2="212"/>
+    <line x1="348" y1="375" x2="562" y2="328"/>
+    <line x1="348" y1="375" x2="562" y2="422"/>
+  </g>
+  <g font-size="18" font-weight="bold" fill="#4F46E5" text-anchor="middle">
+    <text x="195" y="210">½</text>
+    <text x="195" y="345">½</text>
+    <text x="455" y="130">½</text>
+    <text x="455" y="212">½</text>
+    <text x="455" y="340">½</text>
+    <text x="455" y="422">½</text>
+  </g>
+  <circle cx="90" cy="270" r="20" fill="#312e81"/>
+  <g fill="#FDE7D3" stroke="#c2410c" stroke-width="2">
+    <circle cx="325" cy="165" r="24"/><circle cx="325" cy="375" r="24"/>
+  </g>
+  <g fill="#E0E7FF" stroke="#4F46E5" stroke-width="2">
+    <circle cx="585" cy="115" r="24"/><circle cx="585" cy="215" r="24"/>
+    <circle cx="585" cy="325" r="24"/><circle cx="585" cy="425" r="24"/>
+  </g>
+  <g font-size="22" font-weight="bold" text-anchor="middle" fill="#222">
+    <text x="325" y="173">A</text><text x="325" y="383">a</text>
+    <text x="585" y="123">A</text><text x="585" y="223">a</text>
+    <text x="585" y="333">A</text><text x="585" y="433">a</text>
+  </g>
+  <g stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="5 4">
+    <line x1="612" y1="115" x2="700" y2="115"/><line x1="612" y1="215" x2="700" y2="215"/>
+    <line x1="612" y1="325" x2="700" y2="325"/><line x1="612" y1="425" x2="700" y2="425"/>
+  </g>
+  <g font-size="20" fill="#222">
+    <text x="710" y="122"><tspan font-weight="bold">AA</tspan><tspan dx="14">½ · ½ = ¼</tspan></text>
+    <text x="710" y="222"><tspan font-weight="bold">Aa</tspan><tspan dx="14">½ · ½ = ¼</tspan></text>
+    <text x="710" y="332"><tspan font-weight="bold">aA</tspan><tspan dx="14">½ · ½ = ¼</tspan></text>
+    <text x="710" y="432"><tspan font-weight="bold" fill="#c2410c">aa</tspan><tspan dx="14">½ · ½ = ¼</tspan></text>
+  </g>
+  <text x="450" y="484" font-size="16" text-anchor="middle" fill="#333">Вдоль ветки вероятности перемножаются, между листьями — складываются: P(Aa) = ¼ + ¼ = ½.</text>
+</svg>

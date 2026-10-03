@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="470" fill="#fff"/>
+<text x="450" y="36" font-size="22" font-weight="bold" text-anchor="middle" fill="#312e81">Почему в формуле стоит C(n, k): ровно 1 ребёнок aa из 4</text>
+<g font-size="15" fill="#555" text-anchor="middle">
+<text x="210" y="72">1-й ребёнок</text>
+<text x="310" y="72">2-й ребёнок</text>
+<text x="410" y="72">3-й ребёнок</text>
+<text x="510" y="72">4-й ребёнок</text>
+<text x="730" y="72">вероятность последовательности</text></g>
+<text x="60" y="121" font-size="16" fill="#555">вариант 1</text>
+<circle cx="210" cy="115" r="26" fill="#FDE7D3" stroke="#c2410c" stroke-width="2.5"/>
+<text x="210" y="122" font-size="19" font-weight="bold" text-anchor="middle" fill="#c2410c">aa</text>
+<circle cx="310" cy="115" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="310" y="121" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<circle cx="410" cy="115" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="410" y="121" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<circle cx="510" cy="115" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="510" y="121" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<text x="610" y="122" font-size="19" fill="#222">¼ · ¾ · ¾ · ¾ = 27/256</text>
+<text x="60" y="193" font-size="16" fill="#555">вариант 2</text>
+<circle cx="210" cy="187" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="210" y="193" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<circle cx="310" cy="187" r="26" fill="#FDE7D3" stroke="#c2410c" stroke-width="2.5"/>
+<text x="310" y="194" font-size="19" font-weight="bold" text-anchor="middle" fill="#c2410c">aa</text>
+<circle cx="410" cy="187" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="410" y="193" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<circle cx="510" cy="187" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="510" y="193" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<text x="610" y="194" font-size="19" fill="#222">¾ · ¼ · ¾ · ¾ = 27/256</text>
+<text x="60" y="265" font-size="16" fill="#555">вариант 3</text>
+<circle cx="210" cy="259" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="210" y="265" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<circle cx="310" cy="259" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="310" y="265" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<circle cx="410" cy="259" r="26" fill="#FDE7D3" stroke="#c2410c" stroke-width="2.5"/>
+<text x="410" y="266" font-size="19" font-weight="bold" text-anchor="middle" fill="#c2410c">aa</text>
+<circle cx="510" cy="259" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="510" y="265" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<text x="610" y="266" font-size="19" fill="#222">¾ · ¾ · ¼ · ¾ = 27/256</text>
+<text x="60" y="337" font-size="16" fill="#555">вариант 4</text>
+<circle cx="210" cy="331" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="210" y="337" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<circle cx="310" cy="331" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="310" y="337" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<circle cx="410" cy="331" r="26" fill="#E0E7FF" stroke="#4F46E5" stroke-width="2"/>
+<text x="410" y="337" font-size="15" text-anchor="middle" fill="#312e81">A_</text>
+<circle cx="510" cy="331" r="26" fill="#FDE7D3" stroke="#c2410c" stroke-width="2.5"/>
+<text x="510" y="338" font-size="19" font-weight="bold" text-anchor="middle" fill="#c2410c">aa</text>
+<text x="610" y="338" font-size="19" fill="#222">¾ · ¾ · ¾ · ¼ = 27/256</text>
+<line x1="60" y1="408" x2="840" y2="408" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="450" y="440" font-size="18" text-anchor="middle" fill="#222">Вариантов C(4, 1) = 4, у каждого вероятность (¼)¹·(¾)³ = 27/256. Итого: 4 · 27/256 = 108/256 ≈ 0,42</text>
+</svg>
