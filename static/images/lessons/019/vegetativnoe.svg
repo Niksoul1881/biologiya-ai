@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<rect width="900" height="560" fill="#ffffff"/>
+<rect x="20" y="170" width="260" height="40" fill="#c69c6d" opacity="0.55"/><line x1="20" y1="170" x2="280" y2="170" stroke="#8b5a2b" stroke-width="3"/>
+<ellipse cx="50.400000000000006" cy="147.6" rx="9.799999999999999" ry="19.599999999999998" transform="rotate(-35 50.400000000000006 147.6)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="89.6" cy="147.6" rx="9.799999999999999" ry="19.599999999999998" transform="rotate(35 89.6 147.6)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="70" cy="147.6" rx="9.799999999999999" ry="19.599999999999998" transform="rotate(0 70 147.6)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<path d="M70,170 q-12.0,11.0 -19.200000000000003,22" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M70,170 q-4.0,11.0 -6.4,22" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M70,170 q4.0,11.0 6.4,22" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M70,170 q12.0,11.0 19.200000000000003,22" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M80,168 Q130,140 170,168 Q210,140 250,168" stroke="#4f8a2b" stroke-width="3" fill="none"/>
+<ellipse cx="157.4" cy="155.6" rx="6.3" ry="12.6" transform="rotate(-35 157.4 155.6)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="182.6" cy="155.6" rx="6.3" ry="12.6" transform="rotate(35 182.6 155.6)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="170" cy="155.6" rx="6.3" ry="12.6" transform="rotate(0 170 155.6)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<path d="M170,170 q-8.0,7.0 -12.8,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M170,170 q0.0,7.0 0.0,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M170,170 q8.0,7.0 12.8,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<ellipse cx="241.6" cy="160.4" rx="4.2" ry="8.4" transform="rotate(-35 241.6 160.4)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="258.4" cy="160.4" rx="4.2" ry="8.4" transform="rotate(35 258.4 160.4)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="250" cy="160.4" rx="4.2" ry="8.4" transform="rotate(0 250 160.4)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<path d="M250,170 q-4.0,4.0 -6.4,8" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M250,170 q4.0,4.0 6.4,8" stroke="#a0784a" stroke-width="2" fill="none"/>
+<text x="150" y="240" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Усы</text>
+<text x="150" y="260" text-anchor="middle" fill="#555">земляника, хлорофитум</text>
+<rect x="320" y="120" width="260" height="40" fill="#c69c6d" opacity="0.55"/><line x1="320" y1="120" x2="580" y2="120" stroke="#8b5a2b" stroke-width="3"/>
+<line x1="450" y1="120" x2="450" y2="40" stroke="#4f8a2b" stroke-width="4"/>
+<ellipse cx="430" cy="60" rx="20" ry="8" transform="rotate(-25 430 60)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="470" cy="75" rx="20" ry="8" transform="rotate(25 470 75)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="435" cy="95" rx="18" ry="7" transform="rotate(-20 435 95)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="450" cy="150" rx="45" ry="25" fill="#d9b26b" stroke="#8a6a2a" stroke-width="2"/>
+<circle cx="425" cy="142" r="3" fill="#6b4a1a"/>
+<circle cx="460" cy="138" r="3" fill="#6b4a1a"/>
+<circle cx="475" cy="158" r="3" fill="#6b4a1a"/>
+<circle cx="438" cy="163" r="3" fill="#6b4a1a"/>
+<path d="M450,170 q-12.0,7.0 -19.200000000000003,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M450,170 q-4.0,7.0 -6.4,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M450,170 q4.0,7.0 6.4,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M450,170 q12.0,7.0 19.200000000000003,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<text x="505" y="150" font-size="13" fill="#555">глазки —</text><text x="505" y="166" font-size="13" fill="#555">почки</text>
+<text x="450" y="240" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Клубни</text>
+<text x="450" y="260" text-anchor="middle" fill="#555">картофель, топинамбур</text>
+<rect x="620" y="120" width="260" height="40" fill="#c69c6d" opacity="0.55"/><line x1="620" y1="120" x2="880" y2="120" stroke="#8b5a2b" stroke-width="3"/>
+<path d="M750,105 C710,110 705,170 750,178 C795,170 790,110 750,105 Z" fill="#e8c9a0" stroke="#a0784a" stroke-width="2"/>
+<path d="M750,112 C725,120 722,165 750,170 C778,165 775,120 750,112 Z" fill="none" stroke="#a0784a" stroke-width="1.5"/>
+<ellipse cx="805" cy="165" rx="13" ry="16" fill="#e8c9a0" stroke="#a0784a" stroke-width="2"/>
+<path d="M742,108 Q734,60 726,30" stroke="#4f8a2b" stroke-width="5" fill="none"/>
+<path d="M750,108 Q750,60 750,30" stroke="#4f8a2b" stroke-width="5" fill="none"/>
+<path d="M758,108 Q766,60 774,30" stroke="#4f8a2b" stroke-width="5" fill="none"/>
+<path d="M750,178 q-16.0,8.0 -25.6,16" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M750,178 q-8.0,8.0 -12.8,16" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M750,178 q0.0,8.0 0.0,16" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M750,178 q8.0,8.0 12.8,16" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M750,178 q16.0,8.0 25.6,16" stroke="#a0784a" stroke-width="2" fill="none"/>
+<text x="822" y="150" font-size="13" fill="#555">детка</text>
+<text x="750" y="240" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Луковицы</text>
+<text x="750" y="260" text-anchor="middle" fill="#555">лук, тюльпан, чеснок</text>
+<rect x="110" y="350" width="80" height="110" rx="8" fill="#dff1fb" stroke="#6a8fa3" stroke-width="2.5"/>
+<rect x="112" y="385" width="76" height="73" fill="#9fd0ef" opacity="0.6"/>
+<line x1="150" y1="445" x2="150" y2="310" stroke="#4f8a2b" stroke-width="4"/>
+<ellipse cx="130" cy="325" rx="20" ry="8" transform="rotate(-25 130 325)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="170" cy="340" rx="20" ry="8" transform="rotate(25 170 340)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<path d="M150,445 q-16.0,7.0 -25.6,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M150,445 q-8.0,7.0 -12.8,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M150,445 q0.0,7.0 0.0,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M150,445 q8.0,7.0 12.8,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M150,445 q16.0,7.0 25.6,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<text x="200" y="400" font-size="13" fill="#555">корни в воде</text>
+<text x="150" y="520" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Черенки</text>
+<text x="150" y="540" text-anchor="middle" fill="#555">смородина, тополь, традесканция</text>
+<rect x="320" y="430" width="260" height="40" fill="#c69c6d" opacity="0.55"/><line x1="320" y1="430" x2="580" y2="430" stroke="#8b5a2b" stroke-width="3"/>
+<line x1="360" y1="430" x2="360" y2="320" stroke="#7a5a2b" stroke-width="6"/>
+<path d="M360,380 Q420,450 480,440 Q520,430 530,370" stroke="#7a5a2b" stroke-width="4" fill="none"/>
+<ellipse cx="518" cy="360" rx="14" ry="6" transform="rotate(-30 518 360)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="542" cy="372" rx="14" ry="6" transform="rotate(30 542 372)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="348" cy="330" rx="14" ry="6" transform="rotate(-30 348 330)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="372" cy="340" rx="14" ry="6" transform="rotate(30 372 340)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<path d="M450,430 q15,-14 30,0" fill="#c69c6d" stroke="#8b5a2b" stroke-width="2"/>
+<path d="M475,445 q-12.0,7.0 -19.200000000000003,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M475,445 q-4.0,7.0 -6.4,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M475,445 q4.0,7.0 6.4,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M475,445 q12.0,7.0 19.200000000000003,14" stroke="#a0784a" stroke-width="2" fill="none"/>
+<text x="450" y="496" font-size="13" fill="#555" text-anchor="middle">ветку пригнули и присыпали</text>
+<text x="450" y="520" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Отводки</text>
+<text x="450" y="540" text-anchor="middle" fill="#555">смородина, крыжовник</text>
+<rect x="620" y="450" width="260" height="40" fill="#c69c6d" opacity="0.55"/><line x1="620" y1="450" x2="880" y2="450" stroke="#8b5a2b" stroke-width="3"/>
+<rect x="740" y="375" width="20" height="75" fill="#8a6a3a" stroke="#5a3a1a" stroke-width="1.5"/>
+<path d="M750,450 q-16.0,9.0 -25.6,18" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M750,450 q-8.0,9.0 -12.8,18" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M750,450 q0.0,9.0 0.0,18" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M750,450 q8.0,9.0 12.8,18" stroke="#a0784a" stroke-width="2" fill="none"/>
+<path d="M750,450 q16.0,9.0 25.6,18" stroke="#a0784a" stroke-width="2" fill="none"/>
+<rect x="742" y="320" width="16" height="60" fill="#a7c957" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="730" cy="325" rx="16" ry="6" transform="rotate(-30 730 325)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<ellipse cx="770" cy="335" rx="16" ry="6" transform="rotate(30 770 335)" fill="#7cbf4f" stroke="#3b6b20" stroke-width="1.5"/>
+<rect x="736" y="370" width="28" height="14" fill="#f2e2b0" stroke="#a08c40" stroke-width="1.5"/>
+<text x="775" y="350" font-size="13" fill="#3b6b20">привой (сорт)</text>
+<text x="775" y="381" font-size="13" fill="#8a6a00">обвязка</text>
+<text x="775" y="420" font-size="13" fill="#5a3a1a">подвой (с корнями)</text>
+<text x="750" y="520" text-anchor="middle" font-weight="bold" font-size="17" fill="#222">Прививка</text>
+<text x="750" y="540" text-anchor="middle" fill="#555">яблоня, груша, вишня, роза</text>
+</svg>

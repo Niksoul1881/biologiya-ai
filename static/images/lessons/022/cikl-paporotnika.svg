@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666"/></marker></defs>
+<rect width="900" height="600" fill="#ffffff"/>
+<text x="450" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#2f5d1e">Цикл развития папоротника (щитовник мужской)</text>
+<path d="M450,300 m-360,0 a360,240 0 0,1 720,0 Z" fill="#fbf1e2"/>
+<path d="M450,300 m-360,0 a360,240 0 0,0 720,0 Z" fill="#eef7e6"/>
+<text x="450" y="292" text-anchor="middle" font-size="15" font-weight="bold" fill="#8a5a10">Бесполое поколение — большой папоротник (спорофит)</text>
+<text x="450" y="318" text-anchor="middle" font-size="15" font-weight="bold" fill="#2f6b1e">Половое поколение — маленький заросток (гаметофит)</text>
+<path d="M134.7,233.5 A330,225 0 0,1 192.9,158.9" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M305.5,97.7 A330,225 0 0,1 451.5,75.0" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M591.9,96.9 A330,225 0 0,1 691.7,146.8" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M776.4,266.6 A330,225 0 0,1 776.4,333.4" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M691.7,453.2 A330,225 0 0,1 591.9,503.1" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M451.5,525.0 A330,225 0 0,1 305.5,502.3" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M192.9,441.1 A330,225 0 0,1 134.7,366.5" stroke="#888" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<rect x="20" y="266" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="120" y="290" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Взрослый папоротник</text>
+<text x="120" y="309" text-anchor="middle" font-size="13" fill="#555">корневище, корни, крупные</text>
+<text x="120" y="325" text-anchor="middle" font-size="13" fill="#555">листья</text>
+<rect x="144" y="90" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="244" y="114" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Сорусы</text>
+<text x="244" y="133" text-anchor="middle" font-size="13" fill="#555">на нижней стороне листа, в</text>
+<text x="244" y="149" text-anchor="middle" font-size="13" fill="#555">спорангиях — споры</text>
+<rect x="423" y="47" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="523" y="71" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Споры</text>
+<text x="523" y="90" text-anchor="middle" font-size="13" fill="#555">высыпаются и разносятся</text>
+<text x="523" y="106" text-anchor="middle" font-size="13" fill="#555">ветром</text>
+<rect x="647" y="168" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="747" y="192" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Заросток</text>
+<text x="747" y="211" text-anchor="middle" font-size="13" fill="#555">зелёная пластинка ~1 см с</text>
+<text x="747" y="227" text-anchor="middle" font-size="13" fill="#555">ризоидами</text>
+<rect x="647" y="364" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="747" y="388" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Оплодотворение</text>
+<text x="747" y="407" text-anchor="middle" font-size="13" fill="#555">сперматозоид плывёт к</text>
+<text x="747" y="423" text-anchor="middle" font-size="13" fill="#555">яйцеклетке в капле воды</text>
+<rect x="423" y="485" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="523" y="509" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Зигота</text>
+<text x="523" y="528" text-anchor="middle" font-size="13" fill="#555">на заростке из неё растёт</text>
+<text x="523" y="544" text-anchor="middle" font-size="13" fill="#555">зародыш</text>
+<rect x="144" y="442" width="200" height="68" rx="12" fill="#ffffff" stroke="#7a9a5a" stroke-width="2"/>
+<text x="244" y="466" text-anchor="middle" font-weight="bold" font-size="16" fill="#222">Молодое растение</text>
+<text x="244" y="485" text-anchor="middle" font-size="13" fill="#555">заросток отмирает,</text>
+<text x="244" y="501" text-anchor="middle" font-size="13" fill="#555">папоротник растёт сам</text>
+<text x="450" y="590" text-anchor="middle" font-size="13" fill="#666">У папоротника, в отличие от мха, главное поколение — бесполое: большое растение со спорами</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Arial, Helvetica, sans-serif" font-size="17">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/>
+    </marker>
+  </defs>
+  <rect width="900" height="470" fill="#ffffff"/>
+
+  <!-- ОТКРЫТО -->
+  <text x="225" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#2f5d1e">Устьице открыто</text>
+  <text x="225" y="60" text-anchor="middle" font-size="15" fill="#555">в клетках много воды, они изогнуты</text>
+  <g transform="translate(225,220)">
+    <!-- левая замыкающая клетка -->
+    <path d="M-10,-120 C-90,-120 -110,-40 -110,0 C-110,40 -90,120 -10,120 C-45,80 -50,40 -50,0 C-50,-40 -45,-80 -10,-120 Z" fill="#9fd27a" stroke="#3b6b20" stroke-width="3"/>
+    <!-- правая -->
+    <path d="M10,-120 C90,-120 110,-40 110,0 C110,40 90,120 10,120 C45,80 50,40 50,0 C50,-40 45,-80 10,-120 Z" fill="#9fd27a" stroke="#3b6b20" stroke-width="3"/>
+    <!-- толстые внутренние стенки -->
+    <path d="M-10,-120 C-45,-80 -50,-40 -50,0 C-50,40 -45,80 -10,120" stroke="#2a4d14" stroke-width="9" fill="none"/>
+    <path d="M10,-120 C45,-80 50,-40 50,0 C50,40 45,80 10,120" stroke="#2a4d14" stroke-width="9" fill="none"/>
+    <!-- хлоропласты -->
+    <g fill="#2e8b2e">
+      <ellipse cx="-80" cy="-40" rx="8" ry="5"/><ellipse cx="-85" cy="10" rx="8" ry="5"/><ellipse cx="-75" cy="60" rx="8" ry="5"/>
+      <ellipse cx="80" cy="-40" rx="8" ry="5"/><ellipse cx="85" cy="10" rx="8" ry="5"/><ellipse cx="75" cy="60" rx="8" ry="5"/>
+    </g>
+    <!-- капли воды внутрь -->
+    <g fill="#4aa3df"><circle cx="-150" cy="-20" r="7"/><circle cx="-150" cy="20" r="7"/><circle cx="150" cy="-20" r="7"/><circle cx="150" cy="20" r="7"/></g>
+    <line x1="-140" y1="0" x2="-115" y2="0" stroke="#4aa3df" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="140" y1="0" x2="115" y2="0" stroke="#4aa3df" stroke-width="3" marker-end="url(#a)"/>
+  </g>
+  <g fill="#222">
+    <text x="225" y="380" text-anchor="middle">щель широкая —</text>
+    <text x="225" y="402" text-anchor="middle">идут газообмен и испарение</text>
+  </g>
+  <text x="300" y="100" font-size="15" fill="#2a4d14">толстая стенка</text>
+  <line x1="315" y1="106" x2="270" y2="150" stroke="#444" stroke-width="1.4"/>
+  <text x="40" y="100" font-size="15" fill="#2a4d14">тонкая стенка</text>
+  <line x1="90" y1="106" x2="128" y2="160" stroke="#444" stroke-width="1.4"/>
+  <text x="40" y="440" font-size="15" fill="#2e8b2e">хлоропласты</text>
+  <line x1="90" y1="425" x2="148" y2="282" stroke="#444" stroke-width="1.4"/>
+  <text x="300" y="440" font-size="15" fill="#2b7cae">вода входит в клетки</text>
+  <line x1="370" y1="425" x2="375" y2="250" stroke="#444" stroke-width="1.4"/>
+
+  <line x1="450" y1="20" x2="450" y2="450" stroke="#ccc" stroke-width="2" stroke-dasharray="8 6"/>
+
+  <!-- ЗАКРЫТО -->
+  <text x="675" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#7a4a00">Устьице закрыто</text>
+  <text x="675" y="60" text-anchor="middle" font-size="15" fill="#555">клетки потеряли воду и распрямились</text>
+  <g transform="translate(675,220)">
+    <path d="M-2,-120 C-70,-120 -80,-40 -80,0 C-80,40 -70,120 -2,120 C-4,80 -4,40 -4,0 C-4,-40 -4,-80 -2,-120 Z" fill="#cfe3b8" stroke="#3b6b20" stroke-width="3"/>
+    <path d="M2,-120 C70,-120 80,-40 80,0 C80,40 70,120 2,120 C4,80 4,40 4,0 C4,-40 4,-80 2,-120 Z" fill="#cfe3b8" stroke="#3b6b20" stroke-width="3"/>
+    <path d="M-2,-120 C-4,-80 -4,-40 -4,0 C-4,40 -4,80 -2,120" stroke="#2a4d14" stroke-width="8" fill="none"/>
+    <path d="M2,-120 C4,-80 4,-40 4,0 C4,40 4,80 2,120" stroke="#2a4d14" stroke-width="8" fill="none"/>
+    <g fill="#2e8b2e">
+      <ellipse cx="-50" cy="-40" rx="8" ry="5"/><ellipse cx="-55" cy="10" rx="8" ry="5"/><ellipse cx="-45" cy="60" rx="8" ry="5"/>
+      <ellipse cx="50" cy="-40" rx="8" ry="5"/><ellipse cx="55" cy="10" rx="8" ry="5"/><ellipse cx="45" cy="60" rx="8" ry="5"/>
+    </g>
+    <g fill="#4aa3df"><circle cx="-140" cy="0" r="7"/><circle cx="140" cy="0" r="7"/></g>
+    <line x1="-90" y1="0" x2="-125" y2="0" stroke="#4aa3df" stroke-width="3" marker-end="url(#a)"/>
+    <line x1="90" y1="0" x2="125" y2="0" stroke="#4aa3df" stroke-width="3" marker-end="url(#a)"/>
+  </g>
+  <g fill="#222">
+    <text x="675" y="380" text-anchor="middle">щели нет —</text>
+    <text x="675" y="402" text-anchor="middle">растение бережёт воду</text>
+  </g>
+  <text x="675" y="440" text-anchor="middle" font-size="15" fill="#2b7cae">вода выходит из клеток: ночью, в жару, в засуху</text>
+</svg>

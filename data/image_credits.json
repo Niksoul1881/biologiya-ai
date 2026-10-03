@@ -149,6 +149,81 @@
   "author": "Diego Delso",
   "license": "CC BY-SA 4.0"
  },
+ "/images/lessons/006/formy-bakteriy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Bacterial_morphology_diagram-ru.svg",
+  "author": "Kirill Borisenko",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/006/kishechnaya-palochka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:E_coli_at_10000x,_original.jpg",
+  "author": "Eric Erbe, Christopher Pooley (USDA ARS)",
+  "license": "Public domain"
+ },
+ "/images/lessons/006/levenguk-bakterii.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Leuwenhoek_picture_of_animacules.png",
+  "author": "Antoni van Leeuwenhoek, 1683; оцифровка — Huydang2910",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/006/stroenie-bakterii.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Average_prokaryote_cell-_ru.svg",
+  "author": "Mariana Ruiz Villarreal (LadyofHats); русская версия",
+  "license": "Public domain"
+ },
+ "/images/lessons/007/tabachnaya-mozaika-list.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Tobacco_mosaic_virus_symptoms_tobacco.jpg",
+  "author": "R. J. Reynolds Tobacco Company Slide Set, Bugwood.org",
+  "license": "CC BY 3.0 us"
+ },
+ "/images/lessons/008/gribnica.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Mycelium.JPG",
+  "author": "Christian Scheckhuber",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/010/ksantoriya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Xanthoria_parietina_(06_03_31).jpg",
+  "author": "Taka",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/011/hooke-probka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Micrographia_Schem_11.jpg",
+  "author": "Robert Hooke (1635-1703)",
+  "license": "Public domain"
+ },
+ "/images/lessons/011/kletka-rastitelnaya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Plant_cell_structure-ru-v2.png",
+  "author": "Original: LadyofHats (Mariana Ruiz) / Derivative: Dhatfield / Derivative: Lady3m",
+  "license": "CC0"
+ },
+ "/images/lessons/014/formy-listev.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Leaf_morphology_ru.svg",
+  "author": "derivative work: Viktor Kravtchenko",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/014/list-tkani.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Leaf_Tissue_Structure_ru.svg",
+  "author": "Эрг",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/014/osennie-listya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Acer_leaves_in_autumn._Adaxial_side.jpg",
+  "author": "Dmitry Makeev",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/014/usiki-goroha.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Pisum_sativum_bladrank_(tendril).jpg",
+  "author": "Rasbak",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/014/ustice.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Tomato_leaf_stomate_1-color.jpg",
+  "author": "Photohound",
+  "license": "Public domain"
+ },
+ "/images/lessons/014/venerina-muholovka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Dionaea_muscipula_trap.jpg",
+  "author": "che",
+  "license": "CC BY-SA 2.5"
+ },
  "/images/lessons/015/hloroplasty-elodei.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Chloroplasts_-_Microscopic_view_of_Elodea_canadensis.jpg",
   "author": "Juan Carlos Fonseca Mata",
@@ -183,6 +258,136 @@
   "source": "https://commons.wikimedia.org/wiki/File:Leaf_epidermis.jpg",
   "author": "Louisa Howard (Dartmouth electron microscope facility)",
   "license": "Public domain"
+ },
+ "/images/lessons/016/chechevichki.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Wild_Cherry_bark_lenticels.JPG",
+  "author": "Rosser1954",
+  "license": "Public domain"
+ },
+ "/images/lessons/016/guttaciya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Guttation_on_a_strawberry_leaf.jpg",
+  "author": "Schnobby",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/016/pnevmatofory.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:..._pneumatophores_(Avicennia)_(48150613707).jpg",
+  "author": "Dinesh Valke from Thane, India",
+  "license": "CC BY-SA 2.0"
+ },
+ "/images/lessons/017/cvetok-stroenie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Mature_flower_diagram-ru.svg",
+  "author": "Mariana Ruiz LadyofHats, translation by Wassily",
+  "license": "Public domain"
+ },
+ "/images/lessons/017/leshchina.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Pollen_from_hazel_male_flowers_(4485171773).jpg",
+  "author": "Gilles San Martin from Namur, Belgium",
+  "license": "CC BY-SA 2.0"
+ },
+ "/images/lessons/017/pylca.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Misc_pollen_colorized.jpg",
+  "author": "Dartmouth Electron Microscope Facility, Dartmouth College",
+  "license": "Public domain"
+ },
+ "/images/lessons/017/shmel.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Bombus_soroeensis_-_Jasione_montana_-_Tallinn.jpg",
+  "author": "Ivar Leidus",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/018/krylatki-klena.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Acer_platanoides_samaras.jpg",
+  "author": "Gmihail at Serbian Wikipedia",
+  "license": "CC BY-SA 3.0 rs"
+ },
+ "/images/lessons/018/lopuh.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:ArctiumLappa4.jpg",
+  "author": "Christian Fischer",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/018/oduvanchik.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Taraxacum_officinale_01_by-dpc.jpg",
+  "author": "David Perez",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/018/prorastanie.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Sequential_Steps_of_Bean_Seedling_Germination.svg",
+  "author": "HudsonFlagg",
+  "license": "CC0"
+ },
+ "/images/lessons/019/in-vitro.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Culture_in_vitro.JPG",
+  "author": "The original uploader was Seb951 at English Wikipedia.",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/019/kalanhoe.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Kalanchoe_daigremontiana_-_new_plantlets.JPG",
+  "author": "WisdomIsBliss",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/019/klubni-kartofelya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Potato_tubers.jpg",
+  "author": "Spiritia",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/020/laminariya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Laminaria.jpg",
+  "author": "Stemonitis",
+  "license": "CC BY 2.5"
+ },
+ "/images/lessons/020/spirogira.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Spirogyra.JPG",
+  "author": "en:User:Spicywalnut",
+  "license": "Public domain"
+ },
+ "/images/lessons/020/volvoks.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Volvox_aureus_-_160x_-_Crosssection_-_daughter_colonies_(14811155248).jpg",
+  "author": "Picturepest",
+  "license": "CC BY 2.0"
+ },
+ "/images/lessons/021/kukushkin-len.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Polytrichum_commune_(h,_150454-482253)_0125.JPG",
+  "author": "HermannSchachner",
+  "license": "CC0"
+ },
+ "/images/lessons/021/marshanciya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Marchantia_polymorpha_53920757.jpg",
+  "author": "Alex Abair",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/021/sfagnum-kletki.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Leaf_(251_13)_Leaf_of_Sphagnum.jpg",
+  "author": "Doc. RNDr. Josef Reischig, CSc.",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/021/sfagnum.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Small_red_peat_moss_(Orphan_Lk)_3.JPG",
+  "author": "Fungus Guy",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/022/hvoshch-vesna.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Equisetum_arvense_fertile_spore-bearing_stem_-_Keila.jpg",
+  "author": "Ivar Leidus",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/022/kamennougolnyy-les.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Fig._45-_An_Ancient_Coal_(Carboniferous)_Forest_-_DPLA_-_28fd78ece2f955f14cf8d6d2456716bd.jpg",
+  "author": "Martin, Geoffrey, 1881-1966",
+  "license": "Public domain"
+ },
+ "/images/lessons/022/plaun.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Strobili_of_Lycopodium_clavatum.jpg",
+  "author": "Kingfiser",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/022/sorusy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Fern_sporangia_(explored)_-_Flickr_-_hedera.baltica.jpg",
+  "author": "hedera.baltica from Wrocław, Poland",
+  "license": "CC BY-SA 2.0"
+ },
+ "/images/lessons/022/ulitka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Koru_Unfurling.JPG",
+  "author": "Jon Radoff",
+  "license": "CC BY 2.5"
  },
  "/images/lessons/087/citoskelet.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:FluorescentCells.jpg",
@@ -368,50 +573,5 @@
   "source": "https://commons.wikimedia.org/wiki/File:Mendel_paper.jpg",
   "author": "Gregor Mendel, 1866",
   "license": "Public domain"
- },
- "/images/lessons/006/stroenie-bakterii.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Average_prokaryote_cell-_ru.svg",
-  "author": "Mariana Ruiz Villarreal (LadyofHats); русская версия",
-  "license": "Public domain"
- },
- "/images/lessons/006/formy-bakteriy.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Bacterial_morphology_diagram-ru.svg",
-  "author": "Kirill Borisenko",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/006/levenguk-bakterii.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Leuwenhoek_picture_of_animacules.png",
-  "author": "Antoni van Leeuwenhoek, 1683; оцифровка — Huydang2910",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/006/kishechnaya-palochka.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:E_coli_at_10000x,_original.jpg",
-  "author": "Eric Erbe, Christopher Pooley (USDA ARS)",
-  "license": "Public domain"
- },
- "/images/lessons/007/tabachnaya-mozaika-list.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Tobacco_mosaic_virus_symptoms_tobacco.jpg",
-  "author": "R. J. Reynolds Tobacco Company Slide Set, Bugwood.org",
-  "license": "CC BY 3.0 us"
- },
- "/images/lessons/008/gribnica.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Mycelium.JPG",
-  "author": "Christian Scheckhuber",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/010/ksantoriya.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Xanthoria_parietina_(06_03_31).jpg",
-  "author": "Taka",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/011/hooke-probka.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Micrographia_Schem_11.jpg",
-  "author": "Robert Hooke (1635-1703)",
-  "license": "Public domain"
- },
- "/images/lessons/011/kletka-rastitelnaya.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Plant_cell_structure-ru-v2.png",
-  "author": "Original: LadyofHats (Mariana Ruiz) / Derivative: Dhatfield / Derivative: Lady3m",
-  "license": "CC0"
  }
 }

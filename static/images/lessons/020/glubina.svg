@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif" font-size="16">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6f7"/>
+      <stop offset="0.45" stop-color="#4a90c2"/>
+      <stop offset="1" stop-color="#0d2a4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="#ffffff"/>
+  <rect x="0" y="40" width="900" height="480" fill="url(#sea)"/>
+  <text x="450" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#1d3f6e">Какие водоросли живут на разной глубине</text>
+  <!-- шкала глубины -->
+  <g fill="#ffffff" font-size="14">
+    <line x1="60" y1="40" x2="60" y2="510" stroke="#ffffff" stroke-width="2"/>
+    <text x="68" y="56" fill="#1d3f6e">0 м</text>
+    <line x1="52" y1="160" x2="68" y2="160" stroke="#fff" stroke-width="2"/><text x="72" y="165" fill="#1d3f6e">~10 м</text>
+    <line x1="52" y1="300" x2="68" y2="300" stroke="#fff" stroke-width="2"/><text x="72" y="305">~30–50 м</text>
+    <line x1="52" y1="470" x2="68" y2="470" stroke="#fff" stroke-width="2"/><text x="72" y="475">100 м и глубже</text>
+  </g>
+  <!-- лучи -->
+  <g stroke-width="10" stroke-linecap="round" opacity="0.85">
+    <line x1="760" y1="40" x2="760" y2="130" stroke="#e53935"/>
+    <line x1="790" y1="40" x2="790" y2="300" stroke="#43a047"/>
+    <line x1="820" y1="40" x2="820" y2="490" stroke="#1e63d6"/>
+  </g>
+  <g font-size="13" fill="#1d3f6e"><text x="700" y="148">красные лучи</text></g>
+  <g font-size="13" fill="#ffffff"><text x="700" y="318">зелёные лучи</text><text x="705" y="508">синие лучи</text></g>
+  <!-- зелёные водоросли -->
+  <g transform="translate(220,140)">
+    <path d="M0,0 C-10,-30 10,-50 0,-80" stroke="#2e9b2e" stroke-width="8" fill="none"/>
+    <path d="M20,0 C30,-25 10,-45 25,-70" stroke="#43b043" stroke-width="7" fill="none"/>
+    <path d="M-20,0 C-30,-25 -10,-40 -25,-60" stroke="#43b043" stroke-width="6" fill="none"/>
+  </g>
+  <text x="270" y="110" font-weight="bold" fill="#14531a">Зелёные</text>
+  <text x="270" y="130" font-size="14" fill="#14531a">у поверхности, в пресной воде</text>
+  <!-- бурые -->
+  <g transform="translate(220,335) scale(0.75)">
+    <path d="M0,0 C-20,-60 25,-110 0,-170" stroke="#7a5a1a" stroke-width="5" fill="none"/>
+    <path d="M0,-40 C-30,-60 -50,-60 -60,-90 C-30,-80 -10,-70 0,-40 Z" fill="#9c7a2a"/>
+    <path d="M2,-90 C35,-110 55,-110 62,-140 C35,-130 15,-120 2,-90 Z" fill="#9c7a2a"/>
+    <path d="M0,-150 C-25,-170 -40,-175 -45,-200 C-20,-190 -5,-180 0,-150 Z" fill="#9c7a2a"/>
+  </g>
+  <text x="300" y="250" font-weight="bold" fill="#fff6d6">Бурые</text>
+  <text x="300" y="270" font-size="14" fill="#fff6d6">ламинария, фукус — в морях,</text>
+  <text x="300" y="288" font-size="14" fill="#fff6d6">на средней глубине</text>
+  <!-- красные -->
+  <g transform="translate(220,480)" fill="#d23c5a">
+    <path d="M0,0 C-5,-20 -25,-25 -30,-45 C-10,-40 -2,-30 0,0 Z"/>
+    <path d="M0,0 C5,-25 25,-30 30,-55 C10,-50 2,-35 0,0 Z"/>
+    <path d="M0,0 C-2,-25 5,-45 0,-65 C10,-45 6,-25 0,0 Z"/>
+  </g>
+  <text x="300" y="440" font-weight="bold" fill="#ffd6de">Красные (багрянки)</text>
+  <text x="300" y="460" font-size="14" fill="#ffd6de">порфира, анфельция — живут глубже всех:</text>
+  <text x="300" y="478" font-size="14" fill="#ffd6de">их красные пигменты улавливают синий свет</text>
+</svg>

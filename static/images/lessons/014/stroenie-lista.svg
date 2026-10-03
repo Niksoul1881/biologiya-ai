@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" font-family="Arial, Helvetica, sans-serif" font-size="17">
+  <rect width="900" height="540" fill="#ffffff"/>
+  <!-- Левая часть: простой лист -->
+  <text x="225" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#2f5d1e">Простой лист</text>
+  <text x="225" y="58" text-anchor="middle" font-size="15" fill="#555">одна листовая пластинка</text>
+  <!-- стебель -->
+  <line x1="150" y1="80" x2="150" y2="500" stroke="#7a5a2b" stroke-width="9" stroke-linecap="round"/>
+  <!-- пазушная почка -->
+  <ellipse cx="164" cy="284" rx="7" ry="12" transform="rotate(30 164 284)" fill="#a7c957" stroke="#3b6b20" stroke-width="2"/>
+  <!-- прилистники -->
+  <ellipse cx="170" cy="314" rx="17" ry="6" transform="rotate(35 170 314)" fill="#8cc06a" stroke="#3b6b20" stroke-width="2"/>
+  <ellipse cx="132" cy="314" rx="17" ry="6" transform="rotate(-35 132 314)" fill="#8cc06a" stroke="#3b6b20" stroke-width="2"/>
+  <!-- основание листа -->
+  <ellipse cx="160" cy="300" rx="10" ry="8" fill="#6a9f45" stroke="#3b6b20" stroke-width="2"/>
+  <!-- черешок -->
+  <line x1="166" y1="297" x2="252" y2="250" stroke="#4f8a2b" stroke-width="6" stroke-linecap="round"/>
+  <!-- листовая пластинка -->
+  <g transform="translate(250,250) rotate(-32)">
+    <path d="M0,0 C40,-82 175,-78 250,0 C175,78 40,82 0,0 Z" fill="#7cbf4f" stroke="#3b6b20" stroke-width="2.5"/>
+    <path d="M0,0 L248,0" stroke="#dff0c8" stroke-width="3.5"/>
+    <g stroke="#dff0c8" stroke-width="2" fill="none">
+      <path d="M40,0 Q60,-30 78,-52"/><path d="M40,0 Q60,30 78,52"/>
+      <path d="M90,0 Q110,-30 128,-54"/><path d="M90,0 Q110,30 128,54"/>
+      <path d="M140,0 Q158,-26 175,-44"/><path d="M140,0 Q158,26 175,44"/>
+      <path d="M188,0 Q200,-15 215,-26"/><path d="M188,0 Q200,15 215,26"/>
+    </g>
+  </g>
+  <!-- подписи -->
+  <g fill="#222" stroke="none">
+    <text x="300" y="100">листовая пластинка</text>
+    <text x="400" y="300">жилки</text>
+    <text x="230" y="352">черешок</text>
+    <text x="128" y="250" text-anchor="end">пазушная</text>
+    <text x="128" y="270" text-anchor="end">почка</text>
+    <text x="128" y="362" text-anchor="end">прилистники</text>
+    <text x="205" y="410">основание листа</text>
+    <text x="162" y="490">стебель</text>
+  </g>
+  <g stroke="#444" stroke-width="1.4" fill="none">
+    <line x1="350" y1="106" x2="350" y2="150"/>
+    <line x1="398" y1="294" x2="345" y2="262"/>
+    <line x1="245" y1="338" x2="212" y2="276"/>
+    <line x1="130" y1="262" x2="158" y2="281"/>
+    <line x1="112" y1="347" x2="128" y2="320"/>
+    <line x1="210" y1="396" x2="165" y2="306"/>
+  </g>
+
+  <!-- разделитель -->
+  <line x1="470" y1="20" x2="470" y2="500" stroke="#ccc" stroke-width="2" stroke-dasharray="8 6"/>
+
+  <!-- Правая часть: сложный лист -->
+  <text x="690" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#2f5d1e">Сложный лист</text>
+  <text x="690" y="58" text-anchor="middle" font-size="15" fill="#555">несколько листочков на общем черешке</text>
+  <!-- стебель справа -->
+  <line x1="560" y1="80" x2="560" y2="500" stroke="#7a5a2b" stroke-width="9" stroke-linecap="round"/>
+  <ellipse cx="574" cy="452" rx="7" ry="12" transform="rotate(30 574 452)" fill="#a7c957" stroke="#3b6b20" stroke-width="2"/>
+  <!-- общий черешок (рахис) -->
+  <path d="M566,466 Q640,440 690,380 L690,140" stroke="#4f8a2b" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- листочки -->
+  <g fill="#7cbf4f" stroke="#3b6b20" stroke-width="2">
+    <ellipse cx="645" cy="380" rx="40" ry="13" transform="rotate(-15 645 380)"/>
+    <ellipse cx="735" cy="380" rx="40" ry="13" transform="rotate(15 735 380)"/>
+    <ellipse cx="645" cy="325" rx="42" ry="13" transform="rotate(-15 645 325)"/>
+    <ellipse cx="735" cy="325" rx="42" ry="13" transform="rotate(15 735 325)"/>
+    <ellipse cx="645" cy="270" rx="42" ry="13" transform="rotate(-15 645 270)"/>
+    <ellipse cx="735" cy="270" rx="42" ry="13" transform="rotate(15 735 270)"/>
+    <ellipse cx="647" cy="215" rx="40" ry="13" transform="rotate(-15 647 215)"/>
+    <ellipse cx="733" cy="215" rx="40" ry="13" transform="rotate(15 733 215)"/>
+    <ellipse cx="650" cy="162" rx="36" ry="12" transform="rotate(-15 650 162)"/>
+    <ellipse cx="730" cy="162" rx="36" ry="12" transform="rotate(15 730 162)"/>
+    <ellipse cx="690" cy="112" rx="12" ry="30"/>
+  </g>
+  <g fill="#222">
+    <text x="790" y="112">листочки</text>
+    <text x="712" y="430">общий</text>
+    <text x="712" y="450">черешок</text>
+    <text x="590" y="500">пазушная почка — только</text>
+  </g>
+  <g stroke="#444" stroke-width="1.4" fill="none">
+    <line x1="806" y1="118" x2="762" y2="160"/>
+    <line x1="806" y1="118" x2="770" y2="212"/>
+    <line x1="710" y1="425" x2="686" y2="396"/>
+    <line x1="600" y1="485" x2="578" y2="462"/>
+  </g>
+  <text x="590" y="522" font-size="15" fill="#555">у основания всего листа</text>
+</svg>

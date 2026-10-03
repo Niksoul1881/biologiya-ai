@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 530" font-family="Arial, Helvetica, sans-serif" font-size="15">
+<rect width="900" height="530" fill="#ffffff"/>
+<rect x="360" y="10" width="180" height="44" rx="10" fill="#eaf4e1" stroke="#4f8a2b" stroke-width="2"/>
+<text x="450.0" y="37" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">ПЛОДЫ</text>
+<rect x="120" y="80" width="220" height="44" rx="10" fill="#f6ecd6" stroke="#a07a30" stroke-width="2"/>
+<text x="230.0" y="107" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">Сухие</text>
+<rect x="560" y="80" width="220" height="44" rx="10" fill="#fde3e6" stroke="#c0394b" stroke-width="2"/>
+<text x="670.0" y="107" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">Сочные</text>
+<line x1="450" y1="54" x2="230" y2="80" stroke="#888" stroke-width="2"/>
+<line x1="450" y1="54" x2="670" y2="80" stroke="#888" stroke-width="2"/>
+<rect x="20" y="150" width="200" height="40" rx="10" fill="#fbf6ea" stroke="#a07a30" stroke-width="2"/>
+<text x="120.0" y="175" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">односемянные</text>
+<rect x="240" y="150" width="200" height="40" rx="10" fill="#fbf6ea" stroke="#a07a30" stroke-width="2"/>
+<text x="340.0" y="175" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">многосемянные</text>
+<rect x="460" y="150" width="200" height="40" rx="10" fill="#fff2f3" stroke="#c0394b" stroke-width="2"/>
+<text x="560.0" y="175" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">односемянные</text>
+<rect x="680" y="150" width="200" height="40" rx="10" fill="#fff2f3" stroke="#c0394b" stroke-width="2"/>
+<text x="780.0" y="175" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">многосемянные</text>
+<line x1="230" y1="124" x2="120" y2="150" stroke="#888" stroke-width="2"/>
+<line x1="230" y1="124" x2="340" y2="150" stroke="#888" stroke-width="2"/>
+<line x1="670" y1="124" x2="560" y2="150" stroke="#888" stroke-width="2"/>
+<line x1="670" y1="124" x2="780" y2="150" stroke="#888" stroke-width="2"/>
+<rect x="20" y="205" width="200" height="50" rx="10" fill="#ffffff" stroke="#a07a30" stroke-width="2"/>
+<text x="120.0" y="226" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Зерновка</text>
+<text x="120.0" y="244" text-anchor="middle" font-size="13" fill="#555">пшеница, рожь, кукуруза</text>
+<line x1="120" y1="190" x2="120" y2="205" stroke="#888" stroke-width="2"/>
+<rect x="20" y="263" width="200" height="50" rx="10" fill="#ffffff" stroke="#a07a30" stroke-width="2"/>
+<text x="120.0" y="284" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Семянка</text>
+<text x="120.0" y="302" text-anchor="middle" font-size="13" fill="#555">подсолнечник, одуванчик</text>
+<rect x="20" y="321" width="200" height="50" rx="10" fill="#ffffff" stroke="#a07a30" stroke-width="2"/>
+<text x="120.0" y="342" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Орех</text>
+<text x="120.0" y="360" text-anchor="middle" font-size="13" fill="#555">лещина</text>
+<rect x="20" y="379" width="200" height="50" rx="10" fill="#ffffff" stroke="#a07a30" stroke-width="2"/>
+<text x="120.0" y="400" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Крылатка</text>
+<text x="120.0" y="418" text-anchor="middle" font-size="13" fill="#555">клён, ясень, берёза</text>
+<rect x="20" y="437" width="200" height="50" rx="10" fill="#ffffff" stroke="#a07a30" stroke-width="2"/>
+<text x="120.0" y="458" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Жёлудь</text>
+<text x="120.0" y="476" text-anchor="middle" font-size="13" fill="#555">дуб</text>
+<rect x="240" y="205" width="200" height="50" rx="10" fill="#ffffff" stroke="#a07a30" stroke-width="2"/>
+<text x="340.0" y="226" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Боб</text>
+<text x="340.0" y="244" text-anchor="middle" font-size="13" fill="#555">горох, фасоль, акация</text>
+<line x1="340" y1="190" x2="340" y2="205" stroke="#888" stroke-width="2"/>
+<rect x="240" y="263" width="200" height="50" rx="10" fill="#ffffff" stroke="#a07a30" stroke-width="2"/>
+<text x="340.0" y="284" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Стручок</text>
+<text x="340.0" y="302" text-anchor="middle" font-size="13" fill="#555">капуста, редька, горчица</text>
+<rect x="240" y="321" width="200" height="50" rx="10" fill="#ffffff" stroke="#a07a30" stroke-width="2"/>
+<text x="340.0" y="342" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Коробочка</text>
+<text x="340.0" y="360" text-anchor="middle" font-size="13" fill="#555">мак, тюльпан, хлопчатник</text>
+<rect x="460" y="205" width="200" height="50" rx="10" fill="#ffffff" stroke="#c0394b" stroke-width="2"/>
+<text x="560.0" y="226" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Костянка</text>
+<text x="560.0" y="244" text-anchor="middle" font-size="13" fill="#555">вишня, слива, абрикос</text>
+<line x1="560" y1="190" x2="560" y2="205" stroke="#888" stroke-width="2"/>
+<rect x="680" y="205" width="200" height="50" rx="10" fill="#ffffff" stroke="#c0394b" stroke-width="2"/>
+<text x="780.0" y="226" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Ягода</text>
+<text x="780.0" y="244" text-anchor="middle" font-size="13" fill="#555">томат, виноград, смородина</text>
+<line x1="780" y1="190" x2="780" y2="205" stroke="#888" stroke-width="2"/>
+<rect x="680" y="263" width="200" height="50" rx="10" fill="#ffffff" stroke="#c0394b" stroke-width="2"/>
+<text x="780.0" y="284" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Яблоко</text>
+<text x="780.0" y="302" text-anchor="middle" font-size="13" fill="#555">яблоня, груша, рябина</text>
+<rect x="680" y="321" width="200" height="50" rx="10" fill="#ffffff" stroke="#c0394b" stroke-width="2"/>
+<text x="780.0" y="342" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Тыквина</text>
+<text x="780.0" y="360" text-anchor="middle" font-size="13" fill="#555">огурец, тыква, арбуз</text>
+<rect x="680" y="379" width="200" height="50" rx="10" fill="#ffffff" stroke="#c0394b" stroke-width="2"/>
+<text x="780.0" y="400" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Померанец</text>
+<text x="780.0" y="418" text-anchor="middle" font-size="13" fill="#555">апельсин, лимон</text>
+<text x="450" y="518" text-anchor="middle" font-size="13" fill="#555">Сборные плоды: сборная костянка (малина, ежевика), многоорешек (земляника, шиповник)</text>
+</svg>
