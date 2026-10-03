@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 530" width="1000" height="530" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="530" fill="#fff"/>
+<text x="500" y="32" font-size="21" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Одна и та же мутация «в одну букву» — очень разные последствия</text>
+<text x="20" y="62" font-size="13" fill="#555">тип мутации / аналогия</text>
+<text x="230" y="62" font-size="13" fill="#555">кодоны кодирующей цепи ДНК и аминокислоты</text>
+<text x="790" y="62" font-size="13" fill="#555">белок и итог</text>
+<rect x="10" y="71" width="980" height="62" rx="10" fill="#fafafa" stroke="#e2e2e2"/>
+<text x="20" y="97" font-size="16" font-weight="bold" fill="#222">Норма</text>
+<text x="20" y="119" font-size="13" fill="#555" font-style="italic">эталон</text>
+<rect x="230" y="75" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="272" y="98" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">ATG</text>
+<text x="272" y="120" font-size="14" text-anchor="middle" fill="#333">Met</text>
+<rect x="320" y="75" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="362" y="98" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GCC</text>
+<text x="362" y="120" font-size="14" text-anchor="middle" fill="#333">Ala</text>
+<rect x="410" y="75" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="452" y="98" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">AAG</text>
+<text x="452" y="120" font-size="14" text-anchor="middle" fill="#333">Lys</text>
+<rect x="500" y="75" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="542" y="98" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">ATT</text>
+<text x="542" y="120" font-size="14" text-anchor="middle" fill="#333">Ile</text>
+<rect x="590" y="75" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="632" y="98" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GGC</text>
+<text x="632" y="120" font-size="14" text-anchor="middle" fill="#333">Gly</text>
+<rect x="680" y="75" width="84" height="54" rx="8" fill="#fde8e6" stroke="#b3261e" stroke-width="2"/>
+<text x="722" y="98" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">TGA</text>
+<text x="722" y="120" font-size="14" text-anchor="middle" fill="#b3261e">СТОП</text>
+<text x="790" y="97" font-size="18" font-family="Consolas, Menlo, monospace" font-weight="bold" fill="#1b7a3a">MAKIG</text>
+<text x="790" y="119" font-size="14" fill="#1b7a3a">белок в порядке</text>
+<rect x="10" y="141" width="980" height="62" rx="10" fill="#fafafa" stroke="#e2e2e2"/>
+<text x="20" y="167" font-size="16" font-weight="bold" fill="#222">Синонимичная</text>
+<text x="20" y="189" font-size="13" fill="#555" font-style="italic">рефакторинг без изменений</text>
+<rect x="230" y="145" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="272" y="168" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">ATG</text>
+<text x="272" y="190" font-size="14" text-anchor="middle" fill="#333">Met</text>
+<rect x="320" y="145" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="362" y="168" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GC<tspan fill="#d0021b" font-weight="bold">T</tspan></text>
+<text x="362" y="190" font-size="14" text-anchor="middle" fill="#333">Ala</text>
+<rect x="410" y="145" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="452" y="168" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">AAG</text>
+<text x="452" y="190" font-size="14" text-anchor="middle" fill="#333">Lys</text>
+<rect x="500" y="145" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="542" y="168" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">ATT</text>
+<text x="542" y="190" font-size="14" text-anchor="middle" fill="#333">Ile</text>
+<rect x="590" y="145" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="632" y="168" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GGC</text>
+<text x="632" y="190" font-size="14" text-anchor="middle" fill="#333">Gly</text>
+<rect x="680" y="145" width="84" height="54" rx="8" fill="#fde8e6" stroke="#b3261e" stroke-width="2"/>
+<text x="722" y="168" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">TGA</text>
+<text x="722" y="190" font-size="14" text-anchor="middle" fill="#b3261e">СТОП</text>
+<text x="790" y="167" font-size="18" font-family="Consolas, Menlo, monospace" font-weight="bold" fill="#1b7a3a">MAKIG</text>
+<text x="790" y="189" font-size="14" fill="#1b7a3a">белок тот же</text>
+<rect x="10" y="211" width="980" height="62" rx="10" fill="#fafafa" stroke="#e2e2e2"/>
+<text x="20" y="237" font-size="16" font-weight="bold" fill="#222">Миссенс</text>
+<text x="20" y="259" font-size="13" fill="#555" font-style="italic">опечатка в значении</text>
+<rect x="230" y="215" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="272" y="238" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">ATG</text>
+<text x="272" y="260" font-size="14" text-anchor="middle" fill="#333">Met</text>
+<rect x="320" y="215" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="362" y="238" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GCC</text>
+<text x="362" y="260" font-size="14" text-anchor="middle" fill="#333">Ala</text>
+<rect x="410" y="215" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="452" y="238" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">A<tspan fill="#d0021b" font-weight="bold">G</tspan>G</text>
+<text x="452" y="260" font-size="14" text-anchor="middle" fill="#333">Arg</text>
+<rect x="500" y="215" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="542" y="238" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">ATT</text>
+<text x="542" y="260" font-size="14" text-anchor="middle" fill="#333">Ile</text>
+<rect x="590" y="215" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="632" y="238" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GGC</text>
+<text x="632" y="260" font-size="14" text-anchor="middle" fill="#333">Gly</text>
+<rect x="680" y="215" width="84" height="54" rx="8" fill="#fde8e6" stroke="#b3261e" stroke-width="2"/>
+<text x="722" y="238" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">TGA</text>
+<text x="722" y="260" font-size="14" text-anchor="middle" fill="#b3261e">СТОП</text>
+<text x="790" y="237" font-size="18" font-family="Consolas, Menlo, monospace" font-weight="bold" fill="#b36b00">MARIG</text>
+<text x="790" y="259" font-size="14" fill="#b36b00">одна аминокислота другая</text>
+<rect x="10" y="281" width="980" height="62" rx="10" fill="#fafafa" stroke="#e2e2e2"/>
+<text x="20" y="307" font-size="16" font-weight="bold" fill="#222">Нонсенс</text>
+<text x="20" y="329" font-size="13" fill="#555" font-style="italic">преждевременный return</text>
+<rect x="230" y="285" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="272" y="308" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">ATG</text>
+<text x="272" y="330" font-size="14" text-anchor="middle" fill="#333">Met</text>
+<rect x="320" y="285" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="362" y="308" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GCC</text>
+<text x="362" y="330" font-size="14" text-anchor="middle" fill="#333">Ala</text>
+<rect x="410" y="285" width="84" height="54" rx="8" fill="#fde8e6" stroke="#b3261e" stroke-width="2"/>
+<text x="452" y="308" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222"><tspan fill="#d0021b" font-weight="bold">T</tspan>AG</text>
+<text x="452" y="330" font-size="14" text-anchor="middle" fill="#b3261e">СТОП</text>
+<rect x="500" y="285" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="542" y="308" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">ATT</text>
+<text x="542" y="330" font-size="14" text-anchor="middle" fill="#333">Ile</text>
+<rect x="590" y="285" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="632" y="308" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GGC</text>
+<text x="632" y="330" font-size="14" text-anchor="middle" fill="#333">Gly</text>
+<rect x="680" y="285" width="84" height="54" rx="8" fill="#fde8e6" stroke="#b3261e" stroke-width="2"/>
+<text x="722" y="308" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">TGA</text>
+<text x="722" y="330" font-size="14" text-anchor="middle" fill="#b3261e">СТОП</text>
+<text x="790" y="307" font-size="18" font-family="Consolas, Menlo, monospace" font-weight="bold" fill="#b3261e">MA</text>
+<text x="790" y="329" font-size="14" fill="#b3261e">белок оборван</text>
+<rect x="10" y="351" width="980" height="62" rx="10" fill="#fafafa" stroke="#e2e2e2"/>
+<text x="20" y="377" font-size="16" font-weight="bold" fill="#222">Сдвиг рамки (−1 нт)</text>
+<text x="20" y="399" font-size="13" fill="#555" font-style="italic">off-by-one в парсере</text>
+<rect x="230" y="355" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="272" y="378" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">ATG</text>
+<text x="272" y="400" font-size="14" text-anchor="middle" fill="#333">Met</text>
+<rect x="320" y="355" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="362" y="378" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GC<tspan fill="#d0021b" font-weight="bold">A</tspan></text>
+<text x="362" y="400" font-size="14" text-anchor="middle" fill="#333">Ala</text>
+<rect x="410" y="355" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="452" y="378" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">AGA</text>
+<text x="452" y="400" font-size="14" text-anchor="middle" fill="#333">Arg</text>
+<rect x="500" y="355" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="542" y="378" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">TTG</text>
+<text x="542" y="400" font-size="14" text-anchor="middle" fill="#333">Leu</text>
+<rect x="590" y="355" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="632" y="378" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GCT</text>
+<text x="632" y="400" font-size="14" text-anchor="middle" fill="#333">Ala</text>
+<rect x="680" y="355" width="84" height="54" rx="8" fill="#f1f1f1" stroke="#999" stroke-width="2"/>
+<text x="722" y="378" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GA·</text>
+<text x="722" y="400" font-size="14" text-anchor="middle" fill="#333">…</text>
+<text x="790" y="377" font-size="18" font-family="Consolas, Menlo, monospace" font-weight="bold" fill="#b3261e">MARLA…</text>
+<text x="790" y="399" font-size="14" fill="#b3261e">дальше — чужой текст</text>
+<rect x="10" y="421" width="980" height="62" rx="10" fill="#fafafa" stroke="#e2e2e2"/>
+<text x="20" y="447" font-size="16" font-weight="bold" fill="#222">Делеция кодона (−3 нт)</text>
+<text x="20" y="469" font-size="13" fill="#555" font-style="italic">удалили одну строку</text>
+<rect x="230" y="425" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="272" y="448" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">ATG</text>
+<text x="272" y="470" font-size="14" text-anchor="middle" fill="#333">Met</text>
+<rect x="320" y="425" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="362" y="448" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GCC</text>
+<text x="362" y="470" font-size="14" text-anchor="middle" fill="#333">Ala</text>
+<rect x="410" y="425" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="452" y="448" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">ATT</text>
+<text x="452" y="470" font-size="14" text-anchor="middle" fill="#333">Ile</text>
+<rect x="500" y="425" width="84" height="54" rx="8" fill="#eef6fb" stroke="#1d4f86" stroke-width="2"/>
+<text x="542" y="448" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">GGC</text>
+<text x="542" y="470" font-size="14" text-anchor="middle" fill="#333">Gly</text>
+<rect x="590" y="425" width="84" height="54" rx="8" fill="#fde8e6" stroke="#b3261e" stroke-width="2"/>
+<text x="632" y="448" font-size="19" font-family="Consolas, Menlo, monospace" text-anchor="middle" fill="#222">TGA</text>
+<text x="632" y="470" font-size="14" text-anchor="middle" fill="#b3261e">СТОП</text>
+<text x="790" y="447" font-size="18" font-family="Consolas, Menlo, monospace" font-weight="bold" fill="#b36b00">MAIG</text>
+<text x="790" y="469" font-size="14" fill="#b36b00">рамка цела, −1 аминокислота</text>
+<text x="500" y="516" font-size="13" text-anchor="middle" fill="#555">Красным — изменённые буквы. Ген условный: ATG GCC AAG ATT GGC TGA → Met-Ala-Lys-Ile-Gly.</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="1000" height="500" fill="#fff"/>
+<text x="500.0" y="34" font-size="22" text-anchor="middle" fill="#1b4d1b" font-weight="bold" font-style="normal">Lac-оперон как логическая схема</text>
+<rect x="20" y="80" width="200" height="60" rx="10" fill="#eef6fb" stroke="#1d4f86" stroke-width="2.5"/>
+<text x="120" y="106" font-size="17" text-anchor="middle" fill="#1d4f86" font-weight="bold" font-style="normal">Лактоза есть?</text>
+<text x="120" y="128" font-size="13" text-anchor="middle" fill="#444" font-weight="normal" font-style="normal">(индуктор — аллолактоза)</text>
+<rect x="20" y="200" width="200" height="60" rx="10" fill="#eef6fb" stroke="#1d4f86" stroke-width="2.5"/>
+<text x="120" y="226" font-size="17" text-anchor="middle" fill="#1d4f86" font-weight="bold" font-style="normal">Глюкоза есть?</text>
+<text x="120" y="248" font-size="13" text-anchor="middle" fill="#444" font-weight="normal" font-style="normal">(много глюкозы → мало цАМФ)</text>
+<rect x="290" y="70" width="230" height="80" rx="10" fill="#f6effa" stroke="#7a3fa0" stroke-width="2.5"/>
+<text x="405" y="98" font-size="16" text-anchor="middle" fill="#7a3fa0" font-weight="bold" font-style="normal">Репрессор LacI</text>
+<text x="405" y="120" font-size="14" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">снят с оператора,</text>
+<text x="405" y="139" font-size="14" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">если лактоза ЕСТЬ</text>
+<rect x="290" y="190" width="230" height="80" rx="10" fill="#f6effa" stroke="#7a3fa0" stroke-width="2.5"/>
+<text x="405" y="218" font-size="16" text-anchor="middle" fill="#7a3fa0" font-weight="bold" font-style="normal">Активатор CAP–цАМФ</text>
+<text x="405" y="240" font-size="14" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">работает, если</text>
+<text x="405" y="259" font-size="14" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">глюкозы НЕТ (это NOT)</text>
+<path d="M 222 110 L 286 110" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+<path d="M 222 230 L 286 230" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+<path d="M 590 120 L 640 120 A 50 50 0 0 1 640 220 L 590 220 Z" fill="#fff8e6" stroke="#b36b00" stroke-width="3"/>
+<text x="628" y="177" font-size="26" text-anchor="middle" fill="#b36b00" font-weight="bold" font-style="normal">И</text>
+<path d="M 522 110 L 560 110 L 560 145 L 586 145" fill="none" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+<path d="M 522 230 L 560 230 L 560 195 L 586 195" fill="none" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+<path d="M 692 170 L 736 170" stroke="#333" stroke-width="3" marker-end="url(#a)"/>
+<rect x="740" y="125" width="240" height="90" rx="10" fill="#e3f4e0" stroke="#1b7a3a" stroke-width="2.5"/>
+<text x="860" y="158" font-size="17" text-anchor="middle" fill="#1b7a3a" font-weight="bold" font-style="normal">Транскрипция</text>
+<text x="860" y="180" font-size="15" text-anchor="middle" fill="#1b7a3a" font-weight="normal" font-style="italic">lacZ, lacY, lacA</text>
+<text x="860" y="200" font-size="14" text-anchor="middle" fill="#333" font-weight="normal" font-style="normal">на полную мощность</text>
+<rect x="120" y="320" width="130" height="30" fill="#eee" stroke="#bbb"/>
+<text x="185.0" y="341" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" font-style="normal">лактоза</text>
+<rect x="250" y="320" width="130" height="30" fill="#eee" stroke="#bbb"/>
+<text x="315.0" y="341" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" font-style="normal">глюкоза</text>
+<rect x="380" y="320" width="160" height="30" fill="#eee" stroke="#bbb"/>
+<text x="460.0" y="341" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" font-style="normal">репрессор</text>
+<rect x="540" y="320" width="120" height="30" fill="#eee" stroke="#bbb"/>
+<text x="600.0" y="341" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" font-style="normal">CAP</text>
+<rect x="660" y="320" width="220" height="30" fill="#eee" stroke="#bbb"/>
+<text x="770.0" y="341" font-size="15" text-anchor="middle" fill="#222" font-weight="bold" font-style="normal">оперон</text>
+<rect x="120" y="350" width="130" height="30" fill="#fff" stroke="#bbb"/>
+<text x="185.0" y="371" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">нет</text>
+<rect x="250" y="350" width="130" height="30" fill="#fff" stroke="#bbb"/>
+<text x="315.0" y="371" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">есть</text>
+<rect x="380" y="350" width="160" height="30" fill="#fff" stroke="#bbb"/>
+<text x="460.0" y="371" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">на ДНК</text>
+<rect x="540" y="350" width="120" height="30" fill="#fff" stroke="#bbb"/>
+<text x="600.0" y="371" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">нет</text>
+<rect x="660" y="350" width="220" height="30" fill="#fde8e6" stroke="#bbb"/>
+<text x="770.0" y="371" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">выключен</text>
+<rect x="120" y="380" width="130" height="30" fill="#fff" stroke="#bbb"/>
+<text x="185.0" y="401" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">нет</text>
+<rect x="250" y="380" width="130" height="30" fill="#fff" stroke="#bbb"/>
+<text x="315.0" y="401" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">нет</text>
+<rect x="380" y="380" width="160" height="30" fill="#fff" stroke="#bbb"/>
+<text x="460.0" y="401" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">на ДНК</text>
+<rect x="540" y="380" width="120" height="30" fill="#fff" stroke="#bbb"/>
+<text x="600.0" y="401" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">да</text>
+<rect x="660" y="380" width="220" height="30" fill="#fde8e6" stroke="#bbb"/>
+<text x="770.0" y="401" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">выключен</text>
+<rect x="120" y="410" width="130" height="30" fill="#fff" stroke="#bbb"/>
+<text x="185.0" y="431" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">есть</text>
+<rect x="250" y="410" width="130" height="30" fill="#fff" stroke="#bbb"/>
+<text x="315.0" y="431" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">есть</text>
+<rect x="380" y="410" width="160" height="30" fill="#fff" stroke="#bbb"/>
+<text x="460.0" y="431" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">снят</text>
+<rect x="540" y="410" width="120" height="30" fill="#fff" stroke="#bbb"/>
+<text x="600.0" y="431" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">нет</text>
+<rect x="660" y="410" width="220" height="30" fill="#fff8e6" stroke="#bbb"/>
+<text x="770.0" y="431" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">включён слабо</text>
+<rect x="120" y="440" width="130" height="30" fill="#fff" stroke="#bbb"/>
+<text x="185.0" y="461" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">есть</text>
+<rect x="250" y="440" width="130" height="30" fill="#fff" stroke="#bbb"/>
+<text x="315.0" y="461" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">нет</text>
+<rect x="380" y="440" width="160" height="30" fill="#fff" stroke="#bbb"/>
+<text x="460.0" y="461" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">снят</text>
+<rect x="540" y="440" width="120" height="30" fill="#fff" stroke="#bbb"/>
+<text x="600.0" y="461" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">да</text>
+<rect x="660" y="440" width="220" height="30" fill="#e3f4e0" stroke="#bbb"/>
+<text x="770.0" y="461" font-size="15" text-anchor="middle" fill="#222" font-weight="normal" font-style="normal">включён сильно</text>
+<text x="500.0" y="488" font-size="13" text-anchor="middle" fill="#555" font-weight="normal" font-style="italic">Упрощение: в клетке это не 0 и 1, а уровни — «выключен» означает очень слабую фоновую транскрипцию.</text>
+</svg>

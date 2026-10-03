@@ -2094,25 +2094,30 @@
   "author": "National Human Genome Research Institute (NHGRI)",
   "license": "CC0"
  },
- "/images/lessons/173/urovni-struktury.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Main_protein_structure_levels_en.svg",
-  "author": "LadyofHats",
-  "license": "Public domain"
- },
  "/images/lessons/173/model-mioglobina-kendryu.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Myoglobin_protein_model,_created_by_Dr._John_Kendrew_and_technician_at_Cambridge_University,_1965_-_National_Museum_of_American_History_-_DSC00018.jpg",
   "author": "Daderot",
   "license": "CC0"
+ },
+ "/images/lessons/173/shaperonin-groel.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Chaperonin_1AON.png",
+  "author": "Thomas Splettstoesser",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/173/urovni-struktury.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Main_protein_structure_levels_en.svg",
+  "author": "LadyofHats",
+  "license": "Public domain"
  },
  "/images/lessons/173/voronka-ukladki.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Folding_funnel_schematic.svg",
   "author": "Thomas Splettstoesser (www.scistyle.com)",
   "license": "CC BY-SA 3.0"
  },
- "/images/lessons/173/shaperonin-groel.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Chaperonin_1AON.png",
-  "author": "Thomas Splettstoesser",
-  "license": "CC BY-SA 3.0"
+ "/images/lessons/174/alphafold-spot.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Bifunctional_ppGpp_synthase_hydrolase_SpoT.png",
+  "author": "EMBL-EBI AlphaFold prediction. DeepMind Technologies Limited.",
+  "license": "CC BY 4.0"
  },
  "/images/lessons/174/geksokinaza-inducirovannoe-sootvetstvie.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Hexokinase_induced_fit.svg",
@@ -2124,19 +2129,54 @@
   "author": "Zephyris at English Wikipedia",
   "license": "CC BY-SA 3.0"
  },
- "/images/lessons/174/serpovidnye-eritrocity.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Sickle-cell_smear_2015-09-10.jpg",
-  "author": "Paulo Henrique Orlandi Mourao",
-  "license": "CC BY-SA 4.0"
- },
  "/images/lessons/174/gfp-bochka.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:GFP_structure.png",
   "author": "Richard Wheeler (=User:Zephyris)",
   "license": "CC BY-SA 3.0"
  },
- "/images/lessons/174/alphafold-spot.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Bifunctional_ppGpp_synthase_hydrolase_SpoT.png",
-  "author": "EMBL-EBI AlphaFold prediction. DeepMind Technologies Limited.",
-  "license": "CC BY 4.0"
+ "/images/lessons/174/serpovidnye-eritrocity.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Sickle-cell_smear_2015-09-10.jpg",
+  "author": "Paulo Henrique Orlandi Mourao",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/175/hromosomnye-mutacii.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Chromosomes_mutations-en.svg",
+  "author": "GYassineMrabetTalk✉ This W3C-unspecified vector image was created with Inkscape ",
+  "license": "Public domain"
+ },
+ "/images/lessons/175/luria-delbryuk.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Luria-delbruck_diagram.svg",
+  "author": "Madprime",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/175/serpovidnye-eritrocity.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Sickle-cell_smear_2015-09-10.jpg",
+  "author": "Paulo Henrique Orlandi Mourao",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/175/tochechnye-mutacii.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Point_mutations-en.png",
+  "author": "Jonsta247",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/176/antennapedia.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Antennapedia.jpg",
+  "author": "No machine-readable author provided. Ktbn assumed (based on copyright claims).",
+  "license": "Public domain"
+ },
+ "/images/lessons/176/enhanser-petlya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Regulation_of_transcription_in_mammals.jpg",
+  "author": "Bernstein0275",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/176/lac-operon.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lac_Operon.svg",
+  "author": "T A RAJU",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/176/mikrornk-mehanizmy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:MiRNA_mechanisms_-_ru.svg",
+  "author": "A. Zinovyev, N. Morozova, A. N. Gorban, A. Harel-Belan; vectorized by Kaidor",
+  "license": "CC BY 3.0"
  }
 }
