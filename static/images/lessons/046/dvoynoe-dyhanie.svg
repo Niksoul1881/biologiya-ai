@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="g" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/></marker>
+<marker id="k" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6b7280"/></marker>
+</defs>
+<rect width="1000" height="520" fill="#ffffff"/>
+<line x1="500" y1="20" x2="500" y2="460" stroke="#d1d5db" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="250" y="42" font-size="26" font-weight="bold" fill="#1f2937" text-anchor="middle">ВДОХ</text>
+<rect x="122" y="70" width="36" height="130" rx="10" fill="#fde68a" stroke="#a16207" stroke-width="3"/>
+<text x="110" y="110" font-size="16" fill="#1f2937" text-anchor="end">трахея</text>
+<ellipse cx="100" cy="330" rx="80" ry="65" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+<text x="100" y="325" font-size="16" fill="#0c4a6e" text-anchor="middle">передние</text><text x="100" y="345" font-size="16" fill="#0c4a6e" text-anchor="middle">мешки</text>
+<ellipse cx="400" cy="330" rx="85" ry="70" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+<text x="400" y="325" font-size="16" fill="#0c4a6e" text-anchor="middle">задние</text><text x="400" y="345" font-size="16" fill="#0c4a6e" text-anchor="middle">мешки</text>
+<rect x="180" y="190" width="140" height="80" rx="20" fill="#fecaca" stroke="#b91c1c" stroke-width="3"/>
+<text x="250" y="228" font-size="19" font-weight="bold" fill="#7f1d1d" text-anchor="middle">лёгкие</text>
+<text x="250" y="252" font-size="15" fill="#7f1d1d" text-anchor="middle">газообмен</text>
+<path d="M140 50 L140 180" stroke="#16a34a" stroke-width="7" marker-end="url(#g)"/>
+<path d="M150 205 L175 220" stroke="#16a34a" stroke-width="6" marker-end="url(#g)"/>
+<path d="M140 200 C 150 300, 270 300, 320 300" fill="none" stroke="#16a34a" stroke-width="7" marker-end="url(#g)"/>
+<text x="250" y="430" font-size="17" fill="#1f2937" text-anchor="middle">Свежий воздух идёт в лёгкие</text>
+<text x="250" y="452" font-size="17" fill="#1f2937" text-anchor="middle">и про запас — в задние мешки</text>
+<text x="750" y="42" font-size="26" font-weight="bold" fill="#1f2937" text-anchor="middle">ВЫДОХ</text>
+<rect x="622" y="70" width="36" height="130" rx="10" fill="#fde68a" stroke="#a16207" stroke-width="3"/>
+<text x="610" y="110" font-size="16" fill="#1f2937" text-anchor="end">трахея</text>
+<ellipse cx="600" cy="330" rx="80" ry="65" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+<text x="600" y="325" font-size="16" fill="#0c4a6e" text-anchor="middle">передние</text><text x="600" y="345" font-size="16" fill="#0c4a6e" text-anchor="middle">мешки</text>
+<ellipse cx="900" cy="330" rx="85" ry="70" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+<text x="900" y="325" font-size="16" fill="#0c4a6e" text-anchor="middle">задние</text><text x="900" y="345" font-size="16" fill="#0c4a6e" text-anchor="middle">мешки</text>
+<rect x="680" y="190" width="140" height="80" rx="20" fill="#fecaca" stroke="#b91c1c" stroke-width="3"/>
+<text x="750" y="228" font-size="19" font-weight="bold" fill="#7f1d1d" text-anchor="middle">лёгкие</text>
+<text x="750" y="252" font-size="15" fill="#7f1d1d" text-anchor="middle">газообмен</text>
+<path d="M860 275 C 850 250, 840 235, 826 232" fill="none" stroke="#16a34a" stroke-width="7" marker-end="url(#g)"/>
+<path d="M710 272 C 700 300, 690 310, 670 315" fill="none" stroke="#6b7280" stroke-width="7" marker-end="url(#k)"/>
+<path d="M600 262 C 600 220, 640 220, 640 60" fill="none" stroke="#6b7280" stroke-width="7" marker-end="url(#k)"/>
+<text x="750" y="430" font-size="17" fill="#1f2937" text-anchor="middle">Воздух из задних мешков снова идёт</text>
+<text x="750" y="452" font-size="17" fill="#1f2937" text-anchor="middle">через лёгкие — газообмен ещё раз</text>
+<rect x="250" y="485" width="18" height="18" fill="#16a34a"/><text x="276" y="500" font-size="16" fill="#1f2937">свежий воздух</text>
+<rect x="480" y="485" width="18" height="18" fill="#6b7280"/><text x="506" y="500" font-size="16" fill="#1f2937">отработанный воздух</text>
+</svg>

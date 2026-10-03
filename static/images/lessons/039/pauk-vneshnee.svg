@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="640" fill="#ffffff"/>
+<polyline points="438,190 380,140 340,80 325,30" fill="none" stroke="#4b3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="562,190 620,140 660,80 675,30" fill="none" stroke="#4b3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="380" cy="140" r="4" fill="#4b3621"/><circle cx="620" cy="140" r="4" fill="#4b3621"/>
+<circle cx="340" cy="80" r="4" fill="#4b3621"/><circle cx="660" cy="80" r="4" fill="#4b3621"/>
+<polyline points="432,220 360,195 300,160 260,135" fill="none" stroke="#4b3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="568,220 640,195 700,160 740,135" fill="none" stroke="#4b3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="360" cy="195" r="4" fill="#4b3621"/><circle cx="640" cy="195" r="4" fill="#4b3621"/>
+<circle cx="300" cy="160" r="4" fill="#4b3621"/><circle cx="700" cy="160" r="4" fill="#4b3621"/>
+<polyline points="432,250 360,275 300,310 260,345" fill="none" stroke="#4b3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="568,250 640,275 700,310 740,345" fill="none" stroke="#4b3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="360" cy="275" r="4" fill="#4b3621"/><circle cx="640" cy="275" r="4" fill="#4b3621"/>
+<circle cx="300" cy="310" r="4" fill="#4b3621"/><circle cx="700" cy="310" r="4" fill="#4b3621"/>
+<polyline points="440,280 380,330 340,400 320,470" fill="none" stroke="#4b3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="560,280 620,330 660,400 680,470" fill="none" stroke="#4b3621" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="380" cy="330" r="4" fill="#4b3621"/><circle cx="620" cy="330" r="4" fill="#4b3621"/>
+<circle cx="340" cy="400" r="4" fill="#4b3621"/><circle cx="660" cy="400" r="4" fill="#4b3621"/>
+<polyline points="470,165 450,128 455,97" fill="none" stroke="#7a5230" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="530,165 550,128 545,97" fill="none" stroke="#7a5230" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="490" y="300" width="20" height="30" rx="6" fill="#6b4a2b"/>
+<ellipse cx="500" cy="447" rx="95" ry="125" fill="#c9a36b" stroke="#4b3621" stroke-width="4"/>
+<circle cx="500" cy="387" r="7" fill="#fff8e6" stroke="#8a6a3a" stroke-width="1.5"/>
+<circle cx="500" cy="412" r="7" fill="#fff8e6" stroke="#8a6a3a" stroke-width="1.5"/>
+<circle cx="500" cy="437" r="7" fill="#fff8e6" stroke="#8a6a3a" stroke-width="1.5"/>
+<circle cx="500" cy="462" r="7" fill="#fff8e6" stroke="#8a6a3a" stroke-width="1.5"/>
+<circle cx="500" cy="487" r="7" fill="#fff8e6" stroke="#8a6a3a" stroke-width="1.5"/>
+<circle cx="475" cy="437" r="7" fill="#fff8e6" stroke="#8a6a3a" stroke-width="1.5"/>
+<circle cx="450" cy="437" r="7" fill="#fff8e6" stroke="#8a6a3a" stroke-width="1.5"/>
+<circle cx="525" cy="437" r="7" fill="#fff8e6" stroke="#8a6a3a" stroke-width="1.5"/>
+<circle cx="550" cy="437" r="7" fill="#fff8e6" stroke="#8a6a3a" stroke-width="1.5"/>
+<ellipse cx="500" cy="230" rx="70" ry="82" fill="#a87a45" stroke="#4b3621" stroke-width="4"/>
+<path d="M500 175 L500 290" stroke="#7a5230" stroke-width="2" opacity="0.6"/>
+<ellipse cx="491" cy="578" rx="7" ry="11" fill="#6b4a2b"/>
+<ellipse cx="509" cy="578" rx="7" ry="11" fill="#6b4a2b"/>
+<ellipse cx="486" cy="152" rx="12" ry="17" fill="#6b4a2b" stroke="#3a2a17" stroke-width="2"/>
+<ellipse cx="514" cy="152" rx="12" ry="17" fill="#6b4a2b" stroke="#3a2a17" stroke-width="2"/>
+<path d="M482 137 q-4 -12 6 -16" stroke="#222" stroke-width="3" fill="none"/>
+<path d="M518 137 q4 -12 -6 -16" stroke="#222" stroke-width="3" fill="none"/>
+<circle cx="476" cy="176" r="5.5" fill="#111"/>
+<circle cx="492" cy="176" r="5.5" fill="#111"/>
+<circle cx="508" cy="176" r="5.5" fill="#111"/>
+<circle cx="524" cy="176" r="5.5" fill="#111"/>
+<circle cx="484" cy="190" r="4.5" fill="#111"/>
+<circle cx="516" cy="190" r="4.5" fill="#111"/>
+<circle cx="470" cy="186" r="4" fill="#111"/>
+<circle cx="530" cy="186" r="4" fill="#111"/>
+<line x1="762" y1="42" x2="516" y2="140" stroke="#16803c" stroke-width="2"/><circle cx="516" cy="140" r="4" fill="#16803c"/><text x="770" y="48" font-size="21" fill="#1f2937" text-anchor="start" font-weight="bold">Хелицеры</text><text x="770" y="72" font-size="21" fill="#1f2937" text-anchor="start" font-weight="normal">(с ядовитым коготком)</text>
+<line x1="762" y1="124" x2="524" y2="178" stroke="#16803c" stroke-width="2"/><circle cx="524" cy="178" r="4" fill="#16803c"/><text x="770" y="130" font-size="21" fill="#1f2937" text-anchor="start" font-weight="bold">Глаза</text><text x="770" y="154" font-size="21" fill="#1f2937" text-anchor="start" font-weight="normal">(обычно 8 простых)</text>
+<line x1="762" y1="229" x2="566" y2="240" stroke="#16803c" stroke-width="2"/><circle cx="566" cy="240" r="4" fill="#16803c"/><text x="770" y="235" font-size="21" fill="#1f2937" text-anchor="start" font-weight="bold">Головогрудь</text>
+<line x1="762" y1="434" x2="592" y2="440" stroke="#16803c" stroke-width="2"/><circle cx="592" cy="440" r="4" fill="#16803c"/><text x="770" y="440" font-size="21" fill="#1f2937" text-anchor="start" font-weight="bold">Брюшко</text><text x="770" y="464" font-size="21" fill="#1f2937" text-anchor="start" font-weight="normal">(нечленистое)</text>
+<line x1="762" y1="569" x2="512" y2="580" stroke="#16803c" stroke-width="2"/><circle cx="512" cy="580" r="4" fill="#16803c"/><text x="770" y="575" font-size="21" fill="#1f2937" text-anchor="start" font-weight="bold">Паутинные</text><text x="770" y="599" font-size="21" fill="#1f2937" text-anchor="start" font-weight="normal">бородавки</text>
+<line x1="238" y1="54" x2="455" y2="97" stroke="#16803c" stroke-width="2"/><circle cx="455" cy="97" r="4" fill="#16803c"/><text x="230" y="60" font-size="21" fill="#1f2937" text-anchor="end" font-weight="bold">Педипальпы</text><text x="230" y="84" font-size="21" fill="#1f2937" text-anchor="end" font-weight="normal">(ногощупальца)</text>
+<line x1="238" y1="244" x2="360" y2="275" stroke="#16803c" stroke-width="2"/><circle cx="360" cy="275" r="4" fill="#16803c"/><text x="230" y="250" font-size="21" fill="#1f2937" text-anchor="end" font-weight="bold">Ходильные ноги —</text><text x="230" y="274" font-size="21" fill="#1f2937" text-anchor="end" font-weight="normal">4 пары</text>
+<line x1="238" y1="339" x2="490" y2="316" stroke="#16803c" stroke-width="2"/><circle cx="490" cy="316" r="4" fill="#16803c"/><text x="230" y="345" font-size="21" fill="#1f2937" text-anchor="end" font-weight="bold">Стебелёк</text>
+<text x="500" y="625" font-size="18" fill="#4b5563" text-anchor="middle">Внешнее строение паука (вид сверху, схема)</text>
+</svg>

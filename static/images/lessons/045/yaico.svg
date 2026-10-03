@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="560" fill="#ffffff"/>
+<text x="500" y="36" font-size="24" font-weight="bold" fill="#1f2937" text-anchor="middle">Яйцо пресмыкающегося — «свой пруд» для зародыша</text>
+<!-- скорлупа -->
+<ellipse cx="430" cy="300" rx="270" ry="210" fill="#fffbeb" stroke="#a8a29e" stroke-width="10"/>
+<!-- хорион -->
+<ellipse cx="430" cy="300" rx="248" ry="190" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="7 5"/>
+<!-- желток -->
+<circle cx="500" cy="370" r="105" fill="#fcd34d" stroke="#d97706" stroke-width="3"/>
+<!-- аллантоис -->
+<ellipse cx="290" cy="380" rx="95" ry="70" fill="#bbf7d0" stroke="#15803d" stroke-width="3"/>
+<!-- амнион -->
+<ellipse cx="410" cy="215" rx="120" ry="85" fill="#bae6fd" stroke="#0369a1" stroke-width="3"/>
+<!-- зародыш -->
+<path d="M452 200 C 470 235, 440 262, 405 258 C 375 255, 365 232, 378 214" fill="none" stroke="#fb7185" stroke-width="26" stroke-linecap="round"/>
+<circle cx="440" cy="180" r="30" fill="#fda4af" stroke="#be123c" stroke-width="3"/>
+<circle cx="450" cy="174" r="6" fill="#111"/>
+<path d="M412 258 C 400 300, 360 325, 335 335" stroke="#be123c" stroke-width="4" fill="none"/>
+<path d="M440 255 C 455 280, 470 280, 485 268" stroke="#be123c" stroke-width="4" fill="none"/>
+<g font-size="20" fill="#1f2937">
+<line x1="690" y1="230" x2="760" y2="150" stroke="#16803c" stroke-width="2"/><text x="766" y="146" font-weight="bold">Скорлупа</text><text x="766" y="168" font-size="16" fill="#4b5563">защищает, пропускает воздух</text>
+<line x1="530" y1="200" x2="760" y2="225" stroke="#16803c" stroke-width="2"/><text x="766" y="221" font-weight="bold">Амнион</text><text x="766" y="243" font-size="16" fill="#4b5563">оболочка с жидкостью</text>
+<line x1="462" y1="240" x2="760" y2="300" stroke="#16803c" stroke-width="2"/><text x="766" y="296" font-weight="bold">Зародыш</text>
+<line x1="600" y1="380" x2="760" y2="370" stroke="#16803c" stroke-width="2"/><text x="766" y="366" font-weight="bold">Желток</text><text x="766" y="388" font-size="16" fill="#4b5563">запас питательных веществ</text>
+<line x1="290" y1="450" x2="760" y2="455" stroke="#16803c" stroke-width="2"/><text x="766" y="451" font-weight="bold">Аллантоис</text><text x="766" y="473" font-size="16" fill="#4b5563">отходы, дыхание</text>
+<line x1="229" y1="190" x2="120" y2="120" stroke="#16803c" stroke-width="2"/><text x="40" y="112" font-weight="bold">Хорион</text><text x="40" y="92" font-size="16" fill="#4b5563">наружная оболочка</text>
+</g>
+<text x="500" y="545" font-size="17" fill="#374151" text-anchor="middle">Зародыш развивается в жидкости амниона, хотя само яйцо лежит на суше</text>
+</svg>

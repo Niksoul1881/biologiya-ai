@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="600" fill="#ffffff"/>
+<!-- контур -->
+<g fill="#ecfccb" stroke="#4d7c0f" stroke-width="3">
+<path d="M375 230 C 330 250, 300 290, 290 330 L 300 340 C 315 300, 345 270, 385 258 Z"/>
+<path d="M625 230 C 670 250, 700 290, 710 330 L 700 340 C 685 300, 655 270, 615 258 Z"/>
+<path d="M410 470 C 350 500, 300 540, 330 570 C 360 590, 420 540, 450 500 Z"/>
+<path d="M590 470 C 650 500, 700 540, 670 570 C 640 590, 580 540, 550 500 Z"/>
+<path d="M500 60 C 600 60, 640 120, 630 170 C 660 230, 660 420, 600 490 C 560 520, 440 520, 400 490 C 340 420, 340 230, 370 170 C 360 120, 400 60, 500 60 Z"/>
+</g>
+<circle cx="440" cy="78" r="24" fill="#ecfccb" stroke="#4d7c0f" stroke-width="3"/><circle cx="560" cy="78" r="24" fill="#ecfccb" stroke="#4d7c0f" stroke-width="3"/>
+<circle cx="440" cy="76" r="10" fill="#1f2937"/><circle cx="560" cy="76" r="10" fill="#1f2937"/>
+<path d="M410 125 Q500 150 590 125" fill="none" stroke="#4d7c0f" stroke-width="3"/>
+<!-- почки (спинная сторона) -->
+<ellipse cx="470" cy="400" rx="16" ry="50" fill="#7f1d1d" opacity="0.55"/>
+<ellipse cx="530" cy="400" rx="16" ry="50" fill="#7f1d1d" opacity="0.55"/>
+<!-- лёгкие -->
+<ellipse cx="425" cy="225" rx="38" ry="62" fill="#fbcfe8" stroke="#be185d" stroke-width="2.5"/>
+<ellipse cx="575" cy="225" rx="38" ry="62" fill="#fbcfe8" stroke="#be185d" stroke-width="2.5"/>
+<!-- печень -->
+<ellipse cx="452" cy="285" rx="52" ry="32" fill="#a16207" stroke="#713f12" stroke-width="2.5"/>
+<ellipse cx="548" cy="285" rx="52" ry="32" fill="#a16207" stroke="#713f12" stroke-width="2.5"/>
+<circle cx="520" cy="306" r="9" fill="#65a30d" stroke="#365314" stroke-width="2"/>
+<!-- сердце -->
+<path d="M500 160 C 470 150, 460 185, 480 205 L500 228 L520 205 C 540 185, 530 150, 500 160 Z" fill="#dc2626" stroke="#7f1d1d" stroke-width="2.5"/>
+<!-- желудок -->
+<path d="M430 300 C 405 330, 410 370, 450 375 C 470 377, 480 365, 478 352" fill="none" stroke="#fde68a" stroke-width="22" stroke-linecap="round"/>
+<path d="M430 300 C 405 330, 410 370, 450 375 C 470 377, 480 365, 478 352" fill="none" stroke="#b45309" stroke-width="2"/>
+<!-- кишечник -->
+<path d="M478 352 C 520 340, 560 350, 560 375 C 560 400, 505 395, 500 415 C 495 435, 560 435, 545 455 C 535 468, 505 465, 500 478" fill="none" stroke="#fdba74" stroke-width="14" stroke-linecap="round"/>
+<!-- мочевой пузырь, клоака -->
+<ellipse cx="455" cy="470" rx="20" ry="14" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+<circle cx="500" cy="495" r="8" fill="#57534e"/>
+<!-- подписи -->
+<g font-size="19" fill="#1f2937" font-weight="bold">
+<line x1="515" y1="180" x2="720" y2="110" stroke="#16803c" stroke-width="2"/><text x="728" y="115">Сердце (3 камеры)</text>
+<line x1="600" y1="215" x2="720" y2="180" stroke="#16803c" stroke-width="2"/><text x="728" y="185">Лёгкие</text>
+<line x1="590" y1="290" x2="720" y2="250" stroke="#16803c" stroke-width="2"/><text x="728" y="255">Печень</text>
+<line x1="528" y1="308" x2="720" y2="310" stroke="#16803c" stroke-width="2"/><text x="728" y="315">Жёлчный пузырь</text>
+<line x1="555" y1="375" x2="720" y2="370" stroke="#16803c" stroke-width="2"/><text x="728" y="375">Кишечник</text>
+<line x1="538" y1="420" x2="720" y2="430" stroke="#16803c" stroke-width="2"/><text x="728" y="435">Почки</text><text x="728" y="457" font-size="15" fill="#4b5563" font-weight="normal">(лежат у спины)</text>
+<line x1="410" y1="345" x2="260" y2="380" stroke="#16803c" stroke-width="2"/><text x="120" y="385">Желудок</text>
+<line x1="440" y1="472" x2="260" y2="450" stroke="#16803c" stroke-width="2"/><text x="60" y="455">Мочевой пузырь</text>
+<line x1="492" y1="498" x2="260" y2="520" stroke="#16803c" stroke-width="2"/><text x="140" y="525">Клоака</text>
+</g>
+<text x="500" y="590" font-size="16" fill="#4b5563" text-anchor="middle">Внутренние органы лягушки (схема, вид с брюшной стороны)</text>
+</svg>

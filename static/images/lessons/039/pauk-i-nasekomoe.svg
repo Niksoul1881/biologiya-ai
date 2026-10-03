@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="560" fill="#ffffff"/>
+<line x1="500" y1="20" x2="500" y2="540" stroke="#d1d5db" stroke-width="2" stroke-dasharray="8 6"/>
+<polyline points="214,120 175,90 150,55 140,25" fill="none" stroke="#4b3621" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="286,120 325,90 350,55 360,25" fill="none" stroke="#4b3621" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="210,138 165,122 125,100 100,85" fill="none" stroke="#4b3621" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="290,138 335,122 375,100 400,85" fill="none" stroke="#4b3621" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="210,156 165,172 125,195 100,215" fill="none" stroke="#4b3621" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="290,156 335,172 375,195 400,215" fill="none" stroke="#4b3621" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="214,174 175,205 150,250 138,295" fill="none" stroke="#4b3621" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="286,174 325,205 350,250 362,295" fill="none" stroke="#4b3621" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,100 220,78 223,60" fill="none" stroke="#7a5230" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="268,100 280,78 277,60" fill="none" stroke="#7a5230" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="244" y="190" width="12" height="20" rx="4" fill="#6b4a2b"/>
+<ellipse cx="250" cy="280" rx="58" ry="78" fill="#c9a36b" stroke="#4b3621" stroke-width="3"/>
+<ellipse cx="250" cy="145" rx="44" ry="52" fill="#a87a45" stroke="#4b3621" stroke-width="3"/>
+<circle cx="235" cy="112" r="3.5" fill="#111"/>
+<circle cx="245" cy="112" r="3.5" fill="#111"/>
+<circle cx="255" cy="112" r="3.5" fill="#111"/>
+<circle cx="265" cy="112" r="3.5" fill="#111"/>
+<circle cx="240" cy="121" r="3" fill="#111"/>
+<circle cx="260" cy="121" r="3" fill="#111"/>
+<circle cx="231" cy="118" r="3" fill="#111"/>
+<circle cx="269" cy="118" r="3" fill="#111"/>
+<polyline points="740,82 715,45 695,15" fill="none" stroke="#1e3a5f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="724,150 680,120 650,80 640,55" fill="none" stroke="#1e3a5f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="720,170 670,170 630,185 605,195" fill="none" stroke="#1e3a5f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="724,190 680,230 650,280 635,320" fill="none" stroke="#1e3a5f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="760,82 785,45 805,15" fill="none" stroke="#1e3a5f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="776,150 820,120 850,80 860,55" fill="none" stroke="#1e3a5f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="780,170 830,170 870,185 895,195" fill="none" stroke="#1e3a5f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="776,190 820,230 850,280 865,320" fill="none" stroke="#1e3a5f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="750" cy="300" rx="44" ry="92" fill="#7aa3c9" stroke="#1e3a5f" stroke-width="3"/>
+<path d="M710 250 Q750 260 790 250" stroke="#1e3a5f" stroke-width="1.5" fill="none" opacity="0.6"/>
+<path d="M710 280 Q750 290 790 280" stroke="#1e3a5f" stroke-width="1.5" fill="none" opacity="0.6"/>
+<path d="M710 310 Q750 320 790 310" stroke="#1e3a5f" stroke-width="1.5" fill="none" opacity="0.6"/>
+<path d="M710 340 Q750 350 790 340" stroke="#1e3a5f" stroke-width="1.5" fill="none" opacity="0.6"/>
+<path d="M710 370 Q750 380 790 370" stroke="#1e3a5f" stroke-width="1.5" fill="none" opacity="0.6"/>
+<ellipse cx="750" cy="170" rx="32" ry="40" fill="#5b8bb8" stroke="#1e3a5f" stroke-width="3"/>
+<circle cx="750" cy="105" r="27" fill="#4a78a5" stroke="#1e3a5f" stroke-width="3"/>
+<ellipse cx="733" cy="100" rx="8" ry="11" fill="#111"/>
+<ellipse cx="767" cy="100" rx="8" ry="11" fill="#111"/>
+<line x1="394" y1="134" x2="290" y2="145" stroke="#16803c" stroke-width="1.6"/><circle cx="290" cy="145" r="3" fill="#16803c"/><text x="400" y="140" font-size="17" fill="#1f2937" text-anchor="start">головогрудь</text>
+<line x1="394" y1="284" x2="305" y2="290" stroke="#16803c" stroke-width="1.6"/><circle cx="305" cy="290" r="3" fill="#16803c"/><text x="400" y="290" font-size="17" fill="#1f2937" text-anchor="start">брюшко</text>
+<line x1="874" y1="94" x2="775" y2="105" stroke="#16803c" stroke-width="1.6"/><circle cx="775" cy="105" r="3" fill="#16803c"/><text x="880" y="100" font-size="17" fill="#1f2937" text-anchor="start">голова</text>
+<line x1="874" y1="164" x2="780" y2="170" stroke="#16803c" stroke-width="1.6"/><circle cx="780" cy="170" r="3" fill="#16803c"/><text x="880" y="170" font-size="17" fill="#1f2937" text-anchor="start">грудь</text>
+<line x1="874" y1="294" x2="792" y2="300" stroke="#16803c" stroke-width="1.6"/><circle cx="792" cy="300" r="3" fill="#16803c"/><text x="880" y="300" font-size="17" fill="#1f2937" text-anchor="start">брюшко</text>
+<line x1="874" y1="34" x2="795" y2="18" stroke="#16803c" stroke-width="1.6"/><circle cx="795" cy="18" r="3" fill="#16803c"/><text x="880" y="40" font-size="17" fill="#1f2937" text-anchor="start">усики</text>
+<text x="250" y="410" font-size="26" font-weight="bold" fill="#7a4a1e" text-anchor="middle">ПАУК</text><text x="250" y="448" font-size="20" fill="#1f2937" text-anchor="middle">2 отдела тела</text><text x="250" y="478" font-size="20" fill="#1f2937" text-anchor="middle">4 пары ходильных ног</text><text x="250" y="508" font-size="20" fill="#1f2937" text-anchor="middle">усиков нет · крыльев нет</text>
+<text x="750" y="410" font-size="26" font-weight="bold" fill="#1e4f8a" text-anchor="middle">НАСЕКОМОЕ</text><text x="750" y="448" font-size="20" fill="#1f2937" text-anchor="middle">3 отдела тела</text><text x="750" y="478" font-size="20" fill="#1f2937" text-anchor="middle">3 пары ног</text><text x="750" y="508" font-size="20" fill="#1f2937" text-anchor="middle">1 пара усиков · обычно есть крылья</text>
+</svg>
