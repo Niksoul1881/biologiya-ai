@@ -339,7 +339,7 @@
     if (S.labels) spots.forEach(function (s) {
       var q = v.modelToScreen(s.p), x = q.x - off.left, y = q.y - off.top;
       s.el.style.transform = "translate(" + x.toFixed(1) + "px," + y.toFixed(1) + "px)";
-      s.el.classList.toggle("left", x > w * 0.6);
+      s.el.classList.toggle("left", x > w * 0.5);
       s.el.style.visibility = x < -20 || y < -20 || x > w + 20 || y > hh + 20 ? "hidden" : "";
     });
     if (hoverAtom && tipEl.firstChild) {
@@ -408,7 +408,7 @@
         tipEl.innerHTML = "<div>" + esc(t[0]) + "<small>" + esc(t[1]) + "</small></div>";
       }, function () { hoverAtom = null; tipEl.innerHTML = ""; });
       fillUI();
-      if (after) after(); else { draw(); v.zoomTo(); if (m.rot) v.rotate(m.rot[0], m.rot[1]); v.zoom(m.zoom || 1.15); setSpots(curSpots()); v.render(); }
+      if (after) after(); else { draw(); v.zoomTo(); if (m.rot) v.rotate(m.rot[0], m.rot[1]); v.zoom((m.zoom || 1.15) * (window.innerWidth < 640 ? 0.78 : 1)); setSpots(curSpots()); v.render(); }
       spin();
       requestAnimationFrame(function () { app.classList.remove("b3-swap"); });
       loading.classList.remove("on");
