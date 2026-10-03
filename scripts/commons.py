@@ -22,6 +22,7 @@ API = "https://commons.wikimedia.org/w/api.php"
 H = {"User-Agent": "BiologiyaAI/0.2 (https://niksoul1881.github.io/biologiya-ai/; https://github.com/Niksoul1881/biologiya-ai) python-requests"}
 # Commons ограничивает частоту: запросы строго по одному, не запускать несколько копий скрипта параллельно.
 OK = re.compile(r"^(public domain|pd|cc0|cc[ -]by(-sa)?[ -]?\d)", re.I)
+sys.stdout.reconfigure(encoding="utf-8")   # Windows-консоль в cp1251 падала на символах
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CREDITS = ROOT / "data" / "image_credits.json"
 
@@ -47,7 +48,7 @@ def info(titles, width=None):
          "iiprop": "url|size|extmetadata|mime"}
     if width:
         p["iiurlwidth"] = width
-    pages = api(p)["query"]["pages"]
+    pages = api(p).get("query", {}).get("pages", {})
     return [pg for pg in pages.values() if "imageinfo" in pg]
 
 
@@ -62,7 +63,7 @@ def meta(pg):
 def search(q, n=12):
     r = api({"action": "query", "list": "search", "srsearch": q, "srnamespace": 6,
              "srlimit": n * 2, "format": "json"})
-    titles = [x["title"] for x in r["query"]["search"]
+    titles = [x["title"] for x in r.get("query", {}).get("search", [])
               if not x["title"].lower().endswith((".pdf", ".djvu", ".tif", ".tiff", ".ogv", ".webm", ".ogg"))]
     shown = 0
     for pg in info(titles[:40]):
