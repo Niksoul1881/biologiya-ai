@@ -1,6 +1,6 @@
 {{- /* Виртуальный микроскоп: {{< mikroskop >}}, логика в /js/microscope.js, фото в /images/mikroskop/ */ -}}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&display=swap">
-<div class="mk" id="mk-app" data-img="{{ "images/mikroskop/" | relURL }}" data-root="{{ "/" | relURL }}">
+<div class="mk" id="mk-app" data-img="{{ "images/mikroskop/" | relURL }}" data-root="{{ "x" | relURL | strings.TrimSuffix "x" }}">
   <div class="mk-head">
     <div>
       <div class="mk-kicker">🔬 Виртуальный микроскоп</div>
