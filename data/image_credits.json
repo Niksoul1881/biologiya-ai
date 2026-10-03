@@ -1993,5 +1993,25 @@
   "source": "https://commons.wikimedia.org/wiki/File:Phillip_A._Sharp_at_AAAS_2025_02.jpg",
   "author": "John Sears",
   "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/172/stoimost-genoma.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Cost_per_Genome.png",
+  "author": "National Human Genome Research Institute (NHGRI)",
+  "license": "CC0"
+ },
+ "/images/lessons/172/genom-po-funkciyam.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Human_genome_by_functions.svg",
+  "author": "Mikael Häggström",
+  "license": "CC0"
+ },
+ "/images/lessons/172/kariotip.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Karyotype.png",
+  "author": "Courtesy: National Human Genome Research Institute",
+  "license": "Public domain"
+ },
+ "/images/lessons/172/hgp-2000.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:IHGSC_Human_Genome_Project_Draft_Completion_Announcement_-_June_2000.jpg",
+  "author": "National Human Genome Research Institute (NHGRI)",
+  "license": "Public domain"
  }
 }
