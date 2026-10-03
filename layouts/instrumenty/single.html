@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="tool-page">
+    <nav class="tool-crumbs"><a href="/">Главная</a> → <a href="/instrumenty/">Инструменты</a> → {{ .Title }}</nav>
+    <article class="lesson-article tool-article">
+        {{ .Content }}
+    </article>
+</div>
+<style>
+    .tool-page { max-width: 980px; margin: 0 auto; padding: 32px 20px 80px; }
+    .tool-crumbs { font-size: 14px; color: #6B7280; margin-bottom: 8px; }
+    .tool-crumbs a { color: #6B7280; text-decoration: none; }
+    .tool-article { font-size: 17px; line-height: 1.7; }
+    .tool-article h1 { font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 2.3rem; line-height: 1.15; margin: 8px 0 18px; }
+    .tool-article h2 { margin-top: 44px; }
+    .tool-article table:not(.pn-grid) { border-collapse: collapse; display: block; overflow-x: auto; max-width: 100%; }
+    .tool-article table:not(.pn-grid) th, .tool-article table:not(.pn-grid) td { border: 1px solid #E5E7EB; padding: 8px 12px; text-align: left; }
+    @media (max-width: 640px) { .tool-article h1 { font-size: 1.8rem; } }
+</style>
+{{ end }}

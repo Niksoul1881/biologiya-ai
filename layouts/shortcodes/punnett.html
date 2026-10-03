@@ -1,0 +1,66 @@
+{{- /* Решётка Пеннета онлайн: {{< punnett >}} — разметка инструмента, логика в /js/genetics.js */ -}}
+<div class="pn" id="punnett-app">
+  <div class="pn-inputs">
+    <label class="pn-field"><span>♀ Мать</span><input id="pn-mother" value="AaBb" autocomplete="off" spellcheck="false" inputmode="latin"></label>
+    <button type="button" class="pn-swap" id="pn-swap" title="Поменять местами">×</button>
+    <label class="pn-field"><span>♂ Отец</span><input id="pn-father" value="aaBb" autocomplete="off" spellcheck="false" inputmode="latin"></label>
+  </div>
+  <div class="pn-presets">
+    <span>Примеры:</span>
+    <button type="button" data-preset="Aa-Aa">Aa × Aa</button>
+    <button type="button" data-preset="Aa-aa">анализирующее Aa × aa</button>
+    <button type="button" data-preset="AaBb-AaBb">дигибридное AaBb × AaBb</button>
+    <button type="button" data-preset="AaBb-aabb">AaBb × aabb</button>
+    <button type="button" data-preset="AaBbCc-AaBbCc">тригибридное</button>
+  </div>
+  <details class="pn-settings">
+    <summary>Названия признаков и неполное доминирование</summary>
+    <div id="pn-genes"></div>
+  </details>
+  <div id="pn-result" class="pn-result" aria-live="polite"></div>
+</div>
+<script src="{{ "js/genetics.js" | relURL }}" defer></script>
+<style>
+  .pn { margin: 24px 0 40px; }
+  .pn-inputs { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+  .pn-field { display: flex; flex-direction: column; gap: 6px; flex: 1 1 160px; font-weight: 600; color: #374151; }
+  .pn-field input { font: 600 24px/1.2 "Montserrat", sans-serif; letter-spacing: .04em; padding: 12px 16px; border: 2px solid #D1D5DB; border-radius: 12px; outline: none; width: 100%; box-sizing: border-box; }
+  .pn-field input:focus { border-color: #16A34A; }
+  .pn-swap { height: 52px; width: 52px; border-radius: 12px; border: 2px solid #E5E7EB; background: #fff; font-size: 26px; cursor: pointer; color: #16A34A; }
+  .pn-presets { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 14px 0; font-size: 14px; color: #6B7280; }
+  .pn-presets button { border: 1px solid #D1D5DB; background: #F9FAFB; border-radius: 999px; padding: 6px 12px; font-size: 14px; cursor: pointer; }
+  .pn-presets button:hover { border-color: #16A34A; color: #15803D; }
+  .pn-settings { border: 1px solid #E5E7EB; border-radius: 12px; padding: 10px 14px; margin-bottom: 18px; }
+  .pn-settings summary { cursor: pointer; font-weight: 600; color: #374151; }
+  .pn-gene { margin-top: 12px; }
+  .pn-gene-title { font-weight: 700; margin-bottom: 4px; }
+  .pn-check { font-size: 14px; color: #4B5563; }
+  .pn-gene-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+  .pn-gene-row input { flex: 1 1 150px; padding: 8px 10px; border: 1px solid #D1D5DB; border-radius: 8px; font-size: 14px; }
+  .pn-gene .pn-mid { display: none; }
+  .pn-gene.is-inc .pn-mid { display: block; }
+  .pn-error { background: #FEF2F2; color: #B91C1C; border: 1px solid #FECACA; border-radius: 12px; padding: 14px 16px; }
+  .pn-cross { font-size: 20px; margin-bottom: 10px; }
+  .pn-cross span { font-size: 14px; color: #6B7280; margin-left: 8px; }
+  .pn-gametes { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-bottom: 8px; color: #374151; }
+  .pn-gametes span { color: #6B7280; margin-right: 6px; }
+  .pn-gametes code { background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 6px; padding: 2px 6px; margin-right: 4px; font-size: 15px; }
+  .pn-result h3 { margin: 26px 0 10px; font-size: 19px; }
+  .pn-grid-wrap, .pn-tbl { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+  .pn-grid { border-collapse: separate; border-spacing: 4px; margin: 0 auto; }
+  .pn-grid th, .pn-grid td { min-width: 58px; height: 46px; text-align: center; border-radius: 8px; padding: 4px 6px; font-size: 16px; }
+  .pn-grid .pn-gam { background: #111; color: #fff; font-weight: 700; }
+  .pn-grid .pn-corner { background: #F3F4F6; color: #6B7280; font-size: 13px; }
+  .pn-grid td b { letter-spacing: .03em; }
+  .pn-split { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 28px; }
+  .pn-split > div, .pn-result { min-width: 0; }
+
+  .pn-tbl table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  .pn-tbl th, .pn-tbl td { border-bottom: 1px solid #E5E7EB; padding: 7px 8px; text-align: left; white-space: nowrap; }
+  .pn-tbl th { color: #6B7280; font-weight: 600; font-size: 13px; }
+  .pn-swatch { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; border: 1px solid rgba(0,0,0,.1); }
+  .pn-steps { padding-left: 22px; line-height: 1.6; }
+  .pn-steps li { margin-bottom: 10px; }
+  .pn-steps ul { margin: 6px 0 0; padding-left: 18px; }
+  .pn-answer { background: #F0FDF4; border-left: 4px solid #16A34A; border-radius: 8px; padding: 14px 16px; font-size: 17px; }
+</style>
