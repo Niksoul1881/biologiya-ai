@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="560" fill="#fff"/>
+  <text x="450" y="36" font-size="22" font-weight="bold" text-anchor="middle" fill="#312e81">Решётка Пеннета = таблица совместных вероятностей</text>
+
+  <!-- Левая решётка: равновероятные гаметы -->
+  <text x="225" y="78" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Aa × Aa, гаметы по ½</text>
+  <text x="260" y="108" font-size="15" text-anchor="middle" fill="#4F46E5">гаметы отца ♂</text>
+  <g font-size="20" font-weight="bold" text-anchor="middle" fill="#4F46E5">
+    <text x="190" y="140">A · ½</text>
+    <text x="330" y="140">a · ½</text>
+  </g>
+  <text x="30" y="295" font-size="15" text-anchor="middle" fill="#c2410c" transform="rotate(-90 30 295)">гаметы матери ♀</text>
+  <g font-size="20" font-weight="bold" text-anchor="middle" fill="#c2410c">
+    <text x="85" y="232">A · ½</text>
+    <text x="85" y="372">a · ½</text>
+  </g>
+  <g stroke="#312e81" stroke-width="2">
+    <rect x="120" y="155" width="140" height="140" fill="#E0E7FF"/>
+    <rect x="260" y="155" width="140" height="140" fill="#E0E7FF"/>
+    <rect x="120" y="295" width="140" height="140" fill="#E0E7FF"/>
+    <rect x="260" y="295" width="140" height="140" fill="#FDE7D3"/>
+  </g>
+  <g text-anchor="middle" fill="#222">
+    <text x="190" y="220" font-size="26" font-weight="bold">AA</text>
+    <text x="190" y="252" font-size="17">½ · ½ = ¼</text>
+    <text x="330" y="220" font-size="26" font-weight="bold">Aa</text>
+    <text x="330" y="252" font-size="17">½ · ½ = ¼</text>
+    <text x="190" y="360" font-size="26" font-weight="bold">Aa</text>
+    <text x="190" y="392" font-size="17">½ · ½ = ¼</text>
+    <text x="330" y="360" font-size="26" font-weight="bold">aa</text>
+    <text x="330" y="392" font-size="17">½ · ½ = ¼</text>
+  </g>
+  <g font-size="16" fill="#333">
+    <text x="40" y="478">Клетка: P(гамета ♀) × P(гамета ♂) — умножение.</text>
+    <text x="40" y="503">Aa встречается в двух клетках: ¼ + ¼ = ½ — сложение.</text>
+    <text x="40" y="528">Сумма всех клеток = 1.</text>
+  </g>
+
+  <!-- Правая решётка: площадь пропорциональна вероятности -->
+  <text x="700" y="78" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Если P(A) = 0,7, а P(a) = 0,3</text>
+  <g font-size="18" font-weight="bold" text-anchor="middle" fill="#4F46E5">
+    <text x="658" y="140">A · 0,7</text>
+    <text x="798" y="140">a · 0,3</text>
+  </g>
+  <g font-size="18" font-weight="bold" text-anchor="middle" fill="#c2410c">
+    <text x="515" y="258">A · 0,7</text>
+    <text x="515" y="398">a · 0,3</text>
+  </g>
+  <g stroke="#312e81" stroke-width="2">
+    <rect x="560" y="155" width="196" height="196" fill="#E0E7FF"/>
+    <rect x="756" y="155" width="84" height="196" fill="#E0E7FF"/>
+    <rect x="560" y="351" width="196" height="84" fill="#E0E7FF"/>
+    <rect x="756" y="351" width="84" height="84" fill="#FDE7D3"/>
+  </g>
+  <g text-anchor="middle" fill="#222">
+    <text x="658" y="248" font-size="24" font-weight="bold">AA</text>
+    <text x="658" y="276" font-size="17">0,49</text>
+    <text x="798" y="248" font-size="20" font-weight="bold">Aa</text>
+    <text x="798" y="276" font-size="17">0,21</text>
+    <text x="658" y="390" font-size="20" font-weight="bold">Aa</text>
+    <text x="658" y="414" font-size="17">0,21</text>
+    <text x="798" y="390" font-size="18" font-weight="bold">aa</text>
+    <text x="798" y="414" font-size="15">0,09</text>
+  </g>
+  <g font-size="16" fill="#333">
+    <text x="490" y="478">Площадь клетки = её вероятность.</text>
+    <text x="490" y="503">Клетки уже не равны: «одна клетка из четырёх»</text>
+    <text x="490" y="528">работает только при равновероятных гаметах.</text>
+  </g>
+</svg>
