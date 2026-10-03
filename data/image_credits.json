@@ -2363,5 +2363,20 @@
   "source": "https://commons.wikimedia.org/wiki/File:AAMarkov.jpg",
   "author": "Unknown authorUnknown author",
   "license": "Public domain"
+ },
+ "/images/lessons/199/viterbi.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:10-08ViterbiBIG.jpg",
+  "author": "Canyigitozen",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/199/hmm-eukaryotic.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:HMM_Eukaryotic.jpg",
+  "author": "Byung-Jun Yoon",
+  "license": "CC BY 2.5"
+ },
+ "/images/lessons/199/profile-hmm.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:A_profile_HMM_modelling_a_multiple_sequence_alignment.png",
+  "author": "EMBL-EBI Train Online",
+  "license": "CC BY-SA 4.0"
  }
 }
