@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="420" fill="#ffffff"/>
+  <rect x="270" y="18" width="360" height="64" rx="14" fill="#ecfdf5" stroke="#0f766e" stroke-width="3"/>
+  <text x="450" y="58" text-anchor="middle" font-size="22" font-weight="bold" fill="#0f766e">Наследственные болезни</text>
+  <g stroke="#374151" stroke-width="3" fill="none">
+    <path d="M450 82 V110 H150 V135"/><path d="M450 110 H750 V135"/><path d="M450 110 V135"/>
+  </g>
+  <!-- Генные -->
+  <rect x="20" y="138" width="260" height="262" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+  <text x="150" y="172" text-anchor="middle" font-size="21" font-weight="bold" fill="#1d4ed8">Генные</text>
+  <g font-size="15" fill="#1f2937">
+    <text x="36" y="200">Причина: мутация</text>
+    <text x="36" y="220">одного гена</text>
+    <text x="36" y="250" font-weight="bold">Примеры:</text>
+    <text x="36" y="272">• фенилкетонурия</text>
+    <text x="36" y="294">• муковисцидоз</text>
+    <text x="36" y="316">• гемофилия</text>
+    <text x="36" y="338">• серповидноклеточная</text>
+    <text x="50" y="358">анемия</text>
+    <text x="36" y="380">• дальтонизм</text>
+  </g>
+  <!-- Хромосомные -->
+  <rect x="320" y="138" width="260" height="262" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <text x="450" y="172" text-anchor="middle" font-size="21" font-weight="bold" fill="#b45309">Хромосомные</text>
+  <g font-size="15" fill="#1f2937">
+    <text x="336" y="200">Причина: изменение числа</text>
+    <text x="336" y="220">или строения хромосом</text>
+    <text x="336" y="250" font-weight="bold">Примеры:</text>
+    <text x="336" y="272">• синдром Дауна</text>
+    <text x="350" y="292">(47, +21)</text>
+    <text x="336" y="316">• синдром Тёрнера</text>
+    <text x="350" y="336">(45, X0)</text>
+    <text x="336" y="360">• синдром Клайнфельтера</text>
+    <text x="350" y="380">(47, XXY)</text>
+  </g>
+  <!-- Мультифакториальные -->
+  <rect x="620" y="138" width="260" height="262" rx="12" fill="#fdf2f8" stroke="#db2777" stroke-width="3"/>
+  <text x="750" y="166" text-anchor="middle" font-size="19" font-weight="bold" fill="#be185d">С наследственной</text>
+  <text x="750" y="188" text-anchor="middle" font-size="19" font-weight="bold" fill="#be185d">предрасположенностью</text>
+  <g font-size="15" fill="#1f2937">
+    <text x="636" y="216">Причина: много генов</text>
+    <text x="636" y="236">+ образ жизни и среда</text>
+    <text x="636" y="266" font-weight="bold">Примеры:</text>
+    <text x="636" y="288">• сахарный диабет 2 типа</text>
+    <text x="636" y="310">• гипертония</text>
+    <text x="636" y="332">• атеросклероз</text>
+    <text x="636" y="354">• бронхиальная астма</text>
+  </g>
+</svg>

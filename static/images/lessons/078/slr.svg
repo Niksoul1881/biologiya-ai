@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="470" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f766e">Сердечно-лёгочная реанимация у взрослого</text>
+  <!-- Пострадавший сверху -->
+  <g>
+    <ellipse cx="120" cy="250" rx="48" ry="40" fill="#fde2c8" stroke="#9a3412" stroke-width="2"/>
+    <rect x="165" y="185" width="270" height="130" rx="40" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+    <rect x="430" y="195" width="150" height="50" rx="20" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+    <rect x="430" y="255" width="150" height="50" rx="20" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+    <line x1="230" y1="250" x2="330" y2="250" stroke="#64748b" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="280" y="210" text-anchor="middle" font-size="13" fill="#334155">грудина</text>
+    <circle cx="285" cy="250" r="20" fill="#ef4444" opacity="0.85"/>
+    <circle cx="285" cy="250" r="30" fill="none" stroke="#ef4444" stroke-width="3"/>
+    <text x="285" y="350" text-anchor="middle" font-size="15" fill="#991b1b" font-weight="bold">центр грудной клетки</text>
+    <text x="285" y="370" text-anchor="middle" font-size="14" fill="#1f2937">(нижняя половина грудины)</text>
+    <path d="M118 208 L118 186" stroke="#0284c7" stroke-width="3" fill="none"/>
+    <text x="40" y="160" font-size="14" fill="#075985">голова запрокинута,</text>
+    <text x="40" y="178" font-size="14" fill="#075985">подбородок поднят</text>
+  </g>
+  <!-- Правила -->
+  <g font-size="16" fill="#1f2937">
+    <rect x="620" y="70" width="260" height="385" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+    <text x="640" y="104" font-weight="bold" fill="#0f766e">Как давить</text>
+    <text x="640" y="132">• основание ладони — в центр</text>
+    <text x="656" y="152">груди, вторая ладонь сверху</text>
+    <text x="640" y="180">• руки прямые, давить весом</text>
+    <text x="656" y="200">тела, вертикально вниз</text>
+    <text x="640" y="228">• глубина <tspan font-weight="bold">5–6 см</tspan></text>
+    <text x="640" y="256">• темп <tspan font-weight="bold">100–120</tspan> в минуту</text>
+    <text x="640" y="284">• после нажатия грудь должна</text>
+    <text x="656" y="304">полностью расправиться</text>
+    <text x="640" y="336" font-weight="bold" fill="#b91c1c">30 нажатий : 2 вдоха</text>
+    <text x="640" y="364">• не прерываться дольше</text>
+    <text x="656" y="384">чем на 10 секунд</text>
+    <text x="640" y="412">• не умеешь делать вдохи —</text>
+  </g>
+  <text x="656" y="438" font-size="16" fill="#1f2937">только нажатия</text>
+</svg>

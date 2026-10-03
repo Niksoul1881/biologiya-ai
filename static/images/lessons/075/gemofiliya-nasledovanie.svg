@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f766e">Наследование гемофилии (сцеплено с X-хромосомой)</text>
+  <!-- Родители -->
+  <g text-anchor="middle">
+    <circle cx="300" cy="105" r="38" fill="#fde68a" stroke="#b45309" stroke-width="3"/>
+    <circle cx="300" cy="105" r="10" fill="#b45309"/>
+    <text x="300" y="168" font-size="20" font-weight="bold" fill="#1f2937">Мать X<tspan baseline-shift="super" font-size="14">H</tspan>X<tspan baseline-shift="super" font-size="14">h</tspan></text>
+    <text x="300" y="192" font-size="16" fill="#92400e">здорова, носительница</text>
+    <rect x="562" y="67" width="76" height="76" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+    <text x="600" y="168" font-size="20" font-weight="bold" fill="#1f2937">Отец X<tspan baseline-shift="super" font-size="14">H</tspan>Y</text>
+    <text x="600" y="192" font-size="16" fill="#1e3a8a">здоров</text>
+    <line x1="338" y1="105" x2="562" y2="105" stroke="#374151" stroke-width="3"/>
+    <text x="450" y="95" font-size="22" fill="#374151">×</text>
+  </g>
+  <line x1="450" y1="105" x2="450" y2="235" stroke="#374151" stroke-width="3"/>
+  <line x1="120" y1="235" x2="780" y2="235" stroke="#374151" stroke-width="3"/>
+  <g stroke="#374151" stroke-width="3">
+    <line x1="120" y1="235" x2="120" y2="270"/><line x1="340" y1="235" x2="340" y2="270"/>
+    <line x1="560" y1="235" x2="560" y2="270"/><line x1="780" y1="235" x2="780" y2="270"/>
+  </g>
+  <!-- Дети -->
+  <g text-anchor="middle">
+    <circle cx="120" cy="308" r="36" fill="#ffffff" stroke="#b45309" stroke-width="3"/>
+    <text x="120" y="372" font-size="19" font-weight="bold" fill="#1f2937">X<tspan baseline-shift="super" font-size="13">H</tspan>X<tspan baseline-shift="super" font-size="13">H</tspan></text>
+    <text x="120" y="396" font-size="16" fill="#1f2937">дочь здорова</text>
+
+    <circle cx="340" cy="308" r="36" fill="#fde68a" stroke="#b45309" stroke-width="3"/>
+    <circle cx="340" cy="308" r="9" fill="#b45309"/>
+    <text x="340" y="372" font-size="19" font-weight="bold" fill="#1f2937">X<tspan baseline-shift="super" font-size="13">H</tspan>X<tspan baseline-shift="super" font-size="13">h</tspan></text>
+    <text x="340" y="396" font-size="16" fill="#1f2937">дочь — носительница</text>
+
+    <rect x="524" y="272" width="72" height="72" fill="#ffffff" stroke="#1d4ed8" stroke-width="3"/>
+    <text x="560" y="372" font-size="19" font-weight="bold" fill="#1f2937">X<tspan baseline-shift="super" font-size="13">H</tspan>Y</text>
+    <text x="560" y="396" font-size="16" fill="#1f2937">сын здоров</text>
+
+    <rect x="744" y="272" width="72" height="72" fill="#dc2626" stroke="#7f1d1d" stroke-width="3"/>
+    <text x="780" y="372" font-size="19" font-weight="bold" fill="#1f2937">X<tspan baseline-shift="super" font-size="13">h</tspan>Y</text>
+    <text x="780" y="396" font-size="16" fill="#b91c1c" font-weight="bold">сын болен</text>
+  </g>
+  <!-- Легенда -->
+  <g font-size="15" fill="#374151">
+    <rect x="40" y="430" width="820" height="72" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+    <circle cx="70" cy="452" r="10" fill="#fff" stroke="#b45309" stroke-width="2"/><text x="88" y="457">женщина</text>
+    <rect x="170" y="442" width="20" height="20" fill="#fff" stroke="#1d4ed8" stroke-width="2"/><text x="198" y="457">мужчина</text>
+    <circle cx="300" cy="452" r="10" fill="#fde68a" stroke="#b45309" stroke-width="2"/><circle cx="300" cy="452" r="3" fill="#b45309"/><text x="318" y="457">носительница</text>
+    <rect x="440" y="442" width="20" height="20" fill="#dc2626" stroke="#7f1d1d" stroke-width="2"/><text x="468" y="457">больной</text>
+    <text x="560" y="457">H — норма, h — гемофилия</text>
+    <text x="70" y="488">Среди сыновей: 50 % больных. Среди дочерей: 50 % носительниц, больных нет.</text>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="540" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f766e">Что курение делает с организмом</text>
+  <!-- Силуэт -->
+  <g fill="#e5e7eb" stroke="#9ca3af" stroke-width="2">
+    <circle cx="450" cy="105" r="42"/>
+    <rect x="432" y="145" width="36" height="22"/>
+    <path d="M375 170 Q450 155 525 170 L540 330 Q450 350 360 330 Z"/>
+    <path d="M375 175 L330 320 L348 326 L392 200 Z"/>
+    <path d="M525 175 L570 320 L552 326 L508 200 Z"/>
+    <path d="M380 330 L395 510 L440 510 L448 345 Z"/>
+    <path d="M520 330 L505 510 L460 510 L452 345 Z"/>
+  </g>
+  <!-- Органы -->
+  <path d="M420 95 q10 -18 30 -18 q20 0 30 18 q-30 14 -60 0z" fill="#c4b5fd"/>
+  <ellipse cx="420" cy="225" rx="26" ry="45" fill="#9ca3af"/>
+  <ellipse cx="480" cy="225" rx="26" ry="45" fill="#9ca3af"/>
+  <path d="M455 240 q15 -15 25 0 q5 15 -25 30 q-30 -15 -25 -30 q10 -15 25 0z" fill="#ef4444"/>
+  <ellipse cx="465" cy="295" rx="22" ry="14" fill="#fca5a5"/>
+  <g stroke="#374151" stroke-width="2" fill="none">
+    <line x1="420" y1="90" x2="250" y2="80"/>
+    <line x1="455" y1="128" x2="610" y2="110"/>
+    <line x1="405" y1="225" x2="250" y2="205"/>
+    <line x1="470" y1="250" x2="610" y2="230"/>
+    <line x1="470" y1="300" x2="610" y2="350"/>
+    <line x1="410" y1="490" x2="250" y2="440"/>
+  </g>
+  <g font-size="15" fill="#1f2937">
+    <text x="20" y="66" font-weight="bold" fill="#5b21b6">Мозг</text>
+    <text x="20" y="86">зависимость от никотина,</text>
+    <text x="20" y="104">риск инсульта</text>
+    <text x="620" y="96" font-weight="bold" fill="#92400e">Рот, зубы, гортань</text>
+    <text x="620" y="116">жёлтый налёт, запах,</text>
+    <text x="620" y="134">рак полости рта и гортани</text>
+    <text x="20" y="190" font-weight="bold" fill="#374151">Лёгкие и бронхи</text>
+    <text x="20" y="210">смола оседает в лёгких,</text>
+    <text x="20" y="228">«кашель курильщика»,</text>
+    <text x="20" y="246">хронический бронхит, рак</text>
+    <text x="620" y="216" font-weight="bold" fill="#b91c1c">Сердце и сосуды</text>
+    <text x="620" y="236">никотин сужает сосуды,</text>
+    <text x="620" y="254">угарный газ занимает</text>
+    <text x="620" y="272">гемоглобин; инфаркт</text>
+    <text x="620" y="340" font-weight="bold" fill="#be123c">Желудок</text>
+    <text x="620" y="360">гастрит, язва</text>
+    <text x="20" y="420" font-weight="bold" fill="#374151">Ноги, кожа</text>
+    <text x="20" y="440">плохое кровоснабжение,</text>
+    <text x="20" y="458">кожа стареет быстрее</text>
+  </g>
+</svg>

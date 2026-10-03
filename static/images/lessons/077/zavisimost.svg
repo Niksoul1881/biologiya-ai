@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#ffffff"/>
+  <text x="450" y="36" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f766e">Как формируется зависимость</text>
+  <defs><marker id="m" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" refX="12" refY="9" orient="auto"><path d="M0 0 L18 9 L0 18 z" fill="#b91c1c"/></marker></defs>
+  <g text-anchor="middle">
+    <rect x="330" y="60" width="240" height="80" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <text x="450" y="94" font-size="19" font-weight="bold" fill="#92400e">1. Приём вещества</text>
+    <text x="450" y="120" font-size="15" fill="#1f2937">никотин, алкоголь, наркотик</text>
+
+    <rect x="620" y="165" width="250" height="90" rx="14" fill="#fce7f3" stroke="#db2777" stroke-width="3"/>
+    <text x="745" y="198" font-size="19" font-weight="bold" fill="#9d174d">2. Выброс дофамина</text>
+    <text x="745" y="222" font-size="15" fill="#1f2937">«центр награды» мозга:</text>
+    <text x="745" y="242" font-size="15" fill="#1f2937">удовольствие, облегчение</text>
+
+    <rect x="560" y="320" width="280" height="90" rx="14" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/>
+    <text x="700" y="353" font-size="19" font-weight="bold" fill="#5b21b6">3. Привыкание</text>
+    <text x="700" y="377" font-size="15" fill="#1f2937">мозг подстраивается — для</text>
+    <text x="700" y="397" font-size="15" fill="#1f2937">того же эффекта нужно больше</text>
+
+    <rect x="60" y="320" width="280" height="90" rx="14" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+    <text x="200" y="353" font-size="19" font-weight="bold" fill="#991b1b">4. Без вещества плохо</text>
+    <text x="200" y="377" font-size="15" fill="#1f2937">раздражение, тревога,</text>
+    <text x="200" y="397" font-size="15" fill="#1f2937">«ломка» — синдром отмены</text>
+
+    <rect x="30" y="165" width="250" height="90" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="3"/>
+    <text x="155" y="198" font-size="19" font-weight="bold" fill="#111827">5. Тяга</text>
+    <text x="155" y="222" font-size="15" fill="#1f2937">желание принять снова,</text>
+    <text x="155" y="242" font-size="15" fill="#1f2937">чтобы стало «нормально»</text>
+  </g>
+  <g stroke="#b91c1c" stroke-width="4" fill="none">
+    <path d="M572 105 C 650 110, 700 130, 730 160" marker-end="url(#m)"/>
+    <path d="M760 258 C 770 285, 760 300, 745 316" marker-end="url(#m)"/>
+    <path d="M556 365 L 346 365" marker-end="url(#m)"/>
+    <path d="M150 316 C 135 295, 135 280, 145 262" marker-end="url(#m)"/>
+    <path d="M190 162 C 230 120, 280 105, 326 102" marker-end="url(#m)"/>
+  </g>
+  <text x="450" y="210" text-anchor="middle" font-size="17" font-weight="bold" fill="#b91c1c">замкнутый круг</text>
+  <text x="450" y="460" text-anchor="middle" font-size="15" fill="#4b5563">Подростковый мозг созревает до ~25 лет, поэтому зависимость у подростков формируется быстрее.</text>
+</svg>

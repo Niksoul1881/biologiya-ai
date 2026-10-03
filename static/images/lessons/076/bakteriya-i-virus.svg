@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="440" fill="#ffffff"/>
+  <text x="450" y="34" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f766e">Бактерия и вирус: в чём разница</text>
+  <!-- Бактерия -->
+  <text x="225" y="74" text-anchor="middle" font-size="21" font-weight="bold" fill="#15803d">Бактерия — клетка</text>
+  <rect x="75" y="100" width="300" height="130" rx="65" fill="#dcfce7" stroke="#15803d" stroke-width="4"/>
+  <rect x="85" y="110" width="280" height="110" rx="55" fill="none" stroke="#16a34a" stroke-width="2" stroke-dasharray="4 3"/>
+  <path d="M150 150 C 180 130, 220 190, 260 150 S 300 170, 310 160" stroke="#7c3aed" stroke-width="4" fill="none"/>
+  <g fill="#0f172a"><circle cx="130" cy="190" r="4"/><circle cx="150" cy="200" r="4"/><circle cx="200" cy="195" r="4"/><circle cx="280" cy="195" r="4"/><circle cx="330" cy="140" r="4"/><circle cx="120" cy="140" r="4"/></g>
+  <path d="M375 165 C 395 150, 405 185, 430 170" stroke="#15803d" stroke-width="3" fill="none"/>
+  <g font-size="14" fill="#374151">
+    <text x="190" y="128">ДНК (нуклеоид)</text>
+    <text x="96" y="248">клеточная стенка и мембрана, рибосомы (точки)</text>
+  </g>
+  <g font-size="16" fill="#1f2937">
+    <text x="60" y="290">• размер — около 1–5 мкм</text>
+    <text x="60" y="316">• видна в световой микроскоп</text>
+    <text x="60" y="342">• сама размножается делением</text>
+    <text x="60" y="368">• есть свой обмен веществ</text>
+    <text x="60" y="394" font-weight="bold" fill="#15803d">• действуют антибиотики</text>
+  </g>
+  <!-- Вирус -->
+  <text x="675" y="74" text-anchor="middle" font-size="21" font-weight="bold" fill="#b91c1c">Вирус — не клетка</text>
+  <circle cx="675" cy="165" r="55" fill="#fee2e2" stroke="#b91c1c" stroke-width="4"/>
+  <g stroke="#b91c1c" stroke-width="4">
+    <line x1="675" y1="110" x2="675" y2="92"/><line x1="675" y1="220" x2="675" y2="238"/>
+    <line x1="620" y1="165" x2="602" y2="165"/><line x1="730" y1="165" x2="748" y2="165"/>
+    <line x1="636" y1="126" x2="623" y2="113"/><line x1="714" y1="204" x2="727" y2="217"/>
+    <line x1="714" y1="126" x2="727" y2="113"/><line x1="636" y1="204" x2="623" y2="217"/>
+  </g>
+  <path d="M650 160 C 665 140, 680 190, 700 165" stroke="#7c3aed" stroke-width="4" fill="none"/>
+  <g font-size="14" fill="#374151">
+    <text x="760" y="140">белковая оболочка</text>
+    <text x="760" y="190">ДНК или РНК</text>
+  </g>
+  <g font-size="16" fill="#1f2937">
+    <text x="510" y="290">• размер — около 0,02–0,3 мкм</text>
+    <text x="510" y="316">• виден только в электронный</text>
+    <text x="526" y="338">микроскоп</text>
+    <text x="510" y="364">• размножается только в клетке</text>
+    <text x="510" y="390">• своего обмена веществ нет</text>
+    <text x="510" y="416" font-weight="bold" fill="#b91c1c">• антибиотики НЕ действуют</text>
+  </g>
+  <line x1="450" y1="60" x2="450" y2="420" stroke="#d1d5db" stroke-width="2"/>
+  <text x="450" y="436" text-anchor="middle" font-size="12" fill="#6b7280">масштаб условный: вирус на самом деле в десятки раз меньше бактерии</text>
+</svg>

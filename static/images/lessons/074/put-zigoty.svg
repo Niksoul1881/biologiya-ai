@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="960" height="470" fill="#ffffff"/>
+  <text x="480" y="34" text-anchor="middle" font-size="24" font-weight="bold" fill="#0f766e">Первая неделя: путь от оплодотворения до имплантации</text>
+  <!-- Матка и труба -->
+  <path d="M60 150 C 180 110, 330 110, 470 150 C 560 175, 600 210, 640 250" fill="none" stroke="#f9a8d4" stroke-width="46" stroke-linecap="round"/>
+  <path d="M640 250 C 690 300, 760 330, 880 330 L 880 430 L 600 430 C 600 360, 620 300, 640 250 z" fill="#fce7f3" stroke="#f472b6" stroke-width="3"/>
+  <text x="250" y="96" text-anchor="middle" font-size="18" fill="#9d174d">маточная (фаллопиева) труба</text>
+  <text x="800" y="420" text-anchor="middle" font-size="18" fill="#9d174d">полость матки</text>
+  <!-- Стадии -->
+  <g font-size="15" fill="#1f2937" text-anchor="middle">
+    <!-- 1. оплодотворение -->
+    <circle cx="90" cy="150" r="17" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <path d="M68 138 q -12 -10 -22 -4 q -10 6 -20 -2" stroke="#1d4ed8" stroke-width="2" fill="none"/>
+    <ellipse cx="73" cy="141" rx="6" ry="4" fill="#1d4ed8" transform="rotate(30 73 141)"/>
+    <text x="90" y="205" font-weight="bold">1. Оплодотворение</text>
+    <text x="90" y="224">в трубе, первые сутки</text>
+    <!-- 2. зигота -->
+    <circle cx="210" cy="140" r="17" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <circle cx="210" cy="140" r="5" fill="#b45309"/>
+    <text x="210" y="248" font-weight="bold">2. Зигота</text>
+    <text x="210" y="267">одна клетка, 2n</text>
+    <line x1="210" y1="160" x2="210" y2="230" stroke="#9ca3af" stroke-dasharray="4 3"/>
+    <!-- 3. дробление -->
+    <circle cx="320" cy="135" r="17" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+    <line x1="320" y1="118" x2="320" y2="152" stroke="#b45309" stroke-width="2"/>
+    <line x1="303" y1="135" x2="337" y2="135" stroke="#b45309" stroke-width="2"/>
+    <text x="320" y="205" font-weight="bold">3. Дробление</text>
+    <text x="320" y="224">2 → 4 → 8 клеток</text>
+    <!-- 4. морула -->
+    <g fill="#fde68a" stroke="#b45309" stroke-width="1.5">
+      <circle cx="432" cy="142" r="7"/><circle cx="446" cy="142" r="7"/><circle cx="439" cy="130" r="7"/>
+      <circle cx="439" cy="154" r="7"/><circle cx="426" cy="131" r="6"/><circle cx="452" cy="131" r="6"/>
+      <circle cx="426" cy="153" r="6"/><circle cx="452" cy="153" r="6"/>
+    </g>
+    <text x="439" y="248" font-weight="bold">4. Морула</text>
+    <text x="439" y="267">«тутовая ягода», 3–4 сут.</text>
+    <line x1="439" y1="164" x2="439" y2="230" stroke="#9ca3af" stroke-dasharray="4 3"/>
+    <!-- 5. бластоциста -->
+    <circle cx="560" cy="185" r="20" fill="#fff7ed" stroke="#b45309" stroke-width="3"/>
+    <path d="M545 175 a 16 16 0 0 1 20 -8 l -4 14 z" fill="#f59e0b"/>
+    <text x="510" y="300" font-weight="bold">5. Бластоциста</text>
+    <text x="510" y="319">пузырёк с полостью, 5 сут.</text>
+    <line x1="545" y1="207" x2="520" y2="282" stroke="#9ca3af" stroke-dasharray="4 3"/>
+    <!-- 6. имплантация -->
+    <circle cx="700" cy="380" r="20" fill="#fff7ed" stroke="#b45309" stroke-width="3"/>
+    <path d="M690 395 a 16 16 0 0 0 20 0 l -4 -10 l -12 0 z" fill="#f59e0b"/>
+    <text x="700" y="455" font-weight="bold">6. Имплантация</text>
+    <text x="830" y="350" font-weight="bold" text-anchor="middle">6–7 сутки:</text>
+    <text x="830" y="370" text-anchor="middle">внедрение</text>
+    <text x="830" y="388" text-anchor="middle">в стенку матки</text>
+  </g>
+  <!-- Стрелка пути -->
+  <path d="M120 165 C 200 180, 300 180, 400 175 C 480 172, 560 230, 660 345" fill="none" stroke="#0f766e" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#a)"/>
+  <defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" refX="10" refY="8" orient="auto"><path d="M0 0 L16 8 L0 16 z" fill="#0f766e"/></marker></defs>
+</svg>
