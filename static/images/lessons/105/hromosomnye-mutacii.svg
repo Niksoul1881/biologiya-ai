@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 570" width="1000" height="570" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1000" height="570" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker></defs>
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Хромосомные мутации (перестройки)</text>
+<text x="30" y="86" font-size="19" font-weight="bold" fill="#0F766E">Норма</text>
+<rect x="330" y="60" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="350.0" y="87.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">А</text>
+<rect x="370" y="60" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="390.0" y="87.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Б</text>
+<rect x="410" y="60" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="430.0" y="87.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">В</text>
+<path d="M450,64 q9,16.0 0,32 M468,64 q-9,16.0 0,32" stroke="#374151" stroke-width="2" fill="#111827"/>
+<ellipse cx="459" cy="80.0" rx="7" ry="9" fill="#374151"/>
+<rect x="468" y="60" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="488.0" y="87.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Г</text>
+<rect x="508" y="60" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="528.0" y="87.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Д</text>
+<rect x="548" y="60" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="568.0" y="87.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Е</text>
+<rect x="588" y="60" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="608.0" y="87.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Ж</text>
+<text x="30" y="176" font-size="19" font-weight="bold" fill="#0F766E">Делеция</text>
+<text x="30" y="200" font-size="14" fill="#6B7280">выпал участок Б</text>
+<rect x="330" y="150" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="350.0" y="177.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">А</text>
+<rect x="370" y="150" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="390.0" y="177.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">В</text>
+<path d="M410,154 q9,16.0 0,32 M428,154 q-9,16.0 0,32" stroke="#374151" stroke-width="2" fill="#111827"/>
+<ellipse cx="419" cy="170.0" rx="7" ry="9" fill="#374151"/>
+<rect x="428" y="150" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="448.0" y="177.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Г</text>
+<rect x="468" y="150" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="488.0" y="177.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Д</text>
+<rect x="508" y="150" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="528.0" y="177.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Е</text>
+<rect x="548" y="150" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="568.0" y="177.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Ж</text>
+<text x="608" y="177" font-size="15" fill="#DC2626">← Б потерян</text>
+<text x="30" y="266" font-size="19" font-weight="bold" fill="#0F766E">Дупликация</text>
+<text x="30" y="290" font-size="14" fill="#6B7280">участок Б удвоен</text>
+<rect x="330" y="240" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="350.0" y="267.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">А</text>
+<rect x="370" y="240" width="40" height="40" rx="8" fill="#FDE68A" stroke="#374151" stroke-width="1.5"/>
+<text x="390.0" y="267.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Б</text>
+<rect x="410" y="240" width="40" height="40" rx="8" fill="#FDE68A" stroke="#374151" stroke-width="1.5"/>
+<text x="430.0" y="267.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Б</text>
+<rect x="450" y="240" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="470.0" y="267.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">В</text>
+<path d="M490,244 q9,16.0 0,32 M508,244 q-9,16.0 0,32" stroke="#374151" stroke-width="2" fill="#111827"/>
+<ellipse cx="499" cy="260.0" rx="7" ry="9" fill="#374151"/>
+<rect x="508" y="240" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="528.0" y="267.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Г</text>
+<rect x="548" y="240" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="568.0" y="267.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Д</text>
+<rect x="588" y="240" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="608.0" y="267.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Е</text>
+<rect x="628" y="240" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="648.0" y="267.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Ж</text>
+<text x="30" y="356" font-size="19" font-weight="bold" fill="#0F766E">Инверсия</text>
+<text x="30" y="380" font-size="14" fill="#6B7280">участок Г–Д–Е развёрнут на 180°</text>
+<rect x="330" y="330" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="350.0" y="357.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">А</text>
+<rect x="370" y="330" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="390.0" y="357.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Б</text>
+<rect x="410" y="330" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="430.0" y="357.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">В</text>
+<path d="M450,334 q9,16.0 0,32 M468,334 q-9,16.0 0,32" stroke="#374151" stroke-width="2" fill="#111827"/>
+<ellipse cx="459" cy="350.0" rx="7" ry="9" fill="#374151"/>
+<rect x="468" y="330" width="40" height="40" rx="8" fill="#FDE68A" stroke="#374151" stroke-width="1.5"/>
+<text x="488.0" y="357.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Е</text>
+<rect x="508" y="330" width="40" height="40" rx="8" fill="#FDE68A" stroke="#374151" stroke-width="1.5"/>
+<text x="528.0" y="357.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Д</text>
+<rect x="548" y="330" width="40" height="40" rx="8" fill="#FDE68A" stroke="#374151" stroke-width="1.5"/>
+<text x="568.0" y="357.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Г</text>
+<rect x="588" y="330" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="608.0" y="357.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Ж</text>
+<text x="30" y="446" font-size="19" font-weight="bold" fill="#0F766E">Транслокация</text>
+<text x="30" y="470" font-size="14" fill="#6B7280">обмен участками между</text>
+<text x="30" y="490" font-size="14" fill="#6B7280">негомологичными хромосомами</text>
+<text x="330" y="414" font-size="13" fill="#6B7280">до</text>
+<rect x="330" y="420" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="350.0" y="447.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">А</text>
+<rect x="370" y="420" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="390.0" y="447.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Б</text>
+<rect x="410" y="420" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="430.0" y="447.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">В</text>
+<path d="M450,424 q9,16.0 0,32 M468,424 q-9,16.0 0,32" stroke="#374151" stroke-width="2" fill="#111827"/>
+<ellipse cx="459" cy="440.0" rx="7" ry="9" fill="#374151"/>
+<rect x="468" y="420" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="488.0" y="447.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Г</text>
+<rect x="508" y="420" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="528.0" y="447.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Д</text>
+<rect x="548" y="420" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="568.0" y="447.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Е</text>
+<rect x="588" y="420" width="40" height="40" rx="8" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="608.0" y="447.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Ж</text>
+<rect x="330" y="472" width="40" height="40" rx="8" fill="#BFDBFE" stroke="#374151" stroke-width="1.5"/>
+<text x="350.0" y="499.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">М</text>
+<rect x="370" y="472" width="40" height="40" rx="8" fill="#BFDBFE" stroke="#374151" stroke-width="1.5"/>
+<text x="390.0" y="499.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Н</text>
+<path d="M410,476 q9,16.0 0,32 M428,476 q-9,16.0 0,32" stroke="#374151" stroke-width="2" fill="#111827"/>
+<ellipse cx="419" cy="492.0" rx="7" ry="9" fill="#374151"/>
+<rect x="428" y="472" width="40" height="40" rx="8" fill="#BFDBFE" stroke="#374151" stroke-width="1.5"/>
+<text x="448.0" y="499.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">О</text>
+<rect x="468" y="472" width="40" height="40" rx="8" fill="#BFDBFE" stroke="#374151" stroke-width="1.5"/>
+<text x="488.0" y="499.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">П</text>
+<rect x="508" y="472" width="40" height="40" rx="8" fill="#BFDBFE" stroke="#374151" stroke-width="1.5"/>
+<text x="528.0" y="499.0" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Р</text>
+<text x="690" y="414" font-size="13" fill="#6B7280">после</text>
+<rect x="690" y="420" width="32" height="40" rx="7" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="706.0" y="447" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">А</text>
+<rect x="722" y="420" width="32" height="40" rx="7" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="738.0" y="447" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Б</text>
+<rect x="754" y="420" width="32" height="40" rx="7" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="770.0" y="447" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">В</text>
+<ellipse cx="794" cy="440" rx="6" ry="9" fill="#374151"/>
+<rect x="802" y="420" width="32" height="40" rx="7" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="818.0" y="447" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Г</text>
+<rect x="834" y="420" width="32" height="40" rx="7" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="850.0" y="447" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Д</text>
+<rect x="866" y="420" width="32" height="40" rx="7" fill="#BFDBFE" stroke="#374151" stroke-width="1.5"/>
+<text x="882.0" y="447" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Р</text>
+<rect x="690" y="472" width="32" height="40" rx="7" fill="#BFDBFE" stroke="#374151" stroke-width="1.5"/>
+<text x="706.0" y="499" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">М</text>
+<rect x="722" y="472" width="32" height="40" rx="7" fill="#BFDBFE" stroke="#374151" stroke-width="1.5"/>
+<text x="738.0" y="499" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Н</text>
+<ellipse cx="762" cy="492" rx="6" ry="9" fill="#374151"/>
+<rect x="770" y="472" width="32" height="40" rx="7" fill="#BFDBFE" stroke="#374151" stroke-width="1.5"/>
+<text x="786.0" y="499" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">О</text>
+<rect x="802" y="472" width="32" height="40" rx="7" fill="#BFDBFE" stroke="#374151" stroke-width="1.5"/>
+<text x="818.0" y="499" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">П</text>
+<rect x="834" y="472" width="32" height="40" rx="7" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="850.0" y="499" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Е</text>
+<rect x="866" y="472" width="32" height="40" rx="7" fill="#BBF7D0" stroke="#374151" stroke-width="1.5"/>
+<text x="882.0" y="499" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Ж</text>
+<path d="M640,465 L675,465" stroke="#6B7280" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="970" y="558" text-anchor="end" font-size="12" fill="#6B7280">Буквы — участки хромосомы (группы генов), чёрный овал — центромера</text>
+</svg>

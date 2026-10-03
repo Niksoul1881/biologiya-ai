@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 590" width="1000" height="590" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1000" height="590" fill="#ffffff"/>
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Геномные мутации: изменение числа хромосом</text>
+<text x="30" y="70" font-size="16" font-weight="bold" fill="#0F766E">Полиплоидия — кратное увеличение числа наборов</text>
+<rect x="30.0" y="82" width="290" height="200" rx="14" fill="#F9FAFB" stroke="#E5E7EB"/>
+<rect x="105.0" y="100" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="104.0" y="132" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="123.0" y="100" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="122.0" y="132" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="159.0" y="124" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="158.0" y="147" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="177.0" y="124" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="176.0" y="147" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="213.0" y="146" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="212.0" y="161" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="231.0" y="146" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="230.0" y="161" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<text x="175" y="220" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">2n = 6</text>
+<text x="175" y="244" text-anchor="middle" font-size="15" fill="#374151">диплоид — норма</text>
+<text x="175" y="266" text-anchor="middle" font-size="13" fill="#6B7280">по две копии каждой хромосомы</text>
+<rect x="355.0" y="82" width="290" height="200" rx="14" fill="#F9FAFB" stroke="#E5E7EB"/>
+<rect x="403.0" y="100" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="402.0" y="132" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="421.0" y="100" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="420.0" y="132" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="439.0" y="100" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="438.0" y="132" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="475.0" y="124" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="474.0" y="147" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="493.0" y="124" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="492.0" y="147" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="511.0" y="124" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="510.0" y="147" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="547.0" y="146" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="546.0" y="161" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="565.0" y="146" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="564.0" y="161" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="583.0" y="146" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="582.0" y="161" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<text x="500" y="220" text-anchor="middle" font-size="20" font-weight="bold" fill="#7C3AED">3n = 9</text>
+<text x="500" y="244" text-anchor="middle" font-size="15" fill="#374151">триплоид</text>
+<text x="500" y="266" text-anchor="middle" font-size="13" fill="#6B7280">банан, бессемянный арбуз</text>
+<rect x="680.0" y="82" width="290" height="200" rx="14" fill="#F9FAFB" stroke="#E5E7EB"/>
+<rect x="701.0" y="100" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="700.0" y="132" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="719.0" y="100" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="718.0" y="132" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="737.0" y="100" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="736.0" y="132" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="755.0" y="100" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="754.0" y="132" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="791.0" y="124" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="790.0" y="147" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="809.0" y="124" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="808.0" y="147" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="827.0" y="124" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="826.0" y="147" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="845.0" y="124" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="844.0" y="147" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="881.0" y="146" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="880.0" y="161" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="899.0" y="146" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="898.0" y="161" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="917.0" y="146" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="916.0" y="161" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="935.0" y="146" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="934.0" y="161" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<text x="825" y="220" text-anchor="middle" font-size="20" font-weight="bold" fill="#7C3AED">4n = 12</text>
+<text x="825" y="244" text-anchor="middle" font-size="15" fill="#374151">тетраплоид</text>
+<text x="825" y="266" text-anchor="middle" font-size="13" fill="#6B7280">картофель, твёрдая пшеница</text>
+<text x="30" y="330" font-size="16" font-weight="bold" fill="#0F766E">Анеуплоидия — лишняя или недостающая хромосома в одной паре</text>
+<rect x="75.0" y="342" width="420" height="200" rx="14" fill="#F9FAFB" stroke="#E5E7EB"/>
+<rect x="206.0" y="360" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="205.0" y="392" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="224.0" y="360" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="223.0" y="392" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="260.0" y="384" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="259.0" y="407" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="278.0" y="384" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="277.0" y="407" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="296.0" y="384" width="14" height="66" rx="7" fill="#2563EB" stroke="#DC2626" stroke-width="3"/>
+<rect x="295.0" y="407" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="332.0" y="406" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="331.0" y="421" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="350.0" y="406" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="349.0" y="421" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<text x="285" y="480" text-anchor="middle" font-size="20" font-weight="bold" fill="#DC2626">2n + 1 = 7</text>
+<text x="285" y="504" text-anchor="middle" font-size="15" fill="#374151">трисомия</text>
+<text x="285" y="526" text-anchor="middle" font-size="13" fill="#6B7280">у человека: синдром Дауна, 47 хромосом</text>
+<rect x="515.0" y="342" width="420" height="200" rx="14" fill="#F9FAFB" stroke="#E5E7EB"/>
+<rect x="655.0" y="360" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="654.0" y="392" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="673.0" y="360" width="14" height="90" rx="7" fill="#16A34A"/>
+<rect x="672.0" y="392" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="709.0" y="384" width="14" height="66" rx="7" fill="#2563EB"/>
+<rect x="708.0" y="407" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="727.0" y="384" width="14" height="66" rx="7" fill="#2563EB" fill-opacity="0.15" stroke="#DC2626" stroke-width="2" stroke-dasharray="4,3"/>
+<rect x="763.0" y="406" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="762.0" y="421" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<rect x="781.0" y="406" width="14" height="44" rx="7" fill="#D97706"/>
+<rect x="780.0" y="421" width="16" height="5" fill="#ffffff" opacity="0.85"/>
+<text x="725" y="480" text-anchor="middle" font-size="20" font-weight="bold" fill="#DC2626">2n − 1 = 5</text>
+<text x="725" y="504" text-anchor="middle" font-size="15" fill="#374151">моносомия</text>
+<text x="725" y="526" text-anchor="middle" font-size="13" fill="#6B7280">у человека: синдром Шерешевского — Тёрнера, 45,X0</text>
+<text x="970" y="580" text-anchor="end" font-size="12" fill="#6B7280">Условный организм с 2n = 6; красная обводка — лишняя или потерянная хромосома</text>
+</svg>

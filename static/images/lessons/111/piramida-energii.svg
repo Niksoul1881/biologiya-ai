@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 570" width="1000" height="570" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="1000" height="570" fill="#ffffff"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6B7280"/></marker>
+<marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker></defs>
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Пирамида энергии и правило 10%</text>
+<rect x="110.0" y="430" width="600" height="82" rx="8" fill="#16A34A" opacity="0.88"/>
+<text x="410" y="462" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">Продуценты</text>
+<text x="410" y="484" font-size="14" fill="#ffffff" text-anchor="middle">растения, водоросли · 100 000 кДж</text>
+<path d="M716.0,470 L780.0,470" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arR)"/>
+<text x="786.0" y="466" font-size="12" fill="#DC2626" text-anchor="start">≈ 90% — тепло, дыхание,</text>
+<text x="786.0" y="482" font-size="12" fill="#DC2626" text-anchor="start">непереваренное (к редуцентам)</text>
+<path d="M60,460 L60,390" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+<text x="70" y="418" font-size="14" fill="#374151" text-anchor="start" font-weight="bold">≈ 10%</text>
+<rect x="180.0" y="340" width="460" height="82" rx="8" fill="#84CC16" opacity="0.88"/>
+<text x="410" y="372" font-size="17" fill="#1A2E05" text-anchor="middle" font-weight="bold">Консументы I порядка</text>
+<text x="410" y="394" font-size="14" fill="#1A2E05" text-anchor="middle">растительноядные · 10 000 кДж</text>
+<path d="M646.0,380 L710.0,380" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arR)"/>
+<text x="716.0" y="376" font-size="12" fill="#DC2626" text-anchor="start">≈ 90% — тепло, дыхание,</text>
+<text x="716.0" y="392" font-size="12" fill="#DC2626" text-anchor="start">непереваренное (к редуцентам)</text>
+<path d="M60,370 L60,300" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+<text x="70" y="328" font-size="14" fill="#374151" text-anchor="start" font-weight="bold">≈ 10%</text>
+<rect x="245.0" y="250" width="330" height="82" rx="8" fill="#F59E0B" opacity="0.88"/>
+<text x="410" y="282" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">Консументы II порядка</text>
+<text x="410" y="304" font-size="14" fill="#ffffff" text-anchor="middle">хищники · 1 000 кДж</text>
+<path d="M581.0,290 L645.0,290" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arR)"/>
+<text x="651.0" y="286" font-size="12" fill="#DC2626" text-anchor="start">≈ 90% — тепло, дыхание,</text>
+<text x="651.0" y="302" font-size="12" fill="#DC2626" text-anchor="start">непереваренное (к редуцентам)</text>
+<path d="M60,280 L60,210" stroke="#374151" stroke-width="3" marker-end="url(#ar)"/>
+<text x="70" y="238" font-size="14" fill="#374151" text-anchor="start" font-weight="bold">≈ 10%</text>
+<rect x="295.0" y="160" width="230" height="82" rx="8" fill="#DC2626" opacity="0.88"/>
+<text x="410" y="192" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">Консументы III порядка</text>
+<text x="410" y="214" font-size="13" fill="#ffffff" text-anchor="middle">высшие хищники</text>
+<text x="410" y="232" font-size="13" fill="#ffffff" text-anchor="middle">100 кДж</text>
+<path d="M531.0,200 L595.0,200" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arR)"/>
+<text x="601.0" y="196" font-size="12" fill="#DC2626" text-anchor="start">≈ 90% — тепло, дыхание,</text>
+<text x="601.0" y="212" font-size="12" fill="#DC2626" text-anchor="start">непереваренное (к редуцентам)</text>
+<text x="410" y="548" font-size="13" fill="#92400E" text-anchor="middle">Продуценты запасают лишь около 1% энергии падающего на них солнечного света</text>
+</svg>

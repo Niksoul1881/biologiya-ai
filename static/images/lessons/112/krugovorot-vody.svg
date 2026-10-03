@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="DejaVu Sans, Arial, sans-serif">
+<defs>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0369A1"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16A34A"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E0F2FE"/><stop offset="1" stop-color="#F0F9FF"/></linearGradient></defs>
+<rect width="1000" height="560" fill="url(#sky)"/>
+<text x="500" y="34" font-size="22" fill="#111827" text-anchor="middle" font-weight="bold">Круговорот воды</text>
+<circle cx="90" cy="90" r="38" fill="#FDE047" stroke="#F59E0B" stroke-width="3"/>
+<circle cx="230" cy="120" r="30" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="262" cy="108" r="34" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="296" cy="120" r="28" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="264" cy="132" r="26" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="560" cy="110" r="30" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="592" cy="98" r="34" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="626" cy="110" r="28" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="594" cy="122" r="26" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="800.0" cy="140.0" r="27.0" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="828.8" cy="129.2" r="30.6" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="859.4" cy="140.0" r="25.2" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<circle cx="830.6" cy="150.8" r="23.400000000000002" fill="#ffffff" stroke="#CBD5E1" stroke-width="1.5"/>
+<path d="M480,560 L480,400 L560,330 L640,380 L720,300 L820,370 L1000,340 L1000,560 Z" fill="#A3B18A"/>
+<rect x="0" y="400" width="480" height="160" fill="#38BDF8"/>
+<path d="M480,430 C600,440 650,470 720,480 L1000,500" stroke="#0EA5E9" stroke-width="10" fill="none" opacity="0.8"/>
+<path d="M480,520 C650,520 800,530 1000,540" stroke="#0284C7" stroke-width="6" fill="none" stroke-dasharray="12,8"/>
+<rect x="756" y="300" width="8" height="34" fill="#78350F"/><circle cx="760" cy="292" r="22" fill="#16A34A"/>
+<rect x="836" y="330" width="8" height="34" fill="#78350F"/><circle cx="840" cy="322" r="22" fill="#16A34A"/>
+<rect x="901" y="320" width="8" height="34" fill="#78350F"/><circle cx="905" cy="312" r="22" fill="#16A34A"/>
+<path d="M200,395 C190,320 210,240 245,170" stroke="#0369A1" stroke-width="4" fill="none" marker-end="url(#ab)"/>
+<text x="20" y="330" font-size="15" fill="#0369A1" text-anchor="start" font-weight="bold">испарение</text>
+<text x="20" y="348" font-size="13" fill="#0369A1" text-anchor="start">с поверхности</text>
+<text x="20" y="364" font-size="13" fill="#0369A1" text-anchor="start">океана</text>
+<path d="M330,120 L540,115" stroke="#374151" stroke-width="3" fill="none" marker-end="url(#ak)"/>
+<text x="440" y="104" font-size="13" fill="#374151" text-anchor="middle">перенос ветром</text>
+<path d="M580,150 L566,325" stroke="#0369A1" stroke-width="2.5" fill="none" stroke-dasharray="6,5" marker-end="url(#ab)"/>
+<path d="M605,150 L591,325" stroke="#0369A1" stroke-width="2.5" fill="none" stroke-dasharray="6,5" marker-end="url(#ab)"/>
+<path d="M630,150 L616,325" stroke="#0369A1" stroke-width="2.5" fill="none" stroke-dasharray="6,5" marker-end="url(#ab)"/>
+<text x="645" y="240" font-size="15" fill="#0369A1" text-anchor="start" font-weight="bold">осадки над сушей</text>
+<path d="M840,295 C840,250 835,210 830,180" stroke="#16A34A" stroke-width="3" fill="none" marker-end="url(#ag)"/>
+<text x="860" y="240" font-size="15" fill="#16A34A" text-anchor="start" font-weight="bold">транспирация</text>
+<text x="860" y="258" font-size="13" fill="#16A34A" text-anchor="start">растений</text>
+<path d="M250,152 L242,380" stroke="#0369A1" stroke-width="2.5" fill="none" stroke-dasharray="6,5" marker-end="url(#ab)"/>
+<path d="M275,152 L267,380" stroke="#0369A1" stroke-width="2.5" fill="none" stroke-dasharray="6,5" marker-end="url(#ab)"/>
+<text x="300" y="280" font-size="13" fill="#0369A1" text-anchor="start">осадки над океаном</text>
+<path d="M700,470 C620,452 560,440 500,432" stroke="#0369A1" stroke-width="3" fill="none" marker-end="url(#ab)"/>
+<text x="640" y="500" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">поверхностный сток (реки)</text>
+<text x="760" y="552" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="bold">подземный сток</text>
+<text x="440" y="185" font-size="13" fill="#475569" text-anchor="middle" font-weight="bold">конденсация пара —</text>
+<text x="440" y="201" font-size="13" fill="#475569" text-anchor="middle">образуются облака</text>
+</svg>

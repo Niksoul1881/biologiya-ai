@@ -1684,6 +1684,31 @@
   "author": "Animal_mitochondrion_diagram_en.svg: Mariana Ruiz Villarreal LadyofHats\nderivati",
   "license": "Public domain"
  },
+ "/images/lessons/092/cikl-kalvina.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Calvin-cycle4_ru.svg",
+  "author": "Mike Jones; русская версия — Meddoc13",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/092/hloroplast-cifry.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Chloroplast-drawing-numb.svg",
+  "author": "Kārlis Kalviškis",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/092/list-tkani.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Leaf_Tissue_Structure_ru.svg",
+  "author": "Эрг",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/092/spektr-hlorofilla.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Chlorophyll_Absorption_Spectrum.svg",
+  "author": "Serge Helfrich",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/092/tilakoid-membrana.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Thylakoid_membrane_2.svg",
+  "author": "Tameeria; SVG — Elisardojm",
+  "license": "Public domain"
+ },
  "/images/lessons/095/citokinez.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Cytokinesis_in_animal_cells_and_plant_cells.jpg",
   "author": "John Brian Eatmon",
@@ -1794,31 +1819,6 @@
   "author": "Gregor Mendel, 1866",
   "license": "Public domain"
  },
- "/images/lessons/092/cikl-kalvina.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Calvin-cycle4_ru.svg",
-  "author": "Mike Jones; русская версия — Meddoc13",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/092/hloroplast-cifry.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Chloroplast-drawing-numb.svg",
-  "author": "Kārlis Kalviškis",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/092/tilakoid-membrana.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Thylakoid_membrane_2.svg",
-  "author": "Tameeria; SVG — Elisardojm",
-  "license": "Public domain"
- },
- "/images/lessons/092/spektr-hlorofilla.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Chlorophyll_Absorption_Spectrum.svg",
-  "author": "Serge Helfrich",
-  "license": "CC BY-SA 4.0"
- },
- "/images/lessons/092/list-tkani.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Leaf_Tissue_Structure_ru.svg",
-  "author": "Эрг",
-  "license": "CC BY-SA 4.0"
- },
  "/images/lessons/102/morgan.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Thomas_Hunt_Morgan.jpg",
   "author": "автор неизвестен",
@@ -1832,6 +1832,146 @@
  "/images/lessons/103/trehcvetnaya-koshka.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Calico_cat,_Lebanon_0.jpg",
   "author": "ولاء",
+  "license": "Public domain"
+ },
+ "/images/lessons/104/albinos-alligator.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Albino_Alligator_2008.jpg",
+  "author": "Brocken Inaglory",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/104/de-friz.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Hugo_de_Vries.jpg",
+  "author": "автор не указан",
+  "license": "Public domain"
+ },
+ "/images/lessons/104/gimalayskiy-krolik.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Chilled_and_Warm_Himalayan_rabbit_kits.JPG",
+  "author": "SableSteel",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/104/gortenziya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Hydrangea_'Endless_Summer_Blue'-pink_Capel_Manor_College_Gardens_Enfield_London_England.jpg",
+  "author": "Acabashi",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/104/strelolist.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Sagittaria_sagittifolia_kz05.jpg",
+  "author": "Krzysztof Ziarnek, Kenraiz",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/105/arbuz-bez-semyan.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Watermelon_seedless.jpg",
+  "author": "Scott Ehardt",
+  "license": "Public domain"
+ },
+ "/images/lessons/105/kariotip-dauna.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:21_trisomy_-_Down_syndrome.png",
+  "author": "U.S. Department of Energy Human Genome Program.",
+  "license": "Public domain"
+ },
+ "/images/lessons/105/serpovidnye-eritrocity.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Sickle_Cell_Anemia_(5610746554).jpg",
+  "author": "Ed Uthman from Houston, TX, USA",
+  "license": "CC BY 2.0"
+ },
+ "/images/lessons/106/cherepahovaya-koshka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:8_month_old_female_Tortoiseshell_cat,_December_2017.jpg",
+  "author": "RiMiEg007",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/106/drozofila.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_-_side_(aka).jpg",
+  "author": "André Karwath aka Aka",
+  "license": "CC BY-SA 2.5"
+ },
+ "/images/lessons/107/centry-proishozhdeniya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Vavilov-center.jpg",
+  "author": "Redwoodseed",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/107/dolli.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Dolly_face_closeup.jpg",
+  "author": "Toni Barros from São Paulo, Brasil",
+  "license": "CC BY-SA 2.0"
+ },
+ "/images/lessons/107/mul.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Molly_Mule.jpg",
+  "author": "Opittman",
+  "license": "CC0"
+ },
+ "/images/lessons/107/vavilov.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Nikolai_Vavilov_NYWTS.jpg",
+  "author": "World Telegram staff photographer",
+  "license": "Public domain"
+ },
+ "/images/lessons/108/bigl-marshrut.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Voyage_of_the_Beagle-en.svg",
+  "author": "Sémhur",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/108/darvin-derevo.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Darwin_tree.png",
+  "author": "Charles Darwin",
+  "license": "Public domain"
+ },
+ "/images/lessons/108/darvin.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_sentado_-_1854_-_Image_225735.jpg",
+  "author": "Harper's Magazine e Francis Darwin",
+  "license": "Public domain"
+ },
+ "/images/lessons/108/lamark.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste_de_Lamarck.jpg",
+  "author": "Charles Thévenin",
+  "license": "Public domain"
+ },
+ "/images/lessons/108/vyurki.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Darwin's_finches_by_Gould.jpg",
+  "author": "John Gould (14.Sep.1804 - 3.Feb.1881)",
+  "license": "Public domain"
+ },
+ "/images/lessons/109/belyak.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lepus_timidus_Oulu_20120428.JPG",
+  "author": "Estormiz",
+  "license": "CC0"
+ },
+ "/images/lessons/109/pyadenica.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lichte_en_zwarte_versie_berkenspanner.jpg",
+  "author": "Martinowksy at Dutch Wikipedia\n\n(Original text: Maarten Sanne)",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/109/zhurchalka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Hoverfly_(37039248971).jpg",
+  "author": "James Johnstone from Ecclefechan, Scotland",
+  "license": "CC BY 2.0"
+ },
+ "/images/lessons/110/arheopteriks.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Archaeopteryx_lithographica_(Berlin_specimen).jpg",
+  "author": "H. Raab (User: Vesta)",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/110/gomologiya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Homology_vertebrates-ru.svg",
+  "author": "Волков Владислав Петрович",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/110/zarodyshi.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Haeckel_drawings.jpg",
+  "author": "Romanes, G. J.; uploaded to Wikipedia by en:User:Phlebas; authors of the descrip",
+  "license": "Public domain"
+ },
+ "/images/lessons/111/griby-na-pne.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Hypholoma_subviride_40469.jpg",
+  "author": "Michael (inski)",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/111/navoznik.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Dung_beetle_(Deltochilum_mexicanum)_3.jpg",
+  "author": "Charles J. Sharp",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/112/vernadskiy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:1934-V_I_Vernadsky.jpg",
+  "author": "АН СССР",
   "license": "Public domain"
  }
 }

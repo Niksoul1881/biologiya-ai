@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 610" width="960" height="610" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="960" height="610" fill="#ffffff"/>
+<text x="480" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Решётка Пеннета для дигибридного скрещивания</text>
+<text x="480" y="68" text-anchor="middle" font-size="18" fill="#374151">P: ♀ AaBb × ♂ AaBb   (A — жёлтые, a — зелёные; B — гладкие, b — морщинистые)</text>
+<text x="400" y="106" text-anchor="middle" font-size="16" fill="#6B7280">гаметы ♂</text>
+<text x="110" y="370" text-anchor="middle" font-size="16" fill="#6B7280" transform="rotate(-90 110 370)">гаметы ♀</text>
+<rect x="180" y="116" width="110" height="30" rx="6" fill="#E0F2FE"/>
+<text x="235.0" y="138" text-anchor="middle" font-size="19" font-weight="bold" fill="#075985">AB</text>
+<rect x="130" y="152" width="46" height="106" rx="6" fill="#FCE7F3"/>
+<text x="153" y="212.0" text-anchor="middle" font-size="19" font-weight="bold" fill="#9D174D">AB</text>
+<rect x="290" y="116" width="110" height="30" rx="6" fill="#E0F2FE"/>
+<text x="345.0" y="138" text-anchor="middle" font-size="19" font-weight="bold" fill="#075985">Ab</text>
+<rect x="130" y="262" width="46" height="106" rx="6" fill="#FCE7F3"/>
+<text x="153" y="322.0" text-anchor="middle" font-size="19" font-weight="bold" fill="#9D174D">Ab</text>
+<rect x="400" y="116" width="110" height="30" rx="6" fill="#E0F2FE"/>
+<text x="455.0" y="138" text-anchor="middle" font-size="19" font-weight="bold" fill="#075985">aB</text>
+<rect x="130" y="372" width="46" height="106" rx="6" fill="#FCE7F3"/>
+<text x="153" y="432.0" text-anchor="middle" font-size="19" font-weight="bold" fill="#9D174D">aB</text>
+<rect x="510" y="116" width="110" height="30" rx="6" fill="#E0F2FE"/>
+<text x="565.0" y="138" text-anchor="middle" font-size="19" font-weight="bold" fill="#075985">ab</text>
+<rect x="130" y="482" width="46" height="106" rx="6" fill="#FCE7F3"/>
+<text x="153" y="542.0" text-anchor="middle" font-size="19" font-weight="bold" fill="#9D174D">ab</text>
+<rect x="180" y="150" width="110" height="110" fill="#FDE68A" stroke="#ffffff" stroke-width="3"/>
+<text x="235.0" y="213.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">AABB</text>
+<rect x="290" y="150" width="110" height="110" fill="#FDE68A" stroke="#ffffff" stroke-width="3"/>
+<text x="345.0" y="213.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">AABb</text>
+<rect x="400" y="150" width="110" height="110" fill="#FDE68A" stroke="#ffffff" stroke-width="3"/>
+<text x="455.0" y="213.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">AaBB</text>
+<rect x="510" y="150" width="110" height="110" fill="#FDE68A" stroke="#ffffff" stroke-width="3"/>
+<text x="565.0" y="213.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">AaBb</text>
+<rect x="180" y="260" width="110" height="110" fill="#FDE68A" stroke="#ffffff" stroke-width="3"/>
+<text x="235.0" y="323.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">AABb</text>
+<rect x="290" y="260" width="110" height="110" fill="#FED7AA" stroke="#ffffff" stroke-width="3"/>
+<text x="345.0" y="323.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">AAbb</text>
+<rect x="400" y="260" width="110" height="110" fill="#FDE68A" stroke="#ffffff" stroke-width="3"/>
+<text x="455.0" y="323.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">AaBb</text>
+<rect x="510" y="260" width="110" height="110" fill="#FED7AA" stroke="#ffffff" stroke-width="3"/>
+<text x="565.0" y="323.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">Aabb</text>
+<rect x="180" y="370" width="110" height="110" fill="#FDE68A" stroke="#ffffff" stroke-width="3"/>
+<text x="235.0" y="433.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">AaBB</text>
+<rect x="290" y="370" width="110" height="110" fill="#FDE68A" stroke="#ffffff" stroke-width="3"/>
+<text x="345.0" y="433.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">AaBb</text>
+<rect x="400" y="370" width="110" height="110" fill="#BBF7D0" stroke="#ffffff" stroke-width="3"/>
+<text x="455.0" y="433.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">aaBB</text>
+<rect x="510" y="370" width="110" height="110" fill="#BBF7D0" stroke="#ffffff" stroke-width="3"/>
+<text x="565.0" y="433.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">aaBb</text>
+<rect x="180" y="480" width="110" height="110" fill="#FDE68A" stroke="#ffffff" stroke-width="3"/>
+<text x="235.0" y="543.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">AaBb</text>
+<rect x="290" y="480" width="110" height="110" fill="#FED7AA" stroke="#ffffff" stroke-width="3"/>
+<text x="345.0" y="543.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">Aabb</text>
+<rect x="400" y="480" width="110" height="110" fill="#BBF7D0" stroke="#ffffff" stroke-width="3"/>
+<text x="455.0" y="543.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">aaBb</text>
+<rect x="510" y="480" width="110" height="110" fill="#5EEAD4" stroke="#ffffff" stroke-width="3"/>
+<text x="565.0" y="543.0" text-anchor="middle" font-size="22" fill="#111827" font-family="DejaVu Sans Mono, monospace">aabb</text>
+<text x="660" y="160" font-size="17" font-weight="bold" fill="#111827">Фенотипы F₂:</text>
+<rect x="660" y="170" width="28" height="28" rx="5" fill="#FDE68A" stroke="#9CA3AF"/>
+<text x="700" y="190" font-size="16" fill="#111827">9 — жёлтые гладкие</text>
+<rect x="660" y="214" width="28" height="28" rx="5" fill="#FED7AA" stroke="#9CA3AF"/>
+<text x="700" y="234" font-size="16" fill="#111827">3 — жёлтые морщинистые</text>
+<rect x="660" y="258" width="28" height="28" rx="5" fill="#BBF7D0" stroke="#9CA3AF"/>
+<text x="700" y="278" font-size="16" fill="#111827">3 — зелёные гладкие</text>
+<rect x="660" y="302" width="28" height="28" rx="5" fill="#5EEAD4" stroke="#9CA3AF"/>
+<text x="700" y="322" font-size="16" fill="#111827">1 — зелёные морщинистые</text>
+<text x="660" y="390" font-size="22" font-weight="bold" fill="#0F766E">9 : 3 : 3 : 1</text>
+<text x="660" y="418" font-size="14" fill="#6B7280">16 сочетаний гамет,</text>
+<text x="660" y="438" font-size="14" fill="#6B7280">9 разных генотипов,</text>
+<text x="660" y="458" font-size="14" fill="#6B7280">4 фенотипа</text>
+</svg>
