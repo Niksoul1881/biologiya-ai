@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Arial, Helvetica, sans-serif">
+  <title>Цикл развития сосны</title>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#15803d"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="720" fill="#ffffff"/>
+  <!-- стрелки по кругу -->
+  <g fill="none" stroke="#15803d" stroke-width="4" marker-end="url(#ar)">
+    <path d="M655,95 Q800,100 815,172"/>
+    <path d="M820,345 L820,392"/>
+    <path d="M815,545 Q800,640 658,640"/>
+    <path d="M342,640 Q200,640 185,552"/>
+    <path d="M180,400 L180,333"/>
+    <path d="M185,180 Q200,100 342,95"/>
+  </g>
+  <!-- блоки -->
+  <g stroke="#15803d" stroke-width="2" fill="#f0fdf4">
+    <rect x="345" y="25" width="310" height="140" rx="14"/>
+    <rect x="665" y="180" width="320" height="165" rx="14"/>
+    <rect x="665" y="400" width="320" height="145" rx="14"/>
+    <rect x="345" y="565" width="310" height="140" rx="14"/>
+    <rect x="15" y="400" width="320" height="145" rx="14"/>
+    <rect x="15" y="180" width="320" height="145" rx="14"/>
+  </g>
+  <g font-size="17" fill="#1f2937">
+    <text x="360" y="55" font-weight="bold" font-size="19" fill="#14532d">1. Взрослая сосна</text>
+    <text x="360" y="82">Дерево — спорофит.</text>
+    <text x="360" y="106">Весной на молодых побегах</text>
+    <text x="360" y="130">появляются шишки двух</text>
+    <text x="360" y="154">типов.</text>
+
+    <text x="680" y="210" font-weight="bold" font-size="19" fill="#14532d">2. Шишки</text>
+    <text x="680" y="236">Мужские — мелкие, жёлтые:</text>
+    <text x="680" y="260">в них созревает пыльца.</text>
+    <text x="680" y="284">Женские — красноватые, на</text>
+    <text x="680" y="308">верхушке побега: на каждой</text>
+    <text x="680" y="332">чешуе по 2 семязачатка.</text>
+
+    <text x="680" y="430" font-weight="bold" font-size="19" fill="#14532d">3. Опыление (весна, 1-й год)</text>
+    <text x="680" y="456">Ветер переносит пыльцу</text>
+    <text x="680" y="480">на семязачатки. У пылинки</text>
+    <text x="680" y="504">два воздушных мешка — она</text>
+    <text x="680" y="528">летит, как на поплавках.</text>
+
+    <text x="360" y="595" font-weight="bold" font-size="19" fill="#14532d">4. Оплодотворение</text>
+    <text x="360" y="621">Примерно через год. Пыльцевая</text>
+    <text x="360" y="645">трубка доставляет спермий</text>
+    <text x="360" y="669">к яйцеклетке.</text>
+    <text x="360" y="693" font-weight="bold" fill="#1d4ed8">Вода не нужна!</text>
+
+    <text x="30" y="430" font-weight="bold" font-size="19" fill="#14532d">5. Семена созревают</text>
+    <text x="30" y="456">Осень второго года.</text>
+    <text x="30" y="480">Семя = зародыш + запас</text>
+    <text x="30" y="504">питательных веществ + кожура.</text>
+    <text x="30" y="528">Шишка бурая, одревесневшая.</text>
+
+    <text x="30" y="210" font-weight="bold" font-size="19" fill="#14532d">6. Расселение</text>
+    <text x="30" y="236">Зимой и весной шишки</text>
+    <text x="30" y="260">раскрываются, семена с</text>
+    <text x="30" y="284">крылышком уносит ветер.</text>
+    <text x="30" y="308">Из семени растёт сосенка.</text>
+  </g>
+  <!-- центр: дерево, шишки, пыльца, семя -->
+  <g>
+    <rect x="493" y="365" width="14" height="40" fill="#92400e"/>
+    <polygon points="500,215 445,300 555,300" fill="#16a34a"/>
+    <polygon points="500,255 430,355 570,355" fill="#15803d"/>
+    <polygon points="500,300 420,380 580,380" fill="#166534"/>
+    <!-- женская шишка зрелая -->
+    <g transform="translate(395,450)">
+      <ellipse cx="0" cy="0" rx="20" ry="32" fill="#a16207"/>
+      <path d="M-18,-12 L18,-12 M-20,0 L20,0 M-18,12 L18,12 M-12,24 L12,24 M-12,-24 L12,-24" stroke="#713f12" stroke-width="2"/>
+    </g>
+    <text x="395" y="505" font-size="14" text-anchor="middle" fill="#374151">шишка</text>
+    <!-- пыльца с мешками -->
+    <g transform="translate(500,455)">
+      <circle cx="-17" cy="0" r="12" fill="#fde68a" stroke="#ca8a04" stroke-width="2"/>
+      <circle cx="17" cy="0" r="12" fill="#fde68a" stroke="#ca8a04" stroke-width="2"/>
+      <ellipse cx="0" cy="0" rx="13" ry="11" fill="#facc15" stroke="#ca8a04" stroke-width="2"/>
+    </g>
+    <text x="500" y="505" font-size="14" text-anchor="middle" fill="#374151">пылинка</text>
+    <!-- семя с крылышком -->
+    <g transform="translate(605,455)">
+      <path d="M-6,8 Q-30,-30 6,-34 Q24,-20 8,6 z" fill="#d6d3d1" stroke="#78716c" stroke-width="2"/>
+      <ellipse cx="0" cy="10" rx="9" ry="7" fill="#57534e"/>
+    </g>
+    <text x="605" y="505" font-size="14" text-anchor="middle" fill="#374151">семя</text>
+    <text x="500" y="535" font-size="16" text-anchor="middle" fill="#14532d" font-weight="bold">от опыления до зрелых</text>
+    <text x="500" y="555" font-size="16" text-anchor="middle" fill="#14532d" font-weight="bold">семян — около 1,5 лет</text>
+  </g>
+</svg>

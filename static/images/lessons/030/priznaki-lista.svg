@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Arial, Helvetica, sans-serif">
+  <title>Признаки листьев для определения растений</title>
+  <rect width="1000" height="640" fill="#ffffff"/>
+  <text x="500" y="34" font-size="23" font-weight="bold" fill="#14532d" text-anchor="middle">На что смотреть у листьев</text>
+  <!-- Листорасположение -->
+  <rect x="15" y="55" width="970" height="270" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+  <text x="35" y="85" font-size="19" font-weight="bold" fill="#14532d">Листорасположение</text>
+  <g stroke="#15803d" stroke-width="5" fill="none"><line x1="170" y1="290" x2="170" y2="105"/><line x1="500" y1="290" x2="500" y2="105"/><line x1="830" y1="290" x2="830" y2="105"/></g>
+  <g fill="#4ade80" stroke="#15803d" stroke-width="2">
+    <!-- очерёдное -->
+    <ellipse cx="205" cy="260" rx="32" ry="12" transform="rotate(-25 205 260)"/>
+    <ellipse cx="135" cy="215" rx="32" ry="12" transform="rotate(25 135 215)"/>
+    <ellipse cx="205" cy="170" rx="32" ry="12" transform="rotate(-25 205 170)"/>
+    <ellipse cx="135" cy="128" rx="32" ry="12" transform="rotate(25 135 128)"/>
+    <!-- супротивное -->
+    <ellipse cx="465" cy="250" rx="32" ry="12" transform="rotate(25 465 250)"/>
+    <ellipse cx="535" cy="250" rx="32" ry="12" transform="rotate(-25 535 250)"/>
+    <ellipse cx="465" cy="175" rx="32" ry="12" transform="rotate(25 465 175)"/>
+    <ellipse cx="535" cy="175" rx="32" ry="12" transform="rotate(-25 535 175)"/>
+    <!-- мутовчатое -->
+    <ellipse cx="795" cy="235" rx="30" ry="10" transform="rotate(20 795 235)"/>
+    <ellipse cx="865" cy="235" rx="30" ry="10" transform="rotate(-20 865 235)"/>
+    
+    <ellipse cx="805" cy="220" rx="26" ry="9" transform="rotate(-30 805 220)"/>
+    <ellipse cx="855" cy="220" rx="26" ry="9" transform="rotate(30 855 220)"/>
+    <ellipse cx="795" cy="150" rx="30" ry="10" transform="rotate(20 795 150)"/>
+    <ellipse cx="865" cy="150" rx="30" ry="10" transform="rotate(-20 865 150)"/>
+    
+    <ellipse cx="805" cy="135" rx="26" ry="9" transform="rotate(-30 805 135)"/>
+    <ellipse cx="855" cy="135" rx="26" ry="9" transform="rotate(30 855 135)"/>
+  </g>
+  <g font-size="18" fill="#1f2937" text-anchor="middle">
+    <text x="170" y="312" font-weight="bold">очерёдное</text>
+    <text x="500" y="312" font-weight="bold">супротивное</text>
+    <text x="830" y="312" font-weight="bold">мутовчатое</text>
+  </g>
+  <g font-size="15" fill="#4b5563">
+    <text x="240" y="140">по одному</text><text x="240" y="158">в узле</text>
+    <text x="570" y="140">по два друг</text><text x="570" y="158">против друга</text>
+    <text x="680" y="180">три и больше</text><text x="680" y="198">в узле</text>
+  </g>
+  <!-- Простые и сложные -->
+  <rect x="15" y="340" width="970" height="285" rx="12" fill="#fffbeb" stroke="#fcd34d"/>
+  <text x="35" y="370" font-size="19" font-weight="bold" fill="#92400e">Простые и сложные листья</text>
+  <g stroke="#15803d" stroke-width="2" fill="#86efac">
+    <!-- простой -->
+    <line x1="130" y1="590" x2="130" y2="540" stroke-width="4"/>
+    <path d="M130,540 Q80,480 130,400 Q180,480 130,540 z"/>
+    <!-- тройчатый -->
+    <line x1="370" y1="590" x2="370" y2="510" stroke-width="4"/>
+    <ellipse cx="370" cy="460" rx="20" ry="45"/>
+    <ellipse cx="325" cy="500" rx="20" ry="42" transform="rotate(-55 325 500)"/>
+    <ellipse cx="415" cy="500" rx="20" ry="42" transform="rotate(55 415 500)"/>
+    <!-- перистый -->
+    <line x1="620" y1="595" x2="620" y2="400" stroke-width="4"/>
+    <ellipse cx="620" cy="400" rx="14" ry="22"/>
+    <ellipse cx="590" cy="440" rx="24" ry="11"/><ellipse cx="650" cy="440" rx="24" ry="11"/>
+    <ellipse cx="590" cy="480" rx="24" ry="11"/><ellipse cx="650" cy="480" rx="24" ry="11"/>
+    <ellipse cx="590" cy="520" rx="24" ry="11"/><ellipse cx="650" cy="520" rx="24" ry="11"/>
+    <!-- пальчатый -->
+    <line x1="860" y1="595" x2="860" y2="510" stroke-width="4"/>
+    <ellipse cx="860" cy="455" rx="14" ry="48"/>
+    <ellipse cx="860" cy="455" rx="14" ry="48" transform="rotate(-38 860 510)"/>
+    <ellipse cx="860" cy="455" rx="14" ry="48" transform="rotate(38 860 510)"/>
+    <ellipse cx="860" cy="470" rx="12" ry="38" transform="rotate(-75 860 510)"/>
+    <ellipse cx="860" cy="470" rx="12" ry="38" transform="rotate(75 860 510)"/>
+  </g>
+  <g font-size="18" fill="#1f2937" text-anchor="middle">
+    <text x="130" y="612" font-weight="bold">простой</text>
+    <text x="370" y="612" font-weight="bold">тройчатый</text>
+    <text x="620" y="612" font-weight="bold">перистый</text>
+    <text x="860" y="612" font-weight="bold">пальчатый</text>
+  </g>
+  <g font-size="15" fill="#4b5563" text-anchor="middle">
+    <text x="215" y="450">одна</text><text x="215" y="468">пластинка:</text><text x="215" y="486">берёза,</text><text x="215" y="504">сирень</text>
+    <text x="370" y="395">клевер, земляника</text>
+    <text x="500" y="395"> </text>
+    <text x="515" y="450">рябина,</text><text x="515" y="468">шиповник,</text><text x="515" y="486">горох</text>
+    <text x="860" y="385">каштан,</text><text x="860" y="403">люпин</text>
+  </g>
+</svg>

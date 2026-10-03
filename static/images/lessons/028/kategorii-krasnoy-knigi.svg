@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+  <title>Категории Красной книги России</title>
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="500" y="38" font-size="24" font-weight="bold" fill="#7f1d1d" text-anchor="middle">Категории редкости в Красной книге России</text>
+  <text x="500" y="64" font-size="16" fill="#4b5563" text-anchor="middle">чем меньше номер категории, тем сильнее угроза</text>
+  <g font-size="18">
+    <rect x="40" y="85" width="920" height="66" rx="12" fill="#1f2937"/>
+    <text x="70" y="128" font-size="34" font-weight="bold" fill="#ffffff">0</text>
+    <text x="120" y="113" font-weight="bold" fill="#ffffff">Вероятно исчезнувшие</text>
+    <text x="120" y="137" fill="#e5e7eb">давно не встречались в природе, но, может быть, ещё сохранились</text>
+
+    <rect x="40" y="161" width="920" height="66" rx="12" fill="#b91c1c"/>
+    <text x="70" y="204" font-size="34" font-weight="bold" fill="#ffffff">1</text>
+    <text x="120" y="189" font-weight="bold" fill="#ffffff">Находящиеся под угрозой исчезновения</text>
+    <text x="120" y="213" fill="#fee2e2">осталось очень мало; без срочных мер исчезнут</text>
+
+    <rect x="40" y="237" width="920" height="66" rx="12" fill="#ea580c"/>
+    <text x="70" y="280" font-size="34" font-weight="bold" fill="#ffffff">2</text>
+    <text x="120" y="265" font-weight="bold" fill="#ffffff">Сокращающиеся в численности</text>
+    <text x="120" y="289" fill="#ffedd5">пока встречаются, но их становится всё меньше</text>
+
+    <rect x="40" y="313" width="920" height="66" rx="12" fill="#facc15"/>
+    <text x="70" y="356" font-size="34" font-weight="bold" fill="#422006">3</text>
+    <text x="120" y="341" font-weight="bold" fill="#422006">Редкие</text>
+    <text x="120" y="365" fill="#422006">всегда были немногочисленны или растут на маленькой территории</text>
+
+    <rect x="40" y="389" width="920" height="66" rx="12" fill="#9ca3af"/>
+    <text x="70" y="432" font-size="34" font-weight="bold" fill="#111827">4</text>
+    <text x="120" y="417" font-weight="bold" fill="#111827">Неопределённые по статусу</text>
+    <text x="120" y="441" fill="#111827">вероятно, редкие, но данных пока недостаточно</text>
+
+    <rect x="40" y="465" width="920" height="66" rx="12" fill="#16a34a"/>
+    <text x="70" y="508" font-size="34" font-weight="bold" fill="#ffffff">5</text>
+    <text x="120" y="493" font-weight="bold" fill="#ffffff">Восстанавливаемые и восстанавливающиеся</text>
+    <text x="120" y="517" fill="#dcfce7">благодаря охране численность растёт — хорошая новость!</text>
+  </g>
+</svg>

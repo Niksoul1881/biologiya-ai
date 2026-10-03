@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+  <title>Древо растений</title>
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="500" y="32" font-size="23" font-weight="bold" fill="#14532d" text-anchor="middle">Упрощённое древо растений и их главные «изобретения»</text>
+  <!-- ствол-диагональ -->
+  <g stroke="#15803d" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M90,520 L870,140"/>
+    <path d="M190,471 L190,140"/>
+    <path d="M330,403 L330,140"/>
+    <path d="M470,335 L470,140"/>
+    <path d="M610,266 L610,140"/>
+    <path d="M750,198 L750,140"/>
+  </g>
+  <!-- листья групп -->
+  <g font-size="17" font-weight="bold" fill="#14532d" text-anchor="middle">
+    <rect x="125" y="85" width="130" height="50" rx="10" fill="#d1fae5" stroke="#15803d"/>
+    <text x="190" y="108">Зелёные</text><text x="190" y="127">водоросли</text>
+    <rect x="265" y="85" width="130" height="50" rx="10" fill="#d1fae5" stroke="#15803d"/>
+    <text x="330" y="116">Мхи</text>
+    <rect x="405" y="85" width="130" height="50" rx="10" fill="#d1fae5" stroke="#15803d"/>
+    <text x="470" y="116">Плауны</text>
+    <rect x="545" y="85" width="130" height="50" rx="10" fill="#d1fae5" stroke="#15803d"/>
+    <text x="610" y="108">Папоротники</text><text x="610" y="127">и хвощи</text>
+    <rect x="685" y="85" width="130" height="50" rx="10" fill="#d1fae5" stroke="#15803d"/>
+    <text x="750" y="108">Голо-</text><text x="750" y="127">семенные</text>
+    <rect x="825" y="85" width="150" height="50" rx="10" fill="#fef3c7" stroke="#b45309"/>
+    <text x="900" y="108" fill="#92400e">Покрыто-</text><text x="900" y="127" fill="#92400e">семенные</text>
+  </g>
+  <!-- изобретения на стволе -->
+  <g font-size="16" fill="#1f2937">
+    <circle cx="260" cy="437" r="9" fill="#f59e0b"/>
+    <text x="275" y="470">выход на сушу: защита от высыхания,</text>
+    <text x="275" y="490">зародыш развивается на растении</text>
+    <circle cx="400" cy="369" r="9" fill="#f59e0b"/>
+    <text x="415" y="400">проводящие ткани, корни,</text>
+    <text x="415" y="420">настоящие стебли и листья</text>
+    <circle cx="680" cy="232" r="9" fill="#f59e0b"/>
+    <text x="695" y="262">семя и пыльца —</text>
+    <text x="695" y="282">вода для оплодотворения не нужна</text>
+    <circle cx="820" cy="164" r="9" fill="#f59e0b"/>
+    <text x="835" y="190">цветок и плод</text>
+  </g>
+  <g font-size="15" fill="#4b5563">
+    <text x="40" y="545">Растения вышли на сушу более 450 млн лет назад; их ближайшие родственники — зелёные водоросли</text>
+  </g>
+  <!-- скобки споровые / семенные -->
+  <g font-size="16" font-weight="bold">
+    <line x1="265" y1="70" x2="675" y2="70" stroke="#0369a1" stroke-width="3"/>
+    <text x="470" y="62" fill="#0369a1" text-anchor="middle">высшие споровые</text>
+    <line x1="685" y1="70" x2="975" y2="70" stroke="#b45309" stroke-width="3"/>
+    <text x="830" y="62" fill="#b45309" text-anchor="middle">семенные</text>
+  </g>
+</svg>

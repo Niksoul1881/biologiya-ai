@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Arial, Helvetica, sans-serif">
+  <title>Капуста: один вид — много овощей</title>
+  <rect width="1000" height="640" fill="#ffffff"/>
+  <text x="500" y="34" font-size="23" font-weight="bold" fill="#14532d" text-anchor="middle">Капуста огородная: один вид — много овощей</text>
+  <g transform="translate(0,40)">
+  <!-- центр: дикая капуста -->
+  <circle cx="500" cy="300" r="82" fill="#f0fdf4" stroke="#15803d" stroke-width="2.5"/>
+  <g transform="translate(500,315)">
+    <line x1="0" y1="45" x2="0" y2="-30" stroke="#15803d" stroke-width="5"/>
+    <g fill="#86efac" stroke="#15803d" stroke-width="2">
+      <ellipse cx="-30" cy="10" rx="30" ry="14" transform="rotate(-20 -30 10)"/>
+      <ellipse cx="30" cy="0" rx="30" ry="14" transform="rotate(20 30 0)"/>
+      <ellipse cx="-24" cy="-25" rx="24" ry="11" transform="rotate(-35 -24 -25)"/>
+    </g>
+    <g fill="#facc15"><circle cx="0" cy="-40" r="5"/><circle cx="8" cy="-48" r="5"/><circle cx="-8" cy="-50" r="5"/><circle cx="2" cy="-58" r="5"/></g>
+  </g>
+  <text x="500" y="395" font-size="17" font-weight="bold" fill="#14532d" text-anchor="middle">дикая капуста</text>
+  <text x="500" y="415" font-size="14" fill="#4b5563" text-anchor="middle">берега Средиземного моря</text>
+  <!-- лучи -->
+  <g stroke="#9ca3af" stroke-width="2" stroke-dasharray="6 5">
+    <line x1="430" y1="255" x2="230" y2="150"/><line x1="500" y1="225" x2="500" y2="190"/><line x1="570" y1="255" x2="770" y2="150"/>
+    <line x1="420" y1="370" x2="230" y2="470"/><line x1="500" y1="425" x2="500" y2="455"/><line x1="580" y1="370" x2="770" y2="470"/>
+  </g>
+  <!-- кочанная -->
+  <g transform="translate(170,120)">
+    <circle r="42" fill="#bbf7d0" stroke="#15803d" stroke-width="2"/>
+    <path d="M-30,-10 Q0,-40 30,-10 M-36,10 Q0,-20 36,10" stroke="#15803d" fill="none" stroke-width="2"/>
+    <path d="M-42,0 Q-70,-30 -50,-55 Q-30,-30 -40,-10 z M42,0 Q70,-30 50,-55 Q30,-30 40,-10 z" fill="#4ade80" stroke="#15803d"/>
+  </g>
+  <text x="170" y="190" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">кочанная</text>
+  <text x="170" y="210" font-size="14" fill="#4b5563" text-anchor="middle">верхушечная почка</text>
+  <!-- брюссельская -->
+  <g transform="translate(500,95)">
+    <line x1="0" y1="45" x2="0" y2="-45" stroke="#15803d" stroke-width="7"/>
+    <g fill="#86efac" stroke="#15803d" stroke-width="1.5">
+      <circle cx="-11" cy="-30" r="8"/><circle cx="11" cy="-18" r="8"/><circle cx="-11" cy="-5" r="8"/><circle cx="11" cy="8" r="8"/><circle cx="-11" cy="20" r="8"/><circle cx="11" cy="32" r="8"/>
+    </g>
+    <path d="M0,-45 Q-30,-65 -40,-50 M0,-45 Q30,-65 40,-50" stroke="#15803d" stroke-width="4" fill="none"/>
+  </g>
+  <text x="500" y="160" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">брюссельская</text>
+  <text x="500" y="180" font-size="14" fill="#4b5563" text-anchor="middle">боковые почки</text>
+  <!-- кольраби -->
+  <g transform="translate(830,120)">
+    <circle r="35" fill="#d9f99d" stroke="#4d7c0f" stroke-width="2"/>
+    <path d="M-15,-30 L-35,-65 M0,-35 L0,-72 M15,-30 L35,-65" stroke="#15803d" stroke-width="3"/>
+    <g fill="#4ade80"><ellipse cx="-38" cy="-70" rx="9" ry="12"/><ellipse cx="0" cy="-78" rx="9" ry="12"/><ellipse cx="38" cy="-70" rx="9" ry="12"/></g>
+    <line x1="0" y1="35" x2="0" y2="50" stroke="#a16207" stroke-width="4"/>
+  </g>
+  <text x="830" y="190" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">кольраби</text>
+  <text x="830" y="210" font-size="14" fill="#4b5563" text-anchor="middle">утолщённый стебель</text>
+  <!-- цветная -->
+  <g transform="translate(170,500)">
+    <path d="M-60,10 Q-50,-30 -30,-20 M60,10 Q50,-30 30,-20" stroke="#15803d" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <g fill="#fefce8" stroke="#a3a3a3" stroke-width="1.5">
+      <circle cx="-22" cy="-5" r="16"/><circle cx="0" cy="-15" r="18"/><circle cx="22" cy="-5" r="16"/><circle cx="-10" cy="10" r="15"/><circle cx="12" cy="10" r="15"/>
+    </g>
+  </g>
+  <text x="170" y="550" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">цветная</text>
+  <text x="170" y="570" font-size="14" fill="#4b5563" text-anchor="middle">недоразвитые соцветия</text>
+  <!-- брокколи -->
+  <g transform="translate(500,500)">
+    <path d="M0,40 L0,0 M0,10 L-20,-10 M0,10 L20,-10" stroke="#65a30d" stroke-width="7"/>
+    <g fill="#16a34a" stroke="#14532d" stroke-width="1.5">
+      <circle cx="-22" cy="-18" r="15"/><circle cx="0" cy="-26" r="17"/><circle cx="22" cy="-18" r="15"/><circle cx="-8" cy="-8" r="12"/><circle cx="10" cy="-8" r="12"/>
+    </g>
+  </g>
+  <text x="500" y="560" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">брокколи</text>
+  <text x="500" y="580" font-size="14" fill="#4b5563" text-anchor="middle">соцветия с бутонами</text>
+  <!-- кейл -->
+  <g transform="translate(830,500)">
+    <line x1="0" y1="40" x2="0" y2="-10" stroke="#15803d" stroke-width="5"/>
+    <g fill="#22c55e" stroke="#14532d" stroke-width="1.5">
+      <path d="M0,0 Q-50,-10 -55,-45 Q-45,-35 -40,-48 Q-30,-35 -25,-50 Q-15,-35 0,-10 z"/>
+      <path d="M0,0 Q50,-10 55,-45 Q45,-35 40,-48 Q30,-35 25,-50 Q15,-35 0,-10 z"/>
+      <path d="M0,-5 Q-15,-40 0,-65 Q15,-40 0,-5 z"/>
+    </g>
+  </g>
+  <text x="830" y="560" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">листовая (кейл)</text>
+  <text x="830" y="580" font-size="14" fill="#4b5563" text-anchor="middle">листья</text>
+  </g>
+</svg>
