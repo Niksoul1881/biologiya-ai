@@ -2324,6 +2324,26 @@
   "author": "Bill Branson (Photographer)",
   "license": "Public domain"
  },
+ "/images/lessons/195/galton-diagramma-1875.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Galton's_correlation_diagram_1875.jpg",
+  "author": "Francis Galton",
+  "license": "Public domain"
+ },
+ "/images/lessons/195/primery-korrelyacii.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Correlation_examples2.svg",
+  "author": "DenisBoigelot, original uploader was Imagecreator",
+  "license": "CC0"
+ },
+ "/images/lessons/196/formula-bayesa-neon.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Bayes'_Theorem_MMB_01.jpg",
+  "author": "mattbuck (category)",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/196/tomas-bayes.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Thomas_Bayes.gif",
+  "author": "Unknown authorUnknown author",
+  "license": "Public domain"
+ },
  "/images/lessons/197/hapmap-snp.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Demonstrating_Hardy-Weinberg_proportions_using_10,000_SNPs_from_the_HapMap_CEU_European_and_YRI_African_populations.png",
   "author": "Graham Coop",
