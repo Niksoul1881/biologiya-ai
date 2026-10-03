@@ -611,7 +611,7 @@
  },
  "/images/lessons/036/darvin-karikatura.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Man_is_But_a_Worm.jpg",
-  "author": "Unknown author",
+  "author": "Unknown authorUnknown author",
   "license": "Public domain"
  },
  "/images/lessons/036/dozhdevoy-cherv.webp": {
@@ -791,7 +791,7 @@
  },
  "/images/lessons/043/osetr.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Acipenser_gueldenstaedtii.jpg",
-  "author": "Unknown author",
+  "author": "Unknown authorUnknown author",
   "license": "Public domain"
  },
  "/images/lessons/043/vnutrennee-stroenie.webp": {
@@ -1251,7 +1251,7 @@
  },
  "/images/lessons/066/garvej-veny.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:William_Harvey_(1578-1657)_Venenbild.jpg",
-  "author": "Unknown author",
+  "author": "Unknown authorUnknown author",
   "license": "Public domain"
  },
  "/images/lessons/066/serdce-stroenie.webp": {
@@ -1296,7 +1296,7 @@
  },
  "/images/lessons/070/respiracionnyj-kalorimetr.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Respiration_calorimeter.jpg",
-  "author": "Unknown author",
+  "author": "Unknown authorUnknown author",
   "license": "Public domain"
  },
  "/images/lessons/071/funk.webp": {
@@ -2273,6 +2273,26 @@
   "source": "https://commons.wikimedia.org/wiki/File:Aged-87-with-karl-pearson.gif",
   "author": "Unknown authorUnknown author",
   "license": "Public domain"
+ },
+ "/images/lessons/191/fisher-1953.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Fisher_1953.jpg",
+  "author": "Unknown photographer",
+  "license": "Public domain"
+ },
+ "/images/lessons/191/neyman.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Jerzy_Neyman2.jpg",
+  "author": "Konrad Jacobs, Erlangen, Copyright is MFO",
+  "license": "CC BY-SA 2.0 de"
+ },
+ "/images/lessons/192/gosset.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:William_Sealy_Gosset.jpg",
+  "author": "User Wujaszek on pl.wikipedia",
+  "license": "Public domain"
+ },
+ "/images/lessons/192/guinness-pivovarnya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Guinness_St._James's_Gate_Brewery,_Dublin_-_geograph.org.uk_-_2584707.jpg",
+  "author": "L S Wilson",
+  "license": "CC BY-SA 2.0"
  },
  "/images/lessons/193/karl-pirson.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Karl_Pearson,_1910_(cropped).jpg",
