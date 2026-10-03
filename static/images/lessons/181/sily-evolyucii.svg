@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" font-family="Arial, Helvetica, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+</defs>
+<rect width="1000" height="600" fill="#fff"/>
+<text x="500" y="36" font-size="22" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Что меняет частоты аллелей в популяции</text>
+<rect x="340" y="235" width="320" height="130" rx="18" fill="#fdf6e3" stroke="#b7950b" stroke-width="3"/>
+<text x="500" y="275" font-size="20" font-weight="bold" text-anchor="middle" fill="#7d6608">Генофонд популяции</text>
+<text x="500" y="303" font-size="15" text-anchor="middle" fill="#333">частоты аллелей p и q</text>
+<g fill="#c0392b"><circle cx="420" cy="335" r="9"/><circle cx="446" cy="335" r="9"/><circle cx="472" cy="335" r="9"/><circle cx="498" cy="335" r="9"/><circle cx="524" cy="335" r="9"/></g>
+<g fill="#2e86c1"><circle cx="550" cy="335" r="9"/><circle cx="576" cy="335" r="9"/></g>
+<text x="500" y="358" font-size="12" text-anchor="middle" fill="#666">p = 5/7, q = 2/7</text>
+<rect x="30" y="70" width="290" height="140" rx="14" fill="#eef6fb" stroke="#1d4f86" stroke-width="2.5"/>
+<text x="175" y="100" font-size="19" font-weight="bold" text-anchor="middle" fill="#1d4f86">Мутации</text>
+<text x="45" y="128" font-size="14" fill="#333">создают новые аллели</text>
+<text x="45" y="150" font-size="14" fill="#333">очень медленно: ~10⁻⁸ на нуклеотид</text>
+<text x="45" y="172" font-size="14" fill="#333">за поколение (у человека)</text>
+<text x="45" y="196" font-size="14" font-style="italic" fill="#1d4f86">источник материала</text>
+<line x1="320" y1="180" x2="365" y2="232" stroke="#555" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="680" y="70" width="290" height="140" rx="14" fill="#fbeeee" stroke="#c0392b" stroke-width="2.5"/>
+<text x="825" y="100" font-size="19" font-weight="bold" text-anchor="middle" fill="#c0392b">Естественный отбор</text>
+<text x="695" y="128" font-size="14" fill="#333">меняет частоты направленно:</text>
+<text x="695" y="150" font-size="14" fill="#333">полезный аллель растёт,</text>
+<text x="695" y="172" font-size="14" fill="#333">вредный убывает</text>
+<text x="695" y="196" font-size="14" font-style="italic" fill="#c0392b">сила — коэффициент отбора s</text>
+<line x1="680" y1="180" x2="635" y2="232" stroke="#555" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="30" y="390" width="290" height="140" rx="14" fill="#f6effa" stroke="#7a3fa0" stroke-width="2.5"/>
+<text x="175" y="420" font-size="19" font-weight="bold" text-anchor="middle" fill="#7a3fa0">Дрейф генов</text>
+<text x="45" y="448" font-size="14" fill="#333">случайные колебания частот:</text>
+<text x="45" y="470" font-size="14" fill="#333">кому повезло оставить потомков</text>
+<text x="45" y="492" font-size="14" fill="#333">сильнее в малых популяциях</text>
+<text x="45" y="516" font-size="14" font-style="italic" fill="#7a3fa0">сила — порядка 1/(2Nₑ)</text>
+<line x1="320" y1="420" x2="365" y2="368" stroke="#555" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="680" y="390" width="290" height="140" rx="14" fill="#eaf7ee" stroke="#1e8449" stroke-width="2.5"/>
+<text x="825" y="420" font-size="19" font-weight="bold" text-anchor="middle" fill="#1e8449">Поток генов (миграция)</text>
+<text x="695" y="448" font-size="14" fill="#333">приносит аллели из соседних</text>
+<text x="695" y="470" font-size="14" fill="#333">популяций и выравнивает</text>
+<text x="695" y="492" font-size="14" fill="#333">их частоты</text>
+<text x="695" y="516" font-size="14" font-style="italic" fill="#1e8449">сила — доля мигрантов m</text>
+<line x1="680" y1="420" x2="635" y2="368" stroke="#555" stroke-width="2.5" marker-end="url(#ar)"/>
+<rect x="340" y="440" width="320" height="110" rx="14" fill="#f4f4f4" stroke="#777" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="500" y="468" font-size="17" font-weight="bold" text-anchor="middle" fill="#444">Неслучайное скрещивание</text>
+<text x="500" y="492" font-size="14" text-anchor="middle" fill="#333">инбридинг, выбор похожего партнёра</text>
+<text x="500" y="514" font-size="14" text-anchor="middle" fill="#333">меняет частоты генотипов,</text>
+<text x="500" y="536" font-size="14" text-anchor="middle" fill="#333">но не частоты аллелей</text>
+<line x1="500" y1="440" x2="500" y2="372" stroke="#777" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ar)"/>
+<text x="500" y="585" font-size="14" text-anchor="middle" fill="#555">Если ни одна сила не действует — работает закон Харди — Вайнберга: частоты не меняются.</text>
+</svg>
