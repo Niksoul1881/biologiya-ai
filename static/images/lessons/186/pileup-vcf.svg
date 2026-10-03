@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" font-family="Arial, Helvetica, sans-serif">
+<rect width="900" height="600" fill="#fff"/>
+<text x="450" y="32" font-size="21" font-weight="bold" text-anchor="middle" fill="#0e5a6b">От стопки прочтений (BAM) к строке варианта (VCF)</text>
+<text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">Прочтения, выровненные на эталон, складываются «стопкой». Программа поиска вариантов смотрит на каждую позицию</text>
+<g font-size="14" fill="#333" text-anchor="end"><text x="175" y="98">позиция</text><text x="175" y="132">эталон</text></g>
+<rect x="420" y="78" width="46" height="336" rx="6" fill="#fef3c7" opacity="0.7"/>
+<text x="213.0" y="98" font-size="11" fill="#777" text-anchor="middle">1000</text>
+<rect x="193" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="213.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">T</text>
+<text x="259.0" y="98" font-size="11" fill="#777" text-anchor="middle">1001</text>
+<rect x="239" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="259.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">T</text>
+<text x="305.0" y="98" font-size="11" fill="#777" text-anchor="middle">1002</text>
+<rect x="285" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="305.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">A</text>
+<text x="351.0" y="98" font-size="11" fill="#777" text-anchor="middle">1003</text>
+<rect x="331" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="351.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">G</text>
+<text x="397.0" y="98" font-size="11" fill="#777" text-anchor="middle">1004</text>
+<rect x="377" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="397.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">G</text>
+<text x="443.0" y="98" font-size="11" fill="#777" text-anchor="middle">1005</text>
+<rect x="423" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="443.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">C</text>
+<text x="489.0" y="98" font-size="11" fill="#777" text-anchor="middle">1006</text>
+<rect x="469" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="489.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">A</text>
+<text x="535.0" y="98" font-size="11" fill="#777" text-anchor="middle">1007</text>
+<rect x="515" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="535.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">T</text>
+<text x="581.0" y="98" font-size="11" fill="#777" text-anchor="middle">1008</text>
+<rect x="561" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="581.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">G</text>
+<text x="627.0" y="98" font-size="11" fill="#777" text-anchor="middle">1009</text>
+<rect x="607" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="627.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">C</text>
+<text x="673.0" y="98" font-size="11" fill="#777" text-anchor="middle">1010</text>
+<rect x="653" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="673.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">A</text>
+<text x="719.0" y="98" font-size="11" fill="#777" text-anchor="middle">1011</text>
+<rect x="699" y="108" width="40" height="34" rx="5" fill="#e0f2fe" stroke="#7dd3fc"/>
+<text x="719.0" y="132" font-family="Consolas, monospace" font-size="20" font-weight="bold" text-anchor="middle" fill="#0c4a6e">A</text>
+<text x="175" y="181" font-size="13" fill="#333" text-anchor="end">прочтение 1</text>
+<rect x="191" y="158" width="366" height="32" rx="7" fill="#f1f5f9" stroke="#cbd5e1"/>
+<text x="213.0" y="181" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">T</text>
+<text x="259.0" y="181" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">T</text>
+<text x="305.0" y="181" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="351.0" y="181" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="397.0" y="181" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="443.0" y="181" font-family="Consolas, monospace" font-size="19" font-weight="bold" text-anchor="middle" fill="#dc2626">T</text>
+<text x="489.0" y="181" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="535.0" y="181" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">T</text>
+<text x="175" y="221" font-size="13" fill="#333" text-anchor="end">прочтение 2</text>
+<rect x="237" y="198" width="412" height="32" rx="7" fill="#f1f5f9" stroke="#cbd5e1"/>
+<text x="259.0" y="221" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">T</text>
+<text x="305.0" y="221" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="351.0" y="221" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="397.0" y="221" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="443.0" y="221" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">C</text>
+<text x="489.0" y="221" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="535.0" y="221" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">T</text>
+<text x="581.0" y="221" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="627.0" y="221" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">C</text>
+<text x="175" y="261" font-size="13" fill="#333" text-anchor="end">прочтение 3</text>
+<rect x="283" y="238" width="458" height="32" rx="7" fill="#f1f5f9" stroke="#cbd5e1"/>
+<text x="305.0" y="261" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="351.0" y="261" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="397.0" y="261" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="443.0" y="261" font-family="Consolas, monospace" font-size="19" font-weight="bold" text-anchor="middle" fill="#dc2626">T</text>
+<text x="489.0" y="261" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="535.0" y="261" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">T</text>
+<text x="581.0" y="261" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="627.0" y="261" font-family="Consolas, monospace" font-size="19" font-weight="bold" text-anchor="middle" fill="#7c3aed">A</text>
+<text x="673.0" y="261" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="719.0" y="261" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="175" y="301" font-size="13" fill="#333" text-anchor="end">прочтение 4</text>
+<rect x="329" y="278" width="412" height="32" rx="7" fill="#f1f5f9" stroke="#cbd5e1"/>
+<text x="351.0" y="301" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="397.0" y="301" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="443.0" y="301" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">C</text>
+<text x="489.0" y="301" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="535.0" y="301" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">T</text>
+<text x="581.0" y="301" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="627.0" y="301" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">C</text>
+<text x="673.0" y="301" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="719.0" y="301" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="175" y="341" font-size="13" fill="#333" text-anchor="end">прочтение 5</text>
+<rect x="191" y="318" width="320" height="32" rx="7" fill="#f1f5f9" stroke="#cbd5e1"/>
+<text x="213.0" y="341" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">T</text>
+<text x="259.0" y="341" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">T</text>
+<text x="305.0" y="341" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="351.0" y="341" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="397.0" y="341" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="443.0" y="341" font-family="Consolas, monospace" font-size="19" font-weight="bold" text-anchor="middle" fill="#dc2626">T</text>
+<text x="489.0" y="341" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="175" y="381" font-size="13" fill="#333" text-anchor="end">прочтение 6</text>
+<rect x="375" y="358" width="366" height="32" rx="7" fill="#f1f5f9" stroke="#cbd5e1"/>
+<text x="397.0" y="381" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="443.0" y="381" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">C</text>
+<text x="489.0" y="381" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="535.0" y="381" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">T</text>
+<text x="581.0" y="381" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">G</text>
+<text x="627.0" y="381" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">C</text>
+<text x="673.0" y="381" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<text x="719.0" y="381" font-family="Consolas, monospace" font-size="19" font-weight="normal" text-anchor="middle" fill="#94a3b8">A</text>
+<g font-size="13" fill="#333">
+<text x="443.0" y="436" text-anchor="middle" font-weight="bold" fill="#b45309">позиция 1005: C — 3 прочтения, T — 3 прочтения → гетерозигота C/T</text>
+<text x="627.0" y="408" text-anchor="middle" fill="#7c3aed">A — 1 из 4: скорее ошибка</text>
+</g>
+<text x="450" y="478" font-size="16" font-weight="bold" text-anchor="middle" fill="#0e5a6b">Строка VCF для этого варианта</text>
+<rect x="112.0" y="492" width="70" height="60" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="147.0" y="512" font-size="12" font-weight="bold" text-anchor="middle" fill="#0e7490">#CHROM</text>
+<text x="147.0" y="538" font-family="Consolas, monospace" font-size="15" font-weight="bold" text-anchor="middle" fill="#111">chr1</text>
+<rect x="186.0" y="492" width="64" height="60" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="218.0" y="512" font-size="12" font-weight="bold" text-anchor="middle" fill="#0e7490">POS</text>
+<text x="218.0" y="538" font-family="Consolas, monospace" font-size="15" font-weight="bold" text-anchor="middle" fill="#111">1005</text>
+<rect x="254.0" y="492" width="40" height="60" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="274.0" y="512" font-size="12" font-weight="bold" text-anchor="middle" fill="#0e7490">ID</text>
+<text x="274.0" y="538" font-family="Consolas, monospace" font-size="15" font-weight="bold" text-anchor="middle" fill="#111">.</text>
+<rect x="298.0" y="492" width="48" height="60" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="322.0" y="512" font-size="12" font-weight="bold" text-anchor="middle" fill="#0e7490">REF</text>
+<text x="322.0" y="538" font-family="Consolas, monospace" font-size="15" font-weight="bold" text-anchor="middle" fill="#111">C</text>
+<rect x="350.0" y="492" width="48" height="60" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="374.0" y="512" font-size="12" font-weight="bold" text-anchor="middle" fill="#0e7490">ALT</text>
+<text x="374.0" y="538" font-family="Consolas, monospace" font-size="15" font-weight="bold" text-anchor="middle" fill="#111">T</text>
+<rect x="402.0" y="492" width="58" height="60" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="431.0" y="512" font-size="12" font-weight="bold" text-anchor="middle" fill="#0e7490">QUAL</text>
+<text x="431.0" y="538" font-family="Consolas, monospace" font-size="15" font-weight="bold" text-anchor="middle" fill="#111">50</text>
+<rect x="464.0" y="492" width="70" height="60" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="499.0" y="512" font-size="12" font-weight="bold" text-anchor="middle" fill="#0e7490">FILTER</text>
+<text x="499.0" y="538" font-family="Consolas, monospace" font-size="15" font-weight="bold" text-anchor="middle" fill="#111">PASS</text>
+<rect x="538.0" y="492" width="72" height="60" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="574.0" y="512" font-size="12" font-weight="bold" text-anchor="middle" fill="#0e7490">INFO</text>
+<text x="574.0" y="538" font-family="Consolas, monospace" font-size="15" font-weight="bold" text-anchor="middle" fill="#111">DP=6</text>
+<rect x="614.0" y="492" width="78" height="60" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="653.0" y="512" font-size="12" font-weight="bold" text-anchor="middle" fill="#0e7490">FORMAT</text>
+<text x="653.0" y="538" font-family="Consolas, monospace" font-size="15" font-weight="bold" text-anchor="middle" fill="#111">GT:AD</text>
+<rect x="696.0" y="492" width="92" height="60" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="742.0" y="512" font-size="12" font-weight="bold" text-anchor="middle" fill="#0e7490">образец</text>
+<text x="742.0" y="538" font-family="Consolas, monospace" font-size="15" font-weight="bold" text-anchor="middle" fill="#111">0/1:3,3</text>
+<text x="450" y="574" font-size="12.5" text-anchor="middle" fill="#555">DP — глубина покрытия; GT 0/1 — одна копия как в эталоне (0), другая с заменой (1);</text><text x="450" y="592" font-size="12.5" text-anchor="middle" fill="#555">AD — сколько прочтений подтверждают каждый аллель. Значение QUAL условное.</text>
+</svg>

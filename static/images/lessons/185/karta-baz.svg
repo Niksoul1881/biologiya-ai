@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0e5a6b"/>
+    </marker>
+  </defs>
+  <rect width="900" height="520" fill="#fff"/>
+  <text x="450" y="32" font-size="21" font-weight="bold" text-anchor="middle" fill="#0e5a6b">Один ген — много баз: путь гена HBB (β-глобин) по базам данных</text>
+  <text x="450" y="56" font-size="13" text-anchor="middle" fill="#555">Каждая база хранит свой уровень информации и выдаёт свой идентификатор. Перекрёстные ссылки связывают их в одну сеть.</text>
+
+  <g font-size="13" fill="#0e5a6b" font-weight="bold" text-anchor="middle">
+    <text x="97" y="92">ГЕНОМ</text>
+    <text x="272" y="92">ГЕН</text>
+    <text x="447" y="92">мРНК</text>
+    <text x="622" y="92">БЕЛОК</text>
+    <text x="797" y="92">СТРУКТУРА</text>
+  </g>
+
+  <g stroke="#0e7490" stroke-width="2" fill="#ecfeff">
+    <rect x="17" y="104" width="160" height="170" rx="10"/>
+    <rect x="192" y="104" width="160" height="170" rx="10"/>
+    <rect x="367" y="104" width="160" height="170" rx="10"/>
+    <rect x="542" y="104" width="160" height="170" rx="10"/>
+    <rect x="717" y="104" width="160" height="170" rx="10"/>
+  </g>
+  <g font-size="16" font-weight="bold" fill="#0e7490" text-anchor="middle">
+    <text x="97" y="132">Ensembl</text>
+    <text x="272" y="132">NCBI Gene</text>
+    <text x="447" y="132">RefSeq / GenBank</text>
+    <text x="622" y="132">UniProt</text>
+    <text x="797" y="132">PDB</text>
+  </g>
+  <g font-size="12.5" fill="#222" text-anchor="middle">
+    <text x="97" y="160" font-family="Consolas, monospace" font-weight="bold">ENSG00000244734</text>
+    <text x="97" y="184">хромосома 11,</text>
+    <text x="97" y="202">участок 11p15.4</text>
+    <text x="97" y="226">экзоны, транскрипты,</text>
+    <text x="97" y="244">соседние гены,</text>
+    <text x="97" y="262">гены других видов</text>
+
+    <text x="272" y="160" font-family="Consolas, monospace" font-weight="bold">Gene ID 3043</text>
+    <text x="272" y="184">символ HBB</text>
+    <text x="272" y="202">«субъединица β</text>
+    <text x="272" y="220">гемоглобина»</text>
+    <text x="272" y="244">описание и ссылки</text>
+    <text x="272" y="262">на остальные базы</text>
+
+    <text x="447" y="160" font-family="Consolas, monospace" font-weight="bold">NM_000518.5</text>
+    <text x="447" y="184">последовательность</text>
+    <text x="447" y="202">мРНК в FASTA</text>
+    <text x="447" y="226">.5 — номер версии:</text>
+    <text x="447" y="244">запись обновляли,</text>
+    <text x="447" y="262">номер вырос до 5</text>
+
+    <text x="622" y="160" font-family="Consolas, monospace" font-weight="bold">P68871</text>
+    <text x="622" y="178" font-family="Consolas, monospace">HBB_HUMAN</text>
+    <text x="622" y="202">147 аминокислот</text>
+    <text x="622" y="226">функция, домены,</text>
+    <text x="622" y="244">модификации,</text>
+    <text x="622" y="262">известные варианты</text>
+
+    <text x="797" y="160" font-family="Consolas, monospace" font-weight="bold">4HHB, 1GZX…</text>
+    <text x="797" y="184">координаты атомов</text>
+    <text x="797" y="202">из эксперимента</text>
+    <text x="797" y="226">+ AlphaFold DB:</text>
+    <text x="797" y="244" font-family="Consolas, monospace">AF-P68871-F1</text>
+    <text x="797" y="262">(предсказание)</text>
+  </g>
+
+  <g stroke="#0e5a6b" stroke-width="2.5" marker-end="url(#ar)">
+    <line x1="178" y1="189" x2="190" y2="189"/>
+    <line x1="353" y1="189" x2="365" y2="189"/>
+    <line x1="528" y1="189" x2="540" y2="189"/>
+    <line x1="703" y1="189" x2="715" y2="189"/>
+  </g>
+
+  <g stroke="#b45309" stroke-width="2" fill="#fff7ed">
+    <rect x="80" y="340" width="330" height="120" rx="10"/>
+    <rect x="490" y="340" width="330" height="120" rx="10"/>
+  </g>
+  <g stroke="#b45309" stroke-width="2" stroke-dasharray="6 5" fill="none">
+    <path d="M272 275 L245 338"/>
+    <path d="M622 275 L655 338"/>
+    <path d="M447 275 L447 300 L405 338"/>
+    <path d="M447 300 L495 338"/>
+  </g>
+  <g font-size="16" font-weight="bold" fill="#b45309" text-anchor="middle">
+    <text x="245" y="366">Варианты: dbSNP и ClinVar</text>
+    <text x="655" y="366">Литература: PubMed</text>
+  </g>
+  <g font-size="12.5" fill="#222" text-anchor="middle">
+    <text x="245" y="392"><tspan font-family="Consolas, monospace" font-weight="bold">rs334</tspan> — замена A→T в 6-м кодоне</text>
+    <text x="245" y="412">(Glu → Val, гемоглобин S)</text>
+    <text x="245" y="436">ClinVar: связь с серповидноклеточной</text>
+    <text x="245" y="454">анемией, оценка патогенности</text>
+
+    <text x="655" y="392">статьи о гене, белке, варианте —</text>
+    <text x="655" y="412">у каждой свой PMID</text>
+    <text x="655" y="436">из PubMed видно, на каких</text>
+    <text x="655" y="454">экспериментах держится запись</text>
+  </g>
+
+  <text x="450" y="500" font-size="12.5" text-anchor="middle" fill="#555">Номера реальные. Версии записей и номера сборок со временем меняются — в анализе их всегда фиксируют.</text>
+</svg>
