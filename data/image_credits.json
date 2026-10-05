@@ -2224,6 +2224,56 @@
   "author": "dun_deagh",
   "license": "CC BY-SA 2.0"
  },
+ "/images/lessons/179/antitelo.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Antibody-ru.svg",
+  "author": "Д.Ильин: translation",
+  "license": "CC0"
+ },
+ "/images/lessons/179/klonalnaya-selekciya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Clonal_selection.svg",
+  "author": "Ilmari Karonen",
+  "license": "CC BY 2.5"
+ },
+ "/images/lessons/179/mechnikov.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Elie_Metchnikoff._Photogravure_after_Nicola_Perscheid,_1907._Wellcome_M0004821.jpg",
+  "author": "Nicola Perscheid",
+  "license": "Public domain"
+ },
+ "/images/lessons/179/mhc1-prezentaciya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:MHC_Class_I_processing.svg",
+  "author": "Scray",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/179/neytrofil-sibirskaya-yazva.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Neutrophil_with_anthrax_copy.jpg",
+  "author": "Volker Brinkmann",
+  "license": "CC BY 2.5"
+ },
+ "/images/lessons/179/vdj-rekombinaciya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:VDJ_recombination-ru.svg",
+  "author": "Д.Ильин: vectorization, translation",
+  "license": "CC0"
+ },
+ "/images/lessons/180/antenna-st5.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:St_5-xband-antenna.jpg",
+  "author": "автор не указан",
+  "license": "Public domain"
+ },
+ "/images/lessons/180/berezovaya-pyadenica.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lichte_en_zwarte_versie_berkenspanner.jpg",
+  "author": "Martinowksy at Dutch Wikipedia\n\n(Original text: Maarten Sanne)",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/180/kolby-lenski.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lenski's_12_long-term_lines_of_E._coli_on_25_June_2008.jpg",
+  "author": "Brian Baer and Neerja Hajela",
+  "license": "CC BY-SA 1.0"
+ },
+ "/images/lessons/180/vyurki-darvina.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Darwin's_finches_by_Gould.jpg",
+  "author": "John Gould (14.Sep.1804 - 3.Feb.1881)",
+  "license": "Public domain"
+ },
  "/images/lessons/181/berezovaya-pyadenica.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Lichte_en_zwarte_versie_berkenspanner_crop.jpg",
   "author": "Martinowsky; Chiswick Chap",
@@ -2267,6 +2317,26 @@
  "/images/lessons/182/mysh-ob.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Fatmouse.jpg",
   "author": "Программа «Геном человека» Министерства энергетики США (ORNL)",
+  "license": "Public domain"
+ },
+ "/images/lessons/183/elektroforez-gel.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Gel_electrophoresis_2.jpg",
+  "author": "Mnolf",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/183/laboratornyj-zhurnal.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Lab_Notebook.jpg",
+  "author": "Katherine Stember",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/183/mnogokanalnaya-pipetka.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Use_of_a_Multichannel_Pipette_for_High-Throughput_Liquid_Handling_in_a_Biosafety_Cabinet.jpg",
+  "author": "Siduduziwe Nxumalo",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/183/robot-dozator.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:BioMek_FX_P200_96_liquid_handling_robot.jpg",
+  "author": "National Institute of Allergy and Infectious Diseases (NIAID)",
   "license": "Public domain"
  },
  "/images/lessons/185/ebi-data-centre.webp": {
@@ -2453,55 +2523,5 @@
   "source": "https://commons.wikimedia.org/wiki/File:AAMarkov.jpg",
   "author": "Unknown authorUnknown author",
   "license": "Public domain"
- },
- "/images/lessons/179/antitelo.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Antibody-ru.svg",
-  "author": "Д.Ильин: translation",
-  "license": "CC0"
- },
- "/images/lessons/179/klonalnaya-selekciya.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Clonal_selection.svg",
-  "author": "Ilmari Karonen",
-  "license": "CC BY 2.5"
- },
- "/images/lessons/179/neytrofil-sibirskaya-yazva.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Neutrophil_with_anthrax_copy.jpg",
-  "author": "Volker Brinkmann",
-  "license": "CC BY 2.5"
- },
- "/images/lessons/179/mechnikov.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Elie_Metchnikoff._Photogravure_after_Nicola_Perscheid,_1907._Wellcome_M0004821.jpg",
-  "author": "Nicola Perscheid",
-  "license": "Public domain"
- },
- "/images/lessons/179/vdj-rekombinaciya.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:VDJ_recombination-ru.svg",
-  "author": "Д.Ильин: vectorization, translation",
-  "license": "CC0"
- },
- "/images/lessons/179/mhc1-prezentaciya.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:MHC_Class_I_processing.svg",
-  "author": "Scray",
-  "license": "CC BY-SA 3.0"
- },
- "/images/lessons/180/antenna-st5.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:St_5-xband-antenna.jpg",
-  "author": "автор не указан",
-  "license": "Public domain"
- },
- "/images/lessons/180/vyurki-darvina.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Darwin's_finches_by_Gould.jpg",
-  "author": "John Gould (14.Sep.1804 - 3.Feb.1881)",
-  "license": "Public domain"
- },
- "/images/lessons/180/kolby-lenski.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Lenski's_12_long-term_lines_of_E._coli_on_25_June_2008.jpg",
-  "author": "Brian Baer and Neerja Hajela",
-  "license": "CC BY-SA 1.0"
- },
- "/images/lessons/180/berezovaya-pyadenica.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Lichte_en_zwarte_versie_berkenspanner.jpg",
-  "author": "Martinowksy at Dutch Wikipedia\n\n(Original text: Maarten Sanne)",
-  "license": "CC BY-SA 3.0"
  }
 }
