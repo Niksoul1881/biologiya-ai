@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" width="960" height="700" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="960" height="700" fill="#fff"/>
+<text x="480" y="36" font-size="24" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Как Cas9 находит и разрезает ДНК</text>
+<text x="480" y="62" font-size="15" text-anchor="middle" fill="#555">мишень задаёт направляющая РНК; обязательное условие — PAM рядом с мишенью</text>
+<rect x="190.0" y="86" width="642.0" height="222" rx="60" fill="#d6eaf8" fill-opacity="0.55" stroke="#5dade2" stroke-width="2"/>
+<text x="208.0" y="296" font-size="20" font-weight="bold" fill="#2874a6">Cas9</text>
+<rect x="228" y="128" width="480" height="30" fill="#fcf3cf" stroke="#d4ac0d"/>
+<rect x="708" y="128" width="72" height="30" fill="#d5f5e3" stroke="#1e8449"/>
+<text x="468" y="120" font-size="15" text-anchor="middle" fill="#7d6608">протоспейсер: 20 нт, та же последовательность, что в РНК</text>
+<text x="744.0" y="102" font-size="15" font-weight="bold" text-anchor="middle" fill="#1e8449">PAM</text>
+<text x="744.0" y="120" font-size="13" text-anchor="middle" fill="#1e8449">(NGG)</text>
+<text x="122" y="150" font-size="18" text-anchor="end" fill="#333">5′</text>
+<text x="886" y="150" font-size="18" fill="#333">3′</text>
+<text x="122" y="190" font-size="18" text-anchor="end" fill="#333">3′</text>
+<text x="886" y="190" font-size="18" fill="#333">5′</text>
+<text x="144.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<text x="144.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<line x1="144.0" y1="156" x2="144.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="168.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<text x="168.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<line x1="168.0" y1="156" x2="168.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="192.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<text x="192.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<line x1="192.0" y1="156" x2="192.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="216.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<text x="216.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<line x1="216.0" y1="156" x2="216.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="240.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<text x="240.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<line x1="240.0" y1="156" x2="240.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="264.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<text x="264.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<line x1="264.0" y1="156" x2="264.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="288.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<text x="288.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<line x1="288.0" y1="156" x2="288.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="312.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<text x="312.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<line x1="312.0" y1="156" x2="312.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="336.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<text x="336.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<line x1="336.0" y1="156" x2="336.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="360.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<text x="360.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<line x1="360.0" y1="156" x2="360.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="384.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<text x="384.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<line x1="384.0" y1="156" x2="384.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="408.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<text x="408.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<line x1="408.0" y1="156" x2="408.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="432.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<text x="432.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<line x1="432.0" y1="156" x2="432.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="456.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<text x="456.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<line x1="456.0" y1="156" x2="456.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="480.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<text x="480.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<line x1="480.0" y1="156" x2="480.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="504.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<text x="504.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<line x1="504.0" y1="156" x2="504.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="528.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<text x="528.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<line x1="528.0" y1="156" x2="528.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="552.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<text x="552.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<line x1="552.0" y1="156" x2="552.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="576.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<text x="576.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<line x1="576.0" y1="156" x2="576.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="600.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<text x="600.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<line x1="600.0" y1="156" x2="600.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="624.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<text x="624.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<line x1="624.0" y1="156" x2="624.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="648.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<text x="648.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<line x1="648.0" y1="156" x2="648.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="672.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<text x="672.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<line x1="672.0" y1="156" x2="672.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="696.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<text x="696.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<line x1="696.0" y1="156" x2="696.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="720.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<text x="720.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<line x1="720.0" y1="156" x2="720.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="744.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<text x="744.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<line x1="744.0" y1="156" x2="744.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="768.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<text x="768.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<line x1="768.0" y1="156" x2="768.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="792.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<text x="792.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<line x1="792.0" y1="156" x2="792.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="816.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<text x="816.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<line x1="816.0" y1="156" x2="816.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="840.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">T</text>
+<text x="840.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">A</text>
+<line x1="840.0" y1="156" x2="840.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="864.0" y="150" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">G</text>
+<text x="864.0" y="190" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#222">C</text>
+<line x1="864.0" y1="156" x2="864.0" y2="173" stroke="#999" stroke-width="1.5"/>
+<text x="92" y="170" font-size="13" text-anchor="end" fill="#555">ДНК</text>
+<line x1="240.0" y1="196" x2="240.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="240.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">G</text>
+<line x1="264.0" y1="196" x2="264.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="264.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">A</text>
+<line x1="288.0" y1="196" x2="288.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="288.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">C</text>
+<line x1="312.0" y1="196" x2="312.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="312.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">G</text>
+<line x1="336.0" y1="196" x2="336.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="336.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">U</text>
+<line x1="360.0" y1="196" x2="360.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="360.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">C</text>
+<line x1="384.0" y1="196" x2="384.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="384.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">A</text>
+<line x1="408.0" y1="196" x2="408.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="408.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">A</text>
+<line x1="432.0" y1="196" x2="432.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="432.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">G</text>
+<line x1="456.0" y1="196" x2="456.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="456.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">C</text>
+<line x1="480.0" y1="196" x2="480.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="480.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">U</text>
+<line x1="504.0" y1="196" x2="504.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="504.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">G</text>
+<line x1="528.0" y1="196" x2="528.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="528.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">G</text>
+<line x1="552.0" y1="196" x2="552.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="552.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">A</text>
+<line x1="576.0" y1="196" x2="576.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="576.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">C</text>
+<line x1="600.0" y1="196" x2="600.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="600.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">U</text>
+<line x1="624.0" y1="196" x2="624.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="624.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">C</text>
+<line x1="648.0" y1="196" x2="648.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="648.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">C</text>
+<line x1="672.0" y1="196" x2="672.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="672.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">A</text>
+<line x1="696.0" y1="196" x2="696.0" y2="218" stroke="#c0392b" stroke-width="1.5"/>
+<text x="696.0" y="236" font-size="19" font-weight="bold" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" fill="#c0392b">U</text>
+<text x="220" y="236" font-size="18" text-anchor="end" fill="#c0392b">5′</text>
+<path d="M710,230 C748,246 718,286 758,282 S798,246 828,266 S858,296 898,286" fill="none" stroke="#c0392b" stroke-width="3"/>
+<text x="904" y="292" font-size="18" fill="#c0392b">3′</text>
+<text x="468" y="270" font-size="15" text-anchor="middle" fill="#c0392b">направляющая РНК (sgRNA): 20 нт «адреса» + каркас для Cas9</text>
+<line x1="636" y1="128" x2="636" y2="200" stroke="#e74c3c" stroke-width="3" stroke-dasharray="6 4"/>
+<path d="M627,132 L645,132 L636,144 z" fill="#e74c3c"/>
+<text x="636" y="330" font-size="15" text-anchor="middle" fill="#b03a2e">↑ разрез обеих цепей в 3 нт от PAM → двуцепочечный разрыв</text>
+<line x1="636" y1="312" x2="636" y2="203" stroke="#e74c3c" stroke-width="1" stroke-dasharray="2 3"/>
+<path d="M480,345 L250,392" stroke="#333" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<path d="M480,345 L710,392" stroke="#333" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+<text x="480" y="372" font-size="15" text-anchor="middle" fill="#333">клетка чинит разрыв</text>
+<rect x="30" y="396" width="430" height="200" rx="14" fill="#fdedec" stroke="#a02020" stroke-width="2"/>
+<text x="245" y="428" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">NHEJ: концы сшиваются как придётся</text>
+<text x="245" y="462" font-size="15" text-anchor="middle" fill="#222">быстро, во всех клетках, без образца;</text>
+<text x="245" y="489" font-size="15" text-anchor="middle" fill="#222">часто ошибается: вставки и делеции (инделы)</text>
+<text x="245" y="516" font-size="15" text-anchor="middle" fill="#222" font-family="Consolas, 'Courier New', monospace">…GACTC|CATTGG → …GACTC–ATTGG (−1 нт)</text>
+<text x="245" y="543" font-size="15" text-anchor="middle" fill="#222">сдвиг рамки считывания → стоп-кодон</text>
+<text x="245" y="570" font-size="15" text-anchor="middle" fill="#222">итог: ген выключен (нокаут)</text>
+<rect x="500" y="396" width="430" height="200" rx="14" fill="#e9f7ef" stroke="#1e8449" stroke-width="2"/>
+<text x="715" y="428" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">HDR: починка по образцу</text>
+<text x="715" y="462" font-size="15" text-anchor="middle" fill="#222">клетка копирует донорскую ДНК,</text>
+<text x="715" y="489" font-size="15" text-anchor="middle" fill="#222">похожую на края разрыва, с нужной правкой;</text>
+<text x="715" y="516" font-size="15" text-anchor="middle" fill="#222" font-family="Consolas, 'Courier New', monospace">…GACTC|CATTGG → …GACTCGATTGG (C→G)</text>
+<text x="715" y="543" font-size="15" text-anchor="middle" fill="#222">точная замена или вставка гена;</text>
+<text x="715" y="570" font-size="15" text-anchor="middle" fill="#222">реже и в основном в делящихся клетках</text>
+<text x="480" y="630" font-size="15" text-anchor="middle" fill="#333">Мишень на нижней цепи тоже возможна: тогда PAM ищут как CCN на верхней цепи (это NGG на нижней).</text>
+<text x="480" y="656" font-size="15" text-anchor="middle" fill="#333">Показан Cas9 из Streptococcus pyogenes (SpCas9); у других нуклеаз свой PAM и свой тип разреза.</text>
+</svg>

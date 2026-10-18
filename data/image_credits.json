@@ -2553,5 +2553,30 @@
   "source": "https://commons.wikimedia.org/wiki/File:DE_cycle.png",
   "author": "Thomas Shafee",
   "license": "CC BY 4.0"
+ },
+ "/images/lessons/184/pcr-shema.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Polymerase_chain_reaction-ru.svg",
+  "author": "Bondarev.gal",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/184/sanger-metod.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Sanger-sequencing.svg",
+  "author": "Estevezj",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/184/stoimost-genoma.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Cost_per_Genome.png",
+  "author": "National Human Genome Research Institute (NHGRI)",
+  "license": "CC0"
+ },
+ "/images/lessons/184/amplifikator.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_610_PCR_Machine_in_Genetics_Laboratory.jpg",
+  "author": "K. Aken, CSIRO",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/184/nanopora.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Nanopore_DNA_sequencing.png",
+  "author": "Nova IC",
+  "license": "CC BY 4.0"
  }
 }
