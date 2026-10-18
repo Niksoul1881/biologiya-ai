@@ -2538,5 +2538,25 @@
   "source": "https://commons.wikimedia.org/wiki/File:A_profile_HMM_modelling_a_multiple_sequence_alignment.png",
   "author": "EMBL-EBI Train Online",
   "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/206/heatmap-transkriptomy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Transcriptomes_heatmap_example-ru.svg",
+  "author": "Kirill Borisenko",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/206/heatmap-mikrochip.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Heatmap.png",
+  "author": "Miguel Andrade at English Wikipedia",
+  "license": "Public domain"
+ },
+ "/images/lessons/206/dbscan.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:DBSCAN-Illustration.svg",
+  "author": "Chire",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/206/single-cell-epifiz.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Transcriptomic_characterization_of_cell_types_in_the_daytime_rat_pineal_gland.png",
+  "author": "Mays JC, Kelly MC, Coon SL, Holtzclaw L, Rath MF, Kelley MW, et al.",
+  "license": "CC0"
  }
 }
