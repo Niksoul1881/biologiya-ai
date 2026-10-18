@@ -2558,5 +2558,25 @@
   "source": "https://commons.wikimedia.org/wiki/File:Rabbit_plague_1918.jpg",
   "author": "National Library of Australia",
   "license": "Public domain"
+ },
+ "/images/lessons/203/lynx-hare-graf.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Predator-prey_dynamics.webp",
+  "author": "OpenStax",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/203/rys-i-zayac.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Canada_Lynx_and_Snowshoe_Hare_(43543015694).jpg",
+  "author": "Thomas Quine",
+  "license": "CC BY 2.0"
+ },
+ "/images/lessons/203/didinium.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Didinium_nasutum_consuming_a_paramecium.jpg",
+  "author": "S. O. Mast",
+  "license": "Public domain"
+ },
+ "/images/lessons/203/volterra.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Vito_Volterra.jpg",
+  "author": "Unknown author",
+  "license": "Public domain"
  }
 }
