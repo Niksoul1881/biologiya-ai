@@ -2558,5 +2558,20 @@
   "source": "https://commons.wikimedia.org/wiki/File:Binary_entropy_plot.svg",
   "author": "Brona, Alessio Damato, Rubber Duck",
   "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/201/kenigsberg.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Konigsberg_Bridge.png",
+  "author": "Merian-Erben",
+  "license": "Public domain"
+ },
+ "/images/lessons/201/ppi-set.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:PPI_network_of_human_and_yeast.png",
+  "author": "Nataša Pržulj, Imperial College London",
+  "license": "Public domain"
+ },
+ "/images/lessons/201/metabolizm-metro.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Metabolic_Metro_Map.svg",
+  "author": "Chakazul",
+  "license": "CC BY-SA 4.0"
  }
 }
