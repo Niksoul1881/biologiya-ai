@@ -2553,5 +2553,20 @@
   "source": "https://commons.wikimedia.org/wiki/File:Interior_of_a_temporary_hospital_for_plague_victims,_Bombay_Wellcome_L0034493.jpg",
   "author": "автор не указан",
   "license": "CC BY 4.0"
+ },
+ "/images/lessons/205/karl-pirson.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Karl_Pearson,_1910_(cropped).jpg",
+  "author": "Unknown author",
+  "license": "Public domain"
+ },
+ "/images/lessons/205/gaussian-pca.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:GaussianScatterPCA.svg",
+  "author": "Nicoguaro",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/205/pca-evropa-ukraina.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Principal_Component_Analysis_of_European_populations_from_the_Genome_Ukraine_Project.png",
+  "author": "Taras K Oleksyk et al.",
+  "license": "CC BY 4.0"
  }
 }
