@@ -2524,11 +2524,6 @@
   "author": "Unknown authorUnknown author",
   "license": "Public domain"
  },
- "/images/lessons/199/viterbi.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:10-08ViterbiBIG.jpg",
-  "author": "Canyigitozen",
-  "license": "CC BY-SA 4.0"
- },
  "/images/lessons/199/hmm-eukaryotic.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:HMM_Eukaryotic.jpg",
   "author": "Byung-Jun Yoon",
@@ -2539,20 +2534,55 @@
   "author": "EMBL-EBI Train Online",
   "license": "CC BY-SA 4.0"
  },
- "/images/lessons/206/heatmap-transkriptomy.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:Transcriptomes_heatmap_example-ru.svg",
-  "author": "Kirill Borisenko",
+ "/images/lessons/199/viterbi.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:10-08ViterbiBIG.jpg",
+  "author": "Canyigitozen",
   "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/204/chuma-bombey.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Interior_of_a_temporary_hospital_for_plague_victims,_Bombay_Wellcome_L0034493.jpg",
+  "author": "автор не указан",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/204/kollektivnyy-immunitet.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Community_Immunity_(\"Herd\"_Immunity)_(5149339976).gif",
+  "author": "NIAID",
+  "license": "CC BY 2.0"
+ },
+ "/images/lessons/204/ronald-ross.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Ronald_Ross_at_his_desk_Wellcome_L0011942.jpg",
+  "author": "Elliott & Fry",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/205/gaussian-pca.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:GaussianScatterPCA.svg",
+  "author": "Nicoguaro",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/205/karl-pirson.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Karl_Pearson,_1910_(cropped).jpg",
+  "author": "Unknown author",
+  "license": "Public domain"
+ },
+ "/images/lessons/205/pca-evropa-ukraina.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Principal_Component_Analysis_of_European_populations_from_the_Genome_Ukraine_Project.png",
+  "author": "Taras K Oleksyk et al.",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/206/dbscan.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:DBSCAN-Illustration.svg",
+  "author": "Chire",
+  "license": "CC BY-SA 3.0"
  },
  "/images/lessons/206/heatmap-mikrochip.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Heatmap.png",
   "author": "Miguel Andrade at English Wikipedia",
   "license": "Public domain"
  },
- "/images/lessons/206/dbscan.webp": {
-  "source": "https://commons.wikimedia.org/wiki/File:DBSCAN-Illustration.svg",
-  "author": "Chire",
-  "license": "CC BY-SA 3.0"
+ "/images/lessons/206/heatmap-transkriptomy.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Transcriptomes_heatmap_example-ru.svg",
+  "author": "Kirill Borisenko",
+  "license": "CC BY-SA 4.0"
  },
  "/images/lessons/206/single-cell-epifiz.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Transcriptomic_characterization_of_cell_types_in_the_daytime_rat_pineal_gland.png",
