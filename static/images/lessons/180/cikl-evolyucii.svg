@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" width="960" height="620" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="960" height="620" fill="#fff"/>
+<text x="480" y="36" font-size="24" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Эволюция как цикл алгоритма</text>
+<text x="480" y="62" font-size="15" text-anchor="middle" fill="#555">одно поколение = одна итерация; сверху — биология, снизу — то же в коде</text>
+<rect x="330" y="85" width="300" height="86" rx="12" fill="#eaf2f8" stroke="#2e86c1" stroke-width="2"/>
+<text x="480" y="115" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">1. Популяция</text>
+<text x="480" y="137" font-size="15" text-anchor="middle" fill="#222">особи с разными генотипами</text>
+<text x="480" y="159" font-size="14" text-anchor="middle" fill="#1a5276" font-family="Consolas, 'Courier New', monospace">pop = [genome, ...]</text>
+<rect x="640" y="205" width="300" height="86" rx="12" fill="#fef9e7" stroke="#d4ac0d" stroke-width="2"/>
+<text x="790" y="235" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">2. Проверка средой</text>
+<text x="790" y="257" font-size="15" text-anchor="middle" fill="#222">кто сколько оставит потомков</text>
+<text x="790" y="279" font-size="14" text-anchor="middle" fill="#1a5276" font-family="Consolas, 'Courier New', monospace">fitness(genome)</text>
+<rect x="560" y="430" width="300" height="86" rx="12" fill="#fdedec" stroke="#a02020" stroke-width="2"/>
+<text x="710" y="460" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">3. Отбор</text>
+<text x="710" y="482" font-size="15" text-anchor="middle" fill="#222">лучшие размножаются чаще</text>
+<text x="710" y="504" font-size="14" text-anchor="middle" fill="#1a5276" font-family="Consolas, 'Courier New', monospace">select(pop)</text>
+<rect x="100" y="430" width="300" height="86" rx="12" fill="#e9f7ef" stroke="#1e8449" stroke-width="2"/>
+<text x="250" y="460" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">4. Наследование</text>
+<text x="250" y="482" font-size="15" text-anchor="middle" fill="#222">потомки получают гены родителей</text>
+<text x="250" y="504" font-size="14" text-anchor="middle" fill="#1a5276" font-family="Consolas, 'Courier New', monospace">crossover(a, b)</text>
+<rect x="20" y="205" width="300" height="86" rx="12" fill="#f4ecf7" stroke="#7d3c98" stroke-width="2"/>
+<text x="170" y="235" font-size="18" font-weight="bold" text-anchor="middle" fill="#222">5. Изменчивость</text>
+<text x="170" y="257" font-size="15" text-anchor="middle" fill="#222">случайные мутации</text>
+<text x="170" y="279" font-size="14" text-anchor="middle" fill="#1a5276" font-family="Consolas, 'Courier New', monospace">mutate(genome)</text>
+<path d="M630,140 Q720,150 770,203" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M790,291 Q790,380 760,428" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M560,473 L402,473" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M200,430 Q170,360 170,293" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M190,205 Q240,150 328,135" fill="none" stroke="#333" stroke-width="2.5" marker-end="url(#a)"/>
+<text x="176" y="166" font-size="14" fill="#333" text-anchor="end">новое</text>
+<text x="176" y="184" font-size="14" fill="#333" text-anchor="end">поколение</text>
+<rect x="320" y="290" width="320" height="110" rx="14" fill="#fbfcfc" stroke="#aab7b8" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="480" y="320" font-size="16" font-weight="bold" text-anchor="middle" fill="#1b4d1b">Нет цели и нет программиста</text>
+<text x="480" y="344" font-size="14" text-anchor="middle" fill="#333">«приспособленность» задаёт среда,</text>
+<text x="480" y="364" font-size="14" text-anchor="middle" fill="#333">и она меняется вместе с соседями;</text>
+<text x="480" y="384" font-size="14" text-anchor="middle" fill="#333">«лучше» = «больше потомков здесь и сейчас»</text>
+<text x="480" y="560" font-size="15" text-anchor="middle" fill="#333">Необходимые условия: изменчивость (5) + наследование (4) + различия в размножении (2–3)</text>
+<text x="480" y="584" font-size="15" text-anchor="middle" fill="#333">Есть все три — эволюция идёт неизбежно, в живом мире и в компьютере</text>
+</svg>

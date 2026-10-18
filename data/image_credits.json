@@ -2264,10 +2264,25 @@
   "author": "Martinowksy at Dutch Wikipedia\n\n(Original text: Maarten Sanne)",
   "license": "CC BY-SA 3.0"
  },
+ "/images/lessons/180/darvin-i-think.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Darwin_Tree_1837.png",
+  "author": "Charles Darwin",
+  "license": "Public domain"
+ },
+ "/images/lessons/180/glaz-pozvonochnyh-i-osminoga.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Evolution_eye.svg",
+  "author": "Caerbannog",
+  "license": "CC BY-SA 3.0"
+ },
  "/images/lessons/180/kolby-lenski.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Lenski's_12_long-term_lines_of_E._coli_on_25_June_2008.jpg",
   "author": "Brian Baer and Neerja Hajela",
   "license": "CC BY-SA 1.0"
+ },
+ "/images/lessons/180/napravlennaya-evolyuciya.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:DE_cycle.png",
+  "author": "Thomas Shafee",
+  "license": "CC BY 4.0"
  },
  "/images/lessons/180/vyurki-darvina.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:Darwin's_finches_by_Gould.jpg",
@@ -2338,6 +2353,31 @@
   "source": "https://commons.wikimedia.org/wiki/File:BioMek_FX_P200_96_liquid_handling_robot.jpg",
   "author": "National Institute of Allergy and Infectious Diseases (NIAID)",
   "license": "Public domain"
+ },
+ "/images/lessons/184/amplifikator.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_610_PCR_Machine_in_Genetics_Laboratory.jpg",
+  "author": "K. Aken, CSIRO",
+  "license": "CC BY 3.0"
+ },
+ "/images/lessons/184/nanopora.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Nanopore_DNA_sequencing.png",
+  "author": "Nova IC",
+  "license": "CC BY 4.0"
+ },
+ "/images/lessons/184/pcr-shema.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Polymerase_chain_reaction-ru.svg",
+  "author": "Bondarev.gal",
+  "license": "CC BY-SA 4.0"
+ },
+ "/images/lessons/184/sanger-metod.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Sanger-sequencing.svg",
+  "author": "Estevezj",
+  "license": "CC BY-SA 3.0"
+ },
+ "/images/lessons/184/stoimost-genoma.webp": {
+  "source": "https://commons.wikimedia.org/wiki/File:Cost_per_Genome.png",
+  "author": "National Human Genome Research Institute (NHGRI)",
+  "license": "CC0"
  },
  "/images/lessons/185/ebi-data-centre.webp": {
   "source": "https://commons.wikimedia.org/wiki/File:EMBL-EBI_Data_Centre.jpg",
