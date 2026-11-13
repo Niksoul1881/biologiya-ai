@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#16A34A"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="530" fill="#ffffff"/>
+  <text x="500" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Путь от названия гена до FASTA-файла</text>
+  <text x="500" y="66" text-anchor="middle" font-size="13.5" fill="#6b7280">Три запроса E-utilities — и на диске лежит последовательность</text>
+
+  <g fill="#ffffff" stroke="#d1d5db" stroke-width="2">
+    <rect x="20" y="100" width="215" height="150" rx="12"/>
+    <rect x="265" y="100" width="215" height="150" rx="12"/>
+    <rect x="510" y="100" width="215" height="150" rx="12"/>
+    <rect x="755" y="100" width="225" height="150" rx="12"/>
+  </g>
+
+  <!-- step 1 -->
+  <text x="36" y="126" font-size="12" font-weight="bold" fill="#6b7280">1 · ЗАПРОС</text>
+  <text x="36" y="160" font-size="20" font-weight="bold" fill="#111827" font-family="Consolas, monospace">BRCA1</text>
+  <text x="36" y="184" font-size="12.5" fill="#374151">Homo sapiens</text>
+  <text x="36" y="204" font-size="12.5" fill="#374151">RefSeq, mRNA</text>
+  <text x="36" y="232" font-size="11.5" fill="#9ca3af">что ищем словами</text>
+
+  <!-- step 2 -->
+  <text x="281" y="126" font-size="12" font-weight="bold" fill="#6b7280">2 · ESEARCH</text>
+  <text x="281" y="164" font-size="30" font-weight="bold" fill="#16A34A">368</text>
+  <text x="281" y="184" font-size="12.5" fill="#374151">совпадений</text>
+  <text x="281" y="210" font-size="11.5" fill="#6b7280" font-family="Consolas, monospace">1732746264</text>
+  <text x="281" y="232" font-size="11.5" fill="#9ca3af">получили ID</text>
+
+  <!-- step 3 -->
+  <text x="526" y="126" font-size="12" font-weight="bold" fill="#6b7280">3 · ESUMMARY</text>
+  <text x="526" y="158" font-size="17" font-weight="bold" fill="#111827" font-family="Consolas, monospace">NM_007294.4</text>
+  <text x="526" y="182" font-size="12.5" fill="#374151">BRCA1, вариант 1</text>
+  <text x="526" y="202" font-size="12.5" fill="#374151">7088 нуклеотидов</text>
+  <text x="526" y="232" font-size="11.5" fill="#9ca3af">ID стал accession</text>
+
+  <!-- step 4 -->
+  <text x="771" y="126" font-size="12" font-weight="bold" fill="#6b7280">4 · EFETCH</text>
+  <text x="771" y="162" font-size="24" font-weight="bold" fill="#16A34A" font-family="Consolas, monospace">FASTA</text>
+  <text x="771" y="186" font-size="12" fill="#374151" font-family="Consolas, monospace">rettype=fasta</text>
+  <text x="771" y="206" font-size="12.5" fill="#374151">retmode=text</text>
+  <text x="771" y="232" font-size="11.5" fill="#9ca3af">скачали запись</text>
+
+  <line x1="238" y1="175" x2="260" y2="175" stroke="#16A34A" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="483" y1="175" x2="505" y2="175" stroke="#16A34A" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="728" y1="175" x2="750" y2="175" stroke="#16A34A" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="249" y="193" text-anchor="middle" font-size="10" fill="#16A34A">term</text>
+  <text x="494" y="193" text-anchor="middle" font-size="10" fill="#16A34A">ID</text>
+  <text x="739" y="193" text-anchor="middle" font-size="10" fill="#16A34A">acc.</text>
+
+  <line x1="867" y1="252" x2="867" y2="314" stroke="#16A34A" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="877" y="288" font-size="11" fill="#6b7280">пауза 0,4 с</text>
+
+  <rect x="20" y="320" width="960" height="140" rx="12" fill="#111827"/>
+  <text x="42" y="347" font-size="13" fill="#86efac" font-family="Consolas, monospace">brca1.fasta — 7417 байт, 120 строк</text>
+  <text x="42" y="374" font-size="12.5" fill="#e5e7eb" font-family="Consolas, monospace">&gt;NM_007294.4 Homo sapiens BRCA1 DNA repair associated (BRCA1), transcript variant 1, mRNA</text>
+  <text x="42" y="396" font-size="12.5" fill="#e5e7eb" font-family="Consolas, monospace">GCTGAGACTTCCTGGACGGGGGACAGGCTGTGGGGTTTCTCAGATAACTGGGCCCCTGCGCTCAGGAGGC</text>
+  <text x="42" y="418" font-size="12.5" fill="#e5e7eb" font-family="Consolas, monospace">CTTCACCCTCTGCTCTGGGTAAAGTTCATTGGAACAGAAAGAAATGGATTTATCTGCTCTTCGCGTTGAA</text>
+
+  <text x="500" y="492" text-anchor="middle" font-size="13" fill="#6b7280">esearch отвечает ID, esummary переводит ID в accession, efetch отдаёт саму запись</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="500" fill="#ffffff"/>
+  <text x="500" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Параметры, из которых собирается любой запрос</text>
+  <text x="500" y="64" text-anchor="middle" font-size="13.5" fill="#6b7280">Один и тот же набор имён — у esearch, efetch и esummary</text>
+
+  <g font-size="13.5">
+    <rect x="20" y="90" width="960" height="34" rx="6" fill="#111827"/>
+    <text x="34" y="112" fill="#e5e7eb" font-weight="bold">Параметр</text>
+    <text x="240" y="112" fill="#e5e7eb" font-weight="bold">Что задаёт</text>
+    <text x="650" y="112" fill="#e5e7eb" font-weight="bold">Пример</text>
+
+    <rect x="20" y="124" width="960" height="34" fill="#f9fafb"/>
+    <text x="34" y="146" fill="#111827" font-family="Consolas, monospace">db</text>
+    <text x="240" y="146" fill="#6b7280" font-family="Arial, sans-serif">какая база отвечает</text>
+    <text x="650" y="146" fill="#16A34A" font-family="Consolas, monospace">nucleotide · protein · pubmed</text>
+
+    <rect x="20" y="158" width="960" height="34" fill="#ffffff"/>
+    <text x="34" y="180" fill="#111827" font-family="Consolas, monospace">term</text>
+    <text x="240" y="180" fill="#6b7280" font-family="Arial, sans-serif">поисковый запрос</text>
+    <text x="650" y="180" fill="#16A34A" font-family="Consolas, monospace">BRCA1[gene] AND human[orgn]</text>
+
+    <rect x="20" y="192" width="960" height="34" fill="#f9fafb"/>
+    <text x="34" y="214" fill="#111827" font-family="Consolas, monospace">id</text>
+    <text x="240" y="214" fill="#6b7280" font-family="Arial, sans-serif">ID или accession записи</text>
+    <text x="650" y="214" fill="#16A34A" font-family="Consolas, monospace">NM_007294.4</text>
+
+    <rect x="20" y="226" width="960" height="34" fill="#ffffff"/>
+    <text x="34" y="248" fill="#111827" font-family="Consolas, monospace">retmode</text>
+    <text x="240" y="248" fill="#6b7280" font-family="Arial, sans-serif">формат ответа</text>
+    <text x="650" y="248" fill="#16A34A" font-family="Consolas, monospace">json · xml · text</text>
+
+    <rect x="20" y="260" width="960" height="34" fill="#f9fafb"/>
+    <text x="34" y="282" fill="#111827" font-family="Consolas, monospace">rettype</text>
+    <text x="240" y="282" fill="#6b7280" font-family="Arial, sans-serif">что именно вернуть</text>
+    <text x="650" y="282" fill="#16A34A" font-family="Consolas, monospace">fasta · gb · abstract</text>
+
+    <rect x="20" y="294" width="960" height="34" fill="#ffffff"/>
+    <text x="34" y="316" fill="#111827" font-family="Consolas, monospace">retmax</text>
+    <text x="240" y="316" fill="#6b7280" font-family="Arial, sans-serif">сколько ID вернуть</text>
+    <text x="650" y="316" fill="#16A34A" font-family="Consolas, monospace">3</text>
+
+    <rect x="20" y="328" width="960" height="34" fill="#f9fafb"/>
+    <text x="34" y="350" fill="#111827" font-family="Consolas, monospace">email</text>
+    <text x="240" y="350" fill="#6b7280" font-family="Arial, sans-serif">контакт, обязателен для NCBI</text>
+    <text x="650" y="350" fill="#16A34A" font-family="Consolas, monospace">you@example.org</text>
+
+    <rect x="20" y="362" width="960" height="34" fill="#ffffff"/>
+    <text x="34" y="384" fill="#111827" font-family="Consolas, monospace">api_key</text>
+    <text x="240" y="384" fill="#6b7280" font-family="Arial, sans-serif">ключ: до 10 запросов в секунду</text>
+    <text x="650" y="384" fill="#16A34A" font-family="Consolas, monospace">36 символов из настроек NCBI</text>
+  </g>
+
+  <text x="500" y="432" text-anchor="middle" font-size="13" fill="#6b7280">email и tool — не формальность: по ним NCBI ищет виновника, если запросы мешают другим</text>
+  <rect x="300" y="448" width="400" height="36" rx="8" fill="#111827"/>
+  <text x="500" y="472" text-anchor="middle" font-size="13" fill="#86efac" font-family="Consolas, monospace">Entrez.email = "you@example.org"</text>
+</svg>

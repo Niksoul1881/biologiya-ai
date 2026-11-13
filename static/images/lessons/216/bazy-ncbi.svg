@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="650" fill="#ffffff"/>
+  <text x="500" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Какая база NCBI для какой задачи</text>
+  <text x="500" y="66" text-anchor="middle" font-size="13.5" fill="#6b7280">Шесть сервисов, которые закрывают почти все запросы биолога</text>
+
+  <g fill="none" stroke="#d1d5db" stroke-width="2">
+    <rect x="20" y="90" width="300" height="190" rx="12"/>
+    <rect x="340" y="90" width="300" height="190" rx="12"/>
+    <rect x="660" y="90" width="300" height="190" rx="12"/>
+    <rect x="20" y="300" width="300" height="190" rx="12"/>
+    <rect x="340" y="300" width="300" height="190" rx="12"/>
+    <rect x="660" y="300" width="300" height="190" rx="12"/>
+  </g>
+
+  <!-- GenBank -->
+  <text x="38" y="124" font-size="18" font-weight="bold" fill="#111827">GenBank</text>
+  <text x="38" y="152" font-size="12.5" fill="#6b7280">все последовательности,</text>
+  <text x="38" y="171" font-size="12.5" fill="#6b7280">которые прислали авторы</text>
+  <line x1="38" y1="188" x2="302" y2="188" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="38" y="214" font-size="12" font-weight="bold" fill="#16A34A">Задача:</text>
+  <text x="38" y="234" font-size="12.5" fill="#374151">найти запись,</text>
+  <text x="38" y="253" font-size="12.5" fill="#374151">на которую ссылается статья</text>
+
+  <!-- RefSeq -->
+  <text x="358" y="124" font-size="18" font-weight="bold" fill="#111827">RefSeq</text>
+  <text x="358" y="152" font-size="12.5" fill="#6b7280">эталонные, курируемые</text>
+  <text x="358" y="171" font-size="12.5" fill="#6b7280">последовательности</text>
+  <line x1="358" y1="188" x2="622" y2="188" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="358" y="214" font-size="12" font-weight="bold" fill="#16A34A">Задача:</text>
+  <text x="358" y="234" font-size="12.5" fill="#374151">взять канонический</text>
+  <text x="358" y="253" font-size="12.5" fill="#374151">транскрипт гена</text>
+
+  <!-- PubMed -->
+  <text x="678" y="124" font-size="18" font-weight="bold" fill="#111827">PubMed</text>
+  <text x="678" y="152" font-size="12.5" fill="#6b7280">статьи и рефераты</text>
+  <text x="678" y="171" font-size="12.5" fill="#6b7280">из биомедицины</text>
+  <line x1="678" y1="188" x2="942" y2="188" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="678" y="214" font-size="12" font-weight="bold" fill="#16A34A">Задача:</text>
+  <text x="678" y="234" font-size="12.5" fill="#374151">найти публикации</text>
+  <text x="678" y="253" font-size="12.5" fill="#374151">о гене или болезни</text>
+
+  <!-- SRA -->
+  <text x="38" y="334" font-size="18" font-weight="bold" fill="#111827">SRA</text>
+  <text x="38" y="362" font-size="12.5" fill="#6b7280">сырые прочтения</text>
+  <text x="38" y="381" font-size="12.5" fill="#6b7280">секвенаторов</text>
+  <line x1="38" y1="398" x2="302" y2="398" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="38" y="424" font-size="12" font-weight="bold" fill="#16A34A">Задача:</text>
+  <text x="38" y="444" font-size="12.5" fill="#374151">пересчитать экспрессию</text>
+  <text x="38" y="463" font-size="12.5" fill="#374151">или собрать геном</text>
+
+  <!-- Taxonomy -->
+  <text x="358" y="334" font-size="18" font-weight="bold" fill="#111827">Taxonomy</text>
+  <text x="358" y="362" font-size="12.5" fill="#6b7280">дерево организмов</text>
+  <text x="358" y="381" font-size="12.5" fill="#6b7280">и номера таксонов</text>
+  <line x1="358" y1="398" x2="622" y2="398" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="358" y="424" font-size="12" font-weight="bold" fill="#16A34A">Задача:</text>
+  <text x="358" y="444" font-size="12.5" fill="#374151">узнать taxid вида</text>
+  <text x="358" y="463" font-size="12.5" fill="#374151">или проверить родство</text>
+
+  <!-- BLAST -->
+  <text x="678" y="334" font-size="18" font-weight="bold" fill="#111827">BLAST</text>
+  <text x="678" y="362" font-size="12.5" fill="#6b7280">поиск похожих</text>
+  <text x="678" y="381" font-size="12.5" fill="#6b7280">последовательностей</text>
+  <line x1="678" y1="398" x2="942" y2="398" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="678" y="424" font-size="12" font-weight="bold" fill="#16A34A">Задача:</text>
+  <text x="678" y="444" font-size="12.5" fill="#374151">найти гомолог</text>
+  <text x="678" y="463" font-size="12.5" fill="#374151">или проверить сборку</text>
+
+  <rect x="20" y="520" width="960" height="100" rx="12" fill="#111827"/>
+  <text x="42" y="550" font-size="15" font-weight="bold" fill="#e5e7eb">Всё это — HTTP-запросы к eutils.ncbi.nlm.nih.gov</text>
+  <text x="42" y="579" font-size="15" fill="#86efac" font-family="Consolas, monospace">esearch.fcgi  ·  efetch.fcgi  ·  esummary.fcgi</text>
+  <text x="42" y="603" font-size="12.5" fill="#9ca3af">Один URL — один запрос, ответ — JSON, XML или текст</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="500" fill="#ffffff"/>
+  <text x="500" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Один ответ — два способа разобрать</text>
+  <text x="500" y="64" text-anchor="middle" font-size="13.5" fill="#6b7280">Выбирай retmode и бери то, что удобнее: словарь или дерево</text>
+
+  <!-- JSON panel -->
+  <rect x="20" y="90" width="465" height="300" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <rect x="20" y="90" width="465" height="42" rx="12" fill="#111827"/>
+  <rect x="20" y="118" width="465" height="14" fill="#111827"/>
+  <text x="40" y="117" font-size="15" font-weight="bold" fill="#e5e7eb">JSON — сразу словарь</text>
+  <text x="40" y="158" font-size="12" fill="#9ca3af" font-family="Consolas, monospace">retmode=json</text>
+
+  <g font-family="Consolas, monospace" font-size="12.5">
+    <text x="40" y="186" fill="#111827">data = r.json()</text>
+    <text x="40" y="210" fill="#111827">res = data[<tspan fill="#16A34A">"esearchresult"</tspan>]</text>
+    <text x="40" y="234" fill="#111827">res[<tspan fill="#16A34A">"count"</tspan>]        <tspan fill="#9ca3af"># "368"</tspan></text>
+    <text x="40" y="258" fill="#111827">res[<tspan fill="#16A34A">"idlist"</tspan>][0]    <tspan fill="#9ca3af"># "1732746264"</tspan></text>
+  </g>
+
+  <rect x="40" y="286" width="425" height="80" rx="8" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="54" y="310" font-size="12" font-weight="bold" fill="#166534">Что получаешь</text>
+  <text x="54" y="330" font-size="12" fill="#166534">обычный dict и list —</text>
+  <text x="54" y="349" font-size="12" fill="#166534">достаёшь поля по имени</text>
+
+  <!-- XML panel -->
+  <rect x="515" y="90" width="465" height="300" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <rect x="515" y="90" width="465" height="42" rx="12" fill="#111827"/>
+  <rect x="515" y="118" width="465" height="14" fill="#111827"/>
+  <text x="535" y="117" font-size="15" font-weight="bold" fill="#e5e7eb">XML — дерево элементов</text>
+  <text x="535" y="158" font-size="12" fill="#9ca3af" font-family="Consolas, monospace">без retmode (по умолчанию)</text>
+
+  <g font-family="Consolas, monospace" font-size="12.5">
+    <text x="535" y="186" fill="#111827">root = ET.fromstring(r.text)</text>
+    <text x="535" y="210" fill="#111827">root.findtext(<tspan fill="#16A34A">"Count"</tspan>)  <tspan fill="#9ca3af"># "368"</tspan></text>
+    <text x="535" y="234" fill="#111827">[e.text for e in</text>
+    <text x="535" y="258" fill="#111827"> root.findall(<tspan fill="#16A34A">"IdList/Id"</tspan>)]</text>
+  </g>
+
+  <rect x="535" y="286" width="425" height="80" rx="8" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="549" y="310" font-size="12" font-weight="bold" fill="#166534">Что получаешь</text>
+  <text x="549" y="330" font-size="12" fill="#166534">список ID и доступ ко всем</text>
+  <text x="549" y="349" font-size="12" fill="#166534">полям, включая атрибуты</text>
+
+  <text x="500" y="428" text-anchor="middle" font-size="13" fill="#6b7280">JSON короче и быстрее в коде, XML отдаёт полный ответ — например, <tspan font-family="Consolas, monospace" fill="#16A34A">QueryTranslation</tspan></text>
+  <text x="500" y="454" text-anchor="middle" font-size="12.5" fill="#9ca3af">Главное — не пытайся разобрать XML как JSON: ответ придёт в другом формате</text>
+</svg>
