@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="520" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Цикл по строке: что происходит на каждом шаге</text>
+  <text x="500" y="54" text-anchor="middle" font-size="13.5" fill="#6b7280">dna = "ATGCGCGT", счётчик — словарь counts, код: counts[letter] = counts.get(letter, 0) + 1</text>
+
+  <rect x="30" y="70" width="940" height="34" rx="6" fill="#111827"/>
+  <text x="52" y="92" font-size="13.5" fill="#e5e7eb" font-weight="bold">шаг</text>
+  <text x="150" y="92" font-size="13.5" fill="#e5e7eb" font-weight="bold">буква</text>
+  <text x="290" y="92" font-size="13.5" fill="#e5e7eb" font-weight="bold">что делает программа</text>
+  <text x="600" y="92" font-size="13.5" fill="#e5e7eb" font-weight="bold">словарь после шага</text>
+
+  <g font-size="13.5" font-family="Consolas, monospace">
+    <rect x="30" y="104" width="940" height="42" fill="#f9fafb"/>
+    <text x="52" y="131" fill="#6b7280">1</text><text x="150" y="131" fill="#111827" font-size="16">A</text>
+    <text x="290" y="131" fill="#6b7280" font-family="Arial, sans-serif">ключа нет → создаёт</text>
+    <text x="600" y="131" fill="#16A34A">{'A': 1}</text>
+
+    <rect x="30" y="146" width="940" height="42" fill="#ffffff"/>
+    <text x="52" y="173" fill="#6b7280">2</text><text x="150" y="173" fill="#111827" font-size="16">T</text>
+    <text x="290" y="173" fill="#6b7280" font-family="Arial, sans-serif">ключа нет → создаёт</text>
+    <text x="600" y="173" fill="#16A34A">{'A': 1, 'T': 1}</text>
+
+    <rect x="30" y="188" width="940" height="42" fill="#f9fafb"/>
+    <text x="52" y="215" fill="#6b7280">3</text><text x="150" y="215" fill="#111827" font-size="16">G</text>
+    <text x="290" y="215" fill="#6b7280" font-family="Arial, sans-serif">ключа нет → создаёт</text>
+    <text x="600" y="215" fill="#16A34A">{'A': 1, 'T': 1, 'G': 1}</text>
+
+    <rect x="30" y="230" width="940" height="42" fill="#ffffff"/>
+    <text x="52" y="257" fill="#6b7280">4</text><text x="150" y="257" fill="#111827" font-size="16">C</text>
+    <text x="290" y="257" fill="#6b7280" font-family="Arial, sans-serif">ключа нет → создаёт</text>
+    <text x="600" y="257" fill="#16A34A">{'A': 1, 'T': 1, 'G': 1, 'C': 1}</text>
+
+    <rect x="30" y="272" width="940" height="42" fill="#ecfdf5"/>
+    <text x="52" y="299" fill="#6b7280">5</text><text x="150" y="299" fill="#166534" font-size="16" font-weight="bold">G</text>
+    <text x="290" y="299" fill="#166534" font-family="Arial, sans-serif">ключ есть → прибавляет 1</text>
+    <text x="600" y="299" fill="#166534">{'A': 1, 'T': 1, 'G': 2, 'C': 1}</text>
+
+    <rect x="30" y="314" width="940" height="42" fill="#ecfdf5"/>
+    <text x="52" y="341" fill="#6b7280">6</text><text x="150" y="341" fill="#166534" font-size="16" font-weight="bold">C</text>
+    <text x="290" y="341" fill="#166534" font-family="Arial, sans-serif">ключ есть → прибавляет 1</text>
+    <text x="600" y="341" fill="#166534">{'A': 1, 'T': 1, 'G': 2, 'C': 2}</text>
+
+    <rect x="30" y="356" width="940" height="42" fill="#ecfdf5"/>
+    <text x="52" y="383" fill="#6b7280">7</text><text x="150" y="383" fill="#166534" font-size="16" font-weight="bold">G</text>
+    <text x="290" y="383" fill="#166534" font-family="Arial, sans-serif">ключ есть → прибавляет 1</text>
+    <text x="600" y="383" fill="#166534">{'A': 1, 'T': 1, 'G': 3, 'C': 2}</text>
+
+    <rect x="30" y="398" width="940" height="42" fill="#ecfdf5"/>
+    <text x="52" y="425" fill="#6b7280">8</text><text x="150" y="425" fill="#166534" font-size="16" font-weight="bold">T</text>
+    <text x="290" y="425" fill="#166534" font-family="Arial, sans-serif">ключ есть → прибавляет 1</text>
+    <text x="600" y="425" fill="#166534">{'A': 1, 'T': 2, 'G': 3, 'C': 2}</text>
+  </g>
+
+  <line x1="30" y1="452" x2="970" y2="452" stroke="#e5e7eb" stroke-width="2"/>
+  <g font-size="13">
+    <text x="30" y="478" fill="#6b7280">Строка прочитана ровно один раз: 8 букв — 8 шагов цикла. Так же считают и 4,6 миллиона букв.</text>
+    <text x="30" y="500" fill="#9ca3af">Первые четыре шага только заводят ключи, дальше счётчики растут. Итог: G — 3, T — 2, C — 2, A — 1.</text>
+  </g>
+</svg>

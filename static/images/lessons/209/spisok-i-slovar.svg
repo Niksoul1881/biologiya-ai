@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="410" viewBox="0 0 1000 410" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="410" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Список и словарь: два способа хранить счёт</text>
+
+  <!-- left: list -->
+  <rect x="20" y="52" width="460" height="212" rx="12" fill="#faf5ff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="40" y="78" font-size="16" font-weight="bold" fill="#7e22ce">Список: номер → значение</text>
+
+  <!-- indices -->
+  <g font-size="12" fill="#9ca3af" text-anchor="middle" font-family="Consolas, monospace">
+    <text x="76" y="100">0</text><text x="156" y="100">1</text>
+    <text x="236" y="100">2</text><text x="316" y="100">3</text>
+  </g>
+  <!-- letters row -->
+  <g stroke="#d1d5db" stroke-width="2">
+    <rect x="40" y="106" width="72" height="44" rx="8" fill="#ffffff"/>
+    <rect x="120" y="106" width="72" height="44" rx="8" fill="#ffffff"/>
+    <rect x="200" y="106" width="72" height="44" rx="8" fill="#ffffff"/>
+    <rect x="280" y="106" width="72" height="44" rx="8" fill="#ffffff"/>
+  </g>
+  <g font-size="20" font-weight="bold" fill="#581c87" text-anchor="middle" font-family="Consolas, monospace">
+    <text x="76" y="136">A</text><text x="156" y="136">T</text>
+    <text x="236" y="136">G</text><text x="316" y="136">C</text>
+  </g>
+  <text x="368" y="136" font-size="13" fill="#9ca3af">← буквы</text>
+
+  <!-- counts row -->
+  <g stroke="#d1d5db" stroke-width="2">
+    <rect x="40" y="160" width="72" height="44" rx="8" fill="#f0fdf4"/>
+    <rect x="120" y="160" width="72" height="44" rx="8" fill="#f0fdf4"/>
+    <rect x="200" y="160" width="72" height="44" rx="8" fill="#f0fdf4"/>
+    <rect x="280" y="160" width="72" height="44" rx="8" fill="#f0fdf4"/>
+  </g>
+  <g font-size="20" font-weight="bold" fill="#166534" text-anchor="middle" font-family="Consolas, monospace">
+    <text x="76" y="190">1</text><text x="156" y="190">2</text>
+    <text x="236" y="190">3</text><text x="316" y="190">2</text>
+  </g>
+  <text x="368" y="190" font-size="13" fill="#9ca3af">← счётчики</text>
+
+  <g font-size="12.5" fill="#6b7280">
+    <text x="40" y="226">Номер лунки нужно знать заранее.</text>
+    <text x="40" y="246">Незнакомая буква → <tspan fill="#dc2626" font-family="Consolas, monospace">ValueError</tspan></text>
+  </g>
+
+  <!-- right: dict -->
+  <rect x="520" y="52" width="460" height="212" rx="12" fill="#f0fdf4" stroke="#d1d5db" stroke-width="2"/>
+  <text x="540" y="78" font-size="16" font-weight="bold" fill="#16A34A">Словарь: ключ → значение</text>
+
+  <g font-size="14" font-family="Consolas, monospace">
+    <g stroke="#d1d5db" stroke-width="2">
+      <rect x="540" y="92" width="60" height="28" rx="6" fill="#ffffff"/>
+      <rect x="540" y="126" width="60" height="28" rx="6" fill="#ffffff"/>
+      <rect x="540" y="160" width="60" height="28" rx="6" fill="#ffffff"/>
+      <rect x="540" y="194" width="60" height="28" rx="6" fill="#ffffff"/>
+    </g>
+    <text x="570" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">A</text>
+    <text x="570" y="146" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">T</text>
+    <text x="570" y="180" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">G</text>
+    <text x="570" y="214" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">C</text>
+    <text x="614" y="112" fill="#9ca3af">→</text>
+    <text x="614" y="146" fill="#9ca3af">→</text>
+    <text x="614" y="180" fill="#9ca3af">→</text>
+    <text x="614" y="214" fill="#9ca3af">→</text>
+    <rect x="648" y="92" width="60" height="28" rx="6" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+    <rect x="648" y="126" width="60" height="28" rx="6" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+    <rect x="648" y="160" width="60" height="28" rx="6" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+    <rect x="648" y="194" width="60" height="28" rx="6" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+    <text x="678" y="112" text-anchor="middle" font-size="16" fill="#166534">1</text>
+    <text x="678" y="146" text-anchor="middle" font-size="16" fill="#166534">2</text>
+    <text x="678" y="180" text-anchor="middle" font-size="16" fill="#166534">3</text>
+    <text x="678" y="214" text-anchor="middle" font-size="16" fill="#166534">2</text>
+  </g>
+
+  <text x="790" y="132" font-size="12" fill="#9ca3af">ключ — буква,</text>
+  <text x="790" y="150" font-size="12" fill="#9ca3af">значение — счётчик</text>
+
+  <g font-size="12.5" fill="#6b7280">
+    <text x="540" y="240">Алфавит знать не нужно: ключ появляется сам.</text>
+    <text x="540" y="257">Незнакомая буква → просто новый ключ.</text>
+  </g>
+
+  <line x1="20" y1="282" x2="980" y2="282" stroke="#e5e7eb" stroke-width="2"/>
+
+  <rect x="230" y="300" width="540" height="54" rx="10" fill="#111827"/>
+  <text x="246" y="323" font-size="14" fill="#e5e7eb" font-family="Consolas, monospace">counts["G"] = counts.get("G", 0) + 1</text>
+  <text x="246" y="344" font-size="12.5" fill="#86efac" font-family="Consolas, monospace"># один и тот же код: и для dict, и для Counter</text>
+
+  <text x="500" y="386" text-anchor="middle" font-size="13" fill="#9ca3af">В списке значение ищут по номеру, в словаре — по имени</text>
+</svg>

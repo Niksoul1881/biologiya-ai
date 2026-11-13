@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="400" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Четыре способа посчитать A, T, G, C в 1 000 000 нуклеотидов</text>
+  <text x="500" y="54" text-anchor="middle" font-size="13" fill="#6b7280">время в миллисекундах, меньше — лучше; Python 3.13, один ноутбук</text>
+
+  <!-- grid -->
+  <g stroke="#e5e7eb" stroke-width="1">
+    <line x1="430" y1="76" x2="430" y2="316"/>
+    <line x1="590" y1="76" x2="590" y2="316"/>
+    <line x1="750" y1="76" x2="750" y2="316"/>
+    <line x1="910" y1="76" x2="910" y2="316"/>
+  </g>
+  <g font-size="11" fill="#9ca3af" text-anchor="middle">
+    <text x="430" y="332">0</text>
+    <text x="590" y="332">50</text>
+    <text x="750" y="332">100</text>
+    <text x="910" y="332">150 мс</text>
+  </g>
+
+  <!-- 1 -->
+  <text x="30" y="102" font-size="14.5" font-weight="bold" fill="#111827">str.count("A") и так далее</text>
+  <text x="30" y="122" font-size="12.5" fill="#9ca3af">4 прохода, но код внутри Python на C</text>
+  <rect x="430" y="86" width="38" height="30" rx="5" fill="#86efac"/>
+  <text x="480" y="107" font-size="14" font-weight="bold" fill="#16A34A">12 мс</text>
+
+  <!-- 2 -->
+  <text x="30" y="162" font-size="14.5" font-weight="bold" fill="#111827">Counter(seq)</text>
+  <text x="30" y="182" font-size="12.5" fill="#9ca3af">1 проход, счёт ведёт C-хелпер</text>
+  <rect x="430" y="146" width="256" height="30" rx="5" fill="#16A34A"/>
+  <text x="698" y="167" font-size="14" font-weight="bold" fill="#166534">≈ 80 мс</text>
+
+  <!-- 3 -->
+  <text x="30" y="222" font-size="14.5" font-weight="bold" fill="#111827">для каждой буквы: counts.get(letter, 0) + 1</text>
+  <text x="30" y="242" font-size="12.5" fill="#9ca3af">1 проход, весь цикл на Python</text>
+  <rect x="430" y="206" width="384" height="30" rx="5" fill="#0d9488"/>
+  <text x="826" y="227" font-size="14" font-weight="bold" fill="#115e59">≈ 120 мс</text>
+
+  <!-- 4 -->
+  <text x="30" y="282" font-size="14.5" font-weight="bold" fill="#111827">список counts + letters.index(буква)</text>
+  <text x="30" y="302" font-size="12.5" fill="#dc2626">лишний поиск по списку; на букве N — ошибка</text>
+  <rect x="430" y="266" width="464" height="30" rx="5" fill="#f59e0b"/>
+  <text x="906" y="287" font-size="14" font-weight="bold" fill="#b45309">≈ 145 мс</text>
+
+  <line x1="30" y1="348" x2="970" y2="348" stroke="#e5e7eb" stroke-width="2"/>
+
+  <rect x="30" y="362" width="940" height="26" rx="6" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="46" y="380" font-size="12.5" fill="#4b5563">На трёхбуквенных словах (64 варианта) разрыв растёт: словарь ≈ 60 мс, список с <tspan font-family="Consolas, monospace">.index()</tspan> ≈ 240 мс.</text>
+</svg>

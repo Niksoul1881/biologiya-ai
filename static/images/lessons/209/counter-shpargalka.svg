@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="404" viewBox="0 0 1000 404" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="404" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Что умеет Counter: шпаргалка</text>
+  <text x="500" y="52" text-anchor="middle" font-size="13" fill="#6b7280">dna = "ATGCGCGT", a = Counter(dna), b = Counter("ATGC")</text>
+
+  <rect x="20" y="66" width="960" height="34" rx="6" fill="#111827"/>
+  <text x="34" y="88" font-size="13.5" fill="#e5e7eb" font-weight="bold">Запись</text>
+  <text x="330" y="88" font-size="13.5" fill="#e5e7eb" font-weight="bold">Что даёт</text>
+  <text x="620" y="88" font-size="13.5" fill="#e5e7eb" font-weight="bold">Результат</text>
+
+  <g font-size="13.5">
+    <rect x="20" y="100" width="960" height="34" fill="#f9fafb"/>
+    <text x="34" y="122" fill="#111827" font-family="Consolas, monospace">a = Counter(dna)</text>
+    <text x="330" y="122" fill="#6b7280">посчитать все буквы за один проход</text>
+    <text x="620" y="122" fill="#16A34A" font-family="Consolas, monospace" font-size="12.5">Counter({'G': 3, 'T': 2, 'C': 2, 'A': 1})</text>
+
+    <rect x="20" y="134" width="960" height="34" fill="#ffffff"/>
+    <text x="34" y="156" fill="#111827" font-family="Consolas, monospace">a["G"]</text>
+    <text x="330" y="156" fill="#6b7280">сколько гуанинов</text>
+    <text x="620" y="156" fill="#16A34A" font-family="Consolas, monospace">3</text>
+
+    <rect x="20" y="168" width="960" height="34" fill="#f9fafb"/>
+    <text x="34" y="190" fill="#111827" font-family="Consolas, monospace">a["N"]</text>
+    <text x="330" y="190" fill="#6b7280">буквы в строке нет</text>
+    <text x="620" y="190" fill="#16A34A" font-family="Consolas, monospace">0 (не KeyError)</text>
+
+    <rect x="20" y="202" width="960" height="34" fill="#ffffff"/>
+    <text x="34" y="224" fill="#111827" font-family="Consolas, monospace">a.most_common(2)</text>
+    <text x="330" y="224" fill="#6b7280">две самые частые буквы</text>
+    <text x="620" y="224" fill="#16A34A" font-family="Consolas, monospace">[('G', 3), ('T', 2)]</text>
+
+    <rect x="20" y="236" width="960" height="34" fill="#f9fafb"/>
+    <text x="34" y="258" fill="#111827" font-family="Consolas, monospace">sum(a.values())</text>
+    <text x="330" y="258" fill="#6b7280">длина последовательности</text>
+    <text x="620" y="258" fill="#16A34A" font-family="Consolas, monospace">8</text>
+
+    <rect x="20" y="270" width="960" height="34" fill="#ffffff"/>
+    <text x="34" y="292" fill="#111827" font-family="Consolas, monospace">a.total()</text>
+    <text x="330" y="292" fill="#6b7280">то же самое, Python 3.10 и новее</text>
+    <text x="620" y="292" fill="#16A34A" font-family="Consolas, monospace">8</text>
+
+    <rect x="20" y="304" width="960" height="34" fill="#f9fafb"/>
+    <text x="34" y="326" fill="#111827" font-family="Consolas, monospace">a - b</text>
+    <text x="330" y="326" fill="#6b7280">разница двух счётчиков</text>
+    <text x="620" y="326" fill="#16A34A" font-family="Consolas, monospace">Counter({'G': 2, 'T': 1, 'C': 1})</text>
+  </g>
+
+  <line x1="20" y1="352" x2="980" y2="352" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="500" y="378" text-anchor="middle" font-size="13" fill="#9ca3af">Counter — это словарь: все приёмы работы с dict работают и здесь</text>
+</svg>
