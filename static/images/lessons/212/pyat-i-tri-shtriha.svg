@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arr1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#16A34A"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="460" fill="#ffffff"/>
+  <text x="500" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">5′- и 3′-концы: почему цепи антипараллельны</text>
+
+  <!-- upper strand -->
+  <rect x="30" y="56" width="940" height="150" rx="12" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="52" y="84" font-size="14" font-weight="bold" fill="#374151">Верхняя цепь</text>
+
+  <text x="150" y="133" font-size="17" font-weight="bold" fill="#16A34A">5′</text>
+  <text x="790" y="133" font-size="17" font-weight="bold" fill="#9ca3af">3′</text>
+
+  <g stroke="#d1d5db" stroke-width="2" fill="#ffffff">
+    <rect x="210" y="100" width="68" height="44" rx="8"/>
+    <rect x="306" y="100" width="68" height="44" rx="8"/>
+    <rect x="402" y="100" width="68" height="44" rx="8"/>
+    <rect x="498" y="100" width="68" height="44" rx="8"/>
+    <rect x="594" y="100" width="68" height="44" rx="8"/>
+    <rect x="690" y="100" width="68" height="44" rx="8"/>
+  </g>
+  <g font-size="21" font-weight="bold" text-anchor="middle" font-family="Consolas, monospace">
+    <text x="244" y="129" fill="#0f766e">A</text>
+    <text x="340" y="129" fill="#b45309">T</text>
+    <text x="436" y="129" fill="#6d28d9">G</text>
+    <text x="532" y="129" fill="#1d4ed8">C</text>
+    <text x="628" y="129" fill="#6d28d9">G</text>
+    <text x="724" y="129" fill="#b45309">T</text>
+  </g>
+  <g fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5">
+    <circle cx="178" cy="122" r="9"/>
+    <circle cx="292" cy="122" r="9"/>
+    <circle cx="388" cy="122" r="9"/>
+    <circle cx="484" cy="122" r="9"/>
+    <circle cx="580" cy="122" r="9"/>
+    <circle cx="676" cy="122" r="9"/>
+  </g>
+  <circle cx="772" cy="122" r="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1.5"/>
+  <g font-size="11" text-anchor="middle" fill="#1e40af" font-family="Consolas, monospace">
+    <text x="178" y="126">P</text><text x="292" y="126">P</text><text x="388" y="126">P</text>
+    <text x="484" y="126">P</text><text x="580" y="126">P</text><text x="676" y="126">P</text>
+  </g>
+  <text x="772" y="126" font-size="9" text-anchor="middle" fill="#6b7280" font-family="Consolas, monospace">OH</text>
+
+  <line x1="160" y1="168" x2="778" y2="168" stroke="#16A34A" stroke-width="2" marker-end="url(#arr1)"/>
+  <text x="470" y="192" text-anchor="middle" font-size="12.5" fill="#6b7280">полимераза наращивает цепь с 5′- к 3′-концу: новый нуклеотид цепляется к 3′-OH</text>
+
+  <!-- lower strand -->
+  <rect x="30" y="216" width="940" height="150" rx="12" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="52" y="244" font-size="14" font-weight="bold" fill="#374151">Нижняя цепь</text>
+
+  <text x="150" y="293" font-size="17" font-weight="bold" fill="#9ca3af">3′</text>
+  <text x="790" y="293" font-size="17" font-weight="bold" fill="#16A34A">5′</text>
+
+  <g stroke="#d1d5db" stroke-width="2" fill="#ffffff">
+    <rect x="210" y="260" width="68" height="44" rx="8"/>
+    <rect x="306" y="260" width="68" height="44" rx="8"/>
+    <rect x="402" y="260" width="68" height="44" rx="8"/>
+    <rect x="498" y="260" width="68" height="44" rx="8"/>
+    <rect x="594" y="260" width="68" height="44" rx="8"/>
+    <rect x="690" y="260" width="68" height="44" rx="8"/>
+  </g>
+  <g font-size="21" font-weight="bold" text-anchor="middle" font-family="Consolas, monospace">
+    <text x="244" y="289" fill="#b45309">T</text>
+    <text x="340" y="289" fill="#0f766e">A</text>
+    <text x="436" y="289" fill="#1d4ed8">C</text>
+    <text x="532" y="289" fill="#6d28d9">G</text>
+    <text x="628" y="289" fill="#1d4ed8">C</text>
+    <text x="724" y="289" fill="#0f766e">A</text>
+  </g>
+  <g fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5">
+    <circle cx="292" cy="282" r="9"/>
+    <circle cx="388" cy="282" r="9"/>
+    <circle cx="484" cy="282" r="9"/>
+    <circle cx="580" cy="282" r="9"/>
+    <circle cx="676" cy="282" r="9"/>
+    <circle cx="772" cy="282" r="9"/>
+  </g>
+  <circle cx="178" cy="282" r="10" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1.5"/>
+  <g font-size="11" text-anchor="middle" fill="#1e40af" font-family="Consolas, monospace">
+    <text x="292" y="286">P</text><text x="388" y="286">P</text>
+    <text x="484" y="286">P</text><text x="580" y="286">P</text><text x="676" y="286">P</text><text x="772" y="286">P</text>
+  </g>
+  <text x="178" y="286" font-size="9" text-anchor="middle" fill="#6b7280" font-family="Consolas, monospace">OH</text>
+
+  <line x1="778" y1="328" x2="160" y2="328" stroke="#16A34A" stroke-width="2" marker-end="url(#arr1)"/>
+  <text x="470" y="352" text-anchor="middle" font-size="12.5" fill="#6b7280">и здесь синтез идёт 5′ → 3′, только в рисунке это справа налево</text>
+
+  <!-- code note -->
+  <rect x="30" y="384" width="940" height="52" rx="12" fill="#111827"/>
+  <text x="50" y="415" font-size="13.5" font-family="Consolas, monospace" fill="#e5e7eb">dna[0] — это 5′-конец, dna[-1] — 3′-конец: порядок букв в строке и есть направление цепи</text>
+</svg>

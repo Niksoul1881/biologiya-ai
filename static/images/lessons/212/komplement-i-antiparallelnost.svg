@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="520" fill="#ffffff"/>
+  <text x="500" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Комплемент и обратная комплементарная цепь</text>
+
+  <!-- row 1 -->
+  <text x="40" y="118" font-size="14" font-weight="bold" fill="#374151">Исходная цепь</text>
+  <text x="186" y="122" font-size="17" font-weight="bold" fill="#16A34A">5′</text>
+  <g font-size="24" font-weight="bold" text-anchor="middle" font-family="Consolas, monospace">
+    <text x="230" y="122" fill="#0f766e">A</text>
+    <text x="310" y="122" fill="#b45309">T</text>
+    <text x="390" y="122" fill="#6d28d9">G</text>
+    <text x="470" y="122" fill="#1d4ed8">C</text>
+    <text x="550" y="122" fill="#6d28d9">G</text>
+    <text x="630" y="122" fill="#1d4ed8">C</text>
+    <text x="710" y="122" fill="#6d28d9">G</text>
+    <text x="790" y="122" fill="#b45309">T</text>
+  </g>
+  <text x="840" y="122" font-size="17" font-weight="bold" fill="#9ca3af">3′</text>
+
+  <!-- pairing -->
+  <g stroke="#16A34A" stroke-width="2" stroke-dasharray="4 4">
+    <line x1="230" y1="132" x2="230" y2="182"/>
+    <line x1="310" y1="132" x2="310" y2="182"/>
+    <line x1="390" y1="132" x2="390" y2="182"/>
+    <line x1="470" y1="132" x2="470" y2="182"/>
+    <line x1="550" y1="132" x2="550" y2="182"/>
+    <line x1="630" y1="132" x2="630" y2="182"/>
+    <line x1="710" y1="132" x2="710" y2="182"/>
+    <line x1="790" y1="132" x2="790" y2="182"/>
+  </g>
+
+  <!-- row 2 -->
+  <text x="40" y="222" font-size="14" font-weight="bold" fill="#374151">Комплементарная</text>
+  <text x="186" y="222" font-size="17" font-weight="bold" fill="#9ca3af">3′</text>
+  <g font-size="24" font-weight="bold" text-anchor="middle" font-family="Consolas, monospace">
+    <text x="230" y="222" fill="#b45309">T</text>
+    <text x="310" y="222" fill="#0f766e">A</text>
+    <text x="390" y="222" fill="#1d4ed8">C</text>
+    <text x="470" y="222" fill="#6d28d9">G</text>
+    <text x="550" y="222" fill="#1d4ed8">C</text>
+    <text x="630" y="222" fill="#6d28d9">G</text>
+    <text x="710" y="222" fill="#1d4ed8">C</text>
+    <text x="790" y="222" fill="#0f766e">A</text>
+  </g>
+  <text x="840" y="222" font-size="17" font-weight="bold" fill="#16A34A">5′</text>
+
+  <text x="230" y="256" font-size="12.5" fill="#6b7280">цепи антипараллельны: 5′-конец одной стоит напротив 3′-конца другой</text>
+
+  <!-- how it is stored -->
+  <text x="40" y="296" font-size="14" font-weight="bold" fill="#374151">Как это записывают в файлах</text>
+
+  <rect x="30" y="308" width="940" height="86" rx="12" fill="#111827"/>
+  <text x="50" y="334" font-size="13" font-family="Consolas, monospace" fill="#9ca3af">молекула в пробирке:  5′-ATGCGCGT-3′    3′-TACGCGCA-5′</text>
+  <text x="50" y="358" font-size="13" font-family="Consolas, monospace" fill="#9ca3af">нижняя цепь, прочитанная в стандартном направлении 5′ → 3′:</text>
+  <text x="50" y="382" font-size="14" font-family="Consolas, monospace" fill="#4ade80">5′-ACGCGCAT-3′  ←  это reverse complement</text>
+
+  <!-- code -->
+  <rect x="30" y="408" width="940" height="56" rx="12" fill="#f0fdf4" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="50" y="432" font-size="12.5" font-family="Consolas, monospace" fill="#166534">tab = str.maketrans("ACGT", "TGCA")</text>
+  <text x="50" y="452" font-size="12.5" font-family="Consolas, monospace" fill="#166534">print("ATGCGCGT".translate(tab)[::-1])   →   ACGCGCAT</text>
+
+  <!-- legend -->
+  <g font-size="12.5" fill="#6b7280">
+    <rect x="40" y="484" width="16" height="16" rx="4" fill="#0f766e"/>
+    <text x="64" y="497">A ↔ T, две водородные связи</text>
+    <rect x="248" y="484" width="16" height="16" rx="4" fill="#6d28d9"/>
+    <text x="272" y="497">G ↔ C, три водородные связи</text>
+    <text x="480" y="497">комплемент меняет буквы, но не порядок</text>
+  </g>
+</svg>
