@@ -1,0 +1,57 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="520" fill="#ffffff"/>
+  <text x="500" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Как устроена запись FASTA</text>
+
+  <!-- dark code panel -->
+  <rect x="30" y="62" width="600" height="280" rx="12" fill="#111827"/>
+  <g font-family="Consolas, monospace" font-size="16">
+    <text x="50" y="104"><tspan fill="#16A34A">&gt;</tspan><tspan fill="#60a5fa">seq1</tspan><tspan fill="#6b7280">  </tspan><tspan fill="#9ca3af">rbcL, фрагмент 1</tspan></text>
+    <text x="50" y="138" fill="#e5e7eb">ATGCGCGTACGT</text>
+    <text x="50" y="198"><tspan fill="#16A34A">&gt;</tspan><tspan fill="#60a5fa">seq2</tspan><tspan fill="#6b7280">  </tspan><tspan fill="#9ca3af">matK, фрагмент 2</tspan></text>
+    <text x="50" y="232" fill="#e5e7eb">GGCCAATTGGCC</text>
+    <text x="50" y="266" fill="#e5e7eb">GGCCAATT</text>
+  </g>
+  <path d="M300 218 v46 h14" fill="none" stroke="#16A34A" stroke-width="2"/>
+  <text x="324" y="236" font-size="12.5" fill="#9ca3af">это всё — одна</text>
+  <text x="324" y="254" font-size="12.5" fill="#9ca3af">последовательность</text>
+  <text x="50" y="312" font-size="12.5" fill="#6b7280" font-family="Arial, sans-serif">фрагмент файла sample.fasta: две записи</text>
+
+  <!-- legend -->
+  <g font-size="14">
+    <rect x="660" y="88" width="16" height="16" rx="3" fill="#16A34A"/>
+    <text x="688" y="102" font-weight="bold" fill="#111827">&gt; — маркер заголовка</text>
+    <text x="688" y="122" font-size="12.5" fill="#6b7280">с него начинается каждая запись</text>
+
+    <rect x="660" y="150" width="16" height="16" rx="3" fill="#60a5fa"/>
+    <text x="688" y="164" font-weight="bold" fill="#111827">seq1 — идентификатор</text>
+    <text x="688" y="184" font-size="12.5" fill="#6b7280">всё до первого пробела</text>
+
+    <rect x="660" y="212" width="16" height="16" rx="3" fill="#9ca3af"/>
+    <text x="688" y="226" font-weight="bold" fill="#111827">описание — необязательно</text>
+    <text x="688" y="246" font-size="12.5" fill="#6b7280">всё, что после первого пробела</text>
+
+    <rect x="660" y="274" width="16" height="16" rx="3" fill="#e5e7eb" stroke="#d1d5db"/>
+    <text x="688" y="288" font-weight="bold" fill="#111827">последовательность</text>
+    <text x="688" y="308" font-size="12.5" fill="#6b7280">строки по 60–80 символов</text>
+  </g>
+
+  <!-- rule cards -->
+  <g fill="none" stroke="#d1d5db" stroke-width="2">
+    <rect x="30" y="378" width="300" height="102" rx="12"/>
+    <rect x="350" y="378" width="300" height="102" rx="12"/>
+    <rect x="670" y="378" width="300" height="102" rx="12"/>
+  </g>
+  <g font-size="14">
+    <text x="50" y="408" font-weight="bold" fill="#111827">Заголовок — одна строка</text>
+    <text x="50" y="432" font-size="12.5" fill="#6b7280">начинается с «&gt;» сразу, без пробела</text>
+    <text x="50" y="452" font-size="12.5" fill="#6b7280">после него — id, потом описание</text>
+
+    <text x="370" y="408" font-weight="bold" fill="#111827">Строки можно переносить</text>
+    <text x="370" y="432" font-size="12.5" fill="#6b7280">одна последовательность бывает</text>
+    <text x="370" y="452" font-size="12.5" fill="#6b7280">разбита на много строк</text>
+
+    <text x="690" y="408" font-weight="bold" fill="#111827">Записей — сколько угодно</text>
+    <text x="690" y="432" font-size="12.5" fill="#6b7280">новая запись начинается</text>
+    <text x="690" y="452" font-size="12.5" fill="#6b7280">с нового «&gt;» или с конца файла</text>
+  </g>
+</svg>

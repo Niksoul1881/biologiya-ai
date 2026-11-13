@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="460" fill="#ffffff"/>
+  <text x="500" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Статистика по всем записям сразу</text>
+
+  <g font-size="14">
+    <rect x="30" y="60" width="940" height="36" rx="6" fill="#111827"/>
+    <text x="48" y="84" fill="#e5e7eb" font-weight="bold">Запись</text>
+    <text x="250" y="84" fill="#e5e7eb" font-weight="bold">Длина</text>
+    <text x="420" y="84" fill="#e5e7eb" font-weight="bold">GC-состав</text>
+    <text x="650" y="84" fill="#e5e7eb" font-weight="bold">Что важно</text>
+
+    <rect x="30" y="96" width="940" height="40" fill="#f9fafb"/>
+    <text x="48" y="121" fill="#111827" font-family="Consolas, monospace">seq1</text>
+    <text x="250" y="121" fill="#111827">12 п.н.</text>
+    <text x="420" y="121" fill="#111827">58.3%</text>
+    <text x="650" y="121" fill="#6b7280">rbcL, фрагмент 1</text>
+
+    <rect x="30" y="136" width="940" height="40" fill="#f0fdf4"/>
+    <text x="48" y="161" fill="#166534" font-family="Consolas, monospace">seq2</text>
+    <text x="250" y="161" fill="#166534" font-weight="bold">20 п.н.</text>
+    <text x="420" y="161" fill="#166534">60.0%</text>
+    <text x="650" y="161" fill="#16A34A" font-weight="bold">самая длинная запись</text>
+
+    <rect x="30" y="176" width="940" height="40" fill="#ffffff"/>
+    <text x="48" y="201" fill="#111827" font-family="Consolas, monospace">seq3</text>
+    <text x="250" y="201" fill="#111827">8 п.н.</text>
+    <text x="420" y="201" fill="#111827">0.0%</text>
+    <text x="650" y="201" fill="#6b7280">cox1, короткий фрагмент</text>
+  </g>
+
+  <g fill="none" stroke="#d1d5db" stroke-width="2">
+    <rect x="30" y="250" width="300" height="100" rx="12"/>
+    <rect x="350" y="250" width="300" height="100" rx="12"/>
+    <rect x="670" y="250" width="300" height="100" rx="12"/>
+  </g>
+  <text x="50" y="282" font-size="13" fill="#6b7280">Всего оснований</text>
+  <text x="50" y="324" font-size="30" font-weight="bold" fill="#111827">40 <tspan font-size="15" fill="#6b7280">п.н.</tspan></text>
+
+  <text x="370" y="282" font-size="13" fill="#6b7280">Средняя длина</text>
+  <text x="370" y="324" font-size="30" font-weight="bold" fill="#111827">13.3 <tspan font-size="15" fill="#6b7280">п.н.</tspan></text>
+
+  <text x="690" y="282" font-size="13" fill="#6b7280">Записей в файле</text>
+  <text x="690" y="324" font-size="30" font-weight="bold" fill="#16A34A">3</text>
+
+  <text x="500" y="396" text-anchor="middle" font-size="13.5" fill="#6b7280">GC-состав считается отдельно для каждой записи: (G + C) / длина.</text>
+  <text x="500" y="420" text-anchor="middle" font-size="13.5" fill="#6b7280">Для всей выборки сразу нельзя складывать проценты — нужно сложить G и C и поделить на общую длину.</text>
+  <text x="500" y="444" text-anchor="middle" font-size="13.5" fill="#16A34A">Общий GC по трём записям: 19 / 40 = 47.5%</text>
+</svg>

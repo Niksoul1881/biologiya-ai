@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="480" fill="#ffffff"/>
+  <text x="500" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Как из строк FASTA получается словарь</text>
+
+  <!-- steps -->
+  <g fill="none" stroke="#d1d5db" stroke-width="2">
+    <rect x="30" y="60" width="560" height="102" rx="12"/>
+    <rect x="30" y="188" width="560" height="102" rx="12"/>
+    <rect x="30" y="316" width="560" height="102" rx="12"/>
+  </g>
+  <circle cx="56" cy="88" r="13" fill="#16A34A"/>
+  <text x="56" y="93" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">1</text>
+  <text x="82" y="93" font-size="15" font-weight="bold" fill="#111827">Читаем строку</text>
+  <text x="82" y="118" font-size="13" fill="#374151">line = line.strip() — убираем «\n» и «\r»</text>
+  <text x="82" y="140" font-size="13" fill="#6b7280">пустую строку пропускаем: if not line: continue</text>
+
+  <circle cx="56" cy="216" r="13" fill="#16A34A"/>
+  <text x="56" y="221" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">2</text>
+  <text x="82" y="221" font-size="15" font-weight="bold" fill="#111827">Начинается с «&gt;»?</text>
+  <text x="82" y="246" font-size="13" fill="#374151">да: сохраняем прошлую запись, запоминаем новый id, chunks = []</text>
+  <text x="82" y="268" font-size="13" fill="#6b7280">нет: chunks.append(line) — копим куски последовательности</text>
+
+  <circle cx="56" cy="344" r="13" fill="#16A34A"/>
+  <text x="56" y="349" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">3</text>
+  <text x="82" y="349" font-size="15" font-weight="bold" fill="#111827">Файл закончился</text>
+  <text x="82" y="374" font-size="13" fill="#374151">сохраняем последнюю запись: records[id] = "".join(chunks)</text>
+  <text x="82" y="396" font-size="13" fill="#6b7280">без этого шага последняя запись потеряется</text>
+
+  <!-- arrows -->
+  <path d="M310 162 v20" stroke="#16A34A" stroke-width="2"/>
+  <path d="M303 176 l7 8 7 -8" fill="#16A34A"/>
+  <path d="M310 290 v20" stroke="#16A34A" stroke-width="2"/>
+  <path d="M303 304 l7 8 7 -8" fill="#16A34A"/>
+
+  <!-- result -->
+  <rect x="620" y="60" width="350" height="290" rx="12" fill="#111827"/>
+  <text x="638" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#86efac">Что получается: словарь</text>
+  <g font-family="Consolas, monospace" font-size="13.5" fill="#e5e7eb">
+    <text x="638" y="136">{'seq1': 'ATGCGCGTACGT',</text>
+    <text x="638" y="168"> 'seq2': 'GGCCAATTGGCCGGCCAATT',</text>
+    <text x="638" y="200"> 'seq3': 'TTTTAAAA'}</text>
+  </g>
+  <text x="638" y="252" font-family="Arial, sans-serif" font-size="12.5" fill="#9ca3af">ключ — id, значение —</text>
+  <text x="638" y="272" font-family="Arial, sans-serif" font-size="12.5" fill="#9ca3af">склеенная последовательность</text>
+
+  <rect x="30" y="436" width="940" height="34" rx="8" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="46" y="458" font-size="13.5" fill="#166534">Проверка: seq1 — 12 символов, seq2 — 20, seq3 — 8. Многострочная запись стала одной строкой.</text>
+</svg>

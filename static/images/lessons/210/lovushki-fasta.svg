@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="470" fill="#ffffff"/>
+  <text x="500" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Четыре ловушки при чтении FASTA</text>
+
+  <!-- card 1 -->
+  <rect x="30" y="60" width="460" height="160" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="48" y="88" font-size="15" font-weight="bold" fill="#111827">1. Перевод строки в конце</text>
+  <rect x="48" y="100" width="160" height="30" rx="5" fill="#111827"/>
+  <text x="58" y="120" font-family="Consolas, monospace" font-size="13" fill="#e5e7eb">'ATGC\n'</text>
+  <text x="48" y="152" font-size="12.5" fill="#6b7280">длина 5, а не 4: в строке остался «\n»</text>
+  <text x="48" y="176" font-size="12.5" fill="#6b7280">сравнение line == "ATGC" даёт False</text>
+  <text x="48" y="202" font-size="13" fill="#16A34A" font-weight="bold">лечение: line.strip()</text>
+
+  <!-- card 2 -->
+  <rect x="510" y="60" width="460" height="160" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="528" y="88" font-size="15" font-weight="bold" fill="#111827">2. Windows: «\r\n»</text>
+  <rect x="528" y="100" width="160" height="30" rx="5" fill="#111827"/>
+  <text x="538" y="120" font-family="Consolas, monospace" font-size="13" fill="#e5e7eb">'ATGC\r\n'</text>
+  <text x="528" y="152" font-size="12.5" fill="#6b7280">rstrip("\n") оставит невидимый «\r»</text>
+  <text x="528" y="176" font-size="12.5" fill="#6b7280">в конце последовательности появится мусор</text>
+  <text x="528" y="202" font-size="13" fill="#16A34A" font-weight="bold">лечение: strip() или rstrip("\r\n")</text>
+
+  <!-- card 3 -->
+  <rect x="30" y="238" width="460" height="160" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="48" y="266" font-size="15" font-weight="bold" fill="#111827">3. BOM в начале файла</text>
+  <rect x="48" y="278" width="200" height="30" rx="5" fill="#111827"/>
+  <text x="58" y="298" font-family="Consolas, monospace" font-size="13" fill="#e5e7eb">'\ufeff&gt;seq1'</text>
+  <text x="48" y="330" font-size="12.5" fill="#6b7280">startswith("&gt;") возвращает False</text>
+  <text x="48" y="354" font-size="12.5" fill="#6b7280">первая запись молча теряется</text>
+  <text x="48" y="380" font-size="13" fill="#16A34A" font-weight="bold">лечение: encoding="utf-8-sig"</text>
+
+  <!-- card 4 -->
+  <rect x="510" y="238" width="460" height="160" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="528" y="266" font-size="15" font-weight="bold" fill="#111827">4. Пустая строка</text>
+  <rect x="528" y="278" width="120" height="30" rx="5" fill="#111827"/>
+  <text x="538" y="298" font-family="Consolas, monospace" font-size="13" fill="#e5e7eb">''</text>
+  <text x="528" y="330" font-size="12.5" fill="#6b7280">line[0] на пустой строке → IndexError</text>
+  <text x="528" y="354" font-size="12.5" fill="#6b7280">а без проверки пустая строка ломает цикл</text>
+  <text x="528" y="380" font-size="13" fill="#16A34A" font-weight="bold">лечение: if not line: continue</text>
+
+  <text x="500" y="440" text-anchor="middle" font-size="13.5" fill="#6b7280">Все четыре ловушки закрываются тремя привычками: strip(), continue для пустых строк, encoding="utf-8".</text>
+</svg>

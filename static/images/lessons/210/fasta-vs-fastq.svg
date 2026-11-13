@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="500" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">FASTA и FASTQ: что внутри записи</text>
+
+  <text x="45" y="68" font-size="17" font-weight="bold" fill="#16A34A">FASTA</text>
+  <rect x="30" y="78" width="450" height="218" rx="12" fill="#111827"/>
+  <g font-family="Consolas, monospace" font-size="15">
+    <text x="50" y="118" fill="#86efac">&gt;seq1</text>
+    <text x="50" y="156" fill="#e5e7eb">ATGCGCGTACGT</text>
+    <text x="50" y="194" fill="#e5e7eb">GGCCAATT</text>
+  </g>
+  <text x="50" y="238" font-size="12.5" fill="#9ca3af">только последовательность</text>
+  <text x="50" y="262" font-size="12.5" fill="#9ca3af">заголовок начинается с «&gt;»</text>
+
+  <text x="535" y="68" font-size="17" font-weight="bold" fill="#1d4ed8">FASTQ</text>
+  <rect x="520" y="78" width="450" height="218" rx="12" fill="#111827"/>
+  <g font-family="Consolas, monospace" font-size="15">
+    <text x="540" y="118" fill="#93c5fd">@SEQ_ID</text>
+    <text x="540" y="156" fill="#e5e7eb">GATTTGGGG</text>
+    <text x="540" y="194" fill="#e5e7eb">+</text>
+    <text x="540" y="232" fill="#86efac">IIIIIIII</text>
+  </g>
+  <text x="540" y="262" font-size="12.5" fill="#9ca3af">последовательность + качество</text>
+  <text x="540" y="286" font-size="12.5" fill="#9ca3af">заголовок начинается с «@»</text>
+
+  <!-- comparison table -->
+  <g font-size="14">
+    <rect x="30" y="330" width="940" height="34" rx="6" fill="#111827"/>
+    <text x="46" y="352" fill="#e5e7eb" font-weight="bold">Признак</text>
+    <text x="300" y="352" fill="#e5e7eb" font-weight="bold">FASTA</text>
+    <text x="660" y="352" fill="#e5e7eb" font-weight="bold">FASTQ</text>
+
+    <rect x="30" y="368" width="940" height="40" fill="#f9fafb"/>
+    <text x="46" y="393" fill="#111827">Что хранит</text>
+    <text x="300" y="393" fill="#374151">последовательность</text>
+    <text x="660" y="393" fill="#374151">последовательность и качество каждого основания</text>
+
+    <rect x="30" y="408" width="940" height="40" fill="#ffffff"/>
+    <text x="46" y="433" fill="#111827">Символ заголовка</text>
+    <text x="300" y="433" fill="#374151">«&gt;»</text>
+    <text x="660" y="433" fill="#374151">«@», а перед качеством — строка «+»</text>
+
+    <rect x="30" y="448" width="940" height="40" fill="#f9fafb"/>
+    <text x="46" y="473" fill="#111827">Где встречается</text>
+    <text x="300" y="473" fill="#374151">сборки, референсы, белки</text>
+    <text x="660" y="473" fill="#374151">сырые прочтения с секвенатора</text>
+  </g>
+
+  <rect x="30" y="506" width="940" height="38" rx="8" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="46" y="531" font-size="13.5" fill="#166534">Качество в FASTQ — символ ASCII: Q = ord(символ) − 33. Символ «I» даёт Q40, это ошибка примерно 1 на 10 000 оснований.</text>
+</svg>
