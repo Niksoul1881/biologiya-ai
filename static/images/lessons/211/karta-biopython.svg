@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Путь данных в Biopython: файл → SeqIO → SeqRecord → Seq</text>
+
+  <!-- left panel -->
+  <rect x="20" y="60" width="230" height="440" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+  <rect x="20" y="60" width="230" height="36" rx="8" fill="#111827"/>
+  <rect x="20" y="84" width="230" height="12" fill="#111827"/>
+  <text x="135" y="84" text-anchor="middle" font-size="15" font-weight="bold" fill="#e5e7eb">Файлы на диске</text>
+
+  <g font-size="13">
+    <rect x="40" y="118" width="190" height="56" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="135" y="142" text-anchor="middle" font-family="Consolas, monospace" fill="#111827">globin.fasta</text>
+    <text x="135" y="161" text-anchor="middle" fill="#6b7280">текст + заголовки</text>
+
+    <rect x="40" y="190" width="190" height="56" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="135" y="214" text-anchor="middle" font-family="Consolas, monospace" fill="#111827">reads.fastq</text>
+    <text x="135" y="233" text-anchor="middle" fill="#6b7280">текст + качества</text>
+
+    <rect x="40" y="262" width="190" height="56" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="135" y="286" text-anchor="middle" font-family="Consolas, monospace" fill="#111827">gene.gb</text>
+    <text x="135" y="305" text-anchor="middle" fill="#6b7280">GenBank</text>
+
+    <rect x="40" y="334" width="190" height="56" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="135" y="358" text-anchor="middle" font-family="Consolas, monospace" fill="#111827">1abc.pdb</text>
+    <text x="135" y="377" text-anchor="middle" fill="#6b7280">структура белка</text>
+  </g>
+  <text x="135" y="428" text-anchor="middle" font-size="12" fill="#6b7280">Десятки форматов,</text>
+  <text x="135" y="446" text-anchor="middle" font-size="12" fill="#6b7280">у каждого свои правила</text>
+
+  <!-- arrows left -> middle -->
+  <line x1="250" y1="200" x2="300" y2="200" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="300,200 290,195 290,205" fill="#9ca3af"/>
+
+  <!-- middle panel -->
+  <rect x="300" y="60" width="340" height="440" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+  <rect x="300" y="60" width="340" height="36" rx="8" fill="#111827"/>
+  <rect x="300" y="84" width="340" height="12" fill="#111827"/>
+  <text x="470" y="84" text-anchor="middle" font-size="15" font-weight="bold" fill="#e5e7eb">SeqIO — переводчик</text>
+
+  <g font-size="13">
+    <rect x="318" y="112" width="304" height="70" rx="6" fill="#f0fdf4" stroke="#16A34A"/>
+    <text x="330" y="134" font-family="Consolas, monospace" fill="#111827">SeqIO.parse(f, "fasta")</text>
+    <text x="330" y="153" fill="#6b7280">все записи, по одной</text>
+    <text x="330" y="171" fill="#16A34A">→ генератор SeqRecord</text>
+
+    <rect x="318" y="194" width="304" height="70" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="330" y="216" font-family="Consolas, monospace" fill="#111827">SeqIO.read(f, "fasta")</text>
+    <text x="330" y="235" fill="#6b7280">ровно одна запись</text>
+    <text x="330" y="253" fill="#16A34A">→ один SeqRecord</text>
+
+    <rect x="318" y="276" width="304" height="70" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="330" y="298" font-family="Consolas, monospace" fill="#111827">SeqIO.write(recs, f, "fasta")</text>
+    <text x="330" y="317" fill="#6b7280">объекты обратно в файл</text>
+    <text x="330" y="335" fill="#16A34A">→ число записей</text>
+
+    <rect x="318" y="358" width="304" height="70" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="330" y="380" font-family="Consolas, monospace" fill="#111827">SeqIO.convert(...)</text>
+    <text x="330" y="399" fill="#6b7280">формат → формат</text>
+    <text x="330" y="417" fill="#16A34A">→ новый файл</text>
+  </g>
+  <text x="470" y="462" text-anchor="middle" font-size="12" fill="#6b7280">Один раз разобрал формат —</text>
+  <text x="470" y="480" text-anchor="middle" font-size="12" fill="#6b7280">дальше работаешь с объектами</text>
+
+  <!-- arrows middle -> right -->
+  <line x1="640" y1="200" x2="690" y2="200" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="690,200 680,195 680,205" fill="#9ca3af"/>
+
+  <!-- right panel -->
+  <rect x="690" y="60" width="290" height="440" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+  <rect x="690" y="60" width="290" height="36" rx="8" fill="#111827"/>
+  <rect x="690" y="84" width="290" height="12" fill="#111827"/>
+  <text x="835" y="84" text-anchor="middle" font-size="15" font-weight="bold" fill="#e5e7eb">Объекты Python</text>
+
+  <g font-size="13">
+    <rect x="708" y="112" width="254" height="130" rx="6" fill="#f0fdf4" stroke="#16A34A"/>
+    <text x="720" y="134" font-weight="bold" fill="#111827">SeqRecord</text>
+    <text x="720" y="155" font-family="Consolas, monospace" fill="#6b7280">record.id</text>
+    <text x="720" y="174" font-family="Consolas, monospace" fill="#6b7280">record.description</text>
+    <text x="720" y="193" font-family="Consolas, monospace" fill="#6b7280">record.seq</text>
+    <text x="720" y="212" font-family="Consolas, monospace" fill="#6b7280">record.annotations</text>
+    <text x="720" y="231" font-family="Consolas, monospace" fill="#6b7280">record.features</text>
+
+    <line x1="835" y1="242" x2="835" y2="272" stroke="#9ca3af" stroke-width="2"/>
+    <polygon points="835,274 830,264 840,264" fill="#9ca3af"/>
+
+    <rect x="708" y="276" width="254" height="130" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+    <text x="720" y="298" font-weight="bold" fill="#111827">Seq</text>
+    <text x="720" y="319" font-family="Consolas, monospace" fill="#6b7280">.reverse_complement()</text>
+    <text x="720" y="338" font-family="Consolas, monospace" fill="#6b7280">.transcribe()</text>
+    <text x="720" y="357" font-family="Consolas, monospace" fill="#6b7280">.translate()</text>
+    <text x="720" y="376" font-family="Consolas, monospace" fill="#6b7280">.count(), .find()</text>
+    <text x="720" y="395" fill="#6b7280" font-style="italic">это не str, но очень похож</text>
+  </g>
+
+  <rect x="708" y="424" width="254" height="56" rx="6" fill="#111827"/>
+  <text x="835" y="447" text-anchor="middle" font-size="13" fill="#e5e7eb">Числа, строки, таблицы —</text>
+  <text x="835" y="466" text-anchor="middle" font-size="13" fill="#e5e7eb">обычный Python дальше</text>
+</svg>

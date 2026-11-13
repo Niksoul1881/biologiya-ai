@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="520" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Анатомия SeqRecord: что библиотека видит в файле FASTA</text>
+
+  <!-- left: file -->
+  <rect x="20" y="60" width="440" height="430" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+  <rect x="20" y="60" width="440" height="36" rx="8" fill="#111827"/>
+  <rect x="20" y="84" width="440" height="12" fill="#111827"/>
+  <text x="240" y="84" text-anchor="middle" font-size="15" font-weight="bold" fill="#e5e7eb">Файл globin.fasta</text>
+
+  <rect x="40" y="120" width="400" height="30" rx="4" fill="#dcfce7"/>
+  <text x="52" y="140" font-family="Consolas, monospace" font-size="13" fill="#111827">&gt;hbb_human beta-globin fragment</text>
+  <text x="52" y="176" font-family="Consolas, monospace" font-size="13" fill="#111827">ATGGTGCATCTGACTCCTGAGGAGAAGTCT</text>
+  <text x="52" y="196" font-family="Consolas, monospace" font-size="13" fill="#111827">GCCGTTACTG</text>
+
+  <rect x="40" y="220" width="400" height="30" rx="4" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="52" y="240" font-family="Consolas, monospace" font-size="13" fill="#6b7280">&gt;hbb_variant beta-globin variant</text>
+  <text x="52" y="276" font-family="Consolas, monospace" font-size="13" fill="#111827">ATGGTGCATCTGACTCCTGTGGAGAAGTCT</text>
+  <text x="52" y="296" font-family="Consolas, monospace" font-size="13" fill="#111827">GCCGTTACTG</text>
+
+  <rect x="40" y="320" width="400" height="30" rx="4" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="52" y="340" font-family="Consolas, monospace" font-size="13" fill="#6b7280">&gt;short lowercase fragment</text>
+  <text x="52" y="376" font-family="Consolas, monospace" font-size="13" fill="#111827">atgcgc</text>
+
+  <text x="52" y="418" font-size="13" fill="#6b7280">Три записи: два фрагмента β-глобина</text>
+  <text x="52" y="438" font-size="13" fill="#6b7280">и один короткий кусок в нижнем регистре.</text>
+  <text x="52" y="462" font-size="13" fill="#9ca3af">id — первое слово в заголовке после &gt;</text>
+
+  <!-- arrows -->
+  <line x1="440" y1="135" x2="505" y2="145" stroke="#16A34A" stroke-width="2"/>
+  <polygon points="508,146 497,141 499,151" fill="#16A34A"/>
+  <line x1="440" y1="182" x2="505" y2="312" stroke="#9ca3af" stroke-width="2"/>
+  <polygon points="508,312 497,308 498,318" fill="#9ca3af"/>
+
+  <!-- right -->
+  <rect x="510" y="60" width="470" height="430" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+  <rect x="510" y="60" width="470" height="36" rx="8" fill="#111827"/>
+  <rect x="510" y="84" width="470" height="12" fill="#111827"/>
+  <text x="745" y="84" text-anchor="middle" font-size="15" font-weight="bold" fill="#e5e7eb">Объект SeqRecord</text>
+
+  <g font-size="13">
+    <rect x="530" y="112" width="430" height="60" rx="6" fill="#f0fdf4" stroke="#16A34A"/>
+    <text x="544" y="134" font-weight="bold" fill="#111827">record.id</text>
+    <text x="544" y="156" font-family="Consolas, monospace" fill="#16A34A">hbb_human</text>
+
+    <rect x="530" y="182" width="430" height="86" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="544" y="204" font-weight="bold" fill="#111827">record.name · record.description</text>
+    <text x="544" y="226" font-family="Consolas, monospace" fill="#111827">hbb_human</text>
+    <text x="544" y="248" font-family="Consolas, monospace" fill="#6b7280">hbb_human beta-globin fragment</text>
+
+    <rect x="530" y="278" width="430" height="62" rx="6" fill="#ffffff" stroke="#d1d5db"/>
+    <text x="544" y="300" font-weight="bold" fill="#111827">record.seq — объект Seq</text>
+    <text x="544" y="322" font-family="Consolas, monospace" fill="#6b7280">Seq('ATGGTGCATCTGACTCCTGAGGAG...')</text>
+
+    <rect x="530" y="350" width="430" height="56" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="544" y="372" font-weight="bold" fill="#111827">record.annotations</text>
+    <text x="544" y="394" font-family="Consolas, monospace" fill="#6b7280">{} — у FASTA пусто</text>
+
+    <rect x="530" y="416" width="430" height="56" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="544" y="438" font-weight="bold" fill="#111827">record.features</text>
+    <text x="544" y="460" font-family="Consolas, monospace" fill="#6b7280">[] — разметка genes/доменов</text>
+  </g>
+</svg>

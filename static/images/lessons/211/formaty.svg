@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="440" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Куда можно конвертировать FASTA — и что для этого нужно</text>
+
+  <rect x="390" y="58" width="220" height="78" rx="8" fill="#f0fdf4" stroke="#16A34A" stroke-width="2"/>
+  <text x="500" y="90" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">FASTA</text>
+  <text x="500" y="114" text-anchor="middle" font-size="13" fill="#6b7280">заголовок + буквы</text>
+
+  <!-- arrow to fastq -->
+  <line x1="430" y1="136" x2="262" y2="246" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/>
+  <polygon points="258,249 270,246 263,238" fill="#dc2626"/>
+  <circle cx="346" cy="191" r="14" fill="#fef2f2" stroke="#dc2626"/>
+  <text x="346" y="197" text-anchor="middle" font-size="16" font-weight="bold" fill="#dc2626">✗</text>
+
+  <rect x="100" y="252" width="260" height="76" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="230" y="284" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">FASTQ</text>
+  <text x="230" y="308" text-anchor="middle" font-size="13" fill="#6b7280">буквы + качества</text>
+  <text x="230" y="356" text-anchor="middle" font-size="13" fill="#dc2626">нужны качества (phred)</text>
+  <text x="230" y="376" text-anchor="middle" font-size="12" fill="#6b7280">ValueError: No suitable quality scores</text>
+
+  <!-- arrow to genbank -->
+  <line x1="570" y1="136" x2="738" y2="246" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/>
+  <polygon points="742,249 730,246 737,238" fill="#dc2626"/>
+  <circle cx="654" cy="191" r="14" fill="#fef2f2" stroke="#dc2626"/>
+  <text x="654" y="197" text-anchor="middle" font-size="16" font-weight="bold" fill="#dc2626">✗</text>
+
+  <rect x="640" y="252" width="260" height="76" rx="8" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="770" y="284" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">GenBank</text>
+  <text x="770" y="308" text-anchor="middle" font-size="13" fill="#6b7280">запись с разметкой</text>
+  <text x="770" y="356" text-anchor="middle" font-size="13" fill="#dc2626">нужен molecule_type</text>
+  <text x="770" y="376" text-anchor="middle" font-size="12" fill="#6b7280">ValueError: missing molecule_type</text>
+
+  <text x="500" y="412" text-anchor="middle" font-size="13" fill="#111827">Из FASTQ и GenBank в FASTA конвертация проходит: качества и разметка просто теряются</text>
+  <text x="500" y="432" text-anchor="middle" font-size="12" fill="#9ca3af">FASTA — «минимальный» формат: в нём нет ни качеств, ни аннотаций</text>
+</svg>
