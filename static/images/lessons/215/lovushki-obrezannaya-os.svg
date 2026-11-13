@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="440" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Обрезанная ось: те же данные, разные выводы</text>
+
+  <!-- ============ LEFT: bad ============ -->
+  <text x="250" y="62" text-anchor="middle" font-size="14" font-weight="bold" fill="#dc2626">❌ так нельзя: ось начинается с 90</text>
+  <line x1="70" y1="100" x2="70" y2="350" stroke="#111827" stroke-width="2"/>
+  <line x1="70" y1="350" x2="450" y2="350" stroke="#111827" stroke-width="2"/>
+  <g font-size="10.5" fill="#6b7280" text-anchor="end">
+    <text x="62" y="354">90</text>
+    <text x="62" y="304">92</text>
+    <text x="62" y="254">94</text>
+    <text x="62" y="204">96</text>
+    <text x="62" y="154">98</text>
+    <text x="62" y="104">100</text>
+  </g>
+  <g fill="#dc2626">
+    <rect x="140" y="290" width="70" height="60" rx="2"/>
+    <rect x="290" y="198" width="70" height="152" rx="2"/>
+  </g>
+  <text x="175" y="280" text-anchor="middle" font-size="12" fill="#111827">92,4</text>
+  <text x="325" y="188" text-anchor="middle" font-size="12" fill="#111827">96,1</text>
+  <text x="175" y="370" text-anchor="middle" font-size="11" fill="#374151">образец A</text>
+  <text x="325" y="370" text-anchor="middle" font-size="11" fill="#374151">образец B</text>
+  <text x="250" y="398" text-anchor="middle" font-size="12.5" fill="#dc2626">Разница 4%, а столбик выглядит в 2,5 раза выше</text>
+
+  <!-- ============ RIGHT: good ============ -->
+  <text x="750" y="62" text-anchor="middle" font-size="14" font-weight="bold" fill="#16A34A">✅ так правильно: ось от нуля</text>
+  <line x1="570" y1="100" x2="570" y2="350" stroke="#111827" stroke-width="2"/>
+  <line x1="570" y1="350" x2="950" y2="350" stroke="#111827" stroke-width="2"/>
+  <g font-size="10.5" fill="#6b7280" text-anchor="end">
+    <text x="562" y="354">0</text>
+    <text x="562" y="229">50</text>
+    <text x="562" y="104">100</text>
+  </g>
+  <g fill="#16A34A">
+    <rect x="640" y="119" width="70" height="231" rx="2"/>
+    <rect x="790" y="110" width="70" height="240" rx="2"/>
+  </g>
+  <text x="675" y="109" text-anchor="middle" font-size="12" fill="#111827">92,4</text>
+  <text x="825" y="100" text-anchor="middle" font-size="12" fill="#111827">96,1</text>
+  <text x="675" y="370" text-anchor="middle" font-size="11" fill="#374151">образец A</text>
+  <text x="825" y="370" text-anchor="middle" font-size="11" fill="#374151">образец B</text>
+  <text x="750" y="398" text-anchor="middle" font-size="12.5" fill="#16A34A">Столбики почти одинаковые — как и реальность</text>
+
+  <!-- divider -->
+  <line x1="500" y1="50" x2="500" y2="410" stroke="#e5e7eb" stroke-width="2"/>
+
+  <text x="500" y="428" text-anchor="middle" font-size="12" fill="#6b7280">Правило: столбики всегда начинаются от нуля. Линию можно обрезать, столбики — нельзя.</text>
+</svg>
