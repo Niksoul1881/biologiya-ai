@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="380" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Индексы и срезы строки dna = "ATGCGCGT"</text>
+
+  <!-- index row -->
+  <text x="40" y="72" font-size="13" fill="#9ca3af">индекс</text>
+  <text x="40" y="112" font-size="13" fill="#9ca3af">с конца</text>
+  <text x="40" y="160" font-size="15" font-weight="bold" fill="#374151">символ</text>
+
+  <g font-size="15" text-anchor="middle" font-family="Consolas, monospace">
+    <g fill="#6b7280">
+      <text x="130" y="72">0</text><text x="210" y="72">1</text><text x="290" y="72">2</text><text x="370" y="72">3</text>
+      <text x="450" y="72">4</text><text x="530" y="72">5</text><text x="610" y="72">6</text><text x="690" y="72">7</text>
+    </g>
+    <g fill="#9ca3af" font-size="13">
+      <text x="130" y="112">-8</text><text x="210" y="112">-7</text><text x="290" y="112">-6</text><text x="370" y="112">-5</text>
+      <text x="450" y="112">-4</text><text x="530" y="112">-3</text><text x="610" y="112">-2</text><text x="690" y="112">-1</text>
+    </g>
+  </g>
+
+  <g stroke="#d1d5db" stroke-width="2">
+    <rect x="95" y="128" width="70" height="52" rx="8" fill="#f0fdfa"/>
+    <rect x="175" y="128" width="70" height="52" rx="8" fill="#f0fdfa"/>
+    <rect x="255" y="128" width="70" height="52" rx="8" fill="#f0fdfa"/>
+    <rect x="335" y="128" width="70" height="52" rx="8" fill="#f0fdfa"/>
+    <rect x="415" y="128" width="70" height="52" rx="8" fill="#f0fdfa"/>
+    <rect x="495" y="128" width="70" height="52" rx="8" fill="#f0fdfa"/>
+    <rect x="575" y="128" width="70" height="52" rx="8" fill="#f0fdfa"/>
+    <rect x="655" y="128" width="70" height="52" rx="8" fill="#f0fdfa"/>
+  </g>
+  <g font-size="24" font-weight="bold" text-anchor="middle" font-family="Consolas, monospace" fill="#115e59">
+    <text x="130" y="163">A</text><text x="210" y="163">T</text><text x="290" y="163">G</text>
+    <text x="370" y="163">C</text><text x="450" y="163">G</text><text x="530" y="163">C</text>
+    <text x="610" y="163">G</text><text x="690" y="163">T</text>
+  </g>
+
+  <line x1="30" y1="204" x2="970" y2="204" stroke="#e5e7eb" stroke-width="2"/>
+
+  <g font-size="14" font-family="Consolas, monospace">
+    <rect x="30" y="224" width="455" height="60" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+    <text x="46" y="250" fill="#111827">dna[2:5]</text>
+    <text x="170" y="250" fill="#16A34A">→ "GCG"</text>
+    <text x="46" y="272" fill="#6b7280" font-size="12.5">с 2-го по 5-й, не включая 5-й</text>
+
+    <rect x="515" y="224" width="455" height="60" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+    <text x="531" y="250" fill="#111827">dna[-3:]</text>
+    <text x="655" y="250" fill="#16A34A">→ "CGT"</text>
+    <text x="531" y="272" fill="#6b7280" font-size="12.5">последние три символа</text>
+
+    <rect x="30" y="296" width="455" height="60" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+    <text x="46" y="322" fill="#111827">dna[::2]</text>
+    <text x="170" y="322" fill="#16A34A">→ "AGGG"</text>
+    <text x="46" y="344" fill="#6b7280" font-size="12.5">каждый второй, шаг 2</text>
+
+    <rect x="515" y="296" width="455" height="60" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+    <text x="531" y="322" fill="#111827">dna[::-1]</text>
+    <text x="655" y="322" fill="#16A34A">→ "TGCGCGTA"</text>
+    <text x="531" y="344" fill="#6b7280" font-size="12.5">в обратном порядке, шаг -1</text>
+  </g>
+</svg>
