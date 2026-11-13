@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="440" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">log2 fold change: насколько ген изменился</text>
+  <text x="500" y="56" text-anchor="middle" font-size="13" fill="#6b7280">каждая единица на шкале — это ровно двукратное изменение</text>
+
+  <rect x="80" y="80" width="280" height="56" rx="8" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="220" y="104" text-anchor="middle" font-size="14" font-weight="bold" fill="#b91c1c">упал больше чем в 2 раза</text>
+  <text x="220" y="124" text-anchor="middle" font-size="12" fill="#991b1b">log2FC &lt; −1</text>
+
+  <rect x="360" y="80" width="280" height="56" rx="8" fill="#f3f4f6" stroke="#d1d5db"/>
+  <text x="500" y="104" text-anchor="middle" font-size="14" font-weight="bold" fill="#374151">в пределах двукратного</text>
+  <text x="500" y="124" text-anchor="middle" font-size="12" fill="#6b7280">−1 … +1 — обычно считают «не изменился»</text>
+
+  <rect x="640" y="80" width="280" height="56" rx="8" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="780" y="104" text-anchor="middle" font-size="14" font-weight="bold" fill="#15803d">вырос больше чем в 2 раза</text>
+  <text x="780" y="124" text-anchor="middle" font-size="12" fill="#166534">log2FC &gt; +1</text>
+
+  <line x1="80" y1="172" x2="920" y2="172" stroke="#111827" stroke-width="2.5"/>
+  <g stroke="#111827" stroke-width="2">
+    <line x1="80" y1="172" x2="80" y2="182"/><line x1="220" y1="172" x2="220" y2="182"/>
+    <line x1="360" y1="172" x2="360" y2="182"/><line x1="500" y1="172" x2="500" y2="182"/>
+    <line x1="640" y1="172" x2="640" y2="182"/><line x1="780" y1="172" x2="780" y2="182"/>
+    <line x1="920" y1="172" x2="920" y2="182"/>
+  </g>
+  <g font-size="13" fill="#111827" text-anchor="middle">
+    <text x="80" y="200">−3</text><text x="220" y="200">−2</text><text x="360" y="200">−1</text>
+    <text x="500" y="200">0</text><text x="640" y="200">+1</text><text x="780" y="200">+2</text><text x="920" y="200">+3</text>
+  </g>
+  <g font-size="11.5" fill="#9ca3af" text-anchor="middle">
+    <text x="80" y="218">×0,125</text><text x="220" y="218">×0,25</text><text x="360" y="218">×0,5</text>
+    <text x="500" y="218">×1</text><text x="640" y="218">×2</text><text x="780" y="218">×4</text><text x="920" y="218">×8</text>
+  </g>
+
+  <!-- BRCA1 -->
+  <line x1="459" y1="172" x2="459" y2="248" stroke="#b91c1c" stroke-width="1.5"/>
+  <circle cx="459" cy="172" r="5" fill="#b91c1c"/>
+  <rect x="411" y="248" width="96" height="30" rx="8" fill="#ffffff" stroke="#fecaca" stroke-width="2"/>
+  <text x="459" y="268" text-anchor="middle" font-size="12" fill="#b91c1c">BRCA1 −0,29</text>
+
+  <text x="500" y="152" text-anchor="middle" font-size="11" fill="#9ca3af">GAPDH, ACTB, EGFR: 0,04–0,10</text>
+
+  <!-- TP53 -->
+  <line x1="595" y1="172" x2="595" y2="248" stroke="#15803d" stroke-width="1.5"/>
+  <circle cx="595" cy="172" r="5" fill="#15803d"/>
+  <rect x="547" y="248" width="96" height="30" rx="8" fill="#ffffff" stroke="#bbf7d0" stroke-width="2"/>
+  <text x="595" y="268" text-anchor="middle" font-size="12" fill="#15803d">TP53 +0,68</text>
+
+  <!-- MYC -->
+  <line x1="746" y1="172" x2="746" y2="248" stroke="#15803d" stroke-width="1.5"/>
+  <circle cx="746" cy="172" r="6" fill="#16A34A"/>
+  <rect x="690" y="248" width="112" height="30" rx="8" fill="#f0fdf4" stroke="#16A34A" stroke-width="2"/>
+  <text x="746" y="268" text-anchor="middle" font-size="12" fill="#15803d" font-weight="bold">MYC +1,76</text>
+
+  <rect x="30" y="356" width="940" height="66" rx="12" fill="#111827"/>
+  <text x="50" y="382" font-size="13.5" fill="#86efac" font-family="Consolas, monospace">log2FC = log2(среднее в опыте / среднее в контроле)</text>
+  <text x="50" y="406" font-size="12.5" fill="#e5e7eb">|log2FC| &gt; 1 — изменение больше чем в 2 раза. Но без повторов и дисперсии это ещё не доказательство.</text>
+</svg>

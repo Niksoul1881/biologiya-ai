@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="480" fill="#ffffff"/>
+  <text x="500" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Таблица экспрессии: строки — гены, столбцы — образцы</text>
+  <text x="500" y="58" text-anchor="middle" font-size="13.5" fill="#6b7280">одна ячейка = число прочтений (счётчиков) этого гена в этом образце</text>
+
+  <rect x="60" y="84" width="580" height="40" rx="6" fill="#111827"/>
+  <text x="72" y="110" font-size="14" font-weight="bold" fill="#e5e7eb">ген</text>
+  <text x="255" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#e5e7eb">ctrl_1</text>
+  <text x="365" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#e5e7eb">ctrl_2</text>
+  <text x="475" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#e5e7eb">treat_1</text>
+  <text x="585" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="#e5e7eb">treat_2</text>
+
+  <g font-size="14">
+    <rect x="60" y="124" width="580" height="40" fill="#f9fafb"/>
+    <rect x="60" y="164" width="580" height="40" fill="#ffffff"/>
+    <rect x="60" y="204" width="580" height="40" fill="#f9fafb"/>
+    <rect x="60" y="244" width="580" height="40" fill="#ffffff"/>
+    <rect x="60" y="284" width="580" height="40" fill="#f0fdf4"/>
+    <rect x="60" y="324" width="580" height="40" fill="#ffffff"/>
+
+    <g fill="#111827">
+      <text x="72" y="149">TP53</text><text x="72" y="189">BRCA1</text><text x="72" y="229">GAPDH</text>
+      <text x="72" y="269">ACTB</text><text x="72" y="309" font-weight="bold">MYC</text><text x="72" y="349">EGFR</text>
+    </g>
+    <g fill="#111827" text-anchor="middle">
+      <text x="255" y="149">120</text><text x="365" y="149">135</text><text x="475" y="149">210</text><text x="585" y="149">198</text>
+      <text x="255" y="189">80</text><text x="365" y="189">74</text><text x="475" y="189">60</text><text x="585" y="189">66</text>
+      <text x="255" y="229">5200</text><text x="365" y="229">4980</text><text x="475" y="229">5400</text><text x="585" y="229">5150</text>
+      <text x="255" y="269">4800</text><text x="365" y="269">5100</text><text x="475" y="269">4900</text><text x="585" y="269">5250</text>
+      <text x="255" y="309" font-weight="bold" fill="#15803d">300</text><text x="365" y="309" font-weight="bold" fill="#15803d">280</text><text x="475" y="309" font-weight="bold" fill="#15803d">950</text><text x="585" y="309" font-weight="bold" fill="#15803d">1010</text>
+      <text x="255" y="349">64</text><text x="365" y="349">58</text><text x="475" y="349">61</text><text x="585" y="349">70</text>
+    </g>
+  </g>
+
+  <g stroke="#d1d5db" stroke-width="1.5">
+    <line x1="60" y1="124" x2="640" y2="124"/>
+    <line x1="60" y1="164" x2="640" y2="164"/>
+    <line x1="60" y1="204" x2="640" y2="204"/>
+    <line x1="60" y1="244" x2="640" y2="244"/>
+    <line x1="60" y1="284" x2="640" y2="284"/>
+    <line x1="60" y1="324" x2="640" y2="324"/>
+    <line x1="60" y1="364" x2="640" y2="364"/>
+    <line x1="200" y1="84" x2="200" y2="364"/>
+    <line x1="310" y1="84" x2="310" y2="364"/>
+    <line x1="420" y1="84" x2="420" y2="364"/>
+    <line x1="530" y1="84" x2="530" y2="364"/>
+    <line x1="60" y1="84" x2="60" y2="364"/>
+    <line x1="640" y1="84" x2="640" y2="364"/>
+  </g>
+
+  <rect x="680" y="84" width="290" height="280" rx="12" fill="#111827"/>
+  <text x="700" y="114" font-size="13" font-weight="bold" fill="#86efac" font-family="Consolas, monospace">df.shape</text>
+  <text x="700" y="136" font-size="15" fill="#e5e7eb">(6, 4)</text>
+  <text x="700" y="166" font-size="13" fill="#9ca3af">6 генов × 4 образца</text>
+
+  <text x="700" y="202" font-size="13" font-weight="bold" fill="#86efac" font-family="Consolas, monospace">df.index</text>
+  <text x="700" y="222" font-size="13" fill="#e5e7eb">гены: TP53 … EGFR</text>
+  <text x="700" y="252" font-size="13" font-weight="bold" fill="#86efac" font-family="Consolas, monospace">df.columns</text>
+  <text x="700" y="272" font-size="13" fill="#e5e7eb">образцы: ctrl_1 … treat_2</text>
+  <text x="700" y="302" font-size="13" font-weight="bold" fill="#86efac" font-family="Consolas, monospace">df.values</text>
+  <text x="700" y="322" font-size="13" fill="#e5e7eb">только числа, без имён</text>
+  <text x="700" y="348" font-size="12" fill="#6b7280">строки и столбцы — это ярлыки</text>
+
+  <text x="500" y="404" text-anchor="middle" font-size="13.5" fill="#6b7280">Строки — гены, столбцы — образцы. Перепутать их — самая дорогая ошибка в анализе экспрессии.</text>
+  <text x="500" y="428" text-anchor="middle" font-size="13.5" fill="#6b7280">Выделенная строка MYC: в контроле около 300, в опыте около 1000 — ген вырос примерно втрое.</text>
+  <text x="500" y="460" text-anchor="middle" font-size="12" fill="#9ca3af">Схема «Биология AI»</text>
+</svg>

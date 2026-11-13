@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="470" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Нормализация CPM: три шага от счётчиков к сравнимой шкале</text>
+  <text x="500" y="56" text-anchor="middle" font-size="13" fill="#6b7280">образцы прочитаны с разной глубиной, поэтому сырые счётчики между ними сравнивать нельзя</text>
+
+  <!-- panel A -->
+  <rect x="30" y="76" width="290" height="272" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="48" y="104" font-size="15" font-weight="bold" fill="#111827">1. Счётчики</text>
+  <text x="48" y="124" font-size="12" fill="#6b7280">сырые прочтения</text>
+  <rect x="48" y="136" width="254" height="28" rx="4" fill="#111827"/>
+  <text x="56" y="155" font-size="11.5" fill="#e5e7eb">ген</text>
+  <text x="189" y="155" text-anchor="middle" font-size="11.5" fill="#e5e7eb">ctrl_1</text>
+  <text x="264" y="155" text-anchor="middle" font-size="11.5" fill="#e5e7eb">treat_1</text>
+  <g font-size="11.5">
+    <rect x="48" y="164" width="254" height="30" fill="#f9fafb"/>
+    <rect x="48" y="194" width="254" height="30" fill="#ffffff"/>
+    <rect x="48" y="224" width="254" height="30" fill="#f9fafb"/>
+    <text x="56" y="183" fill="#111827">TP53</text>
+    <text x="56" y="213" fill="#111827">MYC</text>
+    <text x="56" y="243" fill="#111827">GAPDH</text>
+    <text x="189" y="183" text-anchor="middle" fill="#111827">120</text>
+    <text x="264" y="183" text-anchor="middle" fill="#111827">210</text>
+    <text x="189" y="213" text-anchor="middle" fill="#111827">300</text>
+    <text x="264" y="213" text-anchor="middle" fill="#111827">950</text>
+    <text x="189" y="243" text-anchor="middle" fill="#111827">5200</text>
+    <text x="264" y="243" text-anchor="middle" fill="#111827">5400</text>
+  </g>
+  <g stroke="#e5e7eb" stroke-width="1.2">
+    <line x1="48" y1="164" x2="302" y2="164"/><line x1="48" y1="194" x2="302" y2="194"/>
+    <line x1="48" y1="224" x2="302" y2="224"/><line x1="48" y1="254" x2="302" y2="254"/>
+    <line x1="130" y1="136" x2="130" y2="254"/><line x1="226" y1="136" x2="226" y2="254"/>
+  </g>
+  <text x="48" y="278" font-size="12.5" fill="#111827">сумма по образцу:</text>
+  <text x="48" y="300" font-size="13" fill="#dc2626" font-family="Consolas, monospace">10 564</text>
+  <text x="130" y="300" font-size="13" fill="#dc2626" font-family="Consolas, monospace">11 581</text>
+  <text x="48" y="324" font-size="11.5" fill="#6b7280">глубина различается на 9,6%</text>
+
+  <!-- arrow -->
+  <line x1="322" y1="200" x2="346" y2="200" stroke="#16A34A" stroke-width="2.5"/>
+  <polygon points="346,194 356,200 346,206" fill="#16A34A"/>
+  <text x="339" y="188" text-anchor="middle" font-size="10.5" fill="#15803d">÷ сумму</text>
+
+  <!-- panel B -->
+  <rect x="358" y="76" width="284" height="272" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="376" y="104" font-size="15" font-weight="bold" fill="#111827">2. CPM</text>
+  <text x="376" y="124" font-size="12" fill="#6b7280">доля от миллиона</text>
+  <rect x="376" y="136" width="248" height="28" rx="4" fill="#111827"/>
+  <text x="384" y="155" font-size="11.5" fill="#e5e7eb">ген</text>
+  <text x="512" y="155" text-anchor="middle" font-size="11.5" fill="#e5e7eb">ctrl_1</text>
+  <text x="586" y="155" text-anchor="middle" font-size="11.5" fill="#e5e7eb">treat_1</text>
+  <g font-size="11" font-family="Consolas, monospace">
+    <rect x="376" y="164" width="248" height="30" fill="#f9fafb"/>
+    <rect x="376" y="194" width="248" height="30" fill="#ffffff"/>
+    <rect x="376" y="224" width="248" height="30" fill="#f9fafb"/>
+    <text x="384" y="183" fill="#111827" font-family="Arial, sans-serif">TP53</text>
+    <text x="384" y="213" fill="#111827" font-family="Arial, sans-serif">MYC</text>
+    <text x="384" y="243" fill="#111827" font-family="Arial, sans-serif">GAPDH</text>
+    <text x="512" y="183" text-anchor="middle" fill="#111827">11359</text>
+    <text x="586" y="183" text-anchor="middle" fill="#111827">18133</text>
+    <text x="512" y="213" text-anchor="middle" fill="#111827">28398</text>
+    <text x="586" y="213" text-anchor="middle" fill="#111827">82031</text>
+    <text x="512" y="243" text-anchor="middle" fill="#111827">492238</text>
+    <text x="586" y="243" text-anchor="middle" fill="#111827">466281</text>
+  </g>
+  <g stroke="#e5e7eb" stroke-width="1.2">
+    <line x1="376" y1="164" x2="624" y2="164"/><line x1="376" y1="194" x2="624" y2="194"/>
+    <line x1="376" y1="224" x2="624" y2="224"/><line x1="376" y1="254" x2="624" y2="254"/>
+    <line x1="456" y1="136" x2="456" y2="254"/><line x1="548" y1="136" x2="548" y2="254"/>
+  </g>
+  <text x="376" y="278" font-size="12.5" fill="#111827">сумма по образцу:</text>
+  <text x="376" y="300" font-size="13" fill="#15803d" font-family="Consolas, monospace">1 000 000</text>
+  <text x="494" y="300" font-size="13" fill="#15803d" font-family="Consolas, monospace">1 000 000</text>
+  <text x="376" y="324" font-size="11.5" fill="#6b7280">глубина убрана — остались доли</text>
+
+  <!-- arrow -->
+  <line x1="646" y1="200" x2="670" y2="200" stroke="#16A34A" stroke-width="2.5"/>
+  <polygon points="670,194 680,200 670,206" fill="#16A34A"/>
+  <text x="663" y="188" text-anchor="middle" font-size="10.5" fill="#15803d">log2</text>
+
+  <!-- panel C -->
+  <rect x="682" y="76" width="288" height="272" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="700" y="104" font-size="15" font-weight="bold" fill="#111827">3. log2(CPM + 1)</text>
+  <text x="700" y="124" font-size="12" fill="#6b7280">шкала сжата, разброс виден</text>
+  <rect x="700" y="136" width="252" height="28" rx="4" fill="#111827"/>
+  <text x="708" y="155" font-size="11.5" fill="#e5e7eb">ген</text>
+  <text x="840" y="155" text-anchor="middle" font-size="11.5" fill="#e5e7eb">ctrl_1</text>
+  <text x="914" y="155" text-anchor="middle" font-size="11.5" fill="#e5e7eb">treat_1</text>
+  <g font-size="11">
+    <rect x="700" y="164" width="252" height="30" fill="#f9fafb"/>
+    <rect x="700" y="194" width="252" height="30" fill="#ffffff"/>
+    <rect x="700" y="224" width="252" height="30" fill="#f9fafb"/>
+    <text x="708" y="183" fill="#111827">TP53</text>
+    <text x="708" y="213" fill="#111827">MYC</text>
+    <text x="708" y="243" fill="#111827">GAPDH</text>
+    <text x="840" y="183" text-anchor="middle" fill="#111827">13,47</text>
+    <text x="914" y="183" text-anchor="middle" fill="#111827">14,15</text>
+    <text x="840" y="213" text-anchor="middle" fill="#111827">14,79</text>
+    <text x="914" y="213" text-anchor="middle" fill="#111827">16,32</text>
+    <text x="840" y="243" text-anchor="middle" fill="#111827">18,91</text>
+    <text x="914" y="243" text-anchor="middle" fill="#111827">18,83</text>
+  </g>
+  <g stroke="#e5e7eb" stroke-width="1.2">
+    <line x1="700" y1="164" x2="952" y2="164"/><line x1="700" y1="194" x2="952" y2="194"/>
+    <line x1="700" y1="224" x2="952" y2="224"/><line x1="700" y1="254" x2="952" y2="254"/>
+    <line x1="782" y1="136" x2="782" y2="254"/><line x1="878" y1="136" x2="878" y2="254"/>
+  </g>
+  <text x="700" y="278" font-size="12.5" fill="#111827">разница MYC:</text>
+  <text x="700" y="300" font-size="13" fill="#15803d" font-family="Consolas, monospace">16,32 − 14,79 = 1,53</text>
+  <text x="700" y="324" font-size="11.5" fill="#6b7280">по средним групп — 1,76</text>
+
+  <rect x="30" y="368" width="940" height="76" rx="12" fill="#111827"/>
+  <text x="50" y="398" font-size="14" fill="#86efac" font-family="Consolas, monospace">CPM = (счётчики / сумма по столбцу) × 1 000 000</text>
+  <text x="540" y="398" font-size="14" fill="#e5e7eb" font-family="Consolas, monospace">log2(CPM + 1)</text>
+  <text x="50" y="426" font-size="12.5" fill="#9ca3af">«+1» — страховка от нуля: log2(0 + 1) = 0, а log2(0) — минус бесконечность. Для DE-анализа вместо этого берут VST или rlog.</text>
+</svg>

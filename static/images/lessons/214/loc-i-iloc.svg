@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="500" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">loc ищет по именам, iloc — по номерам</text>
+  <text x="500" y="56" text-anchor="middle" font-size="13" fill="#6b7280">одна и та же ячейка, два разных способа до неё добраться</text>
+
+  <!-- LEFT: loc -->
+  <text x="60" y="92" font-size="15" font-weight="bold" fill="#15803d">loc — по ярлыкам</text>
+  <rect x="60" y="110" width="418" height="32" rx="4" fill="#111827"/>
+  <text x="68" y="131" font-size="12" fill="#e5e7eb">gene</text>
+  <text x="191" y="131" text-anchor="middle" font-size="12" fill="#e5e7eb">ctrl_1</text>
+  <text x="273" y="131" text-anchor="middle" font-size="12" fill="#e5e7eb">ctrl_2</text>
+  <text x="355" y="131" text-anchor="middle" font-size="12" fill="#86efac" font-weight="bold">treat_1</text>
+  <text x="437" y="131" text-anchor="middle" font-size="12" fill="#e5e7eb">treat_2</text>
+
+  <g font-size="12.5">
+    <rect x="60" y="142" width="418" height="32" fill="#f9fafb"/>
+    <rect x="60" y="174" width="418" height="32" fill="#ffffff"/>
+    <rect x="60" y="206" width="418" height="32" fill="#f9fafb"/>
+    <rect x="60" y="238" width="418" height="32" fill="#ffffff"/>
+    <rect x="60" y="270" width="418" height="32" fill="#f0fdf4"/>
+    <rect x="60" y="302" width="418" height="32" fill="#ffffff"/>
+    <text x="68" y="163" fill="#111827">TP53</text>
+    <text x="68" y="195" fill="#111827">BRCA1</text>
+    <text x="68" y="227" fill="#111827">GAPDH</text>
+    <text x="68" y="259" fill="#111827">ACTB</text>
+    <text x="68" y="291" fill="#15803d" font-weight="bold">MYC</text>
+    <text x="68" y="323" fill="#111827">EGFR</text>
+    <g fill="#111827" text-anchor="middle">
+      <text x="191" y="163">120</text><text x="273" y="163">135</text><text x="355" y="163">210</text><text x="437" y="163">198</text>
+      <text x="191" y="195">80</text><text x="273" y="195">74</text><text x="355" y="195">60</text><text x="437" y="195">66</text>
+      <text x="191" y="227">5200</text><text x="273" y="227">4980</text><text x="355" y="227">5400</text><text x="437" y="227">5150</text>
+      <text x="191" y="259">4800</text><text x="273" y="259">5100</text><text x="355" y="259">4900</text><text x="437" y="259">5250</text>
+      <text x="191" y="291">300</text><text x="273" y="291">280</text>
+      <text x="355" y="291" fill="#15803d" font-weight="bold">950</text>
+      <text x="437" y="291">1010</text>
+      <text x="191" y="323">64</text><text x="273" y="323">58</text><text x="355" y="323">61</text><text x="437" y="323">70</text>
+    </g>
+  </g>
+  <g stroke="#e5e7eb" stroke-width="1.2">
+    <line x1="60" y1="174" x2="478" y2="174"/><line x1="60" y1="206" x2="478" y2="206"/>
+    <line x1="60" y1="238" x2="478" y2="238"/><line x1="60" y1="270" x2="478" y2="270"/>
+    <line x1="60" y1="302" x2="478" y2="302"/><line x1="60" y1="334" x2="478" y2="334"/>
+    <line x1="150" y1="110" x2="150" y2="334"/><line x1="232" y1="110" x2="232" y2="334"/>
+    <line x1="314" y1="110" x2="314" y2="334"/><line x1="396" y1="110" x2="396" y2="334"/>
+    <line x1="60" y1="110" x2="60" y2="334"/><line x1="478" y1="110" x2="478" y2="334"/>
+  </g>
+  <rect x="314" y="270" width="82" height="32" fill="none" stroke="#16A34A" stroke-width="2.5"/>
+
+  <!-- RIGHT: iloc -->
+  <text x="540" y="92" font-size="15" font-weight="bold" fill="#15803d">iloc — по позициям</text>
+  <rect x="540" y="110" width="410" height="32" rx="4" fill="#111827"/>
+  <text x="565" y="131" text-anchor="middle" font-size="12" fill="#9ca3af">#</text>
+  <text x="635" y="131" text-anchor="middle" font-size="12" fill="#e5e7eb">0</text>
+  <text x="725" y="131" text-anchor="middle" font-size="12" fill="#e5e7eb">1</text>
+  <text x="815" y="131" text-anchor="middle" font-size="12" fill="#86efac" font-weight="bold">2</text>
+  <text x="905" y="131" text-anchor="middle" font-size="12" fill="#e5e7eb">3</text>
+
+  <g font-size="12.5">
+    <rect x="540" y="142" width="410" height="32" fill="#f9fafb"/>
+    <rect x="540" y="174" width="410" height="32" fill="#ffffff"/>
+    <rect x="540" y="206" width="410" height="32" fill="#f9fafb"/>
+    <rect x="540" y="238" width="410" height="32" fill="#ffffff"/>
+    <rect x="540" y="270" width="410" height="32" fill="#f0fdf4"/>
+    <rect x="540" y="302" width="410" height="32" fill="#ffffff"/>
+    <g fill="#6b7280" text-anchor="middle">
+      <text x="565" y="163">0</text><text x="565" y="195">1</text><text x="565" y="227">2</text>
+      <text x="565" y="259">3</text><text x="565" y="291" fill="#15803d" font-weight="bold">4</text><text x="565" y="323">5</text>
+    </g>
+    <g fill="#111827" text-anchor="middle">
+      <text x="635" y="163">120</text><text x="725" y="163">135</text><text x="815" y="163">210</text><text x="905" y="163">198</text>
+      <text x="635" y="195">80</text><text x="725" y="195">74</text><text x="815" y="195">60</text><text x="905" y="195">66</text>
+      <text x="635" y="227">5200</text><text x="725" y="227">4980</text><text x="815" y="227">5400</text><text x="905" y="227">5150</text>
+      <text x="635" y="259">4800</text><text x="725" y="259">5100</text><text x="815" y="259">4900</text><text x="905" y="259">5250</text>
+      <text x="635" y="291">300</text><text x="725" y="291">280</text>
+      <text x="815" y="291" fill="#15803d" font-weight="bold">950</text>
+      <text x="905" y="291">1010</text>
+      <text x="635" y="323">64</text><text x="725" y="323">58</text><text x="815" y="323">61</text><text x="905" y="323">70</text>
+    </g>
+  </g>
+  <g stroke="#e5e7eb" stroke-width="1.2">
+    <line x1="540" y1="174" x2="950" y2="174"/><line x1="540" y1="206" x2="950" y2="206"/>
+    <line x1="540" y1="238" x2="950" y2="238"/><line x1="540" y1="270" x2="950" y2="270"/>
+    <line x1="540" y1="302" x2="950" y2="302"/><line x1="540" y1="334" x2="950" y2="334"/>
+    <line x1="590" y1="110" x2="590" y2="334"/><line x1="680" y1="110" x2="680" y2="334"/>
+    <line x1="770" y1="110" x2="770" y2="334"/><line x1="860" y1="110" x2="860" y2="334"/>
+    <line x1="540" y1="110" x2="540" y2="334"/><line x1="950" y1="110" x2="950" y2="334"/>
+  </g>
+  <rect x="770" y="270" width="90" height="32" fill="none" stroke="#16A34A" stroke-width="2.5"/>
+
+  <rect x="40" y="356" width="920" height="120" rx="12" fill="#111827"/>
+  <text x="62" y="386" font-size="14" fill="#86efac" font-family="Consolas, monospace">df.loc["MYC", "treat_1"]</text>
+  <text x="330" y="386" font-size="14" fill="#e5e7eb" font-family="Consolas, monospace">→ 950</text>
+  <text x="410" y="386" font-size="13" fill="#9ca3af">имена строки и столбца</text>
+  <text x="62" y="416" font-size="14" fill="#86efac" font-family="Consolas, monospace">df.iloc[4, 2]</text>
+  <text x="330" y="416" font-size="14" fill="#e5e7eb" font-family="Consolas, monospace">→ 950</text>
+  <text x="410" y="416" font-size="13" fill="#9ca3af">номера: пятая строка, третий столбец</text>
+  <text x="62" y="450" font-size="12.5" fill="#fca5a5">⚠ в срезах loc берёт правый конец включительно, iloc — не включает; нумерация начинается с нуля</text>
+</svg>

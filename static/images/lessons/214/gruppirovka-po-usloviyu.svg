@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="450" viewBox="0 0 1000 450" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="450" fill="#ffffff"/>
+  <text x="500" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">groupby: как перейти от образцов к условиям</text>
+  <text x="500" y="56" text-anchor="middle" font-size="13" fill="#6b7280">pandas группирует строки, поэтому таблицу сначала переворачивают</text>
+
+  <!-- A -->
+  <rect x="20" y="76" width="282" height="252" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="36" y="102" font-size="14" font-weight="bold" fill="#111827">1. Было</text>
+  <text x="36" y="122" font-size="11.5" fill="#6b7280">гены в строках, образцы в столбцах</text>
+
+  <rect x="36" y="136" width="252" height="26" rx="4" fill="#111827"/>
+  <text x="42" y="154" font-size="10.5" fill="#e5e7eb">ген</text>
+  <text x="106" y="154" text-anchor="middle" font-size="10" fill="#e5e7eb">ctrl_1</text>
+  <text x="161" y="154" text-anchor="middle" font-size="10" fill="#e5e7eb">ctrl_2</text>
+  <text x="216" y="154" text-anchor="middle" font-size="10" fill="#e5e7eb">treat_1</text>
+  <text x="271" y="154" text-anchor="middle" font-size="10" fill="#e5e7eb">treat_2</text>
+  <g font-size="10.5">
+    <rect x="36" y="162" width="252" height="28" fill="#f9fafb"/>
+    <rect x="36" y="190" width="252" height="28" fill="#ffffff"/>
+    <rect x="36" y="218" width="252" height="28" fill="#f9fafb"/>
+    <text x="42" y="181" fill="#111827">TP53</text>
+    <text x="42" y="209" fill="#111827">MYC</text>
+    <text x="42" y="237" fill="#111827">GAPDH</text>
+    <g fill="#111827" text-anchor="middle">
+      <text x="106" y="181">120</text><text x="161" y="181">135</text><text x="216" y="181">210</text><text x="271" y="181">198</text>
+      <text x="106" y="209">300</text><text x="161" y="209">280</text><text x="216" y="209">950</text><text x="271" y="209">1010</text>
+      <text x="106" y="237">5200</text><text x="161" y="237">4980</text><text x="216" y="237">5400</text><text x="271" y="237">5150</text>
+    </g>
+  </g>
+  <g stroke="#e5e7eb" stroke-width="1.2">
+    <line x1="78" y1="136" x2="78" y2="246"/><line x1="133" y1="136" x2="133" y2="246"/>
+    <line x1="188" y1="136" x2="188" y2="246"/><line x1="243" y1="136" x2="243" y2="246"/>
+    <line x1="36" y1="190" x2="288" y2="190"/><line x1="36" y1="218" x2="288" y2="218"/>
+    <line x1="36" y1="246" x2="288" y2="246"/>
+  </g>
+  <text x="36" y="274" font-size="11.5" fill="#6b7280">Строка = ген. Группировать по условию</text>
+  <text x="36" y="292" font-size="11.5" fill="#6b7280">нечего: условие записано в именах</text>
+  <text x="36" y="310" font-size="11.5" fill="#6b7280">столбцов, а не в отдельном столбце.</text>
+
+  <!-- arrow -->
+  <line x1="306" y1="200" x2="326" y2="200" stroke="#16A34A" stroke-width="2.5"/>
+  <polygon points="326,194 336,200 326,206" fill="#16A34A"/>
+  <text x="321" y="188" text-anchor="middle" font-size="10.5" fill="#15803d">df.T</text>
+
+  <!-- B -->
+  <rect x="340" y="76" width="360" height="252" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="356" y="102" font-size="14" font-weight="bold" fill="#111827">2. Перевернули и добавили условие</text>
+  <text x="356" y="122" font-size="11.5" fill="#6b7280">теперь образцы — строки</text>
+
+  <rect x="356" y="136" width="328" height="26" rx="4" fill="#111827"/>
+  <text x="362" y="154" font-size="10.5" fill="#e5e7eb">образец</text>
+  <text x="452" y="154" text-anchor="middle" font-size="10.5" fill="#e5e7eb">TP53</text>
+  <text x="506" y="154" text-anchor="middle" font-size="10.5" fill="#e5e7eb">MYC</text>
+  <text x="560" y="154" text-anchor="middle" font-size="10.5" fill="#e5e7eb">GAPDH</text>
+  <text x="628" y="154" text-anchor="middle" font-size="10" fill="#86efac" font-weight="bold">condition</text>
+  <g font-size="10.5">
+    <rect x="356" y="162" width="328" height="28" fill="#f9fafb"/>
+    <rect x="356" y="190" width="328" height="28" fill="#ffffff"/>
+    <rect x="356" y="218" width="328" height="28" fill="#f0fdf4"/>
+    <rect x="356" y="246" width="328" height="28" fill="#f0fdf4"/>
+    <text x="362" y="181" fill="#111827">ctrl_1</text>
+    <text x="362" y="209" fill="#111827">ctrl_2</text>
+    <text x="362" y="237" fill="#111827">treat_1</text>
+    <text x="362" y="265" fill="#111827">treat_2</text>
+    <g fill="#111827" text-anchor="middle">
+      <text x="452" y="181">120</text><text x="506" y="181">300</text><text x="560" y="181">5200</text>
+      <text x="452" y="209">135</text><text x="506" y="209">280</text><text x="560" y="209">4980</text>
+      <text x="452" y="237">210</text><text x="506" y="237">950</text><text x="560" y="237">5400</text>
+      <text x="452" y="265">198</text><text x="506" y="265">1010</text><text x="560" y="265">5150</text>
+    </g>
+    <g fill="#15803d" text-anchor="middle" font-size="10">
+      <text x="628" y="181">control</text><text x="628" y="209">control</text>
+      <text x="628" y="237">treatment</text><text x="628" y="265">treatment</text>
+    </g>
+  </g>
+  <g stroke="#e5e7eb" stroke-width="1.2">
+    <line x1="420" y1="136" x2="420" y2="274"/><line x1="479" y1="136" x2="479" y2="274"/>
+    <line x1="533" y1="136" x2="533" y2="274"/><line x1="587" y1="136" x2="587" y2="274"/>
+    <line x1="356" y1="190" x2="684" y2="190"/><line x1="356" y1="218" x2="684" y2="218"/>
+    <line x1="356" y1="246" x2="684" y2="246"/><line x1="356" y1="274" x2="684" y2="274"/>
+  </g>
+  <text x="356" y="296" font-size="11.5" fill="#6b7280">t["condition"] = ["control", "control",</text>
+  <text x="356" y="314" font-size="11.5" fill="#6b7280">                  "treatment", "treatment"]</text>
+
+  <!-- arrow -->
+  <line x1="702" y1="200" x2="722" y2="200" stroke="#16A34A" stroke-width="2.5"/>
+  <polygon points="722,194 732,200 722,206" fill="#16A34A"/>
+  <text x="716" y="188" text-anchor="middle" font-size="10" fill="#15803d">groupby</text>
+
+  <!-- C -->
+  <rect x="736" y="76" width="244" height="252" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="752" y="102" font-size="14" font-weight="bold" fill="#111827">3. Средние</text>
+  <text x="752" y="122" font-size="11.5" fill="#6b7280">две строки вместо четырёх</text>
+
+  <rect x="752" y="136" width="212" height="26" rx="4" fill="#111827"/>
+  <text x="758" y="154" font-size="10" fill="#e5e7eb">условие</text>
+  <text x="820" y="154" text-anchor="middle" font-size="10" fill="#e5e7eb">TP53</text>
+  <text x="874" y="154" text-anchor="middle" font-size="10" fill="#e5e7eb">MYC</text>
+  <text x="928" y="154" text-anchor="middle" font-size="10" fill="#e5e7eb">GAPDH</text>
+  <g font-size="10">
+    <rect x="752" y="162" width="212" height="28" fill="#f9fafb"/>
+    <rect x="752" y="190" width="212" height="28" fill="#ffffff"/>
+    <text x="758" y="181" fill="#111827">control</text>
+    <text x="758" y="209" fill="#111827">treatment</text>
+    <g fill="#111827" text-anchor="middle">
+      <text x="820" y="181">127.5</text><text x="874" y="181">290</text><text x="928" y="181">5090</text>
+      <text x="820" y="209">204</text><text x="874" y="209">980</text><text x="928" y="209">5275</text>
+    </g>
+  </g>
+  <g stroke="#e5e7eb" stroke-width="1.2">
+    <line x1="794" y1="136" x2="794" y2="218"/><line x1="847" y1="136" x2="847" y2="218"/>
+    <line x1="901" y1="136" x2="901" y2="218"/>
+    <line x1="752" y1="190" x2="964" y2="190"/><line x1="752" y1="218" x2="964" y2="218"/>
+  </g>
+  <text x="752" y="244" font-size="11" fill="#15803d">MYC: 980 / 290 = 3,38</text>
+  <text x="752" y="262" font-size="11" fill="#6b7280">— это и есть fold change,</text>
+  <text x="752" y="280" font-size="11" fill="#6b7280">log2(3,38) = 1,76</text>
+  <text x="752" y="306" font-size="11" fill="#6b7280">.T возвращает гены</text>
+  <text x="752" y="322" font-size="11" fill="#6b7280">на место строк</text>
+
+  <rect x="20" y="348" width="960" height="74" rx="12" fill="#111827"/>
+  <text x="40" y="376" font-size="13.5" fill="#86efac" font-family="Consolas, monospace">means = t.groupby("condition").mean().T</text>
+  <text x="40" y="404" font-size="12.5" fill="#e5e7eb">groupby собирает строки в группы по значению столбца и считает по ним статистику. Ось в pandas 3.x указать нельзя — только строки.</text>
+</svg>
